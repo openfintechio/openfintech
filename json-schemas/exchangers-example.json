@@ -1,0 +1,22 @@
+{
+  "obmennik.ru": {
+    "code": "obmennik.ru",
+    "vendor": "obmennik.ru",
+    "name": {
+      "en": "Obmennik.ru"
+    },
+    "status": "active",
+    "website": "http://obmennik.ru/",
+    "features": [
+      "auto_exchange"
+    ],
+    "exchange_rates": {
+      "url": "http://obmennik.ru/estandardxml/?pid=179",
+      "standard": "estandards",
+      "format": "json"
+    },
+    "metadata": {
+      "wmid": "113848432416"
+    }
+  }
+}
