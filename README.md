@@ -1,5 +1,11 @@
 # OpenFinTech.io
 
+# Introduction
+
+# UML
+
+![Class Diagram](uml-class-diagram.png?raw=true "Domain Model")
+
 # Links
 
 Mobile Country Codes (MCC) and Mobile Network Codes (MNC) table in CSV, JSON and XML. Updated daily.
