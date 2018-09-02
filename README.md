@@ -35,6 +35,32 @@ OpenFinTech catalog includes Data and __Unified Identification Codes__ of the Fi
 
 It also includes different resources like entity logos and icons.
 
+## Agreement
+
+- Identification code (natural key) MUST be 
+    - Unique in data collection
+    - Not less than 3 symbols and 
+    - Consist of: 
+        - Characters a to z
+        - Digits 0 through 9
+        - Hyphen (-), Dot (.), Underscore (_), But cannot start nor end with them
+    - Good example: "paypal", "walletone", "webmoney-transfer", "ingbank.pl"
+    - Bad example: "pay_pal", "w1", "wm_trn", "ingbpl"
+- Resources COULD contains such files as:
+    - Icon
+        - Filename: icon.[png|svg]
+        - Format: Only PNG or SVG (is more preferable).
+        - Shape: Icons are made to fit in squares (‘quadratic’), while logos do not have shape restrictions.
+        - Size: Icons are usually in 16x16 (favicon) or 512x512 (large size is more preferable).
+    - Logo
+        - Filename: logo.[png|svg]
+        - Format: Only PNG or SVG (is more preferable).
+        - Shape: Logos on the other hand are vector based, and can be scaled into any size without losing quality since they also need to be used in different materials related to the organization it represents such as brochures, business cards, website, banner, signage etc.
+        - Size: Min width is 200 px. Max width is 2000 px. Large size is more preferable.
+- _Translatable_ values MUST be:
+    - Format: key-value array, where key is 2-char ISO language code (example: "en", "ge", "uk"). 
+    - Example: "name": {"en": "Yandex.Money", "ru": "Яндрекс.Деньги"}  
+        
 ## Community
 
 Feel free to contribute new FinTech entities and data.

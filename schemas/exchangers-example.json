@@ -10,7 +10,7 @@
     "features": [
       "auto_exchange"
     ],
-    "exchange_rates": {
+    "rates": {
       "url": "http://obmennik.ru/estandardxml/?pid=179",
       "standard": "estandards",
       "format": "json"
