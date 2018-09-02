@@ -101,3 +101,7 @@ List of all countries with names and ISO 3166-1 codes in all languages and all d
 https://www.jsonschemavalidator.net/
 
 https://www.jsonschema.net/
+
+https://stedolan.github.io/jq/
+
+https://jqplay.org/
