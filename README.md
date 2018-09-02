@@ -35,6 +35,10 @@ OpenFinTech catalog includes Data and __Unified Identification Codes__ of the Fi
 
 It also includes different resources like entity logos and icons.
 
+## UML
+
+![Class Diagram](uml-class-diagram.png?raw=true "Domain Model")
+
 ## Agreement
 
 - Identification code (natural key) MUST be 
@@ -72,10 +76,6 @@ Contact us: [info@openfintech.io](mailto:info@openfintech.io)
 _"Fintech international standards are only on the stage of development. That's why we created OpenFinTech.io and made it accessible to the entire community!"_, Founder [PayCore.io](https://paycore.io/), [Denys Kyrychenko](https://www.facebook.com/denkiri).
 
 _"With a constant increase in the number of services, communication between them becomes more and more complicated. OpenFinTech.io - is just-in-time and what we need!"_, Founder [SDK.Finance](https://sdk.finance/), [Pavlo Sidelev](https://www.facebook.com/pavlo.sidelov).                     
-
-# UML
-
-![Class Diagram](uml-class-diagram.png?raw=true "Domain Model")
 
 # Links
 
