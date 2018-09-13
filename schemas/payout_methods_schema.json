@@ -1,9 +1,31 @@
 {
-  "definitions": {},
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
+  "definitions": {
+    "translate": {
+      "type": "array",
+      "title": "The Name Schema",
+      "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "code",
+          "text"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "The Code Schema",
+            "pattern": "^[a-z][a-z]$"
+          },
+          "text": {
+            "type": "string",
+            "title": "The Text Schema"
+          }
+        }
+      }
+    }
+  },
   "type": "array",
-  "title": "The Root Schema",
+  "title": "The Payout Methods Schema",
   "items": {
     "$id": "#/items",
     "type": "object",
@@ -31,68 +53,8 @@
           "webmoney"
         ]
       },
-      "name": {
-        "$id": "#/items/properties/name",
-        "type": "object",
-        "title": "The Name Schema",
-        "properties": {
-          "en": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The En Schema",
-            "examples": [
-              "PAT Kirovogradoblenergo Ustinivskiy REM"
-            ]
-          },
-          "ru": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The Ru Schema",
-            "examples": [
-              "PAT Kirovogradoblenergo Ustinivskiy REM"
-            ]
-          },
-          "ua": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The Ua Schema",
-            "examples": [
-              "PAT Kirovogradoblenergo Ustinivskiy REM"
-            ]
-          }
-        }
-      },
-      "description": {
-        "$id": "#/items/properties/description",
-        "type": "object",
-        "title": "The Description Schema",
-        "properties": {
-          "en": {
-            "$id": "#/items/properties/description/properties/en",
-            "type": "string",
-            "title": "The En Schema",
-            "examples": [
-              "Paymer Check"
-            ]
-          },
-          "ru": {
-            "$id": "#/items/properties/description/properties/ru",
-            "type": "string",
-            "title": "The Ru Schema",
-            "examples": [
-              "Чек Paymer"
-            ]
-          },
-          "ua": {
-            "$id": "#/items/properties/description/properties/ua",
-            "type": "string",
-            "title": "The Ua Schema",
-            "examples": [
-              "Чек Paymer"
-            ]
-          }
-        }
-      },
+      "name": { "$ref": "#/definitions/translate" },
+      "description": { "$ref": "#/definitions/translate" },
       "category": {
         "$id": "#/items/properties/category",
         "type": "string",

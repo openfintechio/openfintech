@@ -1,9 +1,31 @@
 {
-  "definitions": {},
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
+  "definitions": {
+    "translate": {
+      "type": "array",
+      "title": "The Name Schema",
+      "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "code",
+          "text"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "The Code Schema",
+            "pattern": "^[a-z][a-z]$"
+          },
+          "text": {
+            "type": "string",
+            "title": "The Text Schema"
+          }
+        }
+      }
+    }
+  },
   "type": "array",
-  "title": "The Root Schema",
+  "title": "The Currency Schema",
   "items": {
     "$id": "#/items",
     "type": "object",
@@ -26,37 +48,7 @@
         ],
         "pattern": "^([A-Z0-9]+)([A-Z0-9-_\\.]+)([A-Z0-9]+)$"
       },
-      "name": {
-        "$id": "#/items/properties/name",
-        "type": "object",
-        "title": "The Name Schema",
-        "properties": {
-          "en": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The En Schema",
-            "examples": [
-              "Iraqi Dinar"
-            ]
-          },
-          "ru": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The Ru Schema",
-            "examples": [
-              "Iraqi Dinar"
-            ]
-          },
-          "ua": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The Ua Schema",
-            "examples": [
-              "Iraqi Dinar"
-            ]
-          }
-        }
-      },
+      "name": { "$ref": "#/definitions/translate" },
       "type": {
         "$id": "#/items/properties/type",
         "type": "string",

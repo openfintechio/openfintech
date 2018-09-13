@@ -1,9 +1,31 @@
 {
-  "definitions": {},
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
+  "definitions": {
+    "translate": {
+      "type": "array",
+      "title": "The Name Schema",
+      "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "code",
+          "text"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "The Code Schema",
+            "pattern": "^[a-z][a-z]$"
+          },
+          "text": {
+            "type": "string",
+            "title": "The Text Schema"
+          }
+        }
+      }
+    }
+  },
   "type": "array",
-  "title": "The Root Schema",
+  "title": "The Vendors Schema",
   "items": {
     "$id": "#/items",
     "type": "object",
@@ -23,68 +45,8 @@
         ],
         "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
       },
-      "name": {
-        "$id": "#/items/properties/name",
-        "type": "object",
-        "title": "The Name Schema",
-        "properties": {
-          "en": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The En Schema",
-            "examples": [
-              "Dwolla"
-            ]
-          },
-          "ru": {
-            "$id": "#/items/properties/name/properties/ru",
-            "type": "string",
-            "title": "The Ru Schema",
-            "examples": [
-              "Dwolla"
-            ]
-          },
-          "uk": {
-            "$id": "#/items/properties/name/properties/uk",
-            "type": "string",
-            "title": "The Uk Schema",
-            "examples": [
-              "Dwolla"
-            ]
-          }
-        }
-      },
-      "description": {
-        "$id": "#/items/properties/description",
-        "type": "object",
-        "title": "The Description Schema",
-        "properties": {
-          "en": {
-            "$id": "#/items/properties/description/properties/en",
-            "type": "string",
-            "title": "The En Schema",
-            "examples": [
-              " Special Provider Features Below you can find the special product and service features of this payment provider. Take this into account when choosing the payment provider to process your online payments. There is more to just payment processing and pricing. "
-            ]
-          },
-          "ru": {
-            "$id": "#/items/properties/description/properties/ru",
-            "type": "string",
-            "title": "The Ru Schema",
-            "examples": [
-              " Special Provider Features Below you can find the special product and service features of this payment provider. Take this into account when choosing the payment provider to process your online payments. There is more to just payment processing and pricing. "
-            ]
-          },
-          "uk": {
-            "$id": "#/items/properties/description/properties/uk",
-            "type": "string",
-            "title": "The Uk Schema",
-            "examples": [
-              " Special Provider Features Below you can find the special product and service features of this payment provider. Take this into account when choosing the payment provider to process your online payments. There is more to just payment processing and pricing. "
-            ]
-          }
-        }
-      },
+      "name": { "$ref": "#/definitions/translate" },
+      "description": { "$ref": "#/definitions/translate" },
       "status": {
         "$id": "#/items/properties/status",
         "type": "string",

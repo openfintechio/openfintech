@@ -1,9 +1,31 @@
 {
-  "definitions": {},
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
+  "definitions": {
+    "translate": {
+      "type": "array",
+      "title": "The Name Schema",
+      "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "code",
+          "text"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "The Code Schema",
+            "pattern": "^[a-z][a-z]$"
+          },
+          "text": {
+            "type": "string",
+            "title": "The Text Schema"
+          }
+        }
+      }
+    }
+  },
   "type": "array",
-  "title": "The Root Schema",
+  "title": "The Providers Schema",
   "items": {
     "$id": "#/items",
     "type": "object",
@@ -33,74 +55,8 @@
           "digitalriverworldpayments"
         ]
       },
-      "name": {
-        "$id": "#/items/properties/name",
-        "type": "object",
-        "title": "The Name Schema",
-        "properties": {
-          "en": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The En Schema",
-            "default": "",
-            "examples": [
-              "Digital River World Payments"
-            ]
-          },
-          "ru": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The Ru Schema",
-            "default": "",
-            "examples": [
-              "Digital River World Payments"
-            ]
-          },
-          "ua": {
-            "$id": "#/items/properties/name/properties/en",
-            "type": "string",
-            "title": "The Ua Schema",
-            "default": "",
-            "examples": [
-              "Digital River World Payments"
-            ]
-          }
-        }
-      },
-      "description": {
-        "$id": "#/items/properties/description",
-        "type": "object",
-        "title": "The Description Schema",
-        "properties": {
-          "ru": {
-            "$id": "#/items/properties/description/properties/ru",
-            "type": "string",
-            "title": "The Ru Schema",
-            "default": "",
-            "examples": [
-              "«Interkassa» – это система, позволяющая онлайн-магазинам, сайтам и другим торговым площадкам принимать все возможные формы оплаты в максимально сжатые сроки. Мы предлагаем клиентам более 50 платежных инструментов и работаем в 5 валютных зонах: гривна, рубль, доллар, евро и лари.  Запустившись в 2009 году, сегодня «Interkassa» сотрудничает с более 10.000 компаний в СНГ и Европе. Кроме того, мы являемся партнером 10 ведущих провайдеров электронной коммерции и представляем самые распространенные европейские платежные системы.  Обеспечивая современные платежные решения всех направлений и полную поддержку клиентов, «Interkassa» каждый день работает над развитием и усовершенствованием электронной коммерции, делая ее еще удобнее и безопаснее."
-            ]
-          },
-          "en": {
-            "$id": "#/items/properties/description/properties/ru",
-            "type": "string",
-            "title": "The En Schema",
-            "default": "",
-            "examples": [
-              "«Interkassa» – это система, позволяющая онлайн-магазинам, сайтам и другим торговым площадкам принимать все возможные формы оплаты в максимально сжатые сроки. Мы предлагаем клиентам более 50 платежных инструментов и работаем в 5 валютных зонах: гривна, рубль, доллар, евро и лари.  Запустившись в 2009 году, сегодня «Interkassa» сотрудничает с более 10.000 компаний в СНГ и Европе. Кроме того, мы являемся партнером 10 ведущих провайдеров электронной коммерции и представляем самые распространенные европейские платежные системы.  Обеспечивая современные платежные решения всех направлений и полную поддержку клиентов, «Interkassa» каждый день работает над развитием и усовершенствованием электронной коммерции, делая ее еще удобнее и безопаснее."
-            ]
-          },
-          "ua": {
-            "$id": "#/items/properties/description/properties/ru",
-            "type": "string",
-            "title": "The Ua Schema",
-            "default": "",
-            "examples": [
-              "«Interkassa» – это система, позволяющая онлайн-магазинам, сайтам и другим торговым площадкам принимать все возможные формы оплаты в максимально сжатые сроки. Мы предлагаем клиентам более 50 платежных инструментов и работаем в 5 валютных зонах: гривна, рубль, доллар, евро и лари.  Запустившись в 2009 году, сегодня «Interkassa» сотрудничает с более 10.000 компаний в СНГ и Европе. Кроме того, мы являемся партнером 10 ведущих провайдеров электронной коммерции и представляем самые распространенные европейские платежные системы.  Обеспечивая современные платежные решения всех направлений и полную поддержку клиентов, «Interkassa» каждый день работает над развитием и усовершенствованием электронной коммерции, делая ее еще удобнее и безопаснее."
-            ]
-          }
-        }
-      },
+      "name": { "$ref": "#/definitions/translate" },
+      "description": { "$ref": "#/definitions/translate" },
       "categories": {
         "$id": "#/items/properties/categories",
         "type": "array",
