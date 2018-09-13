@@ -1,0 +1,228 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "code",
+      "vendor",
+      "name"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/items/properties/code",
+        "type": "string",
+        "title": "The Code Schema",
+        "default": "",
+        "examples": [
+          "digitalriverworldpayments"
+        ],
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
+      },
+      "vendor": {
+        "$id": "#/items/properties/vendor",
+        "type": "string",
+        "title": "The Vendor Schema",
+        "default": "",
+        "examples": [
+          "digitalriverworldpayments"
+        ]
+      },
+      "name": {
+        "$id": "#/items/properties/name",
+        "type": "object",
+        "title": "The Name Schema",
+        "properties": {
+          "en": {
+            "$id": "#/items/properties/name/properties/en",
+            "type": "string",
+            "title": "The En Schema",
+            "default": "",
+            "examples": [
+              "Digital River World Payments"
+            ]
+          },
+          "ru": {
+            "$id": "#/items/properties/name/properties/en",
+            "type": "string",
+            "title": "The Ru Schema",
+            "default": "",
+            "examples": [
+              "Digital River World Payments"
+            ]
+          },
+          "ua": {
+            "$id": "#/items/properties/name/properties/en",
+            "type": "string",
+            "title": "The Ua Schema",
+            "default": "",
+            "examples": [
+              "Digital River World Payments"
+            ]
+          }
+        }
+      },
+      "description": {
+        "$id": "#/items/properties/description",
+        "type": "object",
+        "title": "The Description Schema",
+        "properties": {
+          "ru": {
+            "$id": "#/items/properties/description/properties/ru",
+            "type": "string",
+            "title": "The Ru Schema",
+            "default": "",
+            "examples": [
+              "«Interkassa» – это система, позволяющая онлайн-магазинам, сайтам и другим торговым площадкам принимать все возможные формы оплаты в максимально сжатые сроки. Мы предлагаем клиентам более 50 платежных инструментов и работаем в 5 валютных зонах: гривна, рубль, доллар, евро и лари.  Запустившись в 2009 году, сегодня «Interkassa» сотрудничает с более 10.000 компаний в СНГ и Европе. Кроме того, мы являемся партнером 10 ведущих провайдеров электронной коммерции и представляем самые распространенные европейские платежные системы.  Обеспечивая современные платежные решения всех направлений и полную поддержку клиентов, «Interkassa» каждый день работает над развитием и усовершенствованием электронной коммерции, делая ее еще удобнее и безопаснее."
+            ]
+          },
+          "en": {
+            "$id": "#/items/properties/description/properties/ru",
+            "type": "string",
+            "title": "The En Schema",
+            "default": "",
+            "examples": [
+              "«Interkassa» – это система, позволяющая онлайн-магазинам, сайтам и другим торговым площадкам принимать все возможные формы оплаты в максимально сжатые сроки. Мы предлагаем клиентам более 50 платежных инструментов и работаем в 5 валютных зонах: гривна, рубль, доллар, евро и лари.  Запустившись в 2009 году, сегодня «Interkassa» сотрудничает с более 10.000 компаний в СНГ и Европе. Кроме того, мы являемся партнером 10 ведущих провайдеров электронной коммерции и представляем самые распространенные европейские платежные системы.  Обеспечивая современные платежные решения всех направлений и полную поддержку клиентов, «Interkassa» каждый день работает над развитием и усовершенствованием электронной коммерции, делая ее еще удобнее и безопаснее."
+            ]
+          },
+          "ua": {
+            "$id": "#/items/properties/description/properties/ru",
+            "type": "string",
+            "title": "The Ua Schema",
+            "default": "",
+            "examples": [
+              "«Interkassa» – это система, позволяющая онлайн-магазинам, сайтам и другим торговым площадкам принимать все возможные формы оплаты в максимально сжатые сроки. Мы предлагаем клиентам более 50 платежных инструментов и работаем в 5 валютных зонах: гривна, рубль, доллар, евро и лари.  Запустившись в 2009 году, сегодня «Interkassa» сотрудничает с более 10.000 компаний в СНГ и Европе. Кроме того, мы являемся партнером 10 ведущих провайдеров электронной коммерции и представляем самые распространенные европейские платежные системы.  Обеспечивая современные платежные решения всех направлений и полную поддержку клиентов, «Interkassa» каждый день работает над развитием и усовершенствованием электронной коммерции, делая ее еще удобнее и безопаснее."
+            ]
+          }
+        }
+      },
+      "categories": {
+        "$id": "#/items/properties/categories",
+        "type": "array",
+        "title": "The Categories Schema",
+        "items": {
+          "$id": "#/items/properties/categories/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "acquiring",
+            "collecting",
+            "aggregating",
+            "distributing"
+          ]
+        }
+      },
+      "countries": {
+        "$id": "#/items/properties/countries",
+        "type": "array",
+        "title": "The Countries Schema",
+        "items": {
+          "$id": "#/items/properties/countries/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "ES"
+          ]
+        }
+      },
+      "features": {
+        "$id": "#/items/properties/features",
+        "type": "array",
+        "title": "The Features Schema",
+        "items": {
+          "$id": "#/items/properties/features/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            " American Express Safekey ",
+            " J-Secure by JCB ",
+            " Recurring ",
+            " Tokenization ",
+            " Hosted Payment Page ",
+            " Partial Captures ",
+            " [feature.pre-authorisation] ",
+            " AVS ",
+            " MasterCard SecureCode ",
+            " Multi-Currency ",
+            " Chargeback Management ",
+            " Refunds ",
+            " Verified by VISA ",
+            " Payment-Transfers ",
+            " Multi-Lingual ",
+            " Fraud Scrubbing ",
+            " Installments ",
+            " [feature.discover-protectbuy] "
+          ]
+        }
+      },
+      "payment_method": {
+        "$id": "#/items/properties/payment_method",
+        "type": "array",
+        "title": "The Payment_method Schema",
+        "items": {
+          "$id": "#/items/properties/payment_method/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "jcb",
+            "visa2",
+            "dinersclub",
+            "visaelectron",
+            "discover",
+            "visadebit",
+            "mastercard"
+          ]
+        }
+      },
+      "payout_method": {
+        "$id": "#/items/properties/payout_method",
+        "type": "array",
+        "title": "The Payout_method Schema",
+        "items": {
+          "$id": "#/items/properties/payout_method/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "bank_card"
+          ]
+        }
+      },
+      "metadata": {
+        "$id": "#/items/properties/metadata",
+        "type": "object",
+        "title": "The Metadata Schema",
+
+        "properties": {
+          "about_payments_code": {
+            "$id": "#/items/properties/metadata/properties/about_payments_code",
+            "type": "string",
+            "title": "The About_payments_code Schema",
+            "default": "",
+            "examples": [
+              "digitalriverworldpayments"
+            ]
+          },
+          "source_reg_org_id": {
+            "$id": "#/items/properties/metadata/properties/source_reg_org_id",
+            "type": "string",
+            "title": "The Source_reg_org_id Schema",
+            "default": "",
+            "examples": [
+              "org_0AlpSpOuYQdsdEjO"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

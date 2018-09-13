@@ -1,0 +1,5662 @@
+[
+  {
+    "code": "bpay",
+    "vendor": "bpay",
+    "name": {
+      "en": "BPAY"
+    },
+    "category": "alternative",
+    "countries": [
+      "AU"
+    ]
+  },
+  {
+    "code": "tescolotus",
+    "vendor": "tescolotus",
+    "name": {
+      "en": "Tesco Lotus"
+    },
+    "category": "alternative",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "octopuscardonlinepaymentservice",
+    "vendor": "octopuscardonlinepaymentservice",
+    "name": {
+      "en": "Octopus"
+    },
+    "category": "alternative",
+    "countries": [
+      "HK"
+    ]
+  },
+  {
+    "code": "bigconlinepayment",
+    "vendor": "bigconlinepayment",
+    "name": {
+      "en": "Big C"
+    },
+    "category": "alternative",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "bitcoins",
+    "vendor": "bitcoins",
+    "name": {
+      "en": "Bitcoin"
+    },
+    "category": "alternative",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BE",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IR",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NL",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE",
+      "ZW"
+    ]
+  },
+  {
+    "code": "litecoin",
+    "name": {
+      "en": "Litecoin"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ukrsibbank",
+    "name": {
+      "en": "Ukrsib Bank"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "qazkombank",
+    "name": {
+      "en": "Qazkom Bank"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "libertybank",
+    "name": {
+      "en": "Liberty Bank"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "promsvyazbank",
+    "name": {
+      "en": "Promsvyazbank"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "alfaclick",
+    "name": {
+      "en": "Alfa Click"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "ibox",
+    "name": {
+      "en": "Ibox"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "sepadirectdebit",
+    "vendor": "sepadirectdebit",
+    "name": {
+      "en": "SEPA Direct Debit"
+    },
+    "category": "direct_debits",
+    "countries": [
+      "AL",
+      "AD",
+      "AU",
+      "BY",
+      "BE",
+      "BA",
+      "BG",
+      "HR",
+      "CZ",
+      "DK",
+      "EE",
+      "FO",
+      "FJ",
+      "FR",
+      "DE",
+      "GI",
+      "GR",
+      "GG",
+      "HU",
+      "IS",
+      "IM",
+      "IT",
+      "JE",
+      "LV",
+      "LI",
+      "LT",
+      "LU",
+      "ML",
+      "MD",
+      "MC",
+      "ME",
+      "NL",
+      "NO",
+      "PT",
+      "RO",
+      "SM",
+      "RS",
+      "SK",
+      "ES",
+      "SJ",
+      "SE",
+      "CH"
+    ]
+  },
+  {
+    "code": "elektronischeslastschriftverfahren",
+    "vendor": "elektronischeslastschriftverfahren",
+    "name": {
+      "en": "ELV"
+    },
+    "category": "direct_debits",
+    "countries": [
+      "DE"
+    ]
+  },
+  {
+    "code": "ssk",
+    "name": {
+      "en": "Self service kiosk"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "euroset",
+    "name": {
+      "en": "Euroset"
+    },
+    "category": "mobile_payments"
+  },
+  {
+    "code": "bancoitau",
+    "vendor": "bancoitau",
+    "name": {
+      "en": "Banco Itaú"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "bradescocomercioeletronico",
+    "vendor": "bradescocomercioeletronico",
+    "name": {
+      "en": "Bradesco Comércio Eletrônico"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "enetsdirectdebit",
+    "vendor": "enetsdirectdebit",
+    "name": {
+      "en": "eNETS Direct Debit"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SG"
+    ]
+  },
+  {
+    "code": "rcbcoverthecounteronlinebankdeposit",
+    "vendor": "rcbcoverthecounteronlinebankdeposit",
+    "name": {
+      "en": "RCBC over-the-counter"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "PH"
+    ]
+  },
+  {
+    "code": "pravexbank",
+    "name": {
+      "en": "Pravex bank"
+    },
+    "category": "mobile_payments"
+  },
+  {
+    "code": "safetypay",
+    "vendor": "safetypay",
+    "name": {
+      "en": "SafetyPay"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "okpay",
+    "name": {
+      "en": "OKPay"
+    },
+    "category": "mobile_payments",
+    "countries": [
+      "RU"
+    ]
+  },
+  {
+    "code": "ethereum",
+    "name": {
+      "en": "Ethereum"
+    },
+    "category": "alternative",
+    "countries": [
+      "UA"
+    ]
+  },
+  {
+    "code": "tele2ru",
+    "name": {
+      "en": "Tele2"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "otpbank",
+    "vendor": "otpbank",
+    "name": {
+      "en": "OTP Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SK"
+    ]
+  },
+  {
+    "code": "euteller",
+    "vendor": "euteller",
+    "name": {
+      "en": "Euteller",
+      "uk": "ваіафіафіаіф"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "poppankki",
+    "vendor": "poppankki",
+    "name": {
+      "en": "POP Pankki"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "komercnibanka",
+    "vendor": "komercnibanka",
+    "name": {
+      "en": "Komercni Banka"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CZ"
+    ]
+  },
+  {
+    "code": "krungthaibanknetbanking",
+    "vendor": "krungthaibanknetbanking",
+    "name": {
+      "en": "Krungthai Bank netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "scbbanknetbanking",
+    "vendor": "scbbanknetbanking",
+    "name": {
+      "en": "SCB netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "krungsrinetbanking",
+    "vendor": "krungsrinetbanking",
+    "name": {
+      "en": "Krungsri netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "bancopastor",
+    "vendor": "bancopastor",
+    "name": {
+      "en": "Banco Pastor"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ES"
+    ]
+  },
+  {
+    "code": "jyskebank",
+    "vendor": "jyskebank",
+    "name": {
+      "en": "Jyske Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "DK"
+    ]
+  },
+  {
+    "code": "vubbanka",
+    "vendor": "vubbanka",
+    "name": {
+      "en": "VÚB Banka"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SK"
+    ]
+  },
+  {
+    "code": "alandsbanken",
+    "vendor": "alandsbanken",
+    "name": {
+      "en": "Älandsbanken"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "ingspain",
+    "vendor": "ingspain",
+    "name": {
+      "en": "ING Bank | Spain"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX",
+      "ES"
+    ]
+  },
+  {
+    "code": "unicredit",
+    "vendor": "unicredit",
+    "name": {
+      "en": "UniCredit"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "BG",
+      "HR",
+      "CZ",
+      "RO",
+      "SK"
+    ]
+  },
+  {
+    "code": "ideal",
+    "vendor": "ideal",
+    "name": {
+      "en": "iDEAL"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "NL"
+    ]
+  },
+  {
+    "code": "kasikornbankkbanknetbanking",
+    "vendor": "kasikornbankkbanknetbanking",
+    "name": {
+      "en": "Kbank netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "icicinetbanking",
+    "vendor": "icicinetbanking",
+    "name": {
+      "en": "ICICI netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "IN"
+    ]
+  },
+  {
+    "code": "volksbank",
+    "vendor": "volksbank",
+    "name": {
+      "en": "Volksbank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CZ",
+      "SK"
+    ]
+  },
+  {
+    "code": "moneymail",
+    "vendor": "moneymail",
+    "name": {
+      "en": "MoneyMail"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "lacaixa",
+    "vendor": "lacaixa",
+    "name": {
+      "en": "La Caixa"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ES"
+    ]
+  },
+  {
+    "code": "gemoney",
+    "vendor": "gemoney",
+    "name": {
+      "en": "GE Money"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CZ"
+    ]
+  },
+  {
+    "code": "spankki",
+    "vendor": "spankki",
+    "name": {
+      "en": "S-Pankki"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "mbank",
+    "vendor": "mbank",
+    "name": {
+      "en": "mBank (mTransfer)"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX",
+      "SK"
+    ]
+  },
+  {
+    "code": "provinciapagos",
+    "vendor": "provinciapagos",
+    "name": {
+      "en": "ProvinciaPagos"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AR"
+    ]
+  },
+  {
+    "code": "trustly",
+    "vendor": "trustly",
+    "name": {
+      "en": "Trustly"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FJ",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IS",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "ML",
+      "NL",
+      "NO",
+      "AX",
+      "PT",
+      "RO",
+      "SK",
+      "ES",
+      "SE",
+      "AE"
+    ]
+  },
+  {
+    "code": "hdfcbanknetbankingindia",
+    "vendor": "hdfcbanknetbankingindia",
+    "name": {
+      "en": "HDFC Bank Netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "IN"
+    ]
+  },
+  {
+    "code": "sepacredittransfer",
+    "vendor": "sepacredittransfer",
+    "name": {
+      "en": "SEPA Credit Transfer"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX",
+      "AL",
+      "AD",
+      "AU",
+      "BE",
+      "BA",
+      "BG",
+      "HR",
+      "CZ",
+      "EE",
+      "FO",
+      "FJ",
+      "FR",
+      "DE",
+      "GI",
+      "GR",
+      "GG",
+      "HU",
+      "IS",
+      "IM",
+      "IT",
+      "JE",
+      "LV",
+      "LI",
+      "LT",
+      "LU",
+      "ML",
+      "MD",
+      "MC",
+      "ME",
+      "NL",
+      "NO",
+      "PT",
+      "RO",
+      "SM",
+      "RS",
+      "SK",
+      "ES",
+      "SJ",
+      "SE"
+    ]
+  },
+  {
+    "code": "wiretransfer",
+    "vendor": "wiretransfer",
+    "name": {
+      "en": "Wire Transfer"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "IR",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE"
+    ]
+  },
+  {
+    "code": "inghomepay",
+    "vendor": "inghomepay",
+    "name": {
+      "en": "Home'Pay"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "BE"
+    ]
+  },
+  {
+    "code": "citadelelatvia",
+    "vendor": "citadelelatvia",
+    "name": {
+      "en": "Citadele Latvia"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "erstebank",
+    "vendor": "erstebank",
+    "name": {
+      "en": "Erste Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "HR",
+      "HU",
+      "SK"
+    ]
+  },
+  {
+    "code": "inteligo",
+    "vendor": "inteligo",
+    "name": {
+      "en": "Inteligo"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX"
+    ]
+  },
+  {
+    "code": "nsmep",
+    "name": {
+      "en": "Prostir"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "advcash",
+    "name": {
+      "en": "ADVcash"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ssk_ua",
+    "name": {
+      "en": "Self service kiosk Ukraine"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "paymer",
+    "vendor": "webmoney",
+    "name": {
+      "en": "Paymer check"
+    },
+    "description": {
+      "en": "Paymer Check",
+      "ru": "Чек Paymer"
+    },
+    "category": "alternative",
+    "countries": [
+      "UA"
+    ]
+  },
+  {
+    "code": "cifrograd",
+    "name": {
+      "en": "Cifrograd"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "kviku",
+    "name": {
+      "en": "Kviku"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "exmo",
+    "name": {
+      "en": "Exmo"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ssk_tj",
+    "name": {
+      "en": "Self service kiosk Tajikistan"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ssk_za",
+    "name": {
+      "en": "Self service kiosk South Africa"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ssk_by",
+    "name": {
+      "en": "Self service kiosk Belarus"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ssk_ru",
+    "name": {
+      "en": "Self service kiosk Russia"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ssk_md",
+    "name": {
+      "en": "Self service kiosk Moldova"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ssk_ge",
+    "name": {
+      "en": "Self service kiosk Georgia"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ssk_kz",
+    "name": {
+      "en": "Self service kiosk Kazakhstan"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "coingate",
+    "name": {
+      "en": "CoinGate"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "perfectmoney",
+    "name": {
+      "en": "Perfect Money"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "wmcard",
+    "vendor": "webmoney",
+    "name": {
+      "en": "WebMoney card"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "wmnote",
+    "vendor": "webmoney",
+    "name": {
+      "en": "WebMoney note"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "viabalotoonlinecashpaymentmethodscolombia",
+    "vendor": "viabalotoonlinecashpaymentmethodscolombia",
+    "name": {
+      "en": "Via Baloto"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "CO"
+    ]
+  },
+  {
+    "code": "famsaalternativecashpaymentmethodsmexico",
+    "vendor": "famsaalternativecashpaymentmethodsmexico",
+    "name": {
+      "en": "Famsa"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "MX"
+    ]
+  },
+  {
+    "code": "oxxoalternativecashpaymentmethodsmexico",
+    "vendor": "oxxoalternativecashpaymentmethodsmexico",
+    "name": {
+      "en": "Oxxo"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "MX"
+    ]
+  },
+  {
+    "code": "mts",
+    "name": {
+      "en": "MTS"
+    },
+    "category": "mobile_carrier_billing"
+  },
+  {
+    "code": "beeline",
+    "name": {
+      "en": "Beeline"
+    },
+    "category": "mobile_carrier_billing"
+  },
+  {
+    "code": "test",
+    "name": {
+      "en": "Test"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "kievstar",
+    "name": {
+      "en": "Kievstar"
+    },
+    "category": "mobile_carrier_billing"
+  },
+  {
+    "code": "csob",
+    "vendor": "csob",
+    "name": {
+      "en": "CSOB"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CZ",
+      "SK"
+    ]
+  },
+  {
+    "code": "megafon",
+    "name": {
+      "en": "Megafon"
+    },
+    "category": "mobile_carrier_billing"
+  },
+  {
+    "code": "applepay",
+    "vendor": "applepay",
+    "name": {
+      "en": "Apple Pay"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "UM"
+    ]
+  },
+  {
+    "code": "paydirektalternativepaymentmethodgermany",
+    "vendor": "paydirektalternativepaymentmethodgermany",
+    "name": {
+      "en": "paydirekt"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "DE"
+    ]
+  },
+  {
+    "code": "billmelater",
+    "vendor": "billmelater",
+    "name": {
+      "en": "PayPal Credit"
+    },
+    "category": "invoice_payments"
+  },
+  {
+    "code": "lider",
+    "name": {
+      "en": "Leader"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "farmaciasdelahorroalternativecashpaymentmethodsmexico",
+    "vendor": "farmaciasdelahorroalternativecashpaymentmethodsmexico",
+    "name": {
+      "en": "Farmacias del Ahorro"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "MX"
+    ]
+  },
+  {
+    "code": "payshop",
+    "vendor": "payshop",
+    "name": {
+      "en": "Payshop"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "PT"
+    ]
+  },
+  {
+    "code": "capayable",
+    "vendor": "capayable",
+    "name": {
+      "en": "Capayable"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "NL"
+    ]
+  },
+  {
+    "code": "frenchonlinepaymentmethodewalletpaylib",
+    "vendor": "frenchonlinepaymentmethodewalletpaylib",
+    "name": {
+      "en": "paylib"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "FR"
+    ]
+  },
+  {
+    "code": "webmoneytransfer",
+    "vendor": "webmoneytransfer",
+    "name": {
+      "en": "WebMoney Transfer"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CL",
+      "CO",
+      "EC",
+      "FK",
+      "GF",
+      "GH",
+      "PY",
+      "PE",
+      "RW",
+      "SR",
+      "TT",
+      "VE"
+    ]
+  },
+  {
+    "code": "visacheckout",
+    "vendor": "visacheckout",
+    "name": {
+      "en": "Visa Checkout"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "AR",
+      "AU",
+      "BR",
+      "UM",
+      "CA",
+      "CL",
+      "CO",
+      "HK",
+      "MY",
+      "MX",
+      "NZ",
+      "SG",
+      "ZA",
+      "UA"
+    ]
+  },
+  {
+    "code": "everi",
+    "vendor": "everi",
+    "name": {
+      "en": "Everi"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "pagseguro",
+    "vendor": "pagseguro",
+    "name": {
+      "en": "PagSeguro"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "BR"
+    ]
+  },
+  {
+    "code": "qiwi",
+    "vendor": "qiwi",
+    "name": {
+      "en": "VISA QIWI Wallet"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "RW"
+    ]
+  },
+  {
+    "code": "onecard",
+    "vendor": "onecard",
+    "name": {
+      "en": "OneCard"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "DZ",
+      "CA",
+      "ID",
+      "LB",
+      "MY",
+      "MA",
+      "NA",
+      "SD",
+      "TR",
+      "UA",
+      "YE"
+    ]
+  },
+  {
+    "code": "mobikwik",
+    "vendor": "mobikwik",
+    "name": {
+      "en": "MobiKwik"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "IN"
+    ]
+  },
+  {
+    "code": "payfastwallet",
+    "vendor": "payfastwallet",
+    "name": {
+      "en": "Payfast Wallet"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "tenpay",
+    "vendor": "tenpay",
+    "name": {
+      "en": "Tenpay"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "abaqoos",
+    "vendor": "abaqoos",
+    "name": {
+      "en": "Abaqoos"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "masterpass",
+    "vendor": "masterpass",
+    "name": {
+      "en": "Masterpass"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "AU",
+      "UM",
+      "CA",
+      "IT",
+      "AE"
+    ]
+  },
+  {
+    "code": "googlewallet",
+    "name": {
+      "en": "Google Wallet"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "epayua",
+    "name": {
+      "en": "E-Pay"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "rbkmoney",
+    "name": {
+      "en": "RBK Money"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "mminvoicing",
+    "name": {
+      "en": "MM Invoicing"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "sbrebank",
+    "name": {
+      "en": "SberBank"
+    },
+    "category": "bank_transfers"
+  },
+  {
+    "code": "banktransfer",
+    "name": {
+      "en": "Bank transfer"
+    },
+    "category": "bank_transfers"
+  },
+  {
+    "code": "privatbank",
+    "name": {
+      "en": "Privatbank"
+    },
+    "category": "bank_transfers"
+  },
+  {
+    "code": "postovabanka",
+    "vendor": "postovabanka",
+    "name": {
+      "en": "Postová Banka"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SK"
+    ]
+  },
+  {
+    "code": "cash",
+    "name": {
+      "en": "Cash"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ecoineu",
+    "name": {
+      "en": "Ecoin.eu"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "cellularworld",
+    "name": {
+      "en": "Cellular World"
+    },
+    "category": "mobile_carrier_billing"
+  },
+  {
+    "code": "barzahlen",
+    "vendor": "barzahlen",
+    "name": {
+      "en": "Barzahlen"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "DE"
+    ]
+  },
+  {
+    "code": "fastcheckoutmultisafepay",
+    "vendor": "fastcheckoutmultisafepay",
+    "name": {
+      "en": "MultiSafepay"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "AX",
+      "AL",
+      "AD",
+      "AU",
+      "BY",
+      "BE",
+      "BA",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FO",
+      "FJ",
+      "FR",
+      "DE",
+      "GI",
+      "GR",
+      "GG",
+      "HU",
+      "IS",
+      "IM",
+      "IT",
+      "JE",
+      "LV",
+      "LI",
+      "LT",
+      "LU",
+      "ML",
+      "MD",
+      "MC",
+      "ME",
+      "NL",
+      "NO",
+      "PT",
+      "RO",
+      "SM",
+      "RS",
+      "SK",
+      "ES",
+      "SJ",
+      "SE",
+      "CH",
+      "RW",
+      "AE"
+    ]
+  },
+  {
+    "code": "gcashwallet",
+    "vendor": "gcashwallet",
+    "name": {
+      "en": "GCASH"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "PH"
+    ]
+  },
+  {
+    "code": "acceptgiro",
+    "vendor": "acceptgiro",
+    "name": {
+      "en": "Acceptgiro"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "NL"
+    ]
+  },
+  {
+    "code": "mypaywizard",
+    "vendor": "mypaywizard",
+    "name": {
+      "en": "MyPayWizard"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "walletone",
+    "name": {
+      "en": "WalletOne"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "russianpost",
+    "name": {
+      "en": "Russian Post"
+    },
+    "category": "cash_on_delivery"
+  },
+  {
+    "code": "privat24",
+    "name": {
+      "en": "Privat24",
+      "ru": "Приват24"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "wupay",
+    "vendor": "wupay",
+    "name": {
+      "en": "WU Pay"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "UM"
+    ]
+  },
+  {
+    "code": "liqpay_wallet",
+    "name": {
+      "en": "LiqPay"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "directdebit",
+    "vendor": "directdebit",
+    "name": {
+      "en": "Direct Debit"
+    },
+    "category": "direct_debits"
+  },
+  {
+    "code": "payd",
+    "vendor": "payd",
+    "name": {
+      "en": "payD"
+    },
+    "category": "credit_cards"
+  },
+  {
+    "code": "futurepay",
+    "vendor": "futurepay",
+    "name": {
+      "en": "FuturePay"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "UM"
+    ]
+  },
+  {
+    "code": "paynearme",
+    "vendor": "paynearme",
+    "name": {
+      "en": "PayNearMe"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "UM"
+    ]
+  },
+  {
+    "code": "bank_card",
+    "name": {
+      "en": "Card"
+    },
+    "category": "bank_cards"
+  },
+  {
+    "code": "liqpay",
+    "name": {
+      "en": "LiqPay "
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "vtb24",
+    "vendor": "vtb24",
+    "name": {
+      "en": "VTB24"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "account2account",
+    "vendor": "account2account",
+    "name": {
+      "en": "account2account"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AU",
+      "NZ"
+    ]
+  },
+  {
+    "code": "yota",
+    "name": {
+      "en": "Yota"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "belfiusdirectnet",
+    "vendor": "belfiusdirectnet",
+    "name": {
+      "en": "Belfius DirectNet"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "BE"
+    ]
+  },
+  {
+    "code": "mazooma",
+    "vendor": "mazooma",
+    "name": {
+      "en": "Mazooma"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "interac",
+    "vendor": "interac",
+    "name": {
+      "en": "Interac Online"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CA"
+    ]
+  },
+  {
+    "code": "payeer",
+    "name": {
+      "en": "Payeer"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "interkassa",
+    "name": {
+      "en": "Interkassa"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "psbretail",
+    "name": {
+      "en": "PSB-Retail"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "epese",
+    "name": {
+      "en": "Epese"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "erip",
+    "name": {
+      "en": "Erip"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "sberonline",
+    "name": {
+      "en": "Sberbank Online"
+    },
+    "category": "mobile_payments"
+  },
+  {
+    "code": "viber",
+    "name": {
+      "en": "Viber"
+    },
+    "category": "mobile_payments"
+  },
+  {
+    "code": "easypay",
+    "name": {
+      "en": "EasyPay"
+    },
+    "category": "mobile_payments"
+  },
+  {
+    "code": "fakturaru",
+    "name": {
+      "en": "Faktura"
+    },
+    "category": "mobile_payments"
+  },
+  {
+    "code": "standardbank",
+    "name": {
+      "en": "Standart Bank"
+    },
+    "category": "Invoice"
+  },
+  {
+    "code": "tinkoff",
+    "name": {
+      "en": "Tinkoff"
+    },
+    "category": "bank_transfers",
+    "countries": [
+      "UA"
+    ]
+  },
+  {
+    "code": "santander",
+    "vendor": "santander",
+    "name": {
+      "en": "Santander"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ES"
+    ]
+  },
+  {
+    "code": "bancobrasil",
+    "vendor": "bancobrasil",
+    "name": {
+      "en": "Banco do Brasil"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "BR"
+    ]
+  },
+  {
+    "code": "bitcoin_cash",
+    "name": {
+      "en": "Bitcoin Cash"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ceskasporitelna",
+    "vendor": "ceskasporitelna",
+    "name": {
+      "en": "Ceská Sporitelna"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CZ"
+    ]
+  },
+  {
+    "code": "osuuspankki",
+    "vendor": "osuuspankki",
+    "name": {
+      "en": "Osuuspankki"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "inpay",
+    "vendor": "inpay",
+    "name": {
+      "en": "inpay"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "banklink",
+    "vendor": "banklink",
+    "name": {
+      "en": "Bank Link"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "LV"
+    ]
+  },
+  {
+    "code": "svyaznoy",
+    "vendor": "svyaznojbank",
+    "name": {
+      "en": "Svyaznoy"
+    },
+    "category": "Invoice"
+  },
+  {
+    "code": "usdt",
+    "name": {
+      "en": "Tether"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "ekonto",
+    "vendor": "ekonto",
+    "name": {
+      "en": "eKonto"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CZ",
+      "SK"
+    ]
+  },
+  {
+    "code": "kbcbetaalknop",
+    "vendor": "kbcbetaalknop",
+    "name": {
+      "en": "KBC \/ CBC Online"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "BE"
+    ]
+  },
+  {
+    "code": "tatrabanka",
+    "vendor": "tatrabanka",
+    "name": {
+      "en": "Tatra Banka"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SK"
+    ]
+  },
+  {
+    "code": "giropay",
+    "vendor": "giropay",
+    "name": {
+      "en": "Giropay"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "DE"
+    ]
+  },
+  {
+    "code": "bancodobrasilcomercioeletronico",
+    "vendor": "bancodobrasilcomercioeletronico",
+    "name": {
+      "en": "Banco do Brasil"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "bankinter",
+    "vendor": "bankinter",
+    "name": {
+      "en": "Bank Inter"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ES"
+    ]
+  },
+  {
+    "code": "sebbank",
+    "vendor": "sebbank",
+    "name": {
+      "en": "SEB Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "EE",
+      "LV",
+      "LT",
+      "SE"
+    ]
+  },
+  {
+    "code": "privatbank_terminals",
+    "name": {
+      "en": "Privatbank Terminals"
+    },
+    "category": "alternative",
+    "countries": [
+      "UA"
+    ]
+  },
+  {
+    "code": "perfectmoney_account",
+    "vendor": "perfectmoney",
+    "name": {
+      "en": "Perfect Money Account"
+    },
+    "category": "alternative",
+    "countries": [
+      "UA"
+    ]
+  },
+  {
+    "code": "zapp",
+    "vendor": "zapp",
+    "name": {
+      "en": "Zapp"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "unistream",
+    "name": {
+      "en": "Unistream"
+    },
+    "category": "bank_transfers"
+  },
+  {
+    "code": "perfectmoney_voucher",
+    "vendor": "perfectmoney",
+    "name": {
+      "en": "Perfect Money Voucher",
+      "ru": "Perfect Money Ваучер"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "RU",
+      "UA"
+    ]
+  },
+  {
+    "code": "russian_standart_bank",
+    "vendor": "russkijstandart",
+    "name": {
+      "en": "Russian Standard Bank"
+    },
+    "category": "mobile_payments"
+  },
+  {
+    "code": "slovenskasporitelna",
+    "vendor": "slovenskasporitelna",
+    "name": {
+      "en": "Slovenská Sporitelña"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SK"
+    ]
+  },
+  {
+    "code": "handelsbanken",
+    "vendor": "handelsbanken",
+    "name": {
+      "en": "Handelsbanken"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ",
+      "SE"
+    ]
+  },
+  {
+    "code": "servipag",
+    "vendor": "servipag",
+    "name": {
+      "en": "Servipag"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "CL"
+    ]
+  },
+  {
+    "code": "kriita2",
+    "vendor": "kriita2",
+    "name": {
+      "en": "Kriita AB"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "SE"
+    ]
+  },
+  {
+    "code": "billsafe",
+    "vendor": "billsafe",
+    "name": {
+      "en": "BillSAFE"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "AU",
+      "DE"
+    ]
+  },
+  {
+    "code": "farmaciasbenavidesalternativecashpaymentmethodsmexico",
+    "vendor": "farmaciasbenavidesalternativecashpaymentmethodsmexico",
+    "name": {
+      "en": "Farmacias Benavides"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "MX"
+    ]
+  },
+  {
+    "code": "minitix",
+    "vendor": "minitix",
+    "name": {
+      "en": "Minitix"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "yandexmoney",
+    "vendor": "yandexmoney",
+    "name": {
+      "en": "Yandex.Money"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IR",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE",
+      "ZW"
+    ]
+  },
+  {
+    "code": "ingpl",
+    "name": {
+      "en": "ING Bank Poland"
+    },
+    "category": "alternative"
+  },
+  {
+    "code": "clickandbuy",
+    "vendor": "clickandbuy",
+    "name": {
+      "en": "ClickandBuy"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "vmevisa",
+    "vendor": "vmevisa",
+    "name": {
+      "en": "V.me by Visa"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "BE",
+      "FR",
+      "AE"
+    ]
+  },
+  {
+    "code": "alipay",
+    "vendor": "alipay",
+    "name": {
+      "en": "Alipay.com"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "neteller",
+    "vendor": "neteller",
+    "name": {
+      "en": "NETELLER"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "paysbuy",
+    "vendor": "paysbuy",
+    "name": {
+      "en": "PAYSBUY"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "payzippy",
+    "vendor": "payzippy",
+    "name": {
+      "en": "PayZippy"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "vvvgiftcard",
+    "vendor": "vvvgiftcard",
+    "name": {
+      "en": "VVV Giftcard"
+    },
+    "category": "gift_cards",
+    "countries": [
+      "NL"
+    ]
+  },
+  {
+    "code": "pagoefectivo",
+    "vendor": "pagoefectivo",
+    "name": {
+      "en": "PagoEfectivo"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "PE"
+    ]
+  },
+  {
+    "code": "rapipago",
+    "vendor": "rapipago",
+    "name": {
+      "en": "Rapipago"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "AR"
+    ]
+  },
+  {
+    "code": "efectyonlinecashpaymentmethodscolombia",
+    "vendor": "efectyonlinecashpaymentmethodscolombia",
+    "name": {
+      "en": "Efecty"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "CO"
+    ]
+  },
+  {
+    "code": "moneta",
+    "vendor": "moneta",
+    "name": {
+      "en": "Moneta"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "mercadopago",
+    "vendor": "mercadopago",
+    "name": {
+      "en": "MercadoPago"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "AR",
+      "BR",
+      "CL",
+      "CO",
+      "MX",
+      "VE"
+    ]
+  },
+  {
+    "code": "toditocash",
+    "vendor": "toditocash",
+    "name": {
+      "en": "Todito Cash"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "MX"
+    ]
+  },
+  {
+    "code": "boletobancariopay",
+    "vendor": "boletobancariopay",
+    "name": {
+      "en": "Boleto Bancario"
+    },
+    "category": "invoice_payments"
+  },
+  {
+    "code": "dokuwallet",
+    "vendor": "dokuwallet",
+    "name": {
+      "en": "DOKU Wallet"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "skrill2",
+    "vendor": "skrill2",
+    "name": {
+      "en": "Skrill Wallet"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IR",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "AF",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "NR",
+      "NP",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "ZW"
+    ]
+  },
+  {
+    "code": "paypal",
+    "vendor": "paypal",
+    "name": {
+      "en": "PayPal"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AG",
+      "AR",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BB",
+      "BE",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BR",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CA",
+      "CV",
+      "KY",
+      "TD",
+      "CL",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "SV",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "GI",
+      "GR",
+      "GD",
+      "GT",
+      "GN",
+      "GW",
+      "GH",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LS",
+      "LI",
+      "LT",
+      "LU",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MN",
+      "MS",
+      "MA",
+      "MZ",
+      "NR",
+      "NP",
+      "NL",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "NO",
+      "IR",
+      "MO",
+      "PG",
+      "PE",
+      "PH",
+      "AX",
+      "PT",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TT",
+      "TN",
+      "TM",
+      "TC",
+      "UA",
+      "AE",
+      "UM",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "YE"
+    ]
+  },
+  {
+    "code": "billink",
+    "vendor": "billink",
+    "name": {
+      "en": "Billink"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "NL"
+    ]
+  },
+  {
+    "code": "247billpay",
+    "vendor": "247billpay",
+    "name": {
+      "en": "24-7 Bill Pay"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "afterpay",
+    "vendor": "afterpay",
+    "name": {
+      "en": "AfterPay"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "BE",
+      "FR",
+      "DE",
+      "NL",
+      "NO",
+      "SE"
+    ]
+  },
+  {
+    "code": "paybybill",
+    "vendor": "paybybill",
+    "name": {
+      "en": "PayByBill"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "DK",
+      "FJ",
+      "DE",
+      "NL",
+      "NO",
+      "SE"
+    ]
+  },
+  {
+    "code": "acceptemail",
+    "vendor": "acceptemail",
+    "name": {
+      "en": "AcceptEmail"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "AX",
+      "AL",
+      "AD",
+      "AU",
+      "BY",
+      "BE",
+      "BA",
+      "BG",
+      "HR",
+      "CZ",
+      "DK",
+      "EE",
+      "FO",
+      "FJ",
+      "FR",
+      "DE",
+      "GI",
+      "GR",
+      "GG",
+      "HU",
+      "IS",
+      "IM",
+      "IT",
+      "JE",
+      "LV",
+      "LI",
+      "LT",
+      "LU",
+      "ML",
+      "MD",
+      "MC",
+      "ME",
+      "NL",
+      "NO",
+      "PT",
+      "RO",
+      "SM",
+      "RS",
+      "SK",
+      "ZA",
+      "ES",
+      "SJ",
+      "SE",
+      "CH",
+      "RW",
+      "AE",
+      "UM"
+    ]
+  },
+  {
+    "code": "7elevenalternativecashpaymentmethodsmexico",
+    "vendor": "7elevenalternativecashpaymentmethodsmexico",
+    "name": {
+      "en": "7-Eleven"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "MX"
+    ]
+  },
+  {
+    "code": "klarna",
+    "vendor": "klarna",
+    "name": {
+      "en": "Klarna"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "AU",
+      "DK",
+      "FJ",
+      "DE",
+      "NL",
+      "NO",
+      "SE",
+      "AE"
+    ]
+  },
+  {
+    "code": "sencillitoalternativecashpaymentmethodschile",
+    "vendor": "sencillitoalternativecashpaymentmethodschile",
+    "name": {
+      "en": "Sencillito"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "CL"
+    ]
+  },
+  {
+    "code": "billpay",
+    "vendor": "billpay",
+    "name": {
+      "en": "BIllpay"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "AU",
+      "DE",
+      "NL",
+      "CH"
+    ]
+  },
+  {
+    "code": "kwixo",
+    "vendor": "kwixo",
+    "name": {
+      "en": "Kwixo"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "FR"
+    ]
+  },
+  {
+    "code": "mpayaisthailand",
+    "vendor": "mpayaisthailand",
+    "name": {
+      "en": "mPAY"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "smartmoney",
+    "vendor": "smartmoney",
+    "name": {
+      "en": "Smart Money"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "PH"
+    ]
+  },
+  {
+    "code": "justpayewallet",
+    "vendor": "justpayewallet",
+    "name": {
+      "en": "TOT Just Pay"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "zimpler",
+    "vendor": "zimpler",
+    "name": {
+      "en": "Zimpler"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "FJ",
+      "SE"
+    ]
+  },
+  {
+    "code": "dwolla",
+    "vendor": "dwolla",
+    "name": {
+      "en": "Dwolla"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "UM"
+    ]
+  },
+  {
+    "code": "bancnetdirectdebits",
+    "vendor": "bancnetdirectdebits",
+    "name": {
+      "en": "BancNet"
+    },
+    "category": "direct_debits",
+    "countries": [
+      "PH"
+    ]
+  },
+  {
+    "code": "primabanka",
+    "vendor": "primabanka",
+    "name": {
+      "en": "Prima Banka"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SK"
+    ]
+  },
+  {
+    "code": "pagorapido",
+    "vendor": "pagorapido",
+    "name": {
+      "en": "PagoRapido"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "przelewy24",
+    "vendor": "przelewy24",
+    "name": {
+      "en": "Przelewy24"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "mybank2",
+    "vendor": "mybank2",
+    "name": {
+      "en": "MyBank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "IT"
+    ]
+  },
+  {
+    "code": "banrisulbanricompras",
+    "vendor": "banrisulbanricompras",
+    "name": {
+      "en": "Banrisul Banricompras"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "eps",
+    "vendor": "eps",
+    "name": {
+      "en": "eps e-payment"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "bangkokbanknetbanking",
+    "vendor": "bangkokbanknetbanking",
+    "name": {
+      "en": "Bangkok Bank netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "MM",
+      "PH",
+      "TH"
+    ]
+  },
+  {
+    "code": "skandiabanken",
+    "vendor": "skandiabanken",
+    "name": {
+      "en": "Skandiabanken"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SE"
+    ]
+  },
+  {
+    "code": "cimbclicksinternetbanking",
+    "vendor": "cimbclicksinternetbanking",
+    "name": {
+      "en": "CIMBClicks"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ID",
+      "MY",
+      "SG",
+      "TH"
+    ]
+  },
+  {
+    "code": "unitedoverseasbankuobnetbanking",
+    "vendor": "unitedoverseasbankuobnetbanking",
+    "name": {
+      "en": "UOB netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "MY",
+      "TH"
+    ]
+  },
+  {
+    "code": "creditagricole",
+    "vendor": "creditagricole",
+    "name": {
+      "en": "Crédit Agricole"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX"
+    ]
+  },
+  {
+    "code": "forexbank",
+    "vendor": "forexbank",
+    "name": {
+      "en": "Forex Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SE"
+    ]
+  },
+  {
+    "code": "bbva",
+    "vendor": "bbva",
+    "name": {
+      "en": "BBVA"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ES"
+    ]
+  },
+  {
+    "code": "oppohjola",
+    "vendor": "oppohjola",
+    "name": {
+      "en": "OP-Pohjola"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "danskebank",
+    "vendor": "danskebank",
+    "name": {
+      "en": "Danske Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "DK",
+      "EE",
+      "FJ",
+      "SE"
+    ]
+  },
+  {
+    "code": "bdooverthecounterofflinebankdeposit",
+    "vendor": "bdooverthecounterofflinebankdeposit",
+    "name": {
+      "en": "BDO Over-The-Counter"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "PH"
+    ]
+  },
+  {
+    "code": "bankofchinanetbanking",
+    "vendor": "bankofchinanetbanking",
+    "name": {
+      "en": "Bank of China netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CL",
+      "MO"
+    ]
+  },
+  {
+    "code": "sofortbanking",
+    "vendor": "sofortbanking",
+    "name": {
+      "en": "SOFORT, a Klarna Group Company"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX",
+      "AU",
+      "BE",
+      "DE",
+      "IT",
+      "NL",
+      "ES",
+      "CH",
+      "AE"
+    ]
+  },
+  {
+    "code": "thaimilitarybanktmbnetbanking",
+    "vendor": "thaimilitarybanktmbnetbanking",
+    "name": {
+      "en": "Thai Military Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "TH"
+    ]
+  },
+  {
+    "code": "bankzachodniwbk",
+    "vendor": "bankzachodniwbk",
+    "name": {
+      "en": "Bank Zochadni WBK"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX"
+    ]
+  },
+  {
+    "code": "swedbank",
+    "vendor": "swedbank",
+    "name": {
+      "en": "Swedbank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SE"
+    ]
+  },
+  {
+    "code": "tapiola",
+    "vendor": "tapiola",
+    "name": {
+      "en": "Tapiola"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "multibank",
+    "vendor": "multibank",
+    "name": {
+      "en": "MultiTransfer"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX"
+    ]
+  },
+  {
+    "code": "bancopopular",
+    "vendor": "bancopopular",
+    "name": {
+      "en": "Banco Popular"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ES"
+    ]
+  },
+  {
+    "code": "maybanknetbankingphillipines",
+    "vendor": "maybanknetbankingphillipines",
+    "name": {
+      "en": "Maybank netbanking"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "PH"
+    ]
+  },
+  {
+    "code": "redcompraalternativeonlinepaymentmethodchile",
+    "vendor": "redcompraalternativeonlinepaymentmethodchile",
+    "name": {
+      "en": "Red Compra"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CL"
+    ]
+  },
+  {
+    "code": "nordea",
+    "vendor": "nordea",
+    "name": {
+      "en": "Nordea"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX",
+      "DK",
+      "EE",
+      "FJ",
+      "HU",
+      "LV",
+      "NO",
+      "SE"
+    ]
+  },
+  {
+    "code": "raiffeisenbank",
+    "vendor": "raiffeisenbank",
+    "name": {
+      "en": "Raiffeisen Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "BA",
+      "BG",
+      "CZ",
+      "HU"
+    ]
+  },
+  {
+    "code": "postpay",
+    "vendor": "postpay",
+    "name": {
+      "en": "PostPay"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AU"
+    ]
+  },
+  {
+    "code": "polipayonline",
+    "vendor": "polipayonline",
+    "name": {
+      "en": "POLi Payments"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AU",
+      "NZ"
+    ]
+  },
+  {
+    "code": "usemyservices",
+    "vendor": "usemyservices",
+    "name": {
+      "en": "UseMyServices"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "ciberpay",
+    "vendor": "ciberpay",
+    "name": {
+      "en": "Ciber Pay"
+    },
+    "category": "internet_banking"
+  },
+  {
+    "code": "milleniumbank",
+    "vendor": "milleniumbank",
+    "name": {
+      "en": "Millenium Bank"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "AX"
+    ]
+  },
+  {
+    "code": "bankia",
+    "vendor": "bankia",
+    "name": {
+      "en": "Bankia"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ES"
+    ]
+  },
+  {
+    "code": "rixty",
+    "vendor": "rixty",
+    "name": {
+      "en": "Rixty"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "UM"
+    ]
+  },
+  {
+    "code": "peela",
+    "vendor": "peela",
+    "name": {
+      "en": "Peela"
+    },
+    "category": "prepaid_cards"
+  },
+  {
+    "code": "teleingreso",
+    "vendor": "teleingreso",
+    "name": {
+      "en": "Teleingreso"
+    },
+    "category": "prepaid_cards"
+  },
+  {
+    "code": "neosurf",
+    "vendor": "neosurf",
+    "name": {
+      "en": "Neosurf"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "DZ",
+      "AD",
+      "AR",
+      "BE",
+      "BJ",
+      "BR",
+      "BG",
+      "BF",
+      "CM",
+      "CA",
+      "CF",
+      "CL",
+      "CO",
+      "CG",
+      "CY",
+      "CZ",
+      "FR",
+      "PF",
+      "GA",
+      "DE",
+      "GR",
+      "GP",
+      "IN",
+      "IL",
+      "IT",
+      "LV",
+      "LT",
+      "MY",
+      "MW",
+      "ML",
+      "MQ",
+      "PK",
+      "AX",
+      "PT",
+      "RO",
+      "SA",
+      "SN",
+      "ES",
+      "TG",
+      "TN",
+      "RW",
+      "UA",
+      "AE"
+    ]
+  },
+  {
+    "code": "ticketpremium",
+    "vendor": "ticketpremium",
+    "name": {
+      "en": "Ticket Premium"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "FR"
+    ]
+  },
+  {
+    "code": "papaya",
+    "vendor": "papaya",
+    "name": {
+      "en": "Papaya"
+    },
+    "category": "prepaid_cards"
+  },
+  {
+    "code": "postepay",
+    "vendor": "postepay",
+    "name": {
+      "en": "Postepay"
+    },
+    "category": "prepaid_cards"
+  },
+  {
+    "code": "serve",
+    "vendor": "serve",
+    "name": {
+      "en": "Serve"
+    },
+    "category": "prepaid_cards"
+  },
+  {
+    "code": "flexepinemoneyvouchers",
+    "vendor": "flexepinemoneyvouchers",
+    "name": {
+      "en": "Flexepin"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "AU",
+      "CA"
+    ]
+  },
+  {
+    "code": "cashu",
+    "vendor": "cashu",
+    "name": {
+      "en": "CASHU"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "BH",
+      "CL",
+      "EG",
+      "IR",
+      "JO",
+      "KW",
+      "LB",
+      "MA",
+      "SA",
+      "TN",
+      "TR",
+      "UA",
+      "YE"
+    ]
+  },
+  {
+    "code": "paysafecard",
+    "vendor": "paysafecard",
+    "name": {
+      "en": "paysafecard"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "AR",
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "FJ",
+      "FR",
+      "DE",
+      "GI",
+      "GR",
+      "HU",
+      "IS",
+      "IT",
+      "KW",
+      "LV",
+      "LI",
+      "LT",
+      "LU",
+      "ML",
+      "MX",
+      "NL",
+      "NZ",
+      "NO",
+      "PE",
+      "AX",
+      "PT",
+      "RO",
+      "SK",
+      "ES",
+      "SE",
+      "CH",
+      "TR",
+      "AE",
+      "UM"
+    ]
+  },
+  {
+    "code": "ukash",
+    "vendor": "ukash",
+    "name": {
+      "en": "Ukash"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "AU",
+      "CZ",
+      "DK",
+      "EE",
+      "FJ",
+      "FR",
+      "DE",
+      "HU",
+      "IS",
+      "IT",
+      "LV",
+      "NO",
+      "AX",
+      "PT",
+      "SK",
+      "ZA",
+      "ES",
+      "SE",
+      "TR",
+      "AE"
+    ]
+  },
+  {
+    "code": "dinersclub",
+    "vendor": "dinersclub",
+    "name": {
+      "en": "Diners Club International"
+    },
+    "category": "credit_cards"
+  },
+  {
+    "code": "chinaunionpay",
+    "vendor": "chinaunionpay",
+    "name": {
+      "en": "China UnionPay"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "AU",
+      "CL"
+    ]
+  },
+  {
+    "code": "presto",
+    "vendor": "presto",
+    "name": {
+      "en": "Presto"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "CL"
+    ]
+  },
+  {
+    "code": "banamexdebitcardonlinepaymentmethodmexico",
+    "vendor": "banamexdebitcardonlinepaymentmethodmexico",
+    "name": {
+      "en": "Banamex"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "MX"
+    ]
+  },
+  {
+    "code": "tarjetaripley",
+    "vendor": "tarjetaripley",
+    "name": {
+      "en": "Ripley"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "CL"
+    ]
+  },
+  {
+    "code": "americanexpress",
+    "vendor": "americanexpress",
+    "name": {
+      "en": "American Express"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BE",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IR",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NL",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE",
+      "ZW"
+    ]
+  },
+  {
+    "code": "cartasi",
+    "vendor": "cartasi",
+    "name": {
+      "en": "CartaSi"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "IT"
+    ]
+  },
+  {
+    "code": "uatp",
+    "vendor": "uatp",
+    "name": {
+      "en": "UATP"
+    },
+    "category": "credit_cards"
+  },
+  {
+    "code": "elo",
+    "vendor": "elo",
+    "name": {
+      "en": "Elo"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "BR"
+    ]
+  },
+  {
+    "code": "aura",
+    "vendor": "aura",
+    "name": {
+      "en": "Aura"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "BR",
+      "FR"
+    ]
+  },
+  {
+    "code": "hipercard",
+    "vendor": "hipercard",
+    "name": {
+      "en": "Hipercard"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "BR"
+    ]
+  },
+  {
+    "code": "mastercard",
+    "vendor": "mastercard",
+    "name": {
+      "en": "MasterCard"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BE",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IR",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NL",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE",
+      "ZW"
+    ]
+  },
+  {
+    "code": "visa2",
+    "vendor": "visa2",
+    "name": {
+      "en": "Visa"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BE",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IR",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NL",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE",
+      "ZW"
+    ]
+  },
+  {
+    "code": "jcb",
+    "vendor": "jcb",
+    "name": {
+      "en": "JCB"
+    },
+    "category": "credit_cards"
+  },
+  {
+    "code": "discover",
+    "vendor": "discover",
+    "name": {
+      "en": "Discover"
+    },
+    "category": "credit_cards"
+  },
+  {
+    "code": "magnacreditcardsonlinepaymentmethodschile",
+    "vendor": "magnacreditcardsonlinepaymentmethodschile",
+    "name": {
+      "en": "Magna"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "CL"
+    ]
+  },
+  {
+    "code": "webpaypluscreditcardsonlinepaymentsolutionchile",
+    "vendor": "webpaypluscreditcardsonlinepaymentsolutionchile",
+    "name": {
+      "en": "Webpay plus"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "CL"
+    ]
+  },
+  {
+    "code": "tarjetanaranjacreditcard",
+    "vendor": "tarjetanaranjacreditcard",
+    "name": {
+      "en": "tarjeta naranja"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "AR"
+    ]
+  },
+  {
+    "code": "vpay",
+    "vendor": "vpay",
+    "name": {
+      "en": "V PAY"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "FR",
+      "IT",
+      "LU"
+    ]
+  },
+  {
+    "code": "cabal",
+    "vendor": "cabal",
+    "name": {
+      "en": "Cabal"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "AR"
+    ]
+  },
+  {
+    "code": "visaelectron",
+    "vendor": "visaelectron",
+    "name": {
+      "en": "Visa Electron"
+    },
+    "category": "debit_cards"
+  },
+  {
+    "code": "mastercarddebit",
+    "vendor": "mastercarddebit",
+    "name": {
+      "en": "MasterCard Debit"
+    },
+    "category": "debit_cards"
+  },
+  {
+    "code": "maestro",
+    "vendor": "maestro",
+    "name": {
+      "en": "Maestro"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "AU",
+      "BE",
+      "IT",
+      "ES",
+      "AE"
+    ]
+  },
+  {
+    "code": "cartebancaires",
+    "vendor": "cartebancaires",
+    "name": {
+      "en": "Carte Bancaires"
+    },
+    "category": "debit_cards"
+  },
+  {
+    "code": "rupaypaysecure",
+    "vendor": "rupaypaysecure",
+    "name": {
+      "en": "RuPay PaySecure"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "IN"
+    ]
+  },
+  {
+    "code": "dankort",
+    "vendor": "dankort",
+    "name": {
+      "en": "Dankort"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "DK"
+    ]
+  },
+  {
+    "code": "debitobradesco",
+    "vendor": "debitobradesco",
+    "name": {
+      "en": "Debito Bradesco"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "BR"
+    ]
+  },
+  {
+    "code": "cartebleue",
+    "vendor": "cartebleue",
+    "name": {
+      "en": "Carte Bleue"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "FR"
+    ]
+  },
+  {
+    "code": "girocard",
+    "vendor": "girocard",
+    "name": {
+      "en": "girocard"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "DE"
+    ]
+  },
+  {
+    "code": "visadebit",
+    "vendor": "visadebit",
+    "name": {
+      "en": "Visa Debit"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IR",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE",
+      "ZW"
+    ]
+  },
+  {
+    "code": "postfinancecard",
+    "vendor": "postfinancecard",
+    "name": {
+      "en": "PostFinance Card"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "CH"
+    ]
+  },
+  {
+    "code": "electroniccheckach",
+    "vendor": "electroniccheckach",
+    "name": {
+      "en": "eCheck (ACH)"
+    },
+    "category": "checks",
+    "countries": [
+      "UM"
+    ]
+  },
+  {
+    "code": "papercheck",
+    "vendor": "papercheck",
+    "name": {
+      "en": "Paper Check"
+    },
+    "category": "checks"
+  },
+  {
+    "code": "zipmark",
+    "vendor": "zipmark",
+    "name": {
+      "en": "Zipmark"
+    },
+    "category": "checks",
+    "countries": [
+      "UM"
+    ]
+  },
+  {
+    "code": "smsbilling",
+    "vendor": "smsbilling",
+    "name": {
+      "en": "SMS Billing"
+    },
+    "category": "mobile_payments",
+    "countries": [
+      "AF",
+      "DZ",
+      "AS",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "ET",
+      "FK",
+      "FJ",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "CN",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "IN",
+      "ID",
+      "IR",
+      "IL",
+      "JM",
+      "JP",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LB",
+      "LS",
+      "LR",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MN",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PR",
+      "RE",
+      "RW",
+      "WS",
+      "SA",
+      "SN",
+      "SC",
+      "SL",
+      "SG",
+      "SB",
+      "RO",
+      "ZA",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE",
+      "ZW"
+    ]
+  },
+  {
+    "code": "carrierbilling",
+    "vendor": "carrierbilling",
+    "name": {
+      "en": "Carrier Billing"
+    },
+    "category": "mobile_payments",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IR",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "YE",
+      "ZW"
+    ]
+  },
+  {
+    "code": "ivrbilling",
+    "vendor": "ivrbilling",
+    "name": {
+      "en": "IVR Billing"
+    },
+    "category": "mobile_payments"
+  },
+  {
+    "code": "pingping",
+    "vendor": "pingping",
+    "name": {
+      "en": "ping.ping"
+    },
+    "category": "mobile_payments",
+    "countries": [
+      "BE"
+    ]
+  },
+  {
+    "code": "pagofacil",
+    "vendor": "pagofacil",
+    "name": {
+      "en": "Pagofacil"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "AR"
+    ]
+  },
+  {
+    "code": "moneytopay",
+    "vendor": "moneytopay",
+    "name": {
+      "en": "MoneyToPay"
+    },
+    "category": "prepaid_cards",
+    "countries": [
+      "AF",
+      "AX",
+      "AL",
+      "DZ",
+      "AS",
+      "AD",
+      "AO",
+      "AI",
+      "AQ",
+      "AG",
+      "AR",
+      "AM",
+      "AW",
+      "AU",
+      "AZ",
+      "BH",
+      "BD",
+      "BB",
+      "BY",
+      "BE",
+      "BZ",
+      "BJ",
+      "BM",
+      "BT",
+      "BO",
+      "BA",
+      "BW",
+      "BV",
+      "BR",
+      "IO",
+      "BG",
+      "BF",
+      "BN",
+      "KH",
+      "CM",
+      "CA",
+      "CV",
+      "KY",
+      "CF",
+      "TD",
+      "CL",
+      "CX",
+      "CC",
+      "CO",
+      "KM",
+      "CG",
+      "CK",
+      "CR",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "DJ",
+      "DM",
+      "EC",
+      "EG",
+      "SV",
+      "GQ",
+      "ER",
+      "EE",
+      "ET",
+      "FK",
+      "FO",
+      "FJ",
+      "FR",
+      "GF",
+      "PF",
+      "GA",
+      "NA",
+      "GE",
+      "DE",
+      "CN",
+      "GI",
+      "GR",
+      "GD",
+      "GP",
+      "GU",
+      "GT",
+      "GG",
+      "GN",
+      "GW",
+      "GH",
+      "HT",
+      "HN",
+      "HK",
+      "HU",
+      "IS",
+      "IN",
+      "ID",
+      "IM",
+      "IL",
+      "IT",
+      "JM",
+      "JP",
+      "JE",
+      "JO",
+      "KZ",
+      "KE",
+      "KI",
+      "KW",
+      "LV",
+      "LB",
+      "LS",
+      "LR",
+      "LI",
+      "LT",
+      "LU",
+      "MO",
+      "MG",
+      "MW",
+      "MY",
+      "MV",
+      "ML",
+      "MH",
+      "MQ",
+      "MR",
+      "MU",
+      "YT",
+      "MX",
+      "MD",
+      "MC",
+      "MN",
+      "ME",
+      "MS",
+      "MA",
+      "MZ",
+      "MM",
+      "NR",
+      "NP",
+      "NL",
+      "NC",
+      "NZ",
+      "NI",
+      "NE",
+      "NF",
+      "MP",
+      "NO",
+      "IR",
+      "PK",
+      "PG",
+      "PY",
+      "PE",
+      "PH",
+      "PT",
+      "PR",
+      "RE",
+      "RO",
+      "RW",
+      "WS",
+      "SM",
+      "SA",
+      "SN",
+      "RS",
+      "SC",
+      "SL",
+      "SG",
+      "SK",
+      "SB",
+      "ZA",
+      "ES",
+      "LK",
+      "SH",
+      "KN",
+      "LC",
+      "PM",
+      "VC",
+      "SD",
+      "SR",
+      "SJ",
+      "SE",
+      "CH",
+      "TW",
+      "TJ",
+      "TZ",
+      "TH",
+      "TG",
+      "TK",
+      "TT",
+      "TN",
+      "TR",
+      "TM",
+      "TC",
+      "TV",
+      "UA",
+      "AE",
+      "GB",
+      "UM",
+      "UY",
+      "UZ",
+      "VU",
+      "VE",
+      "VN",
+      "WF",
+      "EH",
+      "ZW"
+    ]
+  },
+  {
+    "code": "argencard",
+    "vendor": "argencard",
+    "name": {
+      "en": "Argencard"
+    },
+    "category": "cash_payments",
+    "countries": [
+      "AR"
+    ]
+  },
+  {
+    "code": "barpay",
+    "vendor": "barpay",
+    "name": {
+      "en": "BarPay"
+    },
+    "category": "invoice_payments",
+    "countries": [
+      "DE"
+    ]
+  },
+  {
+    "code": "onlinenaira",
+    "vendor": "onlinenaira",
+    "name": {
+      "en": "OnlineNaira"
+    },
+    "category": "e_wallets"
+  },
+  {
+    "code": "bkmexpress",
+    "vendor": "bkmexpress",
+    "name": {
+      "en": "BKM Express"
+    },
+    "category": "e_wallets",
+    "countries": [
+      "TR"
+    ]
+  },
+  {
+    "code": "postfinanceefinance",
+    "vendor": "postfinanceefinance",
+    "name": {
+      "en": "PostFinance E-Finance"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "CH"
+    ]
+  },
+  {
+    "code": "bankaxess",
+    "vendor": "bankaxess",
+    "name": {
+      "en": "Bankaxess"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "NO"
+    ]
+  },
+  {
+    "code": "icabanken",
+    "vendor": "icabanken",
+    "name": {
+      "en": "ICA-Banken"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SE"
+    ]
+  },
+  {
+    "code": "lansforsakringar",
+    "vendor": "lansforsakringar",
+    "name": {
+      "en": "Länsförsäkringar"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "SE"
+    ]
+  },
+  {
+    "code": "saastopankki",
+    "vendor": "saastopankki",
+    "name": {
+      "en": "Säästöpankki"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "bancsabadell",
+    "vendor": "bancsabadell",
+    "name": {
+      "en": "Banc Sabadell"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "ES"
+    ]
+  },
+  {
+    "code": "aktia",
+    "vendor": "aktia",
+    "name": {
+      "en": "Aktia"
+    },
+    "category": "internet_banking",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "multibanconet",
+    "vendor": "multibanconet",
+    "name": {
+      "en": "MultiBanco NET"
+    },
+    "category": "credit_cards",
+    "countries": [
+      "PT"
+    ]
+  },
+  {
+    "code": "bancontactmistercash",
+    "vendor": "bancontactmistercash",
+    "name": {
+      "en": "Bancontact\/Mister Cash"
+    },
+    "category": "debit_cards",
+    "countries": [
+      "BE"
+    ]
+  }
+]
