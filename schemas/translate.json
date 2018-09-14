@@ -1,0 +1,23 @@
+{
+  "translate": {
+    "type": "object",
+    "title": "The Name Schema",
+    "properties": {
+      "en": {
+        "$id": "#/item/properties/name/properties/en",
+        "type": "string",
+        "title": "The En Schema"
+      },
+      "ru": {
+        "$id": "#/item/properties/name/properties/ru",
+        "type": "string",
+        "title": "The En Schema"
+      },
+      "ua": {
+        "$id": "#/item/properties/name/properties/ua",
+        "type": "string",
+        "title": "The En Schema"
+      }
+    }
+  }
+}

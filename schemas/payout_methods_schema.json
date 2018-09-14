@@ -1,28 +1,6 @@
 {
   "definitions": {
-    "translate": {
-      "type": "array",
-      "title": "The Name Schema",
-      "items": {
-        "type": "object",
-        "title": "The Items Schema",
-        "required": [
-          "code",
-          "text"
-        ],
-        "properties": {
-          "code": {
-            "type": "string",
-            "title": "The Code Schema",
-            "pattern": "^[a-z][a-z]$"
-          },
-          "text": {
-            "type": "string",
-            "title": "The Text Schema"
-          }
-        }
-      }
-    }
+    "$ref": "translate.json"
   },
   "type": "array",
   "title": "The Payout Methods Schema",

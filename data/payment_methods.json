@@ -6,12 +6,9 @@
     "countries": [
       "AU"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "BPAY"
-      }
-    ]
+    "name": {
+      "en": "BPAY"
+    }
   },
   {
     "code": "tescolotus",
@@ -20,12 +17,9 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Tesco Lotus"
-      }
-    ]
+    "name": {
+      "en": "Tesco Lotus"
+    }
   },
   {
     "code": "octopuscardonlinepaymentservice",
@@ -34,12 +28,9 @@
     "countries": [
       "HK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Octopus"
-      }
-    ]
+    "name": {
+      "en": "Octopus"
+    }
   },
   {
     "code": "bigconlinepayment",
@@ -48,12 +39,9 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Big C"
-      }
-    ]
+    "name": {
+      "en": "Big C"
+    }
   },
   {
     "code": "bitcoins",
@@ -257,82 +245,58 @@
       "YE",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bitcoin"
-      }
-    ]
+    "name": {
+      "en": "Bitcoin"
+    }
   },
   {
     "code": "litecoin",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Litecoin"
-      }
-    ]
+    "name": {
+      "en": "Litecoin"
+    }
   },
   {
     "code": "ukrsibbank",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Ukrsib Bank"
-      }
-    ]
+    "name": {
+      "en": "Ukrsib Bank"
+    }
   },
   {
     "code": "qazkombank",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Qazkom Bank"
-      }
-    ]
+    "name": {
+      "en": "Qazkom Bank"
+    }
   },
   {
     "code": "libertybank",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Liberty Bank"
-      }
-    ]
+    "name": {
+      "en": "Liberty Bank"
+    }
   },
   {
     "code": "promsvyazbank",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Promsvyazbank"
-      }
-    ]
+    "name": {
+      "en": "Promsvyazbank"
+    }
   },
   {
     "code": "alfaclick",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Alfa Click"
-      }
-    ]
+    "name": {
+      "en": "Alfa Click"
+    }
   },
   {
     "code": "ibox",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Ibox"
-      }
-    ]
+    "name": {
+      "en": "Ibox"
+    }
   },
   {
     "code": "sepadirectdebit",
@@ -382,12 +346,9 @@
       "SE",
       "CH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "SEPA Direct Debit"
-      }
-    ]
+    "name": {
+      "en": "SEPA Direct Debit"
+    }
   },
   {
     "code": "elektronischeslastschriftverfahren",
@@ -396,54 +357,39 @@
     "countries": [
       "DE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "ELV"
-      }
-    ]
+    "name": {
+      "en": "ELV"
+    }
   },
   {
     "code": "ssk",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk"
+    }
   },
   {
     "code": "euroset",
     "category": "mobile_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "Euroset"
-      }
-    ]
+    "name": {
+      "en": "Euroset"
+    }
   },
   {
     "code": "bancoitau",
     "vendor": "bancoitau",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Banco Itaú"
-      }
-    ]
+    "name": {
+      "en": "Banco Itaú"
+    }
   },
   {
     "code": "bradescocomercioeletronico",
     "vendor": "bradescocomercioeletronico",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Bradesco Comércio Eletrônico"
-      }
-    ]
+    "name": {
+      "en": "Bradesco Comércio Eletrônico"
+    }
   },
   {
     "code": "enetsdirectdebit",
@@ -452,12 +398,9 @@
     "countries": [
       "SG"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "eNETS Direct Debit"
-      }
-    ]
+    "name": {
+      "en": "eNETS Direct Debit"
+    }
   },
   {
     "code": "rcbcoverthecounteronlinebankdeposit",
@@ -466,33 +409,24 @@
     "countries": [
       "PH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "RCBC over-the-counter"
-      }
-    ]
+    "name": {
+      "en": "RCBC over-the-counter"
+    }
   },
   {
     "code": "pravexbank",
     "category": "mobile_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "Pravex bank"
-      }
-    ]
+    "name": {
+      "en": "Pravex bank"
+    }
   },
   {
     "code": "safetypay",
     "vendor": "safetypay",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "SafetyPay"
-      }
-    ]
+    "name": {
+      "en": "SafetyPay"
+    }
   },
   {
     "code": "okpay",
@@ -500,12 +434,9 @@
     "countries": [
       "RU"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "OKPay"
-      }
-    ]
+    "name": {
+      "en": "OKPay"
+    }
   },
   {
     "code": "ethereum",
@@ -513,22 +444,16 @@
     "countries": [
       "UA"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Ethereum"
-      }
-    ]
+    "name": {
+      "en": "Ethereum"
+    }
   },
   {
     "code": "tele2ru",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Tele2"
-      }
-    ]
+    "name": {
+      "en": "Tele2"
+    }
   },
   {
     "code": "otpbank",
@@ -537,23 +462,17 @@
     "countries": [
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "OTP Bank"
-      }
-    ]
+    "name": {
+      "en": "OTP Bank"
+    }
   },
   {
     "code": "euteller",
     "vendor": "euteller",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "uk",
-        "text": "ваіафіафіаіф"
-      }
-    ]
+    "name": {
+      "uk": "ваіафіафіаіф"
+    }
   },
   {
     "code": "poppankki",
@@ -562,12 +481,9 @@
     "countries": [
       "FJ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "POP Pankki"
-      }
-    ]
+    "name": {
+      "en": "POP Pankki"
+    }
   },
   {
     "code": "komercnibanka",
@@ -576,12 +492,9 @@
     "countries": [
       "CZ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Komercni Banka"
-      }
-    ]
+    "name": {
+      "en": "Komercni Banka"
+    }
   },
   {
     "code": "krungthaibanknetbanking",
@@ -590,12 +503,9 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Krungthai Bank netbanking"
-      }
-    ]
+    "name": {
+      "en": "Krungthai Bank netbanking"
+    }
   },
   {
     "code": "scbbanknetbanking",
@@ -604,12 +514,9 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "SCB netbanking"
-      }
-    ]
+    "name": {
+      "en": "SCB netbanking"
+    }
   },
   {
     "code": "krungsrinetbanking",
@@ -618,12 +525,9 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Krungsri netbanking"
-      }
-    ]
+    "name": {
+      "en": "Krungsri netbanking"
+    }
   },
   {
     "code": "bancopastor",
@@ -632,12 +536,9 @@
     "countries": [
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Banco Pastor"
-      }
-    ]
+    "name": {
+      "en": "Banco Pastor"
+    }
   },
   {
     "code": "jyskebank",
@@ -646,12 +547,9 @@
     "countries": [
       "DK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Jyske Bank"
-      }
-    ]
+    "name": {
+      "en": "Jyske Bank"
+    }
   },
   {
     "code": "vubbanka",
@@ -660,12 +558,9 @@
     "countries": [
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "VÚB Banka"
-      }
-    ]
+    "name": {
+      "en": "VÚB Banka"
+    }
   },
   {
     "code": "alandsbanken",
@@ -674,12 +569,9 @@
     "countries": [
       "FJ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Älandsbanken"
-      }
-    ]
+    "name": {
+      "en": "Älandsbanken"
+    }
   },
   {
     "code": "ingspain",
@@ -689,12 +581,9 @@
       "AX",
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "ING Bank | Spain"
-      }
-    ]
+    "name": {
+      "en": "ING Bank | Spain"
+    }
   },
   {
     "code": "unicredit",
@@ -707,12 +596,9 @@
       "RO",
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "UniCredit"
-      }
-    ]
+    "name": {
+      "en": "UniCredit"
+    }
   },
   {
     "code": "ideal",
@@ -721,12 +607,9 @@
     "countries": [
       "NL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "iDEAL"
-      }
-    ]
+    "name": {
+      "en": "iDEAL"
+    }
   },
   {
     "code": "kasikornbankkbanknetbanking",
@@ -735,12 +618,9 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Kbank netbanking"
-      }
-    ]
+    "name": {
+      "en": "Kbank netbanking"
+    }
   },
   {
     "code": "icicinetbanking",
@@ -749,12 +629,9 @@
     "countries": [
       "IN"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "ICICI netbanking"
-      }
-    ]
+    "name": {
+      "en": "ICICI netbanking"
+    }
   },
   {
     "code": "volksbank",
@@ -764,23 +641,17 @@
       "CZ",
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Volksbank"
-      }
-    ]
+    "name": {
+      "en": "Volksbank"
+    }
   },
   {
     "code": "moneymail",
     "vendor": "moneymail",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "MoneyMail"
-      }
-    ]
+    "name": {
+      "en": "MoneyMail"
+    }
   },
   {
     "code": "lacaixa",
@@ -789,12 +660,9 @@
     "countries": [
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "La Caixa"
-      }
-    ]
+    "name": {
+      "en": "La Caixa"
+    }
   },
   {
     "code": "gemoney",
@@ -803,12 +671,9 @@
     "countries": [
       "CZ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "GE Money"
-      }
-    ]
+    "name": {
+      "en": "GE Money"
+    }
   },
   {
     "code": "spankki",
@@ -817,12 +682,9 @@
     "countries": [
       "FJ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "S-Pankki"
-      }
-    ]
+    "name": {
+      "en": "S-Pankki"
+    }
   },
   {
     "code": "mbank",
@@ -832,12 +694,9 @@
       "AX",
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "mBank (mTransfer)"
-      }
-    ]
+    "name": {
+      "en": "mBank (mTransfer)"
+    }
   },
   {
     "code": "provinciapagos",
@@ -846,12 +705,9 @@
     "countries": [
       "AR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "ProvinciaPagos"
-      }
-    ]
+    "name": {
+      "en": "ProvinciaPagos"
+    }
   },
   {
     "code": "trustly",
@@ -887,12 +743,9 @@
       "SE",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Trustly"
-      }
-    ]
+    "name": {
+      "en": "Trustly"
+    }
   },
   {
     "code": "hdfcbanknetbankingindia",
@@ -901,12 +754,9 @@
     "countries": [
       "IN"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "HDFC Bank Netbanking"
-      }
-    ]
+    "name": {
+      "en": "HDFC Bank Netbanking"
+    }
   },
   {
     "code": "sepacredittransfer",
@@ -954,12 +804,9 @@
       "SJ",
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "SEPA Credit Transfer"
-      }
-    ]
+    "name": {
+      "en": "SEPA Credit Transfer"
+    }
   },
   {
     "code": "wiretransfer",
@@ -1157,12 +1004,9 @@
       "EH",
       "YE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Wire Transfer"
-      }
-    ]
+    "name": {
+      "en": "Wire Transfer"
+    }
   },
   {
     "code": "inghomepay",
@@ -1171,23 +1015,17 @@
     "countries": [
       "BE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Home'Pay"
-      }
-    ]
+    "name": {
+      "en": "Home'Pay"
+    }
   },
   {
     "code": "citadelelatvia",
     "vendor": "citadelelatvia",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Citadele Latvia"
-      }
-    ]
+    "name": {
+      "en": "Citadele Latvia"
+    }
   },
   {
     "code": "erstebank",
@@ -1198,12 +1036,9 @@
       "HU",
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Erste Bank"
-      }
-    ]
+    "name": {
+      "en": "Erste Bank"
+    }
   },
   {
     "code": "inteligo",
@@ -1212,42 +1047,30 @@
     "countries": [
       "AX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Inteligo"
-      }
-    ]
+    "name": {
+      "en": "Inteligo"
+    }
   },
   {
     "code": "nsmep",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Prostir"
-      }
-    ]
+    "name": {
+      "en": "Prostir"
+    }
   },
   {
     "code": "advcash",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "ADVcash"
-      }
-    ]
+    "name": {
+      "en": "ADVcash"
+    }
   },
   {
     "code": "ssk_ua",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk Ukraine"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk Ukraine"
+    }
   },
   {
     "code": "paymer",
@@ -1256,160 +1079,112 @@
     "countries": [
       "UA"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Paymer check"
-      }
-    ],
-    "description": [
-      {
-        "code": "ru",
-        "text": "Чек Paymer"
-      }
-    ]
+    "name": {
+      "en": "Paymer check"
+    },
+    "description": {
+      "ru": "Чек Paymer"
+    }
   },
   {
     "code": "cifrograd",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Cifrograd"
-      }
-    ]
+    "name": {
+      "en": "Cifrograd"
+    }
   },
   {
     "code": "kviku",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Kviku"
-      }
-    ]
+    "name": {
+      "en": "Kviku"
+    }
   },
   {
     "code": "exmo",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Exmo"
-      }
-    ]
+    "name": {
+      "en": "Exmo"
+    }
   },
   {
     "code": "ssk_tj",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk Tajikistan"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk Tajikistan"
+    }
   },
   {
     "code": "ssk_za",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk South Africa"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk South Africa"
+    }
   },
   {
     "code": "ssk_by",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk Belarus"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk Belarus"
+    }
   },
   {
     "code": "ssk_ru",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk Russia"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk Russia"
+    }
   },
   {
     "code": "ssk_md",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk Moldova"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk Moldova"
+    }
   },
   {
     "code": "ssk_ge",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk Georgia"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk Georgia"
+    }
   },
   {
     "code": "ssk_kz",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Self service kiosk Kazakhstan"
-      }
-    ]
+    "name": {
+      "en": "Self service kiosk Kazakhstan"
+    }
   },
   {
     "code": "coingate",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "CoinGate"
-      }
-    ]
+    "name": {
+      "en": "CoinGate"
+    }
   },
   {
     "code": "perfectmoney",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Perfect Money"
-      }
-    ]
+    "name": {
+      "en": "Perfect Money"
+    }
   },
   {
     "code": "wmcard",
     "vendor": "webmoney",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "WebMoney card"
-      }
-    ]
+    "name": {
+      "en": "WebMoney card"
+    }
   },
   {
     "code": "wmnote",
     "vendor": "webmoney",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "WebMoney note"
-      }
-    ]
+    "name": {
+      "en": "WebMoney note"
+    }
   },
   {
     "code": "viabalotoonlinecashpaymentmethodscolombia",
@@ -1418,12 +1193,9 @@
     "countries": [
       "CO"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Via Baloto"
-      }
-    ]
+    "name": {
+      "en": "Via Baloto"
+    }
   },
   {
     "code": "famsaalternativecashpaymentmethodsmexico",
@@ -1432,12 +1204,9 @@
     "countries": [
       "MX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Famsa"
-      }
-    ]
+    "name": {
+      "en": "Famsa"
+    }
   },
   {
     "code": "oxxoalternativecashpaymentmethodsmexico",
@@ -1446,52 +1215,37 @@
     "countries": [
       "MX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Oxxo"
-      }
-    ]
+    "name": {
+      "en": "Oxxo"
+    }
   },
   {
     "code": "mts",
     "category": "mobile_carrier_billing",
-    "name": [
-      {
-        "code": "en",
-        "text": "MTS"
-      }
-    ]
+    "name": {
+      "en": "MTS"
+    }
   },
   {
     "code": "beeline",
     "category": "mobile_carrier_billing",
-    "name": [
-      {
-        "code": "en",
-        "text": "Beeline"
-      }
-    ]
+    "name": {
+      "en": "Beeline"
+    }
   },
   {
     "code": "test",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Test"
-      }
-    ]
+    "name": {
+      "en": "Test"
+    }
   },
   {
     "code": "kievstar",
     "category": "mobile_carrier_billing",
-    "name": [
-      {
-        "code": "en",
-        "text": "Kievstar"
-      }
-    ]
+    "name": {
+      "en": "Kievstar"
+    }
   },
   {
     "code": "csob",
@@ -1501,22 +1255,16 @@
       "CZ",
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "CSOB"
-      }
-    ]
+    "name": {
+      "en": "CSOB"
+    }
   },
   {
     "code": "megafon",
     "category": "mobile_carrier_billing",
-    "name": [
-      {
-        "code": "en",
-        "text": "Megafon"
-      }
-    ]
+    "name": {
+      "en": "Megafon"
+    }
   },
   {
     "code": "applepay",
@@ -1525,12 +1273,9 @@
     "countries": [
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Apple Pay"
-      }
-    ]
+    "name": {
+      "en": "Apple Pay"
+    }
   },
   {
     "code": "paydirektalternativepaymentmethodgermany",
@@ -1539,33 +1284,24 @@
     "countries": [
       "DE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "paydirekt"
-      }
-    ]
+    "name": {
+      "en": "paydirekt"
+    }
   },
   {
     "code": "billmelater",
     "vendor": "billmelater",
     "category": "invoice_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "PayPal Credit"
-      }
-    ]
+    "name": {
+      "en": "PayPal Credit"
+    }
   },
   {
     "code": "lider",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Leader"
-      }
-    ]
+    "name": {
+      "en": "Leader"
+    }
   },
   {
     "code": "farmaciasdelahorroalternativecashpaymentmethodsmexico",
@@ -1574,12 +1310,9 @@
     "countries": [
       "MX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Farmacias del Ahorro"
-      }
-    ]
+    "name": {
+      "en": "Farmacias del Ahorro"
+    }
   },
   {
     "code": "payshop",
@@ -1588,12 +1321,9 @@
     "countries": [
       "PT"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Payshop"
-      }
-    ]
+    "name": {
+      "en": "Payshop"
+    }
   },
   {
     "code": "capayable",
@@ -1602,12 +1332,9 @@
     "countries": [
       "NL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Capayable"
-      }
-    ]
+    "name": {
+      "en": "Capayable"
+    }
   },
   {
     "code": "frenchonlinepaymentmethodewalletpaylib",
@@ -1616,12 +1343,9 @@
     "countries": [
       "FR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "paylib"
-      }
-    ]
+    "name": {
+      "en": "paylib"
+    }
   },
   {
     "code": "webmoneytransfer",
@@ -1644,12 +1368,9 @@
       "TT",
       "VE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "WebMoney Transfer"
-      }
-    ]
+    "name": {
+      "en": "WebMoney Transfer"
+    }
   },
   {
     "code": "visacheckout",
@@ -1671,23 +1392,17 @@
       "ZA",
       "UA"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Visa Checkout"
-      }
-    ]
+    "name": {
+      "en": "Visa Checkout"
+    }
   },
   {
     "code": "everi",
     "vendor": "everi",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Everi"
-      }
-    ]
+    "name": {
+      "en": "Everi"
+    }
   },
   {
     "code": "pagseguro",
@@ -1696,12 +1411,9 @@
     "countries": [
       "BR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PagSeguro"
-      }
-    ]
+    "name": {
+      "en": "PagSeguro"
+    }
   },
   {
     "code": "qiwi",
@@ -1710,12 +1422,9 @@
     "countries": [
       "RW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "VISA QIWI Wallet"
-      }
-    ]
+    "name": {
+      "en": "VISA QIWI Wallet"
+    }
   },
   {
     "code": "onecard",
@@ -1734,12 +1443,9 @@
       "UA",
       "YE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "OneCard"
-      }
-    ]
+    "name": {
+      "en": "OneCard"
+    }
   },
   {
     "code": "mobikwik",
@@ -1748,45 +1454,33 @@
     "countries": [
       "IN"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "MobiKwik"
-      }
-    ]
+    "name": {
+      "en": "MobiKwik"
+    }
   },
   {
     "code": "payfastwallet",
     "vendor": "payfastwallet",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Payfast Wallet"
-      }
-    ]
+    "name": {
+      "en": "Payfast Wallet"
+    }
   },
   {
     "code": "tenpay",
     "vendor": "tenpay",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Tenpay"
-      }
-    ]
+    "name": {
+      "en": "Tenpay"
+    }
   },
   {
     "code": "abaqoos",
     "vendor": "abaqoos",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Abaqoos"
-      }
-    ]
+    "name": {
+      "en": "Abaqoos"
+    }
   },
   {
     "code": "masterpass",
@@ -1799,82 +1493,58 @@
       "IT",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Masterpass"
-      }
-    ]
+    "name": {
+      "en": "Masterpass"
+    }
   },
   {
     "code": "googlewallet",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Google Wallet"
-      }
-    ]
+    "name": {
+      "en": "Google Wallet"
+    }
   },
   {
     "code": "epayua",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "E-Pay"
-      }
-    ]
+    "name": {
+      "en": "E-Pay"
+    }
   },
   {
     "code": "rbkmoney",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "RBK Money"
-      }
-    ]
+    "name": {
+      "en": "RBK Money"
+    }
   },
   {
     "code": "mminvoicing",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "MM Invoicing"
-      }
-    ]
+    "name": {
+      "en": "MM Invoicing"
+    }
   },
   {
     "code": "sbrebank",
     "category": "bank_transfers",
-    "name": [
-      {
-        "code": "en",
-        "text": "SberBank"
-      }
-    ]
+    "name": {
+      "en": "SberBank"
+    }
   },
   {
     "code": "banktransfer",
     "category": "bank_transfers",
-    "name": [
-      {
-        "code": "en",
-        "text": "Bank transfer"
-      }
-    ]
+    "name": {
+      "en": "Bank transfer"
+    }
   },
   {
     "code": "privatbank",
     "category": "bank_transfers",
-    "name": [
-      {
-        "code": "en",
-        "text": "Privatbank"
-      }
-    ]
+    "name": {
+      "en": "Privatbank"
+    }
   },
   {
     "code": "postovabanka",
@@ -1883,42 +1553,30 @@
     "countries": [
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Postová Banka"
-      }
-    ]
+    "name": {
+      "en": "Postová Banka"
+    }
   },
   {
     "code": "cash",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Cash"
-      }
-    ]
+    "name": {
+      "en": "Cash"
+    }
   },
   {
     "code": "ecoineu",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Ecoin.eu"
-      }
-    ]
+    "name": {
+      "en": "Ecoin.eu"
+    }
   },
   {
     "code": "cellularworld",
     "category": "mobile_carrier_billing",
-    "name": [
-      {
-        "code": "en",
-        "text": "Cellular World"
-      }
-    ]
+    "name": {
+      "en": "Cellular World"
+    }
   },
   {
     "code": "barzahlen",
@@ -1927,12 +1585,9 @@
     "countries": [
       "DE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Barzahlen"
-      }
-    ]
+    "name": {
+      "en": "Barzahlen"
+    }
   },
   {
     "code": "fastcheckoutmultisafepay",
@@ -1986,12 +1641,9 @@
       "RW",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "MultiSafepay"
-      }
-    ]
+    "name": {
+      "en": "MultiSafepay"
+    }
   },
   {
     "code": "gcashwallet",
@@ -2000,12 +1652,9 @@
     "countries": [
       "PH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "GCASH"
-      }
-    ]
+    "name": {
+      "en": "GCASH"
+    }
   },
   {
     "code": "acceptgiro",
@@ -2014,53 +1663,38 @@
     "countries": [
       "NL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Acceptgiro"
-      }
-    ]
+    "name": {
+      "en": "Acceptgiro"
+    }
   },
   {
     "code": "mypaywizard",
     "vendor": "mypaywizard",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "MyPayWizard"
-      }
-    ]
+    "name": {
+      "en": "MyPayWizard"
+    }
   },
   {
     "code": "walletone",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "WalletOne"
-      }
-    ]
+    "name": {
+      "en": "WalletOne"
+    }
   },
   {
     "code": "russianpost",
     "category": "cash_on_delivery",
-    "name": [
-      {
-        "code": "en",
-        "text": "Russian Post"
-      }
-    ]
+    "name": {
+      "en": "Russian Post"
+    }
   },
   {
     "code": "privat24",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "ru",
-        "text": "Приват24"
-      }
-    ]
+    "name": {
+      "ru": "Приват24"
+    }
   },
   {
     "code": "wupay",
@@ -2069,44 +1703,32 @@
     "countries": [
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "WU Pay"
-      }
-    ]
+    "name": {
+      "en": "WU Pay"
+    }
   },
   {
     "code": "liqpay_wallet",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "LiqPay"
-      }
-    ]
+    "name": {
+      "en": "LiqPay"
+    }
   },
   {
     "code": "directdebit",
     "vendor": "directdebit",
     "category": "direct_debits",
-    "name": [
-      {
-        "code": "en",
-        "text": "Direct Debit"
-      }
-    ]
+    "name": {
+      "en": "Direct Debit"
+    }
   },
   {
     "code": "payd",
     "vendor": "payd",
     "category": "credit_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "payD"
-      }
-    ]
+    "name": {
+      "en": "payD"
+    }
   },
   {
     "code": "futurepay",
@@ -2115,12 +1737,9 @@
     "countries": [
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "FuturePay"
-      }
-    ]
+    "name": {
+      "en": "FuturePay"
+    }
   },
   {
     "code": "paynearme",
@@ -2129,43 +1748,31 @@
     "countries": [
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PayNearMe"
-      }
-    ]
+    "name": {
+      "en": "PayNearMe"
+    }
   },
   {
     "code": "bank_card",
     "category": "bank_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Card"
-      }
-    ]
+    "name": {
+      "en": "Card"
+    }
   },
   {
     "code": "liqpay",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "LiqPay "
-      }
-    ]
+    "name": {
+      "en": "LiqPay "
+    }
   },
   {
     "code": "vtb24",
     "vendor": "vtb24",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "VTB24"
-      }
-    ]
+    "name": {
+      "en": "VTB24"
+    }
   },
   {
     "code": "account2account",
@@ -2175,22 +1782,16 @@
       "AU",
       "NZ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "account2account"
-      }
-    ]
+    "name": {
+      "en": "account2account"
+    }
   },
   {
     "code": "yota",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Yota"
-      }
-    ]
+    "name": {
+      "en": "Yota"
+    }
   },
   {
     "code": "belfiusdirectnet",
@@ -2199,23 +1800,17 @@
     "countries": [
       "BE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Belfius DirectNet"
-      }
-    ]
+    "name": {
+      "en": "Belfius DirectNet"
+    }
   },
   {
     "code": "mazooma",
     "vendor": "mazooma",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Mazooma"
-      }
-    ]
+    "name": {
+      "en": "Mazooma"
+    }
   },
   {
     "code": "interac",
@@ -2224,112 +1819,79 @@
     "countries": [
       "CA"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Interac Online"
-      }
-    ]
+    "name": {
+      "en": "Interac Online"
+    }
   },
   {
     "code": "payeer",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Payeer"
-      }
-    ]
+    "name": {
+      "en": "Payeer"
+    }
   },
   {
     "code": "interkassa",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Interkassa"
-      }
-    ]
+    "name": {
+      "en": "Interkassa"
+    }
   },
   {
     "code": "psbretail",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "PSB-Retail"
-      }
-    ]
+    "name": {
+      "en": "PSB-Retail"
+    }
   },
   {
     "code": "epese",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Epese"
-      }
-    ]
+    "name": {
+      "en": "Epese"
+    }
   },
   {
     "code": "erip",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Erip"
-      }
-    ]
+    "name": {
+      "en": "Erip"
+    }
   },
   {
     "code": "sberonline",
     "category": "mobile_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "Sberbank Online"
-      }
-    ]
+    "name": {
+      "en": "Sberbank Online"
+    }
   },
   {
     "code": "viber",
     "category": "mobile_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "Viber"
-      }
-    ]
+    "name": {
+      "en": "Viber"
+    }
   },
   {
     "code": "easypay",
     "category": "mobile_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "EasyPay"
-      }
-    ]
+    "name": {
+      "en": "EasyPay"
+    }
   },
   {
     "code": "fakturaru",
     "category": "mobile_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "Faktura"
-      }
-    ]
+    "name": {
+      "en": "Faktura"
+    }
   },
   {
     "code": "standardbank",
     "category": "Invoice",
-    "name": [
-      {
-        "code": "en",
-        "text": "Standart Bank"
-      }
-    ]
+    "name": {
+      "en": "Standart Bank"
+    }
   },
   {
     "code": "tinkoff",
@@ -2337,12 +1899,9 @@
     "countries": [
       "UA"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Tinkoff"
-      }
-    ]
+    "name": {
+      "en": "Tinkoff"
+    }
   },
   {
     "code": "santander",
@@ -2351,12 +1910,9 @@
     "countries": [
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Santander"
-      }
-    ]
+    "name": {
+      "en": "Santander"
+    }
   },
   {
     "code": "bancobrasil",
@@ -2365,22 +1921,16 @@
     "countries": [
       "BR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Banco do Brasil"
-      }
-    ]
+    "name": {
+      "en": "Banco do Brasil"
+    }
   },
   {
     "code": "bitcoin_cash",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Bitcoin Cash"
-      }
-    ]
+    "name": {
+      "en": "Bitcoin Cash"
+    }
   },
   {
     "code": "ceskasporitelna",
@@ -2389,12 +1939,9 @@
     "countries": [
       "CZ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Ceská Sporitelna"
-      }
-    ]
+    "name": {
+      "en": "Ceská Sporitelna"
+    }
   },
   {
     "code": "osuuspankki",
@@ -2403,23 +1950,17 @@
     "countries": [
       "FJ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Osuuspankki"
-      }
-    ]
+    "name": {
+      "en": "Osuuspankki"
+    }
   },
   {
     "code": "inpay",
     "vendor": "inpay",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "inpay"
-      }
-    ]
+    "name": {
+      "en": "inpay"
+    }
   },
   {
     "code": "banklink",
@@ -2428,33 +1969,24 @@
     "countries": [
       "LV"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bank Link"
-      }
-    ]
+    "name": {
+      "en": "Bank Link"
+    }
   },
   {
     "code": "svyaznoy",
     "vendor": "svyaznojbank",
     "category": "Invoice",
-    "name": [
-      {
-        "code": "en",
-        "text": "Svyaznoy"
-      }
-    ]
+    "name": {
+      "en": "Svyaznoy"
+    }
   },
   {
     "code": "usdt",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "Tether"
-      }
-    ]
+    "name": {
+      "en": "Tether"
+    }
   },
   {
     "code": "ekonto",
@@ -2464,12 +1996,9 @@
       "CZ",
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "eKonto"
-      }
-    ]
+    "name": {
+      "en": "eKonto"
+    }
   },
   {
     "code": "kbcbetaalknop",
@@ -2478,12 +2007,9 @@
     "countries": [
       "BE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "KBC \/ CBC Online"
-      }
-    ]
+    "name": {
+      "en": "KBC \/ CBC Online"
+    }
   },
   {
     "code": "tatrabanka",
@@ -2492,12 +2018,9 @@
     "countries": [
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Tatra Banka"
-      }
-    ]
+    "name": {
+      "en": "Tatra Banka"
+    }
   },
   {
     "code": "giropay",
@@ -2506,23 +2029,17 @@
     "countries": [
       "DE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Giropay"
-      }
-    ]
+    "name": {
+      "en": "Giropay"
+    }
   },
   {
     "code": "bancodobrasilcomercioeletronico",
     "vendor": "bancodobrasilcomercioeletronico",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Banco do Brasil"
-      }
-    ]
+    "name": {
+      "en": "Banco do Brasil"
+    }
   },
   {
     "code": "bankinter",
@@ -2531,12 +2048,9 @@
     "countries": [
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bank Inter"
-      }
-    ]
+    "name": {
+      "en": "Bank Inter"
+    }
   },
   {
     "code": "sebbank",
@@ -2548,12 +2062,9 @@
       "LT",
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "SEB Bank"
-      }
-    ]
+    "name": {
+      "en": "SEB Bank"
+    }
   },
   {
     "code": "privatbank_terminals",
@@ -2561,12 +2072,9 @@
     "countries": [
       "UA"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Privatbank Terminals"
-      }
-    ]
+    "name": {
+      "en": "Privatbank Terminals"
+    }
   },
   {
     "code": "perfectmoney_account",
@@ -2575,33 +2083,24 @@
     "countries": [
       "UA"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Perfect Money Account"
-      }
-    ]
+    "name": {
+      "en": "Perfect Money Account"
+    }
   },
   {
     "code": "zapp",
     "vendor": "zapp",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Zapp"
-      }
-    ]
+    "name": {
+      "en": "Zapp"
+    }
   },
   {
     "code": "unistream",
     "category": "bank_transfers",
-    "name": [
-      {
-        "code": "en",
-        "text": "Unistream"
-      }
-    ]
+    "name": {
+      "en": "Unistream"
+    }
   },
   {
     "code": "perfectmoney_voucher",
@@ -2611,23 +2110,17 @@
       "RU",
       "UA"
     ],
-    "name": [
-      {
-        "code": "ru",
-        "text": "Perfect Money Ваучер"
-      }
-    ]
+    "name": {
+      "ru": "Perfect Money Ваучер"
+    }
   },
   {
     "code": "russian_standart_bank",
     "vendor": "russkijstandart",
     "category": "mobile_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "Russian Standard Bank"
-      }
-    ]
+    "name": {
+      "en": "Russian Standard Bank"
+    }
   },
   {
     "code": "slovenskasporitelna",
@@ -2636,12 +2129,9 @@
     "countries": [
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Slovenská Sporitelña"
-      }
-    ]
+    "name": {
+      "en": "Slovenská Sporitelña"
+    }
   },
   {
     "code": "handelsbanken",
@@ -2651,12 +2141,9 @@
       "FJ",
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Handelsbanken"
-      }
-    ]
+    "name": {
+      "en": "Handelsbanken"
+    }
   },
   {
     "code": "servipag",
@@ -2665,12 +2152,9 @@
     "countries": [
       "CL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Servipag"
-      }
-    ]
+    "name": {
+      "en": "Servipag"
+    }
   },
   {
     "code": "kriita2",
@@ -2679,12 +2163,9 @@
     "countries": [
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Kriita AB"
-      }
-    ]
+    "name": {
+      "en": "Kriita AB"
+    }
   },
   {
     "code": "billsafe",
@@ -2694,12 +2175,9 @@
       "AU",
       "DE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "BillSAFE"
-      }
-    ]
+    "name": {
+      "en": "BillSAFE"
+    }
   },
   {
     "code": "farmaciasbenavidesalternativecashpaymentmethodsmexico",
@@ -2708,23 +2186,17 @@
     "countries": [
       "MX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Farmacias Benavides"
-      }
-    ]
+    "name": {
+      "en": "Farmacias Benavides"
+    }
   },
   {
     "code": "minitix",
     "vendor": "minitix",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Minitix"
-      }
-    ]
+    "name": {
+      "en": "Minitix"
+    }
   },
   {
     "code": "yandexmoney",
@@ -2924,33 +2396,24 @@
       "YE",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Yandex.Money"
-      }
-    ]
+    "name": {
+      "en": "Yandex.Money"
+    }
   },
   {
     "code": "ingpl",
     "category": "alternative",
-    "name": [
-      {
-        "code": "en",
-        "text": "ING Bank Poland"
-      }
-    ]
+    "name": {
+      "en": "ING Bank Poland"
+    }
   },
   {
     "code": "clickandbuy",
     "vendor": "clickandbuy",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "ClickandBuy"
-      }
-    ]
+    "name": {
+      "en": "ClickandBuy"
+    }
   },
   {
     "code": "vmevisa",
@@ -2961,34 +2424,25 @@
       "FR",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "V.me by Visa"
-      }
-    ]
+    "name": {
+      "en": "V.me by Visa"
+    }
   },
   {
     "code": "alipay",
     "vendor": "alipay",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Alipay.com"
-      }
-    ]
+    "name": {
+      "en": "Alipay.com"
+    }
   },
   {
     "code": "neteller",
     "vendor": "neteller",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "NETELLER"
-      }
-    ]
+    "name": {
+      "en": "NETELLER"
+    }
   },
   {
     "code": "paysbuy",
@@ -2997,23 +2451,17 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PAYSBUY"
-      }
-    ]
+    "name": {
+      "en": "PAYSBUY"
+    }
   },
   {
     "code": "payzippy",
     "vendor": "payzippy",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "PayZippy"
-      }
-    ]
+    "name": {
+      "en": "PayZippy"
+    }
   },
   {
     "code": "vvvgiftcard",
@@ -3022,12 +2470,9 @@
     "countries": [
       "NL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "VVV Giftcard"
-      }
-    ]
+    "name": {
+      "en": "VVV Giftcard"
+    }
   },
   {
     "code": "pagoefectivo",
@@ -3036,12 +2481,9 @@
     "countries": [
       "PE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PagoEfectivo"
-      }
-    ]
+    "name": {
+      "en": "PagoEfectivo"
+    }
   },
   {
     "code": "rapipago",
@@ -3050,12 +2492,9 @@
     "countries": [
       "AR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Rapipago"
-      }
-    ]
+    "name": {
+      "en": "Rapipago"
+    }
   },
   {
     "code": "efectyonlinecashpaymentmethodscolombia",
@@ -3064,23 +2503,17 @@
     "countries": [
       "CO"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Efecty"
-      }
-    ]
+    "name": {
+      "en": "Efecty"
+    }
   },
   {
     "code": "moneta",
     "vendor": "moneta",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "Moneta"
-      }
-    ]
+    "name": {
+      "en": "Moneta"
+    }
   },
   {
     "code": "mercadopago",
@@ -3094,12 +2527,9 @@
       "MX",
       "VE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "MercadoPago"
-      }
-    ]
+    "name": {
+      "en": "MercadoPago"
+    }
   },
   {
     "code": "toditocash",
@@ -3108,34 +2538,25 @@
     "countries": [
       "MX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Todito Cash"
-      }
-    ]
+    "name": {
+      "en": "Todito Cash"
+    }
   },
   {
     "code": "boletobancariopay",
     "vendor": "boletobancariopay",
     "category": "invoice_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "Boleto Bancario"
-      }
-    ]
+    "name": {
+      "en": "Boleto Bancario"
+    }
   },
   {
     "code": "dokuwallet",
     "vendor": "dokuwallet",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "DOKU Wallet"
-      }
-    ]
+    "name": {
+      "en": "DOKU Wallet"
+    }
   },
   {
     "code": "skrill2",
@@ -3334,12 +2755,9 @@
       "EH",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Skrill Wallet"
-      }
-    ]
+    "name": {
+      "en": "Skrill Wallet"
+    }
   },
   {
     "code": "paypal",
@@ -3503,12 +2921,9 @@
       "WF",
       "YE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PayPal"
-      }
-    ]
+    "name": {
+      "en": "PayPal"
+    }
   },
   {
     "code": "billink",
@@ -3517,23 +2932,17 @@
     "countries": [
       "NL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Billink"
-      }
-    ]
+    "name": {
+      "en": "Billink"
+    }
   },
   {
     "code": "247billpay",
     "vendor": "247billpay",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "24-7 Bill Pay"
-      }
-    ]
+    "name": {
+      "en": "24-7 Bill Pay"
+    }
   },
   {
     "code": "afterpay",
@@ -3547,12 +2956,9 @@
       "NO",
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "AfterPay"
-      }
-    ]
+    "name": {
+      "en": "AfterPay"
+    }
   },
   {
     "code": "paybybill",
@@ -3566,12 +2972,9 @@
       "NO",
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PayByBill"
-      }
-    ]
+    "name": {
+      "en": "PayByBill"
+    }
   },
   {
     "code": "acceptemail",
@@ -3626,12 +3029,9 @@
       "AE",
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "AcceptEmail"
-      }
-    ]
+    "name": {
+      "en": "AcceptEmail"
+    }
   },
   {
     "code": "7elevenalternativecashpaymentmethodsmexico",
@@ -3640,12 +3040,9 @@
     "countries": [
       "MX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "7-Eleven"
-      }
-    ]
+    "name": {
+      "en": "7-Eleven"
+    }
   },
   {
     "code": "klarna",
@@ -3661,12 +3058,9 @@
       "SE",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Klarna"
-      }
-    ]
+    "name": {
+      "en": "Klarna"
+    }
   },
   {
     "code": "sencillitoalternativecashpaymentmethodschile",
@@ -3675,12 +3069,9 @@
     "countries": [
       "CL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Sencillito"
-      }
-    ]
+    "name": {
+      "en": "Sencillito"
+    }
   },
   {
     "code": "billpay",
@@ -3692,12 +3083,9 @@
       "NL",
       "CH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "BIllpay"
-      }
-    ]
+    "name": {
+      "en": "BIllpay"
+    }
   },
   {
     "code": "kwixo",
@@ -3706,23 +3094,17 @@
     "countries": [
       "FR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Kwixo"
-      }
-    ]
+    "name": {
+      "en": "Kwixo"
+    }
   },
   {
     "code": "mpayaisthailand",
     "vendor": "mpayaisthailand",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "mPAY"
-      }
-    ]
+    "name": {
+      "en": "mPAY"
+    }
   },
   {
     "code": "smartmoney",
@@ -3731,12 +3113,9 @@
     "countries": [
       "PH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Smart Money"
-      }
-    ]
+    "name": {
+      "en": "Smart Money"
+    }
   },
   {
     "code": "justpayewallet",
@@ -3745,12 +3124,9 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "TOT Just Pay"
-      }
-    ]
+    "name": {
+      "en": "TOT Just Pay"
+    }
   },
   {
     "code": "zimpler",
@@ -3760,12 +3136,9 @@
       "FJ",
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Zimpler"
-      }
-    ]
+    "name": {
+      "en": "Zimpler"
+    }
   },
   {
     "code": "dwolla",
@@ -3774,12 +3147,9 @@
     "countries": [
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Dwolla"
-      }
-    ]
+    "name": {
+      "en": "Dwolla"
+    }
   },
   {
     "code": "bancnetdirectdebits",
@@ -3788,12 +3158,9 @@
     "countries": [
       "PH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "BancNet"
-      }
-    ]
+    "name": {
+      "en": "BancNet"
+    }
   },
   {
     "code": "primabanka",
@@ -3802,34 +3169,25 @@
     "countries": [
       "SK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Prima Banka"
-      }
-    ]
+    "name": {
+      "en": "Prima Banka"
+    }
   },
   {
     "code": "pagorapido",
     "vendor": "pagorapido",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "PagoRapido"
-      }
-    ]
+    "name": {
+      "en": "PagoRapido"
+    }
   },
   {
     "code": "przelewy24",
     "vendor": "przelewy24",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Przelewy24"
-      }
-    ]
+    "name": {
+      "en": "Przelewy24"
+    }
   },
   {
     "code": "mybank2",
@@ -3838,34 +3196,25 @@
     "countries": [
       "IT"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "MyBank"
-      }
-    ]
+    "name": {
+      "en": "MyBank"
+    }
   },
   {
     "code": "banrisulbanricompras",
     "vendor": "banrisulbanricompras",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Banrisul Banricompras"
-      }
-    ]
+    "name": {
+      "en": "Banrisul Banricompras"
+    }
   },
   {
     "code": "eps",
     "vendor": "eps",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "eps e-payment"
-      }
-    ]
+    "name": {
+      "en": "eps e-payment"
+    }
   },
   {
     "code": "bangkokbanknetbanking",
@@ -3876,12 +3225,9 @@
       "PH",
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bangkok Bank netbanking"
-      }
-    ]
+    "name": {
+      "en": "Bangkok Bank netbanking"
+    }
   },
   {
     "code": "skandiabanken",
@@ -3890,12 +3236,9 @@
     "countries": [
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Skandiabanken"
-      }
-    ]
+    "name": {
+      "en": "Skandiabanken"
+    }
   },
   {
     "code": "cimbclicksinternetbanking",
@@ -3907,12 +3250,9 @@
       "SG",
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "CIMBClicks"
-      }
-    ]
+    "name": {
+      "en": "CIMBClicks"
+    }
   },
   {
     "code": "unitedoverseasbankuobnetbanking",
@@ -3922,12 +3262,9 @@
       "MY",
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "UOB netbanking"
-      }
-    ]
+    "name": {
+      "en": "UOB netbanking"
+    }
   },
   {
     "code": "creditagricole",
@@ -3936,12 +3273,9 @@
     "countries": [
       "AX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Crédit Agricole"
-      }
-    ]
+    "name": {
+      "en": "Crédit Agricole"
+    }
   },
   {
     "code": "forexbank",
@@ -3950,12 +3284,9 @@
     "countries": [
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Forex Bank"
-      }
-    ]
+    "name": {
+      "en": "Forex Bank"
+    }
   },
   {
     "code": "bbva",
@@ -3964,12 +3295,9 @@
     "countries": [
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "BBVA"
-      }
-    ]
+    "name": {
+      "en": "BBVA"
+    }
   },
   {
     "code": "oppohjola",
@@ -3978,12 +3306,9 @@
     "countries": [
       "FJ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "OP-Pohjola"
-      }
-    ]
+    "name": {
+      "en": "OP-Pohjola"
+    }
   },
   {
     "code": "danskebank",
@@ -3995,12 +3320,9 @@
       "FJ",
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Danske Bank"
-      }
-    ]
+    "name": {
+      "en": "Danske Bank"
+    }
   },
   {
     "code": "bdooverthecounterofflinebankdeposit",
@@ -4009,12 +3331,9 @@
     "countries": [
       "PH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "BDO Over-The-Counter"
-      }
-    ]
+    "name": {
+      "en": "BDO Over-The-Counter"
+    }
   },
   {
     "code": "bankofchinanetbanking",
@@ -4024,12 +3343,9 @@
       "CL",
       "MO"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bank of China netbanking"
-      }
-    ]
+    "name": {
+      "en": "Bank of China netbanking"
+    }
   },
   {
     "code": "sofortbanking",
@@ -4046,12 +3362,9 @@
       "CH",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "SOFORT, a Klarna Group Company"
-      }
-    ]
+    "name": {
+      "en": "SOFORT, a Klarna Group Company"
+    }
   },
   {
     "code": "thaimilitarybanktmbnetbanking",
@@ -4060,12 +3373,9 @@
     "countries": [
       "TH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Thai Military Bank"
-      }
-    ]
+    "name": {
+      "en": "Thai Military Bank"
+    }
   },
   {
     "code": "bankzachodniwbk",
@@ -4074,12 +3384,9 @@
     "countries": [
       "AX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bank Zochadni WBK"
-      }
-    ]
+    "name": {
+      "en": "Bank Zochadni WBK"
+    }
   },
   {
     "code": "swedbank",
@@ -4088,12 +3395,9 @@
     "countries": [
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Swedbank"
-      }
-    ]
+    "name": {
+      "en": "Swedbank"
+    }
   },
   {
     "code": "tapiola",
@@ -4102,12 +3406,9 @@
     "countries": [
       "FJ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Tapiola"
-      }
-    ]
+    "name": {
+      "en": "Tapiola"
+    }
   },
   {
     "code": "multibank",
@@ -4116,12 +3417,9 @@
     "countries": [
       "AX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "MultiTransfer"
-      }
-    ]
+    "name": {
+      "en": "MultiTransfer"
+    }
   },
   {
     "code": "bancopopular",
@@ -4130,12 +3428,9 @@
     "countries": [
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Banco Popular"
-      }
-    ]
+    "name": {
+      "en": "Banco Popular"
+    }
   },
   {
     "code": "maybanknetbankingphillipines",
@@ -4144,12 +3439,9 @@
     "countries": [
       "PH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Maybank netbanking"
-      }
-    ]
+    "name": {
+      "en": "Maybank netbanking"
+    }
   },
   {
     "code": "redcompraalternativeonlinepaymentmethodchile",
@@ -4158,12 +3450,9 @@
     "countries": [
       "CL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Red Compra"
-      }
-    ]
+    "name": {
+      "en": "Red Compra"
+    }
   },
   {
     "code": "nordea",
@@ -4179,12 +3468,9 @@
       "NO",
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Nordea"
-      }
-    ]
+    "name": {
+      "en": "Nordea"
+    }
   },
   {
     "code": "raiffeisenbank",
@@ -4196,12 +3482,9 @@
       "CZ",
       "HU"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Raiffeisen Bank"
-      }
-    ]
+    "name": {
+      "en": "Raiffeisen Bank"
+    }
   },
   {
     "code": "postpay",
@@ -4210,12 +3493,9 @@
     "countries": [
       "AU"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PostPay"
-      }
-    ]
+    "name": {
+      "en": "PostPay"
+    }
   },
   {
     "code": "polipayonline",
@@ -4225,34 +3505,25 @@
       "AU",
       "NZ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "POLi Payments"
-      }
-    ]
+    "name": {
+      "en": "POLi Payments"
+    }
   },
   {
     "code": "usemyservices",
     "vendor": "usemyservices",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "UseMyServices"
-      }
-    ]
+    "name": {
+      "en": "UseMyServices"
+    }
   },
   {
     "code": "ciberpay",
     "vendor": "ciberpay",
     "category": "internet_banking",
-    "name": [
-      {
-        "code": "en",
-        "text": "Ciber Pay"
-      }
-    ]
+    "name": {
+      "en": "Ciber Pay"
+    }
   },
   {
     "code": "milleniumbank",
@@ -4261,12 +3532,9 @@
     "countries": [
       "AX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Millenium Bank"
-      }
-    ]
+    "name": {
+      "en": "Millenium Bank"
+    }
   },
   {
     "code": "bankia",
@@ -4275,12 +3543,9 @@
     "countries": [
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bankia"
-      }
-    ]
+    "name": {
+      "en": "Bankia"
+    }
   },
   {
     "code": "rixty",
@@ -4289,34 +3554,25 @@
     "countries": [
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Rixty"
-      }
-    ]
+    "name": {
+      "en": "Rixty"
+    }
   },
   {
     "code": "peela",
     "vendor": "peela",
     "category": "prepaid_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Peela"
-      }
-    ]
+    "name": {
+      "en": "Peela"
+    }
   },
   {
     "code": "teleingreso",
     "vendor": "teleingreso",
     "category": "prepaid_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Teleingreso"
-      }
-    ]
+    "name": {
+      "en": "Teleingreso"
+    }
   },
   {
     "code": "neosurf",
@@ -4367,12 +3623,9 @@
       "UA",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Neosurf"
-      }
-    ]
+    "name": {
+      "en": "Neosurf"
+    }
   },
   {
     "code": "ticketpremium",
@@ -4381,45 +3634,33 @@
     "countries": [
       "FR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Ticket Premium"
-      }
-    ]
+    "name": {
+      "en": "Ticket Premium"
+    }
   },
   {
     "code": "papaya",
     "vendor": "papaya",
     "category": "prepaid_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Papaya"
-      }
-    ]
+    "name": {
+      "en": "Papaya"
+    }
   },
   {
     "code": "postepay",
     "vendor": "postepay",
     "category": "prepaid_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Postepay"
-      }
-    ]
+    "name": {
+      "en": "Postepay"
+    }
   },
   {
     "code": "serve",
     "vendor": "serve",
     "category": "prepaid_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Serve"
-      }
-    ]
+    "name": {
+      "en": "Serve"
+    }
   },
   {
     "code": "flexepinemoneyvouchers",
@@ -4429,12 +3670,9 @@
       "AU",
       "CA"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Flexepin"
-      }
-    ]
+    "name": {
+      "en": "Flexepin"
+    }
   },
   {
     "code": "cashu",
@@ -4455,12 +3693,9 @@
       "UA",
       "YE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "CASHU"
-      }
-    ]
+    "name": {
+      "en": "CASHU"
+    }
   },
   {
     "code": "paysafecard",
@@ -4506,12 +3741,9 @@
       "AE",
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "paysafecard"
-      }
-    ]
+    "name": {
+      "en": "paysafecard"
+    }
   },
   {
     "code": "ukash",
@@ -4539,23 +3771,17 @@
       "TR",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Ukash"
-      }
-    ]
+    "name": {
+      "en": "Ukash"
+    }
   },
   {
     "code": "dinersclub",
     "vendor": "dinersclub",
     "category": "credit_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Diners Club International"
-      }
-    ]
+    "name": {
+      "en": "Diners Club International"
+    }
   },
   {
     "code": "chinaunionpay",
@@ -4565,12 +3791,9 @@
       "AU",
       "CL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "China UnionPay"
-      }
-    ]
+    "name": {
+      "en": "China UnionPay"
+    }
   },
   {
     "code": "presto",
@@ -4579,12 +3802,9 @@
     "countries": [
       "CL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Presto"
-      }
-    ]
+    "name": {
+      "en": "Presto"
+    }
   },
   {
     "code": "banamexdebitcardonlinepaymentmethodmexico",
@@ -4593,12 +3813,9 @@
     "countries": [
       "MX"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Banamex"
-      }
-    ]
+    "name": {
+      "en": "Banamex"
+    }
   },
   {
     "code": "tarjetaripley",
@@ -4607,12 +3824,9 @@
     "countries": [
       "CL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Ripley"
-      }
-    ]
+    "name": {
+      "en": "Ripley"
+    }
   },
   {
     "code": "americanexpress",
@@ -4816,12 +4030,9 @@
       "YE",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "American Express"
-      }
-    ]
+    "name": {
+      "en": "American Express"
+    }
   },
   {
     "code": "cartasi",
@@ -4830,23 +4041,17 @@
     "countries": [
       "IT"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "CartaSi"
-      }
-    ]
+    "name": {
+      "en": "CartaSi"
+    }
   },
   {
     "code": "uatp",
     "vendor": "uatp",
     "category": "credit_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "UATP"
-      }
-    ]
+    "name": {
+      "en": "UATP"
+    }
   },
   {
     "code": "elo",
@@ -4855,12 +4060,9 @@
     "countries": [
       "BR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Elo"
-      }
-    ]
+    "name": {
+      "en": "Elo"
+    }
   },
   {
     "code": "aura",
@@ -4870,12 +4072,9 @@
       "BR",
       "FR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Aura"
-      }
-    ]
+    "name": {
+      "en": "Aura"
+    }
   },
   {
     "code": "hipercard",
@@ -4884,12 +4083,9 @@
     "countries": [
       "BR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Hipercard"
-      }
-    ]
+    "name": {
+      "en": "Hipercard"
+    }
   },
   {
     "code": "mastercard",
@@ -5093,12 +4289,9 @@
       "YE",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "MasterCard"
-      }
-    ]
+    "name": {
+      "en": "MasterCard"
+    }
   },
   {
     "code": "visa2",
@@ -5302,34 +4495,25 @@
       "YE",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Visa"
-      }
-    ]
+    "name": {
+      "en": "Visa"
+    }
   },
   {
     "code": "jcb",
     "vendor": "jcb",
     "category": "credit_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "JCB"
-      }
-    ]
+    "name": {
+      "en": "JCB"
+    }
   },
   {
     "code": "discover",
     "vendor": "discover",
     "category": "credit_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Discover"
-      }
-    ]
+    "name": {
+      "en": "Discover"
+    }
   },
   {
     "code": "magnacreditcardsonlinepaymentmethodschile",
@@ -5338,12 +4522,9 @@
     "countries": [
       "CL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Magna"
-      }
-    ]
+    "name": {
+      "en": "Magna"
+    }
   },
   {
     "code": "webpaypluscreditcardsonlinepaymentsolutionchile",
@@ -5352,12 +4533,9 @@
     "countries": [
       "CL"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Webpay plus"
-      }
-    ]
+    "name": {
+      "en": "Webpay plus"
+    }
   },
   {
     "code": "tarjetanaranjacreditcard",
@@ -5366,12 +4544,9 @@
     "countries": [
       "AR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "tarjeta naranja"
-      }
-    ]
+    "name": {
+      "en": "tarjeta naranja"
+    }
   },
   {
     "code": "vpay",
@@ -5382,12 +4557,9 @@
       "IT",
       "LU"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "V PAY"
-      }
-    ]
+    "name": {
+      "en": "V PAY"
+    }
   },
   {
     "code": "cabal",
@@ -5396,34 +4568,25 @@
     "countries": [
       "AR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Cabal"
-      }
-    ]
+    "name": {
+      "en": "Cabal"
+    }
   },
   {
     "code": "visaelectron",
     "vendor": "visaelectron",
     "category": "debit_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Visa Electron"
-      }
-    ]
+    "name": {
+      "en": "Visa Electron"
+    }
   },
   {
     "code": "mastercarddebit",
     "vendor": "mastercarddebit",
     "category": "debit_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "MasterCard Debit"
-      }
-    ]
+    "name": {
+      "en": "MasterCard Debit"
+    }
   },
   {
     "code": "maestro",
@@ -5436,23 +4599,17 @@
       "ES",
       "AE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Maestro"
-      }
-    ]
+    "name": {
+      "en": "Maestro"
+    }
   },
   {
     "code": "cartebancaires",
     "vendor": "cartebancaires",
     "category": "debit_cards",
-    "name": [
-      {
-        "code": "en",
-        "text": "Carte Bancaires"
-      }
-    ]
+    "name": {
+      "en": "Carte Bancaires"
+    }
   },
   {
     "code": "rupaypaysecure",
@@ -5461,12 +4618,9 @@
     "countries": [
       "IN"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "RuPay PaySecure"
-      }
-    ]
+    "name": {
+      "en": "RuPay PaySecure"
+    }
   },
   {
     "code": "dankort",
@@ -5475,12 +4629,9 @@
     "countries": [
       "DK"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Dankort"
-      }
-    ]
+    "name": {
+      "en": "Dankort"
+    }
   },
   {
     "code": "debitobradesco",
@@ -5489,12 +4640,9 @@
     "countries": [
       "BR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Debito Bradesco"
-      }
-    ]
+    "name": {
+      "en": "Debito Bradesco"
+    }
   },
   {
     "code": "cartebleue",
@@ -5503,12 +4651,9 @@
     "countries": [
       "FR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Carte Bleue"
-      }
-    ]
+    "name": {
+      "en": "Carte Bleue"
+    }
   },
   {
     "code": "girocard",
@@ -5517,12 +4662,9 @@
     "countries": [
       "DE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "girocard"
-      }
-    ]
+    "name": {
+      "en": "girocard"
+    }
   },
   {
     "code": "visadebit",
@@ -5724,12 +4866,9 @@
       "YE",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Visa Debit"
-      }
-    ]
+    "name": {
+      "en": "Visa Debit"
+    }
   },
   {
     "code": "postfinancecard",
@@ -5738,12 +4877,9 @@
     "countries": [
       "CH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PostFinance Card"
-      }
-    ]
+    "name": {
+      "en": "PostFinance Card"
+    }
   },
   {
     "code": "electroniccheckach",
@@ -5752,23 +4888,17 @@
     "countries": [
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "eCheck (ACH)"
-      }
-    ]
+    "name": {
+      "en": "eCheck (ACH)"
+    }
   },
   {
     "code": "papercheck",
     "vendor": "papercheck",
     "category": "checks",
-    "name": [
-      {
-        "code": "en",
-        "text": "Paper Check"
-      }
-    ]
+    "name": {
+      "en": "Paper Check"
+    }
   },
   {
     "code": "zipmark",
@@ -5777,12 +4907,9 @@
     "countries": [
       "UM"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Zipmark"
-      }
-    ]
+    "name": {
+      "en": "Zipmark"
+    }
   },
   {
     "code": "smsbilling",
@@ -5945,12 +5072,9 @@
       "YE",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "SMS Billing"
-      }
-    ]
+    "name": {
+      "en": "SMS Billing"
+    }
   },
   {
     "code": "carrierbilling",
@@ -6152,23 +5276,17 @@
       "YE",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Carrier Billing"
-      }
-    ]
+    "name": {
+      "en": "Carrier Billing"
+    }
   },
   {
     "code": "ivrbilling",
     "vendor": "ivrbilling",
     "category": "mobile_payments",
-    "name": [
-      {
-        "code": "en",
-        "text": "IVR Billing"
-      }
-    ]
+    "name": {
+      "en": "IVR Billing"
+    }
   },
   {
     "code": "pingping",
@@ -6177,12 +5295,9 @@
     "countries": [
       "BE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "ping.ping"
-      }
-    ]
+    "name": {
+      "en": "ping.ping"
+    }
   },
   {
     "code": "pagofacil",
@@ -6191,12 +5306,9 @@
     "countries": [
       "AR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Pagofacil"
-      }
-    ]
+    "name": {
+      "en": "Pagofacil"
+    }
   },
   {
     "code": "moneytopay",
@@ -6399,12 +5511,9 @@
       "EH",
       "ZW"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "MoneyToPay"
-      }
-    ]
+    "name": {
+      "en": "MoneyToPay"
+    }
   },
   {
     "code": "argencard",
@@ -6413,12 +5522,9 @@
     "countries": [
       "AR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Argencard"
-      }
-    ]
+    "name": {
+      "en": "Argencard"
+    }
   },
   {
     "code": "barpay",
@@ -6427,23 +5533,17 @@
     "countries": [
       "DE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "BarPay"
-      }
-    ]
+    "name": {
+      "en": "BarPay"
+    }
   },
   {
     "code": "onlinenaira",
     "vendor": "onlinenaira",
     "category": "e_wallets",
-    "name": [
-      {
-        "code": "en",
-        "text": "OnlineNaira"
-      }
-    ]
+    "name": {
+      "en": "OnlineNaira"
+    }
   },
   {
     "code": "bkmexpress",
@@ -6452,12 +5552,9 @@
     "countries": [
       "TR"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "BKM Express"
-      }
-    ]
+    "name": {
+      "en": "BKM Express"
+    }
   },
   {
     "code": "postfinanceefinance",
@@ -6466,12 +5563,9 @@
     "countries": [
       "CH"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "PostFinance E-Finance"
-      }
-    ]
+    "name": {
+      "en": "PostFinance E-Finance"
+    }
   },
   {
     "code": "bankaxess",
@@ -6480,12 +5574,9 @@
     "countries": [
       "NO"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bankaxess"
-      }
-    ]
+    "name": {
+      "en": "Bankaxess"
+    }
   },
   {
     "code": "icabanken",
@@ -6494,12 +5585,9 @@
     "countries": [
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "ICA-Banken"
-      }
-    ]
+    "name": {
+      "en": "ICA-Banken"
+    }
   },
   {
     "code": "lansforsakringar",
@@ -6508,12 +5596,9 @@
     "countries": [
       "SE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Länsförsäkringar"
-      }
-    ]
+    "name": {
+      "en": "Länsförsäkringar"
+    }
   },
   {
     "code": "saastopankki",
@@ -6522,12 +5607,9 @@
     "countries": [
       "FJ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Säästöpankki"
-      }
-    ]
+    "name": {
+      "en": "Säästöpankki"
+    }
   },
   {
     "code": "bancsabadell",
@@ -6536,12 +5618,9 @@
     "countries": [
       "ES"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Banc Sabadell"
-      }
-    ]
+    "name": {
+      "en": "Banc Sabadell"
+    }
   },
   {
     "code": "aktia",
@@ -6550,12 +5629,9 @@
     "countries": [
       "FJ"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Aktia"
-      }
-    ]
+    "name": {
+      "en": "Aktia"
+    }
   },
   {
     "code": "multibanconet",
@@ -6564,12 +5640,9 @@
     "countries": [
       "PT"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "MultiBanco NET"
-      }
-    ]
+    "name": {
+      "en": "MultiBanco NET"
+    }
   },
   {
     "code": "bancontactmistercash",
@@ -6578,11 +5651,8 @@
     "countries": [
       "BE"
     ],
-    "name": [
-      {
-        "code": "en",
-        "text": "Bancontact\/Mister Cash"
-      }
-    ]
+    "name": {
+      "en": "Bancontact\/Mister Cash"
+    }
   }
 ]
