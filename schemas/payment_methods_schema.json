@@ -1,0 +1,81 @@
+{
+  "definitions": {
+    "translate": {
+      "type": "array",
+      "title": "The Name Schema",
+      "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "code",
+          "text"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "The Code Schema",
+            "pattern": "^[a-z][a-z]$"
+          },
+          "text": {
+            "type": "string",
+            "title": "The Text Schema"
+          }
+        }
+      }
+    }
+  },
+  "type": "array",
+  "title": "The Payment Methods Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "code",
+      "name",
+      "category"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/items/properties/code",
+        "type": "string",
+        "title": "The Code Schema",
+        "examples": [
+          "bancontactmistercash"
+        ],
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
+      },
+      "vendor": {
+        "$id": "#/items/properties/vendor",
+        "type": "string",
+        "title": "The Vendor Schema",
+        "examples": [
+          "bancontactmistercash"
+        ]
+      },
+      "name": { "$ref": "#/definitions/translate" },
+      "description": { "$ref": "#/definitions/translate" },
+      "category": {
+        "$id": "#/items/properties/category",
+        "type": "string",
+        "title": "The Category Schema",
+        "examples": [
+          "debit_cards"
+        ]
+      },
+      "countries": {
+        "$id": "#/items/properties/countries",
+        "type": "array",
+        "title": "The Countries Schema",
+        "items": {
+          "$id": "#/items/properties/countries/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "examples": [
+            "BE"
+          ]
+        }
+      }
+    }
+  }
+}

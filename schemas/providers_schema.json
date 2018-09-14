@@ -1,0 +1,184 @@
+{
+  "definitions": {
+    "translate": {
+      "type": "array",
+      "title": "The Name Schema",
+      "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "code",
+          "text"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "The Code Schema",
+            "pattern": "^[a-z][a-z]$"
+          },
+          "text": {
+            "type": "string",
+            "title": "The Text Schema"
+          }
+        }
+      }
+    }
+  },
+  "type": "array",
+  "title": "The Providers Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "code",
+      "vendor",
+      "name"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/items/properties/code",
+        "type": "string",
+        "title": "The Code Schema",
+        "default": "",
+        "examples": [
+          "digitalriverworldpayments"
+        ],
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
+      },
+      "vendor": {
+        "$id": "#/items/properties/vendor",
+        "type": "string",
+        "title": "The Vendor Schema",
+        "default": "",
+        "examples": [
+          "digitalriverworldpayments"
+        ]
+      },
+      "name": { "$ref": "#/definitions/translate" },
+      "description": { "$ref": "#/definitions/translate" },
+      "categories": {
+        "$id": "#/items/properties/categories",
+        "type": "array",
+        "title": "The Categories Schema",
+        "items": {
+          "$id": "#/items/properties/categories/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "acquiring",
+            "collecting",
+            "aggregating",
+            "distributing"
+          ]
+        }
+      },
+      "countries": {
+        "$id": "#/items/properties/countries",
+        "type": "array",
+        "title": "The Countries Schema",
+        "items": {
+          "$id": "#/items/properties/countries/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "ES"
+          ]
+        }
+      },
+      "features": {
+        "$id": "#/items/properties/features",
+        "type": "array",
+        "title": "The Features Schema",
+        "items": {
+          "$id": "#/items/properties/features/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            " American Express Safekey ",
+            " J-Secure by JCB ",
+            " Recurring ",
+            " Tokenization ",
+            " Hosted Payment Page ",
+            " Partial Captures ",
+            " [feature.pre-authorisation] ",
+            " AVS ",
+            " MasterCard SecureCode ",
+            " Multi-Currency ",
+            " Chargeback Management ",
+            " Refunds ",
+            " Verified by VISA ",
+            " Payment-Transfers ",
+            " Multi-Lingual ",
+            " Fraud Scrubbing ",
+            " Installments ",
+            " [feature.discover-protectbuy] "
+          ]
+        }
+      },
+      "payment_method": {
+        "$id": "#/items/properties/payment_method",
+        "type": "array",
+        "title": "The Payment_method Schema",
+        "items": {
+          "$id": "#/items/properties/payment_method/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "jcb",
+            "visa2",
+            "dinersclub",
+            "visaelectron",
+            "discover",
+            "visadebit",
+            "mastercard"
+          ]
+        }
+      },
+      "payout_method": {
+        "$id": "#/items/properties/payout_method",
+        "type": "array",
+        "title": "The Payout_method Schema",
+        "items": {
+          "$id": "#/items/properties/payout_method/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "bank_card"
+          ]
+        }
+      },
+      "metadata": {
+        "$id": "#/items/properties/metadata",
+        "type": "object",
+        "title": "The Metadata Schema",
+
+        "properties": {
+          "about_payments_code": {
+            "$id": "#/items/properties/metadata/properties/about_payments_code",
+            "type": "string",
+            "title": "The About_payments_code Schema",
+            "default": "",
+            "examples": [
+              "digitalriverworldpayments"
+            ]
+          },
+          "source_reg_org_id": {
+            "$id": "#/items/properties/metadata/properties/source_reg_org_id",
+            "type": "string",
+            "title": "The Source_reg_org_id Schema",
+            "default": "",
+            "examples": [
+              "org_0AlpSpOuYQdsdEjO"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "definitions": {
+    "translate": {
+      "type": "array",
+      "title": "The Name Schema",
+      "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "code",
+          "text"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "The Code Schema",
+            "pattern": "^[a-z][a-z]$"
+          },
+          "text": {
+            "type": "string",
+            "title": "The Text Schema"
+          }
+        }
+      }
+    }
+  },
+  "type": "array",
+  "title": "The Currency Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "code",
+      "name",
+      "type",
+      "exponent",
+      "parent_currency_multiplier",
+      "category"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/items/properties/code",
+        "type": "string",
+        "title": "The Code Schema",
+        "examples": [
+          "IQD"
+        ],
+        "pattern": "^([A-Z0-9]+)([A-Z0-9-_\\.]+)([A-Z0-9]+)$"
+      },
+      "name": { "$ref": "#/definitions/translate" },
+      "type": {
+        "$id": "#/items/properties/type",
+        "type": "string",
+        "title": "The Type Schema",
+        "examples": [
+          "national"
+        ]
+      },
+      "iso_numeric3_code": {
+        "$id": "#/items/properties/iso_numeric3_code",
+        "type": "string",
+        "title": "The Iso_numeric3_code Schema",
+        "examples": [
+          "368"
+        ]
+      },
+      "iso_alpha3_code": {
+        "$id": "#/items/properties/iso_alpha3_code",
+        "type": "string",
+        "title": "The Iso_alpha3_code Schema",
+        "examples": [
+          "368"
+        ]
+      },
+      "symbol": {
+        "$id": "#/items/properties/symbol",
+        "type": "string",
+        "title": "The Symbol Schema",
+        "examples": [
+          "IQD"
+        ]
+      },
+      "native_symbol": {
+        "$id": "#/items/properties/native_symbol",
+        "type": "string",
+        "title": "The Native_symbol Schema",
+        "examples": [
+          "د.ع.‏"
+        ]
+      },
+      "exponent": {
+        "$id": "#/items/properties/exponent",
+        "type": "integer",
+        "title": "The Exponent Schema",
+        "examples": [
+          3
+        ]
+      },
+      "parent_currency_multiplier": {
+        "$id": "#/items/properties/parent_currency_multiplier",
+        "type": "integer",
+        "title": "The Parent_currency_multiplier Schema",
+        "examples": [
+          1
+        ]
+      },
+      "category": {
+        "$id": "#/items/properties/category",
+        "type": "string",
+        "title": "The Category Schema",
+        "examples": [
+          "others"
+        ]
+      },
+      "metadata": {
+        "$id": "#/items/properties/metadata",
+        "type": "object",
+        "title": "The Metadata Schema",
+        "properties": {
+          "estandards_code": {
+            "$id": "#/items/properties/metadata/properties/estandards_code",
+            "type": "string",
+            "title": "The Estandards_code Schema",
+            "examples": [
+              "ZPRUB"
+            ]
+          },
+          "jsons_code": {
+            "$id": "#/items/properties/metadata/properties/jsons_code",
+            "type": "string",
+            "title": "The Jsons_code Schema",
+            "examples": [
+              "YUBTRUB"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
