@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>test-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24" rx="4"></rect>
+        <filter x="-2.1%" y="-2.1%" width="104.2%" height="104.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Modal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_mobile-views" transform="translate(-1028.000000, -2112.000000)">
+            <g id="w-basic" transform="translate(880.000000, 1904.000000)">
+                <g id="--" transform="translate(20.000000, 208.000000)">
+                    <g id="test-icon" transform="translate(128.000000, 0.000000)">
+                        <g id="test">
+                            <g id="Rectangle-2">
+                                <use fill="#F3C924" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M12,0 L20.0041738,0 C22.2110077,0 24,1.79652125 24,3.99582624 L24,12 L12,12 L12,0 Z" id="Rectangle" fill="#2D3440"></path>
+                            <path d="M0,12 L12,12 L12,24 L3.99582624,24 C1.78899235,24 0,22.2034788 0,20.0041738 L0,12 Z" id="Rectangle" fill="#2D3440"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

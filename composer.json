@@ -1,20 +1,11 @@
 {
-    "name": "openfintech/application",
+    "name": "paycore/openfintech-data",
     "license": "MIT",
     "type": "project",
-    "description": "Openfintech application",
-    "autoload": {
-        "psr-4": {"Acme\\": "bin/"}
-    },
+    "description": "Openfintech data",
     "require": {
         "php": "^7.0",
         "justinrainbow/json-schema": "^5.2"
     },
-
-
-    "config": {
-        "bin-dir": "bin"
-    },
-
     "prefer-stable": true
 }

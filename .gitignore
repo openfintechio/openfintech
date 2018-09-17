@@ -1,6 +1,4 @@
-.php_cs.cache
 .idea/
-.ppm
-phpmetrics.phar
-.env
-/vendor/
+composer.lock
+vendor
+bin
