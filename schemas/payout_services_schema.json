@@ -47,14 +47,6 @@
           "type": "object",
           "title": "The Items Schema",
           "properties": {
-            "service": {
-              "$id": "#/items/properties/fields/items/properties/service",
-              "type": "string",
-              "title": "The Service Schema",
-              "examples": [
-                "qiwi_rub_hpp"
-              ]
-            },
             "key": {
               "$id": "#/items/properties/fields/items/properties/key",
               "type": "string",
@@ -88,7 +80,7 @@
                 true
               ]
             },
-            "weight": {
+            "position": {
               "$id": "#/items/properties/fields/items/properties/weight",
               "type": "integer",
               "title": "The Weight Schema",
