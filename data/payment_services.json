@@ -1,0 +1,322 @@
+[
+  {
+    "code": "qiwi_rub_hpp",
+    "flow": "hpp",
+    "method": "qiwi",
+    "currency": "RUB",
+    "fields": [
+      {
+        "service": "qiwi_rub_hpp",
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "regexp": "\/^\\+(9[976]\\d|8[987530]\\d|6[987]\\d|5[90]\\d|42\\d|3[875]\\d|2[98654321]\\d|9[8543210]|8[6421]|6[6543210]|5[87654321]|4[987654310]|3[9643210]|2[70]|7|1)\\d{9,14}$\/",
+        "required": true,
+        "weight": 0
+      }
+    ],
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "ingbankpl_pln_hpp",
+    "flow": "hpp",
+    "method": "ingpl",
+    "currency": "PLN",
+    "fields": [
+      {
+        "service": "ingbankpl_pln_hpp",
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя ",
+          "uk": "Ім`я"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "weight": 0
+      },
+      {
+        "service": "ingbankpl_pln_hpp",
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "weight": 0
+      },
+      {
+        "service": "ingbankpl_pln_hpp",
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": true,
+        "weight": 0
+      }
+    ],
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "privat24_usd_hpp",
+    "flow": "hpp",
+    "method": "privat24",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "liqpay_usd_hpp",
+    "flow": "hpp",
+    "method": "liqpay",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "test_xts_test",
+    "flow": "test",
+    "method": "test",
+    "currency": "XTS",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "privat24_eur_hpp",
+    "flow": "hpp",
+    "method": "privat24",
+    "currency": "EUR",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "liqpay_wallet_eur_hpp",
+    "flow": "hpp",
+    "method": "liqpay_wallet",
+    "currency": "EUR",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "privat24_uah_hpp",
+    "flow": "hpp",
+    "method": "privat24",
+    "currency": "UAH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "liqpay_rub_hpp",
+    "flow": "hpp",
+    "method": "liqpay",
+    "currency": "RUB",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "bank_card_rub_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "RUB",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "privat24_rub_hpp",
+    "flow": "hpp",
+    "method": "privat24",
+    "currency": "RUB",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "liqpay_uah_hpp",
+    "flow": "hpp",
+    "method": "liqpay",
+    "currency": "UAH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "liqpay_wallet_uah_hpp",
+    "flow": "hpp",
+    "method": "liqpay_wallet",
+    "currency": "UAH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "masterpass_usd_hpp",
+    "flow": "hpp",
+    "method": "masterpass",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "bank_card_uah_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "UAH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "coingate_usd_hpp",
+    "flow": "hpp",
+    "method": "coingate",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "usdt_usd_hpp",
+    "flow": "hpp",
+    "method": "usdt",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "masterpass_eur_hpp",
+    "flow": "hpp",
+    "method": "masterpass",
+    "currency": "EUR",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "bitcoin_cash_bch_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "BCH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "masterpass_rub_hpp",
+    "flow": "hpp",
+    "method": "masterpass",
+    "currency": "RUB",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "bank_card_usd_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "ethereum_eth_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "ETH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "privatbank_ssk_uah_hpp",
+    "flow": "hpp",
+    "method": "privatbank_ssk",
+    "currency": "UAH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "privatbank_ssk_usd_hpp",
+    "flow": "hpp",
+    "method": "privatbank_ssk",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "litecoin_ltc_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "LTC",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "privatbank_ssk_rub_hpp",
+    "flow": "hpp",
+    "method": "privatbank_ssk",
+    "currency": "RUB",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "bitcoins_btc_hpp",
+    "flow": "hpp",
+    "method": "bitcoins",
+    "currency": "BTC",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "liqpay_wallet_usd_hpp",
+    "flow": "hpp",
+    "method": "liqpay_wallet",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "liqpay_eur_hpp",
+    "flow": "hpp",
+    "method": "liqpay",
+    "currency": "EUR",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "liqpay_wallet_rub_hpp",
+    "flow": "hpp",
+    "method": "liqpay_wallet",
+    "currency": "RUB",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "bank_card_eur_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "EUR",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "privatbank_ssk_eur_hpp",
+    "flow": "hpp",
+    "method": "privatbank_ssk",
+    "currency": "EUR",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "masterpass_uah_hpp",
+    "flow": "hpp",
+    "method": "masterpass",
+    "currency": "UAH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  }
+]

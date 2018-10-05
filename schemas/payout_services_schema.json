@@ -1,0 +1,120 @@
+{
+  "definitions": {
+    "$ref": "translate.json"
+  },
+  "type": "array",
+  "title": "The Payment Service Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "code",
+      "amount_min",
+      "amount_max"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/items/properties/code",
+        "type": "string",
+        "title": "The Code Schema",
+        "examples": [
+          "qiwi_rub_hpp"
+        ]
+      },
+      "method": {
+        "$id": "#/items/properties/method",
+        "type": "string",
+        "title": "The Method Schema",
+        "examples": [
+          "qiwi"
+        ]
+      },
+      "currency": {
+        "$id": "#/items/properties/currency",
+        "type": "string",
+        "title": "The Currency Schema",
+        "examples": [
+          "RUB"
+        ]
+      },
+      "fields": {
+        "$id": "#/items/properties/fields",
+        "type": "array",
+        "title": "The Fields Schema",
+        "items": {
+          "$id": "#/items/properties/fields/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "properties": {
+            "service": {
+              "$id": "#/items/properties/fields/items/properties/service",
+              "type": "string",
+              "title": "The Service Schema",
+              "examples": [
+                "qiwi_rub_hpp"
+              ]
+            },
+            "key": {
+              "$id": "#/items/properties/fields/items/properties/key",
+              "type": "string",
+              "title": "The Key Schema",
+              "examples": [
+                "phone"
+              ]
+            },
+            "type": {
+              "$id": "#/items/properties/fields/items/properties/type",
+              "type": "string",
+              "title": "The Type Schema",
+              "examples": [
+                "string"
+              ]
+            },
+            "label": { "$ref": "#/definitions/translate" },
+            "regexp": {
+              "$id": "#/items/properties/fields/items/properties/regexp",
+              "type": "string",
+              "title": "The Regexp Schema",
+              "examples": [
+                "/^\\+(9[976]\\d|8[987530]\\d|6[987]\\d|5[90]\\d|42\\d|3[875]\\d|2[98654321]\\d|9[8543210]|8[6421]|6[6543210]|5[87654321]|4[987654310]|3[9643210]|2[70]|7|1)\\d{9,14}$/"
+              ]
+            },
+            "required": {
+              "$id": "#/items/properties/fields/items/properties/required",
+              "type": "boolean",
+              "title": "The Required Schema",
+              "examples": [
+                true
+              ]
+            },
+            "weight": {
+              "$id": "#/items/properties/fields/items/properties/weight",
+              "type": "integer",
+              "title": "The Weight Schema",
+              "examples": [
+                0
+              ]
+            }
+          }
+        }
+      },
+      "amount_min": {
+        "$id": "#/items/properties/amount_min",
+        "type": "string",
+        "title": "The Amount_min Schema",
+        "examples": [
+          "0.00000000"
+        ]
+      },
+      "amount_max": {
+        "$id": "#/items/properties/amount_max",
+        "type": "string",
+        "title": "The Amount_max Schema",
+        "examples": [
+          "100000.00000000"
+        ]
+      }
+    }
+  }
+}
