@@ -1,6 +1,6 @@
 {
   "definitions": {
-    "$ref": "translate.json"
+    "$ref": "translatable.json"
   },
   "type": "array",
   "title": "The Currency Schema",
@@ -26,7 +26,7 @@
         ],
         "pattern": "^([A-Z0-9]+)([A-Z0-9-_\\.]+)([A-Z0-9]+)$"
       },
-      "name": { "$ref": "#/definitions/translate" },
+      "name": { "$ref": "#/definitions/translatable" },
       "type": {
         "$id": "#/items/properties/type",
         "type": "string",

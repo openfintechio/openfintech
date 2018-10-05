@@ -1,6 +1,6 @@
 {
   "definitions": {
-    "$ref": "translate.json"
+    "$ref": "translatable.json"
   },
   "type": "array",
   "title": "The Payment Methods Schema",
@@ -31,8 +31,8 @@
           "bancontactmistercash"
         ]
       },
-      "name": { "$ref": "#/definitions/translate" },
-      "description": { "$ref": "#/definitions/translate" },
+      "name": { "$ref": "#/definitions/translatable" },
+      "description": { "$ref": "#/definitions/translatable" },
       "category": {
         "$id": "#/items/properties/category",
         "type": "string",
