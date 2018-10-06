@@ -63,7 +63,7 @@
                 "string"
               ]
             },
-            "label": { "$ref": "#/definitions/translate" },
+            "label": { "$ref": "#/definitions/translatable" },
             "regexp": {
               "$id": "#/items/properties/fields/items/properties/regexp",
               "type": "string",

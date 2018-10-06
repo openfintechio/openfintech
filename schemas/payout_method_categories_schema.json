@@ -1,0 +1,28 @@
+{
+  "definitions": {
+    "$ref": "translatable.json"
+  },
+  "type": "array",
+  "title": "The Payout Method Category Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "code",
+      "name"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/items/properties/code",
+        "type": "string",
+        "title": "The Code Schema",
+        "examples": [
+          "IQD"
+        ],
+        "pattern": "^([A-Z0-9]+)([A-Z0-9-_\\.]+)([A-Z0-9]+)$"
+      },
+      "name": { "$ref": "#/definitions/translatable" }
+    }
+  }
+}
