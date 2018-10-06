@@ -2,13 +2,98 @@
   {
     "code": "internet_banking",
     "name": {
-      "ru": "Интернет банкинг"
+      "en": "Internet-banking",
+      "ru": "Интернет-банкинг"
+    }
+  },
+  {
+    "code": "payment_card",
+    "name": {
+      "en": "Payment card",
+      "ru": "Платежная карта"
+    }
+  },
+  {
+    "code": "bank_transfer",
+    "name": {
+      "en": "Bank transfer",
+      "ru": "Банковский перевод"
+    }
+  },
+  {
+    "code": "cash_on_delivery",
+    "name": {
+      "en": "Cash on delivery",
+      "ru": "Наложенный платёж"
+    }
+  },
+  {
+    "code": "cash_payment",
+    "name": {
+      "en": "Cash payment",
+      "ru": "Наличный расчет"
+    }
+  },
+  {
+    "code": "check",
+    "name": {
+      "en": "Check",
+      "ru": "Чек"
+    }
+  },
+  {
+    "code": "direct_debit",
+    "name": {
+      "en": "Direct debit",
+      "ru": "Прямое дебетование"
+    }
+  },
+  {
+    "code": "digital_wallet",
+    "name": {
+      "en": "Digital wallet",
+      "ru": "Электронный кошелёк"
+    }
+  },
+  {
+    "code": "prepaid_voucher",
+    "name": {
+      "en": "Prepaid voucher",
+      "ru": "Предоплаченный ваучер"
+    }
+  },
+  {
+    "code": "prepaid_card",
+    "name": {
+      "en": "Prepaid card",
+      "ru": "Предоплаченная карта"
+    }
+  },
+  {
+    "code": "invoice_payment",
+    "name": {
+      "en": "Invoice payment",
+      "ru": "Выставление счета"
+    }
+  },
+  {
+    "code": "mobile_carrier_billing",
+    "name": {
+      "en": "Mobile carrier billing",
+      "ru": "Биллинг мобильного оператора"
+    }
+  },
+  {
+    "code": "mobile_payment",
+    "name": {
+      "en": "Mobile payment",
+      "ru": "Мобильный платеж"
     }
   },
   {
     "code": "alternative",
     "name": {
-      "ru": "Альтернативные методы"
+      "ru": "Альтернативный"
     }
   }
 ]

@@ -33,7 +33,8 @@
         "title": "The Type Schema",
         "examples": [
           "national"
-        ]
+        ],
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
       },
       "iso_numeric3_code": {
         "$id": "#/items/properties/iso_numeric3_code",
@@ -89,7 +90,8 @@
         "title": "The Category Schema",
         "examples": [
           "others"
-        ]
+        ],
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
       },
       "metadata": {
         "$id": "#/items/properties/metadata",

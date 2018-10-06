@@ -8,7 +8,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "YUBTRUB"
@@ -25,7 +25,7 @@
     "symbol": "IQD",
     "native_symbol": "د.ع.‏",
     "exponent": 3,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -54,7 +54,7 @@
     "symbol": "€",
     "native_symbol": "€",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -68,7 +68,7 @@
     "symbol": "$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -96,7 +96,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CARDTHB"
@@ -111,7 +111,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CRCPTLUSD"
@@ -128,7 +128,7 @@
     "symbol": "AMD",
     "native_symbol": "դր.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -142,7 +142,7 @@
     "symbol": "AU$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -154,7 +154,7 @@
     "iso_numeric3_code": "933",
     "iso_alpha3_code": "BYN",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -168,7 +168,7 @@
     "symbol": "R$",
     "native_symbol": "R$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -182,7 +182,7 @@
     "symbol": "CA$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -194,7 +194,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SWIFTEUR"
@@ -211,7 +211,7 @@
     "symbol": "CL$",
     "native_symbol": "$",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -225,7 +225,7 @@
     "symbol": "NZ$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -239,7 +239,7 @@
     "symbol": "EGP",
     "native_symbol": "ج.م.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -251,7 +251,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "YOBITUSD"
@@ -265,7 +265,7 @@
     "type": "crypto",
     "iso_numeric3_code": "0",
     "exponent": 8,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "EOS"
@@ -280,7 +280,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "YOBITRUB"
@@ -295,7 +295,7 @@
     "iso_numeric3_code": "222",
     "iso_alpha3_code": "SVC",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -307,7 +307,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RUSSTRUB",
@@ -323,7 +323,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TCSBRUB",
@@ -339,7 +339,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "YUBTUSD"
@@ -354,7 +354,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UNVBUAH",
@@ -382,7 +382,7 @@
     "symbol": "HK$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -394,7 +394,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "FRTBKZT",
@@ -412,7 +412,7 @@
     "symbol": "IRR",
     "native_symbol": "﷼",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -424,7 +424,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MONOBUAH"
@@ -439,7 +439,7 @@
     "iso_numeric3_code": "417",
     "iso_alpha3_code": "KGS",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -451,7 +451,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SWIFTUSD"
@@ -468,7 +468,7 @@
     "symbol": "CN¥",
     "native_symbol": "CN¥",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -482,7 +482,7 @@
     "symbol": "£",
     "native_symbol": "£",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -496,7 +496,7 @@
     "symbol": "GEL",
     "native_symbol": "GEL",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -510,7 +510,7 @@
     "symbol": "Rp",
     "native_symbol": "Rp",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -524,7 +524,7 @@
     "symbol": "₪",
     "native_symbol": "₪",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -538,7 +538,7 @@
     "symbol": "₩",
     "native_symbol": "₩",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -552,7 +552,7 @@
     "symbol": "KZT",
     "native_symbol": "тңг.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -564,7 +564,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "WEXETH"
@@ -579,7 +579,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MGFNBRUB"
@@ -594,7 +594,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "P24EUR",
@@ -610,7 +610,7 @@
     "iso_numeric3_code": "951",
     "iso_alpha3_code": "XCD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -624,7 +624,7 @@
     "symbol": "CFA",
     "native_symbol": "CFA",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -636,7 +636,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "USBUAH",
@@ -654,7 +654,7 @@
     "symbol": "Rs",
     "native_symbol": "₹",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -668,7 +668,7 @@
     "symbol": "Nkr",
     "native_symbol": "kr",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -682,7 +682,7 @@
     "symbol": "FCFA",
     "native_symbol": "FCFA",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -694,7 +694,7 @@
     "iso_numeric3_code": "970",
     "iso_alpha3_code": "COU",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -706,7 +706,7 @@
     "iso_numeric3_code": "931",
     "iso_alpha3_code": "CUC",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -718,7 +718,7 @@
     "iso_numeric3_code": "930",
     "iso_alpha3_code": "STN",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -730,7 +730,7 @@
     "iso_numeric3_code": "690",
     "iso_alpha3_code": "SCR",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -742,7 +742,7 @@
     "iso_numeric3_code": "532",
     "iso_alpha3_code": "ANG",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -756,7 +756,7 @@
     "symbol": "Dkr",
     "native_symbol": "kr",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -768,7 +768,7 @@
     "iso_numeric3_code": "292",
     "iso_alpha3_code": "GIP",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -780,7 +780,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "ASKBTCUSD"
@@ -795,7 +795,7 @@
     "iso_numeric3_code": "90",
     "iso_alpha3_code": "SBD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -807,7 +807,7 @@
     "iso_numeric3_code": "728",
     "iso_alpha3_code": "SSP",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -821,7 +821,7 @@
     "symbol": "Skr",
     "native_symbol": "kr",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -833,7 +833,7 @@
     "iso_numeric3_code": "947",
     "iso_alpha3_code": "CHE",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -845,7 +845,7 @@
     "iso_numeric3_code": "408",
     "iso_alpha3_code": "KPW",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -859,7 +859,7 @@
     "symbol": "KD",
     "native_symbol": "د.ك.‏",
     "exponent": 3,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -871,7 +871,7 @@
     "iso_numeric3_code": "418",
     "iso_alpha3_code": "LAK",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -883,7 +883,7 @@
     "iso_numeric3_code": "426",
     "iso_alpha3_code": "LSL",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -897,7 +897,7 @@
     "symbol": "RM",
     "native_symbol": "RM",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -919,7 +919,7 @@
     "iso_numeric3_code": "929",
     "iso_alpha3_code": "MRU",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -933,7 +933,7 @@
     "symbol": "MX$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -945,7 +945,7 @@
     "iso_numeric3_code": "948",
     "iso_alpha3_code": "CHW",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -957,7 +957,7 @@
     "iso_numeric3_code": "979",
     "iso_alpha3_code": "MXV",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -971,7 +971,7 @@
     "symbol": "MDL",
     "native_symbol": "MDL",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -985,7 +985,7 @@
     "symbol": "MAD",
     "native_symbol": "د.م.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -999,7 +999,7 @@
     "symbol": "RON",
     "native_symbol": "RON",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1013,7 +1013,7 @@
     "symbol": "kn",
     "native_symbol": "kn",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1027,7 +1027,7 @@
     "symbol": "RUB",
     "native_symbol": "руб.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1041,7 +1041,7 @@
     "symbol": "Ft",
     "native_symbol": "Ft",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1055,7 +1055,7 @@
     "symbol": "zł",
     "native_symbol": "zł",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1069,7 +1069,7 @@
     "symbol": "R",
     "native_symbol": "R",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1081,7 +1081,7 @@
     "iso_numeric3_code": "973",
     "iso_alpha3_code": "AOA",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1093,7 +1093,7 @@
     "iso_numeric3_code": "533",
     "iso_alpha3_code": "AWG",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1107,7 +1107,7 @@
     "symbol": "TL",
     "native_symbol": "TL",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1119,7 +1119,7 @@
     "iso_numeric3_code": "678",
     "iso_alpha3_code": "STD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1131,7 +1131,7 @@
     "iso_numeric3_code": "52",
     "iso_alpha3_code": "BBD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1145,7 +1145,7 @@
     "symbol": "BZ$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1157,7 +1157,7 @@
     "iso_numeric3_code": "934",
     "iso_alpha3_code": "TMT",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1169,7 +1169,7 @@
     "iso_numeric3_code": "984",
     "iso_alpha3_code": "BOV",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1183,7 +1183,7 @@
     "symbol": "CDF",
     "native_symbol": "FrCD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1195,7 +1195,7 @@
     "iso_numeric3_code": "238",
     "iso_alpha3_code": "FKP",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1207,7 +1207,7 @@
     "iso_numeric3_code": "242",
     "iso_alpha3_code": "FJD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1219,7 +1219,7 @@
     "iso_numeric3_code": "953",
     "iso_alpha3_code": "XPF",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1231,7 +1231,7 @@
     "iso_numeric3_code": "270",
     "iso_alpha3_code": "GMD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1245,7 +1245,7 @@
     "symbol": "CHF",
     "native_symbol": "CHF",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1257,7 +1257,7 @@
     "iso_numeric3_code": "997",
     "iso_alpha3_code": "USN",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1269,7 +1269,7 @@
     "iso_numeric3_code": "940",
     "iso_alpha3_code": "UYI",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1281,7 +1281,7 @@
     "iso_numeric3_code": "454",
     "iso_alpha3_code": "MWK",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1293,7 +1293,7 @@
     "iso_numeric3_code": "598",
     "iso_alpha3_code": "PGK",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1305,7 +1305,7 @@
     "iso_numeric3_code": "654",
     "iso_alpha3_code": "SHP",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1317,7 +1317,7 @@
     "iso_numeric3_code": "927",
     "iso_alpha3_code": "UYW",
     "exponent": 4,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1331,7 +1331,7 @@
     "symbol": "Nfk",
     "native_symbol": "Nfk",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1343,7 +1343,7 @@
     "iso_numeric3_code": "994",
     "iso_alpha3_code": "XSU",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1357,7 +1357,7 @@
     "symbol": "SLRs",
     "native_symbol": "SL Re",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1381,7 +1381,7 @@
     "symbol": "MKD",
     "native_symbol": "MKD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1395,7 +1395,7 @@
     "symbol": "Bs.F.",
     "native_symbol": "Bs.F.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1409,7 +1409,7 @@
     "symbol": "PKRs",
     "native_symbol": "₨",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1423,7 +1423,7 @@
     "symbol": "SDG",
     "native_symbol": "SDG",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1435,7 +1435,7 @@
     "iso_numeric3_code": "968",
     "iso_alpha3_code": "SRD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1449,7 +1449,7 @@
     "symbol": "SY£",
     "native_symbol": "ل.س.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1463,7 +1463,7 @@
     "symbol": "NT$",
     "native_symbol": "NT$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1477,7 +1477,7 @@
     "symbol": "T$",
     "native_symbol": "T$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1489,7 +1489,7 @@
     "iso_numeric3_code": "972",
     "iso_alpha3_code": "TJS",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1503,7 +1503,7 @@
     "symbol": "UZS",
     "native_symbol": "UZS",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1517,7 +1517,7 @@
     "symbol": "TSh",
     "native_symbol": "TSh",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1531,7 +1531,7 @@
     "symbol": "DT",
     "native_symbol": "د.ت.‏",
     "exponent": 3,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1559,7 +1559,7 @@
     "iso_numeric3_code": "44",
     "iso_alpha3_code": "BSD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1571,7 +1571,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "AKBRSBRUB"
@@ -1601,7 +1601,7 @@
     "iso_numeric3_code": "64",
     "iso_alpha3_code": "BTN",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1613,7 +1613,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "RSSBRUB"
@@ -1628,7 +1628,7 @@
     "iso_numeric3_code": "990",
     "iso_alpha3_code": "CLF",
     "exponent": 4,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1638,7 +1638,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EDR"
@@ -1668,7 +1668,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EPSUSD",
@@ -1686,7 +1686,7 @@
     "symbol": "SR",
     "native_symbol": "ر.س.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1698,7 +1698,7 @@
     "iso_numeric3_code": "478",
     "iso_alpha3_code": "MRO",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1712,7 +1712,7 @@
     "symbol": "Br",
     "native_symbol": "Br",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1724,7 +1724,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KRGSRBTHB"
@@ -1738,7 +1738,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NXUSD"
@@ -1752,7 +1752,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WCUSD"
@@ -1767,7 +1767,7 @@
     "iso_numeric3_code": "694",
     "iso_alpha3_code": "SLL",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1779,7 +1779,7 @@
     "iso_numeric3_code": "748",
     "iso_alpha3_code": "SZL",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1791,7 +1791,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OTPBRUB",
@@ -1809,7 +1809,7 @@
     "symbol": "TT$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1839,7 +1839,7 @@
     "symbol": "FG",
     "native_symbol": "FG",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1851,7 +1851,7 @@
     "iso_numeric3_code": "328",
     "iso_alpha3_code": "GYD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1863,7 +1863,7 @@
     "iso_numeric3_code": "960",
     "iso_alpha3_code": "XDR",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1877,7 +1877,7 @@
     "symbol": "LB£",
     "native_symbol": "ل.ل.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1889,7 +1889,7 @@
     "iso_numeric3_code": "430",
     "iso_alpha3_code": "LRD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1903,7 +1903,7 @@
     "symbol": "LD",
     "native_symbol": "د.ل.‏",
     "exponent": 3,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1915,7 +1915,7 @@
     "iso_numeric3_code": "965",
     "iso_alpha3_code": "XUA",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1927,7 +1927,7 @@
     "iso_numeric3_code": "496",
     "iso_alpha3_code": "MNT",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1941,7 +1941,7 @@
     "symbol": "NPRs",
     "native_symbol": "नेरू",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1955,7 +1955,7 @@
     "symbol": "QR",
     "native_symbol": "ر.ق.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1967,7 +1967,7 @@
     "iso_numeric3_code": "882",
     "iso_alpha3_code": "WST",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1979,7 +1979,7 @@
     "iso_numeric3_code": "548",
     "iso_alpha3_code": "VUV",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -1991,7 +1991,7 @@
     "iso_numeric3_code": "932",
     "iso_alpha3_code": "ZWL",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2005,7 +2005,7 @@
     "symbol": "MOP$",
     "native_symbol": "MOP$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2019,7 +2019,7 @@
     "symbol": "MURs",
     "native_symbol": "MURs",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2033,7 +2033,7 @@
     "symbol": "฿",
     "native_symbol": "฿",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2047,7 +2047,7 @@
     "symbol": "₴",
     "native_symbol": "₴",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2058,7 +2058,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIREMYR"
@@ -2073,7 +2073,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "ABSTBRUB"
@@ -2087,7 +2087,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RENBRUB"
@@ -2101,7 +2101,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HMRUB"
@@ -2115,7 +2115,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPCAD"
@@ -2145,7 +2145,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "FDOBUAH"
@@ -2158,7 +2158,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "XRP"
@@ -2173,7 +2173,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "HLXUSD"
@@ -2188,7 +2188,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CPTSUSD"
@@ -2203,7 +2203,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KSPBDKZT"
@@ -2233,7 +2233,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "ZRTBTRY"
@@ -2248,7 +2248,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "LVCNUSD"
@@ -2261,7 +2261,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDLTL"
@@ -2275,7 +2275,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PAUSD"
@@ -2290,7 +2290,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BTCCDIDR"
@@ -2304,7 +2304,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ACEUR"
@@ -2318,7 +2318,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WUUAH"
@@ -2332,7 +2332,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OPAYUSD"
@@ -2349,7 +2349,7 @@
     "symbol": "RD$",
     "native_symbol": "RD$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2360,7 +2360,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BLRBBYR"
@@ -2374,7 +2374,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPIRR"
@@ -2388,7 +2388,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPAUD"
@@ -2402,7 +2402,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPEGP"
@@ -2416,7 +2416,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LPGBP"
@@ -2430,7 +2430,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HMUAH"
@@ -2444,7 +2444,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPGBP"
@@ -2458,7 +2458,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WMOUSD"
@@ -2472,7 +2472,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WCTCNY"
@@ -2486,7 +2486,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WSRUB"
@@ -2500,7 +2500,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPCNY"
@@ -2514,7 +2514,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPGBP"
@@ -2531,7 +2531,7 @@
     "symbol": "BGN",
     "native_symbol": "лв.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2543,7 +2543,7 @@
     "iso_numeric3_code": "928",
     "iso_alpha3_code": "VES",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2555,7 +2555,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PSRUSD",
@@ -2573,7 +2573,7 @@
     "symbol": "₫",
     "native_symbol": "₫",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2585,7 +2585,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MPLUSD",
@@ -2601,7 +2601,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PMBBUAH",
@@ -2617,7 +2617,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "ATRPUSD"
@@ -2632,7 +2632,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SGMTUSD"
@@ -2647,7 +2647,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MLNMBPLN"
@@ -2661,7 +2661,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPLTC"
@@ -2676,7 +2676,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "LCKBRUB"
@@ -2691,7 +2691,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EXMUAH",
@@ -2707,7 +2707,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CCBKZT"
@@ -2720,7 +2720,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "GNO"
@@ -2748,7 +2748,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "GNT"
@@ -2763,7 +2763,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "URSBRUB"
@@ -2776,7 +2776,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "NVC"
@@ -2791,7 +2791,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EXMRUB",
@@ -2806,7 +2806,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "GDPUSD"
@@ -2821,7 +2821,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPUSD",
@@ -2836,7 +2836,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HDUSD"
@@ -2850,7 +2850,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BLRBEUR"
@@ -2864,7 +2864,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPRUB"
@@ -2878,7 +2878,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPNZD"
@@ -2892,7 +2892,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPMXN"
@@ -2906,7 +2906,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPTRY"
@@ -2923,7 +2923,7 @@
     "symbol": "YR",
     "native_symbol": "ر.ي.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -2934,7 +2934,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPBYR"
@@ -2948,7 +2948,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPIQD"
@@ -2962,7 +2962,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPJPY"
@@ -2976,7 +2976,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPSEK"
@@ -2990,7 +2990,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BCBUSD"
@@ -3004,7 +3004,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CMBCNY"
@@ -3018,7 +3018,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTPGBP"
@@ -3032,7 +3032,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPRUB"
@@ -3046,7 +3046,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BTCEDASH"
@@ -3060,7 +3060,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCEBTC",
@@ -3074,7 +3074,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WTCCREDS"
@@ -3088,7 +3088,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCEUSD",
@@ -3117,7 +3117,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WTPCREDS"
@@ -3132,7 +3132,7 @@
     "iso_numeric3_code": "967",
     "iso_alpha3_code": "ZMW",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -3144,7 +3144,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ADVCEUR",
@@ -3160,7 +3160,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SEPAEUR"
@@ -3175,7 +3175,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "TBCBUSD"
@@ -3188,7 +3188,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RCNCRPT"
@@ -3202,7 +3202,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DPBTC"
@@ -3232,7 +3232,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "RBKBKZT"
@@ -3247,7 +3247,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "PLUSBRUB"
@@ -3262,7 +3262,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CARDTRY"
@@ -3277,7 +3277,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SVCMBRUB"
@@ -3291,7 +3291,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TCSBUSD"
@@ -3305,7 +3305,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPBRL"
@@ -3319,7 +3319,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LPUAH"
@@ -3333,7 +3333,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LPCNY"
@@ -3347,7 +3347,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CPTLEUR"
@@ -3361,7 +3361,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ATFBUSD"
@@ -3375,7 +3375,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EURBUSD"
@@ -3389,7 +3389,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTPCNY"
@@ -3403,7 +3403,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DPUSD"
@@ -3417,7 +3417,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPBYR"
@@ -3432,7 +3432,7 @@
     "iso_numeric3_code": "956",
     "iso_alpha3_code": "XBB",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -3443,7 +3443,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPUAH"
@@ -3457,7 +3457,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ECPZRUB"
@@ -3471,7 +3471,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ECPZEUR"
@@ -3484,7 +3484,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTAKZT"
@@ -3512,7 +3512,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CBEKR"
@@ -3525,7 +3525,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PIN"
@@ -3539,7 +3539,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CCXBTC"
@@ -3569,7 +3569,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CPTSEUR"
@@ -3582,7 +3582,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NIXCLR"
@@ -3597,7 +3597,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LPUSD",
@@ -3613,7 +3613,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "ERSNBKZT"
@@ -3628,7 +3628,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PSREUR",
@@ -3644,7 +3644,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RFBUAH",
@@ -3660,7 +3660,7 @@
     "iso_numeric3_code": "958",
     "iso_alpha3_code": "XBD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -3686,7 +3686,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BCN",
@@ -3702,7 +3702,7 @@
     "iso_numeric3_code": "959",
     "iso_alpha3_code": "XAU",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -3714,7 +3714,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "THIBTHB"
@@ -3729,7 +3729,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SMPBRUB"
@@ -3744,7 +3744,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SVZBRUB"
@@ -3758,7 +3758,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MWRUB"
@@ -3772,7 +3772,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UAMUSD"
@@ -3786,7 +3786,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VMUSD"
@@ -3800,7 +3800,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CASHLTL"
@@ -3814,7 +3814,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SBEUR"
@@ -3828,7 +3828,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "USBRUB"
@@ -3842,7 +3842,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPCAD"
@@ -3856,7 +3856,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPKGS"
@@ -3870,7 +3870,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPCLP"
@@ -3884,7 +3884,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPPLN"
@@ -3898,7 +3898,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPRUB"
@@ -3912,7 +3912,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPCNY"
@@ -3926,7 +3926,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVCUSD"
@@ -3940,7 +3940,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTPUSD"
@@ -3954,7 +3954,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SMUSD"
@@ -3968,7 +3968,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BCIIDR"
@@ -3983,7 +3983,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "IMBRUB"
@@ -3998,7 +3998,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "GCMTRUB",
@@ -4014,7 +4014,7 @@
     "iso_numeric3_code": "955",
     "iso_alpha3_code": "XBA",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -4024,7 +4024,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EBCUR"
@@ -4052,7 +4052,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MAID"
@@ -4082,7 +4082,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "NURBKZT"
@@ -4095,7 +4095,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "XLM"
@@ -4108,7 +4108,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NIXFTC"
@@ -4123,7 +4123,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "HNDBRUB"
@@ -4138,7 +4138,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SGMTEUR"
@@ -4151,7 +4151,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "USDT"
@@ -4166,7 +4166,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "ARCAAMD"
@@ -4179,7 +4179,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BLK"
@@ -4209,7 +4209,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "VZRDBRUB"
@@ -4255,7 +4255,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WCEUR"
@@ -4269,7 +4269,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PPTUSD"
@@ -4283,7 +4283,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VTB24USD"
@@ -4297,7 +4297,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SBERUSD"
@@ -4311,7 +4311,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NIXMSVC"
@@ -4326,7 +4326,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KICBKGS"
@@ -4340,7 +4340,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OPAYRUB"
@@ -4354,7 +4354,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPCNY"
@@ -4368,7 +4368,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPKRW"
@@ -4382,7 +4382,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPUAH"
@@ -4396,7 +4396,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TOCHRUB"
@@ -4410,7 +4410,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RCNUSD"
@@ -4424,7 +4424,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPEUR"
@@ -4438,7 +4438,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPHKD"
@@ -4452,7 +4452,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PVTMUAH"
@@ -4467,7 +4467,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "FMBRUB"
@@ -4480,7 +4480,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "XEM"
@@ -4495,7 +4495,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BLSBBYN"
@@ -4509,7 +4509,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIREBYR"
@@ -4522,7 +4522,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NIXCRT"
@@ -4536,7 +4536,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPETH"
@@ -4551,7 +4551,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CNVRSBAMD"
@@ -4565,7 +4565,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPEDR"
@@ -4579,7 +4579,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CASHGBP"
@@ -4608,7 +4608,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EGCEUR"
@@ -4623,7 +4623,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KPTLBAZN"
@@ -4638,7 +4638,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "AKBTRY"
@@ -4652,7 +4652,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NIXLTC"
@@ -4667,7 +4667,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "LVCNRUB"
@@ -4681,7 +4681,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TNCUSD"
@@ -4695,7 +4695,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SMSRUB"
@@ -4709,7 +4709,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPUSD"
@@ -4723,7 +4723,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPGEL"
@@ -4737,7 +4737,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPMDL"
@@ -4751,7 +4751,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CPLTUSD"
@@ -4781,7 +4781,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CCBCNY"
@@ -4795,7 +4795,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TTRUSD"
@@ -4809,7 +4809,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WSUAH"
@@ -4854,7 +4854,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "TBKZT"
@@ -4869,7 +4869,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "PCDBUAH"
@@ -4882,7 +4882,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "NEOS"
@@ -4897,7 +4897,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BOCCNY"
@@ -4912,7 +4912,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MIRCRUB"
@@ -4927,7 +4927,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CCXUSD",
@@ -4942,7 +4942,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DKUAH"
@@ -4957,7 +4957,7 @@
     "iso_numeric3_code": "957",
     "iso_alpha3_code": "XBC",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -4967,7 +4967,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PPC",
@@ -4982,7 +4982,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "STRUB"
@@ -4997,7 +4997,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LPEUR",
@@ -5013,7 +5013,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ECNEUR",
@@ -5029,7 +5029,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MLNMBEUR"
@@ -5044,7 +5044,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KSPBCKZT"
@@ -5058,7 +5058,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPKZT"
@@ -5072,7 +5072,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPCHF"
@@ -5086,7 +5086,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HMUSD"
@@ -5100,7 +5100,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPAUD"
@@ -5115,7 +5115,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DMRBUSD",
@@ -5130,7 +5130,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CPTLRUB"
@@ -5144,7 +5144,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WSUSD"
@@ -5159,7 +5159,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "RCN"
@@ -5174,7 +5174,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KZVBKZT"
@@ -5189,7 +5189,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SBRBKZRUB"
@@ -5219,7 +5219,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EKZT",
@@ -5235,7 +5235,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OTPBUAH",
@@ -5251,7 +5251,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "KKBUSD",
@@ -5267,7 +5267,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OSDBUAH",
@@ -5283,7 +5283,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "KUKRUB",
@@ -5314,7 +5314,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MXBTC"
@@ -5329,7 +5329,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "TRPEUR"
@@ -5344,7 +5344,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "PMREUR"
@@ -5359,7 +5359,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ECNUSD",
@@ -5375,7 +5375,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EXMUSD",
@@ -5390,7 +5390,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCEEUR",
@@ -5421,7 +5421,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "QZQBKZT"
@@ -5435,7 +5435,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PAEUR"
@@ -5450,7 +5450,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KSSNVBKZT"
@@ -5464,7 +5464,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PPTRUB"
@@ -5478,7 +5478,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "GDPEUR"
@@ -5492,7 +5492,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TCSBEUR"
@@ -5506,7 +5506,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OPAYEUR"
@@ -5536,7 +5536,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPZAR"
@@ -5550,7 +5550,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPTHB"
@@ -5564,7 +5564,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPHKD"
@@ -5578,7 +5578,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPUSD"
@@ -5592,7 +5592,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WSMUZS"
@@ -5606,7 +5606,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "REYUSD"
@@ -5620,7 +5620,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "REYRUB"
@@ -5634,7 +5634,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CSTRMTUSD"
@@ -5648,7 +5648,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTPEUR"
@@ -5663,7 +5663,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BTABKZT"
@@ -5677,7 +5677,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BTCEETH"
@@ -5690,7 +5690,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPGPB"
@@ -5719,7 +5719,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCELTC",
@@ -5734,7 +5734,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCERUB",
@@ -5750,7 +5750,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CTYBKZT"
@@ -5765,7 +5765,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MGRUB"
@@ -5778,7 +5778,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WMC"
@@ -5792,7 +5792,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LRUSD"
@@ -5806,7 +5806,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VTB24EUR"
@@ -5819,7 +5819,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CLAM",
@@ -5834,7 +5834,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RBKMUSD"
@@ -5864,7 +5864,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NIXMPPC"
@@ -5878,7 +5878,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CSH4PUSD"
@@ -5893,7 +5893,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CNMTEUR",
@@ -5908,7 +5908,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BBRUB"
@@ -5923,7 +5923,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "OSHBUAH"
@@ -5938,7 +5938,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KSPBKZT"
@@ -5952,7 +5952,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPEUR"
@@ -5966,7 +5966,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPIDR"
@@ -5980,7 +5980,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "AKBBRUB",
@@ -5995,7 +5995,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MMLEUR"
@@ -6010,7 +6010,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "AGCBCNY"
@@ -6024,7 +6024,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SMUAH"
@@ -6037,7 +6037,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LRG"
@@ -6050,7 +6050,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PMG"
@@ -6063,7 +6063,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OKGPB"
@@ -6077,7 +6077,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LREUR"
@@ -6091,7 +6091,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PPAUD"
@@ -6105,7 +6105,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PPCAD"
@@ -6119,7 +6119,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PPGBP"
@@ -6134,7 +6134,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "WEXUSD"
@@ -6149,7 +6149,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "WEXRUB"
@@ -6179,7 +6179,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MMLUSD"
@@ -6194,7 +6194,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RSHBRUB",
@@ -6210,7 +6210,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HCSBKZT",
@@ -6226,7 +6226,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CNTUSD",
@@ -6241,7 +6241,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MNTRUB"
@@ -6256,7 +6256,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MPLEUR",
@@ -6271,7 +6271,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TMRUB"
@@ -6285,7 +6285,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UKEUR"
@@ -6299,7 +6299,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ANLKRUB"
@@ -6314,7 +6314,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MPLRUB",
@@ -6328,7 +6328,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "REP",
@@ -6360,7 +6360,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MTSBRUB",
@@ -6376,7 +6376,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "QWVRUB",
@@ -6408,7 +6408,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ECNEXUSD",
@@ -6424,7 +6424,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "WEXBTC"
@@ -6439,7 +6439,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "WEXEUR"
@@ -6454,7 +6454,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "TSNBKZT"
@@ -6469,7 +6469,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "ASCTBKZT"
@@ -6484,7 +6484,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "ALTNBKZT"
@@ -6513,7 +6513,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPDKK"
@@ -6527,7 +6527,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HMEUR"
@@ -6541,7 +6541,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OCNEUR"
@@ -6555,7 +6555,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVCRUB"
@@ -6569,7 +6569,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVCEUR"
@@ -6583,7 +6583,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ACCIUSD"
@@ -6597,7 +6597,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ACCIRUB"
@@ -6611,7 +6611,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ACCIEUR"
@@ -6625,7 +6625,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WMOUAH"
@@ -6639,7 +6639,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ABCBCNY"
@@ -6653,7 +6653,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SMEUR"
@@ -6683,7 +6683,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KIBRUB"
@@ -6696,7 +6696,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WTDEBIT"
@@ -6711,7 +6711,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "EXMBTC"
@@ -6726,7 +6726,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EXMEUR",
@@ -6742,7 +6742,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ROSBRUB",
@@ -6758,7 +6758,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "P24UAH",
@@ -6774,7 +6774,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RMTFUSD",
@@ -6790,7 +6790,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTMUSD",
@@ -6804,7 +6804,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LSK",
@@ -6820,7 +6820,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UKUSD",
@@ -6836,7 +6836,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RNKBRUB",
@@ -6868,7 +6868,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CNTEUR",
@@ -6884,7 +6884,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ADVCRUB",
@@ -6900,7 +6900,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MGUSD",
@@ -6916,7 +6916,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "PMRXAU"
@@ -6931,7 +6931,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "LVCNBTC"
@@ -6944,7 +6944,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NIXXBL"
@@ -6959,7 +6959,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BOCUSD"
@@ -6974,7 +6974,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "DTBKZKZT"
@@ -6989,7 +6989,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "KSKNBTHB"
@@ -7003,7 +7003,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DKRUB"
@@ -7017,7 +7017,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIREPLN"
@@ -7031,7 +7031,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "STPRUB"
@@ -7045,7 +7045,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BLRBRUB"
@@ -7059,7 +7059,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPVEF"
@@ -7073,7 +7073,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPILS"
@@ -7087,7 +7087,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPHRK"
@@ -7101,7 +7101,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPHUF"
@@ -7115,7 +7115,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LPRUB"
@@ -7129,7 +7129,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LPAUD"
@@ -7143,7 +7143,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WTUSD"
@@ -7157,7 +7157,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EURBKZT"
@@ -7171,7 +7171,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BCBCNY"
@@ -7185,7 +7185,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTPRUB"
@@ -7199,7 +7199,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SMRUB"
@@ -7213,7 +7213,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HBRUB"
@@ -7227,7 +7227,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ECPZUSD"
@@ -7241,7 +7241,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPBTC"
@@ -7256,7 +7256,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SWDBEUR"
@@ -7286,7 +7286,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MDNDCBUSD"
@@ -7301,7 +7301,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SBRCBUSD"
@@ -7315,7 +7315,7 @@
     "type": "digital",
     "iso_numeric3_code": "0",
     "exponent": 8,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BCH"
@@ -7330,7 +7330,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EPAYUSD",
@@ -7346,7 +7346,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RMTFEUR",
@@ -7362,7 +7362,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ANLKUSD",
@@ -7426,7 +7426,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "USTMUSD",
@@ -7442,7 +7442,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PSBRUB",
@@ -7457,7 +7457,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CGEUR"
@@ -7485,7 +7485,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ICQM"
@@ -7498,7 +7498,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EDRM"
@@ -7511,7 +7511,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EBG"
@@ -7525,7 +7525,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTCUPEMC"
@@ -7538,7 +7538,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EDRC"
@@ -7552,7 +7552,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WOKZT"
@@ -7566,7 +7566,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DKUSD"
@@ -7580,7 +7580,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WCRUB"
@@ -7594,7 +7594,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EGCUSD"
@@ -7608,7 +7608,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BLRBUSD"
@@ -7622,7 +7622,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPVND"
@@ -7636,7 +7636,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPINR"
@@ -7650,7 +7650,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPNOK"
@@ -7664,7 +7664,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LVPEUR"
@@ -7678,7 +7678,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CRPTCHUSD"
@@ -7692,7 +7692,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CSTRMTEUR"
@@ -7706,7 +7706,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ICBCCNY"
@@ -7720,7 +7720,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WSEUR"
@@ -7734,7 +7734,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SBRKBUSD"
@@ -7749,7 +7749,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "OBTEUR"
@@ -7762,7 +7762,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WTCARD"
@@ -7775,7 +7775,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WTUSD1"
@@ -7806,7 +7806,7 @@
     "symbol": "BYR",
     "native_symbol": "BYR",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -7818,7 +7818,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HCBRUB",
@@ -7834,7 +7834,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "GCMTUSD",
@@ -7852,7 +7852,7 @@
     "symbol": "J$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -7864,7 +7864,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PMRUAH",
@@ -7880,7 +7880,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIRELTL",
@@ -7898,7 +7898,7 @@
     "symbol": "JD",
     "native_symbol": "د.أ.‏",
     "exponent": 3,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -7912,7 +7912,7 @@
     "symbol": "Ksh",
     "native_symbol": "Ksh",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -7926,7 +7926,7 @@
     "symbol": "MGA",
     "native_symbol": "MGA",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -7938,7 +7938,7 @@
     "iso_numeric3_code": "332",
     "iso_alpha3_code": "HTG",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -7982,7 +7982,7 @@
     "symbol": "Ekr",
     "native_symbol": "kr",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -7994,7 +7994,7 @@
     "symbol": "Lt",
     "native_symbol": "Lt",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8005,7 +8005,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPAED"
@@ -8019,7 +8019,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WTUSD2"
@@ -8033,7 +8033,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WMORUB"
@@ -8047,7 +8047,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTPUAH"
@@ -8062,7 +8062,7 @@
     "symbol": "Ls",
     "native_symbol": "Ls",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8074,7 +8074,7 @@
     "symbol": "ZK",
     "native_symbol": "ZK",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8085,7 +8085,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "FETUSD"
@@ -8099,7 +8099,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "AGUSD"
@@ -8113,7 +8113,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "IMUAH"
@@ -8127,7 +8127,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "INCRUB"
@@ -8141,7 +8141,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EMMDL"
@@ -8155,7 +8155,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UMEUR"
@@ -8169,7 +8169,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UMRUB"
@@ -8183,7 +8183,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UMUAH"
@@ -8197,7 +8197,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UMUSD"
@@ -8214,7 +8214,7 @@
     "symbol": "AR$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8228,7 +8228,7 @@
     "symbol": "BD",
     "native_symbol": "د.ب.‏",
     "exponent": 3,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8240,7 +8240,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SBERKZT",
@@ -8256,7 +8256,7 @@
     "iso_numeric3_code": "60",
     "iso_alpha3_code": "BMD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8268,7 +8268,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VB24UAH",
@@ -8286,7 +8286,7 @@
     "symbol": "C$",
     "native_symbol": "C$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8296,7 +8296,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NMC",
@@ -8312,7 +8312,7 @@
     "iso_numeric3_code": "136",
     "iso_alpha3_code": "KYD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8324,7 +8324,7 @@
     "iso_numeric3_code": "462",
     "iso_alpha3_code": "MVR",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8336,7 +8336,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDUSD",
@@ -8354,7 +8354,7 @@
     "symbol": "din.",
     "native_symbol": "дин.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8366,7 +8366,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIRERUB",
@@ -8398,7 +8398,7 @@
     "iso_numeric3_code": "964",
     "iso_alpha3_code": "XPD",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8410,7 +8410,7 @@
     "iso_numeric3_code": "962",
     "iso_alpha3_code": "XPT",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8421,7 +8421,7 @@
     "type": "digital",
     "iso_numeric3_code": "0",
     "exponent": 8,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LTC",
@@ -8453,7 +8453,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "FPUSD",
@@ -8469,7 +8469,7 @@
     "iso_numeric3_code": "961",
     "iso_alpha3_code": "XAG",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8483,7 +8483,7 @@
     "symbol": "DA",
     "native_symbol": "د.ج.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8494,7 +8494,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DKEUR"
@@ -8508,7 +8508,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "NNMUSD"
@@ -8522,7 +8522,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "STUSD"
@@ -8536,7 +8536,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PPTEUR"
@@ -8550,7 +8550,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CWMRUB"
@@ -8564,7 +8564,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HLKBUSD"
@@ -8578,7 +8578,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPUAH"
@@ -8592,7 +8592,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "VPCZK"
@@ -8606,7 +8606,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "LPCAD"
@@ -8621,7 +8621,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "STLMRUB"
@@ -8651,7 +8651,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CPTSRUB"
@@ -8665,7 +8665,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DTBBYR"
@@ -8679,7 +8679,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ESPBYR"
@@ -8694,7 +8694,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIRECZK",
@@ -8712,7 +8712,7 @@
     "symbol": "RWF",
     "native_symbol": "FR",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8756,7 +8756,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CTYBRUB",
@@ -8774,7 +8774,7 @@
     "symbol": "CO$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -8786,7 +8786,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OCNBRUB",
@@ -8802,7 +8802,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ATFBKZT",
@@ -8818,7 +8818,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PVTMUSD",
@@ -8834,7 +8834,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ACUAH",
@@ -8850,7 +8850,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ADVCUAH",
@@ -8866,7 +8866,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ACUSD",
@@ -8882,7 +8882,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DTBUAH",
@@ -8896,7 +8896,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EDC",
@@ -8942,7 +8942,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DASH",
@@ -8958,7 +8958,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDRUB",
@@ -8974,7 +8974,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDGBP",
@@ -8992,7 +8992,7 @@
     "symbol": "BN$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9004,7 +9004,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "KKBKZT",
@@ -9020,7 +9020,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PNRUSD",
@@ -9036,7 +9036,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BNBRUB"
@@ -9051,7 +9051,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "FWDBUAH"
@@ -9066,7 +9066,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "GRGBGEL"
@@ -9081,7 +9081,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "B1NKBKZT"
@@ -9096,7 +9096,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "AGNDBUSD"
@@ -9111,7 +9111,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "BALTBRUB"
@@ -9126,7 +9126,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "SPBBRUB"
@@ -9141,7 +9141,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "CRERBRUB"
@@ -9156,7 +9156,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "DMDNGBRUB"
@@ -9171,7 +9171,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "MSKCBRUB"
@@ -9186,7 +9186,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "VOSTBRUB"
@@ -9201,7 +9201,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "GRNTBTRY"
@@ -9214,7 +9214,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ETC",
@@ -9230,7 +9230,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ADVCUSD",
@@ -9248,7 +9248,7 @@
     "symbol": "GTQ",
     "native_symbol": "Q",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9276,7 +9276,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PMRRUB",
@@ -9292,7 +9292,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDKZT",
@@ -9308,7 +9308,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIREEUR",
@@ -9324,7 +9324,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "OPNBRUB",
@@ -9342,7 +9342,7 @@
     "symbol": "MTn",
     "native_symbol": "MTn",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9386,7 +9386,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UNCBUAH",
@@ -9404,7 +9404,7 @@
     "symbol": "OMR",
     "native_symbol": "ر.ع.‏",
     "exponent": 3,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9418,7 +9418,7 @@
     "symbol": "$U",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9430,7 +9430,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "FRTBUSD",
@@ -9446,7 +9446,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CNTRUB",
@@ -9462,7 +9462,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MGEUR",
@@ -9492,7 +9492,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ZEC",
@@ -9510,7 +9510,7 @@
     "symbol": "Af",
     "native_symbol": "؋",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9524,7 +9524,7 @@
     "symbol": "₡",
     "native_symbol": "₡",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9538,7 +9538,7 @@
     "symbol": "CV$",
     "native_symbol": "CV$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9581,7 +9581,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "VKFBTRY"
@@ -9613,7 +9613,7 @@
     "symbol": "B\/.",
     "native_symbol": "B\/.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9625,7 +9625,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "UZCARDUZS"
@@ -9640,7 +9640,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "POSTBRUB"
@@ -9655,7 +9655,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ACKZT",
@@ -9671,7 +9671,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TBRUB",
@@ -9687,7 +9687,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "AVBRUB",
@@ -9705,7 +9705,7 @@
     "symbol": "S\/.",
     "native_symbol": "S\/.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9717,7 +9717,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ATNBKZT",
@@ -9733,7 +9733,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "USTMEUR",
@@ -9749,7 +9749,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "FLPNCAD",
@@ -9765,7 +9765,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIREUAH",
@@ -9879,7 +9879,7 @@
     "symbol": "ALL",
     "native_symbol": "Lek",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9893,7 +9893,7 @@
     "symbol": "KM",
     "native_symbol": "KM",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9907,7 +9907,7 @@
     "symbol": "Bs",
     "native_symbol": "Bs",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9921,7 +9921,7 @@
     "symbol": "BWP",
     "native_symbol": "P",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9935,7 +9935,7 @@
     "symbol": "Fdj",
     "native_symbol": "Fdj",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9949,7 +9949,7 @@
     "symbol": "HNL",
     "native_symbol": "L",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9979,7 +9979,7 @@
     "symbol": "¥",
     "native_symbol": "￥",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -9993,7 +9993,7 @@
     "symbol": "KHR",
     "native_symbol": "៛",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -10007,7 +10007,7 @@
     "symbol": "CF",
     "native_symbol": "FC",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -10021,7 +10021,7 @@
     "symbol": "MMK",
     "native_symbol": "K",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -10035,7 +10035,7 @@
     "symbol": "₦",
     "native_symbol": "₦",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -10047,7 +10047,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "P24RUB",
@@ -10063,7 +10063,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDUAH",
@@ -10079,7 +10079,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SVBRUB",
@@ -10095,7 +10095,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SBERRUB",
@@ -10124,7 +10124,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "SBERUAH",
@@ -10140,7 +10140,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDBYN",
@@ -10156,7 +10156,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDAMD",
@@ -10172,7 +10172,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIREKZT",
@@ -10204,7 +10204,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ALPCNY",
@@ -10252,7 +10252,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIRECNY",
@@ -10268,7 +10268,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIRETHB",
@@ -10284,7 +10284,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "UNCBRUB",
@@ -10300,7 +10300,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "GPBRUB",
@@ -10332,7 +10332,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "HLKBKZT",
@@ -10396,7 +10396,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ANLKEUR",
@@ -10412,7 +10412,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "GCMTEUR",
@@ -10428,7 +10428,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "USTMRUB",
@@ -10444,7 +10444,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PVTMEUR",
@@ -10458,7 +10458,7 @@
     },
     "type": "digital",
     "exponent": 8,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ETH",
@@ -10472,7 +10472,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "DOGE",
@@ -10486,7 +10486,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "XMR",
@@ -10500,7 +10500,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "crypto_currencies",
+    "category": "cryptocurrency",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "EMC",
@@ -10516,7 +10516,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PMRUSD",
@@ -10534,7 +10534,7 @@
     "symbol": "man.",
     "native_symbol": "ман.",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -10546,7 +10546,7 @@
     "iso_numeric3_code": "963",
     "iso_alpha3_code": "XTS",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -10558,7 +10558,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "jsons_code": "RKTBRUB"
@@ -10573,7 +10573,7 @@
     "iso_numeric3_code": "999",
     "iso_alpha3_code": "XXX",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -10585,7 +10585,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "P24USD",
@@ -10601,7 +10601,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "ACRUB",
@@ -10633,7 +10633,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "RFBRUB",
@@ -10697,7 +10697,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "MOSBRUB",
@@ -10729,7 +10729,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "online_bankings",
+    "category": "online_banking",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "TRBRUB",
@@ -10745,7 +10745,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WUUSD",
@@ -10809,7 +10809,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WUEUR",
@@ -10827,7 +10827,7 @@
     "symbol": "N$",
     "native_symbol": "N$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -10839,7 +10839,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WURUB",
@@ -10853,7 +10853,7 @@
     },
     "type": "digital",
     "exponent": 8,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "BTC",
@@ -10885,7 +10885,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "vouchers",
+    "category": "voucher",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "PMVUSD",
@@ -10917,7 +10917,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "cards",
+    "category": "payment_card",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "CARDEUR",
@@ -10933,7 +10933,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIREUSD",
@@ -10997,7 +10997,7 @@
     },
     "type": "digital",
     "exponent": 2,
-    "category": "money_transfers",
+    "category": "money_transfer",
     "parent_currency_multiplier": 1,
     "metadata": {
       "estandards_code": "WIREGBP",
@@ -11015,7 +11015,7 @@
     "symbol": "GH₵",
     "native_symbol": "GH₵",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11061,7 +11061,7 @@
     "symbol": "AED",
     "native_symbol": "د.إ.‏",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11075,7 +11075,7 @@
     "symbol": "Ikr",
     "native_symbol": "kr",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11087,7 +11087,7 @@
     "iso_numeric3_code": "192",
     "iso_alpha3_code": "CUP",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11149,7 +11149,7 @@
     "symbol": "₱",
     "native_symbol": "₱",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11163,7 +11163,7 @@
     "symbol": "S$",
     "native_symbol": "$",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11177,7 +11177,7 @@
     "symbol": "Ssh",
     "native_symbol": "Ssh",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11191,7 +11191,7 @@
     "symbol": "Tk",
     "native_symbol": "৳",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11205,7 +11205,7 @@
     "symbol": "FBu",
     "native_symbol": "FBu",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11219,7 +11219,7 @@
     "symbol": "Kč",
     "native_symbol": "Kč",
     "exponent": 2,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11233,7 +11233,7 @@
     "symbol": "₲",
     "native_symbol": "₲",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   },
   {
@@ -11247,7 +11247,7 @@
     "symbol": "USh",
     "native_symbol": "USh",
     "exponent": 0,
-    "category": "others",
+    "category": "other",
     "parent_currency_multiplier": 1
   }
 ]

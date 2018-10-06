@@ -1,32 +1,65 @@
 [
   {
-    "code": "electronic",
-    "name": {
-      "ru": "Электронные"
-    }
-  },
-  {
-    "code": "national",
-    "name": {
-      "ru": "Национальные"
-    }
-  },
-  {
-    "code": "others",
-    "name": {
-      "ru": "Другие"
-    }
-  },
-  {
     "code": "cash",
     "name": {
+      "en": "Cash",
       "ru": "Наличные"
     }
   },
   {
-    "code": "online_bankings",
+    "code": "electronic",
     "name": {
+      "en": "Electronic",
+      "ru": "Электронные"
+    }
+  },
+  {
+    "code": "online_banking",
+    "name": {
+      "en": "Online-Banking",
       "ru": "Онлайн-банкинг"
+    }
+  },
+  {
+    "code": "money_transfer",
+    "name": {
+      "en": "Money transfer",
+      "ru": "Денежные переводы"
+    }
+  },
+  {
+    "code": "payment_card",
+    "name": {
+      "en": "Payment card",
+      "ru": "Платежная карта"
+    }
+  },
+  {
+    "code": "voucher",
+    "name": {
+      "en": "Voucher",
+      "ru": "Ваучер"
+    }
+  },
+  {
+    "code": "game",
+    "name": {
+      "en": "Game",
+      "ru": "Игровая"
+    }
+  },
+  {
+    "code": "cryptocurrency",
+    "name": {
+      "en": "Cryptocurrency",
+      "ru": "Криптовалюта"
+    }
+  },
+  {
+    "code": "other",
+    "name": {
+      "en": "Other",
+      "ru": "Другие"
     }
   }
 ]

@@ -39,7 +39,8 @@
         "title": "The Category Schema",
         "examples": [
           "debit_cards"
-        ]
+        ],
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
       },
       "countries": {
         "$id": "#/items/properties/countries",

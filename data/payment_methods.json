@@ -301,7 +301,7 @@
   {
     "code": "sepadirectdebit",
     "vendor": "sepadirectdebit",
-    "category": "direct_debits",
+    "category": "direct_debit",
     "countries": [
       "AL",
       "AD",
@@ -353,7 +353,7 @@
   {
     "code": "elektronischeslastschriftverfahren",
     "vendor": "elektronischeslastschriftverfahren",
-    "category": "direct_debits",
+    "category": "direct_debit",
     "countries": [
       "DE"
     ],
@@ -370,7 +370,7 @@
   },
   {
     "code": "euroset",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "name": {
       "en": "Euroset"
     }
@@ -415,7 +415,7 @@
   },
   {
     "code": "pravexbank",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "name": {
       "en": "Pravex bank"
     }
@@ -430,7 +430,7 @@
   },
   {
     "code": "okpay",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "countries": [
       "RU"
     ],
@@ -1189,7 +1189,7 @@
   {
     "code": "viabalotoonlinecashpaymentmethodscolombia",
     "vendor": "viabalotoonlinecashpaymentmethodscolombia",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "CO"
     ],
@@ -1200,7 +1200,7 @@
   {
     "code": "famsaalternativecashpaymentmethodsmexico",
     "vendor": "famsaalternativecashpaymentmethodsmexico",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "MX"
     ],
@@ -1211,7 +1211,7 @@
   {
     "code": "oxxoalternativecashpaymentmethodsmexico",
     "vendor": "oxxoalternativecashpaymentmethodsmexico",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "MX"
     ],
@@ -1269,7 +1269,7 @@
   {
     "code": "applepay",
     "vendor": "applepay",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "UM"
     ],
@@ -1291,7 +1291,7 @@
   {
     "code": "billmelater",
     "vendor": "billmelater",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "name": {
       "en": "PayPal Credit"
     }
@@ -1306,7 +1306,7 @@
   {
     "code": "farmaciasdelahorroalternativecashpaymentmethodsmexico",
     "vendor": "farmaciasdelahorroalternativecashpaymentmethodsmexico",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "MX"
     ],
@@ -1317,7 +1317,7 @@
   {
     "code": "payshop",
     "vendor": "payshop",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "PT"
     ],
@@ -1328,7 +1328,7 @@
   {
     "code": "capayable",
     "vendor": "capayable",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "NL"
     ],
@@ -1339,7 +1339,7 @@
   {
     "code": "frenchonlinepaymentmethodewalletpaylib",
     "vendor": "frenchonlinepaymentmethodewalletpaylib",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "FR"
     ],
@@ -1350,7 +1350,7 @@
   {
     "code": "webmoneytransfer",
     "vendor": "webmoneytransfer",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "AR",
       "BO",
@@ -1375,7 +1375,7 @@
   {
     "code": "visacheckout",
     "vendor": "visacheckout",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "AR",
       "AU",
@@ -1399,7 +1399,7 @@
   {
     "code": "everi",
     "vendor": "everi",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Everi"
     }
@@ -1407,7 +1407,7 @@
   {
     "code": "pagseguro",
     "vendor": "pagseguro",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "BR"
     ],
@@ -1418,7 +1418,7 @@
   {
     "code": "qiwi",
     "vendor": "qiwi",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "RW"
     ],
@@ -1429,7 +1429,7 @@
   {
     "code": "onecard",
     "vendor": "onecard",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "DZ",
       "CA",
@@ -1450,7 +1450,7 @@
   {
     "code": "mobikwik",
     "vendor": "mobikwik",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "IN"
     ],
@@ -1461,7 +1461,7 @@
   {
     "code": "payfastwallet",
     "vendor": "payfastwallet",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Payfast Wallet"
     }
@@ -1469,7 +1469,7 @@
   {
     "code": "tenpay",
     "vendor": "tenpay",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Tenpay"
     }
@@ -1477,7 +1477,7 @@
   {
     "code": "abaqoos",
     "vendor": "abaqoos",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Abaqoos"
     }
@@ -1485,7 +1485,7 @@
   {
     "code": "masterpass",
     "vendor": "masterpass",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "AU",
       "UM",
@@ -1499,28 +1499,28 @@
   },
   {
     "code": "googlewallet",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Google Wallet"
     }
   },
   {
     "code": "epayua",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "E-Pay"
     }
   },
   {
     "code": "rbkmoney",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "RBK Money"
     }
   },
   {
     "code": "mminvoicing",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "MM Invoicing"
     }
@@ -1581,7 +1581,7 @@
   {
     "code": "barzahlen",
     "vendor": "barzahlen",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "DE"
     ],
@@ -1592,7 +1592,7 @@
   {
     "code": "fastcheckoutmultisafepay",
     "vendor": "fastcheckoutmultisafepay",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "AX",
       "AL",
@@ -1648,7 +1648,7 @@
   {
     "code": "gcashwallet",
     "vendor": "gcashwallet",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "PH"
     ],
@@ -1659,7 +1659,7 @@
   {
     "code": "acceptgiro",
     "vendor": "acceptgiro",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "NL"
     ],
@@ -1670,14 +1670,14 @@
   {
     "code": "mypaywizard",
     "vendor": "mypaywizard",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "MyPayWizard"
     }
   },
   {
     "code": "walletone",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "WalletOne"
     }
@@ -1699,7 +1699,7 @@
   {
     "code": "wupay",
     "vendor": "wupay",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "UM"
     ],
@@ -1709,7 +1709,7 @@
   },
   {
     "code": "liqpay_wallet",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "LiqPay"
     }
@@ -1717,7 +1717,7 @@
   {
     "code": "directdebit",
     "vendor": "directdebit",
-    "category": "direct_debits",
+    "category": "direct_debit",
     "name": {
       "en": "Direct Debit"
     }
@@ -1725,7 +1725,7 @@
   {
     "code": "payd",
     "vendor": "payd",
-    "category": "credit_cards",
+    "category": "payment_card",
     "name": {
       "en": "payD"
     }
@@ -1733,7 +1733,7 @@
   {
     "code": "futurepay",
     "vendor": "futurepay",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "UM"
     ],
@@ -1744,7 +1744,7 @@
   {
     "code": "paynearme",
     "vendor": "paynearme",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "UM"
     ],
@@ -1754,7 +1754,7 @@
   },
   {
     "code": "bank_card",
-    "category": "bank_cards",
+    "category": "payment_card",
     "name": {
       "en": "Card"
     }
@@ -1860,42 +1860,42 @@
   },
   {
     "code": "sberonline",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "name": {
       "en": "Sberbank Online"
     }
   },
   {
     "code": "viber",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "name": {
       "en": "Viber"
     }
   },
   {
     "code": "easypay",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "name": {
       "en": "EasyPay"
     }
   },
   {
     "code": "fakturaru",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "name": {
       "en": "Faktura"
     }
   },
   {
     "code": "standardbank",
-    "category": "Invoice",
+    "category": "invoice_payment",
     "name": {
       "en": "Standart Bank"
     }
   },
   {
     "code": "tinkoff",
-    "category": "bank_transfers",
+    "category": "bank_transfer",
     "countries": [
       "UA"
     ],
@@ -1976,7 +1976,7 @@
   {
     "code": "svyaznoy",
     "vendor": "svyaznojbank",
-    "category": "Invoice",
+    "category": "invoice_payment",
     "name": {
       "en": "Svyaznoy"
     }
@@ -2090,14 +2090,14 @@
   {
     "code": "zapp",
     "vendor": "zapp",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Zapp"
     }
   },
   {
     "code": "unistream",
-    "category": "bank_transfers",
+    "category": "bank_transfer",
     "name": {
       "en": "Unistream"
     }
@@ -2105,7 +2105,7 @@
   {
     "code": "perfectmoney_voucher",
     "vendor": "perfectmoney",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "RU",
       "UA"
@@ -2117,7 +2117,7 @@
   {
     "code": "russian_standart_bank",
     "vendor": "russkijstandart",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "name": {
       "en": "Russian Standard Bank"
     }
@@ -2148,7 +2148,7 @@
   {
     "code": "servipag",
     "vendor": "servipag",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "CL"
     ],
@@ -2159,7 +2159,7 @@
   {
     "code": "kriita2",
     "vendor": "kriita2",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "SE"
     ],
@@ -2170,7 +2170,7 @@
   {
     "code": "billsafe",
     "vendor": "billsafe",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "AU",
       "DE"
@@ -2182,7 +2182,7 @@
   {
     "code": "farmaciasbenavidesalternativecashpaymentmethodsmexico",
     "vendor": "farmaciasbenavidesalternativecashpaymentmethodsmexico",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "MX"
     ],
@@ -2193,7 +2193,7 @@
   {
     "code": "minitix",
     "vendor": "minitix",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Minitix"
     }
@@ -2201,7 +2201,7 @@
   {
     "code": "yandexmoney",
     "vendor": "yandexmoney",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "AF",
       "AX",
@@ -2410,7 +2410,7 @@
   {
     "code": "clickandbuy",
     "vendor": "clickandbuy",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "ClickandBuy"
     }
@@ -2418,7 +2418,7 @@
   {
     "code": "vmevisa",
     "vendor": "vmevisa",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "BE",
       "FR",
@@ -2431,7 +2431,7 @@
   {
     "code": "alipay",
     "vendor": "alipay",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Alipay.com"
     }
@@ -2439,7 +2439,7 @@
   {
     "code": "neteller",
     "vendor": "neteller",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "NETELLER"
     }
@@ -2447,7 +2447,7 @@
   {
     "code": "paysbuy",
     "vendor": "paysbuy",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "TH"
     ],
@@ -2458,7 +2458,7 @@
   {
     "code": "payzippy",
     "vendor": "payzippy",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "PayZippy"
     }
@@ -2466,7 +2466,7 @@
   {
     "code": "vvvgiftcard",
     "vendor": "vvvgiftcard",
-    "category": "gift_cards",
+    "category": "prepaid_voucher",
     "countries": [
       "NL"
     ],
@@ -2477,7 +2477,7 @@
   {
     "code": "pagoefectivo",
     "vendor": "pagoefectivo",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "PE"
     ],
@@ -2488,7 +2488,7 @@
   {
     "code": "rapipago",
     "vendor": "rapipago",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "AR"
     ],
@@ -2499,7 +2499,7 @@
   {
     "code": "efectyonlinecashpaymentmethodscolombia",
     "vendor": "efectyonlinecashpaymentmethodscolombia",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "CO"
     ],
@@ -2510,7 +2510,7 @@
   {
     "code": "moneta",
     "vendor": "moneta",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "Moneta"
     }
@@ -2518,7 +2518,7 @@
   {
     "code": "mercadopago",
     "vendor": "mercadopago",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "AR",
       "BR",
@@ -2534,7 +2534,7 @@
   {
     "code": "toditocash",
     "vendor": "toditocash",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "MX"
     ],
@@ -2545,7 +2545,7 @@
   {
     "code": "boletobancariopay",
     "vendor": "boletobancariopay",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "name": {
       "en": "Boleto Bancario"
     }
@@ -2553,7 +2553,7 @@
   {
     "code": "dokuwallet",
     "vendor": "dokuwallet",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "DOKU Wallet"
     }
@@ -2561,7 +2561,7 @@
   {
     "code": "skrill2",
     "vendor": "skrill2",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "AX",
       "AL",
@@ -2762,7 +2762,7 @@
   {
     "code": "paypal",
     "vendor": "paypal",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "AL",
       "DZ",
@@ -2928,7 +2928,7 @@
   {
     "code": "billink",
     "vendor": "billink",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "NL"
     ],
@@ -2939,7 +2939,7 @@
   {
     "code": "247billpay",
     "vendor": "247billpay",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "24-7 Bill Pay"
     }
@@ -2947,7 +2947,7 @@
   {
     "code": "afterpay",
     "vendor": "afterpay",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "BE",
       "FR",
@@ -2963,7 +2963,7 @@
   {
     "code": "paybybill",
     "vendor": "paybybill",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "DK",
       "FJ",
@@ -2979,7 +2979,7 @@
   {
     "code": "acceptemail",
     "vendor": "acceptemail",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "AX",
       "AL",
@@ -3036,7 +3036,7 @@
   {
     "code": "7elevenalternativecashpaymentmethodsmexico",
     "vendor": "7elevenalternativecashpaymentmethodsmexico",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "MX"
     ],
@@ -3047,7 +3047,7 @@
   {
     "code": "klarna",
     "vendor": "klarna",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "AU",
       "DK",
@@ -3065,7 +3065,7 @@
   {
     "code": "sencillitoalternativecashpaymentmethodschile",
     "vendor": "sencillitoalternativecashpaymentmethodschile",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "CL"
     ],
@@ -3076,7 +3076,7 @@
   {
     "code": "billpay",
     "vendor": "billpay",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "AU",
       "DE",
@@ -3090,7 +3090,7 @@
   {
     "code": "kwixo",
     "vendor": "kwixo",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "FR"
     ],
@@ -3101,7 +3101,7 @@
   {
     "code": "mpayaisthailand",
     "vendor": "mpayaisthailand",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "mPAY"
     }
@@ -3109,7 +3109,7 @@
   {
     "code": "smartmoney",
     "vendor": "smartmoney",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "PH"
     ],
@@ -3120,7 +3120,7 @@
   {
     "code": "justpayewallet",
     "vendor": "justpayewallet",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "TH"
     ],
@@ -3131,7 +3131,7 @@
   {
     "code": "zimpler",
     "vendor": "zimpler",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "FJ",
       "SE"
@@ -3143,7 +3143,7 @@
   {
     "code": "dwolla",
     "vendor": "dwolla",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "UM"
     ],
@@ -3154,7 +3154,7 @@
   {
     "code": "bancnetdirectdebits",
     "vendor": "bancnetdirectdebits",
-    "category": "direct_debits",
+    "category": "direct_debit",
     "countries": [
       "PH"
     ],
@@ -3550,7 +3550,7 @@
   {
     "code": "rixty",
     "vendor": "rixty",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "UM"
     ],
@@ -3561,7 +3561,7 @@
   {
     "code": "peela",
     "vendor": "peela",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "name": {
       "en": "Peela"
     }
@@ -3569,7 +3569,7 @@
   {
     "code": "teleingreso",
     "vendor": "teleingreso",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "name": {
       "en": "Teleingreso"
     }
@@ -3577,7 +3577,7 @@
   {
     "code": "neosurf",
     "vendor": "neosurf",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "DZ",
       "AD",
@@ -3630,7 +3630,7 @@
   {
     "code": "ticketpremium",
     "vendor": "ticketpremium",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "FR"
     ],
@@ -3641,7 +3641,7 @@
   {
     "code": "papaya",
     "vendor": "papaya",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "name": {
       "en": "Papaya"
     }
@@ -3649,7 +3649,7 @@
   {
     "code": "postepay",
     "vendor": "postepay",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "name": {
       "en": "Postepay"
     }
@@ -3657,7 +3657,7 @@
   {
     "code": "serve",
     "vendor": "serve",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "name": {
       "en": "Serve"
     }
@@ -3665,7 +3665,7 @@
   {
     "code": "flexepinemoneyvouchers",
     "vendor": "flexepinemoneyvouchers",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "AU",
       "CA"
@@ -3677,7 +3677,7 @@
   {
     "code": "cashu",
     "vendor": "cashu",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "BH",
       "CL",
@@ -3700,7 +3700,7 @@
   {
     "code": "paysafecard",
     "vendor": "paysafecard",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "AR",
       "AU",
@@ -3748,7 +3748,7 @@
   {
     "code": "ukash",
     "vendor": "ukash",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "AU",
       "CZ",
@@ -3778,7 +3778,7 @@
   {
     "code": "dinersclub",
     "vendor": "dinersclub",
-    "category": "credit_cards",
+    "category": "payment_card",
     "name": {
       "en": "Diners Club International"
     }
@@ -3786,7 +3786,7 @@
   {
     "code": "chinaunionpay",
     "vendor": "chinaunionpay",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "AU",
       "CL"
@@ -3798,7 +3798,7 @@
   {
     "code": "presto",
     "vendor": "presto",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "CL"
     ],
@@ -3809,7 +3809,7 @@
   {
     "code": "banamexdebitcardonlinepaymentmethodmexico",
     "vendor": "banamexdebitcardonlinepaymentmethodmexico",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "MX"
     ],
@@ -3820,7 +3820,7 @@
   {
     "code": "tarjetaripley",
     "vendor": "tarjetaripley",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "CL"
     ],
@@ -3831,7 +3831,7 @@
   {
     "code": "americanexpress",
     "vendor": "americanexpress",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "AF",
       "AX",
@@ -4037,7 +4037,7 @@
   {
     "code": "cartasi",
     "vendor": "cartasi",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "IT"
     ],
@@ -4048,7 +4048,7 @@
   {
     "code": "uatp",
     "vendor": "uatp",
-    "category": "credit_cards",
+    "category": "payment_card",
     "name": {
       "en": "UATP"
     }
@@ -4056,7 +4056,7 @@
   {
     "code": "elo",
     "vendor": "elo",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "BR"
     ],
@@ -4067,7 +4067,7 @@
   {
     "code": "aura",
     "vendor": "aura",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "BR",
       "FR"
@@ -4079,7 +4079,7 @@
   {
     "code": "hipercard",
     "vendor": "hipercard",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "BR"
     ],
@@ -4090,7 +4090,7 @@
   {
     "code": "mastercard",
     "vendor": "mastercard",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "AF",
       "AX",
@@ -4296,7 +4296,7 @@
   {
     "code": "visa2",
     "vendor": "visa2",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "AF",
       "AX",
@@ -4502,7 +4502,7 @@
   {
     "code": "jcb",
     "vendor": "jcb",
-    "category": "credit_cards",
+    "category": "payment_card",
     "name": {
       "en": "JCB"
     }
@@ -4510,7 +4510,7 @@
   {
     "code": "discover",
     "vendor": "discover",
-    "category": "credit_cards",
+    "category": "payment_card",
     "name": {
       "en": "Discover"
     }
@@ -4518,7 +4518,7 @@
   {
     "code": "magnacreditcardsonlinepaymentmethodschile",
     "vendor": "magnacreditcardsonlinepaymentmethodschile",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "CL"
     ],
@@ -4529,7 +4529,7 @@
   {
     "code": "webpaypluscreditcardsonlinepaymentsolutionchile",
     "vendor": "webpaypluscreditcardsonlinepaymentsolutionchile",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "CL"
     ],
@@ -4540,7 +4540,7 @@
   {
     "code": "tarjetanaranjacreditcard",
     "vendor": "tarjetanaranjacreditcard",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "AR"
     ],
@@ -4551,7 +4551,7 @@
   {
     "code": "vpay",
     "vendor": "vpay",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "FR",
       "IT",
@@ -4564,7 +4564,7 @@
   {
     "code": "cabal",
     "vendor": "cabal",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "AR"
     ],
@@ -4575,7 +4575,7 @@
   {
     "code": "visaelectron",
     "vendor": "visaelectron",
-    "category": "debit_cards",
+    "category": "payment_card",
     "name": {
       "en": "Visa Electron"
     }
@@ -4583,7 +4583,7 @@
   {
     "code": "mastercarddebit",
     "vendor": "mastercarddebit",
-    "category": "debit_cards",
+    "category": "payment_card",
     "name": {
       "en": "MasterCard Debit"
     }
@@ -4591,7 +4591,7 @@
   {
     "code": "maestro",
     "vendor": "maestro",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "AU",
       "BE",
@@ -4606,7 +4606,7 @@
   {
     "code": "cartebancaires",
     "vendor": "cartebancaires",
-    "category": "debit_cards",
+    "category": "payment_card",
     "name": {
       "en": "Carte Bancaires"
     }
@@ -4614,7 +4614,7 @@
   {
     "code": "rupaypaysecure",
     "vendor": "rupaypaysecure",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "IN"
     ],
@@ -4625,7 +4625,7 @@
   {
     "code": "dankort",
     "vendor": "dankort",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "DK"
     ],
@@ -4636,7 +4636,7 @@
   {
     "code": "debitobradesco",
     "vendor": "debitobradesco",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "BR"
     ],
@@ -4647,7 +4647,7 @@
   {
     "code": "cartebleue",
     "vendor": "cartebleue",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "FR"
     ],
@@ -4658,7 +4658,7 @@
   {
     "code": "girocard",
     "vendor": "girocard",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "DE"
     ],
@@ -4669,7 +4669,7 @@
   {
     "code": "visadebit",
     "vendor": "visadebit",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "AF",
       "AX",
@@ -4873,7 +4873,7 @@
   {
     "code": "postfinancecard",
     "vendor": "postfinancecard",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "CH"
     ],
@@ -4884,7 +4884,7 @@
   {
     "code": "electroniccheckach",
     "vendor": "electroniccheckach",
-    "category": "checks",
+    "category": "check",
     "countries": [
       "UM"
     ],
@@ -4895,7 +4895,7 @@
   {
     "code": "papercheck",
     "vendor": "papercheck",
-    "category": "checks",
+    "category": "check",
     "name": {
       "en": "Paper Check"
     }
@@ -4903,7 +4903,7 @@
   {
     "code": "zipmark",
     "vendor": "zipmark",
-    "category": "checks",
+    "category": "check",
     "countries": [
       "UM"
     ],
@@ -4914,7 +4914,7 @@
   {
     "code": "smsbilling",
     "vendor": "smsbilling",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "countries": [
       "AF",
       "DZ",
@@ -5079,7 +5079,7 @@
   {
     "code": "carrierbilling",
     "vendor": "carrierbilling",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "countries": [
       "AF",
       "AX",
@@ -5283,7 +5283,7 @@
   {
     "code": "ivrbilling",
     "vendor": "ivrbilling",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "name": {
       "en": "IVR Billing"
     }
@@ -5291,7 +5291,7 @@
   {
     "code": "pingping",
     "vendor": "pingping",
-    "category": "mobile_payments",
+    "category": "mobile_payment",
     "countries": [
       "BE"
     ],
@@ -5302,7 +5302,7 @@
   {
     "code": "pagofacil",
     "vendor": "pagofacil",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "AR"
     ],
@@ -5313,7 +5313,7 @@
   {
     "code": "moneytopay",
     "vendor": "moneytopay",
-    "category": "prepaid_cards",
+    "category": "prepaid_card",
     "countries": [
       "AF",
       "AX",
@@ -5518,7 +5518,7 @@
   {
     "code": "argencard",
     "vendor": "argencard",
-    "category": "cash_payments",
+    "category": "cash_payment",
     "countries": [
       "AR"
     ],
@@ -5529,7 +5529,7 @@
   {
     "code": "barpay",
     "vendor": "barpay",
-    "category": "invoice_payments",
+    "category": "invoice_payment",
     "countries": [
       "DE"
     ],
@@ -5540,7 +5540,7 @@
   {
     "code": "onlinenaira",
     "vendor": "onlinenaira",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "name": {
       "en": "OnlineNaira"
     }
@@ -5548,7 +5548,7 @@
   {
     "code": "bkmexpress",
     "vendor": "bkmexpress",
-    "category": "e_wallets",
+    "category": "digital_wallet",
     "countries": [
       "TR"
     ],
@@ -5636,7 +5636,7 @@
   {
     "code": "multibanconet",
     "vendor": "multibanconet",
-    "category": "credit_cards",
+    "category": "payment_card",
     "countries": [
       "PT"
     ],
@@ -5647,7 +5647,7 @@
   {
     "code": "bancontactmistercash",
     "vendor": "bancontactmistercash",
-    "category": "debit_cards",
+    "category": "payment_card",
     "countries": [
       "BE"
     ],

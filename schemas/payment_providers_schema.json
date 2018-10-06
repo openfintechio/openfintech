@@ -31,7 +31,8 @@
         "default": "",
         "examples": [
           "digitalriverworldpayments"
-        ]
+        ],
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
       },
       "name": { "$ref": "#/definitions/translatable" },
       "description": { "$ref": "#/definitions/translatable" },
@@ -49,7 +50,8 @@
             "collecting",
             "aggregating",
             "distributing"
-          ]
+          ],
+          "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
         }
       },
       "countries": {
@@ -114,7 +116,8 @@
             "discover",
             "visadebit",
             "mastercard"
-          ]
+          ],
+          "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
         }
       },
       "payout_method": {
@@ -128,14 +131,14 @@
           "default": "",
           "examples": [
             "bank_card"
-          ]
+          ],
+          "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
         }
       },
       "metadata": {
         "$id": "#/items/properties/metadata",
         "type": "object",
         "title": "The Metadata Schema",
-
         "properties": {
           "about_payments_code": {
             "$id": "#/items/properties/metadata/properties/about_payments_code",

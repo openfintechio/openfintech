@@ -27,6 +27,7 @@
         "$id": "#/items/properties/vendor",
         "type": "string",
         "title": "The Vendor Schema",
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$",
         "examples": [
           "webmoney"
         ]
@@ -37,6 +38,7 @@
         "$id": "#/items/properties/category",
         "type": "string",
         "title": "The Category Schema",
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$",
         "examples": [
           "internet_banking"
         ]

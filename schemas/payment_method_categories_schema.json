@@ -18,9 +18,10 @@
         "type": "string",
         "title": "The Code Schema",
         "examples": [
-          "IQD"
+          "paypal",
+          "webmoney"
         ],
-        "pattern": "^([A-Z0-9]+)([A-Z0-9-_\\.]+)([A-Z0-9]+)$"
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
       },
       "name": { "$ref": "#/definitions/translatable" }
     }
