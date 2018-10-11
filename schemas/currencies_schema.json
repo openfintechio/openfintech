@@ -74,7 +74,9 @@
         "title": "The Exponent Schema",
         "examples": [
           3
-        ]
+        ],
+        "minimum": 0,
+        "maximum": 8
       },
       "parent_currency_multiplier": {
         "$id": "#/items/properties/parent_currency_multiplier",

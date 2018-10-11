@@ -1,16 +1,25 @@
 {
-    "name": "paycore/openfintech-data",
-    "license": "MIT",
-    "type": "project",
-    "description": "Openfintech data",
-    "require": {
-        "php": "^7.0",
-        "justinrainbow/json-schema": "^5.2"
-    },
-    "prefer-stable": true,
-    "config": {
-        "bin-dir": "bin"
-    },
+  "name": "paycore/openfintech-data",
+  "license": "MIT",
+  "type": "project",
+  "description": "Openfintech data",
+  "require": {
+    "php": "^7.0",
+    "justinrainbow/json-schema": "^5.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oft\\Provider\\": "./"
+    }
+  },
+  "prefer-stable": true,
+  "config": {
+      "bin-dir": "bin"
+  },
+  "suggest": {
+    "paycore/openfintech-meta": "Provides additional information about images, etc."
+  },
     "extra": {
        "branch-alias": {
          "dev-master": "0.1.x-dev",
