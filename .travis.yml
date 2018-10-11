@@ -10,6 +10,7 @@ after_success:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
   - ./etc/deploy.sh
+  - aws s3 sync resources s3://resources.openfintech.io
 install:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
   - travis_retry composer self-update && composer --version
