@@ -1,18 +1,19 @@
 sudo: required
 language: php
 cache:
-- vendor
+  - vendor
 php:
-- '7.1'
+  - '7.1'
 before_script:
-- composer install -o --ignore-platform-reqs
+  - composer install -o --ignore-platform-reqs
 after_success:
-- pip install --user awscli
-- export PATH=$PATH:$HOME/.local/bin
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+  - ./etc/deploy.sh
 install:
-- export PATH="$HOME/.composer/vendor/bin:$PATH"
-- travis_retry composer self-update && composer --version
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - travis_retry composer self-update && composer --version
 script:
-- "./etc/validate.sh"
+  - "./etc/validate.sh"
 env:
   secure: rn+oHlvnUqKXvTvzx5flnwm8H7/erGdX7mwUbiDw+prFMy+qPA431MWN0yr1Lc+Gz4hkhnpSnpWdU7VHRdOcf2y7xga3A6WbwUMaComqqvq6wCj1OkprbP+XHn4y7ZgCHSk24pWMaPwtemkQ1URhAUrybpZ3G2QCYBuU/FaCWxisjegVxYmibwj09CPzehM0xiQnuA9iVH6zuTerHsU9d/XNuuJzRYNlZltujTUWdY6WRYhwjCWzsseneO6O8I6pcdYUkUq8qapHAqSEYcxIScsnpfwgyDe0AMielT9N2tTeUeaWuhjkJ89kEC+iG3IV1oxr0pR8hRs4YUxDvQ6Vvsw3BhcwgoD8rLbAnYImZloUhR1ALC1qaufK7cxTxCC8w2EAR4RmCGUtLmKdKdPSsg1Exv7rzg5dsKZ94BP2ZxTJIl78lvTgMDupjsX/ykbTJmMqvPYk9SGJW9+saweUvudw0CpLHkWdDmlAj85517WCXK425WMnCGnMRtn14RRpVizsD8YZRDeCeXFMrAf7VLZ85JBwKrF01f06wq0nOCwFGbXvFs2rsw2vx9QAu4t9M1n+dBXpQsuD0R2va0cyBZLha1ZenRUk17stNuDVUjSIT73i+qXD94zQOa+ZZ7Yk6qS/NrT9Mrj9AI1tmws0v3OutOmo24RMLNq069cGsBw=
