@@ -12,6 +12,11 @@
           "ru": "Номер карты",
           "uk": "Номер карти"
         },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
         "regexp": "/\\d{12,19}/",
         "required": true,
         "position": 0
@@ -33,6 +38,11 @@
           "ru": "Qiwi кошелек",
           "uk": "Qiwi гаманець"
         },
+        "hint": {
+          "en": "Enter Qiwi wallet",
+          "ru": "Введите Qiwi кошелек",
+          "uk": "Введіть Qiwi гаманець"
+        },
         "regexp": "/\\+\\d{1,15}/",
         "required": true,
         "position": 0
@@ -48,6 +58,11 @@
         "key": "account",
         "type": "string",
         "label": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "hint": {
           "en": "Account",
           "ru": "Аккаунт",
           "uk": "Акаунт"
@@ -103,6 +118,11 @@
           "ru": "Секретный пароль",
           "uk": "Секретний пароль"
         },
+        "hint": {
+          "en": "Enter secret word",
+          "ru": "Введите секретный пароль",
+          "uk": "Введіть секретний пароль"
+        },
         "regexp": "/\\d{6}/",
         "required": true,
         "position": 0
@@ -114,6 +134,11 @@
           "en": "Shipping first name",
           "ru": "Имя получателя",
           "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
         },
         "regexp": "/[A-Z\\-\\sa-z]{2,64}/",
         "required": true,
@@ -127,6 +152,11 @@
           "ru": "Фамилия получателя",
           "uk": "Прізвище отримувача"
         },
+        "hint": {
+          "en": "Enter shipping last name",
+          "ru": "Введите фамилия получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
         "regexp": "/[A-Za-z]{2,64}/",
         "required": true,
         "position": 0
@@ -139,6 +169,11 @@
           "ru": "Код страны получателя",
           "uk": "Код країни отримувача"
         },
+        "hint": {
+          "en": "Enter shipping country code",
+          "ru": "Введите код страны получателя",
+          "uk": "Введіть код країни отримувача"
+        },
         "regexp": "/[A-Z][A-Z]/",
         "required": true,
         "position": 0
@@ -150,6 +185,11 @@
           "en": "Shipping mobile",
           "ru": "Телефон получателя",
           "uk": "Телефон отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping mobile",
+          "ru": "Введите телефон получателя",
+          "uk": "Введіть телефон отримувача"
         },
         "regexp": "/\\+?\\d{9,32}/",
         "required": true,
@@ -19312,49 +19352,49 @@
     "amount_max": "14999.00000000"
   },
   {
-    "code": "ethereum",
+    "code": "ethereum_eth",
     "method": "ethereum",
     "currency": "ETH",
     "amount_min": "1.00000000",
     "amount_max": "100.00000000"
   },
   {
-    "code": "webmoneytransferusd",
+    "code": "webmoneytransfer_usd",
     "method": "webmoneytransfer",
     "currency": "USD",
     "amount_min": "1.00000000",
     "amount_max": "63000.00000000"
   },
   {
-    "code": "tether",
+    "code": "tether_usd",
     "method": "usdt",
     "currency": "USD",
     "amount_min": "10.00000000",
     "amount_max": "21943.00000000"
   },
   {
-    "code": "bitcoins",
+    "code": "bitcoins_btc",
     "method": "bitcoins",
     "currency": "BTC",
     "amount_min": "0.01000000",
     "amount_max": "50.00000000"
   },
   {
-    "code": "litecoin",
+    "code": "litecoin_ltc",
     "method": "litecoin",
     "currency": "LTC",
     "amount_min": "1.00000000",
     "amount_max": "100.00000000"
   },
   {
-    "code": "bitcoin_cash",
+    "code": "bitcoin_cash_bch",
     "method": "bitcoin_cash",
     "currency": "BCH",
     "amount_min": "0.01000000",
     "amount_max": "100.00000000"
   },
   {
-    "code": "webmoneytransferrub",
+    "code": "webmoneytransfer_rub",
     "method": "webmoneytransfer",
     "currency": "RUB",
     "amount_min": "1.00000000",
