@@ -98,11 +98,59 @@
     }
   },
   {
+    "code": "public-services",
+    "name": {
+      "ru": "Комунальные платежи",
+      "en": "Utility payments",
+      "ua": "Комунальні платежі"
+    }
+  },
+  {
+    "code": "others",
+    "name": {
+      "ru": "Другие услуги",
+      "en": "Other services",
+      "ua": "Інші послуги"
+    }
+  },
+  {
+    "code": "telecommunications",
+    "name": {
+      "ru": "Телекомуникации",
+      "en": "Telecommunications",
+      "ua": "Телекомунікації"
+    }
+  },
+  {
+    "code": "financial-services",
+    "name": {
+      "ru": "Финансовые услуги",
+      "en": "Financial Services",
+      "ua": "Фінансові послуги"
+    }
+  },
+  {
+    "code": "taxi",
+    "name": {
+      "ru": "Такси",
+      "en": "Taxi",
+      "ua": "Таксі"
+    }
+  },
+  {
     "code": "charity",
     "name": {
       "en": "Charity",
       "ru": "Благотворительность",
       "ua": "Благодійність"
+    }
+  },
+  {
+    "code": "entertainment",
+    "name": {
+      "ru": "Развлечения",
+      "en": "Entertainment",
+      "ua": "Розваги"
     }
   },
   {
@@ -122,91 +170,11 @@
     }
   },
   {
-    "code": "internettv",
+    "code": "selling-goods",
     "name": {
-      "ru": "TV/Интернет",
-      "en": "TV/Internet",
-      "ua": "TV/Інтернет"
-    }
-  },
-  {
-    "code": "telecommunications",
-    "name": {
-      "ru": "Телекомуникации",
-      "en": "Telecommunocations",
-      "ua": "Телекомунікації"
-    }
-  },
-  {
-    "code": "retail",
-    "name": {
-      "ru": "Розничная торговля",
-      "en": "Retail",
-      "ua": "Роздрібна торгівля"
-    }
-  },
-  {
-    "code": "financial-services",
-    "name": {
-      "ru": "Финансовые сервисы",
-      "en": "Financial Services",
-      "ua": "Фінансові сервіси"
-    }
-  },
-  {
-    "code": "taxi",
-    "name": {
-      "ru": "Такси",
-      "en": "Taxi",
-      "ua": "Таксі"
-    }
-  },
-  {
-    "code": "igry",
-    "name": {
-      "ru": "Игры",
-      "en": "Games",
-      "ua": "Ігри"
-    }
-  },
-  {
-    "code": "public-services",
-    "name": {
-      "ru": "Комунальные платежи",
-      "en": "Utility payments",
-      "ua": "Комунальні платежі"
-    }
-  },
-  {
-    "code": "perekazy",
-    "name": {
-      "ru": "Денежные переводы",
-      "en": "Money transfers",
-      "ua": "Грошові перекази"
-    }
-  },
-  {
-    "code": "mobilny",
-    "name": {
-      "ru": "Мобильные платежи",
-      "en": "Mobile payments",
-      "ua": "Мобільні платежі"
-    }
-  },
-  {
-    "code": "entertainment",
-    "name": {
-      "ru": "Развлечения",
-      "en": "Entertainment",
-      "ua": "Розваги"
-    }
-  },
-  {
-    "code": "roumingiptelefoniya",
-    "name": {
-      "ru": "Роуминг и IP телефония",
-      "en": "Roaming and IP telephony",
-      "ua": "Роумінг та IP телефонія"
+      "ru": "Продажа товаров",
+      "en": "Selling goods",
+      "ua": "Продаж товарів"
     }
   }
 ]

@@ -152,6 +152,14 @@
     "amount_max": "100000.00000000"
   },
   {
+    "code": "payment_card_rub_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "RUB",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
     "code": "privat24_rub_hpp",
     "flow": "hpp",
     "method": "privat24",
@@ -187,6 +195,14 @@
     "code": "bank_card_uah_hpp",
     "flow": "hpp",
     "method": "bank_card",
+    "currency": "UAH",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "payment_card_uah_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
     "currency": "UAH",
     "amount_min": "0.00000000",
     "amount_max": "100000.00000000"
@@ -235,6 +251,14 @@
     "code": "bank_card_usd_hpp",
     "flow": "hpp",
     "method": "bank_card",
+    "currency": "USD",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "payment_card_usd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
     "currency": "USD",
     "amount_min": "0.00000000",
     "amount_max": "100000.00000000"
@@ -315,6 +339,14 @@
     "code": "bank_card_eur_hpp",
     "flow": "hpp",
     "method": "bank_card",
+    "currency": "EUR",
+    "amount_min": "0.00000000",
+    "amount_max": "100000.00000000"
+  },
+  {
+    "code": "payment_card_eur_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
     "currency": "EUR",
     "amount_min": "0.00000000",
     "amount_max": "100000.00000000"
