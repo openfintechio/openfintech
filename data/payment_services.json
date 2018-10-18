@@ -23,7 +23,7 @@
         "position": 0
       }
     ],
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -84,7 +84,7 @@
         "position": 0
       }
     ],
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -92,7 +92,7 @@
     "flow": "hpp",
     "method": "privat24",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -100,7 +100,7 @@
     "flow": "hpp",
     "method": "liqpay",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -108,7 +108,7 @@
     "flow": "test",
     "method": "test",
     "currency": "XTS",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -116,7 +116,7 @@
     "flow": "hpp",
     "method": "privat24",
     "currency": "EUR",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -124,7 +124,7 @@
     "flow": "hpp",
     "method": "liqpay_wallet",
     "currency": "EUR",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -132,7 +132,7 @@
     "flow": "hpp",
     "method": "privat24",
     "currency": "UAH",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -140,7 +140,7 @@
     "flow": "hpp",
     "method": "liqpay",
     "currency": "RUB",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -148,7 +148,7 @@
     "flow": "hpp",
     "method": "bank_card",
     "currency": "RUB",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -156,7 +156,7 @@
     "flow": "hpp",
     "method": "payment_card",
     "currency": "RUB",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -164,7 +164,7 @@
     "flow": "hpp",
     "method": "privat24",
     "currency": "RUB",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -172,7 +172,7 @@
     "flow": "hpp",
     "method": "liqpay",
     "currency": "UAH",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -180,7 +180,7 @@
     "flow": "hpp",
     "method": "liqpay_wallet",
     "currency": "UAH",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -188,7 +188,7 @@
     "flow": "hpp",
     "method": "masterpass",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -196,7 +196,7 @@
     "flow": "hpp",
     "method": "bank_card",
     "currency": "UAH",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -204,7 +204,7 @@
     "flow": "hpp",
     "method": "payment_card",
     "currency": "UAH",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -212,7 +212,7 @@
     "flow": "hpp",
     "method": "coingate",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -220,7 +220,7 @@
     "flow": "hpp",
     "method": "usdt",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -228,7 +228,7 @@
     "flow": "hpp",
     "method": "masterpass",
     "currency": "EUR",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -252,7 +252,7 @@
     "flow": "hpp",
     "method": "masterpass",
     "currency": "RUB",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -260,7 +260,7 @@
     "flow": "hpp",
     "method": "bank_card",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -268,7 +268,7 @@
     "flow": "hpp",
     "method": "payment_card",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -276,7 +276,7 @@
     "flow": "hpp",
     "method": "ethereum",
     "currency": "ETH",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -284,7 +284,7 @@
     "flow": "hpp",
     "method": "privatbank_ssk",
     "currency": "UAH",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -292,7 +292,7 @@
     "flow": "hpp",
     "method": "privatbank_ssk",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -308,7 +308,7 @@
     "flow": "hpp",
     "method": "privatbank_ssk",
     "currency": "RUB",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -316,7 +316,7 @@
     "flow": "hpp",
     "method": "liqpay_wallet",
     "currency": "USD",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -324,7 +324,7 @@
     "flow": "hpp",
     "method": "liqpay",
     "currency": "EUR",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -332,7 +332,7 @@
     "flow": "hpp",
     "method": "liqpay_wallet",
     "currency": "RUB",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -340,7 +340,7 @@
     "flow": "hpp",
     "method": "bank_card",
     "currency": "EUR",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -348,7 +348,7 @@
     "flow": "hpp",
     "method": "payment_card",
     "currency": "EUR",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -356,7 +356,7 @@
     "flow": "hpp",
     "method": "privatbank_ssk",
     "currency": "EUR",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -364,7 +364,7 @@
     "flow": "hpp",
     "method": "masterpass",
     "currency": "UAH",
-    "amount_min": 0,
+    "amount_min": 0.01,
     "amount_max": 100000
   }
 ]
