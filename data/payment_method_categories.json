@@ -3,98 +3,112 @@
     "code": "internet_banking",
     "name": {
       "en": "Internet-banking",
-      "ru": "Интернет-банкинг"
+      "ru": "Интернет-банкинг",
+      "ua": "Інтернет-банкінг"
     }
   },
   {
     "code": "payment_card",
     "name": {
       "en": "Payment card",
-      "ru": "Платежная карта"
+      "ru": "Платежная карта",
+      "ua": "Платіжна карта"
     }
   },
   {
     "code": "bank_transfer",
     "name": {
       "en": "Bank transfer",
-      "ru": "Банковский перевод"
+      "ru": "Банковский перевод",
+      "ua": "Банківський переказ"
     }
   },
   {
     "code": "cash_on_delivery",
     "name": {
       "en": "Cash on delivery",
-      "ru": "Наложенный платёж"
+      "ru": "Наложенный платёж",
+      "ua": "Накладний платіж"
     }
   },
   {
     "code": "cash_payment",
     "name": {
       "en": "Cash payment",
-      "ru": "Наличный расчет"
+      "ru": "Наличный расчет",
+      "ua": "Готівковий розрахунок"
     }
   },
   {
     "code": "check",
     "name": {
       "en": "Check",
-      "ru": "Чек"
+      "ru": "Чек",
+      "ua": "Чек"
     }
   },
   {
     "code": "direct_debit",
     "name": {
       "en": "Direct debit",
-      "ru": "Прямое дебетование"
+      "ru": "Прямое дебетование",
+      "ua": "Пряме дебетування"
     }
   },
   {
     "code": "digital_wallet",
     "name": {
       "en": "Digital wallet",
-      "ru": "Электронный кошелёк"
+      "ru": "Электронный кошелёк",
+      "ua": "Електронний гаманець"
     }
   },
   {
     "code": "prepaid_voucher",
     "name": {
       "en": "Prepaid voucher",
-      "ru": "Предоплаченный ваучер"
+      "ru": "Предоплаченный ваучер",
+      "ua": "Передплачений ваучер"
     }
   },
   {
     "code": "prepaid_card",
     "name": {
       "en": "Prepaid card",
-      "ru": "Предоплаченная карта"
+      "ru": "Предоплаченная карта",
+      "ua": "Передплачена карта"
     }
   },
   {
     "code": "invoice_payment",
     "name": {
       "en": "Invoice payment",
-      "ru": "Выставление счета"
+      "ru": "Выставление счета",
+      "ua": "Виставлення рахунку"
     }
   },
   {
     "code": "mobile_carrier_billing",
     "name": {
       "en": "Mobile carrier billing",
-      "ru": "Биллинг мобильного оператора"
+      "ru": "Биллинг мобильного оператора",
+      "ua": "Біллінг мобільного оператора"
     }
   },
   {
     "code": "mobile_payment",
     "name": {
       "en": "Mobile payment",
-      "ru": "Мобильный платеж"
+      "ru": "Мобильный платеж",
+      "ua": "Мобільний платіж"
     }
   },
   {
     "code": "alternative",
     "name": {
+      "en": "Alternative",
       "ru": "Альтернативный",
-      "en": "Alternative"
+      "ua": "Альтернативний"
     }
   },
   {
@@ -166,7 +180,7 @@
     "name": {
       "ru": "Дистрибуция",
       "en": "Distribution",
-      "ua": "Платежі до бюджету"
+      "ua": "Дистрибуція"
     }
   },
   {
