@@ -44,8 +44,8 @@
     }
   },
   {
-    "code": "bitcoins",
-    "vendor": "bitcoins",
+    "code": "bitcoin",
+    "vendor": "bitcoin",
     "category": "alternative",
     "name": {
       "en": "Bitcoin"
@@ -1068,7 +1068,9 @@
       "RW"
     ],
     "name": {
-      "en": "VISA QIWI Wallet"
+      "en": "VISA QIWI Wallet",
+      "ru": "VISA QIWI Кошелек",
+      "ua": "VISA QIWI Гаманець"
     }
   },
   {
@@ -1108,7 +1110,9 @@
     "vendor": "payfastwallet",
     "category": "digital_wallet",
     "name": {
-      "en": "Payfast Wallet"
+      "en": "Payfast Wallet",
+      "ru": "Payfast Кошелек",
+      "ua": "Payfast Гаманець"
     }
   },
   {
@@ -1146,7 +1150,9 @@
     "code": "googlewallet",
     "category": "digital_wallet",
     "name": {
-      "en": "Google Wallet"
+      "en": "Google Wallet",
+      "ru": "Google Кошелек",
+      "ua": "Google Гаманець"
     }
   },
   {
@@ -1174,7 +1180,9 @@
     "code": "sbrebank",
     "category": "bank_transfers",
     "name": {
-      "en": "SberBank"
+      "en": "SberBank",
+      "ru": "Сбербанк",
+      "ua": "Сбербанк"
     }
   },
   {
@@ -1188,7 +1196,9 @@
     "code": "privatbank",
     "category": "bank_transfers",
     "name": {
-      "en": "Privatbank"
+      "en": "Privatbank",
+      "ru": "Приватбанк",
+      "ua": "Приватбанк"
     }
   },
   {
@@ -1206,7 +1216,9 @@
     "code": "cash",
     "category": "alternative",
     "name": {
-      "en": "Cash"
+      "en": "Cash",
+      "ru": "Наличные",
+      "ua": "Готівка"
     }
   },
   {
@@ -1331,14 +1343,18 @@
     "code": "russianpost",
     "category": "cash_on_delivery",
     "name": {
-      "en": "Russian Post"
+      "en": "Russian Post",
+      "ru": "Почта Росии",
+      "ua": "Пошта Росії"
     }
   },
   {
     "code": "privat24",
     "category": "internet_banking",
     "name": {
-      "ru": "Приват24"
+      "en": "Privat24",
+      "ru": "Приват24",
+      "ua": "Приват24"
     }
   },
   {
@@ -1356,7 +1372,9 @@
     "code": "liqpay_wallet",
     "category": "digital_wallet",
     "name": {
-      "en": "LiqPay"
+      "en": "LiqPay wallet",
+      "ru": "LiqPay кошелек",
+      "ua": "LiqPay гаманець"
     }
   },
   {
@@ -1401,21 +1419,25 @@
     "code": "bank_card",
     "category": "payment_card",
     "name": {
-      "en": "Card"
+      "en": "Card",
+      "ru": "Карта",
+      "ua": "Карта"
     }
   },
   {
     "code": "payment_card",
     "category": "payment_card",
     "name": {
-      "en": "Payment card"
+      "en": "Payment card",
+      "ru": "Платежная карта",
+      "ua": "Платіжна карта"
     }
   },
   {
     "code": "liqpay",
     "category": "alternative",
     "name": {
-      "en": "LiqPay "
+      "en": "LiqPay"
     }
   },
   {
@@ -1423,7 +1445,9 @@
     "vendor": "vtb24",
     "category": "internet_banking",
     "name": {
-      "en": "VTB24"
+      "en": "VTB24",
+      "ru": "ВТБ24",
+      "ua": "ВТБ24"
     }
   },
   {
@@ -1442,7 +1466,9 @@
     "code": "yota",
     "category": "alternative",
     "name": {
-      "en": "Yota"
+      "en": "Yota",
+      "ru": "Yota",
+      "ua": "Yota"
     }
   },
   {
@@ -1486,7 +1512,9 @@
     "code": "interkassa",
     "category": "internet_banking",
     "name": {
-      "en": "Interkassa"
+      "en": "Interkassa",
+      "ru": "Интеркасса",
+      "ua": "Інтеркасса"
     }
   },
   {
@@ -1514,7 +1542,9 @@
     "code": "sberonline",
     "category": "mobile_payment",
     "name": {
-      "en": "Sberbank Online"
+      "en": "Sberbank Online",
+      "ru": "Сбербанк Онлайн",
+      "ua": "Сбербанк Онлайн"
     }
   },
   {
@@ -1542,7 +1572,9 @@
     "code": "standardbank",
     "category": "invoice_payment",
     "name": {
-      "en": "Standart Bank"
+      "en": "Standart Bank",
+      "ru": "Стандарт Банк",
+      "ua": "Стандарт Банк"
     }
   },
   {
@@ -1552,7 +1584,9 @@
       "UA"
     ],
     "name": {
-      "en": "Tinkoff"
+      "en": "Tinkoff",
+      "ru": "Тинькофф",
+      "ua": "Тінькофф"
     }
   },
   {
@@ -1630,7 +1664,9 @@
     "vendor": "svyaznojbank",
     "category": "invoice_payment",
     "name": {
-      "en": "Svyaznoy"
+      "en": "Svyaznoy",
+      "ru": "Связной",
+      "ua": "Связной"
     }
   },
   {
@@ -1725,7 +1761,9 @@
       "UA"
     ],
     "name": {
-      "en": "Privatbank Terminals"
+      "en": "Privatbank Terminals",
+      "ru": "Приватбанк терминали",
+      "ua": "Приватбанк термінали"
     }
   },
   {
@@ -1771,7 +1809,9 @@
     "vendor": "russkijstandart",
     "category": "mobile_payment",
     "name": {
-      "en": "Russian Standard Bank"
+      "en": "Russian Standard Bank",
+      "ru": "Русский стандарт",
+      "ua": "Російський стандарт"
     }
   },
   {
@@ -1862,7 +1902,9 @@
     "code": "ingpl",
     "category": "alternative",
     "name": {
-      "en": "ING Bank Poland"
+      "en": "ING Bank(Poland)",
+      "ru": "ИНГ Банк(Польша)",
+      "ua": "ІНГ Банк(Польша)"
     }
   },
   {
@@ -2141,8 +2183,8 @@
     }
   },
   {
-    "code": "7elevenalternativecashpaymentmethodsmexico",
-    "vendor": "7elevenalternativecashpaymentmethodsmexico",
+    "code": "7eleven",
+    "vendor": "7eleven",
     "category": "cash_payment",
     "countries": [
       "MX"
@@ -2277,7 +2319,9 @@
       "SK"
     ],
     "name": {
-      "en": "Prima Banka"
+      "en": "Prima Banka",
+      "ru": "Прима Банк",
+      "ua": "Пріма Банк"
     }
   },
   {
@@ -2590,7 +2634,9 @@
       "HU"
     ],
     "name": {
-      "en": "Raiffeisen Bank"
+      "en": "Raiffeisen Bank",
+      "ru": "Райфайзен Банк",
+      "ua": "Райфайзен Банк"
     }
   },
   {
