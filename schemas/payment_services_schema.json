@@ -60,6 +60,15 @@
           "$id": "#/items/properties/fields/items",
           "type": "object",
           "title": "The Items Schema",
+          "required": [
+            "key",
+            "type",
+            "label",
+            "hint",
+            "regexp",
+            "required",
+            "position"
+          ],
           "properties": {
             "key": {
               "$id": "#/items/properties/fields/items/properties/key",
@@ -80,6 +89,7 @@
               ]
             },
             "label": { "$ref": "#/definitions/translatable" },
+            "hint": { "$ref": "#/definitions/translatable" },
             "regexp": {
               "$id": "#/items/properties/fields/items/properties/regexp",
               "type": "string",
