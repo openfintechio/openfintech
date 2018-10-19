@@ -20,7 +20,7 @@
         },
         "regexp": "\/^\\+(9[976]\\d|8[987530]\\d|6[987]\\d|5[90]\\d|42\\d|3[875]\\d|2[98654321]\\d|9[8543210]|8[6421]|6[6543210]|5[87654321]|4[987654310]|3[9643210]|2[70]|7|1)\\d{9,14}$\/",
         "required": true,
-        "position": 0
+        "position": 1
       }
     ],
     "amount_min": 0.01,
@@ -47,7 +47,7 @@
         },
         "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
         "required": true,
-        "position": 0
+        "position": 1
       },
       {
         "key": "last_name",
@@ -64,7 +64,7 @@
         },
         "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
         "required": true,
-        "position": 0
+        "position": 2
       },
       {
         "key": "email",
@@ -81,7 +81,7 @@
         },
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
         "required": true,
-        "position": 0
+        "position": 3
       }
     ],
     "amount_min": 0.01,
