@@ -60,6 +60,15 @@
           "$id": "#/items/properties/fields/items",
           "type": "object",
           "title": "The Items Schema",
+          "required": [
+            "key",
+            "type",
+            "label",
+            "hint",
+            "regexp",
+            "required",
+            "position"
+          ],
           "properties": {
             "key": {
               "$id": "#/items/properties/fields/items/properties/key",
@@ -80,6 +89,7 @@
               ]
             },
             "label": { "$ref": "#/definitions/translatable" },
+            "hint": { "$ref": "#/definitions/translatable" },
             "regexp": {
               "$id": "#/items/properties/fields/items/properties/regexp",
               "type": "string",
@@ -109,15 +119,15 @@
       },
       "amount_min": {
         "$id": "#/items/properties/amount_min",
-        "type": "string",
+        "type": "number",
         "title": "The Amount_min Schema",
         "examples": [
-          "0.01000000"
+          0.01000000
         ]
       },
       "amount_max": {
         "$id": "#/items/properties/amount_max",
-        "type": "string",
+        "type": "number",
         "title": "The Amount_max Schema",
         "examples": [
           "100000.00000000"
