@@ -12,10 +12,10 @@ after_success:
   - "./etc/deploy.sh"
   - |
     if [ ! -z "$TRAVIS_TAG" ]; then
-      aws s3 sync resources s3://resources.openfintech.io
-      aws s3 sync resources/payment_methods s3://resources.openfintech.io/payment-methods
-      aws s3 sync resources/payout_methods s3://resources.openfintech.io/payout-methods
-      aws s3 sync resources/payment_providers s3://resources.openfintech.io/payment-providers
+      aws s3 sync --quiet resources s3://resources.openfintech.io
+      aws s3 sync --quiet resources/payment_methods s3://resources.openfintech.io/payment-methods
+      aws s3 sync --quiet resources/payout_methods s3://resources.openfintech.io/payout-methods
+      aws s3 sync --quiet resources/payment_providers s3://resources.openfintech.io/payment-providers
     fi
 install:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
