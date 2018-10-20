@@ -11857,5 +11857,103 @@
     "name": {
       "uk": "ПАТ 'Київобленерго' Яготинський РЕМ"
     }
+  },
+  {
+    "code": "webmoneytransfer",
+    "category": "e_wallets",
+    "name": {
+      "en": "Webmoney transfer"
+    }
+  },
+  {
+    "code": "qiwi",
+    "category": "e_wallets",
+    "name": {
+      "en": "Qiwi"
+    }
+  },
+  {
+    "code": "bank_card",
+    "category": "payment_card",
+    "name": {
+      "en": "Card"
+    }
+  },
+  {
+    "code": "payment_card",
+    "category": "payment_card",
+    "name": {
+      "en": "Card"
+    }
+  },
+  {
+    "code": "card",
+    "category": "payment_card",
+    "name": {
+      "en": "Card"
+    }
+  },
+  {
+    "code": "test",
+    "category": "alternative",
+    "name": {
+      "en": "Test"
+    }
+  },
+  {
+    "code": "perfectmoney_transfer",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Perfect Money Transfer"
+    }
+  },
+  {
+    "code": "yandex_money",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Yandex money"
+    }
+  },
+  {
+    "code": "certus_transfer",
+    "category": "cash_on_delivery",
+    "name": {
+      "en": "Certus transfer"
+    }
+  },
+  {
+    "code": "usdt",
+    "category": "alternative",
+    "name": {
+      "en": "Tether"
+    }
+  },
+  {
+    "code": "litecoin",
+    "category": "alternative",
+    "name": {
+      "en": "Litecoin"
+    }
+  },
+  {
+    "code": "bitcoins",
+    "category": "alternative",
+    "name": {
+      "en": "Bitcoin"
+    }
+  },
+  {
+    "code": "bitcoin_cash",
+    "category": "alternative",
+    "name": {
+      "en": "Bitcoin cash"
+    }
+  },
+  {
+    "code": "ethereum",
+    "category": "alternative",
+    "name": {
+      "en": "Ethereum"
+    }
   }
 ]
