@@ -366,5 +366,299 @@
     "currency": "UAH",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "webmoneytransfer_wme_hpp",
+    "currency": "WME",
+    "method": "webmoneytransfer",
+    "flow": "hpp"
+  },
+  {
+    "code": "webmoneytransfer_wmz_hpp",
+    "currency": "WMZ",
+    "method": "webmoneytransfer",
+    "flow": "hpp"
+  },
+  {
+    "code": "webmoneytransfer_wmr_hpp",
+    "currency": "WMR",
+    "method": "webmoneytransfer",
+    "flow": "hpp"
+  },
+  {
+    "code": "webmoneytransfer_wmu_hpp",
+    "currency": "WMU",
+    "method": "webmoneytransfer",
+    "flow": "hpp"
+  },
+  {
+    "code": "webmoneytransfer_wmb_hpp",
+    "currency": "WMB",
+    "method": "webmoneytransfer",
+    "flow": "hpp"
+  },
+  {
+    "code": "webmoneytransfer_wmk_hpp",
+    "currency": "WMK",
+    "method": "webmoneytransfer",
+    "flow": "hpp"
+  },
+  {
+    "code": "webmoneytransfer_wmx_hpp",
+    "currency": "WMX",
+    "method": "webmoneytransfer",
+    "flow": "hpp"
+  },
+  {
+    "code": "webmoneytransfer_rub_hpp",
+    "currency": "RUB",
+    "method": "webmoneytransfer",
+    "flow": "hpp"
+  },
+  {
+    "code": "beeline_rub_hpp",
+    "currency": "RUB",
+    "method": "beeline",
+    "flow": "hpp"
+  },
+  {
+    "code": "megafon_rub_hpp",
+    "currency": "RUB",
+    "method": "megafon",
+    "flow": "hpp"
+  },
+  {
+    "code": "mts_rub_hpp",
+    "currency": "RUB",
+    "method": "mts",
+    "flow": "hpp"
+  },
+  {
+    "code": "advcash_rub_hpp",
+    "currency": "RUB",
+    "method": "advcash",
+    "flow": "hpp"
+  },
+  {
+    "code": "advcash_usd_hpp",
+    "currency": "USD",
+    "method": "advcash",
+    "flow": "hpp"
+  },
+  {
+    "code": "advcash_eur_hpp",
+    "currency": "EUR",
+    "method": "advcash",
+    "flow": "hpp"
+  },
+  {
+    "code": "advcash_uah_hpp",
+    "currency": "UAH",
+    "method": "advcash",
+    "flow": "hpp"
+  },
+  {
+    "code": "yandexmoney_rub_hpp",
+    "currency": "RUB",
+    "method": "yandexmoney",
+    "flow": "hpp"
+  },
+  {
+    "code": "exmo_rub_hpp",
+    "currency": "RUB",
+    "method": "exmo",
+    "flow": "hpp"
+  },
+  {
+    "code": "exmo_usd_hpp",
+    "currency": "USD",
+    "method": "exmo",
+    "flow": "hpp"
+  },
+  {
+    "code": "exmo_eur_hpp",
+    "currency": "EUR",
+    "method": "exmo",
+    "flow": "hpp"
+  },
+  {
+    "code": "tele2ru_rub_hpp",
+    "currency": "RUB",
+    "method": "tele2ru",
+    "flow": "hpp"
+  },
+  {
+    "code": "euroset_rub_hpp",
+    "currency": "RUB",
+    "method": "euroset",
+    "flow": "hpp"
+  },
+  {
+    "code": "svyaznoy_rub_hpp",
+    "currency": "RUB",
+    "method": "svyaznoy",
+    "flow": "hpp"
+  },
+  {
+    "code": "perfectmoney_usd_hpp",
+    "currency": "USD",
+    "method": "perfectmoney",
+    "flow": "hpp"
+  },
+  {
+    "code": "perfectmoney_eur_hpp",
+    "currency": "EUR",
+    "method": "perfectmoney",
+    "flow": "hpp"
+  },
+  {
+    "code": "qiwi_eur_hpp",
+    "currency": "EUR",
+    "method": "qiwi",
+    "flow": "hpp"
+  },
+  {
+    "code": "qiwi_usd_hpp",
+    "currency": "USD",
+    "method": "qiwi",
+    "flow": "hpp"
+  },
+  {
+    "code": "cash_rub_hpp",
+    "currency": "RUB",
+    "method": "cash",
+    "flow": "hpp"
+  },
+  {
+    "code": "bitcoin_rub_hpp",
+    "currency": "RUB",
+    "method": "bitcoin",
+    "flow": "hpp"
+  },
+  {
+    "code": "bitcoin_eur_hpp",
+    "currency": "EUR",
+    "method": "bitcoin",
+    "flow": "hpp"
+  },
+  {
+    "code": "bitcoin_usd_hpp",
+    "currency": "USD",
+    "method": "bitcoin",
+    "flow": "hpp"
+  },
+  {
+    "code": "exmo_uah_hpp",
+    "currency": "UAH",
+    "method": "exmo",
+    "flow": "hpp"
+  },
+  {
+    "code": "mminvoicing_gel_hpp",
+    "currency": "GEL",
+    "method": "mminvoicing",
+    "flow": "hpp"
+  },
+  {
+    "code": "gemoney_gel_hpp",
+    "currency": "GEL",
+    "method": "gemoney",
+    "flow": "hpp"
+  },
+  {
+    "code": "easypay_uah_hpp",
+    "currency": "UAH",
+    "method": "easypay",
+    "flow": "hpp"
+  },
+  {
+    "code": "bank_card_gel_hpp",
+    "currency": "GEL",
+    "method": "bank_card",
+    "flow": "hpp"
+  },
+  {
+    "code": "psbretail_rub_hpp",
+    "currency": "RUB",
+    "method": "psbretail",
+    "flow": "hpp"
+  },
+  {
+    "code": "alfaclick_rub_hpp",
+    "currency": "RUB",
+    "method": "alfaclick",
+    "flow": "hpp"
+  },
+  {
+    "code": "rbkmoney_rub_hpp",
+    "currency": "RUB",
+    "method": "rbkmoney",
+    "flow": "hpp"
+  },
+  {
+    "code": "visacheckout_uah_hpp",
+    "currency": "UAH",
+    "method": "visacheckout",
+    "flow": "hpp"
+  },
+  {
+    "code": "bank_card_gbp_hpp",
+    "currency": "GBP",
+    "method": "bank_card",
+    "flow": "hpp"
+  },
+  {
+    "code": "bank_card_try_hpp",
+    "currency": "TRY",
+    "method": "bank_card",
+    "flow": "hpp"
+  },
+  {
+    "code": "interkassa_uah_hpp",
+    "currency": "UAH",
+    "method": "interkassa",
+    "flow": "hpp"
+  },
+  {
+    "code": "interkassa_usd_hpp",
+    "currency": "USD",
+    "method": "interkassa",
+    "flow": "hpp"
+  },
+  {
+    "code": "interkassa_eur_hpp",
+    "currency": "EUR",
+    "method": "interkassa",
+    "flow": "hpp"
+  },
+  {
+    "code": "interkassa_rub_hpp",
+    "currency": "RUB",
+    "method": "interkassa",
+    "flow": "hpp"
+  },
+  {
+    "code": "interkassa_wmz_hpp",
+    "currency": "WMZ",
+    "method": "interkassa",
+    "flow": "hpp"
+  },
+  {
+    "code": "interkassa_wme_hpp",
+    "currency": "WME",
+    "method": "interkassa",
+    "flow": "hpp"
+  },
+  {
+    "code": "interkassa_wmr_hpp",
+    "currency": "WMR",
+    "method": "interkassa",
+    "flow": "hpp"
+  },
+  {
+    "code": "interkassa_wmu_hpp",
+    "currency": "WMU",
+    "method": "interkassa",
+    "flow": "hpp"
   }
 ]
