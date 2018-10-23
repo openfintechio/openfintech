@@ -26,6 +26,32 @@
     "amount_max": 14900
   },
   {
+    "code": "bank_card_rub",
+    "method": "bank_card",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/\\d{12,19}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 14900
+  },
+  {
     "code": "payment_card_uah",
     "method": "payment_card",
     "currency": "UAH",
@@ -78,8 +104,207 @@
     "amount_max": 15000
   },
   {
-    "code": "test_xxx",
+    "code": "test_uah",
     "method": "test",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "method": "test",
+        "label": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "hint": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "regexp": "\/\\+\\d{1,15}\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "test_details_success_rate",
+        "type": "string",
+        "label": {
+          "en": "Success rate"
+        },
+        "hint": {
+          "en": "Success rate"
+        },
+        "regexp": "^(d{1,2}|100)$",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "test_details_payout_status",
+        "type": "string",
+        "label": {
+          "en": "Expected status"
+        },
+        "hint": {
+          "en": "Expected status"
+        },
+        "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "test_details_payout_resolution",
+        "type": "string",
+        "label": {
+          "en": "Expected resolution"
+        },
+        "hint": {
+          "en": "Expected resolution"
+        },
+        "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
+        "required": false,
+        "position": 4
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000
+  },
+  {
+    "code": "test_usd",
+    "method": "test",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "method": "test",
+        "label": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "hint": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "regexp": "\/\\+\\d{1,15}\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "test_details_success_rate",
+        "type": "string",
+        "label": {
+          "en": "Success rate"
+        },
+        "hint": {
+          "en": "Success rate"
+        },
+        "regexp": "^(d{1,2}|100)$",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "test_details_payout_status",
+        "type": "string",
+        "label": {
+          "en": "Expected status"
+        },
+        "hint": {
+          "en": "Expected status"
+        },
+        "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "test_details_payout_resolution",
+        "type": "string",
+        "label": {
+          "en": "Expected resolution"
+        },
+        "hint": {
+          "en": "Expected resolution"
+        },
+        "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
+        "required": false,
+        "position": 4
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000
+  },
+  {
+    "code": "test_eur",
+    "method": "test",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "method": "test",
+        "label": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "hint": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "regexp": "\/\\+\\d{1,15}\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "test_details_success_rate",
+        "type": "string",
+        "label": {
+          "en": "Success rate"
+        },
+        "hint": {
+          "en": "Success rate"
+        },
+        "regexp": "^(d{1,2}|100)$",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "test_details_payout_status",
+        "type": "string",
+        "label": {
+          "en": "Expected status"
+        },
+        "hint": {
+          "en": "Expected status"
+        },
+        "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "test_details_payout_resolution",
+        "type": "string",
+        "label": {
+          "en": "Expected resolution"
+        },
+        "hint": {
+          "en": "Expected resolution"
+        },
+        "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
+        "required": false,
+        "position": 4
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000
+  },
+  {
+    "code": "test_rub",
+    "method": "test",
+    "currency": "RUB",
     "fields": [
       {
         "key": "account",
