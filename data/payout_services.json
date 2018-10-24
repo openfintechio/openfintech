@@ -878,6 +878,84 @@
     "amount_max": 5000
   },
   {
+    "code": "viasat-uatv_uah",
+    "method": "viasat-uatv",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "The contract number",
+          "uk": "Номер договору",
+          "ru": "Номер договора"
+        },
+        "regexp": "\/\\d{1,128}\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter the contract number",
+          "uk": "Введіть номер договору",
+          "ru": "Введите номер договора"
+        }
+      }
+    ],
+    "amount_min": 200,
+    "amount_max": 149900
+  },
+  {
+    "code": "forza24_uah",
+    "method": "forza24",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "regexp": "\/\\d{1,128}\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        }
+      }
+    ],
+    "amount_min": 200,
+    "amount_max": 149900
+  },
+  {
+    "code": "msl-derzhavni-lotereyi_uah",
+    "method": "msl-derzhavni-lotereyi",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Your login or e-mail registered on the site igra.msl.ua",
+          "ru": "Логин или е-мейл, зарегистрированный на сайте igra.msl.ua",
+          "uk": "Логін або е-мейл, зареєстровані на сайті igra.msl.ua"
+        },
+        "regexp": "\/\\d{1,128}\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your login or e-mail registered on the site igra.msl.ua",
+          "ru": "Введите логин или е-мейл, зарегистрированный на сайте igra.msl.ua",
+          "uk": "Введіть логін або е-мейл, зареєстровані на сайті igra.msl.ua"
+        }
+      }
+    ],
+    "amount_min": 2000,
+    "amount_max": 100000
+  },
+  {
     "code": "datanet_uah",
     "method": "datanet",
     "currency": "UAH",
