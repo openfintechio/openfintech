@@ -26751,6 +26751,25 @@
     "code": "ethereum_eth",
     "method": "ethereum",
     "currency": "ETH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum wallet",
+          "ru": "Ethereum кошелек",
+          "uk": "Ethereum гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum wallet",
+          "ru": "Введите Ethereum кошелек",
+          "uk": "Введіть Ethereum гаманець"
+        },
+        "regexp": "\/\\+\\d{1,15}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 1.0e-5,
     "amount_max": 100
   },
@@ -26772,6 +26791,25 @@
     "code": "bitcoin_btc",
     "method": "bitcoin",
     "currency": "BTC",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin wallet",
+          "ru": "Bitcoin кошелек",
+          "uk": "Bitcoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin wallet",
+          "ru": "Введите Bitcoin кошелек",
+          "uk": "Введіть Bitcoin гаманець"
+        },
+        "regexp": "\/\\+\\d{1,15}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 1.0e-5,
     "amount_max": 50
   },
@@ -26779,6 +26817,25 @@
     "code": "litecoin_ltc",
     "method": "litecoin",
     "currency": "LTC",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Litecoin wallet",
+          "ru": "Litecoin кошелек",
+          "uk": "Litecoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Litecoin wallet",
+          "ru": "Введите Litecoin кошелек",
+          "uk": "Введіть Litecoin гаманець"
+        },
+        "regexp": "\/\\+\\d{1,15}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 1.0e-5,
     "amount_max": 100
   },
@@ -26786,6 +26843,25 @@
     "code": "bitcoin_cash_bch",
     "method": "bitcoin_cash",
     "currency": "BCH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin cash wallet",
+          "ru": "Bitcoin cash кошелек",
+          "uk": "Bitcoin cash гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin cash wallet",
+          "ru": "Введите Bitcoin cash кошелек",
+          "uk": "Введіть Bitcoin cash гаманець"
+        },
+        "regexp": "\/\\+\\d{1,15}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 1.0e-5,
     "amount_max": 100
   },
