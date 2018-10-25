@@ -208,10 +208,14 @@
         "key": "test_details_success_rate",
         "type": "string",
         "label": {
-          "en": "Success rate"
+          "en": "Success rate",
+          "ru": "Успешная ставка",
+          "uk": "Успішна ставка"
         },
         "hint": {
-          "en": "Success rate"
+          "en": "Success rate",
+          "ru": "Успешная ставка",
+          "uk": "Успішна ставка"
         },
         "regexp": "^(d{1,2}|100)$",
         "required": false,
@@ -221,10 +225,14 @@
         "key": "test_details_payout_status",
         "type": "string",
         "label": {
-          "en": "Expected status"
+          "en": "Expected status",
+          "uk": "Ожидаемый статус",
+          "ru": "Очікуємий статус"
         },
         "hint": {
-          "en": "Expected status"
+          "en": "Expected status",
+          "uk": "Ожидаемый статус",
+          "ru": "Очікуємий статус"
         },
         "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
         "required": false,
@@ -234,10 +242,14 @@
         "key": "test_details_payout_resolution",
         "type": "string",
         "label": {
-          "en": "Expected resolution"
+          "en": "Expected resolution",
+          "uk": "Ожидаемый resolution",
+          "ru": "Очікуємий resolution"
         },
         "hint": {
-          "en": "Expected resolution"
+          "en": "Expected resolution",
+          "uk": "Ожидаемый resolution",
+          "ru": "Очікуємий resolution"
         },
         "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
         "required": false,
@@ -274,10 +286,14 @@
         "key": "test_details_success_rate",
         "type": "string",
         "label": {
-          "en": "Success rate"
+          "en": "Success rate",
+          "ru": "Успешная ставка",
+          "uk": "Успішна ставка"
         },
         "hint": {
-          "en": "Success rate"
+          "en": "Success rate",
+          "ru": "Успешная ставка",
+          "uk": "Успішна ставка"
         },
         "regexp": "^(d{1,2}|100)$",
         "required": false,
@@ -287,10 +303,14 @@
         "key": "test_details_payout_status",
         "type": "string",
         "label": {
-          "en": "Expected status"
+          "en": "Expected status",
+          "uk": "Ожидаемый статус",
+          "ru": "Очікуємий статус"
         },
         "hint": {
-          "en": "Expected status"
+          "en": "Expected status",
+          "uk": "Ожидаемый статус",
+          "ru": "Очікуємий статус"
         },
         "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
         "required": false,
@@ -300,10 +320,14 @@
         "key": "test_details_payout_resolution",
         "type": "string",
         "label": {
-          "en": "Expected resolution"
+          "en": "Expected resolution",
+          "uk": "Ожидаемый resolution",
+          "ru": "Очікуємий resolution"
         },
         "hint": {
-          "en": "Expected resolution"
+          "en": "Expected resolution",
+          "uk": "Ожидаемый resolution",
+          "ru": "Очікуємий resolution"
         },
         "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
         "required": false,
@@ -340,10 +364,14 @@
         "key": "test_details_success_rate",
         "type": "string",
         "label": {
-          "en": "Success rate"
+          "en": "Success rate",
+          "ru": "Успешная ставка",
+          "uk": "Успішна ставка"
         },
         "hint": {
-          "en": "Success rate"
+          "en": "Success rate",
+          "ru": "Успешная ставка",
+          "uk": "Успішна ставка"
         },
         "regexp": "^(d{1,2}|100)$",
         "required": false,
@@ -353,10 +381,14 @@
         "key": "test_details_payout_status",
         "type": "string",
         "label": {
-          "en": "Expected status"
+          "en": "Expected status",
+          "uk": "Ожидаемый статус",
+          "ru": "Очікуємий статус"
         },
         "hint": {
-          "en": "Expected status"
+          "en": "Expected status",
+          "uk": "Ожидаемый статус",
+          "ru": "Очікуємий статус"
         },
         "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
         "required": false,
@@ -366,10 +398,14 @@
         "key": "test_details_payout_resolution",
         "type": "string",
         "label": {
-          "en": "Expected resolution"
+          "en": "Expected resolution",
+          "uk": "Ожидаемый resolution",
+          "ru": "Очікуємий resolution"
         },
         "hint": {
-          "en": "Expected resolution"
+          "en": "Expected resolution",
+          "uk": "Ожидаемый resolution",
+          "ru": "Очікуємий resolution"
         },
         "regexp": "\/[A-Z\\-\\sa-z]{2,64}\/",
         "required": false,
