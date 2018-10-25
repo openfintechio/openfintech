@@ -19152,6 +19152,32 @@
     "amount_max": 14999
   },
   {
+    "code": "parimatch-loto_uah",
+    "method": "parimatch-loto",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "uk": "Номер игрового счета",
+          "ru": "Номер ігрового рахунку"
+        },
+        "regexp": "\/(\\w|\\.| |\\-|\\+|@){1,128}\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter fccount number",
+          "uk": "Введите номер игрового счета",
+          "ru": "Введіть номер ігрового рахунку"
+        }
+      }
+    ],
+    "amount_min": 5,
+    "amount_max": 5000
+  },
+  {
     "code": "world-of-tanks_uah",
     "method": "world-of-tanks",
     "currency": "UAH",
