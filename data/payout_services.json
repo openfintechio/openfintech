@@ -14138,6 +14138,58 @@
     "amount_max": 5000
   },
   {
+    "code": "pavlogradski-mem-tsok-pavlogradskogo-r-nu_uah",
+    "method": "pavlogradski-mem-tsok-pavlogradskogo-r-nu",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Your personal account",
+          "uk": "Особовий рахунок",
+          "ru": "Лицевой счет"
+        },
+        "regexp": "\/\\d{1,128}\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your personal account",
+          "uk": "Введіть особовий рахунок",
+          "ru": "Введите лицевой счет"
+        }
+      }
+    ],
+    "amount_min": 200,
+    "amount_max": 1499900
+  },
+  {
+    "code": "pavlogradski-rem-tsok-pavlogradskogo-r-nu_uah",
+    "method": "pavlogradski-rem-tsok-pavlogradskogo-r-nu",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Your personal account",
+          "uk": "Особовий рахунок",
+          "ru": "Лицевой счет"
+        },
+        "regexp": "\/\\d{1,128}\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your personal account",
+          "uk": "Введіть особовий рахунок",
+          "ru": "Введите лицевой счет"
+        }
+      }
+    ],
+    "amount_min": 200,
+    "amount_max": 1499900
+  },
+  {
     "code": "bi-net_uah",
     "method": "bi-net",
     "currency": "UAH",
