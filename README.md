@@ -1,6 +1,6 @@
-# Open FinTech standards and data
-
 ![Logo](oft-logo.png?raw=true "OpenFinTech.io")
+
+# Open FinTech standards and data
 
 [![Build Status](https://img.shields.io/travis-ci/paycoreio/openfintech.svg?style=flat-square)](https://travis-ci.org/paycoreio/openfintech)
 [![Total Downloads](https://poser.pugx.org/paycore/openfintech-data/downloads?format=flat-square)](https://packagist.org/packages/paycore/openfintech-data)
