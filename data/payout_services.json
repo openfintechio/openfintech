@@ -27004,7 +27004,7 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "beneficiaryCompanyName",
+        "key": "beneficiary_company_name",
         "type": "string",
         "label": {
           "en": "Enter company name",
@@ -27013,7 +27013,7 @@
         }
       },
       {
-        "key": "beneficiaryAddress",
+        "key": "beneficiary_address",
         "type": "string",
         "label": {
           "en": "Enter beneficiary address",
@@ -27022,7 +27022,7 @@
         }
       },
       {
-        "key": "beneficiaryCity",
+        "key": "beneficiary_city",
         "type": "string",
         "label": {
           "en": "Enter beneficiary city",
@@ -27031,7 +27031,7 @@
         }
       },
       {
-        "key": "beneficiaryZipCode",
+        "key": "beneficiary_zip_code",
         "type": "string",
         "label": {
           "en": "Enter beneficiary ZIP code",
@@ -27040,7 +27040,7 @@
         }
       },
       {
-        "key": "beneficiaryCountryCode",
+        "key": "beneficiary_country_code",
         "type": "string",
         "label": {
           "en": "Enter country code",
@@ -27049,7 +27049,7 @@
         }
       },
       {
-        "key": "bankCountryCode",
+        "key": "bankCountry_code",
         "type": "string",
         "label": {
           "en": "Enter bank country code",
@@ -27058,7 +27058,7 @@
         }
       },
       {
-        "key": "bankName",
+        "key": "bank_name",
         "type": "string",
         "label": {
           "en": "Enter bank name",
@@ -27067,7 +27067,7 @@
         }
       },
       {
-        "key": "accountNumber",
+        "key": "account_number",
         "type": "string",
         "label": {
           "en": "Enter account number",
@@ -27076,7 +27076,7 @@
         }
       },
       {
-        "key": "bankAddress",
+        "key": "bank_address",
         "type": "string",
         "label": {
           "en": "Enter bank address",
@@ -27102,6 +27102,8 @@
           "ua": "Введіть опис"
         }
       }
-    ]
+    ],
+    "amount_min": 1.0e-2,
+    "amount_max": 10.0e6
   }
 ]
