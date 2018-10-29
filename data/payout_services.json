@@ -26997,5 +26997,111 @@
     "currency": "RUB",
     "amount_min": 1,
     "amount_max": 63000
+  },
+  {
+    "code": "sepa_trans_eur",
+    "method": "sepa_transfer",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "beneficiaryCompanyName",
+        "type": "string",
+        "label": {
+          "en": "Enter company name",
+          "ru": "Введите название компании",
+          "ua": "Введіть назву компанії"
+        }
+      },
+      {
+        "key": "beneficiaryAddress",
+        "type": "string",
+        "label": {
+          "en": "Enter beneficiary address",
+          "ru": "Введите адрес получателя",
+          "ua": "Введіть адресу отримувача"
+        }
+      },
+      {
+        "key": "beneficiaryCity",
+        "type": "string",
+        "label": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите город получателя",
+          "ua": "Введіть місто отримувача"
+        }
+      },
+      {
+        "key": "beneficiaryZipCode",
+        "type": "string",
+        "label": {
+          "en": "Enter beneficiary ZIP code",
+          "ru": "Введите почтовый индекс получателя",
+          "ua": "Введіть поштовий індекс отримувача"
+        }
+      },
+      {
+        "key": "beneficiaryCountryCode",
+        "type": "string",
+        "label": {
+          "en": "Enter country code",
+          "ru": "Введите код страны получателя",
+          "ua": "Введіть код країни отримувача"
+        }
+      },
+      {
+        "key": "bankCountryCode",
+        "type": "string",
+        "label": {
+          "en": "Enter bank country code",
+          "ru": "Введите код страны банка",
+          "ua": "Введіть код країни банку"
+        }
+      },
+      {
+        "key": "bankName",
+        "type": "string",
+        "label": {
+          "en": "Enter bank name",
+          "ru": "Введите название банка",
+          "ua": "Введіть назву банку"
+        }
+      },
+      {
+        "key": "accountNumber",
+        "type": "string",
+        "label": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "ua": "Введіть номер рахунку"
+        }
+      },
+      {
+        "key": "bankAddress",
+        "type": "string",
+        "label": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "ua": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "iban",
+        "type": "string",
+        "label": {
+          "en": "Enter IBAN",
+          "ru": "Введите IBAN",
+          "ua": "Введіть IBAN"
+        }
+      },
+      {
+        "key": "narrative",
+        "type": "string",
+        "label": {
+          "en": "Enter description",
+          "ru": "Введите описание платежа",
+          "ua": "Введіть опис"
+        }
+      }
+    ]
   }
 ]

@@ -14440,5 +14440,15 @@
     "name": {
       "en": "Xsolla"
     }
+  },
+  {
+    "code": "satchelpay",
+    "vendor": "satchelpay",
+    "name": {
+      "en": "SatchelPay"
+    },
+    "payout_method": [
+      "sepa_transfer"
+    ]
   }
 ]
