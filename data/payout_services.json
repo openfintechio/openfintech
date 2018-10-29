@@ -27075,7 +27075,7 @@
         "key": "beneficiary_country_code",
         "type": "string",
         "label": {
-          "en": "Сountry code",
+          "en": "Country code",
           "ru": "Код страны получателя",
           "ua": "Rод країни отримувача"
         },
@@ -27174,7 +27174,7 @@
         "position": 10
       },
       {
-        "key": "narrative",
+        "key": "description",
         "type": "string",
         "label": {
           "en": "Payment description",
