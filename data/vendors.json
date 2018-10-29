@@ -20461,6 +20461,16 @@
     }
   },
   {
+    "code": "paybox",
+    "status": "active",
+    "name": {
+      "en": "Paybox"
+    },
+    "payout_method": [
+      "paybox"
+    ]
+  },
+  {
     "code": "dixipay",
     "status": "active",
     "countries": [
