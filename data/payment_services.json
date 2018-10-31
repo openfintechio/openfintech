@@ -216,6 +216,14 @@
     "amount_max": 100000
   },
   {
+    "code": "coingate_eur_hpp",
+    "flow": "hpp",
+    "method": "coingate",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "usdt_usd_hpp",
     "flow": "hpp",
     "method": "usdt",
@@ -240,11 +248,75 @@
     "amount_max": 100000
   },
   {
+    "code": "bitcoin_bch_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_eth_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_ltc_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
     "code": "bitcoin_cash_bch_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
     "currency": "BCH",
     "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_btc_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_eth_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_ltc_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_usd_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_eur_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "EUR",
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -276,6 +348,46 @@
     "flow": "hpp",
     "method": "ethereum",
     "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "ethereum_btc_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "ethereum_bch_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "ethereum_ltc_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "ethereum_usd_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "ethereum_eur_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -301,6 +413,46 @@
     "method": "litecoin",
     "currency": "LTC",
     "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "litecoin_btc_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "litecoin_bch_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "litecoin_eth_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "litecoin_usd_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "litecoin_eur_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "EUR",
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
