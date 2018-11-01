@@ -216,6 +216,14 @@
     "amount_max": 100000
   },
   {
+    "code": "coingate_eur_hpp",
+    "flow": "hpp",
+    "method": "coingate",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "usdt_usd_hpp",
     "flow": "hpp",
     "method": "usdt",
@@ -240,11 +248,75 @@
     "amount_max": 100000
   },
   {
+    "code": "bitcoin_bch_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_eth_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_ltc_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
     "code": "bitcoin_cash_bch_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
     "currency": "BCH",
     "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_btc_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_eth_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_ltc_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_usd_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "bitcoin_cash_eur_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "EUR",
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -276,6 +348,46 @@
     "flow": "hpp",
     "method": "ethereum",
     "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "ethereum_btc_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "ethereum_bch_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "ethereum_ltc_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "ethereum_usd_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "ethereum_eur_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -301,6 +413,46 @@
     "method": "litecoin",
     "currency": "LTC",
     "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "litecoin_btc_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "litecoin_bch_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "litecoin_eth_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "code": "litecoin_usd_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "litecoin_eur_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "EUR",
+    "amount_min": 0.01,
     "amount_max": 100000
   },
   {
@@ -371,294 +523,392 @@
     "code": "webmoneytransfer_wme_hpp",
     "currency": "WME",
     "method": "webmoneytransfer",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "webmoneytransfer_wmz_hpp",
     "currency": "WMZ",
     "method": "webmoneytransfer",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "webmoneytransfer_wmr_hpp",
     "currency": "WMR",
     "method": "webmoneytransfer",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "webmoneytransfer_wmu_hpp",
     "currency": "WMU",
     "method": "webmoneytransfer",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "webmoneytransfer_wmb_hpp",
     "currency": "WMB",
     "method": "webmoneytransfer",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "webmoneytransfer_wmk_hpp",
     "currency": "WMK",
     "method": "webmoneytransfer",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "webmoneytransfer_wmx_hpp",
     "currency": "WMX",
     "method": "webmoneytransfer",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "webmoneytransfer_rub_hpp",
     "currency": "RUB",
     "method": "webmoneytransfer",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "beeline_rub_hpp",
     "currency": "RUB",
     "method": "beeline",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "megafon_rub_hpp",
     "currency": "RUB",
     "method": "megafon",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "mts_rub_hpp",
     "currency": "RUB",
     "method": "mts",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "advcash_rub_hpp",
     "currency": "RUB",
     "method": "advcash",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "advcash_usd_hpp",
     "currency": "USD",
     "method": "advcash",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "advcash_eur_hpp",
     "currency": "EUR",
     "method": "advcash",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "advcash_uah_hpp",
     "currency": "UAH",
     "method": "advcash",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "yandexmoney_rub_hpp",
     "currency": "RUB",
     "method": "yandexmoney",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "exmo_rub_hpp",
     "currency": "RUB",
     "method": "exmo",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "exmo_usd_hpp",
     "currency": "USD",
     "method": "exmo",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "exmo_eur_hpp",
     "currency": "EUR",
     "method": "exmo",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "tele2ru_rub_hpp",
     "currency": "RUB",
     "method": "tele2ru",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "euroset_rub_hpp",
     "currency": "RUB",
     "method": "euroset",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "svyaznoy_rub_hpp",
     "currency": "RUB",
     "method": "svyaznoy",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "perfectmoney_usd_hpp",
     "currency": "USD",
     "method": "perfectmoney",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "perfectmoney_eur_hpp",
     "currency": "EUR",
     "method": "perfectmoney",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "qiwi_eur_hpp",
     "currency": "EUR",
     "method": "qiwi",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "qiwi_usd_hpp",
     "currency": "USD",
     "method": "qiwi",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "cash_rub_hpp",
     "currency": "RUB",
     "method": "cash",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "bitcoin_rub_hpp",
     "currency": "RUB",
     "method": "bitcoin",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "bitcoin_eur_hpp",
     "currency": "EUR",
     "method": "bitcoin",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "bitcoin_usd_hpp",
     "currency": "USD",
     "method": "bitcoin",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "exmo_uah_hpp",
     "currency": "UAH",
     "method": "exmo",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "mminvoicing_gel_hpp",
     "currency": "GEL",
     "method": "mminvoicing",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "gemoney_gel_hpp",
     "currency": "GEL",
     "method": "gemoney",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "easypay_uah_hpp",
     "currency": "UAH",
     "method": "easypay",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "bank_card_gel_hpp",
     "currency": "GEL",
     "method": "bank_card",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "psbretail_rub_hpp",
     "currency": "RUB",
     "method": "psbretail",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "alfaclick_rub_hpp",
     "currency": "RUB",
     "method": "alfaclick",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "rbkmoney_rub_hpp",
     "currency": "RUB",
     "method": "rbkmoney",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "visacheckout_uah_hpp",
     "currency": "UAH",
     "method": "visacheckout",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "bank_card_gbp_hpp",
     "currency": "GBP",
     "method": "bank_card",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "bank_card_try_hpp",
     "currency": "TRY",
     "method": "bank_card",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "interkassa_uah_hpp",
     "currency": "UAH",
     "method": "interkassa",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "interkassa_usd_hpp",
     "currency": "USD",
     "method": "interkassa",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "interkassa_eur_hpp",
     "currency": "EUR",
     "method": "interkassa",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "interkassa_rub_hpp",
     "currency": "RUB",
     "method": "interkassa",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "interkassa_wmz_hpp",
     "currency": "WMZ",
     "method": "interkassa",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "interkassa_wme_hpp",
     "currency": "WME",
     "method": "interkassa",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "interkassa_wmr_hpp",
     "currency": "WMR",
     "method": "interkassa",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "interkassa_wmu_hpp",
     "currency": "WMU",
     "method": "interkassa",
-    "flow": "hpp"
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
