@@ -736,6 +736,30 @@
     "amount_max": 100000
   },
   {
+    "code": "cash_eur_hpp",
+    "currency": "EUR",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "cash_usd_hpp",
+    "currency": "USD",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "cash_uah_hpp",
+    "currency": "UAH",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "bitcoin_rub_hpp",
     "currency": "RUB",
     "method": "bitcoin",
