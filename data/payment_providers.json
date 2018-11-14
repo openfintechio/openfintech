@@ -13958,7 +13958,7 @@
     "code": "certusfinance",
     "vendor": "certusfinance",
     "name": {
-      "ru": "Certus Finance "
+      "ru": "Certus Finance"
     }
   },
   {
@@ -14456,6 +14456,39 @@
     },
     "payout_method": [
       "sepa_transfer"
+    ]
+  },
+  {
+    "code": "advcash",
+    "vendor": "advcash",
+    "name": {
+      "en": "AdvCash",
+      "ru": "AdvCash"
+    },
+    "payment_method": [
+      "qiwi",
+      "sepadirectdebit",
+      "sepacredittransfer",
+      "yandexmoney",
+      "privat24",
+      "exmo",
+      "bank_card",
+      "bitcoin",
+      "litecoin",
+      "bitcoin_cash",
+      "ripple"
+    ],
+    "payout_method": [
+      "bitcoin",
+      "ethereum",
+      "litecoin",
+      "bitcoin_cash",
+      "ripple",
+      "exmo",
+      "sepa_transfer",
+      "bank_card",
+      "yandexmoney",
+      "qiwi"
     ]
   }
 ]
