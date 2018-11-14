@@ -698,7 +698,7 @@
     "code": "advcash",
     "category": "alternative",
     "name": {
-      "en": "ADVcash"
+      "en": "AdvCash"
     }
   },
   {
@@ -1899,10 +1899,12 @@
   },
   {
     "code": "yandexmoney",
-    "vendor": "yandexmoney",
+    "vendor": "yandex",
     "category": "digital_wallet",
     "name": {
-      "en": "Yandex.Money"
+      "en": "Yandex.Money",
+      "ru": "Яндекс.Деньги",
+      "uk": "Yandex.Money"
     }
   },
   {
