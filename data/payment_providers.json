@@ -1564,7 +1564,7 @@
   },
   {
     "code": "yandexcheckout",
-    "vendor": "yandexcheckout",
+    "vendor": "yandex",
     "categories": [
       "aggregating",
       "distributing",
@@ -1574,7 +1574,23 @@
       "about_payments_code": "yandexcheckout"
     },
     "name": {
-      "en": "Yandex.Checkout"
+      "en": "Yandex.Checkout",
+      "uk": "Яндекс.Каса",
+      "ru": "Яндекс.Касса"
+    }
+  },
+  {
+    "code": "yandex_money",
+    "vendor": "yandex",
+    "categories": [
+      "aggregating",
+      "distributing",
+      "collecting"
+    ],
+    "name": {
+      "en": "Yandex.Money",
+      "ru": "Яндекс.Деньги",
+      "uk": "Yandex.Money"
     }
   },
   {
@@ -14487,7 +14503,7 @@
       "exmo",
       "sepa_transfer",
       "bank_card",
-      "yandexmoney",
+      "yandex_money",
       "qiwi"
     ]
   }

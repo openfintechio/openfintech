@@ -15346,9 +15346,9 @@
     "code": "yandex_money",
     "category": "digital_wallet",
     "name": {
-      "en": "Yandex money",
-      "uk": "Yandex money",
-      "ru": "Yandex money"
+      "en": "Yandex.Money",
+      "uk": "Yandex.Money",
+      "ru": "Яндекс.Деньги"
     }
   },
   {
@@ -15406,10 +15406,33 @@
     }
   },
   {
+    "code": "ripple",
+    "category": "alternative",
+    "name": {
+      "en": "Ripple",
+      "uk": "Ripple",
+      "ru": "Ripple"
+    }
+  },
+  {
+    "code": "exmo",
+    "category": "alternative",
+    "name": {
+      "en": "Exmo"
+    }
+  },
+  {
     "code": "sepa_transfer",
     "category": "bank_transfer",
     "name": {
       "en": "SEPA Transfer"
+    }
+  },
+  {
+    "code": "advcash",
+    "category": "alternative",
+    "name": {
+      "en": "AdvCash"
     }
   }
 ]

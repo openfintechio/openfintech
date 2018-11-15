@@ -6218,15 +6218,15 @@
     }
   },
   {
-    "code": "yandexmoney",
+    "code": "yandex",
     "status": "active",
-    "contacts": {
-      "email": "sales@money.yandex.ru",
-      "phone": "+7 (495) 739 2325",
-      "fax": "+7 (495) 739 2211"
+    "links": {
+      "website": "https:\/\/yandex.ru"
     },
     "name": {
-      "en": "Yandex.Money"
+      "en": "Yandex",
+      "ru": "Яндекс",
+      "uk": "Яндекс"
     }
   },
   {
@@ -23110,19 +23110,6 @@
     },
     "name": {
       "en": "ReePay"
-    }
-  },
-  {
-    "code": "yandexcheckout",
-    "status": "active",
-    "address": {
-      "street": " Russian Federation "
-    },
-    "name": {
-      "en": "Yandex.Checkout"
-    },
-    "description": {
-      "en": " NA "
     }
   },
   {
