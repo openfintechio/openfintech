@@ -130,6 +130,188 @@
     "amount_max": 60000
   },
   {
+    "code": "advcash_uah",
+    "method": "advcash",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/[A-Z]{1}\\d{12}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 14900
+  },
+  {
+    "code": "advcash_rub",
+    "method": "advcash",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/[A-Z]{1}\\d{12}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 14900
+  },
+  {
+    "code": "advcash_usd",
+    "method": "advcash",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/[A-Z]{1}\\d{12}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.10,
+    "amount_max": 999999.00
+  },
+  {
+    "code": "advcash_eur",
+    "method": "advcash",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/[A-Z]{1}\\d{12}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.10,
+    "amount_max": 999999.00
+  },
+  {
+    "code": "advcash_brl",
+    "method": "advcash",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/[A-Z]{1}\\d{12}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3000
+  },
+  {
+    "code": "advcash_gbp",
+    "method": "advcash",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/[A-Z]{1}\\d{12}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3000
+  },
+  {
+    "code": "advcash_kzt",
+    "method": "advcash",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/[A-Z]{1}\\d{12}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 30000
+  },
+  {
     "code": "test_uah",
     "method": "test",
     "currency": "UAH",
