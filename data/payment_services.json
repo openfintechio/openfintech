@@ -608,57 +608,57 @@
     "amount_max": 100000
   },
   {
-    "code": "advcash_rub_hpp",
+    "code": "advcash_wallet_rub_hpp",
     "currency": "RUB",
-    "method": "advcash",
+    "method": "advcash_wallet",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000
   },
   {
-    "code": "advcash_usd_hpp",
+    "code": "advcash_wallet_usd_hpp",
     "currency": "USD",
-    "method": "advcash",
+    "method": "advcash_wallet",
     "flow": "hpp",
     "amount_min": 0.10,
     "amount_max": 999999.00
   },
   {
-    "code": "advcash_eur_hpp",
+    "code": "advcash_wallet_eur_hpp",
     "currency": "EUR",
-    "method": "advcash",
+    "method": "advcash_wallet",
     "flow": "hpp",
     "amount_min": 0.10,
     "amount_max": 999999.00
   },
   {
-    "code": "advcash_uah_hpp",
+    "code": "advcash_wallet_uah_hpp",
     "currency": "UAH",
-    "method": "advcash",
+    "method": "advcash_wallet",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000
   },
   {
-    "code": "advcash_gbp_hpp",
+    "code": "advcash_wallet_gbp_hpp",
     "currency": "GBP",
-    "method": "advcash",
+    "method": "advcash_wallet",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000
   },
   {
-    "code": "advcash_kzt_hpp",
+    "code": "advcash_wallet_kzt_hpp",
     "currency": "KZT",
-    "method": "advcash",
+    "method": "advcash_wallet",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000
   },
   {
-    "code": "advcash_brl_hpp",
+    "code": "advcash_wallet_brl_hpp",
     "currency": "BRL",
-    "method": "advcash",
+    "method": "advcash_wallet",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000

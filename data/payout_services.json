@@ -130,8 +130,8 @@
     "amount_max": 60000
   },
   {
-    "code": "advcash_uah",
-    "method": "advcash",
+    "code": "advcash_transfer_uah",
+    "method": "advcash_transfer",
     "currency": "UAH",
     "fields": [
       {
@@ -156,8 +156,8 @@
     "amount_max": 14900
   },
   {
-    "code": "advcash_rub",
-    "method": "advcash",
+    "code": "advcash_transfer_rub",
+    "method": "advcash_transfer",
     "currency": "RUB",
     "fields": [
       {
@@ -182,8 +182,8 @@
     "amount_max": 14900
   },
   {
-    "code": "advcash_usd",
-    "method": "advcash",
+    "code": "advcash_transfer_usd",
+    "method": "advcash_transfer",
     "currency": "USD",
     "fields": [
       {
@@ -208,8 +208,8 @@
     "amount_max": 999999.00
   },
   {
-    "code": "advcash_eur",
-    "method": "advcash",
+    "code": "advcash_transfer_eur",
+    "method": "advcash_transfer",
     "currency": "EUR",
     "fields": [
       {
@@ -234,8 +234,8 @@
     "amount_max": 999999.00
   },
   {
-    "code": "advcash_brl",
-    "method": "advcash",
+    "code": "advcash_transfer_brl",
+    "method": "advcash_transfer",
     "currency": "BRL",
     "fields": [
       {
@@ -260,8 +260,8 @@
     "amount_max": 3000
   },
   {
-    "code": "advcash_gbp",
-    "method": "advcash",
+    "code": "advcash_transfer_gbp",
+    "method": "advcash_transfer",
     "currency": "GBP",
     "fields": [
       {
@@ -286,8 +286,8 @@
     "amount_max": 3000
   },
   {
-    "code": "advcash_kzt",
-    "method": "advcash",
+    "code": "advcash_transfer_kzt",
+    "method": "advcash_transfer",
     "currency": "KZT",
     "fields": [
       {
