@@ -11249,5 +11249,17 @@
     "exponent": 0,
     "category": "other",
     "parent_currency_multiplier": 1
+  },
+  {
+    "code": "GRN",
+    "parent_code": "UAH",
+    "vendor": "geopaynet",
+    "name": {
+      "en": "GRN"
+    },
+    "type": "digital",
+    "exponent": 2,
+    "category": "electronic",
+    "parent_currency_multiplier": 1
   }
 ]

@@ -14508,5 +14508,22 @@
       "qiwi",
       "advcash_wallet"
     ]
+  },
+  {
+    "code": "geopaynet",
+    "vendor": "geopaynet",
+    "countries": [
+      "UA"
+    ],
+    "name": {
+      "en": "GEO Pay",
+      "ru": "GEO Pay"
+    },
+    "payment_method": [
+      "geopaynet"
+    ],
+    "payout_method": [
+      "geopaynet"
+    ]
   }
 ]

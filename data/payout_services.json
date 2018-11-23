@@ -27480,5 +27480,31 @@
     ],
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "code": "geopaynet_grn",
+    "method": "geopaynet",
+    "currency": "GRN",
+    "fields": [
+      {
+        "key": "user_id",
+        "type": "string",
+        "label": {
+          "en": "User ID",
+          "ru": "ID користувача",
+          "uk": "ID пользователя"
+        },
+        "hint": {
+          "en": "Enter GEO User ID",
+          "ru": "Введите GEO ID пользователя",
+          "uk": "Введіть GEO ID користувача"
+        },
+        "regexp": "\/^[a-f0-9]{64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
