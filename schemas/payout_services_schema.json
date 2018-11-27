@@ -101,7 +101,34 @@
               "examples": [
                 0
               ]
-            }
+            },
+            "options": {
+              "$id": "#/items/properties/fields/items/properties/options",
+              "type": "object",
+              "title": "The Options Schema",
+              "properties": {
+                "validators": {
+                  "$id": "#/items/properties/fields/items/properties/options/properties/validators",
+                  "type": "array",
+                  "title": "The Validators Schema",
+                  "items": {
+                    "$id": "#/items/properties/fields/items/properties/options/properties/validators/items",
+                    "type": "object",
+                    "title": "The Schema",
+                    "properties": {
+                      "name": {
+                        "$id": "#/items/properties/fields/items/properties/options/properties/validators/items/properties/name",
+                        "type": "string",
+                        "title": "The Name Schema",
+                        "examples": [
+                          "Luhn"
+                        ],
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  }
+                }
+              }
           }
         }
       },
