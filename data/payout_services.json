@@ -19,7 +19,14 @@
         },
         "regexp": "\/\\d{12,19}\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
@@ -45,7 +52,14 @@
         },
         "regexp": "\/\\d{12,19}\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
@@ -71,7 +85,14 @@
         },
         "regexp": "\/\\d{12,19}\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
@@ -97,7 +118,14 @@
         },
         "regexp": "\/\\d{12,19}\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
@@ -623,7 +651,7 @@
     "amount_min": 0.01,
     "amount_max": 10000
   },
-  
+
   {
     "code": "test_xts",
     "method": "test",
@@ -27458,7 +27486,14 @@
         },
         "regexp": "\/[A-Z]{2}(\\w){1,64}\/",
         "required": true,
-        "position": 10
+        "position": 10,
+        "options": {
+          "validators": [
+            {
+              "name": "Iban"
+            }
+          ]
+        }
       },
       {
         "key": "description",
