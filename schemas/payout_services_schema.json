@@ -101,25 +101,53 @@
               "examples": [
                 0
               ]
+            },
+            "options": {
+              "$id": "#/items/properties/fields/items/properties/options",
+              "type": "object",
+              "title": "The Options Schema",
+              "properties": {
+                "validators": {
+                  "$id": "#/items/properties/fields/items/options/validators",
+                  "type": "array",
+                  "title": "The Validators Schema",
+                  "items": {
+                    "$id": "#/items/properties/fields/items/options/validators/items",
+                    "type": "object",
+                    "title": "The Schema",
+                    "properties": {
+                      "name": {
+                        "$id": "#/items/properties/fields/items/options/validators/name",
+                        "type": "string",
+                        "title": "The Name Schema",
+                        "examples": [
+                          "Luhn"
+                        ],
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
+        },
+        "amount_min": {
+          "$id": "#/items/properties/amount_min",
+          "type": "number",
+          "title": "The Amount_min Schema",
+          "examples": [
+            0.01
+          ]
+        },
+        "amount_max": {
+          "$id": "#/items/properties/amount_max",
+          "type": "number",
+          "title": "The Amount_max Schema",
+          "examples": [
+            100000
+          ]
         }
-      },
-      "amount_min": {
-        "$id": "#/items/properties/amount_min",
-        "type": "number",
-        "title": "The Amount_min Schema",
-        "examples": [
-          0.01
-        ]
-      },
-      "amount_max": {
-        "$id": "#/items/properties/amount_max",
-        "type": "number",
-        "title": "The Amount_max Schema",
-        "examples": [
-          100000
-        ]
       }
     }
   }
