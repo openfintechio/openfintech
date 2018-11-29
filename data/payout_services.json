@@ -27541,5 +27541,77 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "perfectmoney_transfer_usd",
+    "method": "perfectmoney_transfer",
+    "currency": "USD",
+    "amount_min": "0.01",
+    "amount_max": "10000",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regex": "/U\\d{6,9}/"
+      }
+    ]
+  },
+  {
+    "code": "perfectmoney_transfer_eur",
+    "method": "perfectmoney_transfer",
+    "currency": "EUR",
+    "amount_min": "0.01",
+    "amount_max": "10000",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regex": "/E\\d{6,9}/",
+      }
+    ]
+  },
+  {
+    "code": "perfectmoney_transfer_btc",
+    "method": "perfectmoney_transfer",
+    "currency": "BTC",
+    "amount_min": "0.001",
+    "amount_max": "10000",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regex": "/B\\d{6,9}/"
+      }
+    ]
   }
 ]
