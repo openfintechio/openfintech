@@ -27591,30 +27591,6 @@
     ]
   },
   {
-    "code": "perfectmoney_transfer_xau",
-    "method": "perfectmoney_transfer",
-    "currency": "XAU",
-    "amount_min": "0.01",
-    "amount_max": "10000",
-    "fields": [
-      {
-        "key": "account",
-        "type": "string",
-        "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
-        },
-        "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
-        },
-        "regex": "/G\\d{6,9}/"
-      }
-    ]
-  },
-  {
     "code": "perfectmoney_transfer_btc",
     "method": "perfectmoney_transfer",
     "currency": "BTC",
