@@ -13135,7 +13135,7 @@
           "uk": "Особовий рахунок",
           "ru": "Лицевой счет"
         },
-        "regexp": "\/\\+?\\d{5,15}\/",
+        "regexp": "\/\\+?(380)(91)\\d{7}\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -13499,7 +13499,7 @@
           "uk": "Номер телефону",
           "ru": "Номер телефона"
         },
-        "regexp": "\/\\d{1,128}\/",
+        "regexp": "\/\\+?(380)(94)\\d{7}\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -13525,7 +13525,7 @@
           "uk": "Номер телефону",
           "ru": "Номер телефона"
         },
-        "regexp": "\/\\+?\\d{5,15}\/",
+        "regexp": "\/\\+?(380)(93|63|73)\\d{7}\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -18491,7 +18491,7 @@
           "uk": "Номер телефону",
           "ru": "Номер телефона"
         },
-        "regexp": "\/\\+?\\d{5,15}\/",
+        "regexp": "\/\\+?(380)(67|96|97|98)\\d{7}\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -19609,7 +19609,7 @@
           "uk": "Номер телефону",
           "ru": "Номер телефона"
         },
-        "regexp": "\/\\+?\\d{5,15}\/",
+        "regexp": "\/\\+?(380)(50|66|95|99)\\d{7}\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -27319,7 +27319,7 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "beneficiary_company_name",
+        "key": "company_name",
         "type": "string",
         "label": {
           "en": "Company name",
@@ -27332,185 +27332,51 @@
           "uk": "Введіть назву компанії"
         },
         "regexp": "\/(\\w){1,64}\/",
-        "required": true,
-        "position": 1
+        "required": false,
+        "position": 1,
+        "semi_optional": true,
+        "semi_optional_group":1,
+        "semi_optional_comparator_group":2
       },
       {
-        "key": "beneficiary_address",
+        "key": "first_name",
         "type": "string",
         "label": {
-          "en": "Beneficiary address",
-          "ru": "Адрес получателя",
-          "uk": "Адреса отримувача"
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
         },
         "hint": {
-          "en": "Enter beneficiary address",
-          "ru": "Введите адрес получателя",
-          "uk": "Введіть адресу отримувача"
+          "en": "Enter first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
         },
         "regexp": "\/(\\w){1,64}\/",
-        "required": true,
-        "position": 2
+        "required": false,
+        "position": 2,
+        "semi_optional": true,
+        "semi_optional_group":2,
+        "semi_optional_comparator_group":1
       },
       {
-        "key": "beneficiary_city",
+        "key": "last_name",
         "type": "string",
         "label": {
-          "en": "Beneficiary city",
-          "ru": "Город получателя",
-          "uk": "Місто отримувача"
+          "en": "Last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
         },
         "hint": {
-          "en": "Enter beneficiary city",
-          "ru": "Введите город получателя",
-          "uk": "Введіть місто отримувача"
+          "en": "Enter last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
         },
         "regexp": "\/(\\w){1,32}\/",
-        "required": true,
-        "position": 3
-      },
-      {
-        "key": "beneficiary_zip_code",
-        "type": "string",
-        "label": {
-          "en": "Enter beneficiary ZIP code",
-          "ru": "Почтовый индекс получателя",
-          "uk": "Поштовий індекс отримувача"
-        },
-        "hint": {
-          "en": "Enter beneficiary ZIP code",
-          "ru": "Введите почтовый индекс получателя",
-          "uk": "Введіть поштовий індекс отримувача"
-        },
-        "regexp": "\/(\\w){1,10}\/",
-        "required": true,
-        "position": 4
-      },
-      {
-        "key": "beneficiary_country_code",
-        "type": "string",
-        "label": {
-          "en": "Country code",
-          "ru": "Код страны получателя",
-          "uk": "Rод країни отримувача"
-        },
-        "hint": {
-          "en": "Enter country code",
-          "ru": "Введите код страны получателя",
-          "uk": "Введіть код країни отримувача"
-        },
-        "regexp": "\/[A-Z]{2}\/",
-        "required": true,
-        "position": 5
-      },
-      {
-        "key": "bank_country_code",
-        "type": "string",
-        "label": {
-          "en": "Bank country code",
-          "ru": "Код страны банка",
-          "uk": "Код країни банку"
-        },
-        "hint": {
-          "en": "Enter bank country code",
-          "ru": "Введите код страны банка",
-          "uk": "Введіть код країни банку"
-        },
-        "regexp": "\/[A-Z]{2}\/",
-        "required": true,
-        "position": 6
-      },
-      {
-        "key": "bank_name",
-        "type": "string",
-        "label": {
-          "en": "Bank name",
-          "ru": "Название банка",
-          "uk": "Назва банку"
-        },
-        "hint": {
-          "en": "Enter bank name",
-          "ru": "Введите название банка",
-          "uk": "Введіть назву банку"
-        },
-        "regexp": "\/(\\w){1,64}\/",
-        "required": true,
-        "position": 7
-      },
-      {
-        "key": "account_number",
-        "type": "string",
-        "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
-        },
-        "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
-        },
-        "regexp": "\/(\\w){1,64}\/",
-        "required": true,
-        "position": 8
-      },
-      {
-        "key": "bank_address",
-        "type": "string",
-        "label": {
-          "en": "Bank address",
-          "ru": "Адрес банка",
-          "uk": "Адреса банку"
-        },
-        "hint": {
-          "en": "Enter bank address",
-          "ru": "Введите адрес банка",
-          "uk": "Введіть адресу банку"
-        },
-        "regexp": "\/(\\w){1,64}\/",
-        "required": true,
-        "position": 9
-      },
-      {
-        "key": "iban",
-        "type": "string",
-        "label": {
-          "en": "IBAN",
-          "ru": "IBAN",
-          "uk": "IBAN"
-        },
-        "hint": {
-          "en": "Enter IBAN",
-          "ru": "Введите IBAN",
-          "uk": "Введіть IBAN"
-        },
-        "regexp": "\/[A-Z]{2}(\\w){1,64}\/",
-        "required": true,
-        "position": 10,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        }
-      },
-      {
-        "key": "description",
-        "type": "string",
-        "label": {
-          "en": "Payment description",
-          "ru": "Описание платежа",
-          "uk": "Опис платежу"
-        },
-        "hint": {
-          "en": "Enter description",
-          "ru": "Введите описание платежа",
-          "uk": "Введіть опис"
-        },
-        "regexp": "\/(\\w){1,128}\/",
-        "required": true,
-        "position": 11
+        "required": false,
+        "position": 3,
+        "semi_optional": true,
+        "semi_optional_group":2,
+        "semi_optional_comparator_group":1
       }
     ],
     "amount_min": 0.01,
