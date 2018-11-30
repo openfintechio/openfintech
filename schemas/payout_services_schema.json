@@ -102,30 +102,6 @@
                 0
               ]
             },
-            "semi_optional": {
-              "$id": "#/items/properties/fields/items/properties/semi_optional",
-              "type": "boolean",
-              "title": "The semi_optional Schema",
-              "examples": [
-                true
-              ]
-            },
-            "semi_optional_group": {
-              "$id": "#/items/properties/fields/items/properties/semi_optional_group",
-              "type": "integer",
-              "title": "The semi optional group Schema",
-              "examples": [
-                1
-              ]
-            },
-            "semi_optional_comparator_group": {
-              "$id": "#/items/properties/fields/items/properties/semi_optional_comparator_group",
-              "type": "integer",
-              "title": "The semi optional comparator group Schema",
-              "examples": [
-                0
-              ]
-            },
             "options": {
               "$id": "#/items/properties/fields/items/properties/options",
               "type": "object",
