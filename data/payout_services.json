@@ -27333,10 +27333,7 @@
         },
         "regexp": "\/(\\w){1,64}\/",
         "required": false,
-        "position": 1,
-        "semi_optional": true,
-        "semi_optional_group":1,
-        "semi_optional_comparator_group":2
+        "position": 1
       },
       {
         "key": "first_name",
@@ -27353,10 +27350,7 @@
         },
         "regexp": "\/(\\w){1,64}\/",
         "required": false,
-        "position": 2,
-        "semi_optional": true,
-        "semi_optional_group":2,
-        "semi_optional_comparator_group":1
+        "position": 2
       },
       {
         "key": "last_name",
@@ -27373,10 +27367,7 @@
         },
         "regexp": "\/(\\w){1,32}\/",
         "required": false,
-        "position": 3,
-        "semi_optional": true,
-        "semi_optional_group":2,
-        "semi_optional_comparator_group":1
+        "position": 3
       }
     ],
     "amount_min": 0.01,
