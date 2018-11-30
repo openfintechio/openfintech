@@ -27368,6 +27368,30 @@
         "regexp": "\/(\\w){1,32}\/",
         "required": false,
         "position": 3
+      },
+      {
+        "key": "iban",
+        "type": "string",
+        "label": {
+          "en": "IBAN",
+          "ru": "IBAN",
+          "uk": "IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN",
+          "ru": "Введите IBAN",
+          "uk": "Введіть IBAN"
+        },
+        "regexp": "\/[A-Z]{2}(\\w){1,64}\/",
+        "required": true,
+        "position": 10,
+        "options": {
+          "validators": [
+            {
+              "name": "Iban"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
