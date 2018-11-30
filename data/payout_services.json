@@ -27382,7 +27382,7 @@
           "ru": "Введите IBAN",
           "uk": "Введіть IBAN"
         },
-        "regexp": "\/[A-Z]{2}(\\w){1,64}\/",
+        "regexp": "\/[A-Z]{2}(\\w){13,29}\/",
         "required": true,
         "position": 10,
         "options": {
