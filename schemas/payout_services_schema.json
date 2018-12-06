@@ -94,6 +94,14 @@
                 true
               ]
             },
+            "example": {
+              "$id": "#/items/properties/fields/items/properties/example",
+              "type": "string",
+              "title": "The Example Schema",
+              "examples": [
+                "71887612"
+              ]
+            },
             "position": {
               "$id": "#/items/properties/fields/items/properties/weight",
               "type": "integer",
