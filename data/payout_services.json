@@ -28239,8 +28239,92 @@
     "amount_max": 63000
   },
   {
-    "code": "sepa_transfer_eur",
-    "method": "sepa_transfer",
+    "code": "sepa_credit_transfer_individual_eur",
+    "method": "sepa_credit_transfer",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/(\\w){3,64}\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/(\\w){3,64}\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "iban",
+        "type": "string",
+        "label": {
+          "en": "IBAN",
+          "ru": "IBAN",
+          "uk": "IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN",
+          "ru": "Введите IBAN",
+          "uk": "Введіть IBAN"
+        },
+        "regexp": "\/[A-Z]{2}(\\w){13,29}\/",
+        "required": true,
+        "position": 3,
+        "options": {
+          "validators": [
+            {
+              "name": "Iban"
+            }
+          ]
+        }
+      },
+      {
+        "key": "descriptor",
+        "type": "string",
+        "label": {
+          "en": "Description",
+          "ru": "Описание",
+          "uk": "Опис"
+        },
+        "hint": {
+          "en": "Enter description",
+          "ru": "Введите описание",
+          "uk": "Введіть опис"
+        },
+        "regexp": "\/[A-z,a-z,0-9]{4,128}\/",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "sepa_credit_transfer_company_eur",
+    "method": "sepa_credit_transfer",
     "currency": "EUR",
     "fields": [
       {
@@ -28261,40 +28345,6 @@
         "position": 1
       },
       {
-        "key": "first_name",
-        "type": "string",
-        "label": {
-          "en": "First name",
-          "ru": "Имя получателя",
-          "uk": "Імʼя отримувача"
-        },
-        "hint": {
-          "en": "Enter first name",
-          "ru": "Введите имя получателя",
-          "uk": "Введіть імʼя отримувача"
-        },
-        "regexp": "\/(\\w){3,64}\/",
-        "required": false,
-        "position": 2
-      },
-      {
-        "key": "last_name",
-        "type": "string",
-        "label": {
-          "en": "Last name",
-          "ru": "Фамилия получателя",
-          "uk": "Прізвище отримувача"
-        },
-        "hint": {
-          "en": "Enter last name",
-          "ru": "Введите фамилию получателя",
-          "uk": "Введіть прізвище отримувача"
-        },
-        "regexp": "\/(\\w){3,64}\/",
-        "required": false,
-        "position": 3
-      },
-      {
         "key": "iban",
         "type": "string",
         "label": {
@@ -28309,7 +28359,7 @@
         },
         "regexp": "\/[A-Z]{2}(\\w){13,29}\/",
         "required": true,
-        "position": 10,
+        "position": 2,
         "options": {
           "validators": [
             {
@@ -28317,6 +28367,23 @@
             }
           ]
         }
+      },
+      {
+        "key": "descriptor",
+        "type": "string",
+        "label": {
+          "en": "Description",
+          "ru": "Описание",
+          "uk": "Опис"
+        },
+        "hint": {
+          "en": "Enter description",
+          "ru": "Введите описание",
+          "uk": "Введіть опис"
+        },
+        "regexp": "\/[A-z,a-z,0-9]{4,128}\/",
+        "required": true,
+        "position": 3
       }
     ],
     "amount_min": 0.01,
