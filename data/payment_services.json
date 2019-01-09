@@ -966,5 +966,29 @@
     "method": "geopaynet_transfer",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "code": "paypal_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "paypal_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "paypal_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]
