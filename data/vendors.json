@@ -1,7 +1,20 @@
 [
   {
+    "code": "geopaynet",
+    "status": "active",
+    "links": {
+      "website": "http:\/\/geo-pay.net\/"
+    },
+    "name": {
+      "en": "GEO Pay"
+    }
+  },
+  {
     "code": "4bill",
     "status": "active",
+    "links": {
+      "website": "https:\/\/4bill.io\/"
+    },
     "name": {
       "en": "4bill"
     }
@@ -6218,15 +6231,15 @@
     }
   },
   {
-    "code": "yandexmoney",
+    "code": "yandex",
     "status": "active",
-    "contacts": {
-      "email": "sales@money.yandex.ru",
-      "phone": "+7 (495) 739 2325",
-      "fax": "+7 (495) 739 2211"
+    "links": {
+      "website": "https:\/\/yandex.ru"
     },
     "name": {
-      "en": "Yandex.Money"
+      "en": "Yandex",
+      "ru": "Яндекс",
+      "uk": "Яндекс"
     }
   },
   {
@@ -19157,7 +19170,7 @@
     }
   },
   {
-    "code": "paypalcheckout",
+    "code": "paypal",
     "status": "active",
     "address": {
       "street": " 95125 United States of America "
@@ -23110,19 +23123,6 @@
     },
     "name": {
       "en": "ReePay"
-    }
-  },
-  {
-    "code": "yandexcheckout",
-    "status": "active",
-    "address": {
-      "street": " Russian Federation "
-    },
-    "name": {
-      "en": "Yandex.Checkout"
-    },
-    "description": {
-      "en": " NA "
     }
   },
   {
