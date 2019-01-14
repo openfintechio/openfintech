@@ -1564,7 +1564,7 @@
   },
   {
     "code": "yandexcheckout",
-    "vendor": "yandexcheckout",
+    "vendor": "yandex",
     "categories": [
       "aggregating",
       "distributing",
@@ -1574,7 +1574,23 @@
       "about_payments_code": "yandexcheckout"
     },
     "name": {
-      "en": "Yandex.Checkout"
+      "en": "Yandex.Checkout",
+      "uk": "Яндекс.Каса",
+      "ru": "Яндекс.Касса"
+    }
+  },
+  {
+    "code": "yandex_money",
+    "vendor": "yandex",
+    "categories": [
+      "aggregating",
+      "distributing",
+      "collecting"
+    ],
+    "name": {
+      "en": "Yandex.Money",
+      "ru": "Яндекс.Деньги",
+      "uk": "Yandex.Money"
     }
   },
   {
@@ -4296,11 +4312,8 @@
     }
   },
   {
-    "code": "paypalcheckout",
-    "vendor": "paypalcheckout",
-    "metadata": {
-      "about_payments_code": "paypalcheckout"
-    },
+    "code": "paypal",
+    "vendor": "paypal",
     "name": {
       "en": "PayPal"
     }
@@ -6703,7 +6716,7 @@
       "beeline",
       "megafon",
       "mts",
-      "advcash",
+      "advcash_wallet",
       "payeer",
       "exmo",
       "qiwi",
@@ -14455,7 +14468,7 @@
       "en": "SatchelPay"
     },
     "payout_method": [
-      "sepa_transfer"
+      "sepa_credit_transfer"
     ]
   },
   {
@@ -14476,7 +14489,8 @@
       "bitcoin",
       "litecoin",
       "bitcoin_cash",
-      "ripple"
+      "ripple",
+      "advcash_wallet"
     ],
     "payout_method": [
       "bitcoin",
@@ -14485,10 +14499,28 @@
       "bitcoin_cash",
       "ripple",
       "exmo",
-      "sepa_transfer",
+      "sepa_credit_transfer",
       "bank_card",
-      "yandexmoney",
-      "qiwi"
+      "yandex_money",
+      "qiwi",
+      "advcash_wallet"
+    ]
+  },
+  {
+    "code": "geopaynet",
+    "vendor": "geopaynet",
+    "countries": [
+      "UA"
+    ],
+    "name": {
+      "en": "GEO Pay",
+      "ru": "GEO Pay"
+    },
+    "payment_method": [
+      "geopaynet_transfer"
+    ],
+    "payout_method": [
+      "geopaynet"
     ]
   }
 ]
