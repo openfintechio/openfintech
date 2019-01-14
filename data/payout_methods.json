@@ -15441,5 +15441,26 @@
     "name": {
       "en": "GEO Pay"
     }
+  },
+  {
+    "code": "paypal_email",
+    "category": "alternative",
+    "name": {
+      "en": "PayPal by Email"
+    }
+  },
+  {
+    "code": "paypal_phone",
+    "category": "alternative",
+    "name": {
+      "en": "PayPal by Phone"
+    }
+  },
+  {
+    "code": "paypal_id",
+    "category": "alternative",
+    "name": {
+      "en": "PayPal by ID"
+    }
   }
 ]
