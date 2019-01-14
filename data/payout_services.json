@@ -366,14 +366,14 @@
         "key": "test_details_success_rate",
         "type": "string",
         "label": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "hint": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "regexp": "\/\\d{1,15}\/",
         "required": false,
@@ -444,14 +444,14 @@
         "key": "test_details_success_rate",
         "type": "string",
         "label": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "hint": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "regexp": "\/\\d{1,15}\/",
         "required": false,
@@ -522,14 +522,14 @@
         "key": "test_details_success_rate",
         "type": "string",
         "label": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "hint": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "regexp": "\/\\d{1,15}\/",
         "required": false,
@@ -600,14 +600,14 @@
         "key": "test_details_success_rate",
         "type": "string",
         "label": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "hint": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "regexp": "\/\\d{1,15}\/",
         "required": false,
@@ -678,14 +678,14 @@
         "key": "test_details_success_rate",
         "type": "string",
         "label": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "hint": {
-          "en": "Success rate",
-          "ru": "Успешная ставка",
-          "uk": "Успішна ставка"
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
         },
         "regexp": "\/\\d{1,15}\/",
         "required": false,
