@@ -28498,7 +28498,7 @@
     "method": "paypal_email",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 17500,
     "fields": [
       {
         "key": "email",
@@ -28524,7 +28524,7 @@
     "method": "paypal_email",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 20000,
     "fields": [
       {
         "key": "email",
@@ -28550,7 +28550,7 @@
     "method": "paypal_email",
     "currency": "GBP",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 15500,
     "fields": [
       {
         "key": "email",
@@ -28576,7 +28576,7 @@
     "method": "paypal_phone",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 20000,
     "fields": [
       {
         "key": "phone",
@@ -28602,7 +28602,7 @@
     "method": "paypal_phone",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 17500,
     "fields": [
       {
         "key": "phone",
@@ -28628,7 +28628,7 @@
     "method": "paypal_phone",
     "currency": "GBP",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 15500,
     "fields": [
       {
         "key": "phone",
@@ -28654,7 +28654,7 @@
     "method": "paypal_id",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 20000,
     "fields": [
       {
         "key": "paypal_id",
@@ -28680,7 +28680,7 @@
     "method": "paypal_id",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 17500,
     "fields": [
       {
         "key": "paypal_id",
@@ -28706,7 +28706,7 @@
     "method": "paypal_id",
     "currency": "GBP",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 15500,
     "fields": [
       {
         "key": "paypal_id",
