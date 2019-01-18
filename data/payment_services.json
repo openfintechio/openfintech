@@ -132,7 +132,7 @@
     "flow": "hpp",
     "method": "privat24",
     "currency": "UAH",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 100000
   },
   {
@@ -180,7 +180,7 @@
     "flow": "hpp",
     "method": "liqpay_wallet",
     "currency": "UAH",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 100000
   },
   {
@@ -196,7 +196,7 @@
     "flow": "hpp",
     "method": "bank_card",
     "currency": "UAH",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 100000
   },
   {
@@ -516,7 +516,7 @@
     "flow": "hpp",
     "method": "masterpass",
     "currency": "UAH",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 100000
   },
   {
