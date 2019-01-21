@@ -63,7 +63,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 14900
+    "amount_max": 100000
   },
   {
     "code": "bank_card_kzt",
@@ -130,6 +130,56 @@
     ],
     "amount_min": 0.01,
     "amount_max": 14900
+  },
+  {
+    "code": "payment_card_holder_rub",
+    "method": "payment_card",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/\\d{12,19}\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      },
+      {
+        "key": "card_holder",
+        "type": "string",
+        "label": {
+          "en": "Card holder",
+          "ru": "Держатель карты",
+          "uk": "Власник картки"
+        },
+        "hint": {
+          "en": "Card holder",
+          "ru": "Держатель карты",
+          "uk": "Власник картки"
+        },
+        "regexp": "\/([A-Za-z]+)\\s([A-Za-z]+)\/",
+        "required": true,
+        "position": 2
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "code": "qiwi_rub",
