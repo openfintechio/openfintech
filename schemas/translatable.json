@@ -17,6 +17,11 @@
         "$id": "#/item/properties/name/properties/uk",
         "type": "string",
         "title": "The Ua Schema"
+      },
+      "zh": {
+        "$id": "#/item/properties/name/properties/zh",
+        "type": "string",
+        "title": "The Zh Schema"
       }
     }
   }
