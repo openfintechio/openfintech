@@ -984,6 +984,14 @@
     "amount_max": 9999999
   },
   {
+    "code": "paypal_huf_hpp",
+    "currency": "HUF",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
     "code": "paypal_gbp_hpp",
     "currency": "GBP",
     "flow": "hpp",
