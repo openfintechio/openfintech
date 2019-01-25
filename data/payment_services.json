@@ -990,5 +990,685 @@
     "method": "paypal",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "code": "china_citic_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "china_citic_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "industrial_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "industrial_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "china_guangfa_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "china_guangfa_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "china_merchants_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "china_merchants_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "china_postal_savings_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "china_postal_savings_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bank_of_china_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "bank_of_china",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "agricultural_bank_of_china_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "agricultural_bank_of_china",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "china_everbright_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "china_everbright_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "china_construction_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "china_construction_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "ping_an_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "ping_an_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bank_of_communication_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "bank_of_communication",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "industrial_and_commercial_bank_of_china_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "industrial_and_commercial_bank_of_china",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "shanghai_pudong_development_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "shanghai_pudong_development_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "china_minsheng_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "china_minsheng_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "china_union_pay_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "china_union_pay",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "siam_commercial_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "siam_commercial_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "krung_thai_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "krung_thai_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "krungsri_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "krungsri",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "uobt_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "uobt",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "kasikorn_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "kasikorn_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bangko_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "bangko_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "cimb_clicks_bank_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "cimb_clicks_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "public_bank_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "public_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "rhb_bank_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "rhb_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "hong_leong_bank_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "hong_leong_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "may_bank_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "may_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "australia_and_new_zealand_banking_group_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "australia_and_new_zealand_banking_group",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "westpac_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "westpac",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "national_australia_bank_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "national_australia_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "commonwealth_bank_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "commonwealth_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "axis_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "axis_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "indian_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "indian_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "state_bank_of_india_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "state_bank_of_india",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "kotak_mahindra_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "kotak_mahindra_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "canara_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "canara_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "icici_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "icici_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "punjab_national_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "punjab_national_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bank_of_india_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "bank_of_india",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "idbi_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "idbi_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "standard_charter_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "standard_charter_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "karnataka_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "karnataka_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "hdfc_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "hdfc_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "yes_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "yes_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "central_bank_of_india_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "central_bank_of_india",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "union_bank_of_india_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "union_bank_of_india",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bank_of_baroda_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "bank_of_baroda",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "mandiri_bank_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "mandiri_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bank_negara_indonesia_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bank_negara_indonesia",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bank_central_asia_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bank_central_asia",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bank_rakyat_indonesia_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bank_rakyat_indonesia",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "permata_bank_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "permata_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "cimb_clicks_indonesia_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "cimb_clicks_indonesia",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "danamon_bank_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "danamon_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "btn_bank_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "btn_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "acb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "acb_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "vietcom_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "vietcom_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "vietin_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "vietin_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "sacom_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "sacom_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bidv_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "bidv_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "techom_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "techom_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "dong_a_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "dong_a_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "exim_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "exim_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "may_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "may_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "permata_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "permata_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "bri_bank_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "bri_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "busan_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "busan_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "citibank_korea_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "citibank_korea",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "daegu_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "daegu_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "everrich_postal_savings_and_insurance_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "everrich_postal_savings_and_insurance_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "hana_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "hana_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "industrial_bank_of_korea_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "industrial_bank_of_korea",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "kookmin_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "kookmin_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "korea_development_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "korea_development_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "kwangju_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "kwangju_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "mg_bank_saemmul_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "mg_bank_saemmul",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "nonghyup_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "nonghyup_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "shinhan_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "shinhan_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "standard_chartered_bank_korea_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "standard_chartered_bank_korea",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "suhyup_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "suhyup_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "woori_bank_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "woori_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "crypto_btc_hpp",
+    "currency": "BTC",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "wechat_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "wechat",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "qqpay_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "qqpay",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "alipay_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "alipay",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "unionpay_qr_cny_hpp",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "unionpay_qr",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]
