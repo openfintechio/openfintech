@@ -1,0 +1,30 @@
+{
+  "definitions": {
+    "$ref": "translatable.json"
+  },
+  "type": "array",
+  "title": "The Payment Flow Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "code",
+      "name"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/items/properties/code",
+        "type": "string",
+        "title": "The Code Schema",
+        "examples": [
+          "hpp",
+          "transfer",
+          "invoice"
+        ],
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
+      },
+      "name": { "$ref": "#/definitions/translatable" }
+    }
+  }
+}
