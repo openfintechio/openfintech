@@ -14522,5 +14522,15 @@
     "payout_method": [
       "geopaynet"
     ]
+  },
+  {
+    "code": "xpayua",
+    "vendor": "xpayua",
+    "name": {
+      "en": "XPayua"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
