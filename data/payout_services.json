@@ -28545,7 +28545,7 @@
   },
   {
     "code": "paypal_email_eur",
-    "method": "paypal_email",
+    "method": "paypal",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28571,7 +28571,7 @@
   },
   {
     "code": "paypal_email_usd",
-    "method": "paypal_email",
+    "method": "paypal",
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28597,7 +28597,7 @@
   },
   {
     "code": "paypal_email_gbp",
-    "method": "paypal_email",
+    "method": "paypal",
     "currency": "GBP",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28623,7 +28623,7 @@
   },
   {
     "code": "paypal_email_rub",
-    "method": "paypal_email",
+    "method": "paypal",
     "currency": "RUB",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28649,7 +28649,7 @@
   },
   {
     "code": "paypal_email_mxn",
-    "method": "paypal_email",
+    "method": "paypal",
     "currency": "MXN",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28675,7 +28675,7 @@
   },
   {
     "code": "paypal_email_huf",
-    "method": "paypal_email",
+    "method": "paypal",
     "currency": "HUF",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28701,7 +28701,7 @@
   },
   {
     "code": "paypal_phone_usd",
-    "method": "paypal_phone",
+    "method": "paypal",
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28727,7 +28727,7 @@
   },
   {
     "code": "paypal_phone_eur",
-    "method": "paypal_phone",
+    "method": "paypal",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28753,7 +28753,7 @@
   },
   {
     "code": "paypal_phone_gbp",
-    "method": "paypal_phone",
+    "method": "paypal",
     "currency": "GBP",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28779,7 +28779,7 @@
   },
   {
     "code": "paypal_phone_rub",
-    "method": "paypal_phone",
+    "method": "paypal",
     "currency": "RUB",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28805,7 +28805,7 @@
   },
   {
     "code": "paypal_phone_huf",
-    "method": "paypal_phone",
+    "method": "paypal",
     "currency": "HUF",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28831,7 +28831,7 @@
   },
   {
     "code": "paypal_phone_mxn",
-    "method": "paypal_phone",
+    "method": "paypal",
     "currency": "MXN",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28857,7 +28857,7 @@
   },
   {
     "code": "paypal_id_usd",
-    "method": "paypal_id",
+    "method": "paypal",
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28883,7 +28883,7 @@
   },
   {
     "code": "paypal_id_eur",
-    "method": "paypal_id",
+    "method": "paypal",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28909,7 +28909,7 @@
   },
   {
     "code": "paypal_id_gbp",
-    "method": "paypal_id",
+    "method": "paypal",
     "currency": "GBP",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28935,7 +28935,7 @@
   },
   {
     "code": "paypal_id_rub",
-    "method": "paypal_id",
+    "method": "paypal",
     "currency": "RUB",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28961,7 +28961,7 @@
   },
   {
     "code": "paypal_id_mxn",
-    "method": "paypal_id",
+    "method": "paypal",
     "currency": "MXN",
     "amount_min": 0.01,
     "amount_max": 10000,
@@ -28987,7 +28987,7 @@
   },
   {
     "code": "paypal_id_huf",
-    "method": "paypal_id",
+    "method": "paypal",
     "currency": "HUF",
     "amount_min": 0.01,
     "amount_max": 10000,
