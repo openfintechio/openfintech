@@ -29031,7 +29031,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29048,7 +29048,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29065,7 +29065,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29099,7 +29099,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -29116,7 +29116,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -29142,7 +29142,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29159,7 +29159,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29176,7 +29176,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29210,7 +29210,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -29227,7 +29227,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -29253,7 +29253,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29270,7 +29270,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29287,7 +29287,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29321,7 +29321,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -29338,7 +29338,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -29364,7 +29364,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29381,7 +29381,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29398,7 +29398,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29432,7 +29432,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -29449,7 +29449,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -29475,7 +29475,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29492,7 +29492,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29509,7 +29509,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29543,7 +29543,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -29560,7 +29560,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -29586,7 +29586,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29603,7 +29603,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29620,7 +29620,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29654,7 +29654,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -29671,7 +29671,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -29697,7 +29697,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29714,7 +29714,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29731,7 +29731,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29765,7 +29765,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -29782,7 +29782,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -29808,7 +29808,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29825,7 +29825,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29842,7 +29842,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29876,7 +29876,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -29893,7 +29893,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -29919,7 +29919,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -29936,7 +29936,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -29953,7 +29953,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -29987,7 +29987,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30004,7 +30004,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30030,7 +30030,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30047,7 +30047,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30064,7 +30064,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30098,7 +30098,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30115,7 +30115,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30141,7 +30141,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30158,7 +30158,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30175,7 +30175,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30209,7 +30209,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30226,7 +30226,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30252,7 +30252,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30269,7 +30269,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30286,7 +30286,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30320,7 +30320,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30337,7 +30337,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30363,7 +30363,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30380,7 +30380,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30397,7 +30397,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30431,7 +30431,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30448,7 +30448,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30474,7 +30474,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30491,7 +30491,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30508,7 +30508,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30542,7 +30542,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30559,7 +30559,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30585,7 +30585,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30602,7 +30602,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30619,7 +30619,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30653,7 +30653,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30670,7 +30670,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30696,7 +30696,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30713,7 +30713,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30730,7 +30730,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30764,7 +30764,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30781,7 +30781,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30807,7 +30807,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30824,7 +30824,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30841,7 +30841,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30875,7 +30875,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -30892,7 +30892,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -30918,7 +30918,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -30935,7 +30935,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -30952,7 +30952,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -30986,7 +30986,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31003,7 +31003,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31029,7 +31029,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31046,7 +31046,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31063,7 +31063,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31097,7 +31097,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31114,7 +31114,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31140,7 +31140,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31157,7 +31157,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31174,7 +31174,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31208,7 +31208,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31225,7 +31225,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31251,7 +31251,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31268,7 +31268,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31285,7 +31285,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31319,7 +31319,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31336,7 +31336,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31362,7 +31362,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31379,7 +31379,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31396,7 +31396,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31430,7 +31430,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31447,7 +31447,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31473,7 +31473,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31490,7 +31490,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31507,7 +31507,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31541,7 +31541,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31558,7 +31558,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31584,7 +31584,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31601,7 +31601,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31618,7 +31618,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31652,7 +31652,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31669,7 +31669,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31695,7 +31695,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31712,7 +31712,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31729,7 +31729,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31763,7 +31763,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31780,7 +31780,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31806,7 +31806,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31823,7 +31823,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31840,7 +31840,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31874,7 +31874,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -31891,7 +31891,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -31917,7 +31917,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -31934,7 +31934,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -31951,7 +31951,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -31985,7 +31985,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32002,7 +32002,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32028,7 +32028,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32045,7 +32045,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32062,7 +32062,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32096,7 +32096,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32113,7 +32113,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32139,7 +32139,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32156,7 +32156,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32173,7 +32173,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32207,7 +32207,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32224,7 +32224,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32250,7 +32250,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32267,7 +32267,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32284,7 +32284,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32318,7 +32318,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32335,7 +32335,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32361,7 +32361,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32378,7 +32378,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32395,7 +32395,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32429,7 +32429,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32446,7 +32446,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32472,7 +32472,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32489,7 +32489,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32506,7 +32506,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32540,7 +32540,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32557,7 +32557,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32583,7 +32583,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32600,7 +32600,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32617,7 +32617,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32651,7 +32651,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32668,7 +32668,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32694,7 +32694,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32711,7 +32711,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32728,7 +32728,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32762,7 +32762,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32779,7 +32779,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32805,7 +32805,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32822,7 +32822,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32839,7 +32839,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32873,7 +32873,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -32890,7 +32890,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -32916,7 +32916,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -32933,7 +32933,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -32950,7 +32950,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -32984,7 +32984,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33001,7 +33001,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33027,7 +33027,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33044,7 +33044,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33061,7 +33061,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33095,7 +33095,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33112,7 +33112,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33138,7 +33138,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33155,7 +33155,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33172,7 +33172,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33206,7 +33206,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33223,7 +33223,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33249,7 +33249,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33266,7 +33266,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33283,7 +33283,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33317,7 +33317,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33334,7 +33334,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33360,7 +33360,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33377,7 +33377,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33394,7 +33394,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33428,7 +33428,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33445,7 +33445,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33471,7 +33471,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33488,7 +33488,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33505,7 +33505,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33539,7 +33539,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33556,7 +33556,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33582,7 +33582,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33599,7 +33599,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33616,7 +33616,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33650,7 +33650,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33667,7 +33667,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33693,7 +33693,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33710,7 +33710,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33727,7 +33727,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33761,7 +33761,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33778,7 +33778,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33804,7 +33804,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33821,7 +33821,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33838,7 +33838,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33872,7 +33872,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -33889,7 +33889,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -33915,7 +33915,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -33932,7 +33932,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -33949,7 +33949,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -33983,7 +33983,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34000,7 +34000,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34026,7 +34026,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34043,7 +34043,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34060,7 +34060,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34094,7 +34094,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34111,7 +34111,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34137,7 +34137,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34154,7 +34154,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34171,7 +34171,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34205,7 +34205,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34222,7 +34222,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34248,7 +34248,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34265,7 +34265,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34282,7 +34282,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34316,7 +34316,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34333,7 +34333,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34359,7 +34359,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34376,7 +34376,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34393,7 +34393,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34427,7 +34427,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34444,7 +34444,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34470,7 +34470,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34487,7 +34487,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34504,7 +34504,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34538,7 +34538,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34555,7 +34555,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34581,7 +34581,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34598,7 +34598,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34615,7 +34615,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34649,7 +34649,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34666,7 +34666,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34692,7 +34692,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34709,7 +34709,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34726,7 +34726,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34760,7 +34760,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34777,7 +34777,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34803,7 +34803,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34820,7 +34820,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34837,7 +34837,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34871,7 +34871,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34888,7 +34888,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -34914,7 +34914,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -34931,7 +34931,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -34948,7 +34948,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -34982,7 +34982,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -34999,7 +34999,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -35025,7 +35025,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -35042,7 +35042,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -35059,7 +35059,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -35093,7 +35093,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -35110,7 +35110,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -35136,7 +35136,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -35153,7 +35153,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -35170,7 +35170,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -35204,7 +35204,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -35221,7 +35221,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -35247,7 +35247,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -35264,7 +35264,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -35281,7 +35281,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -35315,7 +35315,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -35332,7 +35332,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -35358,7 +35358,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -35375,7 +35375,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -35392,7 +35392,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -35426,7 +35426,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -35443,7 +35443,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -35469,7 +35469,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -35486,7 +35486,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -35503,7 +35503,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -35537,7 +35537,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -35554,7 +35554,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -35580,7 +35580,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -35597,7 +35597,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -35614,7 +35614,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -35648,7 +35648,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -35665,7 +35665,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -35691,7 +35691,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -35708,7 +35708,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -35725,7 +35725,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -35759,7 +35759,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -35776,7 +35776,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
@@ -35802,7 +35802,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 1
       },
@@ -35819,7 +35819,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 2
       },
@@ -35836,7 +35836,7 @@
           "ru": "Введите Bank Account Name",
           "uk": "Введіть Bank Account Name"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 3
       },
@@ -35870,7 +35870,7 @@
           "ru": "Введите провинцию",
           "uk": "Введіть провінцію"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 5
       },
@@ -35887,7 +35887,7 @@
           "ru": "Введите город",
           "uk": "Введіть місто"
         },
-        "regexp": "\/[A-z,a-z,0-9]{5,100}\/",
+        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
         "required": true,
         "position": 6
       }
