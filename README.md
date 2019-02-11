@@ -82,6 +82,10 @@ _"Fintech international standards are only on the stage of development. That's w
 
 _"With a constant increase in the number of services, communication between them becomes more and more complicated. OpenFinTech.io - is just-in-time and what we need!"_, Founder [SDK.Finance](https://sdk.finance/), [Pavlo Sidelev](https://www.facebook.com/pavlo.sidelov).                     
 
+# SVG optimization
+```bash
+find . -name *svg -exec mv {} /tmp/to_be_optimized.svg \; -exec scour -i /tmp/to_be_optimized.svg -o {} --enable-viewboxing --enable-id-stripping --enable-comment-stripping --shorten-ids --indent=none \;
+```  
 # Links
 
 ## Libraries

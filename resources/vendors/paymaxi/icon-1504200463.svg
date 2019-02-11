@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
-
-<!-- Page 6 -->
-<svg x="0" y="0" width="1527" height="1527" viewBox="0 0 1527 1527" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-style="display: block;margin-left: auto;margin-right: auto;">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg display="block" style="margin-left:auto;margin-right:auto" version="1.1" viewBox="0 0 1527 1527" xmlns="http://www.w3.org/2000/svg">
 <defs>
-
 <style type="text/css"><![CDATA[
 
 .g1_6{
@@ -15,13 +9,7 @@ style="display: block;margin-left: auto;margin-right: auto;">
 
 
 ]]></style>
-
 </defs>
-<path d="M0,0
-L0,1527
-L1527,1527
-L1527,0 Z " 
-fill="#FFFFFF" stroke="none" />
-<path fill-rule="evenodd" d="M587.2,382.5L695.4,708L474.8,628.9l366,516.3L734,823.9l94.3,29.6L769.4,572.6c-0.7,0.4,161.4,28.2,143.1,115.6c-15.3,73,-95.8,62,-96.4,62.1c0,0,65.7,35.5,139.5,7.7c29.9,-11.3,55.3,-45.4,62.6,-76.3C1056,517.5,834.3,407.4,587.2,382.5Z" class="g1_6" />
-
+<path d="m0 0v1527h1527v-1527z" fill="#fff"/>
+<path class="g1_6" d="m587.2 382.5 108.2 325.5-220.6-79.1 366 516.3-106.8-321.3 94.3 29.6-58.9-280.9c-0.7 0.4 161.4 28.2 143.1 115.6-15.3 73-95.8 62-96.4 62.1 0 0 65.7 35.5 139.5 7.7 29.9-11.3 55.3-45.4 62.6-76.3 37.8-164.2-183.9-274.3-431-299.2z" fill-rule="evenodd"/>
 </svg>
