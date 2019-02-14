@@ -1721,7 +1721,7 @@
   },
   {
     "code": "perfectmoney_account_btc_hpp",
-    "currency": "USD",
+    "currency": "BTC",
     "method": "perfectmoney_account",
     "flow": "hpp",
     "amount_min": 0.001,
@@ -1745,7 +1745,7 @@
   },
   {
     "code": "perfectmoney_voucher_btc_hpp",
-    "currency": "USD",
+    "currency": "BTC",
     "method": "perfectmoney_voucher",
     "flow": "hpp",
     "amount_min": 0.001,
