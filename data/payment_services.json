@@ -1702,5 +1702,53 @@
     "method": "unionpay_qr",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "code": "perfectmoney_account_usd_hpp",
+    "currency": "USD",
+    "method": "perfectmoney_account",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "perfectmoney_account_eur_hpp",
+    "currency": "EUR",
+    "method": "perfectmoney_account",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "perfectmoney_account_btc_hpp",
+    "currency": "BTC",
+    "method": "perfectmoney_account",
+    "flow": "hpp",
+    "amount_min": 0.001,
+    "amount_max": 1000
+  },
+  {
+    "code": "perfectmoney_voucher_usd_hpp",
+    "currency": "USD",
+    "method": "perfectmoney_voucher",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "perfectmoney_voucher_eur_hpp",
+    "currency": "EUR",
+    "method": "perfectmoney_voucher",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "perfectmoney_voucher_btc_hpp",
+    "currency": "BTC",
+    "method": "perfectmoney_voucher",
+    "flow": "hpp",
+    "amount_min": 0.001,
+    "amount_max": 1000
   }
 ]
