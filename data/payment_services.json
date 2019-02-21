@@ -1750,5 +1750,32 @@
     "flow": "hpp",
     "amount_min": 0.001,
     "amount_max": 1000
+  },
+  {
+    "code": "cardpay_eur_hpp",
+    "currency": "EUR",
+    "method": "cardpay",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000.00,
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
   }
 ]
