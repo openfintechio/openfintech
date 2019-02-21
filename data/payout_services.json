@@ -465,7 +465,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 10000
+    "amount_max": 9999999
   },
   {
     "code": "test_usd",
@@ -543,7 +543,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 10000
+    "amount_max": 9999999
   },
   {
     "code": "test_eur",
@@ -621,7 +621,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 10000
+    "amount_max": 9999999
   },
   {
     "code": "test_rub",
@@ -699,7 +699,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 10000
+    "amount_max": 9999999
   },
   {
     "code": "test_xts",
