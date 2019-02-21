@@ -109,7 +109,7 @@
     "method": "test",
     "currency": "XTS",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 9999999
   },
   {
     "code": "test_uah_test",
@@ -117,7 +117,7 @@
     "method": "test",
     "currency": "UAH",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 9999999
   },
   {
     "code": "test_usd_test",
@@ -125,7 +125,7 @@
     "method": "test",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 9999999
   },
   {
     "code": "test_eur_test",
@@ -133,7 +133,7 @@
     "method": "test",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 9999999
   },
   {
     "code": "privat24_eur_hpp",
