@@ -15554,7 +15554,7 @@
     "code": "bank_of_communication",
     "category": "bank_transfer",
     "name": {
-      "en": "Bank of Communication",
+      "en": "Bank of Communications",
       "zh": "交通银行"
     }
   },
@@ -15735,6 +15735,13 @@
     }
   },
   {
+    "code": "bank_of_jiangsu",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BANK OF JIANGSU"
+    }
+  }, 
+  {
     "code": "shude_rural_credit_union",
     "category": "bank_transfer",
     "name": {
@@ -15794,17 +15801,24 @@
     }
   },
   {
-    "code": "cimb_clicks_bank",
+    "code": "united_overseas_bank",
     "category": "bank_transfer",
     "name": {
-      "en": "CIMB Clicks Bank"
+      "en": "United Overseas Bank"
     }
   },
   {
-    "code": "public_bank",
+    "code": "cimb_bank",
     "category": "bank_transfer",
     "name": {
-      "en": "Public Bank"
+      "en": "CIMB Bank"
+    }
+  },
+  {
+    "code": "public_bank_berhad",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Public Bank Berhad"
     }
   },
   {
@@ -15825,7 +15839,7 @@
     "code": "may_bank",
     "category": "bank_transfer",
     "name": {
-      "en": "May Bank"
+      "en": "Maybank"
     }
   },
   {
