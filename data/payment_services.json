@@ -1777,5 +1777,61 @@
         "position": 1
       }
     ]
+  },
+  {
+    "code": "payeer_usd_hpp",
+    "flow": "hpp",
+    "method": "payeer",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "payeer_usd_hpp",
+    "flow": "hpp",
+    "method": "payeer",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "payeer_eur_hpp",
+    "flow": "hpp",
+    "method": "payeer",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "visa_rub_hpp",
+    "flow": "hpp",
+    "method": "visa",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "mastercard_rub_hpp",
+    "flow": "hpp",
+    "method": "visa",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "maestro_rub_hpp",
+    "flow": "hpp",
+    "method": "maestro",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "mir_rub_hpp",
+    "flow": "hpp",
+    "method": "mir",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
