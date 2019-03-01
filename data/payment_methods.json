@@ -4742,5 +4742,27 @@
     "name": {
       "en": "Unionpay_QR"
     }
+  },
+  {
+    "code": "visa",
+    "vendor": "visa",
+    "category": "payment_card",
+    "name": {
+      "en": "Visa"
+    },
+    "description": {
+      "en": "Pay with Visa card"
+    }
+  },
+  {
+    "code": "mir",
+    "vendor": "mir",
+    "category": "payment_card",
+    "name": {
+      "ru": "Мир"
+    },
+    "description": {
+      "ru": "Оплата картой банка Мир."
+    }
   }
 ]
