@@ -14758,7 +14758,10 @@
     "vendor": "paymegaio",
     "name": {
       "en": "Paymega.io"
-    }
+    },
+    "payout_method": [
+      "bank_card"
+    ]
   },
   {
     "code": "payeer",
