@@ -36421,5 +36421,681 @@
         "required": true
       }
     ]
+  },
+  {
+    "code": "payeer_usd",
+    "method": "payeer",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account No.",
+          "ru": "No. счёта",
+          "uk": "No. рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[Pp]{1}[0-9]{7,15}|.+@.+\\..+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.02,
+    "amount_max": 1000000
+  },
+  {
+    "code": "payeer_rub",
+    "method": "payeer",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account No.",
+          "ru": "No. счёта",
+          "uk": "No. рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[Pp]{1}[0-9]{7,15}|.+@.+\\..+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 99999999
+  },
+  {
+    "code": "payeer_eur",
+    "method": "payeer",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account No.",
+          "ru": "No. счёта",
+          "uk": "No. рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[Pp]{1}[0-9]{7,15}|.+@.+\\..+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.02,
+    "amount_max": 1000000
+  },
+  {
+    "code": "payeer_btc",
+    "method": "payeer",
+    "currency": "BTC",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account No.",
+          "ru": "No. счёта",
+          "uk": "No. рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[Pp]{1}[0-9]{7,15}|.+@.+\\..+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.0001,
+    "amount_max": 100
+  },
+  {
+    "code": "payeer_eth",
+    "method": "payeer",
+    "currency": "ETH",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account No.",
+          "ru": "No. счёта",
+          "uk": "No. рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[Pp]{1}[0-9]{7,15}|.+@.+\\..+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.0001,
+    "amount_max": 1000
+  },
+  {
+    "code": "payeer_bch",
+    "method": "payeer",
+    "currency": "BCH",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account No.",
+          "ru": "No. счёта",
+          "uk": "No. рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[Pp]{1}[0-9]{7,15}|.+@.+\\..+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.0001,
+    "amount_max": 1000
+  },
+  {
+    "code": "payeer_ltc",
+    "method": "payeer",
+    "currency": "LTC",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account No.",
+          "ru": "No. счёта",
+          "uk": "No. рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[Pp]{1}[0-9]{7,15}|.+@.+\\..+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.0001,
+    "amount_max": 1000
+  },
+  {
+    "code": "payeer_dash",
+    "method": "payeer",
+    "currency": "DASH",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account No.",
+          "ru": "No. счёта",
+          "uk": "No. рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[Pp]{1}[0-9]{7,15}|.+@.+\\..+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.0001,
+    "amount_max": 1000
+  },
+  {
+    "code": "alfabank_rub",
+    "method": "alfabank",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 15000
+  },
+  {
+    "code": "sberbank_rub",
+    "method": "sberbank",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "promsvyaz_bank_rub",
+    "method": "promsvyaz_bank",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "russky_standart_rub",
+    "method": "russky_standart",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "avangard_bank_rub",
+    "method": "avangard_bank",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "vtb24_rub",
+    "method": "vtb24",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "tinkoff_bank_rub",
+    "method": "tinkoff_bank",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "gazprom_bank_rub",
+    "method": "gazprom_bank",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "beeline_rub",
+    "method": "beeline",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^[\\+]{1}[7]{1}[9]{1}[\\d]{9}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 15000
+  },
+  {
+    "code": "mts_rub",
+    "method": "mts",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^[\\+]{1}[7]{1}[9]{1}[\\d]{9}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 15000
+  },
+  {
+    "code": "megafon_rub",
+    "method": "megafon",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^[\\+]{1}[7]{1}[9]{1}[\\d]{9}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 15000
+  },
+  {
+    "code": "visa_rub",
+    "method": "visa",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "mastercard_rub",
+    "method": "mastercard",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "maestro_rub",
+    "method": "maestro",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{15,17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "mir_rub",
+    "method": "mir",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 75000
+  },
+  {
+    "code": "yandexmoney_rub",
+    "method": "yandexmoney",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счёта",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счёта",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^41001[0-9]{7,11}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 4,
+    "amount_max": 15000
+  },
+  {
+    "code": "tele2ru_rub",
+    "method": "tele2ru",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^[\\+]{1}[7]{1}[9]{1}[\\d]{9}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 15000
+  },
+  {
+    "code": "dash_dash",
+    "method": "dash",
+    "currency": "DASH",
+    "fields": [
+      {
+        "key": "wallet_address",
+        "type": "string",
+        "label": {
+          "en": "Wallet address",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet address",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^[A-Za-z0-9]{32,34}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000
   }
 ]
