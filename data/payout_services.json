@@ -36800,7 +36800,7 @@
   },
   {
     "code": "yandexmoney_rub",
-    "method": "yandex_money",
+    "method": "yandexmoney",
     "currency": "RUB",
     "fields": [
       {
@@ -36856,7 +36856,7 @@
     "currency": "DASH",
     "fields": [
       {
-        "key": "wallet_address",
+        "key": "wallet_id",
         "type": "string",
         "label": {
           "en": "Wallet address",
