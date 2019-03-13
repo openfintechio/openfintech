@@ -14812,5 +14812,110 @@
     "name": {
       "en": "Payeer"
     }
-  }
+  },
+
+  {
+    "code": "tranzzo",
+    "vendor": "tranzzo",
+    "name": {
+      "en": "Tranzzo"
+    },
+    "payment_method": [
+      
+    ],
+    "payout_method": [
+      
+    ]
+  },
+  {
+    "code": "coinpayments",
+    "vendor": "coinpayments",
+    "name": {
+      "en": "CoinPayments"
+    },
+    "payment_method": [
+      
+    ],
+    "payout_method": [
+      
+    ]
+  },
+  {
+  "code": "payoneer",
+  "vendor": "payoneer",
+  "name": {
+    "en": "Payoneer"
+  },
+  "payment_method": [
+    
+  ],
+  "payout_method": [
+    
+  ]
+},
+{
+  "code": "neteller",
+  "vendor": "neteller",
+  "name": {
+    "en": "Neteller"
+  },
+  "payment_method": [
+    
+  ],
+  "payout_method": [
+    
+  ]
+},
+{
+  "code": "australpay",
+  "vendor": "australpay",
+  "name": {
+    "en": "AustralPay"
+  },
+  "payment_method": [
+    
+  ],
+  "payout_method": [
+    
+  ]
+},
+{
+  "code": "wire2pay",
+  "vendor": "wire2pay",
+  "name": {
+    "en": "Wire2Pay"
+  },
+  "payment_method": [
+    
+  ],
+  "payout_method": [
+    
+  ]
+},
+{
+  "code": "leogaming",
+  "vendor": "leogaming",
+  "name": {
+    "en": "LeoGaming"
+  },
+  "payment_method": [
+    
+  ],
+  "payout_method": [
+    
+  ]
+},
+{
+  "code": "moneymovers",
+  "vendor": "moneymovers",
+  "name": {
+    "en": "MoneyMovers"
+  },
+  "payment_method": [
+    
+  ],
+  "payout_method": [
+    
+  ]
+}
 ]
