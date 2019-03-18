@@ -15502,7 +15502,8 @@
       "BE",
       "IT",
       "ES",
-      "AE"
+      "AE",
+      "RU"
     ],
     "name": {
       "en": "Maestro"
@@ -20136,53 +20137,6 @@
     },
     "description": {
       "en": " Headquartered in Phoenix, Arizona, BillingTree is developing ways to make it easier for people to get paid for their products and services.  BillingTree has become the trusted, competitively priced, and proven solution provider to a variety of industries looking to increase efficiency and process payments quickly. BillingTree has lead the way with progressive, innovative solutions that address the diverse needs and challenges surrounding the payment process. With our experience in the payment industry, we have developed the most reliable, user friendly payment solutions in the world today.    Founded by Jim Worman, Dan Willis and John Mousheghian, BillingTree was built to help clients achieve maximum efficiency in a very fast paced, evolving environment. Our years of experience in electronic payments, sales, finance and customer service give us unique insight into many aspects of business.  "
-    }
-  },
-  {
-    "code": "paysafecard",
-    "status": "active",
-    "countries": [
-      "AR",
-      "AU",
-      "BE",
-      "BG",
-      "CA",
-      "HR",
-      "CY",
-      "CZ",
-      "DK",
-      "FJ",
-      "FR",
-      "DE",
-      "GI",
-      "GR",
-      "HU",
-      "IS",
-      "IT",
-      "KW",
-      "LV",
-      "LI",
-      "LT",
-      "LU",
-      "ML",
-      "MX",
-      "NL",
-      "NZ",
-      "NO",
-      "PE",
-      "AX",
-      "PT",
-      "RO",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TR",
-      "AE",
-      "UM"
-    ],
-    "name": {
-      "en": "paysafecard"
     }
   },
   {
@@ -27149,6 +27103,13 @@
     }
   },
   {
+    "code": "visa",
+    "status": "active",
+    "name": {
+      "en": "Visa"
+    }
+  },
+  {
     "code": "wallet_one",
     "status": "active",
     "name": {
@@ -27277,6 +27238,26 @@
     },
     "name": {
       "en": "moneymovers"
+    }
+  },
+  {
+    "code": "resursbank",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/www.resursbank.se"
+    },
+    "name": {
+      "en": "Resurs bank"
+    }
+  },
+  {
+    "code": "nordeasolo",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/solo1.nordea.fi"
+    },
+    "name": {
+      "en": "Nordea solo"
     }
   }
 ]

@@ -3357,7 +3357,7 @@
   },
   {
     "code": "paysafecard",
-    "vendor": "paysafecard",
+    "vendor": "optimalpayments",
     "category": "prepaid_card",
     "countries": [
       "AR",
@@ -3400,7 +3400,7 @@
       "UM"
     ],
     "name": {
-      "en": "paysafecard"
+      "en": "Paysafecard"
     },
     "description": {
       "en": "paysafecard is a card that can be purchased in physical outlets. The online shopper receives a card\/voucher - representing the value paid for - with a 16-digit PIN. At a merchant that accepts paysafecard payments, the consumer enters the PIN and the online purchase is completed."
@@ -4749,13 +4749,146 @@
   },
   {
     "code": "mir",
-    "vendor": "mir",
+    "vendor": "kartamir",
     "category": "payment_card",
     "name": {
       "ru": "Мир"
     },
     "description": {
       "ru": "Оплата картой банка Мир."
+    }
+  },
+  {
+    "code": "paysafecash",
+    "vendor": "optimalpayments",
+    "category": "internet_banking",
+    "countries": [
+      "AT",
+      "HR",
+      "HU",
+      "IT",
+      "MT",
+      "PT",
+      "RO",
+      "SI",
+      "ES"
+    ],
+    "name": {
+      "en": "Paysafecash"
+    }
+  },
+  {
+    "code": "resursbank",
+    "vendor": "resursbank",
+    "category": "internet_banking",
+    "countries": [
+      "SE",
+      "NO",
+      "FI",
+      "DK"
+    ],
+    "name": {
+      "en": "Resurs bank"
+    }
+  },
+  {
+    "code": "rapidtransfer",
+    "vendor": "skrill",
+    "category": "internet_banking",
+    "countries": [
+      "AT",
+      "DK",
+      "FI",
+      "FR",
+      "DE",
+      "HU",
+      "IT",
+      "NO",
+      "PL",
+      "PT",
+      "ES",
+      "SE",
+      "GB"
+    ],
+    "name": {
+      "en": "Rapid Transfer"
+    }
+  },
+  {
+    "code": "nordeasolo",
+    "vendor": "nordeasolo",
+    "category": "internet_banking",
+    "countries": [
+      "SE"
+    ],
+    "name": {
+      "en": "Nordea Solo"
+    }
+  },
+  {
+    "code": "epaybg",
+    "vendor": "epaybg",
+    "category": "internet_banking",
+    "countries": [
+      "BG"
+    ],
+    "name": {
+      "en": "ePay.bg"
+    }
+  },
+  {
+    "code": "astropaydirect",
+    "vendor": "astropay",
+    "category": "internet_banking",
+    "countries": [
+      "AR",
+      "BR"
+    ],
+    "name": {
+      "en": "Astropay - Direct Bank Transfer"
+    }
+  },
+  {
+    "code": "astropaymanual",
+    "vendor": "astropay",
+    "category": "internet_banking",
+    "countries": [
+      "BR",
+      "CL",
+      "CN",
+      "CO"
+    ],
+    "name": {
+      "en": "Astropay - Manual Bank Transfer"
+    }
+  },
+  {
+    "code": "astropaycash",
+    "vendor": "astropay",
+    "category": "internet_banking",
+    "countries": [
+      "AR",
+      "BR",
+      "CL",
+      "CN",
+      "CO",
+      "MX",
+      "PE",
+      "UY"
+    ],
+    "name": {
+      "en": "Astropay - Cash / Invoice"
+    }
+  },
+  {
+    "code": "astropayunion",
+    "vendor": "astropay",
+    "category": "internet_banking",
+    "countries": [
+      "CN"
+    ],
+    "name": {
+      "en": "Astropay - Unionpay"
     }
   }
 ]
