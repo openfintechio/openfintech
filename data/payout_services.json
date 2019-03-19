@@ -35713,40 +35713,6 @@
         "required": true
       },
       {
-        "key": "bank_code",
-        "type": "string",
-        "regexp": "\/[0-9]{3}\/",
-        "label": {
-          "en": "Bank Code",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "hint": {
-          "en": "Enter bank code",
-          "ru": "Введите код банка",
-          "uk": "Введіть код банку"
-        },
-        "position": 3,
-        "required": true
-      },
-      {
-        "key": "bank_branch",
-        "type": "string",
-        "label": {
-          "en": "Bank Branch",
-          "ru": "Филиал банка",
-          "uk": "Філія банку"
-        },
-        "hint": {
-          "en": "Enter Bank Branch",
-          "ru": "Введите код филиала банка",
-          "uk": "Введіть код філії банку"
-        },
-        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
-        "required": true,
-        "position": 4
-      },
-      {
         "key": "account_type",
         "type": "string",
         "regexp": "\/[A-Z]{1}\/",
@@ -35986,23 +35952,6 @@
         "required": true
       },
       {
-        "key": "bank_branch",
-        "type": "string",
-        "label": {
-          "en": "Bank Branch",
-          "ru": "Филиал банка",
-          "uk": "Філія банку"
-        },
-        "hint": {
-          "en": "Enter Bank Branch",
-          "ru": "Введите код филиала банка",
-          "uk": "Введіть код філії банку"
-        },
-        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
-        "position": 5,
-        "required": true
-      },
-      {
         "key": "account_type",
         "type": "string",
         "regexp": "\/[A-Z]{1}\/",
@@ -36116,7 +36065,7 @@
       {
         "key": "bank_account",
         "type": "string",
-        "regexp": "\/[0-9]{18}\/",
+        "regexp": "\/[0-9]{4,18}\/",
         "label": {
           "en": "Bank Account",
           "ru": "Номер банковского счета",
@@ -36145,23 +36094,6 @@
           "uk": "Введіть код банку"
         },
         "position": 3,
-        "required": true
-      },
-      {
-        "key": "bank_branch",
-        "type": "string",
-        "label": {
-          "en": "Bank Branch",
-          "ru": "Филиал банка",
-          "uk": "Філія банку"
-        },
-        "hint": {
-          "en": "Enter Bank Branch",
-          "ru": "Введите код филиала банка",
-          "uk": "Введіть код філії банку"
-        },
-        "regexp": "\/[A-z,a-z,0-9]{2,100}\/",
-        "position": 4,
         "required": true
       },
       {
