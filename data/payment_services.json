@@ -1859,6 +1859,94 @@
     "amount_max": 100000
   },
   {
+    "code": "paysafecard_gbp_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_chf_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "CHF",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_bgn_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "BGN",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_czk_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "CZK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_dkk_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "DKK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_hrk_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "HRK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_huf_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "HUF",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_nok_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "NOK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_pln_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_ron_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "RON",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_sek_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "SEK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "paysafecash_eur_hpp",
     "flow": "hpp",
     "method": "paysafecash",
@@ -2019,10 +2107,10 @@
     "amount_max": 100000
   },
   {
-    "code": "polipayonline_eur_hpp",
+    "code": "polipayonline_aud_hpp",
     "flow": "hpp",
     "method": "polipayonline",
-    "currency": "EUR",
+    "currency": "AUD",
     "amount_min": 0.01,
     "amount_max": 100000
   },
