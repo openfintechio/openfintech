@@ -1833,5 +1833,349 @@
     "currency": "RUB",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "skrill2_eur_hpp",
+    "flow": "hpp",
+    "method": "skrill2",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "neteller_eur_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_eur_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_gbp_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_chf_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "CHF",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_bgn_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "BGN",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_czk_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "CZK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_dkk_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "DKK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_hrk_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "HRK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_huf_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "HUF",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_nok_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "NOK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_pln_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_ron_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "RON",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecard_sek_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "SEK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "paysafecash_eur_hpp",
+    "flow": "hpp",
+    "method": "paysafecash",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "resursbank_eur_hpp",
+    "flow": "hpp",
+    "method": "resursbank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "visa_eur_hpp",
+    "flow": "hpp",
+    "method": "visa",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "mastercard_eur_hpp",
+    "flow": "hpp",
+    "method": "mastercard",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "visaelectron_eur_hpp",
+    "flow": "hpp",
+    "method": "visaelectron",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "maestro_eur_hpp",
+    "flow": "hpp",
+    "method": "maestro",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "americanexpress_eur_hpp",
+    "flow": "hpp",
+    "method": "americanexpress",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "dinersclub_eur_hpp",
+    "flow": "hpp",
+    "method": "dinersclub",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "jcb_eur_hpp",
+    "flow": "hpp",
+    "method": "jcb",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "cartebleue_eur_hpp",
+    "flow": "hpp",
+    "method": "cartebleue",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "dankort_eur_hpp",
+    "flow": "hpp",
+    "method": "dankort",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "postepay_eur_hpp",
+    "flow": "hpp",
+    "method": "postepay",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "cartasi_eur_hpp",
+    "flow": "hpp",
+    "method": "cartasi",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "rapidtransfer_eur_hpp",
+    "flow": "hpp",
+    "method": "rapidtransfer",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "giropay_eur_hpp",
+    "flow": "hpp",
+    "method": "giropay",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "directdebit_eur_hpp",
+    "flow": "hpp",
+    "method": "directdebit",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "klarna_eur_hpp",
+    "flow": "hpp",
+    "method": "klarna",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "nordeasolo_eur_hpp",
+    "flow": "hpp",
+    "method": "nordeasolo",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "ideal_eur_hpp",
+    "flow": "hpp",
+    "method": "ideal",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "eps_eur_hpp",
+    "flow": "hpp",
+    "method": "eps",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "polipayonline_aud_hpp",
+    "flow": "hpp",
+    "method": "polipayonline",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "przelewy24_eur_hpp",
+    "flow": "hpp",
+    "method": "przelewy24",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "epaybg_eur_hpp",
+    "flow": "hpp",
+    "method": "epaybg",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "trustly_eur_hpp",
+    "flow": "hpp",
+    "method": "trustly",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "alipay_eur_hpp",
+    "flow": "hpp",
+    "method": "alipay",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "astropaydirect_eur_hpp",
+    "flow": "hpp",
+    "method": "astropaydirect",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "astropaymanual_eur_hpp",
+    "flow": "hpp",
+    "method": "astropaymanual",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "astropaycash_eur_hpp",
+    "flow": "hpp",
+    "method": "astropaycash",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "astropayunion_eur_hpp",
+    "flow": "hpp",
+    "method": "astropayunion",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
