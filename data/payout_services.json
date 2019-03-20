@@ -36807,5 +36807,31 @@
     ],
     "amount_min": 0.01,
     "amount_max": 10000
+  },
+  {
+    "code": "parimatch_account_uah",
+    "method": "parimatch_account",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "ID аккаунта",
+          "uk": "ID аккаунта"
+        },
+        "hint": {
+          "en": "Enter account ID",
+          "ru": "Введите ID аккаунта",
+          "uk": "Введіть ID аккаунта"
+        },
+        "regexp": "\/\\d{7}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 14900
   }
 ]
