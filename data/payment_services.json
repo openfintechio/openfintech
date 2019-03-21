@@ -872,6 +872,14 @@
     "amount_max": 100000
   },
   {
+    "code": "payment_card_gel_hpp",
+    "currency": "GEL",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "psbretail_rub_hpp",
     "currency": "RUB",
     "method": "psbretail",
@@ -912,9 +920,25 @@
     "amount_max": 100000
   },
   {
+    "code": "payment_card_gbp_hpp",
+    "currency": "GBP",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "bank_card_try_hpp",
     "currency": "TRY",
     "method": "bank_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "payment_card_try_hpp",
+    "currency": "TRY",
+    "method": "payment_card",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000
