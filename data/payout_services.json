@@ -20173,7 +20173,7 @@
         "required": true,
         "position": 1,
         "hint": {
-          "en": "Enter fccount number",
+          "en": "Enter account number",
           "uk": "Введите номер игрового счета",
           "ru": "Введіть номер ігрового рахунку"
         }
@@ -36817,14 +36817,14 @@
         "key": "account_id",
         "type": "string",
         "label": {
-          "en": "Account ID",
-          "ru": "ID аккаунта",
-          "uk": "ID аккаунта"
+          "en": "Account Number",
+          "ru": "Номер аккаунта",
+          "uk": "Номер аккаунта"
         },
         "hint": {
-          "en": "Enter account ID",
-          "ru": "Введите ID аккаунта",
-          "uk": "Введіть ID аккаунта"
+          "en": "Enter account Number",
+          "ru": "Введите номер аккаунта",
+          "uk": "Введіть номер аккаунта"
         },
         "regexp": "\/\\d{7}\/",
         "required": true,
