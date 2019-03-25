@@ -14961,9 +14961,9 @@
     "name": {
       "en": "Parimatch"
     },
-    "payment_method": [
-    ],
     "payout_method": [
+      "parimatch-loto",
+      "parimatch_account"
     ]
   },
   {
@@ -14997,16 +14997,6 @@
     "payment_method": [
     ],
     "payout_method": [
-    ]
-  },
-  {
-    "code": "parimatch",
-    "vendor": "parimatch",
-    "name": {
-      "en": "Parimatch"
-    },
-    "payout_method": [
-      "parimatch_account"
     ]
   }
 ]
