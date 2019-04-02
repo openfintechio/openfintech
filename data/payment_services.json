@@ -1878,9 +1878,9 @@
     "amount_max": 100000
   },
   {
-    "code": "skrill2_eur_hpp",
+    "code": "skrill_eur_hpp",
     "flow": "hpp",
-    "method": "skrill2",
+    "method": "skrill",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
