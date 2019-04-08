@@ -108,6 +108,25 @@
     "flow": "test",
     "method": "test",
     "currency": "XTS",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -116,6 +135,25 @@
     "flow": "test",
     "method": "test",
     "currency": "UAH",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -151,6 +189,25 @@
     "flow": "test",
     "method": "test",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
