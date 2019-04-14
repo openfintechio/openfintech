@@ -35,6 +35,7 @@
       "currency": {
         "$id": "#/items/properties/currency",
         "type": "string",
+        "pattern": "^([A-Z0-9]+)([A-Z0-9-_\\.]+)([A-Z0-9]+)$",
         "title": "The Currency Schema",
         "examples": [
           "RUB"
