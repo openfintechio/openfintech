@@ -28976,7 +28976,7 @@
   {
     "code": "paypal_phone_cad",
     "method": "paypal",
-    "currency": "cad",
+    "currency": "CAD",
     "amount_min": 0.01,
     "amount_max": 10000,
     "fields": [
@@ -29002,7 +29002,7 @@
   {
     "code": "paypal_phone_aud",
     "method": "paypal",
-    "currency": "aud",
+    "currency": "AUD",
     "amount_min": 0.01,
     "amount_max": 10000,
     "fields": [
@@ -29210,7 +29210,7 @@
   {
     "code": "paypal_id_aud",
     "method": "paypal",
-    "currency": "aud",
+    "currency": "AUD",
     "amount_min": 0.01,
     "amount_max": 10000,
     "fields": [
