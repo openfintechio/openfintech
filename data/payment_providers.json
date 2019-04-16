@@ -15008,8 +15008,8 @@
     ]
   },
   {
-    "code": "expresspayio",
-    "vendor": "expresspayio",
+    "code": "xpresspayio",
+    "vendor": "xpresspayio",
     "name": {
       "en": "ExpressPay.io"
     },
@@ -15021,6 +15021,28 @@
     "vendor": "easybits",
     "name": {
       "en": "EasyBits.io"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "enfins",
+    "vendor": "enfins",
+    "name": {
+      "en": "Enfins"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "paylink",
+    "vendor": "paylink",
+    "name": {
+      "en": "PayLink"
     },
     "payment_method": [
     ],
