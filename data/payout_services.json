@@ -37809,5 +37809,117 @@
     ],
     "amount_min": 1,
     "amount_max": 50000
+  },
+  {
+    "code": "swift_usd",
+    "method": "swift",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "swift_code",
+        "type": "number",
+        "label": {
+          "en": "SWIFT code",
+          "ru": "SWIFT код",
+          "uk": "SWIFT код"
+        },
+        "hint": {
+          "en": "Enter the recipient's SWIFT code",
+          "ru": "Введите SWIFT код получателя",
+          "uk": "Введiть SWIFT код отримувача"
+        },
+        "regexp": "\/^\\d{1,11}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "uk": "Номер рахунку",
+          "ru": "Номер счета"
+        },
+        "regexp": "\/^[a-zA-Z]{2}[0-9]{2}[a-zA-Z0-9]{4}([a-zA-Z0-9]?){0,16}$\/",
+        "required": true,
+        "position": 2,
+        "hint": {
+          "en": "Enter the Account Number",
+          "uk": "Введіть номер рахунку",
+          "ru": "Введите номер счета"
+        },
+        "example": "DE89370400440532013000"
+      },
+      {
+        "key": "recipient_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient name",
+          "uk": "Ім'я одержувача",
+          "ru": "Имя получателя"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{1,66}$\/",
+        "required": true,
+        "position": 3,
+        "hint": {
+          "en": "Enter the Recipient's name",
+          "uk": "Введіть Ім'я одержувача",
+          "ru": "Имя получателя"
+        }
+      },
+      {
+        "key": "country_code",
+        "type": "string",
+        "label": {
+          "en": "Country code",
+          "uk": "Код каїни",
+          "ru": "Код страны"
+        },
+        "regexp": "\/^[A-Z]{2,3}$\/",
+        "required": true,
+        "position": 4,
+        "hint": {
+          "en": "Enter the Recipient's сountry code",
+          "uk": "Введіть код країни одержувача",
+          "ru": "Введите код страны получателя"
+        }
+      },
+      {
+        "key": "address",
+        "type": "string",
+        "label": {
+          "en": "Recipient's address",
+          "uk": "Адреса одержувача",
+          "ru": "Адрес получателя"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{1,105}$\/",
+        "required": true,
+        "position": 5,
+        "hint": {
+          "en": "Enter the Recipient's address",
+          "uk": "Введіть адресу одержувача",
+          "ru": "Введите адрес получателя"
+        }
+      },
+      {
+        "key": "purpose",
+        "type": "string",
+        "label": {
+          "en": "Payment purpose",
+          "uk": "Призначення платежа",
+          "ru": "Назначение платежа"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{1,105}$\/",
+        "required": false,
+        "position": 6,
+        "hint": {
+          "en": "Enter the Payment purpose",
+          "uk": "Введіть призначення платежа",
+          "ru": "Введите назначение платежа"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 999999999999
   }
 ]
