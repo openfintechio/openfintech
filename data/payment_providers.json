@@ -15061,5 +15061,15 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "code": "manual",
+    "vendor": "paycore",
+    "name": {
+      "en": "Manual"
+    },
+    "payout_method": [
+      "swift"
+    ]
   }
 ]
