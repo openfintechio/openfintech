@@ -15009,12 +15009,68 @@
     ]
   },
   {
-    "code": "expresspayio",
-    "vendor": "expresspayio",
+    "code": "xpresspayio",
+    "vendor": "xpresspayio",
     "name": {
       "en": "ExpressPay.io"
     },
     "payout_method": [
+    ]
+  },
+  {
+    "code": "easybits",
+    "vendor": "easybits",
+    "name": {
+      "en": "EasyBits.io"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "enfins",
+    "vendor": "enfins",
+    "name": {
+      "en": "Enfins"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "paylink",
+    "vendor": "paylink",
+    "name": {
+      "en": "PayLink"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "cardgate",
+    "vendor": "paycore",
+    "name": {
+      "en": "CardGate"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "manual",
+    "vendor": "paycore",
+    "name": {
+      "en": "Manual"
+    },
+    "payout_method": [
+      "swift"
     ]
   }
 ]

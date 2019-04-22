@@ -2277,5 +2277,21 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "paypal_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "paypal_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]
