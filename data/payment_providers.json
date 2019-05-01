@@ -1126,7 +1126,7 @@
       "chinaunionpay",
       "mastercarddebit",
       "electroniccheckach",
-      "skrill2"
+      "skrill"
     ],
     "metadata": {
       "about_payments_code": "firstatlanticcommerce"
@@ -2028,7 +2028,9 @@
       "test"
     ],
     "name": {
-      "en": "Test"
+      "en": "Test",
+      "ru": "Test",
+      "uk": "Test"
     }
   },
   {
@@ -7783,7 +7785,7 @@
       "moneta",
       "zimpler",
       "toditocash",
-      "skrill2",
+      "skrill",
       "yandexmoney"
     ],
     "metadata": {
@@ -9186,7 +9188,7 @@
       "about_payments_code": "skrill"
     },
     "payment_method": [
-      "skrill2",
+      "skrill",
       "neteller",
       "paysafecard",
       "paysafecash",
@@ -9217,6 +9219,9 @@
       "astropaymanual",
       "astropaycash",
       "astropayunion"
+    ],
+    "payout_methods": [
+      "skrill"
     ],
     "name": {
       "en": "Skrill"
@@ -9918,7 +9923,7 @@
       "polipayonline",
       "eps",
       "paypal",
-      "skrill2",
+      "skrill",
       "neteller"
     ],
     "metadata": {
@@ -10945,6 +10950,7 @@
     ],
     "payment_method": [
       "americanexpress",
+      "payment_card",
       "mastercard",
       "ukash",
       "jcb",
@@ -11312,7 +11318,7 @@
       "dankort",
       "bitcoin",
       "wiretransfer",
-      "skrill2",
+      "skrill",
       "neteller"
     ],
     "metadata": {
@@ -11914,7 +11920,7 @@
       "boletobancariopay",
       "qiwi",
       "moneta",
-      "skrill2",
+      "skrill",
       "yandexmoney",
       "neteller"
     ],
@@ -12541,7 +12547,7 @@
       "ukash",
       "neteller",
       "paypal",
-      "skrill2"
+      "skrill"
     ],
     "metadata": {
       "about_payments_code": "yuupay"
@@ -12597,7 +12603,7 @@
       "sepadirectdebit",
       "eps",
       "paypal",
-      "skrill2",
+      "skrill",
       "clickandbuy"
     ],
     "metadata": {
@@ -12719,7 +12725,7 @@
       "alipay",
       "moneta",
       "mercadopago",
-      "skrill2",
+      "skrill",
       "yandexmoney"
     ],
     "metadata": {
@@ -14852,6 +14858,7 @@
       "en": "Tranzzo"
     },
     "payment_method": [
+      "bank_card"
     ],
     "payout_method": [
     ]
@@ -14887,6 +14894,7 @@
     "payment_method": [
     ],
     "payout_method": [
+      "neteller"
     ]
   },
   {
@@ -14961,9 +14969,9 @@
     "name": {
       "en": "Parimatch"
     },
-    "payment_method": [
-    ],
     "payout_method": [
+      "parimatch-loto",
+      "parimatch_account"
     ]
   },
   {
@@ -14984,6 +14992,7 @@
       "en": "Piastrix"
     },
     "payment_method": [
+      "qiwi"
     ],
     "payout_method": [
     ]
@@ -15000,13 +15009,68 @@
     ]
   },
   {
-    "code": "parimatch",
-    "vendor": "parimatch",
+    "code": "xpresspayio",
+    "vendor": "xpresspayio",
     "name": {
-      "en": "Parimatch"
+      "en": "XpressPay.io"
     },
     "payout_method": [
-      "parimatch_account"
+    ]
+  },
+  {
+    "code": "easybits",
+    "vendor": "easybits",
+    "name": {
+      "en": "EasyBits.io"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "enfins",
+    "vendor": "enfins",
+    "name": {
+      "en": "Enfins"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "paylink",
+    "vendor": "paylink",
+    "name": {
+      "en": "PayLink"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "cardgate",
+    "vendor": "paycore",
+    "name": {
+      "en": "CardGate"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "manual",
+    "vendor": "paycore",
+    "name": {
+      "en": "Manual"
+    },
+    "payout_method": [
+      "swift"
     ]
   }
 ]

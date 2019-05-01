@@ -108,6 +108,25 @@
     "flow": "test",
     "method": "test",
     "currency": "XTS",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -116,6 +135,25 @@
     "flow": "test",
     "method": "test",
     "currency": "UAH",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -124,6 +162,25 @@
     "flow": "test",
     "method": "test",
     "currency": "USD",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+      ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -132,6 +189,25 @@
     "flow": "test",
     "method": "test",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -872,6 +948,14 @@
     "amount_max": 100000
   },
   {
+    "code": "payment_card_gel_hpp",
+    "currency": "GEL",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "psbretail_rub_hpp",
     "currency": "RUB",
     "method": "psbretail",
@@ -912,9 +996,25 @@
     "amount_max": 100000
   },
   {
+    "code": "payment_card_gbp_hpp",
+    "currency": "GBP",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "bank_card_try_hpp",
     "currency": "TRY",
     "method": "bank_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "payment_card_try_hpp",
+    "currency": "TRY",
+    "method": "payment_card",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000
@@ -1835,9 +1935,9 @@
     "amount_max": 100000
   },
   {
-    "code": "skrill2_eur_hpp",
+    "code": "skrill_eur_hpp",
     "flow": "hpp",
-    "method": "skrill2",
+    "method": "skrill",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
@@ -2177,5 +2277,21 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "paypal_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "paypal_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]
