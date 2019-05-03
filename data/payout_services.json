@@ -15528,6 +15528,33 @@
     "amount_max": 5000
   },
   {
+    "code": "lumina-vyshgorod_uah",
+    "method": "lumina-vyshgorod",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Personal account",
+          "uk": "Особовий рахунок",
+          "ru": "Личный счёт"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter personal account",
+          "uk": "Введіть номер особового рахунку",
+          "ru": "Введите номер личного счёта"
+        },
+        "example": "617"
+      }
+    ],
+    "amount_min": 2,
+    "amount_max": 14999
+  },
+  {
     "code": "lanet_uah",
     "method": "lanet",
     "currency": "UAH",
