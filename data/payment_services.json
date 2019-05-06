@@ -1087,7 +1087,15 @@
     "code": "geopaynet_grn_transfer",
     "currency": "GRN",
     "flow": "transfer",
-    "method": "geopaynet_transfer",
+    "method": "geopaynet",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "geopaynet_grn_hpp",
+    "currency": "GRN",
+    "flow": "hpp",
+    "method": "geopaynet",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
