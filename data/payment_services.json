@@ -1084,22 +1084,6 @@
     "amount_max": 100000
   },
   {
-    "code": "geopaynet_grn_transfer",
-    "currency": "GRN",
-    "flow": "transfer",
-    "method": "geopaynet",
-    "amount_min": 0.01,
-    "amount_max": 9999999
-  },
-  {
-    "code": "geopaynet_uah_transfer",
-    "currency": "UAH",
-    "flow": "transfer",
-    "method": "geopaynet",
-    "amount_min": 0.01,
-    "amount_max": 9999999
-  },
-  {
     "code": "geopaynet_grn_hpp",
     "currency": "GRN",
     "flow": "hpp",
