@@ -15072,5 +15072,27 @@
     "payout_method": [
       "swift"
     ]
-  }
+  },
+  {
+    "code": "accentpay",
+    "vendor": "accentpay",
+    "name": {
+      "en": "Accentpay"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "code": "connectum",
+    "vendor": "connectum",
+    "name": {
+      "en": "Connectum"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+    ]
+  }    
 ]
