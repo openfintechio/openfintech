@@ -28400,7 +28400,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "regexp": "\/^(\\w){3,64}$\/",
-        "required": false,
+        "required": true,
         "position": 1
       },
       {
@@ -28417,7 +28417,7 @@
           "uk": "Введіть прізвище отримувача"
         },
         "regexp": "\/^(\\w){3,64}$\/",
-        "required": false,
+        "required": true,
         "position": 2
       },
       {
@@ -28484,7 +28484,7 @@
           "uk": "Введіть назву компанії"
         },
         "regexp": "\/^(\\w){3,64}$\/",
-        "required": false,
+        "required": true,
         "position": 1
       },
       {
