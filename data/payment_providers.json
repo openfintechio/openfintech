@@ -4529,7 +4529,16 @@
     "vendor": "paypal",
     "name": {
       "en": "PayPal"
-    }
+    },
+    "payment_method": [
+      "paypal"
+    ],
+    "payout_method": [
+      "paypal",
+      "paypal_id",
+      "paypal_email",
+      "paypal_phone"
+    ]
   },
   {
     "code": "yourpay",
@@ -14857,8 +14866,11 @@
     "name": {
       "en": "Tranzzo"
     },
+    "countries": [
+      "UA"
+    ],
     "payment_method": [
-      "bank_card"
+      "payment_card"
     ],
     "payout_method": [
     ]
@@ -14891,6 +14903,9 @@
     "name": {
       "en": "Neteller"
     },
+    "countries": [
+     
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14903,6 +14918,8 @@
     "name": {
       "en": "AustralPay"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14925,6 +14942,8 @@
     "name": {
       "en": "LeoGaming"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14936,6 +14955,8 @@
     "name": {
       "en": "MoneyMovers"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14947,6 +14968,9 @@
     "name": {
       "en": "iBox"
     },
+    "countries": [
+      "UA"
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14957,7 +14981,8 @@
     "vendor": "decta",
     "name": {
       "en": "Decta"
-    },
+    },    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14969,6 +14994,9 @@
     "name": {
       "en": "Parimatch"
     },
+    "countries": [
+      "UA"
+    ],
     "payout_method": [
       "parimatch-loto",
       "parimatch_account"
@@ -15047,6 +15075,9 @@
     },
     "payment_method": [
     ],
+    "countries": [
+      "UA"
+    ],
     "payout_method": [
     ]
   },
@@ -15056,6 +15087,9 @@
     "name": {
       "en": "CardGate"
     },
+    "countries": [
+      ""
+    ],
     "payment_method": [
       "payment_card"
     ],
@@ -15090,6 +15124,8 @@
     "name": {
       "en": "Connectum"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
