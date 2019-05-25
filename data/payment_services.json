@@ -1862,7 +1862,7 @@
   {
     "code": "payment_card_email_eur_hpp",
     "currency": "EUR",
-    "method": "payment_card",
+    "method": "payment_card_email",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000.00,
