@@ -274,6 +274,32 @@
     "amount_max": 60000
   },
   {
+    "code": "qiwi_uah",
+    "method": "qiwi",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Qiwi wallet",
+          "ru": "Qiwi кошелек",
+          "uk": "Qiwi гаманець"
+        },
+        "hint": {
+          "en": "Enter Qiwi wallet",
+          "ru": "Введите Qiwi кошелек",
+          "uk": "Введіть Qiwi гаманець"
+        },
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 10,
+    "amount_max": 14999
+  },
+  {
     "code": "advcash_wallet_uah",
     "method": "advcash_wallet",
     "currency": "UAH",
