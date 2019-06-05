@@ -2027,6 +2027,9 @@
     "payment_method": [
       "test"
     ],
+    "payout_method": [
+      "test"
+    ],
     "name": {
       "en": "Test",
       "ru": "Test",
@@ -12572,6 +12575,9 @@
       "perfectmoney_account",
       "perfectmoney_voucher"
     ],
+    "payout_method": [
+      "perfectmoney_transfer"
+    ],
     "name": {
       "en": "Perfect Money"
     }
@@ -14788,6 +14794,9 @@
     "name": {
       "en": "XPAY"
     },
+    "payment_method": [
+      "payment_card"
+    ],
     "payout_method": [
       "payment_card"
     ]
@@ -14795,6 +14804,9 @@
   {
     "code": "paymentcenter",
     "vendor": "paymentcenter",
+    "payout_method": [
+      "payment_card"
+    ],
     "name": {
       "en": "Payment Center"
     }
@@ -15043,6 +15055,7 @@
       "en": "XpressPay.io"
     },
     "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15052,8 +15065,10 @@
       "en": "EasyBits.io"
     },
     "payment_method": [
+      "payment_card"
     ],
     "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15074,11 +15089,13 @@
       "en": "PayLink"
     },
     "payment_method": [
+      "payment_card"
     ],
     "countries": [
       "UA"
     ],
     "payout_method": [
+      "payment_card"
     ]
   },
   {
