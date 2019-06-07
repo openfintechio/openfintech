@@ -2027,6 +2027,9 @@
     "payment_method": [
       "test"
     ],
+    "payout_method": [
+      "test"
+    ],
     "name": {
       "en": "Test",
       "ru": "Test",
@@ -4529,7 +4532,16 @@
     "vendor": "paypal",
     "name": {
       "en": "PayPal"
-    }
+    },
+    "payment_method": [
+      "paypal"
+    ],
+    "payout_method": [
+      "paypal",
+      "paypal_id",
+      "paypal_email",
+      "paypal_phone"
+    ]
   },
   {
     "code": "yourpay",
@@ -12563,6 +12575,9 @@
       "perfectmoney_account",
       "perfectmoney_voucher"
     ],
+    "payout_method": [
+      "perfectmoney_transfer"
+    ],
     "name": {
       "en": "Perfect Money"
     }
@@ -14779,6 +14794,9 @@
     "name": {
       "en": "XPAY"
     },
+    "payment_method": [
+      "payment_card"
+    ],
     "payout_method": [
       "payment_card"
     ]
@@ -14786,6 +14804,9 @@
   {
     "code": "paymentcenter",
     "vendor": "paymentcenter",
+    "payout_method": [
+      "payment_card"
+    ],
     "name": {
       "en": "Payment Center"
     }
@@ -14857,8 +14878,11 @@
     "name": {
       "en": "Tranzzo"
     },
+    "countries": [
+      "UA"
+    ],
     "payment_method": [
-      "bank_card"
+      "payment_card"
     ],
     "payout_method": [
     ]
@@ -14891,6 +14915,8 @@
     "name": {
       "en": "Neteller"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14903,6 +14929,8 @@
     "name": {
       "en": "AustralPay"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14925,6 +14953,8 @@
     "name": {
       "en": "LeoGaming"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14936,6 +14966,8 @@
     "name": {
       "en": "MoneyMovers"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14947,6 +14979,9 @@
     "name": {
       "en": "iBox"
     },
+    "countries": [
+      "UA"
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14958,6 +14993,8 @@
     "name": {
       "en": "Decta"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
@@ -14969,6 +15006,9 @@
     "name": {
       "en": "Parimatch"
     },
+    "countries": [
+      "UA"
+    ],
     "payout_method": [
       "parimatch-loto",
       "parimatch_account"
@@ -15015,6 +15055,7 @@
       "en": "XpressPay.io"
     },
     "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15024,8 +15065,10 @@
       "en": "EasyBits.io"
     },
     "payment_method": [
+      "payment_card"
     ],
     "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15046,8 +15089,13 @@
       "en": "PayLink"
     },
     "payment_method": [
+      "payment_card"
+    ],
+    "countries": [
+      "UA"
     ],
     "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15056,6 +15104,8 @@
     "name": {
       "en": "CardGate"
     },
+    "countries": [
+    ],
     "payment_method": [
       "payment_card"
     ],
@@ -15090,6 +15140,8 @@
     "name": {
       "en": "Connectum"
     },
+    "countries": [
+    ],
     "payment_method": [
     ],
     "payout_method": [
