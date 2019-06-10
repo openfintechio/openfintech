@@ -256,14 +256,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Qiwi wallet",
-          "ru": "Qiwi кошелек",
-          "uk": "Qiwi гаманець"
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телеофу"
         },
         "hint": {
-          "en": "Enter Qiwi wallet",
-          "ru": "Введите Qiwi кошелек",
-          "uk": "Введіть Qiwi гаманець"
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона, привязанный к кошельку",
+          "uk": "Введіть номер телефону, прив'язаний до гаманця"
         },
         "regexp": "\/^\\+\\d{1,15}$\/",
         "required": true,
@@ -282,14 +282,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Qiwi wallet",
-          "ru": "Qiwi кошелек",
-          "uk": "Qiwi гаманець"
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телеофу"
         },
         "hint": {
-          "en": "Enter Qiwi wallet",
-          "ru": "Введите Qiwi кошелек",
-          "uk": "Введіть Qiwi гаманець"
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона, привязанный к кошельку",
+          "uk": "Введіть номер телефону, прив'язаний до гаманця"
         },
         "regexp": "\/^\\+\\d{1,15}$\/",
         "required": true,
@@ -308,14 +308,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
         },
         "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
         },
         "regexp": "\/^H\\d{12}$\/",
         "required": true,
@@ -334,14 +334,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
         },
         "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
         },
         "regexp": "\/^R\\d{12}$\/",
         "required": true,
@@ -360,14 +360,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
         },
         "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
         },
         "regexp": "\/^U\\d{12}$\/",
         "required": true,
@@ -386,14 +386,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
         },
         "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
         },
         "regexp": "\/^E\\d{12}$\/",
         "required": true,
@@ -412,14 +412,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
         },
         "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
         },
         "regexp": "\/^B\\d{12}$\/",
         "required": true,
@@ -438,14 +438,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
         },
         "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
         },
         "regexp": "\/^G\\d{12}$\/",
         "required": true,
@@ -464,14 +464,14 @@
         "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
         },
         "hint": {
-          "en": "Enter account number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
         },
         "regexp": "\/^T\\d{12}$\/",
         "required": true,
