@@ -15156,5 +15156,58 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "code": "rapyd",
+    "vendor": "rapyd",
+    "name": {
+      "en": "Rapyd.net"
+    }
+  },
+  {
+    "code": "alfabank",
+    "vendor": "alfabank",
+    "name": {
+      "en": "Alfa Bank",
+      "ru": "Альфа Банк"
+    },
+    "countries": [
+      "UA",
+      "RU"
+    ],
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "concordbank",
+    "vendor": "concordbank",
+    "name": {
+      "en": "Concord Bank",
+      "ru": "Банк Конкорд"
+    },
+    "countries": [
+      "UA",
+      "RU"
+    ],
+    "payment_method": [
+      "payment_card",
+      "applepay"
+    ]
+  },
+  {
+    "code": "forwardbank",
+    "vendor": "forwardbank",
+    "name": {
+      "en": "Forward Bank",
+      "ru": "Банк Форвард"
+    },
+    "countries": [
+      "UA",
+      "RU"
+    ],
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
