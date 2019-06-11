@@ -2950,8 +2950,12 @@
   {
     "code": "alfabank",
     "status": "active",
+    "links": {
+      "website": "https:\/\/alfabank.ua"
+    },
     "name": {
-      "en": "Альфа-Банк"
+      "en": "Alfa-Bank",
+      "ru": "Альфа-Банк"
     }
   },
   {
@@ -5406,8 +5410,12 @@
   {
     "code": "forwardbank",
     "status": "active",
+    "links": {
+      "website": "https:\/\/www.forward-bank.com"
+    },
     "name": {
-      "en": "Forward Bank"
+      "en": "Forward Bank",
+      "ru": "Банк Форвард"
     }
   },
   {
@@ -27420,6 +27428,17 @@
     },
     "name": {
       "en": "Rapyd.net"
+    }
+  },
+  {
+    "code": "concordbank",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/concord.ua"
+    },
+    "name": {
+      "en": "Concord Bank",
+      "ru": "Банк Конкорд"
     }
   }
 ]
