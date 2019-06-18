@@ -1601,7 +1601,7 @@
     "name": {
       "en": "Yandex.Money",
       "ru": "Яндекс.Деньги",
-      "uk": "Yandex.Money"
+      "uk": "Яндекс.Гроші"
     }
   },
   {
@@ -2032,8 +2032,8 @@
     ],
     "name": {
       "en": "Test",
-      "ru": "Test",
-      "uk": "Test"
+      "ru": "Тестовый",
+      "uk": "Тестовий"
     }
   },
   {
@@ -14236,14 +14236,19 @@
     "code": "certusfinance",
     "vendor": "certusfinance",
     "name": {
-      "ru": "Certus Finance"
+      "en": "Certus Finance",
+      "ru": "Certus Finance",
+      "uk": "Certus Finance"
+
     }
   },
   {
     "code": "uapay",
     "vendor": "uapay",
     "name": {
-      "ru": "Юапей"
+      "en": "UApay",
+      "ru": "UApay",
+      "uk": "UApay"
     }
   },
   {
@@ -14741,7 +14746,8 @@
     "vendor": "advcash",
     "name": {
       "en": "AdvCash",
-      "ru": "AdvCash"
+      "ru": "AdvCash",
+      "uk": "AdvCash"
     },
     "payment_method": [
       "qiwi",
@@ -14779,7 +14785,9 @@
     ],
     "name": {
       "en": "GEO Pay",
-      "ru": "GEO Pay"
+      "ru": "GEO Pay",
+      "uk": "GEO Pay"
+
     },
     "payment_method": [
       "geopaynet"
@@ -15181,8 +15189,9 @@
     "code": "alfabank",
     "vendor": "alfabank",
     "name": {
-      "en": "Alfa Bank",
-      "ru": "Альфа Банк"
+      "en": "Alfa-Bank",
+      "ru": "Альфа-Банк",
+      "uk": "Альфа-Банк"
     },
     "countries": [
       "UA",
@@ -15197,7 +15206,8 @@
     "vendor": "concordbank",
     "name": {
       "en": "Concord Bank",
-      "ru": "Банк Конкорд"
+      "ru": "Конкорд Банк",
+      "uk": "Конкорд Банк"
     },
     "countries": [
       "UA",
@@ -15213,7 +15223,9 @@
     "vendor": "forwardbank",
     "name": {
       "en": "Forward Bank",
-      "ru": "Банк Форвард"
+      "ru": "Форвард Банк",
+      "uk": "Форвард Банк"
+
     },
     "countries": [
       "UA",
