@@ -15219,6 +15219,20 @@
     ]
   },
   {
+    "code": "procard",
+    "vendor": "procard",
+    "name": {
+      "en": "Procard"
+    },
+    "countries": [
+      "UA",
+      "RU"
+    ],
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
     "code": "forwardbank",
     "vendor": "forwardbank",
     "name": {
