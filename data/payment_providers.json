@@ -15248,5 +15248,22 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "code": "paylogic",
+    "vendor": "softlogic",
+    "name": {
+      "en": "Pay-logic",
+      "ru": "Pay-logic",
+      "uk": "Pay-logic"
+
+    },
+    "countries": [
+      "UA",
+      "RU"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
