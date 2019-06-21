@@ -2301,5 +2301,13 @@
     "method": "paypal",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "code": "applepay_uah_hpp",
+    "currency": "UAH",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
