@@ -2411,11 +2411,68 @@
     "amount_max": 9999999
   },
   {
+<<<<<<< HEAD
     "code": "applepay_uah_hpp",
     "currency": "UAH",
     "flow": "hpp",
     "method": "applepay",
     "amount_min": 0.01,
     "amount_max": 100000
+=======
+    "code": "swift_usd_invoice",
+    "currency": "USD",
+    "flow": "invoice",
+    "method": "swift",
+    "amount_min": 0.01,
+    "amount_max": 99999
+  },
+  {
+    "code": "swift_eur_invoice",
+    "currency": "EUR",
+    "flow": "invoice",
+    "method": "swift",
+    "amount_min": 0.01,
+    "amount_max": 99999
+  },
+  {
+    "code": "swift_gbp_invoice",
+    "currency": "GBP",
+    "flow": "invoice",
+    "method": "swift",
+    "amount_min": 0.01,
+    "amount_max": 99999
+  },
+  {
+    "code": "swift_cny_invoice",
+    "currency": "CNY",
+    "flow": "invoice",
+    "method": "swift",
+    "amount_min": 0.01,
+    "amount_max": 99999
+  },
+  {
+    "code": "swift_jpy_invoice",
+    "currency": "JPY",
+    "flow": "invoice",
+    "method": "swift",
+    "amount_min": 0.01,
+    "amount_max": 99999
+  },
+  {
+    "code": "swift_rub_invoice",
+    "currency": "RUB",
+    "flow": "invoice",
+    "method": "swift",
+    "amount_min": 0.01,
+    "amount_max": 99999
+  },
+  {
+    "code": "swift_kzt_invoice",
+    "currency": "KZT",
+    "flow": "invoice",
+    "method": "swift",
+    "amount_min": 0.01,
+    "amount_max": 99999
+>>>>>>> swift invoice services
   }
 ]
