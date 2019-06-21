@@ -2411,14 +2411,14 @@
     "amount_max": 9999999
   },
   {
-<<<<<<< HEAD
     "code": "applepay_uah_hpp",
     "currency": "UAH",
     "flow": "hpp",
     "method": "applepay",
     "amount_min": 0.01,
     "amount_max": 100000
-=======
+  },
+  {
     "code": "swift_usd_invoice",
     "currency": "USD",
     "flow": "invoice",
@@ -2473,6 +2473,5 @@
     "method": "swift",
     "amount_min": 0.01,
     "amount_max": 99999
->>>>>>> swift invoice services
   }
 ]
