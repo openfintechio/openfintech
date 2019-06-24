@@ -1,22 +1,3 @@
-sudo: required
-language: php
-cache:
-  - vendor
-php:
-  - '7.1'
-before_script:
-  - composer install -o --ignore-platform-reqs
-after_success:
-  - pip install --user awscli
-  - export PATH=$PATH:$HOME/.local/bin
-  - "./etc/deploy.sh"
-  - "./etc/deploy-s3.sh"
-install:
-  - export PATH="$HOME/.composer/vendor/bin:$PATH"
-  - travis_retry composer self-update && composer --version
-script:
-  - "./etc/validate.sh"
-
 matrix:
   include:
     - language: python
@@ -32,6 +13,25 @@ matrix:
           script: if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./deploy.sh; else echo "PR skip deploy"; fi
           on:
             branch: master
+
+    - language: php
+      sudo: required
+      cache:
+        - vendor
+      php:
+        - '7.1'
+      before_script:
+        - composer install -o --ignore-platform-reqs
+      after_success:
+        - pip install --user awscli
+        - export PATH=$PATH:$HOME/.local/bin
+        - "./etc/deploy.sh"
+        - "./etc/deploy-s3.sh"
+      install:
+        - export PATH="$HOME/.composer/vendor/bin:$PATH"
+        - travis_retry composer self-update && composer --version
+      script:
+        - "./etc/validate.sh"            
 
 env:
   matrix:
