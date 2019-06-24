@@ -16,7 +16,6 @@ class DataProvider
     const PAYOUT_SERVICES_FILENAME = '/payout_services.json';
     const PAYMENT_SERVICES_FILENAME = '/payment_services.json';
     const PAYOUT_METHODS_FILENAME = '/payout_methods.json';
-    const CONFIG_FILE_PATH = __DIR__.'/../mkdocs.yml';
 
     /* @var array */
     private $providers;
@@ -36,7 +35,7 @@ class DataProvider
     /* @var string */
     private $config;
 
-    public function __construct()
+    public function __construct(string $configDir)
     {
         try {
             $this->setProviders($this->getJsonContent(self::PATH_TO_DATA.self::PROVIDERS_FILENAME));
@@ -44,7 +43,7 @@ class DataProvider
             $this->setPayoutServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_SERVICES_FILENAME));
             $this->setPaymentServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_SERVICES_FILENAME));
             $this->setPayoutMethods($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_METHODS_FILENAME));
-            $this->setConfig();
+            $this->setConfig($configDir);
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
         }
@@ -114,10 +113,10 @@ class DataProvider
         $this->payoutMethods = $tmp;
     }
 
-    private function setConfig(): void
+    private function setConfig(string $dir): void
     {
         try {
-            $yaml = file_get_contents(self::CONFIG_FILE_PATH);
+            $yaml = file_get_contents($dir . '/mkdocs.yml');
             $this->config = substr($yaml, 0, strpos($yaml, 'nav'));
         } catch (\Throwable $exception) {
             throw $exception;

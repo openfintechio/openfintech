@@ -19,19 +19,30 @@ class DocBuilder
 {
     use UtilsTrait;
 
-    const PATH_TO_DOCS = __DIR__.'/../docs';
-    const CONFIG_FILE_PATH = __DIR__.'/../mkdocs.yml';
-
     /* @var DataProvider */
     private $dataProvider;
 
     /* @var Filesystem */
     private $fs;
 
-    public function __construct()
+    /* @var string */
+    private $outputPath;
+
+    public function __construct(string $outputPath)
     {
         $this->fs = new Filesystem();
-        $this->dataProvider = new DataProvider();
+        $this->dataProvider = new DataProvider($outputPath);
+        $this->outputPath = $outputPath;
+    }
+
+    private function pathToDocs(): string
+    {
+        return $this->outputPath . '/docs';
+    }
+
+    private function pathToConfig(): string
+    {
+        return $this->outputPath . '/mkdocs.yml';
     }
 
     private function writeFile(string $path, string $content): void
@@ -56,51 +67,51 @@ class DocBuilder
 
     private function buildProviders(): void
     {
-        $this->createDirectory(self::PATH_TO_DOCS.'/payment-providers');
+        $this->createDirectory($this->pathToDocs().'/payment-providers');
 
         /* @var ProviderDto $provider */
         foreach ($this->sort($this->dataProvider->getProviders()) as $provider) {
             $providerOverviewBuilder = new ProviderOverviewBuilder($this->dataProvider, $provider);
             $providerOverviewBuilder->build();
 
-            $this->createDirectory(self::PATH_TO_DOCS.'/payment-providers/'.$provider->code);
-            $this->writeFile(self::PATH_TO_DOCS.'/payment-providers/'.$provider->code.'/index.md', $providerOverviewBuilder->getContent());
+            $this->createDirectory($this->pathToDocs().'/payment-providers/'.$provider->code);
+            $this->writeFile($this->pathToDocs().'/payment-providers/'.$provider->code.'/index.md', $providerOverviewBuilder->getContent());
         }
 
         $providersListBuilder = new ProvidersListBuilder($this->dataProvider);
         $providersListBuilder->build();
-        $this->writeFile(self::PATH_TO_DOCS.'/payment-providers/index.md', $providersListBuilder->getContent());
+        $this->writeFile($this->pathToDocs().'/payment-providers/index.md', $providersListBuilder->getContent());
     }
 
     private function buildPayoutServices(): void
     {
-        $this->createDirectory(self::PATH_TO_DOCS.'/payout-services');
+        $this->createDirectory($this->pathToDocs().'/payout-services');
 
         /* @var PayoutServiceDto $payoutService */
         foreach ($this->sort($this->dataProvider->getPayoutServices()) as $payoutService) {
             $payoutServiceOverviewBuilder = new PayoutServiceOverviewBuilder($this->dataProvider, $payoutService);
             $payoutServiceOverviewBuilder->build();
 
-            $this->createDirectory(self::PATH_TO_DOCS.'/payout-services/'.$payoutService->code);
-            $this->writeFile(self::PATH_TO_DOCS.'/payout-services/'.$payoutService->code.'/index.md', $payoutServiceOverviewBuilder->getContent());
+            $this->createDirectory($this->pathToDocs().'/payout-services/'.$payoutService->code);
+            $this->writeFile($this->pathToDocs().'/payout-services/'.$payoutService->code.'/index.md', $payoutServiceOverviewBuilder->getContent());
         }
 
         $payoutServicesListBuilder = new PayoutServicesListBuilder($this->dataProvider);
         $payoutServicesListBuilder->build();
-        $this->writeFile(self::PATH_TO_DOCS.'/payout-services/index.md', $payoutServicesListBuilder->getContent());
+        $this->writeFile($this->pathToDocs().'/payout-services/index.md', $payoutServicesListBuilder->getContent());
     }
 
     private function buildPaymentMethods(): void
     {
-        $this->createDirectory(self::PATH_TO_DOCS.'/payment-methods');
+        $this->createDirectory($this->pathToDocs().'/payment-methods');
 
         /* @var PaymentMethodDto $method */
         foreach ($this->dataProvider->getPaymentMethods() as $method) {
             $paymentMethodOverviewBuilder = new PaymentMethodOverviewBuilder($this->dataProvider, $method);
             $paymentMethodOverviewBuilder->build();
 
-            $this->createDirectory(self::PATH_TO_DOCS.'/payment-methods/'.$method->code);
-            $this->writeFile(self::PATH_TO_DOCS.'/payment-methods/'.$method->code.'/index.md', $paymentMethodOverviewBuilder->getContent());
+            $this->createDirectory($this->pathToDocs().'/payment-methods/'.$method->code);
+            $this->writeFile($this->pathToDocs().'/payment-methods/'.$method->code.'/index.md', $paymentMethodOverviewBuilder->getContent());
         }
     }
 
@@ -126,7 +137,7 @@ class DocBuilder
         }
         array_push($nav, ['Payment methods' => $paymentMethods]);
 
-        $this->writeFile(self::CONFIG_FILE_PATH, $this->dataProvider->getConfig().Yaml::dump(['nav' => $nav], 5, 2));
+        $this->writeFile($this->pathToConfig(), $this->dataProvider->getConfig().Yaml::dump(['nav' => $nav], 5, 2));
     }
 
     public function build(): void
