@@ -1,0 +1,22 @@
+{
+    "name": "openfintech/docs-generator",
+    "description": "Simple generator mkdocs from json.",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vadymB",
+            "email": "berezdetskyi.v@paymaxi.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oft\\Generator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/filesystem": "^5.0@dev",
+        "symfony/yaml": "^5.0@dev"
+    }
+}
