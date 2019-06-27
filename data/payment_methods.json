@@ -1661,6 +1661,15 @@
     }
   },
   {
+    "code": "payment_card_token",
+    "category": "payment_card",
+    "name": {
+      "en": "Payment card by token",
+      "ru": "Платежная карта по токену",
+      "uk": "Платіжна карта по токену"
+    }
+  },
+  {
     "code": "liqpay",
     "category": "alternative",
     "name": {
