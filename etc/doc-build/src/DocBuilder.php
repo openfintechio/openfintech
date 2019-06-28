@@ -145,6 +145,6 @@ class DocBuilder
         $this->buildProviders();
         $this->buildPayoutServices();
         $this->buildPaymentMethods();
-        $this->buildConfig();
+        //$this->buildConfig(); // @deprecated
     }
 }
