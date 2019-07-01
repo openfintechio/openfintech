@@ -260,6 +260,33 @@
     "amount_max": 100000
   },
   {
+    "code": "payment_card_token_rub_hpp",
+    "flow": "hpp",
+    "method": "payment_card_token",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "token",
+        "type": "string",
+        "label": {
+          "en": "Token",
+          "ru": "Токен",
+          "uk": "Токен"
+        },
+        "hint": {
+          "en": "Enter token",
+          "ru": "Введите токен",
+          "uk": "Введіть токен"
+        },
+        "regexp": "\/^[a-zA-Z_0-9]{32,96}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
     "code": "privat24_rub_hpp",
     "flow": "hpp",
     "method": "privat24",
@@ -306,6 +333,33 @@
     "currency": "UAH",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "payment_card_token_uah_hpp",
+    "flow": "hpp",
+    "method": "payment_card_token",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "token",
+        "type": "string",
+        "label": {
+          "en": "Token",
+          "ru": "Токен",
+          "uk": "Токен"
+        },
+        "hint": {
+          "en": "Enter token",
+          "ru": "Введите токен",
+          "uk": "Введіть токен"
+        },
+        "regexp": "\/^[a-zA-Z_0-9]{32,96}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
   },
   {
     "code": "coingate_usd_hpp",
@@ -442,6 +496,33 @@
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "payment_card_token_usd_hpp",
+    "flow": "hpp",
+    "method": "payment_card_token",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "token",
+        "type": "string",
+        "label": {
+          "en": "Token",
+          "ru": "Токен",
+          "uk": "Токен"
+        },
+        "hint": {
+          "en": "Enter token",
+          "ru": "Введите токен",
+          "uk": "Введіть токен"
+        },
+        "regexp": "\/^[a-zA-Z_0-9]{32,96}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
   },
   {
     "code": "ethereum_eth_hpp",
@@ -602,6 +683,33 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "payment_card_token_eur_hpp",
+    "flow": "hpp",
+    "method": "payment_card_token",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "token",
+        "type": "string",
+        "label": {
+          "en": "Token",
+          "ru": "Токен",
+          "uk": "Токен"
+        },
+        "hint": {
+          "en": "Enter token",
+          "ru": "Введите токен",
+          "uk": "Введіть токен"
+        },
+        "regexp": "\/^[a-zA-Z_0-9]{32,96}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
   },
   {
     "code": "privatbank_ssk_eur_hpp",
