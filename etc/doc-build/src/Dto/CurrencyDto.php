@@ -22,19 +22,19 @@ final class CurrencyDto extends BaseDto
     /** @var string */
     public $category;
 
-    /** @var string */
+    /** @var string|null */
     public $isoNumeric3Code;
 
-    /** @var string */
+    /** @var string|null */
     public $isoAlpha3Code;
 
-    /** @var string */
+    /** @var string|null */
     public $symbol;
 
-    /** @var string */
+    /** @var string|null */
     public $nativeSymbol;
 
-    /** @var string */
+    /** @var string|null */
     public $metadata;
 
     public function getName(): Translatable

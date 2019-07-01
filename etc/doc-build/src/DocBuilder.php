@@ -2,10 +2,12 @@
 
 namespace Oft\Generator;
 
+use Oft\Generator\Dto\CurrencyDto;
 use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Service\CurrenciesListBuilder;
+use Oft\Generator\Service\CurrencyOverviewBuilder;
 use Oft\Generator\Service\PaymentMethodOverviewBuilder;
 use Oft\Generator\Service\PaymentMethodsListBuilder;
 use Oft\Generator\Service\PayoutServiceOverviewBuilder;
@@ -119,6 +121,14 @@ class DocBuilder
     private function buildCurrencies(): void
     {
         $this->createDirectory($this->pathToDocs().'/currencies');
+
+        /* @var CurrencyDto $currency */
+        foreach ($this->dataProvider->getCurrencies() as $currency) {
+            $currencyOverviewBuilder = new CurrencyOverviewBuilder($this->dataProvider, $currency);
+            $currencyOverviewBuilder->build();
+
+            $this->writeFile($this->pathToDocs().'/currencies/'.$currency->code.'.md', $currencyOverviewBuilder->getContent());
+        }
 
         $currenciesListBuilder = new CurrenciesListBuilder($this->dataProvider);
         $currenciesListBuilder->build();
