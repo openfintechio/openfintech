@@ -112,8 +112,8 @@ class DocBuilder
 
     public function build(): void
     {
-//        $this->buildProviders();
-        $this->buildPayoutServices();
+        $this->buildProviders();
+//        $this->buildPayoutServices();
 //        $this->buildPaymentMethods();
     }
 }
