@@ -26,59 +26,52 @@ final class ProvidersListBuilder extends MdBuilder
     public function __construct(DataProvider $dataProvider)
     {
         parent::__construct($dataProvider);
-        $this->data = $this->groupProviders($this->dataProvider->getProviders());
-    }
-
-    private function groupProviders(array $data): array
-    {
-        $grouped = [];
-
-        /* @var ProviderDto $provider */
-        foreach ($this->sort($data) as $provider) {
-            $key = strtoupper($provider->code[0]);
-
-            if (array_key_exists($key, $grouped)) {
-                array_push($grouped[$key], $provider);
-            } else {
-                $grouped[$key] = [$provider];
-            }
-        }
-
-        return $grouped;
+        $this->data = $this->sort($this->dataProvider->getProviders());
     }
 
     public function build(): void
     {
         $this->add(new MdHeader('Payment providers', 1), true);
 
-        foreach ($this->data as $h => $group) {
-            $this->add(new MdHeader((string) $h, 2), true);
-            $this->add(new MdTable($group, [
-                MdTableColumnDto::fromArray([
-                    'key' => 'Logo',
-                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                    'set_template' => function (ProviderDto $row) {
-                        return new MdImage($this->getProviderLogo($row->code, '600'), $row->code);
-                    },
-                ]),
-                MdTableColumnDto::fromArray([
-                    'key' => 'Name',
-                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                    'set_template' => function (ProviderDto $row) {
-                        return new MdLink(
-                            (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
-                            $row->code.'/index.md'
-                        );
-                    },
-                ]),
-                MdTableColumnDto::fromArray([
-                    'key' => 'Code',
-                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                    'set_template' => function (ProviderDto $row) {
-                        return new MdCode($row->code);
-                    },
-                ]),
-            ]), true);
-        }
+//        $this->add(new MdHeader((string) $h, 2), true);
+        $providersTable = new MdTable($this->data, [
+            MdTableColumnDto::fromArray([
+                'key' => 'Logo',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (ProviderDto $row) {
+                    return new MdImage($this->getProviderLogo($row->code, '600'), $row->code);
+                },
+            ]),
+            MdTableColumnDto::fromArray([
+                'key' => 'Name',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (ProviderDto $row) {
+                    return new MdLink(
+                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
+                        $row->code.'/index.md'
+                    );
+                },
+            ]),
+            MdTableColumnDto::fromArray([
+                'key' => 'Code',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (ProviderDto $row) {
+                    return new MdCode($row->code);
+                },
+            ]),
+        ]);
+
+        $providersTable->setRowSlot(function (ProviderDto $row, array $data) {
+            $index = $this->array_find_index($data, function (ProviderDto $r) use ($row) {
+               return $r->code === $row->code;
+            });
+            $key = strtoupper($row->code[0]);
+
+            if ($index === 0 || strtoupper($data[$index - 1]->code[0]) !== $key) {
+                return "|| **$key** ||\n";
+            }
+        });
+
+        $this->add($providersTable, true);
     }
 }

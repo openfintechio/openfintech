@@ -32,10 +32,7 @@ class DataProvider
     /* @var array */
     private $payoutMethods;
 
-    /* @var string */
-    private $config;
-
-    public function __construct(string $configDir)
+    public function __construct()
     {
         try {
             $this->setProviders($this->getJsonContent(self::PATH_TO_DATA.self::PROVIDERS_FILENAME));
@@ -43,7 +40,6 @@ class DataProvider
             $this->setPayoutServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_SERVICES_FILENAME));
             $this->setPaymentServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_SERVICES_FILENAME));
             $this->setPayoutMethods($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_METHODS_FILENAME));
-            $this->setConfig($configDir);
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
         }
@@ -113,16 +109,6 @@ class DataProvider
         $this->payoutMethods = $tmp;
     }
 
-    private function setConfig(string $dir): void
-    {
-        try {
-            $yaml = file_get_contents($dir . '/mkdocs.yml');
-            $this->config = substr($yaml, 0, strpos($yaml, 'nav'));
-        } catch (\Throwable $exception) {
-            throw $exception;
-        }
-    }
-
     public function getProviders(): array
     {
         return $this->providers;
@@ -146,10 +132,5 @@ class DataProvider
     public function getPaymentServices(): array
     {
         return $this->paymentServices;
-    }
-
-    public function getConfig(): string
-    {
-        return $this->config ?? '';
     }
 }

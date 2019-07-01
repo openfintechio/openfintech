@@ -19,6 +19,9 @@ class MdTable implements MdElementInterface
     /* @var string|null */
     private $append;
 
+    /* @var callable|null */
+    private $rowSlot;
+
     public function __construct(array $data, array $cols)
     {
         $this->data = $data;
@@ -97,6 +100,10 @@ class MdTable implements MdElementInterface
 
         /* @var BaseDto $item */
         foreach ($this->data as $item) {
+            if ($this->rowSlot) {
+                $this->add(call_user_func($this->rowSlot, $item, $this->data) ?? '');
+            }
+
             $this->addRow($item);
         }
     }
@@ -104,6 +111,11 @@ class MdTable implements MdElementInterface
     public function setAppend(string $append): void
     {
         $this->append = $append;
+    }
+
+    public function setRowSlot(callable $rowSlot): void
+    {
+        $this->rowSlot = $rowSlot;
     }
 
     public function toString(): string

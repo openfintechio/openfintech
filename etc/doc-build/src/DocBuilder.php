@@ -31,18 +31,13 @@ class DocBuilder
     public function __construct(string $outputPath)
     {
         $this->fs = new Filesystem();
-        $this->dataProvider = new DataProvider($outputPath);
+        $this->dataProvider = new DataProvider();
         $this->outputPath = $outputPath;
     }
 
     private function pathToDocs(): string
     {
         return $this->outputPath . '/docs';
-    }
-
-    private function pathToConfig(): string
-    {
-        return $this->outputPath . '/mkdocs.yml';
     }
 
     private function writeFile(string $path, string $content): void
@@ -115,36 +110,10 @@ class DocBuilder
         }
     }
 
-    private function buildConfig(): void
-    {
-        $nav = [];
-
-        $providers = [['Overview' => 'payment-providers/index.md']];
-        foreach ($this->sort($this->dataProvider->getProviders()) as $provider) {
-            array_push($providers, [ucfirst($provider->code) => 'payment-providers/'.$provider->code.'/index.md']);
-        }
-        array_push($nav, ['Providers' => $providers]);
-
-        $payoutServices = [['Overview' => 'payout-services/index.md']];
-        foreach ($this->sort($this->dataProvider->getPayoutServices()) as $service) {
-            array_push($payoutServices, [ucfirst($service->code) => 'payout-services/'.$service->code.'/index.md']);
-        }
-        array_push($nav, ['Payout services' => $payoutServices]);
-
-        $paymentMethods = [];
-        foreach ($this->sort($this->dataProvider->getPaymentMethods()) as $method) {
-            array_push( $paymentMethods, [ucfirst($method->code) => 'payment-methods/'.$method->code.'/index.md']);
-        }
-        array_push($nav, ['Payment methods' => $paymentMethods]);
-
-        $this->writeFile($this->pathToConfig(), $this->dataProvider->getConfig().Yaml::dump(['nav' => $nav], 5, 2));
-    }
-
     public function build(): void
     {
-        $this->buildProviders();
+//        $this->buildProviders();
         $this->buildPayoutServices();
-        $this->buildPaymentMethods();
-        //$this->buildConfig(); // @deprecated
+//        $this->buildPaymentMethods();
     }
 }
