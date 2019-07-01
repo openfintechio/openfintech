@@ -1,10 +1,8 @@
 <?php
 
-
 namespace Oft\Generator\Dto;
 
-
-class ServiceFieldDto extends BaseDto
+final class ServiceFieldDto extends BaseDto
 {
     /** @var string */
     public $key;

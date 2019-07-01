@@ -2,7 +2,7 @@
 
 namespace Oft\Generator\Dto;
 
-class PaymentMethodDto extends BaseDto
+final class PaymentMethodDto extends BaseDto
 {
     /** @var string */
     public $code;
