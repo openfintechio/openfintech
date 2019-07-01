@@ -48,7 +48,7 @@ final class CurrencyOverviewBuilder extends MdBuilder
         }
 
         if (null !== $this->data->nativeSymbol) {
-            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'native symbol:'));
+            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Native symbol:'));
             $this->space();
             $this->add(new MdCode($this->data->nativeSymbol), true);
             $this->br();

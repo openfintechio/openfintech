@@ -41,5 +41,4 @@ final class CurrencyDto extends BaseDto
     {
         return Translatable::fromArray($this->name);
     }
-
 }

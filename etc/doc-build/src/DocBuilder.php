@@ -14,6 +14,7 @@ use Oft\Generator\Service\PayoutServiceOverviewBuilder;
 use Oft\Generator\Service\PayoutServicesListBuilder;
 use Oft\Generator\Service\ProviderOverviewBuilder;
 use Oft\Generator\Service\ProvidersListBuilder;
+use Oft\Generator\Service\VendorsListBuilder;
 use Oft\Generator\Traits\UtilsTrait;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
@@ -135,11 +136,21 @@ class DocBuilder
         $this->writeFile($this->pathToDocs().'/currencies/index.md', $currenciesListBuilder->getContent());
     }
 
+    private function buildVendors(): void
+    {
+        $this->createDirectory($this->pathToDocs().'/vendors');
+
+        $vendorsListBuilder = new VendorsListBuilder($this->dataProvider);
+        $vendorsListBuilder->build();
+        $this->writeFile($this->pathToDocs().'/vendors/index.md', $vendorsListBuilder->getContent());
+    }
+
     public function build(): void
     {
 //        $this->buildProviders();
 //        $this->buildPayoutServices();
 //        $this->buildPaymentMethods();
-        $this->buildCurrencies();
+//        $this->buildCurrencies();
+        $this->buildVendors();
     }
 }

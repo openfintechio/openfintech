@@ -11,6 +11,7 @@ use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
+use Oft\Generator\Dto\VendorDto;
 
 class DataProvider
 {
@@ -25,6 +26,7 @@ class DataProvider
     const CURRENCIES_FILENAME = '/currencies.json';
     const CURRENCY_TYPES_FILENAME = '/currency_types.json';
     const CURRENCY_CATEGORIES_FILENAME = '/currency_categories.json';
+    const VENDORS_FILENAME = '/vendors.json';
 
     /* @var array */
     private $providers;
@@ -56,6 +58,9 @@ class DataProvider
     /* @var array */
     private $currencyCategories;
 
+    /* @var array */
+    private $vendors;
+
     public function __construct()
     {
         try {
@@ -69,6 +74,7 @@ class DataProvider
             $this->setCurrencies($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCIES_FILENAME));
             $this->setCurrencyTypes($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_TYPES_FILENAME));
             $this->setCurrencyCategories($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_CATEGORIES_FILENAME));
+            $this->setVendors($this->getJsonContent(self::PATH_TO_DATA.self::VENDORS_FILENAME));
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
         }
@@ -193,6 +199,17 @@ class DataProvider
         $this->currencyCategories = $tmp;
     }
 
+    private function setVendors(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, VendorDto::fromArray($item));
+        }
+
+        $this->vendors = $tmp;
+    }
+
     public function getProviders(): array
     {
         return $this->providers;
@@ -241,5 +258,10 @@ class DataProvider
     public function getCurrencyCategories(): array
     {
         return $this->currencyCategories;
+    }
+
+    public function getVendors(): array
+    {
+        return $this->vendors;
     }
 }
