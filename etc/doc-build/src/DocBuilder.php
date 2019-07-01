@@ -6,6 +6,7 @@ use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Service\PaymentMethodOverviewBuilder;
+use Oft\Generator\Service\PaymentMethodsListBuilder;
 use Oft\Generator\Service\PayoutServiceOverviewBuilder;
 use Oft\Generator\Service\PayoutServicesListBuilder;
 use Oft\Generator\Service\ProviderOverviewBuilder;
@@ -108,12 +109,16 @@ class DocBuilder
             $this->createDirectory($this->pathToDocs().'/payment-methods/'.$method->code);
             $this->writeFile($this->pathToDocs().'/payment-methods/'.$method->code.'/index.md', $paymentMethodOverviewBuilder->getContent());
         }
+
+        $paymentMethodsListBuilder = new PaymentMethodsListBuilder($this->dataProvider);
+        $paymentMethodsListBuilder->build();
+        $this->writeFile($this->pathToDocs().'/payment-methods/index.md', $paymentMethodsListBuilder->getContent());
     }
 
     public function build(): void
     {
-        $this->buildProviders();
+//        $this->buildProviders();
 //        $this->buildPayoutServices();
-//        $this->buildPaymentMethods();
+        $this->buildPaymentMethods();
     }
 }

@@ -33,7 +33,6 @@ final class ProvidersListBuilder extends MdBuilder
     {
         $this->add(new MdHeader('Payment providers', 1), true);
 
-//        $this->add(new MdHeader((string) $h, 2), true);
         $providersTable = new MdTable($this->data, [
             MdTableColumnDto::fromArray([
                 'key' => 'Logo',

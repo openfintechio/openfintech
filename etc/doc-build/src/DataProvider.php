@@ -2,6 +2,8 @@
 
 namespace Oft\Generator;
 
+use Oft\Generator\Dto\CategoryDto;
+use Oft\Generator\Dto\FlowDto;
 use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Dto\PayoutMethodDto;
@@ -16,6 +18,8 @@ class DataProvider
     const PAYOUT_SERVICES_FILENAME = '/payout_services.json';
     const PAYMENT_SERVICES_FILENAME = '/payment_services.json';
     const PAYOUT_METHODS_FILENAME = '/payout_methods.json';
+    const PAYMENT_METHOD_CATEGORIES_FILENAME = '/payment_method_categories.json';
+    const PAYMENT_FLOWS_FILENAME = '/payment_flows.json';
 
     /* @var array */
     private $providers;
@@ -32,6 +36,12 @@ class DataProvider
     /* @var array */
     private $payoutMethods;
 
+    /* @var array */
+    private $paymentMethodCategories;
+
+    /* @var array */
+    private $paymentFlows;
+
     public function __construct()
     {
         try {
@@ -40,6 +50,8 @@ class DataProvider
             $this->setPayoutServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_SERVICES_FILENAME));
             $this->setPaymentServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_SERVICES_FILENAME));
             $this->setPayoutMethods($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_METHODS_FILENAME));
+            $this->setPaymentMethodCategories($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_METHOD_CATEGORIES_FILENAME));
+            $this->setPaymentFlows($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_FLOWS_FILENAME));
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
         }
@@ -109,6 +121,28 @@ class DataProvider
         $this->payoutMethods = $tmp;
     }
 
+    private function setPaymentMethodCategories(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, CategoryDto::fromArray($item));
+        }
+
+        $this->paymentMethodCategories = $tmp;
+    }
+
+    private function setPaymentFlows(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, FlowDto::fromArray($item));
+        }
+
+        $this->paymentFlows = $tmp;
+    }
+
     public function getProviders(): array
     {
         return $this->providers;
@@ -132,5 +166,15 @@ class DataProvider
     public function getPaymentServices(): array
     {
         return $this->paymentServices;
+    }
+
+    public function getPaymentMethodCategories(): array
+    {
+        return $this->paymentMethodCategories;
+    }
+
+    public function getPaymentFlows(): array
+    {
+        return $this->paymentFlows;
     }
 }
