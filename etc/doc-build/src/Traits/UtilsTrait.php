@@ -24,4 +24,15 @@ trait UtilsTrait
 
         return null;
     }
+
+    private function array_find_index(array $arr, callable $callback): int
+    {
+        foreach ($arr as $index => $item) {
+            if (call_user_func($callback, $item)) {
+                return $index;
+            }
+        }
+
+        return -1;
+    }
 }

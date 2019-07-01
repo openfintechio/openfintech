@@ -2,11 +2,16 @@
 
 namespace Oft\Generator;
 
+use Oft\Generator\Dto\CategoryDto;
+use Oft\Generator\Dto\CurrencyDto;
+use Oft\Generator\Dto\CurrencyTypeDto;
+use Oft\Generator\Dto\FlowDto;
 use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
+use Oft\Generator\Dto\VendorDto;
 
 class DataProvider
 {
@@ -16,6 +21,12 @@ class DataProvider
     const PAYOUT_SERVICES_FILENAME = '/payout_services.json';
     const PAYMENT_SERVICES_FILENAME = '/payment_services.json';
     const PAYOUT_METHODS_FILENAME = '/payout_methods.json';
+    const PAYMENT_METHOD_CATEGORIES_FILENAME = '/payment_method_categories.json';
+    const PAYMENT_FLOWS_FILENAME = '/payment_flows.json';
+    const CURRENCIES_FILENAME = '/currencies.json';
+    const CURRENCY_TYPES_FILENAME = '/currency_types.json';
+    const CURRENCY_CATEGORIES_FILENAME = '/currency_categories.json';
+    const VENDORS_FILENAME = '/vendors.json';
 
     /* @var array */
     private $providers;
@@ -32,10 +43,25 @@ class DataProvider
     /* @var array */
     private $payoutMethods;
 
-    /* @var string */
-    private $config;
+    /* @var array */
+    private $paymentMethodCategories;
 
-    public function __construct(string $configDir)
+    /* @var array */
+    private $paymentFlows;
+
+    /* @var array */
+    private $currencies;
+
+    /* @var array */
+    private $currencyTypes;
+
+    /* @var array */
+    private $currencyCategories;
+
+    /* @var array */
+    private $vendors;
+
+    public function __construct()
     {
         try {
             $this->setProviders($this->getJsonContent(self::PATH_TO_DATA.self::PROVIDERS_FILENAME));
@@ -43,7 +69,12 @@ class DataProvider
             $this->setPayoutServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_SERVICES_FILENAME));
             $this->setPaymentServices($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_SERVICES_FILENAME));
             $this->setPayoutMethods($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_METHODS_FILENAME));
-            $this->setConfig($configDir);
+            $this->setPaymentMethodCategories($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_METHOD_CATEGORIES_FILENAME));
+            $this->setPaymentFlows($this->getJsonContent(self::PATH_TO_DATA.self::PAYMENT_FLOWS_FILENAME));
+            $this->setCurrencies($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCIES_FILENAME));
+            $this->setCurrencyTypes($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_TYPES_FILENAME));
+            $this->setCurrencyCategories($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_CATEGORIES_FILENAME));
+            $this->setVendors($this->getJsonContent(self::PATH_TO_DATA.self::VENDORS_FILENAME));
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
         }
@@ -113,14 +144,70 @@ class DataProvider
         $this->payoutMethods = $tmp;
     }
 
-    private function setConfig(string $dir): void
+    private function setPaymentMethodCategories(array $data): void
     {
-        try {
-            $yaml = file_get_contents($dir . '/mkdocs.yml');
-            $this->config = substr($yaml, 0, strpos($yaml, 'nav'));
-        } catch (\Throwable $exception) {
-            throw $exception;
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, CategoryDto::fromArray($item));
         }
+
+        $this->paymentMethodCategories = $tmp;
+    }
+
+    private function setPaymentFlows(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, FlowDto::fromArray($item));
+        }
+
+        $this->paymentFlows = $tmp;
+    }
+
+    private function setCurrencies(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, CurrencyDto::fromArray($item));
+        }
+
+        $this->currencies = $tmp;
+    }
+
+    private function setCurrencyTypes(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, CurrencyTypeDto::fromArray($item));
+        }
+
+        $this->currencyTypes = $tmp;
+    }
+
+    private function setCurrencyCategories(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, CategoryDto::fromArray($item));
+        }
+
+        $this->currencyCategories = $tmp;
+    }
+
+    private function setVendors(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, VendorDto::fromArray($item));
+        }
+
+        $this->vendors = $tmp;
     }
 
     public function getProviders(): array
@@ -148,8 +235,33 @@ class DataProvider
         return $this->paymentServices;
     }
 
-    public function getConfig(): string
+    public function getPaymentMethodCategories(): array
     {
-        return $this->config ?? '';
+        return $this->paymentMethodCategories;
+    }
+
+    public function getPaymentFlows(): array
+    {
+        return $this->paymentFlows;
+    }
+
+    public function getCurrencies(): array
+    {
+        return $this->currencies;
+    }
+
+    public function getCurrencyTypes(): array
+    {
+        return $this->currencyTypes;
+    }
+
+    public function getCurrencyCategories(): array
+    {
+        return $this->currencyCategories;
+    }
+
+    public function getVendors(): array
+    {
+        return $this->vendors;
     }
 }

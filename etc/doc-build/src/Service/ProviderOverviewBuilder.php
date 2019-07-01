@@ -114,8 +114,25 @@ final class ProviderOverviewBuilder extends MdBuilder
             $this->add(new MdLink("Payment Methods", "#"), true);
             $this->add(new MdTable($this->data->paymentMethod, [
                 MdTableColumnDto::fromArray([
+                    'key' => 'Icon',
+                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                    'set_template' => function (string $code) {
+                        return new MdImage($this->getPaymentMethodIcon($code), $code);
+                    },
+                ]),
+                MdTableColumnDto::fromArray([
+                    'key' => 'Name',
+                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                    'set_template' => function (string $code) {
+                        /*
+                         * FIXME: link to payment method overview page, NAME instead of code
+                        */
+                        return new MdLink($code, '#');
+                    },
+                ]),
+                MdTableColumnDto::fromArray([
                     'key' => 'Code',
-                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::LEFT),
+                    'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                     'set_template' => function (string $code) {
                         return new MdLink($code, '/payment-methods/'.$code);
                     },
