@@ -30,10 +30,10 @@ build_documentation() {
   && php $SCRIPT_PATH/doc-build/index.php -p /tmp/openfintech-docs && cd openfintech-docs
 }
 
-build_meta
-setup_git
-commit_files
-push_files
+# build_meta
+# setup_git
+# commit_files
+# push_files
 
 build_documentation
 commit_files
