@@ -2,8 +2,6 @@
 
 set -ex
 
-SCRIPT_PATH="$(dirname $(readlink -f $0))"
-
 setup_git() {
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "Travis CI"
@@ -25,16 +23,7 @@ build_meta() {
   && cd openfintech-meta
 }
 
-build_documentation() {
-  cd $SCRIPT_PATH/doc-build && composer install --ignore-platform-reqs && cd /tmp && git clone https://${GH_TOKEN}github.com:paycoreio/openfintech-docs.git \
-  && php $SCRIPT_PATH/doc-build/index.php -p /tmp/openfintech-docs && cd openfintech-docs
-}
-
 build_meta
 setup_git
-commit_files
-push_files
-
-build_documentation
 commit_files
 push_files
