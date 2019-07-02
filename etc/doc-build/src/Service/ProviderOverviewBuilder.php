@@ -43,7 +43,9 @@ final class ProviderOverviewBuilder extends MdBuilder
 
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Vendor:'));
         $this->space();
-        $this->add(new MdCode($this->data->vendor), true);
+        $this->add(new MdCode($this->data->vendor));
+        $this->space();
+        $this->add(new MdLink('show -->', '/vendors/' . $this->data->vendor . '/'), true);
         $this->br();
 
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Name:'), true);
@@ -108,10 +110,7 @@ final class ProviderOverviewBuilder extends MdBuilder
             $this->add(new MdHeader('Payment Methods', 2), true);
             $this->br();
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), 'The list of supported '));
-            /*
-             * TODO: link to methods list page
-            */
-            $this->add(new MdLink("Payment Methods", "#"), true);
+            $this->add(new MdLink("Payment Methods", "/payment-methods/"), true);
             $this->add(new MdTable($this->data->paymentMethod, [
                 MdTableColumnDto::fromArray([
                     'key' => 'Icon',
@@ -124,17 +123,14 @@ final class ProviderOverviewBuilder extends MdBuilder
                     'key' => 'Name',
                     'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                     'set_template' => function (string $code) {
-                        /*
-                         * FIXME: link to payment method overview page, NAME instead of code
-                        */
-                        return new MdLink($code, '#');
+                        return new MdLink($code, '/payment-methods/' . $code . '/');
                     },
                 ]),
                 MdTableColumnDto::fromArray([
                     'key' => 'Code',
                     'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                     'set_template' => function (string $code) {
-                        return new MdLink($code, '/payment-methods/'.$code);
+                        return new MdCode($code);
                     },
                 ]),
             ]), true);
@@ -144,10 +140,7 @@ final class ProviderOverviewBuilder extends MdBuilder
             $this->add(new MdHeader('Payout Methods', 2), true);
             $this->br();
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), 'The list of supported '));
-            /*
-             * TODO: link to methods list page
-            */
-            $this->add(new MdLink("Payout Methods", "#"), true);
+            $this->add(new MdLink("Payout Methods", "/payout-methods/"), true);
             $this->add(new MdTable($this->data->payoutMethod, [
                 MdTableColumnDto::fromArray([
                     'key' => 'Icon',
@@ -160,10 +153,7 @@ final class ProviderOverviewBuilder extends MdBuilder
                     'key' => 'Name',
                     'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                     'set_template' => function (string $code) {
-                        /*
-                         * FIXME: link to payout method overview page, NAME instead of code
-                        */
-                        return new MdLink($code, '#');
+                        return new MdLink($code, 'payout-methods' . $code . '/');
                     },
                 ]),
                 MdTableColumnDto::fromArray([

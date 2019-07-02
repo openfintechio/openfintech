@@ -4,36 +4,36 @@ namespace Oft\Generator\Service;
 
 use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\MdTableColumnDto;
-use Oft\Generator\Dto\PaymentMethodDto;
-use Oft\Generator\Dto\PaymentServiceDto;
+use Oft\Generator\Dto\PayoutMethodDto;
+use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
-use Oft\Generator\Md\MdLink;
-use Oft\Generator\Md\MdTable;
-use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdCodeBlock;
 use Oft\Generator\Md\MdHeader;
 use Oft\Generator\Md\MdImage;
+use Oft\Generator\Md\MdLink;
+use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
+use Oft\Generator\Traits\ImagesTrait;
 
-final class PaymentMethodOverviewBuilder extends MdBuilder
+final class PayoutMethodOverviewBuilder extends MdBuilder
 {
     use ImagesTrait;
 
-    /* @var PaymentMethodDto */
+    /* @var PayoutMethodDto */
     private $data;
 
-    public function __construct(DataProvider $dataProvider, PaymentMethodDto $data)
+    public function __construct(DataProvider $dataProvider, PayoutMethodDto $data)
     {
         parent::__construct($dataProvider);
         $this->data = $data;
     }
 
-    private function buildRelatedPaymentServices(): void
+    private function buildRelatedPayoutServices(): void
     {
-        $services = array_filter($this->dataProvider->getPaymentServices(), function (PaymentServiceDto $serviceDto) {
+        $services = array_filter($this->dataProvider->getPayoutServices(), function (PayoutServiceDto $serviceDto) {
             return null !== $serviceDto->method && $this->data->code === $serviceDto->method;
         });
 
@@ -41,35 +41,36 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
             return;
         }
 
-        $this->add(new MdHeader('Payment Services', 2), true);
+        $this->add(new MdHeader('Payout Services', 2), true);
         $this->br();
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), 'The list of '));
-        $this->add(new MdLink("Payment Services", "/payment-services/"));
+        $this->add(new MdLink("Payout Services", "/payout-services/"));
         $this->addString(" based on the ".(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::ITALIC), $this->data->getName()->en ?? ''))->toString(), true);
 
         $this->add(new MdTable($services, [
             MdTableColumnDto::fromArray([
                 'key' => 'Icon',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PaymentServiceDto $service) {
-                    return new MdImage($this->getPaymentMethodIcon($service->method), $service->method);
+                'set_template' => function (PayoutServiceDto $service) {
+                    return new MdImage($this->getPayoutMethodIcon($service->method), $service->method);
                 },
             ]),
             MdTableColumnDto::fromArray([
                 'key' => 'Name',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PaymentServiceDto $service) {
-                    return new MdLink($service->code, '/payment-services/' . $service->code . '/');
+                'set_template' => function (PayoutServiceDto $service) {
+                    return new MdLink($service->code, '/payout-services/' . $service->code . '/');
                 },
             ]),
             MdTableColumnDto::fromArray([
                 'key' => 'Code',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PaymentServiceDto $service) {
+                'set_template' => function (PayoutServiceDto $service) {
                     return new MdCode($service->code);
                 },
             ]),
         ]), true);
+
     }
 
     private function buildRelatedPaymentProviders(): void
@@ -111,6 +112,7 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
                 },
             ]),
         ]), true);
+
     }
 
     public function build(): void
@@ -179,7 +181,7 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
         $this->add(new MdImage($this->getPaymentMethodIcon($this->data->code), $this->data->code), true);
         $this->add(new MdCodeBlock($this->getPaymentMethodIcon($this->data->code)), true);
 
-        $this->buildRelatedPaymentServices();
+        $this->buildRelatedPayoutServices();
         $this->buildRelatedPaymentProviders();
 
         $this->add(new MdHeader('JSON Object', 2), true);

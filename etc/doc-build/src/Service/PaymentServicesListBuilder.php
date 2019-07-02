@@ -4,20 +4,20 @@ namespace Oft\Generator\Service;
 
 use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\MdTableColumnDto;
-use Oft\Generator\Dto\PayoutMethodDto;
-use Oft\Generator\Dto\PayoutServiceDto;
+use Oft\Generator\Dto\PaymentMethodDto;
+use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
-use Oft\Generator\Md\MdLink;
-use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdHeader;
 use Oft\Generator\Md\MdImage;
+use Oft\Generator\Md\MdLink;
 use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
+use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Traits\UtilsTrait;
 
-final class PayoutServicesListBuilder extends MdBuilder
+final class PaymentServicesListBuilder extends MdBuilder
 {
     use ImagesTrait, UtilsTrait;
 
@@ -27,26 +27,27 @@ final class PayoutServicesListBuilder extends MdBuilder
     public function __construct(DataProvider $dataProvider)
     {
         parent::__construct($dataProvider);
-        $this->data = $this->sort($this->dataProvider->getPayoutServices());
+        $this->data = $this->sort($this->dataProvider->getPaymentServices());
     }
 
     public function build(): void
     {
-        $this->add(new MdHeader('Payout Services', 1), true);
+        $this->add(new MdHeader('Payment Services', 1), true);
 
         $table = new MdTable($this->data, [
             MdTableColumnDto::fromArray([
                 'key' => 'Method',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PayoutServiceDto $row) {
-                    $payoutMethod = $this->array_find($this->dataProvider->getPayoutMethods(), function (PayoutMethodDto $pom) use ($row) {
-                        return $pom->code === $row->method;
+                'set_template' => function (PaymentServiceDto $row) {
+                    /* @var PaymentMethodDto $paymentMethod */
+                    $paymentMethod = $this->array_find($this->dataProvider->getPaymentMethods(), function (PaymentMethodDto $pm) use ($row) {
+                        return $pm->code === $row->method;
                     });
 
-                    $image = (new MdImage($this->getPayoutMethodLogo($payoutMethod->code),$payoutMethod->getName()->en ?? ''))->toString();
+                    $image = (new MdImage($this->getPaymentMethodLogo($paymentMethod->code),$paymentMethod->getName()->en ?? ''))->toString();
                     $link = (new MdLink(
-                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $payoutMethod->getName()->en ?? ''))->toString(),
-                        '/payout-methods/' . $payoutMethod->code . '/')
+                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $paymentMethod->getName()->en ?? ''))->toString(),
+                        '/payment-methods/' . $paymentMethod->code . '/')
                     )->toString();
 
                     return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), "$image $link");
@@ -55,25 +56,25 @@ final class PayoutServicesListBuilder extends MdBuilder
             MdTableColumnDto::fromArray([
                 'key' => 'Code',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PayoutServiceDto $row) {
+                'set_template' => function (PaymentServiceDto $row) {
                     return new MdLink((new MdCode($row->code))->toString(), $row->code . '/');
                 },
             ]),
             MdTableColumnDto::fromArray([
                 'key' => 'Currency',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PayoutServiceDto $row) {
+                'set_template' => function (PaymentServiceDto $row) {
                     return new MdCode($row->currency ?? '');
                 },
             ]),
         ]);
 
-        $table->setRowSlot(function (PayoutServiceDto $payoutService, array $data) {
+        $table->setRowSlot(function (PaymentServiceDto $paymentService, array $data) {
 
-            $index = $this->array_find_index($data, function (PayoutServiceDto $r) use ($payoutService) {
-                return $r->code === $payoutService->code;
+            $index = $this->array_find_index($data, function (PaymentServiceDto $r) use ($paymentService) {
+                return $r->code === $paymentService->code;
             });
-            $key = strtoupper($payoutService->code[0]);
+            $key = strtoupper($paymentService->code[0]);
 
             if ($index === 0 || strtoupper($data[$index - 1]->code[0]) !== $key) {
                 return "|| **$key** ||\n";

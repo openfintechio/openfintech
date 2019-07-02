@@ -4,7 +4,6 @@ namespace Oft\Generator\Service;
 
 use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\MdTableColumnDto;
-use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Dto\VendorDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
@@ -14,11 +13,12 @@ use Oft\Generator\Md\MdImage;
 use Oft\Generator\Md\MdLink;
 use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
+use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Traits\UtilsTrait;
 
 final class VendorsListBuilder extends MdBuilder
 {
-    use UtilsTrait;
+    use UtilsTrait, ImagesTrait;
 
     /* @var array */
     private $data;
@@ -35,12 +35,19 @@ final class VendorsListBuilder extends MdBuilder
 
         $table = new MdTable($this->data, [
             MdTableColumnDto::fromArray([
+                'key' => 'Logo',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (VendorDto $row) {
+                    return new MdImage($this->getVendorLogo($row->code, '600'), $row->code);
+                },
+            ]),
+            MdTableColumnDto::fromArray([
                 'key' => 'Name',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (VendorDto $row) {
                     return new MdLink(
                         (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
-                        $row->code.'/index.md'
+                        $row->code . '/'
                     );
                 },
             ]),
@@ -49,13 +56,6 @@ final class VendorsListBuilder extends MdBuilder
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (VendorDto $row) {
                     return new MdCode($row->code);
-                },
-            ]),
-            MdTableColumnDto::fromArray([
-                'key' => 'Status',
-                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (VendorDto $row) {
-                    return new MdCode($row->status);
                 },
             ]),
         ]);
@@ -67,7 +67,7 @@ final class VendorsListBuilder extends MdBuilder
             $key = strtoupper($row->code[0]);
 
             if ($index === 0 || strtoupper($data[$index - 1]->code[0]) !== $key) {
-                return "| **$key** |||\n";
+                return "|| **$key** ||\n";
             }
         });
 

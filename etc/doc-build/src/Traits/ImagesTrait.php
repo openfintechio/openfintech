@@ -51,4 +51,22 @@ trait ImagesTrait
         $ext = $this->getExt($code, 'payment_methods', 'icon');
         return "https://static.openfintech.io/payment_methods/$code/icon.$ext?w=$width&c=v0.59.26#w100";
     }
+
+    private function getCurrencyIcon(string $code, string $width = '278'): string
+    {
+        $ext = $this->getExt($code, 'currencies', 'icon');
+        return "https://static.openfintech.io/currencies/$code/icon.$ext?w=$width&c=v0.59.26#w100";
+    }
+
+    private function getVendorLogo(string $code, string $width = '400'): string
+    {
+        $ext = $this->getExt($code, 'vendors', 'logo');
+        return "https://static.openfintech.io/vendors/$code/logo.$ext?w=$width&c=v0.59.26#w200";
+    }
+
+    private function getVendorIcon(string $code, string $width = '278'): string
+    {
+        $ext = $this->getExt($code, 'vendors', 'icon');
+        return "https://static.openfintech.io/vendors/$code/icon.$ext?w=$width&c=v0.59.26#w100";
+    }
 }

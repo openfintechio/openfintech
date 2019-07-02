@@ -4,9 +4,8 @@ namespace Oft\Generator\Service;
 
 use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\CategoryDto;
-use Oft\Generator\Dto\FlowDto;
 use Oft\Generator\Dto\MdTableColumnDto;
-use Oft\Generator\Dto\PaymentMethodDto;
+use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
 use Oft\Generator\Md\MdCode;
@@ -18,7 +17,7 @@ use Oft\Generator\Md\MdText;
 use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Traits\UtilsTrait;
 
-final class PaymentMethodsListBuilder extends MdBuilder
+final class PayoutMethodsListBuilder extends MdBuilder
 {
     use ImagesTrait, UtilsTrait;
 
@@ -26,35 +25,31 @@ final class PaymentMethodsListBuilder extends MdBuilder
     private $methods;
 
     /* @var array */
-    private $flows;
-
-    /* @var array */
     private $categories;
 
     public function __construct(DataProvider $dataProvider)
     {
         parent::__construct($dataProvider);
-        $this->methods = $this->sort($this->dataProvider->getPaymentMethods());
-        $this->flows = $this->sort($this->dataProvider->getPaymentFlows());
-        $this->categories = $this->sort($this->dataProvider->getPaymentMethodCategories());
+        $this->methods = $this->sort($this->dataProvider->getPayoutMethods());
+        $this->categories = $this->sort($this->dataProvider->getPayoutMethodCategories());
     }
 
     private function buildMethodsTable(): void
     {
-        $this->add(new MdHeader('Payment Methods', 1), true);
+        $this->add(new MdHeader('Payout Methods', 1), true);
 
         $table = new MdTable($this->methods, [
             MdTableColumnDto::fromArray([
                 'key' => 'Logo',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PaymentMethodDto $row) {
-                    return new MdImage($this->getPaymentMethodLogo($row->code, '600'), $row->code);
+                'set_template' => function (PayoutMethodDto $row) {
+                    return new MdImage($this->getPayoutMethodLogo($row->code), $row->code);
                 },
             ]),
             MdTableColumnDto::fromArray([
                 'key' => 'Name',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PaymentMethodDto $row) {
+                'set_template' => function (PayoutMethodDto $row) {
                     return new MdLink(
                         (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
                         $row->code . '/'
@@ -64,14 +59,14 @@ final class PaymentMethodsListBuilder extends MdBuilder
             MdTableColumnDto::fromArray([
                 'key' => 'Code',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PaymentMethodDto $row) {
+                'set_template' => function (PayoutMethodDto $row) {
                     return new MdCode($row->code);
                 },
             ]),
         ]);
 
-        $table->setRowSlot(function (PaymentMethodDto $row, array $data) {
-            $index = $this->array_find_index($data, function (PaymentMethodDto $r) use ($row) {
+        $table->setRowSlot(function (PayoutMethodDto $row, array $data) {
+            $index = $this->array_find_index($data, function (PayoutMethodDto $r) use ($row) {
                 return $r->code === $row->code;
             });
             $key = strtoupper($row->code[0]);
@@ -82,11 +77,12 @@ final class PaymentMethodsListBuilder extends MdBuilder
         });
 
         $this->add($table, true);
+
     }
 
     private function buildCategoriesTable(): void
     {
-        $this->add(new MdHeader('Payment Method Categories', 1), true);
+        $this->add(new MdHeader('Payout Method Categories', 1), true);
         $this->add(new MdTable($this->categories, [
             MdTableColumnDto::fromArray([
                 'key' => 'Name',
@@ -103,33 +99,12 @@ final class PaymentMethodsListBuilder extends MdBuilder
                 },
             ]),
         ]), true);
-    }
 
-    private function buildFlowsTable(): void
-    {
-        $this->add(new MdHeader('Payment Flows', 1), true);
-        $this->add(new MdTable($this->flows, [
-            MdTableColumnDto::fromArray([
-                'key' => 'Name',
-                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (FlowDto $row) {
-                    return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), $row->getName()->en ?? '');
-                },
-            ]),
-            MdTableColumnDto::fromArray([
-                'key' => 'Code',
-                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (FlowDto $row) {
-                    return new MdCode($row->code);
-                },
-            ]),
-        ]), true);
     }
 
     public function build(): void
     {
         $this->buildMethodsTable();
         $this->buildCategoriesTable();
-        $this->buildFlowsTable();
     }
 }

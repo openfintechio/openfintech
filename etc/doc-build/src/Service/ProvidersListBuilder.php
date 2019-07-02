@@ -31,7 +31,7 @@ final class ProvidersListBuilder extends MdBuilder
 
     public function build(): void
     {
-        $this->add(new MdHeader('Payment providers', 1), true);
+        $this->add(new MdHeader('Payment Providers', 1), true);
 
         $providersTable = new MdTable($this->data, [
             MdTableColumnDto::fromArray([
@@ -47,7 +47,7 @@ final class ProvidersListBuilder extends MdBuilder
                 'set_template' => function (ProviderDto $row) {
                     return new MdLink(
                         (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
-                        $row->code.'/index.md'
+                        $row->code . '/'
                     );
                 },
             ]),
