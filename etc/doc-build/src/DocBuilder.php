@@ -4,12 +4,15 @@ namespace Oft\Generator;
 
 use Oft\Generator\Dto\CurrencyDto;
 use Oft\Generator\Dto\PaymentMethodDto;
+use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
 use Oft\Generator\Service\CurrenciesListBuilder;
 use Oft\Generator\Service\CurrencyOverviewBuilder;
 use Oft\Generator\Service\PaymentMethodOverviewBuilder;
 use Oft\Generator\Service\PaymentMethodsListBuilder;
+use Oft\Generator\Service\PayoutMethodOverviewBuilder;
+use Oft\Generator\Service\PayoutMethodsListBuilder;
 use Oft\Generator\Service\PayoutServiceOverviewBuilder;
 use Oft\Generator\Service\PayoutServicesListBuilder;
 use Oft\Generator\Service\ProviderOverviewBuilder;
@@ -145,12 +148,30 @@ class DocBuilder
         $this->writeFile($this->pathToDocs().'/vendors/index.md', $vendorsListBuilder->getContent());
     }
 
+    private function buildPayoutMethods(): void
+    {
+        $this->createDirectory($this->pathToDocs().'/payout-methods');
+
+        /* @var PayoutMethodDto $payoutMethod */
+        foreach ($this->dataProvider->getPayoutMethods() as $payoutMethod) {
+            $payoutMethodOverviewBuilder = new PayoutMethodOverviewBuilder($this->dataProvider, $payoutMethod);
+            $payoutMethodOverviewBuilder->build();
+
+            $this->writeFile($this->pathToDocs().'/payout-methods/'.$payoutMethod->code.'.md', $payoutMethodOverviewBuilder->getContent());
+        }
+
+        $payoutMethodsListBuilder = new PayoutMethodsListBuilder($this->dataProvider);
+        $payoutMethodsListBuilder->build();
+        $this->writeFile($this->pathToDocs().'/payout-methods/index.md', $payoutMethodsListBuilder->getContent());
+    }
+
     public function build(): void
     {
 //        $this->buildProviders();
 //        $this->buildPayoutServices();
 //        $this->buildPaymentMethods();
 //        $this->buildCurrencies();
-        $this->buildVendors();
+//        $this->buildVendors();
+        $this->buildPayoutMethods();
     }
 }

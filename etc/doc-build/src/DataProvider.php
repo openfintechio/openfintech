@@ -27,6 +27,7 @@ class DataProvider
     const CURRENCY_TYPES_FILENAME = '/currency_types.json';
     const CURRENCY_CATEGORIES_FILENAME = '/currency_categories.json';
     const VENDORS_FILENAME = '/vendors.json';
+    const PAYOUT_METHOD_CATEGORIES_FILENAME = '/payout_method_categories.json';
 
     /* @var array */
     private $providers;
@@ -45,6 +46,9 @@ class DataProvider
 
     /* @var array */
     private $paymentMethodCategories;
+
+    /* @var array */
+    private $payoutMethodCategories;
 
     /* @var array */
     private $paymentFlows;
@@ -75,6 +79,7 @@ class DataProvider
             $this->setCurrencyTypes($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_TYPES_FILENAME));
             $this->setCurrencyCategories($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_CATEGORIES_FILENAME));
             $this->setVendors($this->getJsonContent(self::PATH_TO_DATA.self::VENDORS_FILENAME));
+            $this->setPayoutMethodCategories($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_METHOD_CATEGORIES_FILENAME));
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
         }
@@ -210,6 +215,17 @@ class DataProvider
         $this->vendors = $tmp;
     }
 
+    private function setPayoutMethodCategories(array $data): void
+    {
+        $tmp = [];
+
+        foreach ($data as $item) {
+            array_push($tmp, CategoryDto::fromArray($item));
+        }
+
+        $this->payoutMethodCategories = $tmp;
+    }
+
     public function getProviders(): array
     {
         return $this->providers;
@@ -263,5 +279,10 @@ class DataProvider
     public function getVendors(): array
     {
         return $this->vendors;
+    }
+
+    public function getPayoutMethodCategories(): array
+    {
+        return $this->payoutMethodCategories;
     }
 }
