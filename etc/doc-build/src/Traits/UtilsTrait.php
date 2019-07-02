@@ -14,7 +14,10 @@ trait UtilsTrait
         return $arr;
     }
 
-    private function array_find(array $arr, callable $callback): object
+    /*
+     * @return mixed
+     * */
+    private function array_find(array $arr, callable $callback)
     {
         foreach ($arr as $item) {
             if (call_user_func($callback, $item)) {
