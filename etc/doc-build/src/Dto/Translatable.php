@@ -2,7 +2,7 @@
 
 namespace Oft\Generator\Dto;
 
-class Translatable extends BaseDto
+final class Translatable extends BaseDto
 {
     /** @var string|null */
     public $en;

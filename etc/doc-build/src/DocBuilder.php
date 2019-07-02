@@ -2,14 +2,19 @@
 
 namespace Oft\Generator;
 
+use Oft\Generator\Dto\CurrencyDto;
 use Oft\Generator\Dto\PaymentMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
+use Oft\Generator\Service\CurrenciesListBuilder;
+use Oft\Generator\Service\CurrencyOverviewBuilder;
 use Oft\Generator\Service\PaymentMethodOverviewBuilder;
+use Oft\Generator\Service\PaymentMethodsListBuilder;
 use Oft\Generator\Service\PayoutServiceOverviewBuilder;
 use Oft\Generator\Service\PayoutServicesListBuilder;
 use Oft\Generator\Service\ProviderOverviewBuilder;
 use Oft\Generator\Service\ProvidersListBuilder;
+use Oft\Generator\Service\VendorsListBuilder;
 use Oft\Generator\Traits\UtilsTrait;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
@@ -31,18 +36,13 @@ class DocBuilder
     public function __construct(string $outputPath)
     {
         $this->fs = new Filesystem();
-        $this->dataProvider = new DataProvider($outputPath);
+        $this->dataProvider = new DataProvider();
         $this->outputPath = $outputPath;
     }
 
     private function pathToDocs(): string
     {
         return $this->outputPath . '/docs';
-    }
-
-    private function pathToConfig(): string
-    {
-        return $this->outputPath . '/mkdocs.yml';
     }
 
     private function writeFile(string $path, string $content): void
@@ -113,38 +113,44 @@ class DocBuilder
             $this->createDirectory($this->pathToDocs().'/payment-methods/'.$method->code);
             $this->writeFile($this->pathToDocs().'/payment-methods/'.$method->code.'/index.md', $paymentMethodOverviewBuilder->getContent());
         }
+
+        $paymentMethodsListBuilder = new PaymentMethodsListBuilder($this->dataProvider);
+        $paymentMethodsListBuilder->build();
+        $this->writeFile($this->pathToDocs().'/payment-methods/index.md', $paymentMethodsListBuilder->getContent());
     }
 
-    private function buildConfig(): void
+    private function buildCurrencies(): void
     {
-        $nav = [];
+        $this->createDirectory($this->pathToDocs().'/currencies');
 
-        $providers = [['Overview' => 'payment-providers/index.md']];
-        foreach ($this->sort($this->dataProvider->getProviders()) as $provider) {
-            array_push($providers, [ucfirst($provider->code) => 'payment-providers/'.$provider->code.'/index.md']);
+        /* @var CurrencyDto $currency */
+        foreach ($this->dataProvider->getCurrencies() as $currency) {
+            $currencyOverviewBuilder = new CurrencyOverviewBuilder($this->dataProvider, $currency);
+            $currencyOverviewBuilder->build();
+
+            $this->writeFile($this->pathToDocs().'/currencies/'.$currency->code.'.md', $currencyOverviewBuilder->getContent());
         }
-        array_push($nav, ['Providers' => $providers]);
 
-        $payoutServices = [['Overview' => 'payout-services/index.md']];
-        foreach ($this->sort($this->dataProvider->getPayoutServices()) as $service) {
-            array_push($payoutServices, [ucfirst($service->code) => 'payout-services/'.$service->code.'/index.md']);
-        }
-        array_push($nav, ['Payout services' => $payoutServices]);
+        $currenciesListBuilder = new CurrenciesListBuilder($this->dataProvider);
+        $currenciesListBuilder->build();
+        $this->writeFile($this->pathToDocs().'/currencies/index.md', $currenciesListBuilder->getContent());
+    }
 
-        $paymentMethods = [];
-        foreach ($this->sort($this->dataProvider->getPaymentMethods()) as $method) {
-            array_push( $paymentMethods, [ucfirst($method->code) => 'payment-methods/'.$method->code.'/index.md']);
-        }
-        array_push($nav, ['Payment methods' => $paymentMethods]);
+    private function buildVendors(): void
+    {
+        $this->createDirectory($this->pathToDocs().'/vendors');
 
-        $this->writeFile($this->pathToConfig(), $this->dataProvider->getConfig().Yaml::dump(['nav' => $nav], 5, 2));
+        $vendorsListBuilder = new VendorsListBuilder($this->dataProvider);
+        $vendorsListBuilder->build();
+        $this->writeFile($this->pathToDocs().'/vendors/index.md', $vendorsListBuilder->getContent());
     }
 
     public function build(): void
     {
-        $this->buildProviders();
-        $this->buildPayoutServices();
-        $this->buildPaymentMethods();
-        //$this->buildConfig(); // @deprecated
+//        $this->buildProviders();
+//        $this->buildPayoutServices();
+//        $this->buildPaymentMethods();
+//        $this->buildCurrencies();
+        $this->buildVendors();
     }
 }

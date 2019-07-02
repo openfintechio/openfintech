@@ -28,84 +28,59 @@ final class PayoutServicesListBuilder extends MdBuilder
     public function __construct(DataProvider $dataProvider)
     {
         parent::__construct($dataProvider);
-        $this->data = $this->group($this->dataProvider->getPayoutServices());
-    }
-
-    private function group(array $data): array
-    {
-        $grouped = [];
-        $by_method = [];
-
-        /* @var PayoutServiceDto $payoutService */
-        foreach ($this->sort($data, 'method') as $payoutService) {
-            $method = $payoutService->method;
-
-            if (array_key_exists($method, $by_method)) {
-                array_push($by_method[$method], $payoutService);
-            } else {
-                $by_method[$method] = [$payoutService];
-            }
-        }
-
-        foreach ($by_method as $method_code => $group) {
-            $key = strtoupper($method_code[0]);
-
-            if (array_key_exists($key, $grouped)) {
-                $grouped[$key][$method_code] = $group;
-            } else {
-                $grouped[$key] = [$method_code => $group];
-            }
-        }
-
-        return $grouped;
+        $this->data = $this->sort($this->dataProvider->getPayoutServices());
     }
 
     public function build(): void
     {
         $this->add(new MdHeader('Payout Services', 1), true);
 
-        foreach ($this->data as $h => $group) {
-            $this->add(new MdHeader((string) $h, 2), true);
+        $table = new MdTable($this->data, [
+            MdTableColumnDto::fromArray([
+                'key' => 'Method',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (PayoutServiceDto $row) {
+                    $payoutMethod = $this->array_find($this->dataProvider->getPayoutMethods(), function (PayoutMethodDto $pom) use ($row) {
+                        return $pom->code === $row->method;
+                    });
 
-            foreach ($group as $method_code => $methods) {
-                $table = new MdTable($methods, [
-                    MdTableColumnDto::fromArray([
-                        'key' => 'Code',
-                        'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                        'set_template' => function (PayoutServiceDto $row) {
-                            return new MdLink((new MdCode($row->code))->toString(), $row->code.'/index.md');
-                        },
-                    ]),
-                    MdTableColumnDto::fromArray([
-                        'key' => 'Currency',
-                        'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                        'set_template' => function (PayoutServiceDto $row) {
-                            return new MdCode($row->currency ?? '');
-                        },
-                    ]),
-                    MdTableColumnDto::fromArray([
-                        'key' => 'Fields',
-                        'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                        'set_template' => function (PayoutServiceDto $row) {
-                            return new MdCode((string) count($row->fields ?? []));
-                        },
-                    ]),
-                ]);
+                    $image = (new MdImage($this->getPayoutMethodLogo($payoutMethod->code),$payoutMethod->getName()->en ?? ''))->toString();
+                    /*
+                     *  FIXME: Add link to payout method
+                     * */
+                    $link = (new MdLink((new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $payoutMethod->getName()->en ?? ''))->toString(), '#'))->toString();
 
-                /* @var PayoutMethodDto $payoutMethod */
-                $payoutMethod = $this->array_find($this->dataProvider->getPayoutMethods(), function (PayoutMethodDto $pom) use ($method_code) {
-                    return $pom->code === $method_code;
-                });
+                    return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), "$image $link");
+                },
+            ]),
+            MdTableColumnDto::fromArray([
+                'key' => 'Code',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (PayoutServiceDto $row) {
+                    return new MdLink((new MdCode($row->code))->toString(), $row->code.'/index.md');
+                },
+            ]),
+            MdTableColumnDto::fromArray([
+                'key' => 'Currency',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (PayoutServiceDto $row) {
+                    return new MdCode($row->currency ?? '');
+                },
+            ]),
+        ]);
 
-                $image = (new MdImage($this->getPayoutMethodLogo($method_code),$payoutMethod->getName()->en ?? ''))->toString();
-                /*
-                 *  FIXME: Add link to payout method
-                 * */
-                $link = (new MdLink((new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $payoutMethod->getName()->en ?? ''))->toString(), '#'))->toString();
+        $table->setRowSlot(function (PayoutServiceDto $payoutService, array $data) {
 
-                $table->setAppend("|$image $link| | | |");
-                $this->add($table);
+            $index = $this->array_find_index($data, function (PayoutServiceDto $r) use ($payoutService) {
+                return $r->code === $payoutService->code;
+            });
+            $key = strtoupper($payoutService->code[0]);
+
+            if ($index === 0 || strtoupper($data[$index - 1]->code[0]) !== $key) {
+                return "|| **$key** ||\n";
             }
-        }
+        });
+
+        $this->add($table);
     }
 }
