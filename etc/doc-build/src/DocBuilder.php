@@ -4,6 +4,7 @@ namespace Oft\Generator;
 
 use Oft\Generator\Dto\CurrencyDto;
 use Oft\Generator\Dto\PaymentMethodDto;
+use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
@@ -11,6 +12,8 @@ use Oft\Generator\Service\CurrenciesListBuilder;
 use Oft\Generator\Service\CurrencyOverviewBuilder;
 use Oft\Generator\Service\PaymentMethodOverviewBuilder;
 use Oft\Generator\Service\PaymentMethodsListBuilder;
+use Oft\Generator\Service\PaymentServiceOverviewBuilder;
+use Oft\Generator\Service\PaymentServicesListBuilder;
 use Oft\Generator\Service\PayoutMethodOverviewBuilder;
 use Oft\Generator\Service\PayoutMethodsListBuilder;
 use Oft\Generator\Service\PayoutServiceOverviewBuilder;
@@ -165,6 +168,24 @@ class DocBuilder
         $this->writeFile($this->pathToDocs().'/payout-methods/index.md', $payoutMethodsListBuilder->getContent());
     }
 
+    private function buildPaymentServices(): void
+    {
+        $this->createDirectory($this->pathToDocs().'/payment-services');
+
+        /* @var PaymentServiceDto $paymentService */
+        foreach ($this->dataProvider->getPaymentServices() as $paymentService) {
+            $paymentServiceOverviewBuilder = new PaymentServiceOverviewBuilder($this->dataProvider, $paymentService);
+            $paymentServiceOverviewBuilder->build();
+
+            $this->writeFile($this->pathToDocs().'/payment-services/'.$paymentService->code.'.md', $paymentServiceOverviewBuilder->getContent());
+        }
+
+        $paymentServicesListBuilder = new PaymentServicesListBuilder($this->dataProvider);
+        $paymentServicesListBuilder->build();
+        $this->writeFile($this->pathToDocs().'/payment-services/index.md', $paymentServicesListBuilder->getContent());
+
+    }
+
     public function build(): void
     {
 //        $this->buildProviders();
@@ -172,6 +193,7 @@ class DocBuilder
 //        $this->buildPaymentMethods();
 //        $this->buildCurrencies();
 //        $this->buildVendors();
-        $this->buildPayoutMethods();
+//        $this->buildPayoutMethods();
+        $this->buildPaymentServices();
     }
 }

@@ -4,12 +4,11 @@ namespace Oft\Generator\Service;
 
 use Oft\Generator\DataProvider;
 use Oft\Generator\Dto\MdTableColumnDto;
-use Oft\Generator\Dto\PayoutMethodDto;
-use Oft\Generator\Dto\PayoutServiceDto;
+use Oft\Generator\Dto\PaymentMethodDto;
+use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Dto\ServiceFieldDto;
 use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
-use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdCodeBlock;
 use Oft\Generator\Md\MdHeader;
@@ -17,24 +16,25 @@ use Oft\Generator\Md\MdImage;
 use Oft\Generator\Md\MdLink;
 use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
+use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Traits\UtilsTrait;
 
-final class PayoutServiceOverviewBuilder extends MdBuilder
+class PaymentServiceOverviewBuilder extends MdBuilder
 {
     use ImagesTrait, UtilsTrait;
 
-    /* @var PayoutServiceDto */
+    /* @var PaymentServiceDto */
     private $data;
 
-    public function __construct(DataProvider $dataProvider, PayoutServiceDto $data)
+    public function __construct(DataProvider $dataProvider, PaymentServiceDto $data)
     {
         parent::__construct($dataProvider);
         $this->data = $data;
     }
 
-    private function getMethod(): PayoutMethodDto
+    private function getMethod(): PaymentMethodDto
     {
-        return $this->array_find($this->dataProvider->getPayoutMethods(), function (PayoutMethodDto $pom) {
+        return $this->array_find($this->dataProvider->getPaymentMethods(), function (PaymentMethodDto $pom) {
             return $pom->code === $this->data->method;
         });
     }
@@ -74,7 +74,7 @@ final class PayoutServiceOverviewBuilder extends MdBuilder
     public function build(): void
     {
         $this->add(new MdHeader(($this->getMethod()->getName()->en ?? '').' (service)', 1), true);
-        $this->add(new MdImage($this->getPayoutMethodLogo($this->data->code), $this->data->code), true);
+        $this->add(new MdImage($this->getPaymentMethodLogo($this->data->code), $this->data->code), true);
 
         $this->add(new MdHeader('General', 2),true);
         $this->br();
