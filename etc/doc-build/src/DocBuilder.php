@@ -8,6 +8,7 @@ use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
+use Oft\Generator\Dto\VendorDto;
 use Oft\Generator\Service\CurrenciesListBuilder;
 use Oft\Generator\Service\CurrencyOverviewBuilder;
 use Oft\Generator\Service\PaymentMethodOverviewBuilder;
@@ -20,6 +21,7 @@ use Oft\Generator\Service\PayoutServiceOverviewBuilder;
 use Oft\Generator\Service\PayoutServicesListBuilder;
 use Oft\Generator\Service\ProviderOverviewBuilder;
 use Oft\Generator\Service\ProvidersListBuilder;
+use Oft\Generator\Service\VendorOverviewBuilder;
 use Oft\Generator\Service\VendorsListBuilder;
 use Oft\Generator\Traits\UtilsTrait;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
@@ -146,6 +148,14 @@ class DocBuilder
     {
         $this->createDirectory($this->pathToDocs().'/vendors');
 
+        /* @var VendorDto $vendor */
+        foreach ($this->dataProvider->getVendors() as $vendor) {
+            $vendorOverviewBuilder = new VendorOverviewBuilder($this->dataProvider, $vendor);
+            $vendorOverviewBuilder->build();
+
+            $this->writeFile($this->pathToDocs().'/vendors/'.$vendor->code.'.md', $vendorOverviewBuilder->getContent());
+        }
+
         $vendorsListBuilder = new VendorsListBuilder($this->dataProvider);
         $vendorsListBuilder->build();
         $this->writeFile($this->pathToDocs().'/vendors/index.md', $vendorsListBuilder->getContent());
@@ -188,12 +198,12 @@ class DocBuilder
 
     public function build(): void
     {
-//        $this->buildProviders();
-//        $this->buildPayoutServices();
-//        $this->buildPaymentMethods();
-//        $this->buildCurrencies();
-//        $this->buildVendors();
-//        $this->buildPayoutMethods();
+        $this->buildProviders();
+        $this->buildPayoutServices();
+        $this->buildPaymentMethods();
+        $this->buildCurrencies();
+        $this->buildVendors();
+        $this->buildPayoutMethods();
         $this->buildPaymentServices();
     }
 }
