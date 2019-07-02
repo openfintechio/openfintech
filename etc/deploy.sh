@@ -26,14 +26,14 @@ build_meta() {
 }
 
 build_documentation() {
-  cd $SCRIPT_PATH/doc-build && composer install && cd /tmp && git clone https://${GH_TOKEN}github.com:paycoreio/openfintech-docs.git \
+  cd $SCRIPT_PATH/doc-build && composer install --ignore-platform-reqs && cd /tmp && git clone https://${GH_TOKEN}github.com:paycoreio/openfintech-docs.git \
   && php $SCRIPT_PATH/doc-build/index.php -p /tmp/openfintech-docs && cd openfintech-docs
 }
 
-# build_meta
-# setup_git
-# commit_files
-# push_files
+build_meta
+setup_git
+commit_files
+push_files
 
 build_documentation
 commit_files
