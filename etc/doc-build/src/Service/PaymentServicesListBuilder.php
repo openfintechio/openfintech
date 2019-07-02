@@ -39,15 +39,16 @@ final class PaymentServicesListBuilder extends MdBuilder
                 'key' => 'Method',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (PaymentServiceDto $row) {
+                    /* @var PaymentMethodDto $paymentMethod */
                     $paymentMethod = $this->array_find($this->dataProvider->getPaymentMethods(), function (PaymentMethodDto $pm) use ($row) {
                         return $pm->code === $row->method;
                     });
 
                     $image = (new MdImage($this->getPaymentMethodLogo($paymentMethod->code),$paymentMethod->getName()->en ?? ''))->toString();
-                    /*
-                     *  FIXME: Add link to payment method
-                     * */
-                    $link = (new MdLink((new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $paymentMethod->getName()->en ?? ''))->toString(), '#'))->toString();
+                    $link = (new MdLink(
+                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $paymentMethod->getName()->en ?? ''))->toString(),
+                        '/payment-methods/' . $paymentMethod->code . '/')
+                    )->toString();
 
                     return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), "$image $link");
                 },
@@ -56,7 +57,7 @@ final class PaymentServicesListBuilder extends MdBuilder
                 'key' => 'Code',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (PaymentServiceDto $row) {
-                    return new MdLink((new MdCode($row->code))->toString(), $row->code.'/index.md');
+                    return new MdLink((new MdCode($row->code))->toString(), $row->code . '/');
                 },
             ]),
             MdTableColumnDto::fromArray([

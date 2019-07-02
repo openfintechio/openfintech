@@ -44,10 +44,10 @@ final class PayoutServicesListBuilder extends MdBuilder
                     });
 
                     $image = (new MdImage($this->getPayoutMethodLogo($payoutMethod->code),$payoutMethod->getName()->en ?? ''))->toString();
-                    /*
-                     *  FIXME: Add link to payout method
-                     * */
-                    $link = (new MdLink((new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $payoutMethod->getName()->en ?? ''))->toString(), '#'))->toString();
+                    $link = (new MdLink(
+                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $payoutMethod->getName()->en ?? ''))->toString(),
+                        '/payout-methods/' . $payoutMethod->code . '/')
+                    )->toString();
 
                     return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), "$image $link");
                 },
@@ -56,7 +56,7 @@ final class PayoutServicesListBuilder extends MdBuilder
                 'key' => 'Code',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (PayoutServiceDto $row) {
-                    return new MdLink((new MdCode($row->code))->toString(), $row->code.'/index.md');
+                    return new MdLink((new MdCode($row->code))->toString(), $row->code . '/');
                 },
             ]),
             MdTableColumnDto::fromArray([

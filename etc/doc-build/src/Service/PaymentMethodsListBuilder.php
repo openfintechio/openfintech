@@ -41,7 +41,7 @@ final class PaymentMethodsListBuilder extends MdBuilder
 
     private function buildMethodsTable(): void
     {
-        $this->add(new MdHeader('Payment providers', 1), true);
+        $this->add(new MdHeader('Payment Methods', 1), true);
 
         $table = new MdTable($this->methods, [
             MdTableColumnDto::fromArray([
@@ -57,7 +57,7 @@ final class PaymentMethodsListBuilder extends MdBuilder
                 'set_template' => function (PaymentMethodDto $row) {
                     return new MdLink(
                         (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
-                        '/' . $row->code
+                        $row->code . '/'
                     );
                 },
             ]),

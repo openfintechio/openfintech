@@ -8,10 +8,14 @@ use Oft\Generator\Enums\TextEmphasisPatternEnum;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdCodeBlock;
 use Oft\Generator\Md\MdHeader;
+use Oft\Generator\Md\MdImage;
 use Oft\Generator\Md\MdText;
+use Oft\Generator\Traits\ImagesTrait;
 
 final class CurrencyOverviewBuilder extends MdBuilder
 {
+    use ImagesTrait;
+
     /* @var CurrencyDto */
     private $data;
 
@@ -24,6 +28,7 @@ final class CurrencyOverviewBuilder extends MdBuilder
     public function build(): void
     {
         $this->add(new MdHeader($this->data->getName()->en ?? '', 1), true);
+        $this->add(new MdImage($this->getCurrencyIcon($this->data->code), $this->data->code), true);
 
         $this->add(new MdHeader('General', 2), true);
         $this->br();
@@ -90,13 +95,21 @@ final class CurrencyOverviewBuilder extends MdBuilder
 
         if (null !== $this->data->metadata) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Metadata:'), true);
+            $this->br();
+
             foreach ($this->data->metadata as $key => $value) {
-                $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), "\t : $key:"));
+                $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), ":\t$key:"));
                 $this->space();
                 $this->add(new MdCode($value), true);
                 $this->br();
             }
         }
+
+        $this->add(new MdHeader('Images', 2), true);
+        $this->add(new MdHeader('Icon', 3), true);
+        $this->br();
+        $this->add(new MdImage($this->getCurrencyIcon($this->data->code), $this->data->code), true);
+        $this->add(new MdCodeBlock($this->getCurrencyIcon($this->data->code)), true);
 
         $this->add(new MdHeader('JSON Object', 2), true);
         $this->add(new MdCodeBlock(json_encode($this->data->toArray()), 'json'), true);

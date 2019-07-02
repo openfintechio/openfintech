@@ -43,7 +43,7 @@ final class PayoutMethodsListBuilder extends MdBuilder
                 'key' => 'Logo',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (PayoutMethodDto $row) {
-                    return new MdImage($this->getPayoutMethodLogo($row->code, '600'), $row->code);
+                    return new MdImage($this->getPayoutMethodLogo($row->code), $row->code);
                 },
             ]),
             MdTableColumnDto::fromArray([
@@ -52,7 +52,7 @@ final class PayoutMethodsListBuilder extends MdBuilder
                 'set_template' => function (PayoutMethodDto $row) {
                     return new MdLink(
                         (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
-                        $row->code.'/index.md'
+                        $row->code . '/'
                     );
                 },
             ]),

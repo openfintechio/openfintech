@@ -26,7 +26,6 @@ use Oft\Generator\Service\VendorsListBuilder;
 use Oft\Generator\Traits\UtilsTrait;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
-use Symfony\Component\Yaml\Yaml;
 
 class DocBuilder
 {
@@ -82,8 +81,7 @@ class DocBuilder
             $providerOverviewBuilder = new ProviderOverviewBuilder($this->dataProvider, $provider);
             $providerOverviewBuilder->build();
 
-            $this->createDirectory($this->pathToDocs().'/payment-providers/'.$provider->code);
-            $this->writeFile($this->pathToDocs().'/payment-providers/'.$provider->code.'/index.md', $providerOverviewBuilder->getContent());
+            $this->writeFile($this->pathToDocs().'/payment-providers/'.$provider->code.'.md', $providerOverviewBuilder->getContent());
         }
 
         $providersListBuilder = new ProvidersListBuilder($this->dataProvider);
@@ -100,8 +98,7 @@ class DocBuilder
             $payoutServiceOverviewBuilder = new PayoutServiceOverviewBuilder($this->dataProvider, $payoutService);
             $payoutServiceOverviewBuilder->build();
 
-            $this->createDirectory($this->pathToDocs().'/payout-services/'.$payoutService->code);
-            $this->writeFile($this->pathToDocs().'/payout-services/'.$payoutService->code.'/index.md', $payoutServiceOverviewBuilder->getContent());
+            $this->writeFile($this->pathToDocs().'/payout-services/'.$payoutService->code.'.md', $payoutServiceOverviewBuilder->getContent());
         }
 
         $payoutServicesListBuilder = new PayoutServicesListBuilder($this->dataProvider);
@@ -118,8 +115,7 @@ class DocBuilder
             $paymentMethodOverviewBuilder = new PaymentMethodOverviewBuilder($this->dataProvider, $method);
             $paymentMethodOverviewBuilder->build();
 
-            $this->createDirectory($this->pathToDocs().'/payment-methods/'.$method->code);
-            $this->writeFile($this->pathToDocs().'/payment-methods/'.$method->code.'/index.md', $paymentMethodOverviewBuilder->getContent());
+            $this->writeFile($this->pathToDocs().'/payment-methods/'.$method->code.'.md', $paymentMethodOverviewBuilder->getContent());
         }
 
         $paymentMethodsListBuilder = new PaymentMethodsListBuilder($this->dataProvider);

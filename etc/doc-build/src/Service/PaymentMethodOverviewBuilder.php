@@ -44,10 +44,7 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
         $this->add(new MdHeader('Payment Services', 2), true);
         $this->br();
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), 'The list of '));
-        /*
-         * FIXME: add link to /payment-services
-         * */
-        $this->add(new MdLink("Payment Services", "#"));
+        $this->add(new MdLink("Payment Services", "/payment-services/"));
         $this->addString(" based on the ".(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::ITALIC), $this->data->getName()->en ?? ''))->toString(), true);
 
         $this->add(new MdTable($services, [
@@ -62,10 +59,7 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
                 'key' => 'Name',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (PaymentServiceDto $service) {
-                    /*
-                     * FIXME: add link to payment-service/:code, use method name instead of service code
-                     * */
-                    return new MdLink($service->code, '#');
+                    return new MdLink($service->code, '/payment-services/' . $service->code . '/');
                 },
             ]),
             MdTableColumnDto::fromArray([
@@ -91,7 +85,7 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
         $this->add(new MdHeader('Payment Providers', 2), true);
         $this->br();
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), 'The list of '));
-        $this->add(new MdLink("Payment Providers", "/payment-providers"));
+        $this->add(new MdLink("Payment Providers", "/payment-providers/"));
         $this->addString(" that support the ".(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::ITALIC), $this->data->getName()->en ?? ''))->toString(), true);
 
         $this->add(new MdTable($providers, [
@@ -106,7 +100,7 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
                 'key' => 'Name',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (ProviderDto $provider) {
-                    return new MdLink($provider->getName()->en ?? '', '/payment-providers/'.$provider->code);
+                    return new MdLink($provider->getName()->en ?? '', '/payment-providers/' . $provider->code . '/');
                 },
             ]),
             MdTableColumnDto::fromArray([
@@ -133,7 +127,9 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
         if (null !== $this->data->vendor) {
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Vendor:'));
             $this->space();
-            $this->add(new MdCode($this->data->vendor), true);
+            $this->add(new MdCode($this->data->vendor));
+            $this->space();
+            $this->add(new MdLink('show -->', '/vendors/' . $this->data->vendor . '/'), true);
             $this->br();
         }
 

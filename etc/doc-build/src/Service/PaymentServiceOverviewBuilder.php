@@ -87,10 +87,8 @@ class PaymentServiceOverviewBuilder extends MdBuilder
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Method:'));
             $this->space();
             $this->add(new MdCode($this->data->method),true);
-            /*
-            *  FIXME: add link
-            */
-            $this->add(new MdLink('show -->', '#'), true);
+            $this->space();
+            $this->add(new MdLink('show -->', '/payment-methods/' . $this->data->method . '/'), true);
             $this->br();
         }
 
@@ -98,10 +96,8 @@ class PaymentServiceOverviewBuilder extends MdBuilder
             $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Currency:'));
             $this->space();
             $this->add(new MdCode($this->data->currency));
-            /*
-            *  FIXME: add link
-            */
-            $this->add(new MdLink('show -->', '#'), true);
+            $this->space();
+            $this->add(new MdLink('show -->', '/currencies/' . $this->data->currency . '/'), true);
             $this->br();
         }
 
@@ -163,9 +159,9 @@ class PaymentServiceOverviewBuilder extends MdBuilder
             foreach ($this->data->getFields() as $index => $field) {
                 $this->buildField($field, $index);
             }
-
-            $this->add(new MdHeader('JSON Object', 2), true);
-            $this->add(new MdCodeBlock(json_encode($this->data->toArray()), 'json'), true);
         }
+
+        $this->add(new MdHeader('JSON Object', 2), true);
+        $this->add(new MdCodeBlock(json_encode($this->data->toArray()), 'json'), true);
     }
 }

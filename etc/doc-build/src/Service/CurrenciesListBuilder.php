@@ -11,14 +11,16 @@ use Oft\Generator\Enums\MdTableColumnAlignEnum;
 use Oft\Generator\Enums\TextEmphasisPatternEnum;
 use Oft\Generator\Md\MdCode;
 use Oft\Generator\Md\MdHeader;
+use Oft\Generator\Md\MdImage;
 use Oft\Generator\Md\MdLink;
 use Oft\Generator\Md\MdTable;
 use Oft\Generator\Md\MdText;
+use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Traits\UtilsTrait;
 
 final class CurrenciesListBuilder extends MdBuilder
 {
-    use UtilsTrait;
+    use UtilsTrait, ImagesTrait;
 
     /* @var array */
     private $currencies;
@@ -43,10 +45,10 @@ final class CurrenciesListBuilder extends MdBuilder
 
         $table = new MdTable($this->currencies, [
             MdTableColumnDto::fromArray([
-                'key' => 'Code',
+                'key' => 'Icon',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (CurrencyDto $row) {
-                    return new MdCode($row->code);
+                    return new MdImage($this->getCurrencyIcon($row->code), $row->code);
                 },
             ]),
             MdTableColumnDto::fromArray([
@@ -55,15 +57,15 @@ final class CurrenciesListBuilder extends MdBuilder
                 'set_template' => function (CurrencyDto $row) {
                     return new MdLink(
                         (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $row->getName()->en ?? ''))->toString(),
-                        '/' . $row->code
+                        $row->code . '/'
                     );
                 },
             ]),
             MdTableColumnDto::fromArray([
-                'key' => 'Category',
+                'key' => 'Code',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (CurrencyDto $row) {
-                    return new MdCode($row->category);
+                    return new MdCode($row->code);
                 },
             ]),
         ]);
