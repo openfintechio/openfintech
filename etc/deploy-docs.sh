@@ -4,7 +4,7 @@ set -ex
 SCRIPT_PATH="$(dirname $(readlink -f $0))"
 
 build_documentation() {
-  cd $SCRIPT_PATH/doc-build && composer install --ignore-platform-reqs && cd /tmp && git clone https://${GH_TOKEN}@github.com:paycoreio/openfintech-docs.git \
+  cd $SCRIPT_PATH/doc-build && composer install --ignore-platform-reqs && cd /tmp && git clone https://${GH_TOKEN}@github.com/paycoreio/openfintech-docs.git \
   && php $SCRIPT_PATH/doc-build/index.php -p /tmp/openfintech-docs && cd openfintech-docs
 }
 
