@@ -36,7 +36,7 @@ final class PaymentServicesListBuilder extends MdBuilder
 
         $table = new MdTable($this->data, [
             MdTableColumnDto::fromArray([
-                'key' => 'Method',
+                'key' => 'Method Logo',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (PaymentServiceDto $row) {
                     /* @var PaymentMethodDto $paymentMethod */
@@ -44,13 +44,22 @@ final class PaymentServicesListBuilder extends MdBuilder
                         return $pm->code === $row->method;
                     });
 
-                    $image = (new MdImage($this->getPaymentMethodLogo($paymentMethod->code),$paymentMethod->getName()->en ?? ''))->toString();
-                    $link = (new MdLink(
-                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $paymentMethod->getName()->en ?? ''))->toString(),
-                        '/payment-methods/' . $paymentMethod->code . '/')
-                    )->toString();
+                    return new MdImage($this->getPaymentMethodLogo($paymentMethod->code),$paymentMethod->getName()->en ?? '');
+                },
+            ]),
+            MdTableColumnDto::fromArray([
+                'key' => 'Method Name',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (PaymentServiceDto $row) {
+                    /* @var PaymentMethodDto $paymentMethod */
+                    $paymentMethod = $this->array_find($this->dataProvider->getPaymentMethods(), function (PaymentMethodDto $pm) use ($row) {
+                        return $pm->code === $row->method;
+                    });
 
-                    return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), "$image $link");
+                    return new MdLink(
+                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $paymentMethod->getName()->en ?? ''))->toString(),
+                        '/payment-methods/' . $paymentMethod->code . '/'
+                    );
                 },
             ]),
             MdTableColumnDto::fromArray([
@@ -77,7 +86,7 @@ final class PaymentServicesListBuilder extends MdBuilder
             $key = strtoupper($paymentService->code[0]);
 
             if ($index === 0 || strtoupper($data[$index - 1]->code[0]) !== $key) {
-                return "|| **$key** ||\n";
+                return "||| **$key** ||\n";
             }
         });
 

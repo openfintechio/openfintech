@@ -77,7 +77,7 @@ class MdTable implements MdElementInterface
             /* @var MdElementInterface $element */
             $element = call_user_func($col->setTemplate, $row);
 
-            $this->add($element->toString());
+            $this->add(str_replace('|', '\|', $element->toString()));
             $this->separator();
         }
 

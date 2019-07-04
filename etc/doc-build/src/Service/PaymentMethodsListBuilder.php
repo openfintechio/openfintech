@@ -48,7 +48,7 @@ final class PaymentMethodsListBuilder extends MdBuilder
                 'key' => 'Logo',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (PaymentMethodDto $row) {
-                    return new MdImage($this->getPaymentMethodLogo($row->code, '600'), $row->code);
+                    return new MdImage($this->getPaymentMethodLogo($row->code), $row->code);
                 },
             ]),
             MdTableColumnDto::fromArray([

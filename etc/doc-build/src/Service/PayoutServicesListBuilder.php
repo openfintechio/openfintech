@@ -36,20 +36,28 @@ final class PayoutServicesListBuilder extends MdBuilder
 
         $table = new MdTable($this->data, [
             MdTableColumnDto::fromArray([
-                'key' => 'Method',
+                'key' => 'Method Logo',
                 'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
                 'set_template' => function (PayoutServiceDto $row) {
                     $payoutMethod = $this->array_find($this->dataProvider->getPayoutMethods(), function (PayoutMethodDto $pom) use ($row) {
                         return $pom->code === $row->method;
                     });
 
-                    $image = (new MdImage($this->getPayoutMethodLogo($payoutMethod->code),$payoutMethod->getName()->en ?? ''))->toString();
-                    $link = (new MdLink(
-                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $payoutMethod->getName()->en ?? ''))->toString(),
-                        '/payout-methods/' . $payoutMethod->code . '/')
-                    )->toString();
+                    return new MdImage($this->getPayoutMethodLogo($payoutMethod->code),$payoutMethod->getName()->en ?? '');
+                },
+            ]),
+            MdTableColumnDto::fromArray([
+                'key' => 'Method Name',
+                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
+                'set_template' => function (PayoutServiceDto $row) {
+                    $payoutMethod = $this->array_find($this->dataProvider->getPayoutMethods(), function (PayoutMethodDto $pom) use ($row) {
+                        return $pom->code === $row->method;
+                    });
 
-                    return new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::PLAIN), "$image $link");
+                    return new MdLink(
+                        (new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), $payoutMethod->getName()->en ?? ''))->toString(),
+                        '/payout-methods/' . $payoutMethod->code . '/'
+                    );
                 },
             ]),
             MdTableColumnDto::fromArray([
@@ -69,14 +77,13 @@ final class PayoutServicesListBuilder extends MdBuilder
         ]);
 
         $table->setRowSlot(function (PayoutServiceDto $payoutService, array $data) {
-
             $index = $this->array_find_index($data, function (PayoutServiceDto $r) use ($payoutService) {
                 return $r->code === $payoutService->code;
             });
             $key = strtoupper($payoutService->code[0]);
 
             if ($index === 0 || strtoupper($data[$index - 1]->code[0]) !== $key) {
-                return "|| **$key** ||\n";
+                return "||| **$key** ||\n";
             }
         });
 
