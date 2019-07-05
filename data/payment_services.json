@@ -1080,6 +1080,30 @@
     "amount_max": 100000
   },
   {
+    "code": "alfaclick_eur_hpp",
+    "currency": "EUR",
+    "method": "alfaclick",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 50000
+  },
+  {
+    "code": "alfaclick_kzt_hpp",
+    "currency": "KZT",
+    "method": "alfaclick",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "alfaclick_usd_hpp",
+    "currency": "USD",
+    "method": "alfaclick",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 50000
+  },
+  {
     "code": "rbkmoney_rub_hpp",
     "currency": "RUB",
     "method": "rbkmoney",
@@ -2473,5 +2497,13 @@
     "method": "swift",
     "amount_min": 0.01,
     "amount_max": 99999
+  },
+  {
+    "code": "smsbilling_rub_hpp",
+    "currency": "RUB",
+    "flow": "hpp",
+    "method": "smsbilling",
+    "amount_min": 10,
+    "amount_max": 25000
   }
 ]
