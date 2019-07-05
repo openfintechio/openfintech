@@ -7,7 +7,7 @@ trait ImagesTrait
 
     private function getExt(string $code, string $resource_type, string $type): string
     {
-        $file = __DIR__."/../../resources/$resource_type/$code/$type.png";
+        $file = __DIR__."/../../../../resources/$resource_type/$code/$type.png";
         return file_exists($file) ? 'png' : 'svg';
     }
 
