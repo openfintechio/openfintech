@@ -15138,8 +15138,10 @@
       "en": "Accentpay"
     },
     "payment_method": [
-    ],
-    "payout_method": [
+      "qiwi",
+      "yandexmoney",
+      "alfaclick",
+      "smsbilling"
     ]
   },
   {
