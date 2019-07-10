@@ -15043,6 +15043,9 @@
       "qiwi"
     ],
     "payout_method": [
+      "payment_card",
+      "yandexmoney",
+      "qiwi"
     ]
   },
   {
@@ -15244,7 +15247,6 @@
       "en": "Forward Bank",
       "ru": "Форвард Банк",
       "uk": "Форвард Банк"
-
     },
     "countries": [
       "UA",
@@ -15261,7 +15263,6 @@
       "en": "Pay-logic",
       "ru": "Pay-logic",
       "uk": "Pay-logic"
-
     },
     "countries": [
       "UA",
@@ -15269,6 +15270,17 @@
     ],
     "payout_method": [
       "payment_card"
+    ]
+  },
+  {
+    "code": "genome",
+    "vendor": "genome",
+    "name": {
+      "en": "Genome",
+      "ru": "Genome",
+      "uk": "Genome"
+    },
+    "payment_method": [
     ]
   }
 ]
