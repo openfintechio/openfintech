@@ -132,6 +132,72 @@
     "amount_max": 14900
   },
   {
+    "code": "payment_card_usd",
+    "method": "payment_card",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 50000
+  },
+  {
+    "code": "payment_card_eur",
+    "method": "payment_card",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 50000
+  },
+  {
     "code": "payment_card_rub",
     "method": "payment_card",
     "currency": "RUB",
@@ -272,6 +338,58 @@
     ],
     "amount_min": 50,
     "amount_max": 60000
+  },
+  {
+    "code": "qiwi_usd",
+    "method": "qiwi",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телеофу"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона Qiwi кошелька",
+          "uk": "Введіть номер телефону Qiwi гаманця"
+        },
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 10000
+  },
+  {
+    "code": "qiwi_eur",
+    "method": "qiwi",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телеофу"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона Qiwi кошелька",
+          "uk": "Введіть номер телефону Qiwi гаманця"
+        },
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 10000
   },
   {
     "code": "qiwi_uah",
@@ -47495,6 +47613,114 @@
           "en": "Номер карти#Кількість поїздок",
           "ru": "Номер карти#Кількість поїздок",
           "uk": "Номер карти#Кількість поїздок"
+        },
+        "example": "100000000393#10"
+      }
+    ],
+    "amount_min": "2.00",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "piastrix-usd",
+    "method": "piastrix",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Payee account",
+          "ru": "Аккаунт получателя",
+          "uk": "Аккаунт отримувача"
+        },
+        "regexp": "\/^[\\w|\\.| |\\-|\\+|@|\\#]{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Payee account",
+          "ru": "Аккаунт получателя",
+          "uk": "Аккаунт отримувача"
+        },
+        "example": "100000000393#10"
+      }
+    ],
+    "amount_min": "2.00",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "piastrix_uah",
+    "method": "piastrix",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Payee account",
+          "ru": "Аккаунт получателя",
+          "uk": "Аккаунт отримувача"
+        },
+        "regexp": "/[0-9]{11,13}$|^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Payee account",
+          "ru": "Аккаунт получателя",
+          "uk": "Аккаунт отримувача"
+        },
+        "example": "100000000393#10"
+      }
+    ],
+    "amount_min": "2.00",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "piastrix_eur",
+    "method": "piastrix",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Payee account",
+          "ru": "Аккаунт получателя",
+          "uk": "Аккаунт отримувача"
+        },
+        "regexp": "/[0-9]{11,13}$|^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Payee account",
+          "ru": "Аккаунт получателя",
+          "uk": "Аккаунт отримувача"
+        },
+        "example": "100000000393#10"
+      }
+    ],
+    "amount_min": "2.00",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "piastrix_rub",
+    "method": "piastrix",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Payee account",
+          "ru": "Аккаунт получателя",
+          "uk": "Аккаунт отримувача"
+        },
+        "regexp": "/[0-9]{11,13}$|^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Payee account",
+          "ru": "Аккаунт получателя",
+          "uk": "Аккаунт отримувача"
         },
         "example": "100000000393#10"
       }
