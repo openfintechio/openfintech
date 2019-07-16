@@ -47626,7 +47626,7 @@
     "currency": "USD",
     "fields": [
       {
-        "key": "client_id",
+        "key": "account_id",
         "type": "string",
         "label": {
           "en": "Payee account",
@@ -47653,14 +47653,14 @@
     "currency": "UAH",
     "fields": [
       {
-        "key": "client_id",
+        "key": "account_id",
         "type": "string",
         "label": {
           "en": "Payee account",
           "ru": "Аккаунт получателя",
           "uk": "Аккаунт отримувача"
         },
-        "regexp": "/[0-9]{11,13}$|^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
+        "regexp": "\/^\\d{11,13}$\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -47680,14 +47680,14 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "client_id",
+        "key": "account_id",
         "type": "string",
         "label": {
           "en": "Payee account",
           "ru": "Аккаунт получателя",
           "uk": "Аккаунт отримувача"
         },
-        "regexp": "/[0-9]{11,13}$|^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
+        "regexp": "\/^\\d{11,13}$\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -47707,14 +47707,14 @@
     "currency": "RUB",
     "fields": [
       {
-        "key": "client_id",
+        "key": "account_id",
         "type": "string",
         "label": {
           "en": "Payee account",
           "ru": "Аккаунт получателя",
           "uk": "Аккаунт отримувача"
         },
-        "regexp": "/[0-9]{11,13}$|^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
+        "regexp": "\/^\\d{11,13}$\/",
         "required": true,
         "position": 1,
         "hint": {
