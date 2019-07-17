@@ -15734,7 +15734,7 @@
     "name": {
       "en": "BANK OF JIANGSU"
     }
-  }, 
+  },
   {
     "code": "shude_rural_credit_union",
     "category": "bank_transfer",
@@ -16417,7 +16417,7 @@
       "XK",
       "AQ",
       "BV",
-      "HM"                      
+      "HM"
     ],
     "name": {
       "en": "SWIFT"
@@ -19367,6 +19367,15 @@
       "en": "Транспортна карта (купівля 10-19 квитків по 7.70 грн.)",
       "ru": "Транспортна карта (купівля 10-19 квитків по 7.70 грн.)",
       "uk": "Транспортна карта (купівля 10-19 квитків по 7.70 грн.)"
+    }
+  },
+  {
+    "code": "piastrix",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Piastrix",
+      "ru": "Piastrix",
+      "uk": "Piastrix"
     }
   }
 ]
