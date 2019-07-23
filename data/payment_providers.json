@@ -15177,7 +15177,8 @@
       "en": "Odysseq"
     },
     "payment_method": [
-      "qiwi"
+      "qiwi",
+      "payment_card"
     ],
     "payout_method": [
       "qiwi"
@@ -15281,6 +15282,22 @@
       "uk": "Genome"
     },
     "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "tkbpay",
+    "vendor": "tkbbank",
+    "name": {
+      "en": "TKB Pay",
+      "ru": "ТКБ Pay",
+      "uk": "ТКБ Pay"
+    },
+    "countries": [
+      "RU"
+    ],
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]
