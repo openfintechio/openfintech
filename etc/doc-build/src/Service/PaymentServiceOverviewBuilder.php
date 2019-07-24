@@ -19,7 +19,7 @@ use Oft\Generator\Md\MdText;
 use Oft\Generator\Traits\ImagesTrait;
 use Oft\Generator\Traits\UtilsTrait;
 
-class PaymentServiceOverviewBuilder extends MdBuilder
+final class PaymentServiceOverviewBuilder extends MdBuilder
 {
     use ImagesTrait, UtilsTrait;
 
