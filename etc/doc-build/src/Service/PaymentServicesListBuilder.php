@@ -69,13 +69,6 @@ final class PaymentServicesListBuilder extends MdBuilder
                     return new MdLink((new MdCode($row->code))->toString(), $row->code . '/');
                 },
             ]),
-            MdTableColumnDto::fromArray([
-                'key' => 'Currency',
-                'align' => new MdTableColumnAlignEnum(MdTableColumnAlignEnum::CENTER),
-                'set_template' => function (PaymentServiceDto $row) {
-                    return new MdCode($row->currency ?? '');
-                },
-            ]),
         ]);
 
         $table->setRowSlot(function (PaymentServiceDto $paymentService, array $data) {
