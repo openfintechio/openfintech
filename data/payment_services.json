@@ -1152,6 +1152,22 @@
     "amount_max": 100000
   },
   {
+    "code": "payment_card_cad_hpp",
+    "currency": "CAD",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "payment_card_aud_hpp",
+    "currency": "AUD",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "interkassa_uah_hpp",
     "currency": "UAH",
     "method": "interkassa",
