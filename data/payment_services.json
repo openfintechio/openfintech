@@ -1168,6 +1168,22 @@
     "amount_max": 100000
   },
   {
+    "code": "payment_card_czk_hpp",
+    "currency": "CZK",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "payment_card_pln_hpp",
+    "currency": "PLN",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "interkassa_uah_hpp",
     "currency": "UAH",
     "method": "interkassa",
