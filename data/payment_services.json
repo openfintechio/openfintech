@@ -2480,7 +2480,7 @@
     "flow": "invoice",
     "method": "swift",
     "amount_min": 0.01,
-    "amount_max": 99999
+    "amount_max": 999999
   },
   {
     "code": "swift_eur_invoice",
@@ -2488,7 +2488,7 @@
     "flow": "invoice",
     "method": "swift",
     "amount_min": 0.01,
-    "amount_max": 99999
+    "amount_max": 999999
   },
   {
     "code": "swift_gbp_invoice",
@@ -2496,7 +2496,7 @@
     "flow": "invoice",
     "method": "swift",
     "amount_min": 0.01,
-    "amount_max": 99999
+    "amount_max": 999999
   },
   {
     "code": "swift_cny_invoice",
@@ -2504,7 +2504,7 @@
     "flow": "invoice",
     "method": "swift",
     "amount_min": 0.01,
-    "amount_max": 99999
+    "amount_max": 999999
   },
   {
     "code": "swift_jpy_invoice",
@@ -2512,7 +2512,7 @@
     "flow": "invoice",
     "method": "swift",
     "amount_min": 0.01,
-    "amount_max": 99999
+    "amount_max": 999999
   },
   {
     "code": "swift_rub_invoice",
@@ -2520,7 +2520,7 @@
     "flow": "invoice",
     "method": "swift",
     "amount_min": 0.01,
-    "amount_max": 99999
+    "amount_max": 999999
   },
   {
     "code": "swift_kzt_invoice",
@@ -2528,7 +2528,7 @@
     "flow": "invoice",
     "method": "swift",
     "amount_min": 0.01,
-    "amount_max": 99999
+    "amount_max": 999999
   },
   {
     "code": "smsbilling_rub_hpp",
