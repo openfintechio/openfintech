@@ -56651,7 +56651,7 @@
           "ru": "Payment type",
           "uk": "Payment type"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}",
         "required": true,
         "position": 1,
         "hint": {
@@ -56669,7 +56669,7 @@
           "ru": "Address",
           "uk": "Address"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 2,
         "hint": {
@@ -56687,7 +56687,7 @@
           "ru": "City",
           "uk": "City"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 3,
         "hint": {
@@ -56705,7 +56705,7 @@
           "ru": "First name",
           "uk": "First name"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 4,
         "hint": {
@@ -56723,7 +56723,7 @@
           "ru": "Last name",
           "uk": "Last name"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 5,
         "hint": {
@@ -56741,7 +56741,7 @@
           "ru": "Account number",
           "uk": "Account number"
         },
-        "regexp": "\/^\\d{1,17}\/$",
+        "regexp": "\/^\\d{1,17}$\/",
         "required": true,
         "position": 6,
         "hint": {
@@ -56759,7 +56759,7 @@
           "ru": "Bic swift",
           "uk": "Bic swift"
         },
-        "regexp": "\/^[0-9A-Z]{8}\/$|\/^[0-9A-Z]{11}\/$",
+        "regexp": "\/^[0-9A-Z]{8}$\/|\/^[0-9A-Z]{11}$\/",
         "required": true,
         "position": 7,
         "hint": {
@@ -56777,7 +56777,7 @@
           "ru": "Sender city",
           "uk": "Sender city"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 8,
         "hint": {
@@ -56795,7 +56795,7 @@
           "ru": "Sender address",
           "uk": "Sender address"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 9,
         "hint": {
@@ -56813,7 +56813,7 @@
           "ru": "Sender first name",
           "uk": "Sender first name"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 10,
         "hint": {
@@ -56831,7 +56831,7 @@
           "ru": "Sender last name",
           "uk": "Sender last name"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 11,
         "hint": {
@@ -56849,7 +56849,7 @@
           "ru": "Sender date of birth",
           "uk": "Sender date of birth"
         },
-        "regexp": "\/^([0-2][0-9]|(3)[0-1])(/)(((0)[0-9])|((1)[0-2]))(/)((19|20)[0-9][0-9])\/$",
+        "regexp": "\/^([0-2][0-9]|(3)[0-1])(/)(((0)[0-9])|((1)[0-2]))(/)((19|20)[0-9][0-9])$\/",
         "required": true,
         "position": 12,
         "hint": {
@@ -56860,7 +56860,7 @@
         "example": "28/01/1998"
       }
     ],
-    "amount_min": "2.00",
+    "amount_min": "1.00",
     "amount_max": "14999.00"
   }
 ]
