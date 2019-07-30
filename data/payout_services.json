@@ -56644,24 +56644,6 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "beneficiary_payment_type",
-        "type": "string",
-        "label": {
-          "en": "Payment type",
-          "ru": "Payment type",
-          "uk": "Payment type"
-        },
-        "regexp": "\/^.{1,255}\/$",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Payment type",
-          "ru": "Payment type",
-          "uk": "Payment type"
-        },
-        "example": "100000000393#10"
-      },
-      {
         "key": "beneficiary_address",
         "type": "string",
         "label": {
@@ -56669,9 +56651,9 @@
           "ru": "Address",
           "uk": "Address"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
-        "position": 2,
+        "position": 1,
         "hint": {
           "en": "Enter address",
           "ru": "Enter address",
@@ -56687,9 +56669,9 @@
           "ru": "City",
           "uk": "City"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
-        "position": 3,
+        "position": 2,
         "hint": {
           "en": "Enter city",
           "ru": "Enter city",
@@ -56705,9 +56687,9 @@
           "ru": "First name",
           "uk": "First name"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
-        "position": 4,
+        "position": 3,
         "hint": {
           "en": "Enter first name",
           "ru": "Enter first name",
@@ -56723,9 +56705,9 @@
           "ru": "Last name",
           "uk": "Last name"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
-        "position": 5,
+        "position": 4,
         "hint": {
           "en": "Enter last name",
           "ru": "Enter last name",
@@ -56741,9 +56723,9 @@
           "ru": "Account number",
           "uk": "Account number"
         },
-        "regexp": "\/^\\d{1,17}\/$",
+        "regexp": "\/^\\d{1,17}$\/",
         "required": true,
-        "position": 6,
+        "position": 5,
         "hint": {
           "en": "Enter account number",
           "ru": "Enter account number",
@@ -56759,9 +56741,9 @@
           "ru": "Bic swift",
           "uk": "Bic swift"
         },
-        "regexp": "\/^[0-9A-Z]{8}\/$|\/^[0-9A-Z]{11}\/$",
+        "regexp": "\/^[0-9A-Z]{8}$\/|\/^[0-9A-Z]{11}$\/",
         "required": true,
-        "position": 7,
+        "position": 6,
         "hint": {
           "en": "Enter bic swift",
           "ru": "Enter bic swift",
@@ -56777,9 +56759,9 @@
           "ru": "Sender city",
           "uk": "Sender city"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
-        "position": 8,
+        "position": 7,
         "hint": {
           "en": "Enter sender city",
           "ru": "Enter sender city",
@@ -56795,9 +56777,9 @@
           "ru": "Sender address",
           "uk": "Sender address"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
-        "position": 9,
+        "position": 8,
         "hint": {
           "en": "Enter sender address",
           "ru": "Enter sender address",
@@ -56813,9 +56795,9 @@
           "ru": "Sender first name",
           "uk": "Sender first name"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
-        "position": 10,
+        "position": 9,
         "hint": {
           "en": "Enter sender first name",
           "ru": "Enter sender first name",
@@ -56831,9 +56813,9 @@
           "ru": "Sender last name",
           "uk": "Sender last name"
         },
-        "regexp": "\/^.{1,255}\/$",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
-        "position": 11,
+        "position": 10,
         "hint": {
           "en": "Enter sender last name",
           "ru": "Enter sender last name",
@@ -56849,9 +56831,9 @@
           "ru": "Sender date of birth",
           "uk": "Sender date of birth"
         },
-        "regexp": "\/^([0-2][0-9]|(3)[0-1])(/)(((0)[0-9])|((1)[0-2]))(/)((19|20)[0-9][0-9])\/$",
+        "regexp": "\/^([0-2][0-9]|(3)[0-1])(/)(((0)[0-9])|((1)[0-2]))(/)((19|20)[0-9][0-9])$\/",
         "required": true,
-        "position": 12,
+        "position": 11,
         "hint": {
           "en": "Enter sender date of birth",
           "ru": "Enter sender date of birth",
@@ -56860,7 +56842,7 @@
         "example": "28/01/1998"
       }
     ],
-    "amount_min": "2.00",
+    "amount_min": "1.00",
     "amount_max": "14999.00"
   }
 ]
