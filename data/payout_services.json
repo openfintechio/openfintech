@@ -56651,7 +56651,7 @@
           "ru": "Payment type",
           "uk": "Payment type"
         },
-        "regexp": "\/^.{1,255}",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 1,
         "hint": {
