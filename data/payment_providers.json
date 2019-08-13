@@ -15296,5 +15296,17 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "code": "adgroup",
+    "vendor": "adgroup",
+    "name": {
+      "en": "ADgroup",
+      "ru": "ADgroup",
+      "uk": "ADgroup"
+    },
+    "payment_method": [
+      "qiwi"
+    ]
   }
 ]
