@@ -257,7 +257,7 @@
     "method": "payment_card",
     "currency": "RUB",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "code": "payment_card_token_rub_hpp",
@@ -265,7 +265,7 @@
     "method": "payment_card_token",
     "currency": "RUB",
     "amount_min": 0.01,
-    "amount_max": 100000,
+    "amount_max": 1000000,
     "fields": [
       {
         "key": "token",
@@ -332,7 +332,7 @@
     "method": "payment_card",
     "currency": "UAH",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "code": "payment_card_token_uah_hpp",
@@ -340,7 +340,7 @@
     "method": "payment_card_token",
     "currency": "UAH",
     "amount_min": 0.01,
-    "amount_max": 100000,
+    "amount_max": 1000000,
     "fields": [
       {
         "key": "token",
@@ -1061,7 +1061,7 @@
     "method": "payment_card",
     "flow": "hpp",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 500000
   },
   {
     "code": "psbretail_rub_hpp",
@@ -1149,7 +1149,7 @@
     "method": "payment_card",
     "flow": "hpp",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 500000
   },
   {
     "code": "payment_card_cad_hpp",
@@ -1173,7 +1173,7 @@
     "method": "payment_card",
     "flow": "hpp",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 500000
   },
   {
     "code": "payment_card_pln_hpp",
@@ -1181,7 +1181,7 @@
     "method": "payment_card",
     "flow": "hpp",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 500000
   },
   {
     "code": "interkassa_uah_hpp",
