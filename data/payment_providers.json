@@ -2787,7 +2787,15 @@
     },
     "name": {
       "en": "CardPay"
-    }
+    },
+    "countries": [
+      "UA",
+      "RU"
+    ],
+    "payment_method": [
+      "payment_card",
+      "payment_card_email"
+    ]
   },
   {
     "code": "kaznachey",
@@ -14825,8 +14833,11 @@
     "name": {
       "en": "Paymega.io"
     },
+    "payment_method": [
+      "payment_card"      
+    ],
     "payout_method": [
-      "bank_card"
+      "payment_card"      
     ]
   },
   {
@@ -15004,6 +15015,7 @@
     "countries": [
     ],
     "payment_method": [
+      "payment_card"
     ],
     "payout_method": [
     ]
@@ -15040,7 +15052,8 @@
       "en": "Piastrix"
     },
     "payment_method": [
-      "qiwi"
+      "qiwi",
+      "payment_card"
     ],
     "payout_method": [
       "payment_card",
@@ -15118,7 +15131,8 @@
     "countries": [
     ],
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay"
     ]
   },
   {
@@ -15127,6 +15141,9 @@
     "name": {
       "en": "Manual"
     },
+    "payment_method": [
+      "swift"
+    ],
     "payout_method": [
       "swift"
     ]
@@ -15141,7 +15158,8 @@
       "qiwi",
       "yandexmoney",
       "alfaclick",
-      "smsbilling"
+      "smsbilling",
+      "payment_card"
     ]
   },
   {
@@ -15153,6 +15171,7 @@
     "countries": [
     ],
     "payment_method": [
+      "payment_card"
     ],
     "payout_method": [
     ]
