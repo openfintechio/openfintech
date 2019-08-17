@@ -418,6 +418,32 @@
     "amount_max": 14999
   },
   {
+    "code": "qiwi_kzt",
+    "method": "qiwi",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телеофу"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона Qiwi кошелька",
+          "uk": "Введіть номер телефону Qiwi гаманця"
+        },
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 10,
+    "amount_max": 199999
+  },
+  {
     "code": "advcash_wallet_uah",
     "method": "advcash_wallet",
     "currency": "UAH",
