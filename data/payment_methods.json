@@ -1362,7 +1362,7 @@
     }
   },
   {
-    "code": "sbrebank",
+    "code": "sberbank",
     "category": "bank_transfers",
     "name": {
       "en": "SberBank",
@@ -2453,6 +2453,14 @@
     "category": "digital_wallet",
     "name": {
       "en": "24-7 Bill Pay"
+    }
+  },
+  {
+    "code": "piastrix",
+    "vendor": "piastrix",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Piastrix"
     }
   },
   {
