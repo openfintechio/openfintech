@@ -2609,27 +2609,11 @@
     "amount_max": 25000
   },
   {
-    "code": "mercuryo_eur_hpp",
-    "currency": "EUR",
-    "flow": "hpp",
-    "method": "mercuryo",
-    "amount_min": 18,
-    "amount_max": 25000
-  },
-  {
-    "code": "mercuryo_usd_hpp",
-    "currency": "USD",
-    "flow": "hpp",
-    "method": "mercuryo",
-    "amount_min": 20,
-    "amount_max": 25000
-  },
-  {
     "code": "mercuryo_btc_hpp",
     "currency": "BTC",
     "flow": "hpp",
     "method": "mercuryo",
     "amount_min": 0.002,
-    "amount_max": 25000
+    "amount_max": 999999
   }
 ]
