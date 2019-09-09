@@ -56982,5 +56982,50 @@
     ],
     "amount_min": "1.00",
     "amount_max": "14999.00"
+  },
+  {
+    "code": "mpesa_wallet",
+    "method": "mpesa_wallet",
+    "currency": "KES",
+    "fields": [
+      {
+        "key": "recipient",
+        "type": "string",
+        "label": {
+          "en": "Mobile number",
+          "ru": "Мобильный номер",
+          "uk": "Мобільний номер"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter mobile number",
+          "ru": "Введите мобильный номер",
+          "uk": "Введіть мобільний номер"
+        },
+        "example": "254111111111"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя клиента",
+          "uk": "ім`я кліента"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 3,
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя клиента",
+          "uk": "Введiть ім`я кліента"
+        },
+        "example": "John Johnson"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "14999.00"
   }
 ]
