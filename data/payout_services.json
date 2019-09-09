@@ -56985,11 +56985,11 @@
   },
   {
     "code": "mpesa_wallet",
-    "method": "mpesa",
+    "method": "mpesa_wallet",
     "currency": "KES",
     "fields": [
       {
-        "key": "Mobile number",
+        "key": "recipient",
         "type": "string",
         "label": {
           "en": "Mobile number",
@@ -57005,24 +57005,6 @@
           "uk": "Введіть мобільний номер"
         },
         "example": "254111111111"
-      },
-      {
-        "key": "note",
-        "type": "string",
-        "label": {
-          "en": "Note",
-          "ru": "Заметка",
-          "uk": "Замітка"
-        },
-        "regexp": "\/^.{1,255}$\/",
-        "required": false,
-        "position": 2,
-        "hint": {
-          "en": "Enter your note",
-          "ru": "Введите свою заметку",
-          "uk": "Введiть свою замітку"
-        },
-        "example": "Some notes"
       },
       {
         "key": "customer_name",
