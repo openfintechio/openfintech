@@ -2615,5 +2615,13 @@
     "method": "mercuryo",
     "amount_min": 0.002,
     "amount_max": 999999
+  },
+  {
+    "code": "paybox_kzt_hpp",
+    "currency": "KZT",
+    "flow": "hpp",
+    "method": "paybox",
+    "amount_min": 0.01,
+    "amount_max": 999999
   }
 ]

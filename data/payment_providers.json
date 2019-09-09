@@ -1374,6 +1374,9 @@
   {
     "code": "paybox",
     "vendor": "paybox",
+    "payment_method": [
+      "paybox"
+    ],
     "name": {
       "en": "Paybox"
     }
