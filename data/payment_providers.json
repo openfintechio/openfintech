@@ -15352,5 +15352,17 @@
     "payment_method": [
       "mercuryo"
     ]
+  },
+  {
+    "code": "paysafecard",
+    "vendor": "paysafecard",
+    "name": {
+      "en": "paysafecard",
+      "ru": "paysafecard",
+      "uk": "paysafecard"
+    },
+    "payment_method": [
+      "paysafecard"
+    ]
   }
 ]
