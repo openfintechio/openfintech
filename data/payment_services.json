@@ -2623,5 +2623,29 @@
     "currency": "KZT",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "code": "paysafecard_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "code": "paysafecard_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "code": "paysafecard_gbp_hpp",
+    "currency": "GPB",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "amount_min": 0.01,
+    "amount_max": 999999
   }
 ]
