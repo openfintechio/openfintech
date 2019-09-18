@@ -2647,5 +2647,61 @@
     "method": "paysafecard",
     "amount_min": 0.01,
     "amount_max": 999999
+  },
+  {
+    "code": "ecopayz_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "ecopayz",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "code": "ecopayz_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "ecopayz",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "code": "ecopayz_uah_hpp",
+    "currency": "UAH",
+    "flow": "hpp",
+    "method": "ecopayz",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "code": "ecopayz_rub_hpp",
+    "currency": "RUB",
+    "flow": "hpp",
+    "method": "ecopayz",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "code": "ecopayz_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "ecopayz",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "code": "ecopayz_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "ecopayz",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "code": "ecopayz_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "ecopayz",
+    "amount_min": 0.01,
+    "amount_max": 999999
   }
 ]
