@@ -467,7 +467,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 14999
+    "amount_max": 14900
   },
   {
     "code": "advcash_wallet_rub",
@@ -37371,7 +37371,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 14999
+    "amount_max": 14900
   },
   {
     "code": "skrill_eur",
@@ -57027,5 +57027,38 @@
     ],
     "amount_min": "1.00",
     "amount_max": "14999.00"
+  },
+  {
+    "code": "card_pay_payment_card",
+    "method": "payment_card",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "John"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 14900
   }
 ]
