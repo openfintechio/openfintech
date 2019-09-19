@@ -15364,5 +15364,20 @@
     "payment_method": [
       "paysafecard"
     ]
+  },
+  {
+    "code": "ecopayz",
+    "vendor": "ecopayz",
+    "name": {
+      "en": "Ecopayz",
+      "ru": "Ecopayz",
+      "uk": "Ecopayz"
+    },
+    "payment_method": [
+      "ecopayz"
+    ],
+    "payout_method": [
+      "ecopayz"
+    ]
   }
 ]
