@@ -15379,5 +15379,17 @@
     "payout_method": [
       "ecopayz"
     ]
+  },
+  {
+    "code": "paymentwall",
+    "vendor": "paymentwall",
+    "name": {
+      "en": "paymentwall",
+      "ru": "paymentwall",
+      "uk": "paymentwall"
+    },
+    "payment_method": [
+      "paymentwall"
+    ]
   }
 ]
