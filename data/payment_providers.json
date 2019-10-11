@@ -15391,5 +15391,17 @@
     "payment_method": [
       "paymentwall"
     ]
+  },
+  {
+    "code": "wlandpay",
+    "vendor": "wlandpay",
+    "name": {
+      "en": "Wlandpay",
+      "ru": "Wlandpay",
+      "uk": "Wlandpay"
+    },
+    "payment_method": [
+      "wlandpay"
+    ]
   }
 ]
