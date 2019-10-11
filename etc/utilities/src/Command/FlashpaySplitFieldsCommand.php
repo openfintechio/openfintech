@@ -7,13 +7,15 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Cocur\Slugify\Slugify;
 
-class ParserCommand extends Command
-{
-    protected static $defaultName = 'app:parse';
 
-    private const PAYOUT_JSON_PATH = __DIR__ . '/../../../../data/payout_services.json';
+class FlashpaySplitFieldsCommand extends Command
+{
+    protected static $defaultName = 'flashpay:split-fields';
+
+    private const PAYOUT_SERVICES_JSON_PATH = __DIR__ . '/../../../../data/payout_services.json';
     private const HASH = '#';
     private const DOT = '.';
+    private const CLIENT_ID = 'client_id';
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
@@ -30,19 +32,17 @@ class ParserCommand extends Command
 
             $serviceFields = $service['fields'] ?? null;
 
-            if($serviceFields !== null && count($serviceFields) === 1 && $serviceFields[0]['key'] === 'client_id') {
+            if($serviceFields !== null && count($serviceFields) === 1 && $serviceFields[0]['key'] === self::CLIENT_ID) {
 
                 $delimiter = $this->getServiceFieldsDelimiter($serviceFields[0]);
 
                 if($delimiter !== null) {
-
                     $service['fields'] = $this->getFieldsFromString($serviceFields[0], $delimiter);
                     $service['field_delimiter'] = $delimiter;
                     $services[$key] = $service;
                     $count++;
                 }
             }
-
         }
 
         $this->save($services);
@@ -55,7 +55,7 @@ class ParserCommand extends Command
         $example = $field['example'] ?? null;
         $ruLabel = $field['label']['ru'] ?? null;
 
-        if(strpos($example, self::HASH) !== false || strpos($ruLabel, self::HASH) !== false) {
+        if(strpos($example, self::HASH) !== false && strpos($ruLabel, self::HASH) !== false) {
             return self::HASH;
         }
 
@@ -70,7 +70,7 @@ class ParserCommand extends Command
     {
         $fields = [];
 
-        $explodedFields = $this->getLabelsFromString($serviceFields['label'], $delimiter);
+        $explodedFields = $this->getLabelsFromString($serviceFields['label'], $delimiter, $serviceFields['example']);
 
         foreach($explodedFields as $position => $explodedField) {
             $fields[] = [
@@ -81,21 +81,22 @@ class ParserCommand extends Command
                     'ru' => $explodedField['ru'],
                     'uk' => $explodedField['uk'],
                 ],
+                'regexp' => $serviceFields['regexp'],
+                'required' => $serviceFields['required'],
+                'position' => ++$position,
                 'hint' => [
                     'en' => $explodedField['en'],
                     'ru' => $explodedField['ru'],
                     'uk' => $explodedField['uk'],
                 ],
-                'regexp' => $serviceFields['regexp'],
-                'required' => $serviceFields['required'],
-                'position' => ++$position
+                //'example' => $explodedField['example'],
             ];
         }
 
         return $fields;
     }
 
-    private function getLabelsFromString(array $labels, string $delimiter): array
+    private function getLabelsFromString(array $labels, string $delimiter, string $examples): array
     {
         $slugify = new Slugify(['separator' => '_']);
         $explodedLabels = [];
@@ -103,6 +104,7 @@ class ParserCommand extends Command
         $labelEn = explode($delimiter, $labels['en']);
         $labelRu = explode($delimiter, $labels['ru']);
         $labelUk = explode($delimiter, $labels['uk']);
+        $example = explode($delimiter, $examples);
 
         $count = count($labelEn);
 
@@ -112,6 +114,7 @@ class ParserCommand extends Command
                 'en' => trim($labelEn[$i]),
                 'ru' => trim($labelRu[$i]),
                 'uk' => trim($labelUk[$i]),
+                //'example' => $example[$i],
             ];
         }
 
@@ -120,21 +123,24 @@ class ParserCommand extends Command
 
     private function isEmail(?string $str): bool
     {
-        return preg_match('/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/m', $str);
+        return preg_match('/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/m', $str) ? true : false;
     }
 
-    private function getServices()
+    private function getServices(): array
     {
-        $json = file_get_contents(self::PAYOUT_JSON_PATH);
+        $json = file_get_contents(self::PAYOUT_SERVICES_JSON_PATH);
 
-        return json_decode($json, true);
+        return json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
     }
 
     private function save(array $services): void
     {
-        $fp = fopen(self::PAYOUT_JSON_PATH, 'wb');
-        fwrite($fp, json_encode($services, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT));
+        $json = preg_replace_callback ('/^ +/m', static function ($m) {
+            return str_repeat (' ', strlen ($m[0]) / 2);
+        }, json_encode ($services, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT|JSON_PRESERVE_ZERO_FRACTION));
+
+        $fp = fopen(self::PAYOUT_SERVICES_JSON_PATH, 'wb');
+        fwrite($fp, $json);
         fclose($fp);
     }
-
 }
