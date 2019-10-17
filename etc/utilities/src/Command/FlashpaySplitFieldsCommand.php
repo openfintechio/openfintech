@@ -16,12 +16,12 @@ class FlashpaySplitFieldsCommand extends Command
     private const HASH = '#';
     private const DOT = '.';
     private const SLASH = '/';
-    private const CLIENT_ID = 'client_id';
+    private const CLIENT_ID = 'client_id'; // flashpay service field key
 
     /** @var array */
     private $hardcoded = [
         'uk-zapadnaia-g-mariupol_uah' => [self::DOT, self::SLASH],
-        'zhkp-zhitlo-tsentr_uah' => [self::DOT], // bad example
+        'zhkp-zhitlo-tsentr_uah' => [self::DOT, self::DOT], // bad example
     ];
 
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -36,15 +36,13 @@ class FlashpaySplitFieldsCommand extends Command
         $count = 0;
 
         foreach($services as $key => $service) {
-
             $serviceFields = $service['fields'] ?? null;
 
+            // select flashpay services
             if($serviceFields !== null && count($serviceFields) === 1 && $serviceFields[0]['key'] === self::CLIENT_ID) {
-
                 $delimiters = $this->getServiceFieldsDelimiters($service['code'], $serviceFields[0]);
 
                 if(count($delimiters) !== 0) {
-
                     $service['fields'] = $this->getFieldsFromString($serviceFields[0], $delimiters);
                     $service['field_delimiters'] = $delimiters;
 
@@ -70,19 +68,13 @@ class FlashpaySplitFieldsCommand extends Command
 
         $delimiter = $this->getMainDelimiter($ruLabel, $example);
 
-        if($delimiter !== null) {
-            $delimitersArr = [];
-
-            $count = substr_count($ruLabel, $delimiter);
-
-            for($i = 0; $i < $count; $i++) {
-                $delimitersArr[] = $delimiter;
-            }
-
-            return $delimitersArr;
+        if ($delimiter === null) {
+            return [];
         }
 
-        return [];
+        $count = substr_count($ruLabel, $delimiter);
+
+        return array_fill(0, $count, $delimiter);
     }
 
     private function getMainDelimiter(string $ruLabel, ?string $example): ?string
@@ -109,7 +101,7 @@ class FlashpaySplitFieldsCommand extends Command
         $explodedFields = $this->getLabelsFromString($serviceFields['label'], $delimiters, $serviceFields['example'] ?? '');
 
         foreach($explodedFields as $position => $explodedField) {
-            $fields[] = [
+            $field = [
                 'key' => $explodedField['key'],
                 'type' => $serviceFields['type'],
                 'label' => [
@@ -125,8 +117,14 @@ class FlashpaySplitFieldsCommand extends Command
                     'ru' => $explodedField['ru'],
                     'uk' => $explodedField['uk'],
                 ],
-                'example' => $explodedField['example'],
+
             ];
+
+            if (isset($explodedField['example'])) {
+                $field['example'] = $explodedField['example'];
+            }
+
+            $fields[] = $field;
         }
 
         return $fields;
@@ -135,9 +133,14 @@ class FlashpaySplitFieldsCommand extends Command
     private function getLabelsFromString(array $labels, array $delimiters, string $examples): array
     {
         $slugify = new Slugify(['separator' => '_']);
+
         $explodedLabels = [];
 
-        $pattern_part = (in_array(self::DOT, $delimiters, true)) ? '([0-9A-zА-яёЁЇїІіЄєҐґ№,\-()\s]+)' : '([0-9A-zА-яёЁЇїІіЄєҐґ№.,\-()\s]+)';
+        // two patterns differ only with `.`
+        $pattern_part = (in_array(self::DOT, $delimiters, true))
+            ? '([0-9A-zА-яёЁЇїІіЄєҐґ№,\-()\s]+)'
+            : '([0-9A-zА-яёЁЇїІіЄєҐґ№.,\-()\s]+)';
+
         $pattern = '/' . $pattern_part;
 
         foreach($delimiters as $delimiter) {
@@ -149,26 +152,29 @@ class FlashpaySplitFieldsCommand extends Command
         $labelEn = $this->getArrayFromString($labels['en'], $pattern);
         $labelRu = $this->getArrayFromString($labels['ru'], $pattern);
         $labelUk = $this->getArrayFromString($labels['uk'], $pattern);
-        $example = $this->getArrayFromString($examples, $pattern);
+        $exampleList = $this->getArrayFromString($examples, $pattern);
 
-        $countLabel = count($labelEn);
+        $labelCount = count($labelEn);
 
-        if ($countLabel !== count($example)) {
-            $firstExample = $example[0] ?? '';
-
-            for ($i = 0; $i < $countLabel; $i++) {
-                $example[$i] = $firstExample;
-            }
+        if ($labelCount !== count($exampleList)) {
+            $firstExample = $exampleList[0] ?? '';
+            $exampleList = array_fill(0, $labelCount, $firstExample);
         }
 
-        for ($i = 0; $i < $countLabel; $i++) {
-            $explodedLabels[$i] = [
+        for ($i = 0; $i < $labelCount; $i++) {
+            $explodedLabel = [
                 'key' => $slugify->slugify(trim($labelEn[$i])),
                 'en' => trim($labelEn[$i]),
                 'ru' => trim($labelRu[$i]),
                 'uk' => trim($labelUk[$i]),
-                'example' => $example[$i],
             ];
+
+            $example = '' !== $exampleList[$i] ? $exampleList[$i] : $examples;
+            if ('' !== $example) {
+                $explodedLabel['example'] = $example;
+            }
+
+            $explodedLabels[$i] = $explodedLabel;
         }
 
         return $explodedLabels;
@@ -214,7 +220,7 @@ class FlashpaySplitFieldsCommand extends Command
 
     private function save(array $services): void
     {
-        $json = preg_replace_callback ('/^ +/m', static function ($m) {
+        $json = preg_replace_callback ('/^ +/m', function ($m) {
             return str_repeat (' ', strlen ($m[0]) / 2);
         }, json_encode ($services, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT|JSON_PRESERVE_ZERO_FRACTION));
 
@@ -223,12 +229,14 @@ class FlashpaySplitFieldsCommand extends Command
         fclose($fp);
     }
 
-    private function formatFloatValues($float) {
+    private function formatFloatValues($float): string
+    {
         $parts = explode('E', $float);
 
         if(count($parts) === 2){
             $exp = abs(end($parts)) + strlen($parts[0]);
             $decimal = number_format($float, $exp);
+
             return rtrim($decimal, '.0');
         }
 
