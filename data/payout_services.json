@@ -28915,7 +28915,7 @@
     "method": "paypal",
     "currency": "RUB",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 50000,
     "fields": [
       {
         "key": "email",
@@ -29123,7 +29123,7 @@
     "method": "paypal",
     "currency": "RUB",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 50000,
     "fields": [
       {
         "key": "phone",
@@ -29331,7 +29331,7 @@
     "method": "paypal",
     "currency": "RUB",
     "amount_min": 0.01,
-    "amount_max": 10000,
+    "amount_max": 50000,
     "fields": [
       {
         "key": "paypal_id",
