@@ -58,7 +58,7 @@
           "uk": "Прізвище"
         },
         "hint": {
-          "en": "Enter ast name",
+          "en": "Enter last name",
           "ru": "Введите фамилию",
           "uk": "Введіть прізвище"
         },
@@ -2667,6 +2667,59 @@
   {
     "code": "ecopayz_usd_hpp",
     "currency": "USD",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя",
+          "uk": "Ім`я"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя",
+          "uk": "Введіть ім`я"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию",
+          "uk": "Введіть прізвище"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
@@ -2675,6 +2728,59 @@
   {
     "code": "ecopayz_eur_hpp",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя",
+          "uk": "Ім`я"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя",
+          "uk": "Введіть ім`я"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию",
+          "uk": "Введіть прізвище"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
@@ -2683,6 +2789,59 @@
   {
     "code": "ecopayz_uah_hpp",
     "currency": "UAH",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя",
+          "uk": "Ім`я"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя",
+          "uk": "Введіть ім`я"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию",
+          "uk": "Введіть прізвище"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
@@ -2691,6 +2850,59 @@
   {
     "code": "ecopayz_rub_hpp",
     "currency": "RUB",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя",
+          "uk": "Ім`я"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя",
+          "uk": "Введіть ім`я"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию",
+          "uk": "Введіть прізвище"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
@@ -2699,6 +2911,59 @@
   {
     "code": "ecopayz_gbp_hpp",
     "currency": "GBP",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя",
+          "uk": "Ім`я"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя",
+          "uk": "Введіть ім`я"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию",
+          "uk": "Введіть прізвище"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
@@ -2707,6 +2972,59 @@
   {
     "code": "ecopayz_aud_hpp",
     "currency": "AUD",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя",
+          "uk": "Ім`я"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя",
+          "uk": "Введіть ім`я"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию",
+          "uk": "Введіть прізвище"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
@@ -2715,6 +3033,59 @@
   {
     "code": "ecopayz_cad_hpp",
     "currency": "CAD",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя",
+          "uk": "Ім`я"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя",
+          "uk": "Введіть ім`я"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию",
+          "uk": "Введіть прізвище"
+        },
+        "regexp": "\/^[a-zA-Zа-яА-Я]{0,255}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
