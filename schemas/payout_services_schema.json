@@ -63,7 +63,7 @@
               "$id": "#/items/properties/fields/items/properties/key",
               "type": "string",
               "title": "The Key Schema",
-              "pattern": "^([a-zA-Z0-9]+)([a-zA-Z0-9-_\\.]+)([a-zA-Z0-9]+)$",
+              "pattern": "^([a-zA-Z0-9-_\\.]+)$",
               "examples": [
                 "phone"
               ]
