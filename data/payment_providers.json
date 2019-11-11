@@ -2804,6 +2804,10 @@
     "payment_method": [
       "payment_card",
       "payment_card_email"
+    ],
+    "payout_method": [
+      "payment_card",
+      "mpesa_wallet"
     ]
   },
   {
@@ -15389,7 +15393,7 @@
       "uk": "paymentwall"
     },
     "payment_method": [
-      "paymentwall"
+      "payment_card"
     ]
   },
   {
