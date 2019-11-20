@@ -15432,5 +15432,17 @@
     "payment_method": [
       "exactly"
     ]
+  },
+  {
+    "code": "xpate",
+    "vendor": "xpate",
+    "name": {
+      "en": "Xpate",
+      "ru": "Xpate",
+      "uk": "Xpate"
+    },
+    "payment_method": [
+      "xpate"
+    ]
   }
 ]
