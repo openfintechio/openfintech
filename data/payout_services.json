@@ -336,8 +336,8 @@
         "position": 1
       }
     ],
-    "amount_min": "10",
-    "amount_max": "100000"
+    "amount_min": "0.01",
+    "amount_max": "1000000"
   },
   {
     "code": "qiwi_usd",
@@ -362,8 +362,8 @@
         "position": 1
       }
     ],
-    "amount_min": "1",
-    "amount_max": "10000"
+    "amount_min": "0.01",
+    "amount_max": "100000"
   },
   {
     "code": "qiwi_eur",
@@ -389,7 +389,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "10000"
+    "amount_max": "1000000"
   },
   {
     "code": "qiwi_uah",
