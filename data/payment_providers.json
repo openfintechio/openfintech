@@ -936,6 +936,22 @@
     }
   },
   {
+    "code": "qiwi",
+    "vendor": "qiwi",
+    "categories": [
+      "aggregating"
+    ],
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Qiwi"
+    }
+  },
+  {
     "code": "credorax",
     "vendor": "credorax",
     "countries": [
@@ -14844,10 +14860,10 @@
       "en": "Paymega.io"
     },
     "payment_method": [
-      "payment_card"      
+      "payment_card"
     ],
     "payout_method": [
-      "payment_card"      
+      "payment_card"
     ]
   },
   {
@@ -15183,6 +15199,9 @@
       "yandexmoney",
       "alfaclick",
       "smsbilling",
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ]
   },
