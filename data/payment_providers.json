@@ -15444,5 +15444,17 @@
     "payment_method": [
       "xpate"
     ]
+  },
+  {
+    "code": "dotpay",
+    "vendor": "dotpay",
+    "name": {
+      "en": "Dotpay",
+      "ru": "Dotpay",
+      "uk": "Dotpay"
+    },
+    "payout_method": [
+      "dotpay"
+    ]
   }
 ]
