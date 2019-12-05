@@ -15456,5 +15456,17 @@
     "payout_method": [
       "banktransfer"
     ]
+  },
+  {
+    "code": "cypix",
+    "vendor": "cypix",
+    "name": {
+      "en": "Cypix",
+      "ru": "Cypix",
+      "uk": "Cypix"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
