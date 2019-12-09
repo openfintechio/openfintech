@@ -63496,8 +63496,8 @@
     "amount_max": "14999.00"
   },
   {
-    "code": "dotpay_usd",
-    "method": "dotpay",
+    "code": "banktransfer_usd",
+    "method": "banktransfer",
     "currency": "USD",
     "fields": [
       {
@@ -63530,8 +63530,8 @@
     "amount_max": "14999.00"
   },
   {
-    "code": "dotpay_eur",
-    "method": "dotpay",
+    "code": "banktransfer_eur",
+    "method": "banktransfer",
     "currency": "EUR",
     "fields": [
       {
@@ -63564,8 +63564,8 @@
     "amount_max": "14999.00"
   },
   {
-    "code": "dotpay_gbp",
-    "method": "dotpay",
+    "code": "banktransfer_gbp",
+    "method": "banktransfer",
     "currency": "GBP",
     "fields": [
       {
@@ -63598,8 +63598,8 @@
     "amount_max": "14999.00"
   },
   {
-    "code": "dotpay_pln",
-    "method": "dotpay",
+    "code": "banktransfer_pln",
+    "method": "banktransfer",
     "currency": "PLN",
     "fields": [
       {
@@ -63632,8 +63632,8 @@
     "amount_max": "50000"
   },
   {
-    "code": "dotpay_rub",
-    "method": "dotpay",
+    "code": "banktransfer_rub",
+    "method": "banktransfer",
     "currency": "RUB",
     "fields": [
       {
@@ -63666,8 +63666,8 @@
     "amount_max": "150000.00"
   },
   {
-    "code": "dotpay_uah",
-    "method": "dotpay",
+    "code": "banktransfer_uah",
+    "method": "banktransfer",
     "currency": "UAH",
     "fields": [
       {
