@@ -2804,6 +2804,10 @@
     "payment_method": [
       "payment_card",
       "payment_card_email"
+    ],
+    "payout_method": [
+      "payment_card",
+      "mpesa_wallet"
     ]
   },
   {
@@ -14850,6 +14854,19 @@
     ]
   },
   {
+    "code": "twelvelive",
+    "vendor": "twelvelive",
+    "name": {
+      "en": "Twelve.live"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
     "code": "payeer",
     "vendor": "payeer",
     "payment_method": [
@@ -15378,6 +15395,78 @@
     ],
     "payout_method": [
       "ecopayz"
+    ]
+  },
+  {
+    "code": "paymentwall",
+    "vendor": "paymentwall",
+    "name": {
+      "en": "paymentwall",
+      "ru": "paymentwall",
+      "uk": "paymentwall"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "wlandpay",
+    "vendor": "wlandpay",
+    "name": {
+      "en": "Wlandpay",
+      "ru": "Wlandpay",
+      "uk": "Wlandpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "exactly",
+    "vendor": "exactly",
+    "name": {
+      "en": "Exactly",
+      "ru": "Exactly",
+      "uk": "Exactly"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "xpate",
+    "vendor": "xpate",
+    "name": {
+      "en": "Xpate",
+      "ru": "Xpate",
+      "uk": "Xpate"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "dotpay",
+    "vendor": "dotpay",
+    "name": {
+      "en": "Dotpay",
+      "ru": "Dotpay",
+      "uk": "Dotpay"
+    },
+    "payout_method": [
+      "banktransfer"
+    ]
+  },
+  {
+    "code": "cypix",
+    "vendor": "cypix",
+    "name": {
+      "en": "Cypix",
+      "ru": "Cypix",
+      "uk": "Cypix"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]
