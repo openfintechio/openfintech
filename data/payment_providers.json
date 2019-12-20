@@ -1374,9 +1374,6 @@
   {
     "code": "paybox",
     "vendor": "paybox",
-    "payment_method": [
-      "paybox"
-    ],
     "name": {
       "en": "Paybox"
     },
@@ -1404,7 +1401,7 @@
     "code": "123x",
     "vendor": "123x",
     "payment_method": [
-      "bank_card"
+      "payment_card"
     ],
     "name": {
       "en": "123x"
@@ -15466,6 +15463,22 @@
       "uk": "Cypix"
     },
     "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "paysoft",
+    "vendor": "softlogic",
+    "name": {
+      "en": "PaySoft Inc.",
+      "ru": "PaySoft Inc.",
+      "uk": "PaySoft Inc."
+    },
+    "countries": [
+      "UA",
+      "RU"
+    ],
+    "payout_method": [
       "payment_card"
     ]
   }
