@@ -63731,5 +63731,86 @@
     ],
     "amount_min": "0.01",
     "amount_max": "99999.00"
+  },
+  {
+    "code": "muchbetter_usd",
+    "method": "muchbetter",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "id_value",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "muchbetter_eur",
+    "method": "muchbetter",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "id_value",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "muchbetter_gbp",
+    "method": "muchbetter",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "id_value",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
   }
 ]
