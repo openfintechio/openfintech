@@ -15387,13 +15387,16 @@
   },
   {
     "code": "paysafecard",
-    "vendor": "paysafecard",
+    "vendor": "optimalpayments",
     "name": {
       "en": "Paysafecard",
       "ru": "Paysafecard",
       "uk": "Paysafecard"
     },
     "payment_method": [
+      "paysafecard"
+    ],
+    "payout_method": [
       "paysafecard"
     ]
   },

@@ -63991,5 +63991,248 @@
     ],
     "amount_min": "1",
     "amount_max": "99999.00"
+  },
+  {
+    "code": "paysafecard_usd",
+    "method": "paysafecard",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "psc_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Аккаунт ID",
+          "uk": "Аккаунт ID"
+        },
+        "hint": {
+          "en": "enter account ID",
+          "ru": "Введите аккаунт ID",
+          "uk": "Введіть аккаунт ID"
+        },
+        "example": "447624222721",
+        "regexp": "\/^\\d{1,12}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "example": "1996-10-20",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Max",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Shipping last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping last name",
+          "ru": "Введите фамилия получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Power",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "paysafecard_eur",
+    "method": "paysafecard",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "psc_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Аккаунт ID",
+          "uk": "Аккаунт ID"
+        },
+        "hint": {
+          "en": "enter account ID",
+          "ru": "Введите аккаунт ID",
+          "uk": "Введіть аккаунт ID"
+        },
+        "example": "447624222721",
+        "regexp": "\/^\\d{1,12}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "example": "1996-10-20",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Max",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Shipping last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping last name",
+          "ru": "Введите фамилия получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Power",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "paysafecard_gbp",
+    "method": "paysafecard",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "psc_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Аккаунт ID",
+          "uk": "Аккаунт ID"
+        },
+        "hint": {
+          "en": "enter account ID",
+          "ru": "Введите аккаунт ID",
+          "uk": "Введіть аккаунт ID"
+        },
+        "example": "447624222721",
+        "regexp": "\/^\\d{1,12}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "example": "1996-10-20",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Max",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Shipping last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping last name",
+          "ru": "Введите фамилия получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Power",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
   }
 ]
