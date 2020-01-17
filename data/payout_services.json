@@ -38792,7 +38792,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{11}$\/",
+        "regexp": "\/^[0-9]{3,20}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -38997,7 +38997,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{10}$\/",
+        "regexp": "\/^[0-9]{3,20}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39159,7 +39159,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{8,9}$\/",
+        "regexp": "\/^[0-9]{3,20}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39253,7 +39253,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{8,9}$\/",
+        "regexp": "\/^[0-9]{3,20}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
