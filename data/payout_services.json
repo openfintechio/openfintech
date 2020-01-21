@@ -38792,7 +38792,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{3,20}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -38997,7 +38997,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{3,20}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39176,7 +39176,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{3,20}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39287,7 +39287,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{3,20}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39403,6 +39403,117 @@
         "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
         "required": false,
         "position": 7
+      }
+    ]
+  },
+  {
+    "code": "dlocal_pe_sol",
+    "method": "dlocal",
+    "currency": "SOL",
+    "amount_min": "0.01",
+    "amount_max": "100000",
+    "fields": [
+      {
+        "key": "document_id",
+        "regexp": "\/^[0-9]{8,14}$\/",
+        "type": "string",
+        "label": {
+          "en": "Document ID",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter Document ID",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        },
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "document_type",
+        "regexp": "/^[0-9]{8,11}$/",
+        "type": "string",
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        },
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "position": 3,
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": true
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "bank_account",
+        "type": "string",
+        "regexp": "\/^[0-9]{4,18}$\/",
+        "label": {
+          "en": "Bank Account",
+          "ru": "Номер банковского счета",
+          "uk": "Номер банківського рахунку"
+        },
+        "hint": {
+          "en": "Enter bank account",
+          "ru": "Введите номер банковского счета",
+          "uk": "Введіть номер банківського рахунку"
+        },
+        "position": 5,
+        "required": true
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        },
+        "position": 6,
+        "required": true
       }
     ]
   },
