@@ -3096,7 +3096,7 @@
     "currency": "USD",
     "fields": [
       {
-        "key": "id_value",
+        "key": "phone",
         "type": "string",
         "label": {
           "en": "Phone number",
@@ -3124,7 +3124,7 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "id_value",
+        "key": "phone",
         "type": "string",
         "label": {
           "en": "Phone number",
@@ -3152,7 +3152,7 @@
     "currency": "GBP",
     "fields": [
       {
-        "key": "id_value",
+        "key": "phone",
         "type": "string",
         "label": {
           "en": "Phone number",
