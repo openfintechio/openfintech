@@ -64234,5 +64234,32 @@
     ],
     "amount_min": "1",
     "amount_max": "99999.00"
+  },
+  {
+  "code": "ecobanq_inr",
+  "method": "ecobanq",
+  "currency": "INR",
+  "fields": [
+    {
+      "key": "user_id",
+      "type": "string",
+      "label": {
+        "en": "user ID",
+        "ru": "user ID",
+        "uk": "user ID"
+      },
+      "hint": {
+        "en": "Enter user ID",
+        "ru": "Введите user ID",
+        "uk": "Введіть user ID"
+      },
+      "example": "Q123456",
+      "regexp": "\/^[Q]\\d{6}$\/",
+      "required": true,
+      "position": 1
+    }
+  ],
+  "amount_min": "0.01",
+  "amount_max": "99999.00"
   }
 ]

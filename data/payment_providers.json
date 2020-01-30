@@ -15529,5 +15529,20 @@
       "ru": "WinPay",
       "uk": "WinPay"
     }
+  },
+  {
+    "code": "ecobanq",
+    "vendor": "ecobanq",
+    "name": {
+      "en": "Ecobanq",
+      "ru": "Ecobanq",
+      "uk": "Ecobanq"
+    },
+    "payment_method": [
+      "ecobanq"
+    ],
+    "payout_method": [
+      "ecobanq"
+    ]
   }
 ]
