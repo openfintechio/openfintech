@@ -3158,5 +3158,51 @@
     "method": "muchbetter",
     "amount_min": 0.01,
     "amount_max": 999999
+  },
+  {
+    "code": "ecobanq_inr_transfer",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "user_id",
+        "type": "string",
+        "label": {
+          "en": "user ID",
+          "ru": "user ID",
+          "uk": "user ID"
+        },
+        "hint": {
+          "en": "Enter user ID",
+          "ru": "Введите user ID",
+          "uk": "Введіть user ID"
+        },
+        "example": "Q123456",
+        "regexp": "\/^[Q]\\d{6}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "password",
+        "type": "string",
+        "label": {
+          "en": "Password",
+          "ru": "Password",
+          "uk": "Password"
+        },
+        "hint": {
+          "en": "Enter password",
+          "ru": "Введите пароль",
+          "uk": "Введіть пароль"
+        },
+        "example": "password",
+        "regexp": "\/^\\S{1,255}$\/",
+        "required": true,
+        "position": 2
+      }
+    ],
+    "flow": "transfer",
+    "method": "ecobanq",
+    "amount_min": 0.01,
+    "amount_max": 999999
   }
 ]
