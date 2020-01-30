@@ -3195,7 +3195,7 @@
           "uk": "Введіть пароль"
         },
         "example": "password",
-        "regexp": "\/^\\S{1,255}$\/",
+        "regexp": "\/^.{1,255}$\/",
         "required": true,
         "position": 2
       }
