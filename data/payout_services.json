@@ -63474,6 +63474,231 @@
     "amount_max": "14999.00"
   },
   {
+    "code": "rapyd_mxn",
+    "method": "rapyd",
+    "currency": "MXN",
+    "fields": [
+      {
+        "key": "beneficiary_payment_type",
+        "type": "string",
+        "label": {
+          "en": "Payment type",
+          "ru": "Payment type",
+          "uk": "Payment type"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Payment type",
+          "ru": "Payment type",
+          "uk": "Payment type"
+        },
+        "example": "100000000393#10"
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "label": {
+          "en": "State",
+          "ru": "State",
+          "uk": "State"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 2,
+        "hint": {
+          "en": "Enter state",
+          "ru": "Enter state",
+          "uk": "Enter state"
+        },
+        "example": "State"
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "label": {
+          "en": "Postcode",
+          "ru": "Postcode",
+          "uk": "Postcode"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 3,
+        "hint": {
+          "en": "Enter postcode",
+          "ru": "Enter postcode",
+          "uk": "Enter postcode"
+        },
+        "example": "postcode"
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 4,
+        "hint": {
+          "en": "Enter address",
+          "ru": "Enter address",
+          "uk": "Enter address"
+        },
+        "example": "Volodumurska 17"
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "City",
+          "uk": "City"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 5,
+        "hint": {
+          "en": "Enter city",
+          "ru": "Enter city",
+          "uk": "Enter city"
+        },
+        "example": "London"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "First name",
+          "uk": "First name"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 6,
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Enter first name",
+          "uk": "Enter first name"
+        },
+        "example": "Joe"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Last name",
+          "uk": "Last name"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 7,
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Enter last name",
+          "uk": "Enter last name"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "beneficiary_bic_swift",
+        "type": "string",
+        "label": {
+          "en": "Bic swift",
+          "ru": "Bic swift",
+          "uk": "Bic swift"
+        },
+        "regexp": "\/^[0-9A-Z]{8}$|^[0-9A-Z]{11}$\/",
+        "required": true,
+        "position": 8,
+        "hint": {
+          "en": "Enter bic swift",
+          "ru": "Enter bic swift",
+          "uk": "Enter bic swift"
+        },
+        "example": "100000000393#10"
+      },
+      {
+        "key": "beneficiary_clabe",
+        "type": "string",
+        "label": {
+          "en": "Clabe",
+          "ru": "Clabe",
+          "uk": "Clabe"
+        },
+        "regexp": "\/^\\d{18}$\/",
+        "required": true,
+        "position": 9,
+        "hint": {
+          "en": "Enter clabe",
+          "ru": "Enter clabe",
+          "uk": "Enter clabe"
+        },
+        "example": "111111111111111111"
+      },
+      {
+        "key": "sender_city",
+        "type": "string",
+        "label": {
+          "en": "Sender city",
+          "ru": "Sender city",
+          "uk": "Sender city"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 10,
+        "hint": {
+          "en": "Enter sender city",
+          "ru": "Enter sender city",
+          "uk": "Enter sender city"
+        },
+        "example": "London"
+      },
+      {
+        "key": "sender_address",
+        "type": "string",
+        "label": {
+          "en": "Sender address",
+          "ru": "Sender address",
+          "uk": "Sender address"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 11,
+        "hint": {
+          "en": "Enter sender address",
+          "ru": "Enter sender address",
+          "uk": "Enter sender address"
+        },
+        "example": "Volodumurska 17"
+      },
+      {
+        "key": "sender_name",
+        "type": "string",
+        "label": {
+          "en": "Sender name",
+          "ru": "Sender name",
+          "uk": "Sender name"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 12,
+        "hint": {
+          "en": "Enter sender name",
+          "ru": "Enter sender name",
+          "uk": "Enter sender name"
+        },
+        "example": "Joe"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "14999.00"
+  },
+  {
     "code": "mpesa_wallet",
     "method": "mpesa_wallet",
     "currency": "KES",
