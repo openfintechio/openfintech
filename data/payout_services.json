@@ -364,7 +364,7 @@
           "ru": "Введите номер телефона Qiwi кошелька",
           "uk": "Введіть номер телефону Qiwi гаманця"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^\\+\\d{10,14}$\/",
         "required": true,
         "position": 1
       }
@@ -390,7 +390,7 @@
           "ru": "Введите номер телефона Qiwi кошелька",
           "uk": "Введіть номер телефону Qiwi гаманця"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^\\+\\d{10,14}$\/",
         "required": true,
         "position": 1
       }
@@ -416,7 +416,7 @@
           "ru": "Введите номер телефона Qiwi кошелька",
           "uk": "Введіть номер телефону Qiwi гаманця"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^\\+\\d{10,14}$\/",
         "required": true,
         "position": 1
       }
@@ -442,7 +442,7 @@
           "ru": "Введите номер телефона Qiwi кошелька",
           "uk": "Введіть номер телефону Qiwi гаманця"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^\\+\\d{10,14}$\/",
         "required": true,
         "position": 1
       }
@@ -468,7 +468,7 @@
           "ru": "Введите номер телефона Qiwi кошелька",
           "uk": "Введіть номер телефону Qiwi гаманця"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^\\+\\d{10,14}$\/",
         "required": true,
         "position": 1
       }
@@ -38870,7 +38870,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{11}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39010,7 +39010,7 @@
           "uk": "Введіть код філії банку"
         },
         "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -39027,7 +39027,7 @@
           "ru": "Введите тип аккаунта",
           "uk": "Введіть тип акаунту"
         },
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -39075,7 +39075,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{10}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39225,6 +39225,23 @@
         "regexp": "\/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$\/",
         "position": 10,
         "required": true
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Телефон",
+          "uk": "Телефон"
+        },
+        "hint": {
+          "en": "Enter phone",
+          "ru": "Введите телефон",
+          "uk": "Введіть телефон"
+        },
+        "regexp": "\/^\\+?[-\\d]{9,32}$\/",
+        "required": true,
+        "position": 11
       }
     ]
   },
@@ -39237,7 +39254,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{8,9}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39319,6 +39336,23 @@
         "position": 6,
         "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
         "required": true
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -39331,7 +39365,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{8,9}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39349,7 +39383,7 @@
       {
         "key": "bank_account",
         "type": "string",
-        "regexp": "\/^[0-9]{4,18}$\/",
+        "regexp": "\/^[0-9\\-]{4,18}$\/",
         "label": {
           "en": "Bank Account",
           "ru": "Номер банковского счета",
@@ -39379,6 +39413,23 @@
         },
         "position": 3,
         "required": true
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Филиал банка",
+          "uk": "Філія банку"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите код филиала банка",
+          "uk": "Введіть код філії банку"
+        },
+        "regexp": "\/^[A-Z,a-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 4
       },
       {
         "key": "account_type",
@@ -39412,6 +39463,134 @@
         },
         "position": 6,
         "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": true
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": false,
+        "position": 7
+      }
+    ]
+  },
+  {
+    "code": "dlocal_pe_pen",
+    "method": "dlocal",
+    "currency": "PEN",
+    "amount_min": "0.01",
+    "amount_max": "100000",
+    "fields": [
+      {
+        "key": "document_id",
+        "regexp": "\/^[0-9]{8,14}$\/",
+        "type": "string",
+        "label": {
+          "en": "Document ID",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter Document ID",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        },
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "document_type",
+        "regexp": "/^[0-9]{8,11}$/",
+        "type": "string",
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        },
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "position": 3,
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": true
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "bank_account",
+        "type": "string",
+        "regexp": "\/^[0-9]{4,18}$\/",
+        "label": {
+          "en": "Bank Account",
+          "ru": "Номер банковского счета",
+          "uk": "Номер банківського рахунку"
+        },
+        "hint": {
+          "en": "Enter bank account",
+          "ru": "Введите номер банковского счета",
+          "uk": "Введіть номер банківського рахунку"
+        },
+        "position": 5,
+        "required": true
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        },
+        "position": 6,
         "required": true
       }
     ]
@@ -63373,6 +63552,231 @@
     "amount_max": "14999.00"
   },
   {
+    "code": "rapyd_mxn",
+    "method": "rapyd",
+    "currency": "MXN",
+    "fields": [
+      {
+        "key": "beneficiary_payment_type",
+        "type": "string",
+        "label": {
+          "en": "Payment type",
+          "ru": "Payment type",
+          "uk": "Payment type"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Payment type",
+          "ru": "Payment type",
+          "uk": "Payment type"
+        },
+        "example": "100000000393#10"
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "label": {
+          "en": "State",
+          "ru": "State",
+          "uk": "State"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 2,
+        "hint": {
+          "en": "Enter state",
+          "ru": "Enter state",
+          "uk": "Enter state"
+        },
+        "example": "State"
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "label": {
+          "en": "Postcode",
+          "ru": "Postcode",
+          "uk": "Postcode"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 3,
+        "hint": {
+          "en": "Enter postcode",
+          "ru": "Enter postcode",
+          "uk": "Enter postcode"
+        },
+        "example": "postcode"
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 4,
+        "hint": {
+          "en": "Enter address",
+          "ru": "Enter address",
+          "uk": "Enter address"
+        },
+        "example": "Volodumurska 17"
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "City",
+          "uk": "City"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 5,
+        "hint": {
+          "en": "Enter city",
+          "ru": "Enter city",
+          "uk": "Enter city"
+        },
+        "example": "London"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "First name",
+          "uk": "First name"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 6,
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Enter first name",
+          "uk": "Enter first name"
+        },
+        "example": "Joe"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Last name",
+          "uk": "Last name"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 7,
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Enter last name",
+          "uk": "Enter last name"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "beneficiary_bic_swift",
+        "type": "string",
+        "label": {
+          "en": "Bic swift",
+          "ru": "Bic swift",
+          "uk": "Bic swift"
+        },
+        "regexp": "\/^[0-9A-Z]{8}$|^[0-9A-Z]{11}$\/",
+        "required": true,
+        "position": 8,
+        "hint": {
+          "en": "Enter bic swift",
+          "ru": "Enter bic swift",
+          "uk": "Enter bic swift"
+        },
+        "example": "100000000393#10"
+      },
+      {
+        "key": "beneficiary_clabe",
+        "type": "string",
+        "label": {
+          "en": "Clabe",
+          "ru": "Clabe",
+          "uk": "Clabe"
+        },
+        "regexp": "\/^\\d{18}$\/",
+        "required": true,
+        "position": 9,
+        "hint": {
+          "en": "Enter clabe",
+          "ru": "Enter clabe",
+          "uk": "Enter clabe"
+        },
+        "example": "111111111111111111"
+      },
+      {
+        "key": "sender_city",
+        "type": "string",
+        "label": {
+          "en": "Sender city",
+          "ru": "Sender city",
+          "uk": "Sender city"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 10,
+        "hint": {
+          "en": "Enter sender city",
+          "ru": "Enter sender city",
+          "uk": "Enter sender city"
+        },
+        "example": "London"
+      },
+      {
+        "key": "sender_address",
+        "type": "string",
+        "label": {
+          "en": "Sender address",
+          "ru": "Sender address",
+          "uk": "Sender address"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 11,
+        "hint": {
+          "en": "Enter sender address",
+          "ru": "Enter sender address",
+          "uk": "Enter sender address"
+        },
+        "example": "Volodumurska 17"
+      },
+      {
+        "key": "sender_name",
+        "type": "string",
+        "label": {
+          "en": "Sender name",
+          "ru": "Sender name",
+          "uk": "Sender name"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 12,
+        "hint": {
+          "en": "Enter sender name",
+          "ru": "Enter sender name",
+          "uk": "Enter sender name"
+        },
+        "example": "Joe"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "14999.00"
+  },
+  {
     "code": "mpesa_wallet",
     "method": "mpesa_wallet",
     "currency": "KES",
@@ -63809,5 +64213,356 @@
     ],
     "amount_min": "0.01",
     "amount_max": "99999.00"
+  },
+  {
+    "code": "muchbetter_usd",
+    "method": "muchbetter",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "muchbetter_eur",
+    "method": "muchbetter",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "muchbetter_gbp",
+    "method": "muchbetter",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "paysafecard_usd",
+    "method": "paysafecard",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "psc_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Аккаунт ID",
+          "uk": "Аккаунт ID"
+        },
+        "hint": {
+          "en": "enter account ID",
+          "ru": "Введите аккаунт ID",
+          "uk": "Введіть аккаунт ID"
+        },
+        "example": "447624222721",
+        "regexp": "\/^\\d{1,12}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "example": "1996-10-20",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Max",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Shipping last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping last name",
+          "ru": "Введите фамилия получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Power",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "paysafecard_eur",
+    "method": "paysafecard",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "psc_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Аккаунт ID",
+          "uk": "Аккаунт ID"
+        },
+        "hint": {
+          "en": "enter account ID",
+          "ru": "Введите аккаунт ID",
+          "uk": "Введіть аккаунт ID"
+        },
+        "example": "447624222721",
+        "regexp": "\/^\\d{1,12}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "example": "1996-10-20",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Max",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Shipping last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping last name",
+          "ru": "Введите фамилия получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Power",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+    "code": "paysafecard_gbp",
+    "method": "paysafecard",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "psc_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Аккаунт ID",
+          "uk": "Аккаунт ID"
+        },
+        "hint": {
+          "en": "enter account ID",
+          "ru": "Введите аккаунт ID",
+          "uk": "Введіть аккаунт ID"
+        },
+        "example": "447624222721",
+        "regexp": "\/^\\d{1,12}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "example": "1996-10-20",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Max",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Shipping last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter shipping last name",
+          "ru": "Введите фамилия получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Power",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
+  "code": "ecobanq_inr",
+  "method": "ecobanq",
+  "currency": "INR",
+  "fields": [
+    {
+      "key": "user_id",
+      "type": "string",
+      "label": {
+        "en": "user ID",
+        "ru": "user ID",
+        "uk": "user ID"
+      },
+      "hint": {
+        "en": "Enter user ID",
+        "ru": "Введите user ID",
+        "uk": "Введіть user ID"
+      },
+      "example": "Q123456",
+      "regexp": "\/^[Q]\\d{6}$\/",
+      "required": true,
+      "position": 1
+    }
+  ],
+  "amount_min": "0.01",
+  "amount_max": "99999.00"
   }
 ]

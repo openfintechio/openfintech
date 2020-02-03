@@ -15044,6 +15044,21 @@
     ]
   },
   {
+    "code": "hashconnect",
+    "vendor": "hashconnect",
+    "name": {
+      "en": "Hashconnect"
+    },
+    "countries": [
+    ],
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
     "code": "parimatch",
     "vendor": "parimatch",
     "name": {
@@ -15279,6 +15294,9 @@
     ],
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15369,13 +15387,16 @@
   },
   {
     "code": "paysafecard",
-    "vendor": "paysafecard",
+    "vendor": "optimalpayments",
     "name": {
       "en": "Paysafecard",
       "ru": "Paysafecard",
       "uk": "Paysafecard"
     },
     "payment_method": [
+      "paysafecard"
+    ],
+    "payout_method": [
       "paysafecard"
     ]
   },
@@ -15483,6 +15504,45 @@
     ],
     "payout_method": [
       "payment_card"
+    ]
+  },
+  {
+    "code": "muchbetter",
+    "vendor": "muchbetter",
+    "name": {
+      "en": "MuchBetter",
+      "ru": "MuchBetter",
+      "uk": "MuchBetter"
+    },
+    "payment_method": [
+      "muchbetter"
+    ],
+    "payout_method": [
+      "muchbetter"
+    ]
+  },
+  {
+    "code": "winpay",
+    "vendor": "winpay",
+    "name": {
+      "en": "WinPay",
+      "ru": "WinPay",
+      "uk": "WinPay"
+    }
+  },
+  {
+    "code": "ecobanq",
+    "vendor": "ecobanq",
+    "name": {
+      "en": "Ecobanq",
+      "ru": "Ecobanq",
+      "uk": "Ecobanq"
+    },
+    "payment_method": [
+      "ecobanq"
+    ],
+    "payout_method": [
+      "ecobanq"
     ]
   }
 ]
