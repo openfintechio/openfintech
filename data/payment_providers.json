@@ -15604,5 +15604,20 @@
     "payout_method": [
       "ecobanq"
     ]
+  },
+  {
+    "code": "selcom",
+    "vendor": "selcom",
+    "name": {
+      "en": "Selcom",
+      "ru": "Selcom",
+      "uk": "Selcom"
+    },
+    "payment_method": [
+      "selcom"
+    ],
+    "payout_method": [
+      "selcom"
+    ]
   }
 ]
