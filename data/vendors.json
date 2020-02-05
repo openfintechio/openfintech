@@ -5537,6 +5537,41 @@
     }
   },
   {
+    "code": "cbar",
+    "status": "active",
+    "name": {
+      "en": "Central Bank of the Republic of Azerbaijan"
+    }
+  },
+  {
+    "code": "nbm",
+    "status": "active",
+    "name": {
+      "en": "National Bank of Moldova"
+    }
+  },
+  {
+    "code": "cbu",
+    "status": "active",
+    "name": {
+      "en": "Central Bank of the Republic of Uzbekistan"
+    }
+  },
+  {
+    "code": "nbt",
+    "status": "active",
+    "name": {
+      "en": "National Bank of Tajikistan"
+    }
+  },
+  {
+    "code": "cba",
+    "status": "active",
+    "name": {
+      "en": "Central Bank of Armenia"
+    }
+  },
+  {
     "code": "kapitalbank",
     "status": "active",
     "name": {
@@ -27528,18 +27563,6 @@
     }
   },
   {
-    "code": "paysafecard",
-    "status":  "active",
-    "links": {
-      "website": "https:\/\/paysafe.com"
-    },
-    "name": {
-      "en": "Paysafecard",
-      "ru": "Paysafecard",
-      "uk": "Paysafecard"
-    }
-  },
-  {
     "code": "ecopayz",
     "status":  "active",
     "links": {
@@ -27603,7 +27626,7 @@
     "code": "dotpay",
     "status":  "active",
     "links": {
-      "website": "https:\/\/www.dotpay.pl/"
+      "website": "https:\/\/dotpay.pl/"
     },
     "name": {
       "en": "Dotpay",
@@ -27621,6 +27644,42 @@
       "en": "Cypix",
       "ru": "Cypix",
       "uk": "Cypix"
+    }
+  },
+  {
+    "code": "muchbetter",
+    "status":  "active",
+    "links": {
+      "website": "https:\/\/muchbetter.com"
+    },
+    "name": {
+      "en": "MuchBetter",
+      "ru": "MuchBetter",
+      "uk": "MuchBetter"
+    }
+  },
+  {
+    "code": "winpay",
+    "status":  "active",
+    "links": {
+      "website": "https:\/\/win-pay.ru"
+    },
+    "name": {
+      "en": "WinPay",
+      "ru": "WinPay",
+      "uk": "WinPay"
+    }
+  },
+  {
+    "code": "ecobanq",
+    "status":  "active",
+    "links": {
+      "website": "https:\/\/ecobanq.com"
+    },
+    "name": {
+      "en": "Ecobanq",
+      "ru": "Ecobanq",
+      "uk": "Ecobanq"
     }
   }
 ]
