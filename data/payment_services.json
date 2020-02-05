@@ -268,6 +268,22 @@
     "amount_max": 1000000
   },
   {
+    "code": "payment_card_ngn_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "NGN",
+    "amount_min": 1,
+    "amount_max": 1000000000
+  },
+  {
+    "code": "payment_card_tzs_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "TZS",
+    "amount_min": 1,
+    "amount_max": 100000000
+  },
+  {
     "code": "payment_card_token_rub_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
