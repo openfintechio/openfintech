@@ -64466,7 +64466,7 @@
     "currency": "USD",
     "fields": [
       {
-        "key": "psc_id",
+        "key": "account_id",
         "type": "string",
         "label": {
           "en": "Account ID",
@@ -64474,12 +64474,12 @@
           "uk": "Аккаунт ID"
         },
         "hint": {
-          "en": "enter account ID",
+          "en": "Enter account ID",
           "ru": "Введите аккаунт ID",
           "uk": "Введіть аккаунт ID"
         },
         "example": "447624222721",
-        "regexp": "\/^\\d{1,12}$\/",
+        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+.[a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
         "required": true,
         "position": 1
       },
@@ -64510,7 +64510,7 @@
           "uk": "Імʼя отримувача"
         },
         "hint": {
-          "en": "Enter shipping first name",
+          "en": "Enter first name",
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
@@ -64523,13 +64523,13 @@
         "key": "last_name",
         "type": "string",
         "label": {
-          "en": "Shipping last name",
+          "en": "Last name",
           "ru": "Фамилия получателя",
           "uk": "Прізвище отримувача"
         },
         "hint": {
-          "en": "Enter shipping last name",
-          "ru": "Введите фамилия получателя",
+          "en": "Enter last name",
+          "ru": "Введите фамилию получателя",
           "uk": "Введіть прізвище отримувача"
         },
         "regexp": "\/^[A-Za-z]{2,64}$\/",
@@ -64547,7 +64547,7 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "psc_id",
+        "key": "account_id",
         "type": "string",
         "label": {
           "en": "Account ID",
@@ -64555,12 +64555,12 @@
           "uk": "Аккаунт ID"
         },
         "hint": {
-          "en": "enter account ID",
+          "en": "Enter account ID",
           "ru": "Введите аккаунт ID",
           "uk": "Введіть аккаунт ID"
         },
         "example": "447624222721",
-        "regexp": "\/^\\d{1,12}$\/",
+        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+.[a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
         "required": true,
         "position": 1
       },
@@ -64591,7 +64591,7 @@
           "uk": "Імʼя отримувача"
         },
         "hint": {
-          "en": "Enter shipping first name",
+          "en": "Enter first name",
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
@@ -64604,13 +64604,13 @@
         "key": "last_name",
         "type": "string",
         "label": {
-          "en": "Shipping last name",
+          "en": "Last name",
           "ru": "Фамилия получателя",
           "uk": "Прізвище отримувача"
         },
         "hint": {
-          "en": "Enter shipping last name",
-          "ru": "Введите фамилия получателя",
+          "en": "Enter last name",
+          "ru": "Введите фамилию получателя",
           "uk": "Введіть прізвище отримувача"
         },
         "regexp": "\/^[A-Za-z]{2,64}$\/",
@@ -64628,7 +64628,7 @@
     "currency": "GBP",
     "fields": [
       {
-        "key": "psc_id",
+        "key": "account_id",
         "type": "string",
         "label": {
           "en": "Account ID",
@@ -64636,12 +64636,12 @@
           "uk": "Аккаунт ID"
         },
         "hint": {
-          "en": "enter account ID",
+          "en": "Enter account ID",
           "ru": "Введите аккаунт ID",
           "uk": "Введіть аккаунт ID"
         },
         "example": "447624222721",
-        "regexp": "\/^\\d{1,12}$\/",
+        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+.[a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
         "required": true,
         "position": 1
       },
@@ -64672,7 +64672,7 @@
           "uk": "Імʼя отримувача"
         },
         "hint": {
-          "en": "Enter shipping first name",
+          "en": "Enter first name",
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
@@ -64685,13 +64685,13 @@
         "key": "last_name",
         "type": "string",
         "label": {
-          "en": "Shipping last name",
+          "en": "Last name",
           "ru": "Фамилия получателя",
           "uk": "Прізвище отримувача"
         },
         "hint": {
-          "en": "Enter shipping last name",
-          "ru": "Введите фамилия получателя",
+          "en": "Enter last name",
+          "ru": "Введите фамилию получателя",
           "uk": "Введіть прізвище отримувача"
         },
         "regexp": "\/^[A-Za-z]{2,64}$\/",
