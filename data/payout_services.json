@@ -64750,7 +64750,7 @@
         },
         "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
-        "position": 3
+        "position": 1
       },
       {
         "key": "phone_number",
