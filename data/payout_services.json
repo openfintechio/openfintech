@@ -64729,5 +64729,48 @@
   ],
   "amount_min": "0.01",
   "amount_max": "99999.00"
+  },
+  {
+    "code": "winpay_rub",
+    "method": "winpay",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 2
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "99999.00"
   }
 ]
