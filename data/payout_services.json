@@ -64736,23 +64736,6 @@
     "currency": "RUB",
     "fields": [
       {
-        "key": "card_number",
-        "type": "string",
-        "label": {
-          "en": "Card number",
-          "ru": "Номер карты",
-          "uk": "Номер карти"
-        },
-        "hint": {
-          "en": "Enter card number",
-          "ru": "Введите номер карты",
-          "uk": "Введіть номер карти"
-        },
-        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
-        "required": true,
-        "position": 3
-      },
-      {
         "key": "phone_number",
         "type": "string",
         "label": {
