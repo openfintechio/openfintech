@@ -64768,6 +64768,41 @@
         "regexp": "\/^\\+\\d{10,14}$\/",
         "required": true,
         "position": 2
+      },
+      {
+        "key": "fio",
+        "type": "string",
+        "label": {
+          "en": "Full name",
+          "ru": "ФИО",
+          "uk": "ФІО"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 3,
+        "hint": {
+          "en": "Full name",
+          "ru": "ФИО",
+          "uk": "ФІО"
+        }
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": false,
+        "position": 4,
+        "hint": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "example": "28.02.1999"
       }
     ],
     "amount_min": "0.01",
