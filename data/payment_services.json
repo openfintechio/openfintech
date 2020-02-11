@@ -3260,5 +3260,33 @@
     "method": "ecobanq",
     "amount_min": 0.01,
     "amount_max": 999999
+  },
+  {
+    "code": "selcom_tzs_invoice",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "06534567891",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "selcom",
+    "amount_min": 100,
+    "amount_max": 999999
   }
 ]
