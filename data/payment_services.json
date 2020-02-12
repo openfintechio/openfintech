@@ -3288,5 +3288,13 @@
     "method": "selcom",
     "amount_min": 100,
     "amount_max": 999999
+  },
+  {
+    "code": "uax_uah_transfer",
+    "currency": "UAH",
+    "flow": "transfer",
+    "method": "uax",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
