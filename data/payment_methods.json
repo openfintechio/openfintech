@@ -5226,16 +5226,6 @@
     }
   },
   {
-    "code": "paysafecard",
-    "vendor": "paysafecard",
-    "category": "digital_wallet",
-    "name": {
-      "en": "Paysafecard",
-      "ru": "Paysafecard",
-      "uk": "Paysafecard"
-    }
-  },
-  {
     "code": "ecopayz",
     "vendor": "ecopayz",
     "category": "digital_wallet",
@@ -5243,6 +5233,16 @@
       "en": "Ecopayz",
       "ru": "Ecopayz",
       "uk": "Ecopayz"
+    }
+  },
+  {
+    "code": "ecopayz_voucher",
+    "vendor": "ecopayz",
+    "category": "prepaid_card",
+    "name": {
+      "en": "Ecopayz voucher",
+      "ru": "Ecopayz voucher",
+      "uk": "Ecopayz voucher"
     }
   },
   {
@@ -5293,6 +5293,46 @@
       "en": "Cypix",
       "ru": "Cypix",
       "uk": "Cypix"
+    }
+  },
+  {
+    "code": "muchbetter",
+    "vendor": "muchbetter",
+    "category": "digital_wallet",
+    "name": {
+      "en": "MuchBetter",
+      "ru": "MuchBetter",
+      "uk": "MuchBetter"
+    }
+  },
+  {
+    "code": "ecobanq",
+    "vendor": "ecobanq",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Ecobanq",
+      "ru": "Ecobanq",
+      "uk": "Ecobanq"
+    }
+  },
+  {
+    "code": "selcom",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Selcom",
+      "ru": "Selcom",
+      "uk": "Selcom"
+    }
+  },
+  {
+    "code": "uax",
+    "vendor": "kuna",
+    "category": "alternative",
+    "name": {
+      "en": "UAX",
+      "ru": "UAX",
+      "uk": "UAX"
     }
   }
 ]
