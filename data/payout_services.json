@@ -64901,7 +64901,7 @@
     "method": "cashfree_bank_transfer",
     "fields": [
       {
-        "key": "BeneId",
+        "key": "bene_id",
         "type": "string",
         "label": {
           "en": "Beneficiary ID",
