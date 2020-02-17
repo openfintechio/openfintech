@@ -15632,5 +15632,20 @@
     ],
     "payout_method": [
     ]
+  },
+  {
+    "code": "cashfree",
+    "vendor": "cashfree",
+    "name": {
+      "en": "Cashfree",
+      "ru": "Cashfree",
+      "uk": "Cashfree"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+      "cashfree_upi",
+      "cashfree_bank_transfer"
+    ]
   }
 ]
