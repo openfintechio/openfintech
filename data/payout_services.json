@@ -64810,7 +64810,7 @@
           "ru": "ФИО",
           "uk": "ФІО"
         },
-        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "regexp": "\/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$\/",
         "required": true,
         "position": 3,
         "hint": {
@@ -64901,22 +64901,107 @@
     "method": "cashfree_bank_transfer",
     "fields": [
       {
-        "key": "bene_id",
+        "key": "name",
         "type": "string",
         "label": {
-          "en": "Beneficiary ID",
-          "ru": "ID получателя",
-          "uk": "ID отримувача"
+          "en": "Full name",
+          "ru": "ФИО",
+          "uk": "ПIБ"
         },
         "hint": {
-          "en": "Enter Beneficiary ID",
-          "ru": "Введите ID получателя",
-          "uk": "Введіть ID отримувача"
+          "en": "Enter Full name",
+          "ru": "Введите ФИО",
+          "uk": "Введіть ПIБ"
         },
-        "example": "JOHN18011",
-        "regexp": "\/^.{1,255}$\/",
+        "regexp": "\/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$\/",
         "required": true,
         "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\d{9,14}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account",
+        "type": "string",
+        "label": {
+          "en": "Bank account",
+          "ru": "Bank account",
+          "uk": "Bank account"
+        },
+        "hint": {
+          "en": "Enter Bank account name",
+          "ru": "Введите Bank account name",
+          "uk": "Введіть Bank account name"
+        },
+        "regexp": "\/^\\d{1,40}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "ifsc",
+        "type": "string",
+        "label": {
+          "en": "IFSC",
+          "ru": "IFSC",
+          "uk": "IFSC"
+        },
+        "hint": {
+          "en": "Enter IFSC",
+          "ru": "Введите IFSC",
+          "uk": "Введіть IFSC"
+        },
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter Address",
+          "ru": "Введите адресс",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^\\d{1,150}$\/",
+        "required": true,
+        "position": 6
       }
     ],
     "amount_min": 0.01,
