@@ -11276,5 +11276,17 @@
     "exponent": 2,
     "category": "electronic",
     "parent_currency_multiplier": 1
+  },
+  {
+    "code": "UAX",
+    "parent_code": "UAH",
+    "vendor": "kuna",
+    "name": {
+      "en": "UAX"
+    },
+    "type": "digital",
+    "exponent": 2,
+    "category": "electronic",
+    "parent_currency_multiplier": 1
   }
 ]
