@@ -15614,10 +15614,20 @@
       "uk": "Selcom"
     },
     "payment_method": [
-      "selcom"
+      "airtel_money",
+      "vodacom",
+      "tigo_pesa",
+      "halo_pesa",
+      "zantel_ezypesa"
     ],
     "payout_method": [
-      "selcom"
+      "vodacom",
+      "airtel_money",
+      "tigo_pesa",
+      "zantel_ezypesa",
+      "selcom_card",
+      "halo_pesa",
+      "ttcl_pesa"
     ]
   },
   {
@@ -15629,8 +15639,10 @@
       "uk": "Kuna"
     },
     "payment_method": [
+      "uax"
     ],
     "payout_method": [
+      "uax"
     ]
   },
   {

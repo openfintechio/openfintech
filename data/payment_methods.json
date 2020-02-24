@@ -5316,13 +5316,53 @@
     }
   },
   {
-    "code": "selcom",
+    "code": "airtel_money",
     "vendor": "selcom",
     "category": "mobile_payment",
     "name": {
-      "en": "Selcom",
-      "ru": "Selcom",
-      "uk": "Selcom"
+      "en": "Airtel money",
+      "ru": "Airtel money",
+      "uk": "Airtel money"
+    }
+  },
+  {
+    "code": "vodacom",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Vodacom",
+      "ru": "Vodacom",
+      "uk": "Vodacom"
+    }
+  },
+  {
+    "code": "tigo_pesa",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Tigo pesa",
+      "ru": "Tigo pesa",
+      "uk": "Tigo pesa"
+    }
+  },
+  {
+    "code": "halo_pesa",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Halo pessa",
+      "ru": "Halo pessa",
+      "uk": "Halo pessa"
+    }
+  },
+  {
+    "code": "zantel_ezypesa",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Zantel ezypesa",
+      "ru": "Zantel ezypesa",
+      "uk": "Zantel ezypesa"
     }
   },
   {
