@@ -268,6 +268,14 @@
     "amount_max": 1000000
   },
   {
+    "code": "payment_card_byn_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "BYN",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
     "code": "payment_card_ngn_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -3262,7 +3270,7 @@
     "amount_max": 999999
   },
   {
-    "code": "selcom_tzs_invoice",
+    "code": "airtel_money_tzs_invoice",
     "currency": "TZS",
     "fields": [
       {
@@ -3278,14 +3286,126 @@
           "ru": "Введите номер телефона",
           "uk": "Введіть номер телефону"
         },
-        "example": "06534567891",
+        "example": "255742044295",
         "regexp": "\/^\\+\\d{10,14}$\/",
         "required": true,
         "position": 1
       }
     ],
     "flow": "invoice",
-    "method": "selcom",
+    "method": "airtel_money",
+    "amount_min": 100,
+    "amount_max": 999999
+  },
+  {
+    "code": "vodacom_tzs_invoice",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "vodacom",
+    "amount_min": 100,
+    "amount_max": 999999
+  },
+  {
+    "code": "tigo_pesa_tzs_invoice",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "tigo_pesa",
+    "amount_min": 100,
+    "amount_max": 999999
+  },
+  {
+    "code": "halo_pesa_tzs_invoice",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "halo_pesa",
+    "amount_min": 100,
+    "amount_max": 999999
+  },
+  {
+    "code": "zantel_ezypesa_tzs_invoice",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "zantel_ezypesa",
     "amount_min": 100,
     "amount_max": 999999
   },

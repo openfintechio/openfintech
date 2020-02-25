@@ -64842,8 +64842,170 @@
     "amount_max": "99999.00"
   },
   {
-    "code": "selcom_tzs",
-    "method": "selcom",
+    "code": "vodacom_tzs",
+    "method": "vodacom",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "06534567891",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "999999"
+  },
+  {
+    "code": "airtel_money_tzs",
+    "method": "airtel_money",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "06534567891",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "999999"
+  },
+  {
+    "code": "tigo_pesa_tzs",
+    "method": "tigo_pesa",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "06534567891",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "999999"
+  },
+  {
+    "code": "zantel_ezypesa_tzs",
+    "method": "zantel_ezypesa",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "06534567891",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "999999"
+  },
+  {
+    "code": "selcom_card_tzs",
+    "method": "selcom_card",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "06534567891",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "999999"
+  },
+  {
+    "code": "halo_pesa_tzs",
+    "method": "halo_pesa",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "06534567891",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "999999"
+  },
+  {
+    "code": "ttcl_pesa_tzs",
+    "method": "ttcl_pesa",
     "currency": "TZS",
     "fields": [
       {
