@@ -15659,5 +15659,20 @@
       "cashfree_upi",
       "cashfree_bank_transfer"
     ]
+  },
+  {
+    "code": "taslink",
+    "vendor": "taslink",
+    "name": {
+      "en": "TAS Link",
+      "ru": "TAS Link",
+      "uk": "TAS Link"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
