@@ -1262,6 +1262,38 @@
     "amount_max": 500000
   },
   {
+    "code": "payment_card_tmt_hpp",
+    "currency": "TMT",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "code": "payment_card_uzs_hpp",
+    "currency": "UZS",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000000
+  },
+  {
+    "code": "payment_card_azn_hpp",
+    "currency": "AZN",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "code": "payment_card_mdl_hpp",
+    "currency": "MDL",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
     "code": "interkassa_uah_hpp",
     "currency": "UAH",
     "method": "interkassa",
