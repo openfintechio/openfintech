@@ -31698,6 +31698,32 @@
     ]
   },
   {
+    "code": "geopaynet_card_uah",
+    "method": "winpay",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "99999.00"
+  },
+  {
     "code": "perfectmoney_transfer_eur",
     "method": "perfectmoney_transfer",
     "currency": "EUR",
