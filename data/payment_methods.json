@@ -5253,16 +5253,6 @@
     }
   },
   {
-    "code": "paysafecard",
-    "vendor": "paysafecard",
-    "category": "digital_wallet",
-    "name": {
-      "en": "Paysafecard",
-      "ru": "Paysafecard",
-      "uk": "Paysafecard"
-    }
-  },
-  {
     "code": "ecopayz",
     "vendor": "ecopayz",
     "category": "digital_wallet",
@@ -5270,6 +5260,16 @@
       "en": "Ecopayz",
       "ru": "Ecopayz",
       "uk": "Ecopayz"
+    }
+  },
+  {
+    "code": "ecopayz_voucher",
+    "vendor": "ecopayz",
+    "category": "prepaid_card",
+    "name": {
+      "en": "Ecopayz voucher",
+      "ru": "Ecopayz voucher",
+      "uk": "Ecopayz voucher"
     }
   },
   {
@@ -5320,6 +5320,86 @@
       "en": "Cypix",
       "ru": "Cypix",
       "uk": "Cypix"
+    }
+  },
+  {
+    "code": "muchbetter",
+    "vendor": "muchbetter",
+    "category": "digital_wallet",
+    "name": {
+      "en": "MuchBetter",
+      "ru": "MuchBetter",
+      "uk": "MuchBetter"
+    }
+  },
+  {
+    "code": "ecobanq",
+    "vendor": "ecobanq",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Ecobanq",
+      "ru": "Ecobanq",
+      "uk": "Ecobanq"
+    }
+  },
+  {
+    "code": "airtel_money",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Airtel money",
+      "ru": "Airtel money",
+      "uk": "Airtel money"
+    }
+  },
+  {
+    "code": "vodacom",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Vodacom",
+      "ru": "Vodacom",
+      "uk": "Vodacom"
+    }
+  },
+  {
+    "code": "tigo_pesa",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Tigo pesa",
+      "ru": "Tigo pesa",
+      "uk": "Tigo pesa"
+    }
+  },
+  {
+    "code": "halo_pesa",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Halo pessa",
+      "ru": "Halo pessa",
+      "uk": "Halo pessa"
+    }
+  },
+  {
+    "code": "zantel_ezypesa",
+    "vendor": "selcom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Zantel ezypesa",
+      "ru": "Zantel ezypesa",
+      "uk": "Zantel ezypesa"
+    }
+  },
+  {
+    "code": "uax",
+    "vendor": "kuna",
+    "category": "alternative",
+    "name": {
+      "en": "UAX",
+      "ru": "UAX",
+      "uk": "UAX"
     }
   }
 ]

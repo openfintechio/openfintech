@@ -598,6 +598,19 @@
     }
   },
   {
+    "code": "zotapay",
+    "vendor": "zotapay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Zotapay"
+    }
+  },
+  {
     "code": "sbm",
     "vendor": "sbm",
     "metadata": {
@@ -933,6 +946,22 @@
     ],
     "name": {
       "en": "WebMoney"
+    }
+  },
+  {
+    "code": "qiwi",
+    "vendor": "qiwi",
+    "categories": [
+      "aggregating"
+    ],
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Qiwi"
     }
   },
   {
@@ -14844,10 +14873,10 @@
       "en": "Paymega.io"
     },
     "payment_method": [
-      "payment_card"      
+      "payment_card"
     ],
     "payout_method": [
-      "payment_card"      
+      "payment_card"
     ]
   },
   {
@@ -15044,6 +15073,21 @@
     ]
   },
   {
+    "code": "hashconnect",
+    "vendor": "hashconnect",
+    "name": {
+      "en": "Hashconnect"
+    },
+    "countries": [
+    ],
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
     "code": "parimatch",
     "vendor": "parimatch",
     "name": {
@@ -15055,6 +15099,21 @@
     "payout_method": [
       "parimatch-loto",
       "parimatch_account"
+    ]
+  },
+  {
+    "code": "platio",
+    "vendor": "platio",
+    "name": {
+      "en": "Platio"
+    },
+    "countries": [
+    ],
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15083,6 +15142,19 @@
       "payment_card",
       "yandexmoney",
       "qiwi"
+    ]
+  },
+  {
+    "code": "billline",
+    "vendor": "billline",
+    "name": {
+      "en": "BillLine"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15184,6 +15256,9 @@
       "alfaclick",
       "smsbilling",
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15279,6 +15354,9 @@
     ],
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15369,13 +15447,16 @@
   },
   {
     "code": "paysafecard",
-    "vendor": "paysafecard",
+    "vendor": "optimalpayments",
     "name": {
       "en": "Paysafecard",
       "ru": "Paysafecard",
       "uk": "Paysafecard"
     },
     "payment_method": [
+      "paysafecard"
+    ],
+    "payout_method": [
       "paysafecard"
     ]
   },
@@ -15480,6 +15561,115 @@
     "countries": [
       "UA",
       "RU"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "muchbetter",
+    "vendor": "muchbetter",
+    "name": {
+      "en": "MuchBetter",
+      "ru": "MuchBetter",
+      "uk": "MuchBetter"
+    },
+    "payment_method": [
+      "muchbetter"
+    ],
+    "payout_method": [
+      "muchbetter"
+    ]
+  },
+  {
+    "code": "winpay",
+    "vendor": "winpay",
+    "name": {
+      "en": "WinPay",
+      "ru": "WinPay",
+      "uk": "WinPay"
+    }
+  },
+  {
+    "code": "ecobanq",
+    "vendor": "ecobanq",
+    "name": {
+      "en": "Ecobanq",
+      "ru": "Ecobanq",
+      "uk": "Ecobanq"
+    },
+    "payment_method": [
+      "ecobanq"
+    ],
+    "payout_method": [
+      "ecobanq"
+    ]
+  },
+  {
+    "code": "selcom",
+    "vendor": "selcom",
+    "name": {
+      "en": "Selcom",
+      "ru": "Selcom",
+      "uk": "Selcom"
+    },
+    "payment_method": [
+      "airtel_money",
+      "vodacom",
+      "tigo_pesa",
+      "halo_pesa",
+      "zantel_ezypesa"
+    ],
+    "payout_method": [
+      "vodacom",
+      "airtel_money",
+      "tigo_pesa",
+      "zantel_ezypesa",
+      "selcom_card",
+      "halo_pesa",
+      "ttcl_pesa"
+    ]
+  },
+  {
+    "code": "kuna",
+    "vendor": "kuna",
+    "name": {
+      "en": "Kuna",
+      "ru": "Kuna",
+      "uk": "Kuna"
+    },
+    "payment_method": [
+      "uax"
+    ],
+    "payout_method": [
+      "uax"
+    ]
+  },
+  {
+    "code": "cashfree",
+    "vendor": "cashfree",
+    "name": {
+      "en": "Cashfree",
+      "ru": "Cashfree",
+      "uk": "Cashfree"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+      "cashfree_upi",
+      "cashfree_bank_transfer"
+    ]
+  },
+  {
+    "code": "taslink",
+    "vendor": "taslink",
+    "name": {
+      "en": "TAS Link",
+      "ru": "TAS Link",
+      "uk": "TAS Link"
+    },
+    "payment_method": [
+      "payment_card"
     ],
     "payout_method": [
       "payment_card"

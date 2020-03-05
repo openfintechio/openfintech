@@ -21087,5 +21087,132 @@
       "ru": "Банковский перевод",
       "uk": "Банківський переказ"
     }
+  },
+  {
+    "code": "muchbetter",
+    "category": "digital_wallet",
+    "name": {
+      "en": "MuchBetter",
+      "ru": "MuchBetter",
+      "uk": "MuchBetter"
+    }
+  },
+  {
+    "code": "paysafecard",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Paysafecard",
+      "ru": "Paysafecard",
+      "uk": "Paysafecard"
+    }
+  },
+  {
+    "code": "ecobanq",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Ecobanq",
+      "ru": "Ecobanq",
+      "uk": "Ecobanq"
+    }
+  },
+  {
+    "code": "winpay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "WinPay",
+      "ru": "WinPay",
+      "uk": "WinPay"
+    }
+  },
+  {
+    "code": "cashfree_bank_transfer",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Cashfree bank transfer",
+      "ru": "Cashfree bank transfer",
+      "uk": "Cashfree bank transfer"
+    }
+  },
+  {
+    "code": "cashfree_upi",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Cashfree UPI",
+      "ru": "Cashfree UPI",
+      "uk": "Cashfree UPI"
+    }
+  },
+  {
+    "code": "vodacom",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Vodacom Mpesa",
+      "ru": "Vodacom Mpesa",
+      "uk": "Vodacom Mpesa"
+    }
+  },
+  {
+    "code": "airtel_money",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Airtel Money",
+      "ru": "Airtel Money",
+      "uk": "Airtel Money"
+    }
+  },
+  {
+    "code": "tigo_pesa",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Tigo Pesa",
+      "ru": "Tigo Pesa",
+      "uk": "Tigo Pesa"
+    }
+  },
+  {
+    "code": "zantel_ezypesa",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Zantel ezy Pesa",
+      "ru": "Zantel ezy Pesa",
+      "uk": "Zantel ezy Pesa"
+    }
+  },
+  {
+    "code": "selcom_card",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Selcom Card",
+      "ru": "Selcom Card",
+      "uk": "Selcom Card"
+    }
+  },
+  {
+    "code": "halo_pesa",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Halo pesa",
+      "ru": "Halo pesa",
+      "uk": "Halo pesa"
+    }
+  },
+  {
+    "code": "ttcl_pesa",
+    "category": "mobile_payment",
+    "name": {
+      "en": "TTCLPesa",
+      "ru": "TTCLPesa",
+      "uk": "TTCLPesa"
+    }
+  },
+  {
+    "code": "uax",
+    "vendor": "kuna",
+    "category": "alternative",
+    "name": {
+      "en": "UAX",
+      "ru": "UAX",
+      "uk": "UAX"
+    }
   }
 ]

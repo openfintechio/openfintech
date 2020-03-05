@@ -5537,6 +5537,41 @@
     }
   },
   {
+    "code": "cbar",
+    "status": "active",
+    "name": {
+      "en": "Central Bank of the Republic of Azerbaijan"
+    }
+  },
+  {
+    "code": "nbm",
+    "status": "active",
+    "name": {
+      "en": "National Bank of Moldova"
+    }
+  },
+  {
+    "code": "cbu",
+    "status": "active",
+    "name": {
+      "en": "Central Bank of the Republic of Uzbekistan"
+    }
+  },
+  {
+    "code": "nbt",
+    "status": "active",
+    "name": {
+      "en": "National Bank of Tajikistan"
+    }
+  },
+  {
+    "code": "cba",
+    "status": "active",
+    "name": {
+      "en": "Central Bank of Armenia"
+    }
+  },
+  {
     "code": "kapitalbank",
     "status": "active",
     "name": {
@@ -12420,6 +12455,13 @@
     "status": "active",
     "name": {
       "en": "National Bank of Kazakhstan"
+    }
+  },
+  {
+    "code": "tzb",
+    "status": "active",
+    "name": {
+      "en": "Bank of Tanzania"
     }
   },
   {
@@ -27505,7 +27547,7 @@
   },
   {
     "code": "adgroup",
-    "status":  "active",
+    "status": "active",
     "links": {
       "website": "https:\/\/adgroup.finance"
     },
@@ -27517,7 +27559,7 @@
   },
   {
     "code": "mercuryo",
-    "status":  "active",
+    "status": "active",
     "links": {
       "website": "https:\/\/mercuryo.io"
     },
@@ -27528,20 +27570,8 @@
     }
   },
   {
-    "code": "paysafecard",
-    "status":  "active",
-    "links": {
-      "website": "https:\/\/paysafe.com"
-    },
-    "name": {
-      "en": "Paysafecard",
-      "ru": "Paysafecard",
-      "uk": "Paysafecard"
-    }
-  },
-  {
     "code": "ecopayz",
-    "status":  "active",
+    "status": "active",
     "links": {
       "website": "https:\/\/ecopayz.com"
     },
@@ -27565,7 +27595,7 @@
   },
   {
     "code": "wlandpay",
-    "status":  "active",
+    "status": "active",
     "links": {
       "website": "https:\/\/wonderlandpay.com"
     },
@@ -27577,7 +27607,7 @@
   },
   {
     "code": "exactly",
-    "status":  "active",
+    "status": "active",
     "links": {
       "website": "https:\/\/exactly.com"
     },
@@ -27589,7 +27619,7 @@
   },
   {
     "code": "xpate",
-    "status":  "active",
+    "status": "active",
     "links": {
       "website": "https:\/\/xpate.com"
     },
@@ -27601,9 +27631,9 @@
   },
   {
     "code": "dotpay",
-    "status":  "active",
+    "status": "active",
     "links": {
-      "website": "https:\/\/www.dotpay.pl/"
+      "website": "https:\/\/dotpay.pl/"
     },
     "name": {
       "en": "Dotpay",
@@ -27613,7 +27643,7 @@
   },
   {
     "code": "cypix",
-    "status":  "active",
+    "status": "active",
     "links": {
       "website": "https:\/\/cypix.ru/"
     },
@@ -27621,6 +27651,102 @@
       "en": "Cypix",
       "ru": "Cypix",
       "uk": "Cypix"
+    }
+  },
+  {
+    "code": "muchbetter",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/muchbetter.com"
+    },
+    "name": {
+      "en": "MuchBetter",
+      "ru": "MuchBetter",
+      "uk": "MuchBetter"
+    }
+  },
+  {
+    "code": "winpay",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/win-pay.ru"
+    },
+    "name": {
+      "en": "WinPay",
+      "ru": "WinPay",
+      "uk": "WinPay"
+    }
+  },
+  {
+    "code": "ecobanq",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/ecobanq.com"
+    },
+    "name": {
+      "en": "Ecobanq",
+      "ru": "Ecobanq",
+      "uk": "Ecobanq"
+    }
+  },
+  {
+    "code": "coinbase",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/coinbase.com"
+    },
+    "name": {
+      "en": "Coinbase",
+      "ru": "Coinbase",
+      "uk": "Coinbase"
+    }
+  },
+  {
+    "code": "cashfree",
+    "status":  "active",
+    "links": {
+      "website": "https:\/\/www.cashfree.com/"
+    },
+    "name": {
+      "en": "Cashfree",
+      "ru": "Cashfree",
+      "uk": "Cashfree"
+    }
+  },
+  {
+    "code": "selcom",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/selcom.net"
+    },
+    "name": {
+      "en": "Selcom",
+      "ru": "Selcom",
+      "uk": "Selcom"
+    }
+  },
+  {
+    "code": "kuna",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/kuna.io"
+    },
+    "name": {
+      "en": "Kuna",
+      "ru": "Kuna",
+      "uk": "Kuna"
+    }
+  },
+  {
+    "code": "taslink",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/taslink.com.ua"
+    },
+    "name": {
+      "en": "TAS Link",
+      "ru": "TAS Link",
+      "uk": "TAS Link"
     }
   }
 ]
