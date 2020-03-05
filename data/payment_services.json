@@ -335,6 +335,54 @@
     "amount_max": 100000
   },
   {
+    "code": "bank_card_thb_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "THB",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
+    "code": "bank_card_vnd_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
+    "code": "bank_card_myr_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "MYR",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
+    "code": "bank_card_idr_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "IDR",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
+    "code": "bank_card_ngn_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "NGN",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
+    "code": "bank_card_zar_hpp",
+    "flow": "hpp",
+    "method": "bank_card",
+    "currency": "ZAR",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
     "code": "payment_card_uah_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -808,6 +856,30 @@
     "amount_max": 100000
   },
   {
+    "code": "latam_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "latam",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "ussd",
+    "currency": "CNY",
+    "flow": "hpp",
+    "method": "ussd",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "ussd",
+    "currency": "NGN",
+    "flow": "hpp",
+    "method": "ussd",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
     "code": "megafon_rub_hpp",
     "currency": "RUB",
     "method": "megafon",
@@ -875,6 +947,22 @@
     "code": "advcash_wallet_brl_hpp",
     "currency": "BRL",
     "method": "advcash_wallet",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "i_wallet_eur_hpp",
+    "currency": "EUR",
+    "method": "i_wallet",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "i_wallet_usd_hpp",
+    "currency": "USD",
+    "method": "i_wallet",
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000
