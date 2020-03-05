@@ -1575,12 +1575,39 @@
     }
   },
   {
+    "code": "latam",
+    "category": "latam",
+    "name": {
+      "en": "Latam",
+      "ru": "Latam",
+      "uk": "Latam"
+    }
+  },
+  {
+    "code": "ussd",
+    "category": "ussd",
+    "name": {
+      "en": "USSD",
+      "ru": "USSD",
+      "uk": "USSD"
+    }
+  },
+  {
     "code": "liqpay_wallet",
     "category": "digital_wallet",
     "name": {
       "en": "LiqPay wallet",
       "ru": "LiqPay кошелек",
       "uk": "LiqPay гаманець"
+    }
+  },
+  {
+    "code": "i_wallet",
+    "category": "digital_wallet",
+    "name": {
+      "en": "wallet",
+      "ru": "кошелек",
+      "uk": "гаманець"
     }
   },
   {
