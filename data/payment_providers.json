@@ -15674,5 +15674,20 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "code": "paypoint",
+    "vendor": "paypoint",
+    "name": {
+      "en": "PayPoint",
+      "ru": "PayPoint",
+      "uk": "PayPoint"
+    },
+    "payment_method": [
+
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
