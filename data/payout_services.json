@@ -65462,5 +65462,48 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "paypoint_card_rub",
+    "currency": "RUB",
+    "method": "paypoint_card",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\d{9,14}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 2
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
