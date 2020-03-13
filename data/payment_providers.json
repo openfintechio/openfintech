@@ -15689,5 +15689,15 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "code": "anymoney",
+    "vendor": "anymoney",
+    "name": {
+      "en": "Any.Money"
+    },
+    "payout_method": [
+      "mobile"
+    ]
   }
 ]
