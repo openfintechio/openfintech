@@ -1061,6 +1061,19 @@
     }
   },
   {
+    "code": "googlepay",
+    "vendor": "googlepay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Google Pay",
+      "ru": "Google Pay",
+      "uk": "Google Pay"
+    },
+    "description": {
+      "en": "Google Pay is a digital wallet and payment platform from Google."
+    }
+  },
+  {
     "code": "paydirekt",
     "vendor": "paydirekt",
     "category": "internet_banking",

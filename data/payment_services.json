@@ -2713,6 +2713,14 @@
     "amount_max": 100000
   },
   {
+    "code": "googlepay_uah_hpp",
+    "currency": "UAH",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "swift_usd_invoice",
     "currency": "USD",
     "flow": "invoice",
