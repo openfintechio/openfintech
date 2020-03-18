@@ -15677,5 +15677,15 @@
     "payout_method": [
       "mobile"
     ]
+  },
+  {
+    "code": "paysafe",
+    "vendor": "paysafe",
+    "name": {
+      "en": "Paysafe"
+    },
+    "payout_method": [
+      "paysafe_card"
+    ]
   }
 ]
