@@ -3548,6 +3548,7 @@
   {
     "code": "winpay_apple_pay_rub",
     "method": "winpay_apple_pay",
+    "flow": "hpp",
     "currency": "RUB",
     "fields": [
       {
@@ -3574,6 +3575,7 @@
   {
     "code": "winpay_google_pay_rub",
     "method": "winpay_google_pay",
+    "flow": "hpp",
     "currency": "RUB",
     "fields": [
       {
