@@ -3565,15 +3565,15 @@
         },
         "regexp": "\/^\\+\\d{9,14}$\/",
         "required": true,
-        "position": 2
+        "position": 1
       }
     ],
-    "amount_min": "0.01",
-    "amount_max": "99999.00"
+    "amount_min": 0.01,
+    "amount_max": 99999.00
   },
   {
     "code": "winpay_google_pay_rub",
-    "method": "winpay_google_pay_rub",
+    "method": "winpay_google_pay",
     "currency": "RUB",
     "fields": [
       {
@@ -3591,10 +3591,10 @@
         },
         "regexp": "\/^\\+\\d{9,14}$\/",
         "required": true,
-        "position": 2
+        "position": 1
       }
     ],
-    "amount_min": "0.01",
-    "amount_max": "99999.00"
+    "amount_min": 0.01,
+    "amount_max": 99999.00
   }
 ]
