@@ -3544,5 +3544,59 @@
     "method": "uax",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "winpay_apple_pay_rub",
+    "method": "winpay_apple_pay",
+    "flow": "hpp",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{9,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 99999.00
+  },
+  {
+    "code": "winpay_google_pay_rub",
+    "method": "winpay_google_pay",
+    "flow": "hpp",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{9,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 99999.00
   }
 ]
