@@ -16129,7 +16129,7 @@
     }
   },
   {
-    "code": "neteller_payment_card",
+    "code": "neteller",
     "category": "digital_wallet",
     "name": {
       "en": "Neteller",
@@ -21230,6 +21230,16 @@
     "category": "mobile_payment",
     "name": {
       "en": "Mobile"
+    }
+  },
+  {
+    "code": "paysafe_card",
+    "vendor": "paysafe",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Paysafe card",
+      "ru": "Paysafe card",
+      "uk": "Paysafe card"
     }
   }
 ]
