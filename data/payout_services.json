@@ -64833,6 +64833,83 @@
     "amount_max": "14000"
   },
   {
+    "code": "xpate_card_eur",
+    "currency": "EUR",
+    "method": "xpate",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "card_holder",
+        "type": "string",
+        "label": {
+          "en": "Card holder",
+          "ru": "Держатель карты",
+          "uk": "Власник картки"
+        },
+        "hint": {
+          "en": "Card holder",
+          "ru": "Держатель карты",
+          "uk": "Власник картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "expiry_month",
+        "type": "string",
+        "label": {
+          "en": "Card expiry month",
+          "ru": "Месяц истечения карты",
+          "uk": "Місяць закінчення роботи карти"
+        },
+        "hint": {
+          "en": "Enter card expiry month",
+          "ru": "Введите месяц истечения карты",
+          "uk": "Введіть місяць заканчення роботи картки"
+        },
+        "regexp": "\/^[1-9]{1}$|^[1-9]{2}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "expiry_year",
+        "type": "string",
+        "label": {
+          "en": "Card expiry year",
+          "ru": "Год истечения карты",
+          "uk": "Рік закінчення роботи карти"
+        },
+        "hint": {
+          "en": "Enter card expiry month",
+          "ru": "Введите год истечения карты",
+          "uk": "Введіть рік заканчення роботи картки"
+        },
+        "regexp": "\/^[1-9][0-9]{3}$\/",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "neteller_aed",
     "method": "neteller",
     "currency": "AED",
