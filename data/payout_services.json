@@ -64832,7 +64832,6 @@
     "amount_min": "10",
     "amount_max": "14000"
   },
-
   {
     "code": "xpate_card_eur",
     "currency": "EUR",
@@ -64868,7 +64867,7 @@
           "ru": "Держатель карты",
           "uk": "Власник картки"
         },
-        "regexp": "\/^([A-Za-z]+)\\s([A-Za-z]+)$\/",
+        "regexp": "/^\\d{12,19}$/",
         "required": true,
         "position": 2
       },
