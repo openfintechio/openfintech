@@ -65643,59 +65643,25 @@
     "currency": "USD",
     "fields": [
       {
-        "key": "card_number",
+        "key": "email",
         "type": "string",
         "label": {
-          "en": "Card number",
-          "ru": "Номер карты",
-          "uk": "Номер карти"
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
         },
         "hint": {
-          "en": "Enter card number",
-          "ru": "Введите номер карты",
-          "uk": "Введіть номер карти"
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
         },
-        "regexp": "\/^\\d{12,19}$\/",
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
         "required": true,
         "position": 1
-      },
-      {
-        "key": "card_expiration_year",
-        "type": "string",
-        "label": {
-          "en": "Card expiration year",
-          "ru": "Год истечения карты",
-          "uk": "Год закінчення карти"
-        },
-        "hint": {
-          "en": "Year",
-          "ru": "Год",
-          "uk": "Рік"
-        },
-        "regexp": "\/^\\d{4}$\/",
-        "required": true,
-        "position": 2
-      },
-      {
-        "key": "card_expiration_month",
-        "type": "string",
-        "label": {
-          "en": "Card expiration month",
-          "ru": "Месяц истечения карты",
-          "uk": "Місяць закінчення карти"
-        },
-        "hint": {
-          "en": "Year",
-          "ru": "Год",
-          "uk": "Рік"
-        },
-        "regexp": "\/^\\d{2}$\/",
-        "required": true,
-        "position": 3
       }
     ],
-    "amount_min": "1",
-    "amount_max": "50000"
+    "amount_min": 1,
+    "amount_max": 50000
   },
   {
     "code": "paysafe_eur",
@@ -65703,59 +65669,25 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "card_number",
+        "key": "email",
         "type": "string",
         "label": {
-          "en": "Card number",
-          "ru": "Номер карты",
-          "uk": "Номер карти"
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
         },
         "hint": {
-          "en": "Enter card number",
-          "ru": "Введите номер карты",
-          "uk": "Введіть номер карти"
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
         },
-        "regexp": "\/^\\d{12,19}$\/",
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
         "required": true,
         "position": 1
-      },
-      {
-        "key": "card_expiration_year",
-        "type": "string",
-        "label": {
-          "en": "Card expiration year",
-          "ru": "Год истечения карты",
-          "uk": "Год закінчення карти"
-        },
-        "hint": {
-          "en": "Year",
-          "ru": "Год",
-          "uk": "Рік"
-        },
-        "regexp": "\/^\\d{4}$\/",
-        "required": true,
-        "position": 2
-      },
-      {
-        "key": "card_expiration_month",
-        "type": "string",
-        "label": {
-          "en": "Card expiration month",
-          "ru": "Месяц истечения карты",
-          "uk": "Місяць закінчення карти"
-        },
-        "hint": {
-          "en": "Year",
-          "ru": "Год",
-          "uk": "Рік"
-        },
-        "regexp": "\/^\\d{2}$\/",
-        "required": true,
-        "position": 3
       }
     ],
-    "amount_min": "1",
-    "amount_max": "50000"
+    "amount_min": 1,
+    "amount_max": 50000
   },
   {
     "code": "paysafe_inr",
@@ -65763,58 +65695,24 @@
     "currency": "INR",
     "fields": [
       {
-        "key": "card_number",
+        "key": "email",
         "type": "string",
         "label": {
-          "en": "Card number",
-          "ru": "Номер карты",
-          "uk": "Номер карти"
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
         },
         "hint": {
-          "en": "Enter card number",
-          "ru": "Введите номер карты",
-          "uk": "Введіть номер карти"
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
         },
-        "regexp": "\/^\\d{12,19}$\/",
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
         "required": true,
         "position": 1
-      },
-      {
-        "key": "card_expiration_year",
-        "type": "string",
-        "label": {
-          "en": "Card expiration year",
-          "ru": "Год истечения карты",
-          "uk": "Год закінчення карти"
-        },
-        "hint": {
-          "en": "Year",
-          "ru": "Год",
-          "uk": "Рік"
-        },
-        "regexp": "\/^\\d{4}$\/",
-        "required": true,
-        "position": 2
-      },
-      {
-        "key": "card_expiration_month",
-        "type": "string",
-        "label": {
-          "en": "Card expiration month",
-          "ru": "Месяц истечения карты",
-          "uk": "Місяць закінчення карти"
-        },
-        "hint": {
-          "en": "Month",
-          "ru": "Месяц",
-          "uk": "Місяць"
-        },
-        "regexp": "\/^\\d{2}$\/",
-        "required": true,
-        "position": 3
       }
     ],
-    "amount_min": "1",
-    "amount_max": "50000"
+    "amount_min": 1,
+    "amount_max": 50000
   }
 ]
