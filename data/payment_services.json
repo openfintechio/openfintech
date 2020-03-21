@@ -3603,6 +3603,7 @@
     "code": "paysafe_usd",
     "method": "paysafe_card",
     "currency": "USD",
+    "flow": "hpp",
     "fields": [
       {
         "key": "email",
@@ -3629,6 +3630,7 @@
     "code": "paysafe_eur",
     "method": "paysafe_card",
     "currency": "EUR",
+    "flow": "hpp",
     "fields": [
       {
         "key": "email",
@@ -3655,6 +3657,7 @@
     "code": "paysafe_inr",
     "method": "paysafe_card",
     "currency": "INR",
+    "flow": "hpp",
     "fields": [
       {
         "key": "email",
