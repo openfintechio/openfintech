@@ -3600,7 +3600,7 @@
     "amount_max": 99999.00
   },
   {
-    "code": "paysafe_usd",
+    "code": "paysafe_usd_hpp",
     "method": "paysafe_card",
     "currency": "USD",
     "flow": "hpp",
@@ -3627,7 +3627,7 @@
     "amount_max": 50000
   },
   {
-    "code": "paysafe_eur",
+    "code": "paysafe_eur_hpp",
     "method": "paysafe_card",
     "currency": "EUR",
     "flow": "hpp",
@@ -3654,7 +3654,7 @@
     "amount_max": 50000
   },
   {
-    "code": "paysafe_inr",
+    "code": "paysafe_inr_hpp",
     "method": "paysafe_card",
     "currency": "INR",
     "flow": "hpp",
