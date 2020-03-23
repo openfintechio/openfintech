@@ -2317,6 +2317,52 @@
     "flow": "hpp",
     "method": "neteller",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "neteller_inr_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "inr",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -2325,6 +2371,25 @@
     "flow": "hpp",
     "method": "neteller",
     "currency": "USD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -3599,85 +3664,4 @@
     "amount_min": 0.01,
     "amount_max": 99999.00
   },
-  {
-    "code": "paysafe_usd_hpp",
-    "method": "paysafe_card",
-    "currency": "USD",
-    "flow": "hpp",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": 1,
-    "amount_max": 50000
-  },
-  {
-    "code": "paysafe_eur_hpp",
-    "method": "paysafe_card",
-    "currency": "EUR",
-    "flow": "hpp",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": 1,
-    "amount_max": 50000
-  },
-  {
-    "code": "paysafe_inr_hpp",
-    "method": "paysafe_card",
-    "currency": "INR",
-    "flow": "hpp",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": 1,
-    "amount_max": 50000
-  }
 ]
