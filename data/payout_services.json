@@ -96,7 +96,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "500000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_uah",
@@ -162,7 +162,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "14999"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_gbp",
@@ -194,8 +194,8 @@
         }
       }
     ],
-    "amount_min": 0.01,
-    "amount_max": 14999
+    "amount_min": "0.01",
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_ngn",
@@ -227,8 +227,8 @@
         }
       }
     ],
-    "amount_min": 1,
-    "amount_max": 10000000
+    "amount_min": "1",
+    "amount_max": "10000000"
   },
   {
     "code": "payment_card_tzs",
@@ -260,8 +260,8 @@
         }
       }
     ],
-    "amount_min": 1,
-    "amount_max": 1000000
+    "amount_min": "1",
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_cny",
@@ -294,7 +294,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "14999"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_usd",
@@ -327,7 +327,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "50000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_eur",
@@ -360,7 +360,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "50000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_rub",
@@ -426,7 +426,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_ghs",
@@ -459,7 +459,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_kes",
@@ -492,12 +492,12 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
   },
   {
-    "code": "payment_card_ngn",
+    "code": "payment_card_tjs",
     "method": "payment_card",
-    "currency": "NGN",
+    "currency": "TJS",
     "fields": [
       {
         "key": "card_number",
@@ -525,12 +525,12 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
   },
   {
-    "code": "payment_card_tzs",
+    "code": "payment_card_azn",
     "method": "payment_card",
-    "currency": "TZS",
+    "currency": "AZN",
     "fields": [
       {
         "key": "card_number",
@@ -558,7 +558,73 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
+  },
+  {
+    "code": "payment_card_tmt",
+    "method": "payment_card",
+    "currency": "TMT",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "code": "payment_card_uzs",
+    "method": "payment_card",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_holder_rub",
@@ -674,7 +740,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "500000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_byn",
@@ -707,7 +773,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "500000"
+    "amount_max": "1000000"
   },
   {
     "code": "qiwi_rub",
@@ -39295,7 +39361,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "position": 6,
         "required": true
       },
@@ -39312,7 +39378,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "position": 7,
         "required": true
       }
@@ -39406,7 +39472,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
         "position": 5
       },
@@ -39423,7 +39489,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
         "position": 6
       }
@@ -39473,7 +39539,7 @@
       {
         "key": "bank_account",
         "type": "string",
-        "regexp": "\/^[0-9]{10}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "label": {
           "en": "Bank Account",
           "ru": "Номер банковского счета",
@@ -39534,7 +39600,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "position": 7,
         "required": true
       },
@@ -39551,7 +39617,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
         "position": 8
       },
@@ -39697,7 +39763,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "position": 6,
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true
       },
       {
@@ -39713,7 +39779,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
         "position": 7
       }
@@ -39825,7 +39891,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "position": 6,
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true
       },
       {
@@ -39841,7 +39907,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
         "position": 7
       }
@@ -39902,7 +39968,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "position": 3,
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true
       },
       {
@@ -39918,7 +39984,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
         "position": 4
       },
@@ -63028,7 +63094,7 @@
           "ru": "First name",
           "uk": "First name"
         },
-        "regexp": "\/^.{1,255}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
         "position": 4,
         "hint": {
