@@ -15206,7 +15206,9 @@
     ],
     "payment_method": [
       "payment_card",
-      "applepay"
+      "applepay",
+      "masterpass",
+      "googlepay"
     ]
   },
   {
@@ -15499,6 +15501,9 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method" : [
+      "payment_card"
     ]
   },
   {
@@ -15691,6 +15696,19 @@
       "bitcoin",
       "bitcoin_cash",
       "usdt"
+    ]
+  },
+  {
+    "code": "paysafe",
+    "vendor": "paysafe",
+    "name": {
+      "en": "Paysafe"
+    },
+    "payout_method": [
+      "neteller"
+    ],
+    "payment_method": [
+      "neteller"
     ]
   }
 ]

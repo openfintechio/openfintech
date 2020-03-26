@@ -96,7 +96,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "500000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_uah",
@@ -162,7 +162,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "14999"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_gbp",
@@ -194,8 +194,8 @@
         }
       }
     ],
-    "amount_min": 0.01,
-    "amount_max": 14999
+    "amount_min": "0.01",
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_ngn",
@@ -227,8 +227,8 @@
         }
       }
     ],
-    "amount_min": 1,
-    "amount_max": 10000000
+    "amount_min": "1",
+    "amount_max": "10000000"
   },
   {
     "code": "payment_card_tzs",
@@ -260,8 +260,8 @@
         }
       }
     ],
-    "amount_min": 1,
-    "amount_max": 1000000
+    "amount_min": "1",
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_cny",
@@ -294,7 +294,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "14999"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_usd",
@@ -327,7 +327,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "50000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_eur",
@@ -360,7 +360,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "50000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_rub",
@@ -426,7 +426,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_ghs",
@@ -459,7 +459,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_kes",
@@ -492,12 +492,12 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
   },
   {
-    "code": "payment_card_ngn",
+    "code": "payment_card_tjs",
     "method": "payment_card",
-    "currency": "NGN",
+    "currency": "TJS",
     "fields": [
       {
         "key": "card_number",
@@ -525,12 +525,12 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
   },
   {
-    "code": "payment_card_tzs",
+    "code": "payment_card_azn",
     "method": "payment_card",
-    "currency": "TZS",
+    "currency": "AZN",
     "fields": [
       {
         "key": "card_number",
@@ -558,7 +558,73 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "100000"
+    "amount_max": "1000000"
+  },
+  {
+    "code": "payment_card_tmt",
+    "method": "payment_card",
+    "currency": "TMT",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "code": "payment_card_uzs",
+    "method": "payment_card",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_holder_rub",
@@ -674,7 +740,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "500000"
+    "amount_max": "1000000"
   },
   {
     "code": "payment_card_byn",
@@ -707,7 +773,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "500000"
+    "amount_max": "1000000"
   },
   {
     "code": "qiwi_rub",
@@ -39295,7 +39361,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "position": 6,
         "required": true
       },
@@ -39312,7 +39378,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "position": 7,
         "required": true
       }
@@ -39406,7 +39472,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
         "position": 5
       },
@@ -39423,7 +39489,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
         "position": 6
       }
@@ -39473,7 +39539,7 @@
       {
         "key": "bank_account",
         "type": "string",
-        "regexp": "\/^[0-9]{10}$\/",
+        "regexp": "\/^[0-9]{8,14}$\/",
         "label": {
           "en": "Bank Account",
           "ru": "Номер банковского счета",
@@ -39534,7 +39600,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "position": 7,
         "required": true
       },
@@ -39551,7 +39617,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
         "position": 8
       },
@@ -39697,7 +39763,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "position": 6,
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true
       },
       {
@@ -39713,7 +39779,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
         "position": 7
       }
@@ -39825,7 +39891,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "position": 6,
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true
       },
       {
@@ -39841,7 +39907,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
         "position": 7
       }
@@ -39902,7 +39968,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "position": 3,
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true
       },
       {
@@ -39918,7 +39984,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
         "position": 4
       },
@@ -40679,734 +40745,6 @@
           "uk": "Введіть email одержувача "
         },
         "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_aed",
-    "method": "neteller",
-    "currency": "AED",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_aud",
-    "method": "neteller",
-    "currency": "AUD",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_brl",
-    "method": "neteller",
-    "currency": "BRL",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_gbp",
-    "method": "neteller",
-    "currency": "GBP",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_bgn",
-    "method": "neteller",
-    "currency": "BGN",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_cad",
-    "method": "neteller",
-    "currency": "CAD",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_cop",
-    "method": "neteller",
-    "currency": "COP",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_cny",
-    "method": "neteller",
-    "currency": "CNY",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_dkk",
-    "method": "neteller",
-    "currency": "DKK",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_eur",
-    "method": "neteller",
-    "currency": "EUR",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_huf",
-    "method": "neteller",
-    "currency": "HUF",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_inr",
-    "method": "neteller",
-    "currency": "INR",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_jpy",
-    "method": "neteller",
-    "currency": "JPY",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_myr",
-    "method": "neteller",
-    "currency": "MYR",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_mad",
-    "method": "neteller",
-    "currency": "MAD",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_mxn",
-    "method": "neteller",
-    "currency": "MXN",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_ngn",
-    "method": "neteller",
-    "currency": "NGN",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_nok",
-    "method": "neteller",
-    "currency": "NOK",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_pln",
-    "method": "neteller",
-    "currency": "PLN",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_ron",
-    "method": "neteller",
-    "currency": "RON",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_rub",
-    "method": "neteller",
-    "currency": "RUB",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_sgd",
-    "method": "neteller",
-    "currency": "SGD",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_sek",
-    "method": "neteller",
-    "currency": "SEK",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_chf",
-    "method": "neteller",
-    "currency": "CHF",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_twd",
-    "method": "neteller",
-    "currency": "TWD",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_tnd",
-    "method": "neteller",
-    "currency": "TND",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_usd",
-    "method": "neteller",
-    "currency": "USD",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\\\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\\\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "code": "neteller_zar",
-    "method": "neteller",
-    "currency": "ZAR",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
         "required": true,
         "position": 1
       }
@@ -63756,7 +63094,7 @@
           "ru": "First name",
           "uk": "First name"
         },
-        "regexp": "\/^.{1,255}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
         "position": 4,
         "hint": {
@@ -65559,5 +64897,810 @@
     ],
     "amount_min": "10",
     "amount_max": "14000"
+  },
+  {
+    "code": "xpate_card_eur",
+    "currency": "EUR",
+    "method": "xpate",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "card_holder",
+        "type": "string",
+        "label": {
+          "en": "Card holder",
+          "ru": "Держатель карты",
+          "uk": "Власник картки"
+        },
+        "hint": {
+          "en": "Card holder",
+          "ru": "Держатель карты",
+          "uk": "Власник картки"
+        },
+        "regexp": "\/^([45]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "expiry_month",
+        "type": "string",
+        "label": {
+          "en": "Card expiry month",
+          "ru": "Месяц истечения карты",
+          "uk": "Місяць закінчення роботи карти"
+        },
+        "hint": {
+          "en": "Enter card expiry month",
+          "ru": "Введите месяц истечения карты",
+          "uk": "Введіть місяць заканчення роботи картки"
+        },
+        "regexp": "\/^[1-9]{1}$|^[1-9]{2}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "expiry_year",
+        "type": "string",
+        "label": {
+          "en": "Card expiry year",
+          "ru": "Год истечения карты",
+          "uk": "Рік закінчення роботи карти"
+        },
+        "hint": {
+          "en": "Enter card expiry month",
+          "ru": "Введите год истечения карты",
+          "uk": "Введіть рік заканчення роботи картки"
+        },
+        "regexp": "\/^[1-9][0-9]{3}$\/",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "code": "neteller_aed",
+    "method": "neteller",
+    "currency": "AED",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_aud",
+    "method": "neteller",
+    "currency": "AUD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_brl",
+    "method": "neteller",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_gbp",
+    "method": "neteller",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_bgn",
+    "method": "neteller",
+    "currency": "BGN",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_cad",
+    "method": "neteller",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_cop",
+    "method": "neteller",
+    "currency": "COP",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_cny",
+    "method": "neteller",
+    "currency": "CNY",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_dkk",
+    "method": "neteller",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_eur",
+    "method": "neteller",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_huf",
+    "method": "neteller",
+    "currency": "HUF",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_inr",
+    "method": "neteller",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_jpy",
+    "method": "neteller",
+    "currency": "JPY",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_myr",
+    "method": "neteller",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_mad",
+    "method": "neteller",
+    "currency": "MAD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_mxn",
+    "method": "neteller",
+    "currency": "MXN",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_ngn",
+    "method": "neteller",
+    "currency": "NGN",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_nok",
+    "method": "neteller",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_pln",
+    "method": "neteller",
+    "currency": "PLN",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_ron",
+    "method": "neteller",
+    "currency": "RON",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_rub",
+    "method": "neteller",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_sgd",
+    "method": "neteller",
+    "currency": "SGD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_sek",
+    "method": "neteller",
+    "currency": "SEK",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_chf",
+    "method": "neteller",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_twd",
+    "method": "neteller",
+    "currency": "TWD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_tnd",
+    "method": "neteller",
+    "currency": "TND",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_usd",
+    "method": "neteller",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\\\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\\\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "code": "neteller_zar",
+    "method": "neteller",
+    "currency": "ZAR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
   }
 ]
