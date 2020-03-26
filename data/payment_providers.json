@@ -15679,8 +15679,23 @@
     "name": {
       "en": "Any.Money"
     },
+    "payment_method": [
+      "qiwi",
+      "litecoin",
+      "ethereum",
+      "bitcoin",
+      "bitcoin_cash",
+      "usdt"
+    ],
     "payout_method": [
-      "mobile"
+      "mobile",
+      "payment_card",
+      "qiwi",
+      "litecoin",
+      "ethereum",
+      "bitcoin",
+      "bitcoin_cash",
+      "usdt"
     ]
   },
   {
