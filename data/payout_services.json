@@ -39346,7 +39346,7 @@
           "uk": "Введіть тип акаунту"
         },
         "position": 5,
-        "required": true
+        "required": false
       },
       {
         "key": "beneficiary_name",
@@ -39504,7 +39504,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{8,14}$\/",
+        "regexp": "\/^[0-9]{10}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39539,7 +39539,7 @@
       {
         "key": "bank_account",
         "type": "string",
-        "regexp": "\/^[0-9]{8,14}$\/",
+        "regexp": "\/^[0-9]{8,16}$\/",
         "label": {
           "en": "Bank Account",
           "ru": "Номер банковского счета",
@@ -39683,7 +39683,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{8,14}$\/",
+        "regexp": "\/^[0-9\\-\\_\\.K]{8,14}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -39701,7 +39701,7 @@
       {
         "key": "bank_account",
         "type": "string",
-        "regexp": "\/^[0-9]{4,18}$\/",
+        "regexp": "\/^[0-9]{4,45}$\/",
         "label": {
           "en": "Bank Account",
           "ru": "Номер банковского счета",
@@ -39856,7 +39856,7 @@
           "ru": "Введите код филиала банка",
           "uk": "Введіть код філії банку"
         },
-        "regexp": "\/^[A-Z,a-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-z0-9\\-]{2,100}$\/",
         "required": true,
         "position": 4
       },
@@ -39939,7 +39939,7 @@
       },
       {
         "key": "document_type",
-        "regexp": "/^[0-9]{8,11}$/",
+        "regexp": "\/^(DNI|RUC|CE|PASS)$\/",
         "type": "string",
         "label": {
           "en": "Document Type",
@@ -39991,7 +39991,7 @@
       {
         "key": "bank_account",
         "type": "string",
-        "regexp": "\/^[0-9]{4,18}$\/",
+        "regexp": "\/^[0-9]{20}$\/",
         "label": {
           "en": "Bank Account",
           "ru": "Номер банковского счета",
