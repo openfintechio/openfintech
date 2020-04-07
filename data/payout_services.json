@@ -39556,7 +39556,7 @@
       {
         "key": "bank_code",
         "type": "string",
-        "regexp": "\/^[0-9]$\/",
+        "regexp": "\/^[0-9]{2,3}$\/",
         "label": {
           "en": "Bank Code",
           "ru": "Код банка",
@@ -39718,7 +39718,7 @@
       {
         "key": "bank_code",
         "type": "string",
-        "regexp": "\/^[0-9]{3}$\/",
+        "regexp": "\/^[0-9]{2,3}$\/",
         "label": {
           "en": "Bank Code",
           "ru": "Код банка",
