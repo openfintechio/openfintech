@@ -2894,7 +2894,11 @@
     },
     "name": {
       "en": "Portmone.com"
-    }
+    },
+    "payment_method": [
+      "payment_card",
+      "googlepay"
+    ]
   },
   {
     "code": "skypay",
@@ -15187,7 +15191,8 @@
       "en": "PayLink"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "masterpass"
     ],
     "countries": [
       "UA"
@@ -15316,7 +15321,9 @@
     ],
     "payment_method": [
       "payment_card",
-      "applepay"
+      "applepay",
+      "masterpass",
+      "googlepay"
     ],
     "payout_method": [
       "payment_card"
