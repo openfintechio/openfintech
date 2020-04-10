@@ -1390,6 +1390,14 @@
     "amount_max": 1000000
   },
   {
+    "code": "payment_card_kgs_hpp",
+    "currency": "KGS",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
     "code": "interkassa_uah_hpp",
     "currency": "UAH",
     "method": "interkassa",
