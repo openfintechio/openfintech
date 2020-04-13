@@ -15118,12 +15118,33 @@
     },
     "payment_method": [
       "qiwi",
-      "payment_card"
+      "payment_card",
+      "applepay",
+      "beeline",
+      "bitcoin_cash",
+      "ethereum",
+      "megafon",
+      "mts",
+      "piastrix",
+      "tele2ru",
+      "yandexmoney",
+      "perfectmoney",
+      "payeer",
+      "alfaclick"
     ],
     "payout_method": [
+      "qiwi",
       "payment_card",
+      "beeline",
+      "megafon",
+      "mts",
+      "piastrix",
+      "tele2ru",
       "yandexmoney",
-      "qiwi"
+      "perfectmoney_transfer",
+      "payeer",
+      "advcash_wallet",
+      "webmoneytransfer"
     ]
   },
   {
