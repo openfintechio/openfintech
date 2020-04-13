@@ -912,6 +912,54 @@
     "amount_max": 9999999
   },
   {
+    "code": "banktransfer_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_ngn_hpp",
+    "currency": "NGN",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_zar_hpp",
+    "currency": "ZAR",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
     "code": "megafon_rub_hpp",
     "currency": "RUB",
     "method": "megafon",
@@ -1228,6 +1276,14 @@
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 500000
+  },
+  {
+    "code": "payment_card_ghs_hpp",
+    "currency": "GHS",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   },
   {
     "code": "psbretail_rub_hpp",
