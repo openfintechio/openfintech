@@ -896,7 +896,7 @@
     "amount_max": 9999999
   },
   {
-    "code": "ussd",
+    "code": "ussd_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
     "method": "ussd",
@@ -904,7 +904,7 @@
     "amount_max": 9999999
   },
   {
-    "code": "ussd",
+    "code": "ussd_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
     "method": "ussd",
