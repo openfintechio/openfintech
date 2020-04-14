@@ -3685,6 +3685,7 @@
   {
     "code": "klarna_card_pln",
     "currency": "PLN",
+    "flow": "hpp",
     "method": "klarna",
     "amount_min": 0.01,
     "amount_max": 50000
