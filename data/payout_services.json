@@ -64030,6 +64030,33 @@
     "amount_max": "99999.00"
   },
   {
+    "code": "muchbetter_brl",
+    "method": "muchbetter",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
     "code": "paysafecard_usd",
     "method": "paysafecard",
     "currency": "USD",
