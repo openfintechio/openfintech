@@ -15738,5 +15738,20 @@
     "payment_method": [
       "neteller"
     ]
+  },
+  {
+    "code": "klarna",
+    "vendor": "klarna",
+    "name": {
+      "en": "Klarna",
+      "ru": "Klarna",
+      "uk": "Klarna"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method" : [
+
+    ]
   }
 ]

@@ -7420,6 +7420,9 @@
   {
     "code": "klarna",
     "status": "active",
+    "links": {
+      "website": "https:\/\/klarna.com"
+    },
     "countries": [
       "AU",
       "DK",
@@ -7428,7 +7431,8 @@
       "NL",
       "NO",
       "SE",
-      "AE"
+      "AE",
+      "PL"
     ],
     "name": {
       "en": "Klarna"
