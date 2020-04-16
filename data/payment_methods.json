@@ -1606,6 +1606,15 @@
     }
   },
   {
+    "code": "banktransfer",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Bank Transfer",
+      "ru": "Банковский перевод",
+      "uk": "Банківський переказ"
+    }
+  },
+  {
     "code": "liqpay_wallet",
     "category": "digital_wallet",
     "name": {
@@ -2624,7 +2633,8 @@
       "NL",
       "NO",
       "SE",
-      "AE"
+      "AE",
+      "PL"
     ],
     "name": {
       "en": "Klarna"

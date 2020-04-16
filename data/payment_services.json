@@ -896,7 +896,7 @@
     "amount_max": 9999999
   },
   {
-    "code": "ussd",
+    "code": "ussd_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
     "method": "ussd",
@@ -904,10 +904,58 @@
     "amount_max": 9999999
   },
   {
-    "code": "ussd",
+    "code": "ussd_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
     "method": "ussd",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_ngn_hpp",
+    "currency": "NGN",
+    "flow": "hpp",
+    "method": "banktransfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "banktransfer_zar_hpp",
+    "currency": "ZAR",
+    "flow": "hpp",
+    "method": "banktransfer",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -1228,6 +1276,14 @@
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 500000
+  },
+  {
+    "code": "payment_card_ghs_hpp",
+    "currency": "GHS",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   },
   {
     "code": "psbretail_rub_hpp",
@@ -3433,6 +3489,34 @@
     "amount_max": 999999
   },
   {
+    "code": "muchbetter_brl_invoice",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "muchbetter",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
     "code": "ecobanq_inr_transfer",
     "currency": "INR",
     "fields": [
@@ -3625,5 +3709,13 @@
     "method": "uax",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "code": "klarna_card_pln",
+    "currency": "PLN",
+    "flow": "hpp",
+    "method": "klarna",
+    "amount_min": 0.01,
+    "amount_max": 50000
   }
 ]

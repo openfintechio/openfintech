@@ -132,6 +132,39 @@
     "amount_max": "14999"
   },
   {
+    "code": "card",
+    "method": "payment_card",
+    "currency": "XXX",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "14999"
+  },
+  {
     "code": "payment_card_pln",
     "method": "payment_card",
     "currency": "PLN",
@@ -64030,6 +64063,33 @@
     "amount_max": "99999.00"
   },
   {
+    "code": "muchbetter_brl",
+    "method": "muchbetter",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999.00"
+  },
+  {
     "code": "paysafecard_usd",
     "method": "paysafecard",
     "currency": "USD",
@@ -64048,7 +64108,7 @@
           "uk": "Введіть аккаунт ID"
         },
         "example": "447624222721",
-        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+.[a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
+        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+[.][a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
         "required": true,
         "position": 1
       },
@@ -64129,7 +64189,7 @@
           "uk": "Введіть аккаунт ID"
         },
         "example": "447624222721",
-        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+.[a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
+        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+[.][a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
         "required": true,
         "position": 1
       },
@@ -64210,7 +64270,7 @@
           "uk": "Введіть аккаунт ID"
         },
         "example": "447624222721",
-        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+.[a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
+        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+[.][a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
         "required": true,
         "position": 1
       },
