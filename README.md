@@ -1,5 +1,5 @@
 
-# Open FinTech standards and data
+# OpenSource FinTech standards and data
 
 [![Build Status](https://img.shields.io/travis/paycoreio/openfintech.svg?style=flat-square)](https://travis-ci.org/paycoreio/openfintech)
 [![Total Downloads](https://poser.pugx.org/paycore/openfintech-data/downloads?format=flat-square)](https://packagist.org/packages/paycore/openfintech-data)
@@ -72,8 +72,6 @@ It also includes different resources like entity logos and icons.
 ## Community
 
 Feel free to contribute new FinTech entities and data.
-
-Contact us: [info@openfintech.io](mailto:info@openfintech.io)             
 
 # SVG optimization
 ```bash
