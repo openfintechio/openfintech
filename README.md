@@ -1,4 +1,3 @@
-![Logo](oft-logo.png?raw=true "OpenFinTech.io")
 
 # Open FinTech standards and data
 
