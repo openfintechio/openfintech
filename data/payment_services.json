@@ -960,6 +960,22 @@
     "amount_max": 9999999
   },
   {
+    "code": "visa_qr_code_ngn_hpp",
+    "currency": "NGN",
+    "flow": "hpp",
+    "method": "visa_qr_code",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "code": "net_banking_ngn_hpp",
+    "currency": "NGN",
+    "flow": "hpp",
+    "method": "net_banking",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
     "code": "megafon_rub_hpp",
     "currency": "RUB",
     "method": "megafon",
