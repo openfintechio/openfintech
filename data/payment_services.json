@@ -2863,7 +2863,39 @@
     "flow": "hpp",
     "method": "applepay",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
+  },
+  {
+    "code": "applepay_rub_hpp",
+    "currency": "RUB",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "applepay_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "applepay_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "applepay_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   },
   {
     "code": "googlepay_uah_hpp",
