@@ -5326,16 +5326,6 @@
     }
   },
   {
-    "code": "xpate",
-    "vendor": "xpate",
-    "category": "payment_card",
-    "name": {
-      "en": "Xpate",
-      "ru": "Xpate",
-      "uk": "Xpate"
-    }
-  },
-  {
     "code": "cypix",
     "vendor": "cypix",
     "category": "payment_card",
@@ -5423,6 +5413,24 @@
       "en": "UAX",
       "ru": "UAX",
       "uk": "UAX"
+    }
+  },
+  {
+    "code": "visa_qr_code",
+    "category": "payment_card",
+    "name": {
+      "en": "Visa QR Code",
+      "ru": "Visa QR Code",
+      "uk": "Visa QR Code"
+    }
+  },
+  {
+    "code": "net_banking",
+    "category": "payment_card",
+    "name": {
+      "en": "Pay with bank",
+      "ru": "Pay with bank",
+      "uk": "Pay with bank"
     }
   }
 ]
