@@ -884,6 +884,25 @@
     "currency": "RUB",
     "method": "beeline",
     "flow": "hpp",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter your phone number, omit «+7»",
+          "ru": "Введите Ваш номер телефона, без «+7»",
+          "uk": "Введіть номер телефону, без «+7»"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
