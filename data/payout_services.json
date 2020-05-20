@@ -63779,7 +63779,7 @@
   },
   {
     "code": "banktransfer_usd",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "currency": "USD",
     "fields": [
       {
@@ -63813,7 +63813,7 @@
   },
   {
     "code": "banktransfer_eur",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "currency": "EUR",
     "fields": [
       {
@@ -63847,7 +63847,7 @@
   },
   {
     "code": "banktransfer_gbp",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "currency": "GBP",
     "fields": [
       {
@@ -63881,7 +63881,7 @@
   },
   {
     "code": "banktransfer_pln",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "currency": "PLN",
     "fields": [
       {
@@ -63915,7 +63915,7 @@
   },
   {
     "code": "banktransfer_rub",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "currency": "RUB",
     "fields": [
       {
@@ -63949,7 +63949,7 @@
   },
   {
     "code": "banktransfer_uah",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "currency": "UAH",
     "fields": [
       {
@@ -63980,6 +63980,941 @@
     ],
     "amount_min": "0.01",
     "amount_max": "99999.00"
+  },
+  {
+    "code": "bank_transfer_tzs",
+    "method": "bank_transfer",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Iban"
+            }
+          ]
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{3}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "bank_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Bank Address",
+          "ru": "Адрес банка",
+          "uk": "Адреса банку"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_id",
+        "type": "string",
+        "regexp": "\/^[A-Z0-9]{8,14}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Beneficiary Document ID",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document ID",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2,6}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary Document Type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document Type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документу отримувача"
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "bank_transfer_ngn",
+    "method": "bank_transfer",
+    "currency": "NGN",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Iban"
+            }
+          ]
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{3}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "bank_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Bank Address",
+          "ru": "Адрес банка",
+          "uk": "Адреса банку"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_id",
+        "type": "string",
+        "regexp": "\/^[A-Z0-9]{8,14}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Beneficiary Document ID",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document ID",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2,6}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary Document Type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document Type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документу отримувача"
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "bank_transfer_kes",
+    "method": "bank_transfer",
+    "currency": "KES",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Iban"
+            }
+          ]
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{3}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "bank_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Bank Address",
+          "ru": "Адрес банка",
+          "uk": "Адреса банку"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_id",
+        "type": "string",
+        "regexp": "\/^[A-Z0-9]{8,14}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Beneficiary Document ID",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document ID",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2,6}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary Document Type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document Type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документу отримувача"
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "bank_transfer_ghs",
+    "method": "bank_transfer",
+    "currency": "GHS",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Iban"
+            }
+          ]
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{3}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "bank_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Bank Address",
+          "ru": "Адрес банка",
+          "uk": "Адреса банку"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_id",
+        "type": "string",
+        "regexp": "\/^[A-Z0-9]{8,14}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Beneficiary Document ID",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document ID",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2,6}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary Document Type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document Type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документу отримувача"
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "bank_transfer_zar",
+    "method": "bank_transfer",
+    "currency": "ZAR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Iban"
+            }
+          ]
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{3}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "bank_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Bank Address",
+          "ru": "Адрес банка",
+          "uk": "Адреса банку"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_id",
+        "type": "string",
+        "regexp": "\/^[A-Z0-9]{8,14}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Beneficiary Document ID",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document ID",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2,6}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary Document Type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document Type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документу отримувача"
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "14999.00"
   },
   {
     "code": "muchbetter_usd",
