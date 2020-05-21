@@ -33,6 +33,87 @@
     "amount_max": "14999"
   },
   {
+    "code": "vodafone_uah",
+    "method": "vodafone",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Vodafone number:",
+          "uk": "Номер Vodafone:",
+          "ru": "Номер Vodafone:"
+        },
+        "regexp": "\/^(\\+380)[0-9]{9}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your phone number in international format without «+»",
+          "uk": "Введіть номер телефону в міжнародному форматі, без «+»",
+          "ru": "Введите номер телефона в международном формате, без «+»"
+        },
+        "example": "380121234567"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "14000"
+  },
+  {
+    "code": "lifecell_uah",
+    "method": "lifecell",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Lifecell number:",
+          "uk": "Номер Lifecell:",
+          "ru": "Номер Lifecell:"
+        },
+        "regexp": "\/^(\\+380)[0-9]{9}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your phone number in international format without «+»",
+          "uk": "Введіть номер телефону в міжнародному форматі, без «+»",
+          "ru": "Введите номер телефона в международном формате, без «+»"
+        },
+        "example": "380121234567"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "14000"
+  },
+  {
+    "code": "kyivstar_uah",
+    "method": "kyivstar",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Kyivstar number:",
+          "uk": "Номер Київстар:",
+          "ru": "Номер Киевстар:"
+        },
+        "regexp": "\/^(\\+380)[0-9]{9}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your phone number in international format without «+»",
+          "uk": "Введіть номер телефону в міжнародному форматі, без «+»",
+          "ru": "Введите номер телефона в международном формате, без «+»"
+        },
+        "example": "380121234567"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "14000"
+  },
+  {
     "code": "bank_card_rub",
     "method": "bank_card",
     "currency": "RUB",
