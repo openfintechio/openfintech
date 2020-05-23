@@ -221,7 +221,7 @@
       "ideal",
       "giropay",
       "inghomepay",
-      "klarna",
+      "bank_transfer_klarna",
       "paypal"
     ],
     "metadata": {
@@ -1563,7 +1563,7 @@
       "capayable",
       "sofortbanking",
       "ideal",
-      "klarna",
+      "bank_transfer_klarna",
       "sepadirectdebit"
     ],
     "metadata": {
@@ -1940,7 +1940,7 @@
       "sofortbanking",
       "trustly",
       "ideal",
-      "klarna",
+      "bank_transfer_klarna",
       "sepadirectdebit"
     ],
     "metadata": {
@@ -2457,7 +2457,7 @@
       "elektronischeslastschriftverfahren",
       "smsbilling",
       "directdebit",
-      "klarna",
+      "bank_transfer_klarna",
       "sepacredittransfer",
       "sofortbanking",
       "billmelater",
@@ -5738,7 +5738,7 @@
       "elektronischeslastschriftverfahren",
       "afterpay",
       "postpay",
-      "klarna",
+      "bank_transfer_klarna",
       "oxxo",
       "7eleven",
       "przelewy24",
@@ -5876,7 +5876,7 @@
       "directdebit",
       "ideal",
       "postfinanceefinance",
-      "klarna",
+      "bank_transfer_klarna",
       "sepacredittransfer",
       "belfiusdirectnet",
       "inghomepay",
@@ -7830,7 +7830,7 @@
       "polipayonline",
       "elektronischeslastschriftverfahren",
       "trustly",
-      "klarna",
+      "bank_transfer_klarna",
       "7eleven",
       "pagofacil",
       "przelewy24",
@@ -7873,7 +7873,7 @@
       "mastercard",
       "sofortbanking",
       "ideal",
-      "klarna",
+      "bank_transfer_klarna",
       "sepadirectdebit"
     ],
     "metadata": {
@@ -7916,7 +7916,7 @@
       "wiretransfer",
       "directdebit",
       "ideal",
-      "klarna",
+      "bank_transfer_klarna",
       "sepacredittransfer",
       "acceptgiro",
       "ingspain",
@@ -9248,7 +9248,7 @@
       "rapidtransfer",
       "giropay",
       "directdebit",
-      "klarna",
+      "bank_transfer_klarna",
       "nordeasolo",
       "ideal",
       "eps",
@@ -10245,7 +10245,7 @@
       "wiretransfer",
       "directdebit",
       "ideal",
-      "klarna",
+      "bank_transfer_klarna",
       "sepacredittransfer",
       "belfiusdirectnet",
       "giropay",
@@ -10535,7 +10535,7 @@
       "handelsbanken",
       "ideal",
       "santander",
-      "klarna",
+      "bank_transfer_klarna",
       "sepacredittransfer",
       "spankki",
       "inghomepay",
@@ -10930,7 +10930,7 @@
       "vubbanka",
       "bankinter",
       "argencard",
-      "klarna",
+      "bank_transfer_klarna",
       "bankia",
       "pagofacil",
       "bbva",
@@ -11620,7 +11620,7 @@
       "trustly",
       "ideal",
       "enetsdirectdebit",
-      "klarna",
+      "bank_transfer_klarna",
       "giropay",
       "safetypay",
       "sofortbanking",
@@ -11868,7 +11868,7 @@
       "giropay",
       "trustly",
       "ideal",
-      "klarna",
+      "bank_transfer_klarna",
       "applepay",
       "paypal"
     ],
@@ -12759,7 +12759,7 @@
       "postpay",
       "cimbclicksinternetbanking",
       "paydirekt",
-      "klarna",
+      "bank_transfer_klarna",
       "ekonto",
       "przelewy24",
       "sofortbanking",
@@ -15755,7 +15755,7 @@
       "uk": "Klarna"
     },
     "payment_method": [
-      "payment_card"
+      "bank_transfer_klarna"
     ],
     "payout_method" : [
 
