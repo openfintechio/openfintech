@@ -2622,7 +2622,7 @@
     }
   },
   {
-    "code": "klarna",
+    "code": "bank_transfer_klarna",
     "vendor": "klarna",
     "category": "invoice_payment",
     "countries": [
@@ -2637,7 +2637,7 @@
       "PL"
     ],
     "name": {
-      "en": "Klarna"
+      "en": "Klarna bank transfer"
     },
     "description": {
       "en": "Klarna allows shoppers to buy now and pay later. And Merchants to increase their conversion rate with optimised user experience for m-commerce as well as state of the art payment options."
