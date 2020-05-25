@@ -1,9 +1,9 @@
 
 # OpenSource FinTech standards and data
 
-[![Build Status](https://img.shields.io/travis/paycoreio/directory.svg?style=flat-square)](https://travis-ci.org/paycoreio/directory)
+[![Build Status](https://img.shields.io/travis/openfintechio/openfintech.svg?style=flat-square)](https://travis-ci.org/openfintechio/openfintech)
 [![Total Downloads](https://poser.pugx.org/paycore/openfintech-data/downloads?format=flat-square)](https://packagist.org/packages/paycore/openfintech-data)
-[![License](https://poser.pugx.org/paycore/openfintech-data/license?format=flat-square)](https://packagist.org/packages/paycore/openfintech-data)
+[![License](https://poser.pugx.org/openfintechio/openfintech/license?format=flat-square)](https://packagist.org/packages/openfintechio/openfintech)
 ## About
 
 __Mission:__ speeds up development and helps FinTech-services to communicate in _one language_.
