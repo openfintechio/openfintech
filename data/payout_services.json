@@ -39643,6 +39643,117 @@
     ]
   },
   {
+    "code": "dlocal_in_inr",
+    "method": "dlocal",
+    "currency": "INR",
+    "amount_min": "0.01",
+    "amount_max": "100000",
+    "fields": [
+      {
+        "key": "bank_account",
+        "type": "string",
+        "regexp": "\/^[0-9]{18}$\/",
+        "label": {
+          "en": "Bank Account",
+          "ru": "Номер банковского счета",
+          "uk": "Номер банківського рахунку"
+        },
+        "hint": {
+          "en": "Enter bank account",
+          "ru": "Введите номер банковского счета",
+          "uk": "Введіть номер банківського рахунку"
+        },
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{3}$\/",
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Филиал банка",
+          "uk": "Філія банку"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите код филиала банка",
+          "uk": "Введіть код філії банку"
+        },
+        "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        },
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прiзвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прiзвище отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 6
+      }
+    ]
+  },
+  {
     "code": "dlocal_co_cop",
     "method": "dlocal",
     "currency": "COP",
