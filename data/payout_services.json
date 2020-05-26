@@ -65987,5 +65987,31 @@
     ],
     "amount_min": "1",
     "amount_max": "50000"
+  },
+  {
+    "code": "vcreditos_brl",
+    "method": "vcreditos",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "user_id",
+        "type": "string",
+        "label": {
+          "en": "User ID",
+          "ru": "User ID",
+          "uk": "User ID"
+        },
+        "hint": {
+          "en": "Enter user ID",
+          "ru": "Введите user ID",
+          "uk": "Введiть user ID"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
   }
 ]
