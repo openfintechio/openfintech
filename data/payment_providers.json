@@ -15761,5 +15761,19 @@
     "payout_method" : [
 
     ]
+  },
+  {
+    "code": "vcreditos",
+    "vendor": "vcreditos",
+    "name": {
+      "en": "VCreditos",
+      "ru": "VCreditos",
+      "uk": "VCreditos"
+    },
+    "payment_method": [
+    ],
+    "payout_method" : [
+      "vcreditos"
+    ]
   }
 ]
