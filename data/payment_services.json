@@ -2871,14 +2871,6 @@
     "amount_max": 100000
   },
   {
-    "code": "klarna_eur_hpp",
-    "flow": "hpp",
-    "method": "klarna",
-    "currency": "EUR",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
     "code": "nordeasolo_eur_hpp",
     "flow": "hpp",
     "method": "nordeasolo",
@@ -3916,11 +3908,11 @@
     "amount_max": 100000
   },
   {
-    "code": "klarna_card_pln",
+    "code": "bank_transfer_klarna_pln",
     "currency": "PLN",
     "flow": "hpp",
-    "method": "klarna",
-    "amount_min": 0.01,
-    "amount_max": 50000
+    "method": "bank_transfer_klarna",
+    "amount_min": 0.5,
+    "amount_max": 500000
   }
 ]
