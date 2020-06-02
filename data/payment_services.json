@@ -2545,6 +2545,14 @@
     "amount_max": 100000
   },
   {
+    "code": "terminal_rub_hpp",
+    "flow": "hpp",
+    "method": "terminal_rf",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
     "code": "visa_rub_hpp",
     "flow": "hpp",
     "method": "visa",
