@@ -1053,8 +1053,8 @@
     "amount_max": "199999"
   },
   {
-    "code": "advcash_wallet_email_rub",
-    "method": "advcash_wallet_email",
+    "code": "advcash_email_rub",
+    "method": "advcash_email",
     "currency": "RUB",
     "fields": [
       {
@@ -1079,8 +1079,8 @@
     "amount_max": "250000"
   },
   {
-    "code": "advcash_wallet_email_usd",
-    "method": "advcash_wallet_email",
+    "code": "advcash_email_usd",
+    "method": "advcash_email",
     "currency": "USD",
     "fields": [
       {
@@ -1105,8 +1105,8 @@
     "amount_max": "5000"
   },
   {
-    "code": "advcash_wallet_email_eur",
-    "method": "advcash_wallet_email",
+    "code": "advcash_email_eur",
+    "method": "advcash_email",
     "currency": "EUR",
     "fields": [
       {
