@@ -1075,8 +1075,8 @@
         "position": 1
       }
     ],
-    "amount_min": "0.01",
-    "amount_max": "14999"
+    "amount_min": "10",
+    "amount_max": "250000"
   },
   {
     "code": "advcash_wallet_email_usd",
@@ -1102,7 +1102,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "14999"
+    "amount_max": "5000"
   },
   {
     "code": "advcash_wallet_email_eur",
@@ -1128,7 +1128,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "14999"
+    "amount_max": "2700"
   },
   {
     "code": "advcash_wallet_uah",
