@@ -958,52 +958,472 @@
     "amount_max": 9999999
   },
   {
-    "code": "banktransfer_thb_hpp",
+    "code": "bank_transfer_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        }
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        }
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        }
+      }
+    ]
   },
   {
-    "code": "banktransfer_vnd_hpp",
+    "code": "bank_transfer_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        }
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        }
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        }
+      }
+    ]
   },
   {
-    "code": "banktransfer_myr_hpp",
+    "code": "bank_transfer_myr_hpp",
     "currency": "MYR",
     "flow": "hpp",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        }
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        }
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        }
+      }
+    ]
   },
   {
-    "code": "banktransfer_idr_hpp",
+    "code": "bank_transfer_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        }
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        }
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        }
+      }
+    ]
   },
   {
-    "code": "banktransfer_ngn_hpp",
+    "code": "bank_transfer_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        }
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        }
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        }
+      }
+    ]
   },
   {
-    "code": "banktransfer_zar_hpp",
+    "code": "bank_transfer_zar_hpp",
     "currency": "ZAR",
     "flow": "hpp",
-    "method": "banktransfer",
+    "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        }
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        }
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        }
+      }
+    ]
   },
   {
     "code": "visa_qr_code_ngn_hpp",
