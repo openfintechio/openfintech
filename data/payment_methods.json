@@ -1384,13 +1384,6 @@
     }
   },
   {
-    "code": "banktransfer",
-    "category": "bank_transfers",
-    "name": {
-      "en": "Bank transfer"
-    }
-  },
-  {
     "code": "privatbank",
     "category": "bank_transfers",
     "name": {
@@ -1607,6 +1600,15 @@
   },
   {
     "code": "banktransfer",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Bank Transfer",
+      "ru": "Банковский перевод",
+      "uk": "Банківський переказ"
+    }
+  },
+  {
+    "code": "bank_transfer",
     "category": "bank_transfer",
     "name": {
       "en": "Bank Transfer",
