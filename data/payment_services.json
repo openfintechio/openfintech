@@ -3949,5 +3949,13 @@
     "method": "bank_transfer_klarna",
     "amount_min": 0.5,
     "amount_max": 500000
+  },
+  {
+    "code": "vcreditos_brl",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "vcreditos",
+    "amount_min": 1,
+    "amount_max": 999999
   }
 ]
