@@ -980,7 +980,8 @@
           "en": "Enter payer first name",
           "ru": "Введите имя отправителя",
           "uk": "Введіть імʼя відправника"
-        }
+        },
+        "example": "John"
       },
       {
         "key": "payer_last_name",
@@ -997,13 +998,14 @@
           "en": "Enter payer last name",
           "ru": "Введите фамилию отправителя",
           "uk": "Введіть прізвище відправника"
-        }
+        },
+        "example": "Doe"
       },
       {
         "key": "payer_address",
         "type": "string",
         "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
-        "required": false,
+        "required": true,
         "position": 3,
         "label": {
           "en": "Payer address",
@@ -1011,17 +1013,89 @@
           "uk": "Адреса відправника"
         },
         "hint": {
-          "en": "Enter bank address",
-          "ru": "Введите адрес банка",
-          "uk": "Введіть адресу банку"
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
         }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
       },
       {
         "key": "bank_code",
         "type": "string",
         "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
         "required": false,
-        "position": 4,
+        "position": 8,
         "label": {
           "en": "Payer bank code",
           "ru": "Код банка отправителя",
@@ -1031,7 +1105,8 @@
           "en": "Enter payer bank code",
           "ru": "Введите код банка отправителя",
           "uk": "Введіть код банку відправника"
-        }
+        },
+        "example": "050"
       }
     ]
   },
@@ -1058,7 +1133,8 @@
           "en": "Enter payer first name",
           "ru": "Введите имя отправителя",
           "uk": "Введіть імʼя відправника"
-        }
+        },
+        "example": "John"
       },
       {
         "key": "payer_last_name",
@@ -1075,7 +1151,8 @@
           "en": "Enter payer last name",
           "ru": "Введите фамилию отправителя",
           "uk": "Введіть прізвище відправника"
-        }
+        },
+        "example": "Doe"
       },
       {
         "key": "payer_address",
@@ -1089,17 +1166,89 @@
           "uk": "Адреса відправника"
         },
         "hint": {
-          "en": "Enter bank address",
-          "ru": "Введите адрес банка",
-          "uk": "Введіть адресу банку"
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
         }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
       },
       {
         "key": "bank_code",
         "type": "string",
         "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
         "required": false,
-        "position": 4,
+        "position": 8,
         "label": {
           "en": "Payer bank code",
           "ru": "Код банка отправителя",
@@ -1109,7 +1258,8 @@
           "en": "Enter payer bank code",
           "ru": "Введите код банка отправителя",
           "uk": "Введіть код банку відправника"
-        }
+        },
+        "example": "050"
       }
     ]
   },
@@ -1136,7 +1286,8 @@
           "en": "Enter payer first name",
           "ru": "Введите имя отправителя",
           "uk": "Введіть імʼя відправника"
-        }
+        },
+        "example": "John"
       },
       {
         "key": "payer_last_name",
@@ -1153,7 +1304,8 @@
           "en": "Enter payer last name",
           "ru": "Введите фамилию отправителя",
           "uk": "Введіть прізвище відправника"
-        }
+        },
+        "example": "Doe"
       },
       {
         "key": "payer_address",
@@ -1167,17 +1319,89 @@
           "uk": "Адреса відправника"
         },
         "hint": {
-          "en": "Enter bank address",
-          "ru": "Введите адрес банка",
-          "uk": "Введіть адресу банку"
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
         }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
       },
       {
         "key": "bank_code",
         "type": "string",
         "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
         "required": false,
-        "position": 4,
+        "position": 8,
         "label": {
           "en": "Payer bank code",
           "ru": "Код банка отправителя",
@@ -1187,7 +1411,8 @@
           "en": "Enter payer bank code",
           "ru": "Введите код банка отправителя",
           "uk": "Введіть код банку відправника"
-        }
+        },
+        "example": "050"
       }
     ]
   },
@@ -1214,7 +1439,8 @@
           "en": "Enter payer first name",
           "ru": "Введите имя отправителя",
           "uk": "Введіть імʼя відправника"
-        }
+        },
+        "example": "John"
       },
       {
         "key": "payer_last_name",
@@ -1231,7 +1457,8 @@
           "en": "Enter payer last name",
           "ru": "Введите фамилию отправителя",
           "uk": "Введіть прізвище відправника"
-        }
+        },
+        "example": "Doe"
       },
       {
         "key": "payer_address",
@@ -1245,17 +1472,89 @@
           "uk": "Адреса відправника"
         },
         "hint": {
-          "en": "Enter bank address",
-          "ru": "Введите адрес банка",
-          "uk": "Введіть адресу банку"
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
         }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
       },
       {
         "key": "bank_code",
         "type": "string",
         "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
         "required": false,
-        "position": 4,
+        "position": 8,
         "label": {
           "en": "Payer bank code",
           "ru": "Код банка отправителя",
@@ -1265,7 +1564,8 @@
           "en": "Enter payer bank code",
           "ru": "Введите код банка отправителя",
           "uk": "Введіть код банку відправника"
-        }
+        },
+        "example": "050"
       }
     ]
   },
@@ -1292,7 +1592,8 @@
           "en": "Enter payer first name",
           "ru": "Введите имя отправителя",
           "uk": "Введіть імʼя відправника"
-        }
+        },
+        "example": "John"
       },
       {
         "key": "payer_last_name",
@@ -1309,7 +1610,8 @@
           "en": "Enter payer last name",
           "ru": "Введите фамилию отправителя",
           "uk": "Введіть прізвище відправника"
-        }
+        },
+        "example": "Doe"
       },
       {
         "key": "payer_address",
@@ -1323,17 +1625,89 @@
           "uk": "Адреса відправника"
         },
         "hint": {
-          "en": "Enter bank address",
-          "ru": "Введите адрес банка",
-          "uk": "Введіть адресу банку"
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
         }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
       },
       {
         "key": "bank_code",
         "type": "string",
         "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
         "required": false,
-        "position": 4,
+        "position": 8,
         "label": {
           "en": "Payer bank code",
           "ru": "Код банка отправителя",
@@ -1343,7 +1717,8 @@
           "en": "Enter payer bank code",
           "ru": "Введите код банка отправителя",
           "uk": "Введіть код банку відправника"
-        }
+        },
+        "example": "050"
       }
     ]
   },
@@ -1370,7 +1745,8 @@
           "en": "Enter payer first name",
           "ru": "Введите имя отправителя",
           "uk": "Введіть імʼя відправника"
-        }
+        },
+        "example": "John"
       },
       {
         "key": "payer_last_name",
@@ -1387,7 +1763,8 @@
           "en": "Enter payer last name",
           "ru": "Введите фамилию отправителя",
           "uk": "Введіть прізвище відправника"
-        }
+        },
+        "example": "Doe"
       },
       {
         "key": "payer_address",
@@ -1401,17 +1778,89 @@
           "uk": "Адреса відправника"
         },
         "hint": {
-          "en": "Enter bank address",
-          "ru": "Введите адрес банка",
-          "uk": "Введіть адресу банку"
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
         }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": true,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
       },
       {
         "key": "bank_code",
         "type": "string",
         "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
         "required": false,
-        "position": 4,
+        "position": 8,
         "label": {
           "en": "Payer bank code",
           "ru": "Код банка отправителя",
@@ -1421,7 +1870,8 @@
           "en": "Enter payer bank code",
           "ru": "Введите код банка отправителя",
           "uk": "Введіть код банку відправника"
-        }
+        },
+        "example": "050"
       }
     ]
   },
