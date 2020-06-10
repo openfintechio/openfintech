@@ -3951,10 +3951,46 @@
     "amount_max": 500000
   },
   {
-    "code": "vcreditos_brl",
+    "code": "vcreditos_brl_invoice",
     "currency": "BRL",
-    "flow": "hpp",
+    "flow": "invoice",
     "method": "vcreditos",
+    "fields": [
+      {
+        "key": "user_id",
+        "type": "string",
+        "label": {
+          "en": "User ID",
+          "ru": "User ID",
+          "uk": "User ID"
+        },
+        "hint": {
+          "en": "Enter user ID",
+          "ru": "Введите user ID",
+          "uk": "Введiть user ID"
+        },
+        "regexp": "\/^[a-zA-Z0-9_]{1,128}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "user_secure_id",
+        "type": "string",
+        "label": {
+          "en": "User Secure ID",
+          "ru": "User Secure ID",
+          "uk": "User Secure ID"
+        },
+        "hint": {
+          "en": "Enter user secure ID",
+          "ru": "Введите user secure ID",
+          "uk": "Введiть user secure ID"
+        },
+        "regexp": "\/^[a-zA-Z0-9_]{1,128}$\/",
+        "required": true,
+        "position": 2
+      }
+    ],
     "amount_min": 1,
     "amount_max": 999999
   }
