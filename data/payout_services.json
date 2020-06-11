@@ -64048,6 +64048,141 @@
     "amount_max": "14999.00"
   },
   {
+    "code": "ecopayz_brl",
+    "method": "ecopayz",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "client_account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,10}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "ecopayz_inr",
+    "method": "ecopayz",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "client_account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,10}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "ecopayz_ngn",
+    "method": "ecopayz",
+    "currency": "NGN",
+    "fields": [
+      {
+        "key": "client_account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,10}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "ecopayz_pln",
+    "method": "ecopayz",
+    "currency": "PLN",
+    "fields": [
+      {
+        "key": "client_account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,10}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "14999.00"
+  },
+  {
+    "code": "ecopayz_mdl",
+    "method": "ecopayz",
+    "currency": "MDL",
+    "fields": [
+      {
+        "key": "client_account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,10}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "14999.00"
+  },
+  {
     "code": "banktransfer_usd",
     "method": "banktransfer",
     "currency": "USD",
