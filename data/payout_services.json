@@ -64399,20 +64399,13 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
         "required": true,
         "position": 1,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        },
         "hint": {
-          "en": "Enter account number (IBAN)",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
       },
@@ -64603,20 +64596,13 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
         "required": true,
         "position": 1,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        },
         "hint": {
-          "en": "Enter account number (IBAN)",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
       },
@@ -64807,20 +64793,13 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
         "required": true,
         "position": 1,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        },
         "hint": {
-          "en": "Enter account number (IBAN)",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
       },
@@ -65011,20 +64990,13 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
         "required": true,
         "position": 1,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        },
         "hint": {
-          "en": "Enter account number (IBAN)",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
       },
@@ -65215,20 +65187,13 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
         "required": true,
         "position": 1,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        },
         "hint": {
-          "en": "Enter account number (IBAN)",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
       },
@@ -65419,20 +65384,13 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
         "required": true,
         "position": 1,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        },
         "hint": {
-          "en": "Enter account number (IBAN)",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
       },
@@ -65623,20 +65581,13 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
         "required": true,
         "position": 1,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        },
         "hint": {
-          "en": "Enter account number (IBAN)",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
       },
@@ -65827,20 +65778,13 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
         "required": true,
         "position": 1,
-        "options": {
-          "validators": [
-            {
-              "name": "Iban"
-            }
-          ]
-        },
         "hint": {
-          "en": "Enter account number (IBAN)",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
       },
