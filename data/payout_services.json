@@ -31829,6 +31829,25 @@
     "code": "webmoneytransfer_usd",
     "method": "webmoneytransfer",
     "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Number WMZ wallet",
+          "ru": "Номер WMZ кошелька",
+          "uk": "Номер WMZ гаманця"
+        },
+        "hint": {
+          "en": "Enter WMZ wallet",
+          "ru": "Введите WMZ кошелек",
+          "uk": "Введіть WMZ гаманець"
+        },
+        "regexp": "\/^Z\\d{12}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
     "amount_min": "1",
     "amount_max": "63000"
   },
@@ -31921,6 +31940,25 @@
     "code": "webmoneytransfer_rub",
     "method": "webmoneytransfer",
     "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Number WMZ wallet",
+          "ru": "Номер WMZ кошелька",
+          "uk": "Номер WMZ гаманця"
+        },
+        "hint": {
+          "en": "Enter WMZ wallet",
+          "ru": "Введите WMZ кошелек",
+          "uk": "Введіть WMZ гаманець"
+        },
+        "regexp": "\/^Z\\d{12}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
     "amount_min": "1",
     "amount_max": "63000"
   },
