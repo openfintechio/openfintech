@@ -260,6 +260,46 @@
     "amount_max": 100000
   },
   {
+    "code": "payment_card_chf_hpp",
+    "currency": "CHF",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "payment_card_gip_hpp",
+    "currency": "GIP",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "payment_card_sgd_hpp",
+    "currency": "SGD",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "payment_card_hkd_hpp",
+    "currency": "HKD",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "code": "payment_card_jpy_hpp",
+    "currency": "JPY",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
     "code": "payment_card_rub_hpp",
     "flow": "hpp",
     "method": "payment_card",
