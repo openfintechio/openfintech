@@ -5126,9 +5126,9 @@
     "amount_max": 500000
   },
   {
-    "code": "vcreditos_brl_invoice",
+    "code": "vcreditos_brl_transfer",
     "currency": "BRL",
-    "flow": "invoice",
+    "flow": "transfer",
     "method": "vcreditos",
     "fields": [
       {
