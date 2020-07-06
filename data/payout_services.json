@@ -774,6 +774,171 @@
     "amount_max": "1000000"
   },
   {
+    "code": "payment_card_chf",
+    "method": "payment_card",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "code": "payment_card_gip",
+    "method": "payment_card",
+    "currency": "GIP",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "code": "payment_card_sgd",
+    "method": "payment_card",
+    "currency": "SGD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "code": "payment_card_hkd",
+    "method": "payment_card",
+    "currency": "HKD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "code": "payment_card_jpy",
+    "method": "payment_card",
+    "currency": "JPY",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
     "code": "payment_card_holder_rub",
     "method": "payment_card",
     "currency": "RUB",
