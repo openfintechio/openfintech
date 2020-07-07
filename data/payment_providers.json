@@ -4072,8 +4072,13 @@
       "about_payments_code": "dotpay"
     },
     "name": {
-      "en": "Dotpay"
-    }
+      "en": "Dotpay",
+      "ru": "Dotpay",
+      "uk": "Dotpay"
+    },
+    "payout_method": [
+      "banktransfer"
+    ]
   },
   {
     "code": "tpaycom",
@@ -15542,18 +15547,6 @@
     ],
     "payout_method" : [
       "payment_card"
-    ]
-  },
-  {
-    "code": "dotpay",
-    "vendor": "dotpay",
-    "name": {
-      "en": "Dotpay",
-      "ru": "Dotpay",
-      "uk": "Dotpay"
-    },
-    "payout_method": [
-      "banktransfer"
     ]
   },
   {
