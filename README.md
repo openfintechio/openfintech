@@ -1,13 +1,11 @@
 
 # OpenSource FinTech standards and data
 
-## [openfintech.io](https://openfintech.io/)
-
 [![Build Status](https://img.shields.io/travis/openfintechio/openfintech.svg?style=flat-square)](https://travis-ci.org/openfintechio/openfintech)
 [![Total Downloads](https://poser.pugx.org/paycore/openfintech-data/downloads?format=flat-square)](https://packagist.org/packages/paycore/openfintech-data)
 [![License: MIT](https://img.shields.io/packagist/l/paycore/openfintech-data?style=flat-square)](https://opensource.org/licenses/MIT)
 
-## About
+## About [openfintech.io](https://openfintech.io/)
 
 __Mission:__ speeds up development and helps FinTech-services to communicate in _one language_.
 
