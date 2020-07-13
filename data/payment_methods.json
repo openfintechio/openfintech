@@ -3,6 +3,7 @@
     "code": "bpay",
     "vendor": "bpay",
     "category": "alternative",
+    "status": "active",
     "countries": [
       "AU"
     ],
@@ -17,6 +18,7 @@
     "code": "tescolotus",
     "vendor": "tescolotus",
     "category": "alternative",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -31,6 +33,7 @@
     "code": "octopus",
     "vendor": "octopus",
     "category": "alternative",
+    "status": "active",
     "countries": [
       "HK"
     ],
@@ -42,6 +45,7 @@
     "code": "bigconlinepayment",
     "vendor": "bigconlinepayment",
     "category": "alternative",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -56,6 +60,7 @@
     "code": "bitcoin",
     "vendor": "bitcoin",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Bitcoin"
     }
@@ -63,6 +68,7 @@
   {
     "code": "litecoin",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Litecoin"
     }
@@ -70,6 +76,7 @@
   {
     "code": "ukrsibbank",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Ukrsib Bank",
       "ru": "УкрСиб Банк",
@@ -79,6 +86,7 @@
   {
     "code": "qazkombank",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Qazkom Bank"
     }
@@ -86,6 +94,7 @@
   {
     "code": "libertybank",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Liberty Bank",
       "ru": "Либерти Банк",
@@ -95,6 +104,7 @@
   {
     "code": "promsvyazbank",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Promsvyazbank",
       "ru": "Промсвязьбанк"
@@ -103,6 +113,7 @@
   {
     "code": "alfaclick",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Alfa Click"
     }
@@ -110,6 +121,7 @@
   {
     "code": "ibox",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Ibox"
     }
@@ -118,6 +130,7 @@
     "code": "sepadirectdebit",
     "vendor": "sepadirectdebit",
     "category": "direct_debit",
+    "status": "active",
     "countries": [
       "AL",
       "AD",
@@ -173,6 +186,7 @@
     "code": "elektronischeslastschriftverfahren",
     "vendor": "elektronischeslastschriftverfahren",
     "category": "direct_debit",
+    "status": "active",
     "countries": [
       "DE"
     ],
@@ -186,6 +200,7 @@
   {
     "code": "ssk",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk"
     }
@@ -193,6 +208,7 @@
   {
     "code": "euroset",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Euroset",
       "ru": "Евросеть",
@@ -203,6 +219,7 @@
     "code": "bancoitau",
     "vendor": "bancoitau",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Banco Itaú"
     },
@@ -214,6 +231,7 @@
     "code": "bradescocomercioeletronico",
     "vendor": "bradescocomercioeletronico",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Bradesco Comércio Eletrônico"
     },
@@ -225,6 +243,7 @@
     "code": "enetsdirectdebit",
     "vendor": "enetsdirectdebit",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SG"
     ],
@@ -239,6 +258,7 @@
     "code": "rcbc",
     "vendor": "rcbc",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "PH"
     ],
@@ -249,6 +269,7 @@
   {
     "code": "pravexbank",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Pravex bank",
       "ru": "Правекс банк",
@@ -259,6 +280,7 @@
     "code": "safetypay",
     "vendor": "safetypay",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "SafetyPay"
     },
@@ -269,6 +291,7 @@
   {
     "code": "okpay",
     "category": "mobile_payment",
+    "status": "active",
     "countries": [
       "RU"
     ],
@@ -279,6 +302,7 @@
   {
     "code": "ethereum",
     "category": "alternative",
+    "status": "active",
     "countries": [
       "UA"
     ],
@@ -289,6 +313,7 @@
   {
     "code": "ripple",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Ripple"
     }
@@ -296,6 +321,7 @@
   {
     "code": "tele2ru",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Tele2",
       "ru": "Теле2",
@@ -306,6 +332,7 @@
     "code": "otpbank",
     "vendor": "otpbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SK"
     ],
@@ -322,6 +349,7 @@
     "code": "euteller",
     "vendor": "euteller",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "uk": "Euteller"
     },
@@ -333,6 +361,7 @@
     "code": "poppankki",
     "vendor": "poppankki",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ"
     ],
@@ -347,6 +376,7 @@
     "code": "komercnibanka",
     "vendor": "komercnibanka",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CZ"
     ],
@@ -361,6 +391,7 @@
     "code": "krungthaibanknetbanking",
     "vendor": "krungthaibanknetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -375,6 +406,7 @@
     "code": "scbbanknetbanking",
     "vendor": "scbbanknetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -389,6 +421,7 @@
     "code": "krungsrinetbanking",
     "vendor": "krungsrinetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -403,6 +436,7 @@
     "code": "bancopastor",
     "vendor": "bancopastor",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ES"
     ],
@@ -417,6 +451,7 @@
     "code": "jyskebank",
     "vendor": "jyskebank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "DK"
     ],
@@ -431,6 +466,7 @@
     "code": "vubbanka",
     "vendor": "vubbanka",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SK"
     ],
@@ -445,6 +481,7 @@
     "code": "alandsbanken",
     "vendor": "alandsbanken",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ"
     ],
@@ -459,6 +496,7 @@
     "code": "ingspain",
     "vendor": "ingspain",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX",
       "ES"
@@ -476,6 +514,7 @@
     "code": "unicredit",
     "vendor": "unicredit",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "BG",
       "HR",
@@ -496,6 +535,7 @@
     "code": "ideal",
     "vendor": "ideal",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "NL"
     ],
@@ -510,6 +550,7 @@
     "code": "kasikornbankkbanknetbanking",
     "vendor": "kasikornbankkbanknetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -524,6 +565,7 @@
     "code": "icicinetbanking",
     "vendor": "icicinetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "IN"
     ],
@@ -538,6 +580,7 @@
     "code": "volksbank",
     "vendor": "volksbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CZ",
       "SK"
@@ -553,6 +596,7 @@
     "code": "moneymail",
     "vendor": "moneymail",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "MoneyMail"
     },
@@ -564,6 +608,7 @@
     "code": "lacaixa",
     "vendor": "lacaixa",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ES"
     ],
@@ -578,6 +623,7 @@
     "code": "gemoney",
     "vendor": "gemoney",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CZ"
     ],
@@ -592,6 +638,7 @@
     "code": "spankki",
     "vendor": "spankki",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ"
     ],
@@ -606,6 +653,7 @@
     "code": "mbank",
     "vendor": "mbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX",
       "SK"
@@ -621,6 +669,7 @@
     "code": "provinciapagos",
     "vendor": "provinciapagos",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AR"
     ],
@@ -635,6 +684,7 @@
     "code": "trustly",
     "vendor": "trustly",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AU",
       "BE",
@@ -676,6 +726,7 @@
     "code": "hdfcbanknetbankingindia",
     "vendor": "hdfcbanknetbankingindia",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "IN"
     ],
@@ -690,6 +741,7 @@
     "code": "sepacredittransfer",
     "vendor": "sepacredittransfer",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX",
       "AL",
@@ -743,6 +795,7 @@
     "code": "wiretransfer",
     "vendor": "wiretransfer",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Wire Transfer"
     },
@@ -754,6 +807,7 @@
     "code": "inghomepay",
     "vendor": "inghomepay",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "BE"
     ],
@@ -768,6 +822,7 @@
     "code": "citadelelatvia",
     "vendor": "citadelelatvia",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Citadele Latvia"
     },
@@ -779,6 +834,7 @@
     "code": "erstebank",
     "vendor": "erstebank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "HR",
       "HU",
@@ -795,6 +851,7 @@
     "code": "inteligo",
     "vendor": "inteligo",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX"
     ],
@@ -808,6 +865,7 @@
   {
     "code": "nsmep",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Prostir",
       "ru": "Простор",
@@ -817,6 +875,7 @@
   {
     "code": "advcash",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "AdvCash"
     }
@@ -824,6 +883,7 @@
   {
     "code": "advcash_wallet",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "AdvCash"
     }
@@ -831,6 +891,7 @@
   {
     "code": "ssk_ua",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk Ukraine"
     }
@@ -839,6 +900,7 @@
     "code": "paymer",
     "vendor": "webmoney",
     "category": "alternative",
+    "status": "active",
     "countries": [
       "UA"
     ],
@@ -852,6 +914,7 @@
   {
     "code": "cifrograd",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Cifrograd"
     }
@@ -859,6 +922,7 @@
   {
     "code": "kviku",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Kviku"
     }
@@ -866,6 +930,7 @@
   {
     "code": "exmo",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Exmo"
     }
@@ -873,6 +938,7 @@
   {
     "code": "ssk_tj",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk Tajikistan"
     }
@@ -880,6 +946,7 @@
   {
     "code": "ssk_za",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk South Africa"
     }
@@ -887,6 +954,7 @@
   {
     "code": "ssk_by",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk Belarus"
     }
@@ -894,6 +962,7 @@
   {
     "code": "ssk_ru",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk Russia"
     }
@@ -901,6 +970,7 @@
   {
     "code": "ssk_md",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk Moldova"
     }
@@ -908,6 +978,7 @@
   {
     "code": "ssk_ge",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk Georgia"
     }
@@ -915,6 +986,7 @@
   {
     "code": "ssk_kz",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Self service kiosk Kazakhstan"
     }
@@ -922,6 +994,7 @@
   {
     "code": "coingate",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "CoinGate"
     }
@@ -929,6 +1002,7 @@
   {
     "code": "perfectmoney",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Perfect Money"
     }
@@ -937,6 +1011,7 @@
     "code": "wmcard",
     "vendor": "webmoney",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "WebMoney card",
       "ru": "WebMoney карта",
@@ -947,6 +1022,7 @@
     "code": "wmnote",
     "vendor": "webmoney",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "WebMoney note"
     }
@@ -955,6 +1031,7 @@
     "code": "viabalotoonline",
     "vendor": "viabalotoonline",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "CO"
     ],
@@ -966,6 +1043,7 @@
     "code": "famsa",
     "vendor": "famsa",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "MX"
     ],
@@ -977,6 +1055,7 @@
     "code": "oxxo",
     "vendor": "oxxo",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "MX"
     ],
@@ -987,6 +1066,7 @@
   {
     "code": "mts",
     "category": "mobile_carrier_billing",
+    "status": "active",
     "name": {
       "en": "MTS",
       "ru": "МТС",
@@ -996,6 +1076,7 @@
   {
     "code": "beeline",
     "category": "mobile_carrier_billing",
+    "status": "active",
     "name": {
       "en": "Beeline",
       "ru": "Билайн",
@@ -1005,6 +1086,7 @@
   {
     "code": "test",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Test",
       "ru": "Тест",
@@ -1014,6 +1096,7 @@
   {
     "code": "kievstar",
     "category": "mobile_carrier_billing",
+    "status": "active",
     "name": {
       "en": "Kievstar",
       "ru": "Киевстар",
@@ -1024,6 +1107,7 @@
     "code": "csob",
     "vendor": "csob",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CZ",
       "SK"
@@ -1038,6 +1122,7 @@
   {
     "code": "megafon",
     "category": "mobile_carrier_billing",
+    "status": "active",
     "name": {
       "en": "Megafon",
       "ru": "Мегафон",
@@ -1048,6 +1133,7 @@
     "code": "applepay",
     "vendor": "applepay",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "UM"
     ],
@@ -1064,6 +1150,7 @@
     "code": "googlepay",
     "vendor": "googlepay",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Google Pay",
       "ru": "Google Pay",
@@ -1077,6 +1164,7 @@
     "code": "paydirekt",
     "vendor": "paydirekt",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "DE"
     ],
@@ -1088,6 +1176,7 @@
     "code": "billmelater",
     "vendor": "billmelater",
     "category": "invoice_payment",
+    "status": "active",
     "name": {
       "en": "PayPal Credit"
     },
@@ -1098,6 +1187,7 @@
   {
     "code": "lider",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Leader",
       "ru": "Лидер",
@@ -1108,6 +1198,7 @@
     "code": "farmaciasdelahorro",
     "vendor": "farmaciasdelahorro",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "MX"
     ],
@@ -1119,6 +1210,7 @@
     "code": "payshop",
     "vendor": "payshop",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "PT"
     ],
@@ -1133,6 +1225,7 @@
     "code": "capayable",
     "vendor": "capayable",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "NL"
     ],
@@ -1147,6 +1240,7 @@
     "code": "frenchonlinepaymentmethodewalletpaylib",
     "vendor": "frenchonlinepaymentmethodewalletpaylib",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "FR"
     ],
@@ -1161,6 +1255,7 @@
     "code": "webmoneytransfer",
     "vendor": "webmoneytransfer",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "AR",
       "BO",
@@ -1189,6 +1284,7 @@
     "code": "visacheckout",
     "vendor": "visacheckout",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "AR",
       "AU",
@@ -1216,6 +1312,7 @@
     "code": "everi",
     "vendor": "everi",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Everi"
     },
@@ -1227,6 +1324,7 @@
     "code": "pagseguro",
     "vendor": "pagseguro",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "BR"
     ],
@@ -1241,6 +1339,7 @@
     "code": "qiwi",
     "vendor": "qiwi",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "RW"
     ],
@@ -1257,6 +1356,7 @@
     "code": "onecard",
     "vendor": "onecard",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "DZ",
       "CA",
@@ -1281,6 +1381,7 @@
     "code": "mobikwik",
     "vendor": "mobikwik",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "IN"
     ],
@@ -1295,6 +1396,7 @@
     "code": "payfastwallet",
     "vendor": "payfastwallet",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Payfast Wallet",
       "ru": "Payfast Кошелек",
@@ -1308,6 +1410,7 @@
     "code": "tenpay",
     "vendor": "tenpay",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Tenpay"
     },
@@ -1319,6 +1422,7 @@
     "code": "abaqoos",
     "vendor": "abaqoos",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Abaqoos"
     },
@@ -1330,6 +1434,7 @@
     "code": "masterpass",
     "vendor": "masterpass",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "AU",
       "UM",
@@ -1347,6 +1452,7 @@
   {
     "code": "googlewallet",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Google Wallet",
       "ru": "Google Кошелек",
@@ -1356,6 +1462,7 @@
   {
     "code": "epayua",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "E-Pay"
     }
@@ -1363,6 +1470,7 @@
   {
     "code": "rbkmoney",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "RBK Money"
     }
@@ -1370,6 +1478,7 @@
   {
     "code": "mminvoicing",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "MM Invoicing"
     }
@@ -1377,6 +1486,7 @@
   {
     "code": "sberbank",
     "category": "bank_transfers",
+    "status": "active",
     "name": {
       "en": "SberBank",
       "ru": "Сбербанк",
@@ -1386,6 +1496,7 @@
   {
     "code": "privatbank",
     "category": "bank_transfers",
+    "status": "active",
     "name": {
       "en": "Privatbank",
       "ru": "Приватбанк",
@@ -1396,6 +1507,7 @@
     "code": "postovabanka",
     "vendor": "postovabanka",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SK"
     ],
@@ -1409,6 +1521,7 @@
   {
     "code": "cash",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Cash",
       "ru": "Наличные",
@@ -1418,6 +1531,7 @@
   {
     "code": "ecoineu",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Ecoin.eu"
     }
@@ -1425,6 +1539,7 @@
   {
     "code": "cellularworld",
     "category": "mobile_carrier_billing",
+    "status": "active",
     "name": {
       "en": "Cellular World"
     }
@@ -1433,6 +1548,7 @@
     "code": "barzahlen",
     "vendor": "barzahlen",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "DE"
     ],
@@ -1447,6 +1563,7 @@
     "code": "fastcheckoutmultisafepay",
     "vendor": "fastcheckoutmultisafepay",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "AX",
       "AL",
@@ -1506,6 +1623,7 @@
     "code": "gcashwallet",
     "vendor": "gcashwallet",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "PH"
     ],
@@ -1520,6 +1638,7 @@
     "code": "acceptgiro",
     "vendor": "acceptgiro",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "NL"
     ],
@@ -1534,6 +1653,7 @@
     "code": "mypaywizard",
     "vendor": "mypaywizard",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "MyPayWizard"
     },
@@ -1544,6 +1664,7 @@
   {
     "code": "walletone",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "WalletOne"
     }
@@ -1551,6 +1672,7 @@
   {
     "code": "russianpost",
     "category": "cash_on_delivery",
+    "status": "active",
     "name": {
       "en": "Russian Post",
       "ru": "Почта Росии",
@@ -1560,6 +1682,7 @@
   {
     "code": "privat24",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Privat24",
       "ru": "Приват24",
@@ -1570,6 +1693,7 @@
     "code": "wupay",
     "vendor": "wupay",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "UM"
     ],
@@ -1583,6 +1707,7 @@
   {
     "code": "latam",
     "category": "latam",
+    "status": "active",
     "name": {
       "en": "Latam",
       "ru": "Latam",
@@ -1592,6 +1717,7 @@
   {
     "code": "ussd",
     "category": "ussd",
+    "status": "active",
     "name": {
       "en": "USSD",
       "ru": "USSD",
@@ -1601,6 +1727,7 @@
   {
     "code": "banktransfer",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank Transfer",
       "ru": "Банковский перевод",
@@ -1610,6 +1737,7 @@
   {
     "code": "bank_transfer",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank Transfer",
       "ru": "Банковский перевод",
@@ -1619,6 +1747,7 @@
   {
     "code": "liqpay_wallet",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "LiqPay wallet",
       "ru": "LiqPay кошелек",
@@ -1628,6 +1757,7 @@
   {
     "code": "i_wallet",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "wallet",
       "ru": "кошелек",
@@ -1638,6 +1768,7 @@
     "code": "directdebit",
     "vendor": "directdebit",
     "category": "direct_debit",
+    "status": "active",
     "name": {
       "en": "Direct Debit"
     },
@@ -1649,6 +1780,7 @@
     "code": "payd",
     "vendor": "payd",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "payD"
     },
@@ -1660,6 +1792,7 @@
     "code": "futurepay",
     "vendor": "futurepay",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "UM"
     ],
@@ -1674,6 +1807,7 @@
     "code": "paynearme",
     "vendor": "paynearme",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "UM"
     ],
@@ -1687,6 +1821,7 @@
   {
     "code": "bank_card",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Card",
       "ru": "Карта",
@@ -1696,6 +1831,7 @@
   {
     "code": "payment_card",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Payment card",
       "ru": "Платежная карта",
@@ -1705,6 +1841,7 @@
   {
     "code": "card",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Payment card",
       "ru": "Платежная карта",
@@ -1714,6 +1851,7 @@
   {
     "code": "payment_card_email",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Payment card email",
       "ru": "Платежная email карта",
@@ -1723,6 +1861,7 @@
   {
     "code": "payment_card_token",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Payment card by token",
       "ru": "Платежная карта по токену",
@@ -1732,6 +1871,7 @@
   {
     "code": "liqpay",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "LiqPay"
     }
@@ -1740,6 +1880,7 @@
     "code": "vtb24",
     "vendor": "vtb24",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "VTB24",
       "ru": "ВТБ24",
@@ -1750,6 +1891,7 @@
     "code": "account2account",
     "vendor": "account2account",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AU",
       "NZ"
@@ -1764,6 +1906,7 @@
   {
     "code": "yota",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Yota",
       "ru": "Yota",
@@ -1774,6 +1917,7 @@
     "code": "belfiusdirectnet",
     "vendor": "belfiusdirectnet",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "BE"
     ],
@@ -1788,6 +1932,7 @@
     "code": "mazooma",
     "vendor": "mazooma",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Mazooma"
     },
@@ -1799,6 +1944,7 @@
     "code": "interac",
     "vendor": "interac",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CA"
     ],
@@ -1812,6 +1958,7 @@
   {
     "code": "payeer",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Payeer"
     }
@@ -1819,6 +1966,7 @@
   {
     "code": "interkassa",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Interkassa",
       "ru": "Интеркасса",
@@ -1828,6 +1976,7 @@
   {
     "code": "psbretail",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "PSB-Retail"
     }
@@ -1835,6 +1984,7 @@
   {
     "code": "epese",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Epese"
     }
@@ -1842,6 +1992,7 @@
   {
     "code": "erip",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Erip"
     }
@@ -1849,6 +2000,7 @@
   {
     "code": "sberonline",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Sberbank Online",
       "ru": "Сбербанк Онлайн",
@@ -1858,6 +2010,7 @@
   {
     "code": "viber",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Viber"
     }
@@ -1865,6 +2018,7 @@
   {
     "code": "easypay",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "EasyPay"
     }
@@ -1872,6 +2026,7 @@
   {
     "code": "fakturaru",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Faktura"
     }
@@ -1879,6 +2034,7 @@
   {
     "code": "standardbank",
     "category": "invoice_payment",
+    "status": "active",
     "name": {
       "en": "Standart Bank",
       "ru": "Стандарт Банк",
@@ -1888,6 +2044,7 @@
   {
     "code": "tinkoff",
     "category": "bank_transfer",
+    "status": "active",
     "countries": [
       "UA"
     ],
@@ -1901,6 +2058,7 @@
     "code": "santander",
     "vendor": "santander",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ES"
     ],
@@ -1915,6 +2073,7 @@
     "code": "bancobrasil",
     "vendor": "bancobrasil",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "BR"
     ],
@@ -1928,6 +2087,7 @@
   {
     "code": "bitcoin_cash",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Bitcoin Cash"
     }
@@ -1936,6 +2096,7 @@
     "code": "ceskasporitelna",
     "vendor": "ceskasporitelna",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CZ"
     ],
@@ -1950,6 +2111,7 @@
     "code": "osuuspankki",
     "vendor": "osuuspankki",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ"
     ],
@@ -1964,6 +2126,7 @@
     "code": "inpay",
     "vendor": "inpay",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "inpay"
     },
@@ -1975,6 +2138,7 @@
     "code": "banklink",
     "vendor": "banklink",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "LV"
     ],
@@ -1989,6 +2153,7 @@
     "code": "svyaznoy",
     "vendor": "svyaznojbank",
     "category": "invoice_payment",
+    "status": "active",
     "name": {
       "en": "Svyaznoy",
       "ru": "Связной",
@@ -1998,6 +2163,7 @@
   {
     "code": "usdt",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Tether"
     }
@@ -2006,6 +2172,7 @@
     "code": "ekonto",
     "vendor": "ekonto",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CZ",
       "SK"
@@ -2021,6 +2188,7 @@
     "code": "kbcbetaalknop",
     "vendor": "kbcbetaalknop",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "BE"
     ],
@@ -2035,6 +2203,7 @@
     "code": "tatrabanka",
     "vendor": "tatrabanka",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SK"
     ],
@@ -2049,6 +2218,7 @@
     "code": "giropay",
     "vendor": "giropay",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "DE"
     ],
@@ -2063,6 +2233,7 @@
     "code": "bancodobrasil",
     "vendor": "bancodobrasil",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Banco do Brasil"
     }
@@ -2071,6 +2242,7 @@
     "code": "bankinter",
     "vendor": "bankinter",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ES"
     ],
@@ -2085,6 +2257,7 @@
     "code": "sebbank",
     "vendor": "sebbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "EE",
       "LV",
@@ -2101,6 +2274,7 @@
   {
     "code": "privatbank_ssk",
     "category": "alternative",
+    "status": "active",
     "countries": [
       "UA"
     ],
@@ -2113,6 +2287,7 @@
   {
     "code": "terminal_rf",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "Terminals RF",
       "ru": "Терминалы РФ",
@@ -2123,6 +2298,7 @@
     "code": "perfectmoney_account",
     "vendor": "perfectmoney",
     "category": "alternative",
+    "status": "active",
     "countries": [
       "UA"
     ],
@@ -2134,6 +2310,7 @@
     "code": "zapp",
     "vendor": "zapp",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Zapp"
     },
@@ -2144,6 +2321,7 @@
   {
     "code": "unistream",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Unistream"
     }
@@ -2152,6 +2330,7 @@
     "code": "perfectmoney_voucher",
     "vendor": "perfectmoney",
     "category": "prepaid_card",
+    "status": "active",
     "countries": [
       "RU",
       "UA"
@@ -2165,6 +2344,7 @@
     "code": "russian_standart_bank",
     "vendor": "russkijstandart",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Russian Standard Bank",
       "ru": "Русский стандарт",
@@ -2175,6 +2355,7 @@
     "code": "slovenskasporitelna",
     "vendor": "slovenskasporitelna",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SK"
     ],
@@ -2189,6 +2370,7 @@
     "code": "handelsbanken",
     "vendor": "handelsbanken",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ",
       "SE"
@@ -2204,6 +2386,7 @@
     "code": "servipag",
     "vendor": "servipag",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "CL"
     ],
@@ -2218,6 +2401,7 @@
     "code": "kriita2",
     "vendor": "kriita2",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "SE"
     ],
@@ -2232,6 +2416,7 @@
     "code": "billsafe",
     "vendor": "billsafe",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "AU",
       "DE"
@@ -2247,6 +2432,7 @@
     "code": "farmaciasbenavides",
     "vendor": "farmaciasbenavides",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "MX"
     ],
@@ -2258,6 +2444,7 @@
     "code": "minitix",
     "vendor": "minitix",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Minitix"
     },
@@ -2269,6 +2456,7 @@
     "code": "yandexmoney",
     "vendor": "yandex",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Yandex.Money",
       "ru": "Яндекс.Деньги",
@@ -2281,6 +2469,7 @@
   {
     "code": "ingpl",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "ING Bank(Poland)",
       "ru": "ИНГ Банк(Польша)",
@@ -2291,6 +2480,7 @@
     "code": "clickandbuy",
     "vendor": "clickandbuy",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "ClickandBuy"
     },
@@ -2302,6 +2492,7 @@
     "code": "vmevisa",
     "vendor": "vmevisa",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "BE",
       "FR",
@@ -2318,6 +2509,7 @@
     "code": "alipay",
     "vendor": "alipay",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Alipay.com"
     },
@@ -2329,6 +2521,7 @@
     "code": "neteller",
     "vendor": "neteller",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "NETELLER"
     },
@@ -2340,6 +2533,7 @@
     "code": "paysbuy",
     "vendor": "paysbuy",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -2354,6 +2548,7 @@
     "code": "payzippy",
     "vendor": "payzippy",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "PayZippy"
     },
@@ -2365,6 +2560,7 @@
     "code": "vvvgiftcard",
     "vendor": "vvvgiftcard",
     "category": "prepaid_voucher",
+    "status": "active",
     "countries": [
       "NL"
     ],
@@ -2379,6 +2575,7 @@
     "code": "pagoefectivo",
     "vendor": "pagoefectivo",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "PE"
     ],
@@ -2393,6 +2590,7 @@
     "code": "rapipago",
     "vendor": "rapipago",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "AR"
     ],
@@ -2407,6 +2605,7 @@
     "code": "efecty",
     "vendor": "efecty",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "CO"
     ],
@@ -2418,6 +2617,7 @@
     "code": "moneta",
     "vendor": "moneta",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Moneta"
     },
@@ -2429,6 +2629,7 @@
     "code": "mercadopago",
     "vendor": "mercadopago",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "AR",
       "BR",
@@ -2448,6 +2649,7 @@
     "code": "toditocash",
     "vendor": "toditocash",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "MX"
     ],
@@ -2462,6 +2664,7 @@
     "code": "boletobancariopay",
     "vendor": "boletobancariopay",
     "category": "invoice_payment",
+    "status": "active",
     "name": {
       "en": "Boleto Bancario"
     },
@@ -2473,6 +2676,7 @@
     "code": "dokuwallet",
     "vendor": "dokuwallet",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "DOKU Wallet"
     },
@@ -2484,6 +2688,7 @@
     "code": "skrill",
     "vendor": "skrill",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Skrill Wallet"
     },
@@ -2495,6 +2700,7 @@
     "code": "paypal",
     "vendor": "paypal",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "PayPal"
     },
@@ -2506,6 +2712,7 @@
     "code": "billink",
     "vendor": "billink",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "NL"
     ],
@@ -2520,6 +2727,7 @@
     "code": "247billpay",
     "vendor": "247billpay",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "24-7 Bill Pay"
     }
@@ -2528,6 +2736,7 @@
     "code": "piastrix",
     "vendor": "piastrix",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Piastrix"
     }
@@ -2536,6 +2745,7 @@
     "code": "afterpay",
     "vendor": "afterpay",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "BE",
       "FR",
@@ -2555,6 +2765,7 @@
     "code": "paybybill",
     "vendor": "paybybill",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "DK",
       "FJ",
@@ -2574,6 +2785,7 @@
     "code": "acceptemail",
     "vendor": "acceptemail",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "AX",
       "AL",
@@ -2634,6 +2846,7 @@
     "code": "7eleven",
     "vendor": "7eleven",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "MX"
     ],
@@ -2645,6 +2858,7 @@
     "code": "bank_transfer_klarna",
     "vendor": "klarna",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "AU",
       "DK",
@@ -2667,6 +2881,7 @@
     "code": "sencillito",
     "vendor": "sencillito",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "CL"
     ],
@@ -2678,6 +2893,7 @@
     "code": "billpay",
     "vendor": "billpay",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "AU",
       "DE",
@@ -2695,6 +2911,7 @@
     "code": "kwixo",
     "vendor": "kwixo",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "FR"
     ],
@@ -2709,6 +2926,7 @@
     "code": "mpayaisthailand",
     "vendor": "mpayaisthailand",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "mPAY"
     },
@@ -2720,6 +2938,7 @@
     "code": "smartmoney",
     "vendor": "smartmoney",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "PH"
     ],
@@ -2734,6 +2953,7 @@
     "code": "justpayewallet",
     "vendor": "justpayewallet",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -2748,6 +2968,7 @@
     "code": "zimpler",
     "vendor": "zimpler",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "FJ",
       "SE"
@@ -2763,6 +2984,7 @@
     "code": "dwolla",
     "vendor": "dwolla",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "UM"
     ],
@@ -2777,6 +2999,7 @@
     "code": "bancnetdirectdebits",
     "vendor": "bancnetdirectdebits",
     "category": "direct_debit",
+    "status": "active",
     "countries": [
       "PH"
     ],
@@ -2791,6 +3014,7 @@
     "code": "primabanka",
     "vendor": "primabanka",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SK"
     ],
@@ -2807,6 +3031,7 @@
     "code": "pagorapido",
     "vendor": "pagorapido",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "PagoRapido"
     },
@@ -2818,6 +3043,7 @@
     "code": "przelewy24",
     "vendor": "przelewy24",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Przelewy24"
     },
@@ -2829,6 +3055,7 @@
     "code": "mybank2",
     "vendor": "mybank2",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "IT"
     ],
@@ -2843,6 +3070,7 @@
     "code": "banrisulbanricompras",
     "vendor": "banrisulbanricompras",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Banrisul Banricompras"
     },
@@ -2854,6 +3082,7 @@
     "code": "eps",
     "vendor": "eps",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "eps e-payment"
     },
@@ -2865,6 +3094,7 @@
     "code": "bangkokbanknetbanking",
     "vendor": "bangkokbanknetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "MM",
       "PH",
@@ -2881,6 +3111,7 @@
     "code": "skandiabanken",
     "vendor": "skandiabanken",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SE"
     ],
@@ -2895,6 +3126,7 @@
     "code": "cimbclicksinternetbanking",
     "vendor": "cimbclicksinternetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ID",
       "MY",
@@ -2912,6 +3144,7 @@
     "code": "unitedoverseasbankuobnetbanking",
     "vendor": "unitedoverseasbankuobnetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "MY",
       "TH"
@@ -2927,6 +3160,7 @@
     "code": "creditagricole",
     "vendor": "creditagricole",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX"
     ],
@@ -2941,6 +3175,7 @@
     "code": "forexbank",
     "vendor": "forexbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SE"
     ],
@@ -2955,6 +3190,7 @@
     "code": "bbva",
     "vendor": "bbva",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ES"
     ],
@@ -2969,6 +3205,7 @@
     "code": "oppohjola",
     "vendor": "oppohjola",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ"
     ],
@@ -2983,6 +3220,7 @@
     "code": "danskebank",
     "vendor": "danskebank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "DK",
       "EE",
@@ -3000,6 +3238,7 @@
     "code": "bdo",
     "vendor": "bdo",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "PH"
     ],
@@ -3011,6 +3250,7 @@
     "code": "bankofchinanetbanking",
     "vendor": "bankofchinanetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CL",
       "MO"
@@ -3026,6 +3266,7 @@
     "code": "sofortbanking",
     "vendor": "sofortbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX",
       "AU",
@@ -3048,6 +3289,7 @@
     "code": "thaimilitarybanktmbnetbanking",
     "vendor": "thaimilitarybanktmbnetbanking",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "TH"
     ],
@@ -3062,6 +3304,7 @@
     "code": "bankzachodniwbk",
     "vendor": "bankzachodniwbk",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX"
     ],
@@ -3076,6 +3319,7 @@
     "code": "swedbank",
     "vendor": "swedbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SE"
     ],
@@ -3090,6 +3334,7 @@
     "code": "swift",
     "vendor": "swift",
     "category": "bank_transfer",
+    "status": "active",
     "countries": [
       "AO",
       "BF",
@@ -3379,6 +3624,7 @@
     "code": "tapiola",
     "vendor": "tapiola",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ"
     ],
@@ -3393,6 +3639,7 @@
     "code": "multibank",
     "vendor": "multibank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX"
     ],
@@ -3407,6 +3654,7 @@
     "code": "bancopopular",
     "vendor": "bancopopular",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ES"
     ],
@@ -3421,6 +3669,7 @@
     "code": "maybanknetbankingphillipines",
     "vendor": "maybanknetbankingphillipines",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "PH"
     ],
@@ -3435,6 +3684,7 @@
     "code": "redcompra",
     "vendor": "redcompra",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CL"
     ],
@@ -3446,6 +3696,7 @@
     "code": "nordea",
     "vendor": "nordea",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX",
       "DK",
@@ -3467,6 +3718,7 @@
     "code": "raiffeisenbank",
     "vendor": "raiffeisenbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "BA",
       "BG",
@@ -3486,6 +3738,7 @@
     "code": "postpay",
     "vendor": "postpay",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AU"
     ],
@@ -3500,6 +3753,7 @@
     "code": "polipayonline",
     "vendor": "polipayonline",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AU",
       "NZ"
@@ -3515,6 +3769,7 @@
     "code": "usemyservices",
     "vendor": "usemyservices",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "UseMyServices"
     },
@@ -3526,6 +3781,7 @@
     "code": "ciberpay",
     "vendor": "ciberpay",
     "category": "internet_banking",
+    "status": "active",
     "name": {
       "en": "Ciber Pay"
     },
@@ -3537,6 +3793,7 @@
     "code": "milleniumbank",
     "vendor": "milleniumbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AX"
     ],
@@ -3551,6 +3808,7 @@
     "code": "bankia",
     "vendor": "bankia",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ES"
     ],
@@ -3565,6 +3823,7 @@
     "code": "rixty",
     "vendor": "rixty",
     "category": "prepaid_card",
+    "status": "active",
     "countries": [
       "UM"
     ],
@@ -3579,6 +3838,7 @@
     "code": "peela",
     "vendor": "peela",
     "category": "prepaid_card",
+    "status": "active",
     "name": {
       "en": "Peela"
     },
@@ -3590,6 +3850,7 @@
     "code": "teleingreso",
     "vendor": "teleingreso",
     "category": "prepaid_card",
+    "status": "active",
     "name": {
       "en": "Teleingreso"
     },
@@ -3601,6 +3862,7 @@
     "code": "neosurf",
     "vendor": "neosurf",
     "category": "prepaid_card",
+    "status": "active",
     "countries": [
       "DZ",
       "AD",
@@ -3657,6 +3919,7 @@
     "code": "ticketpremium",
     "vendor": "ticketpremium",
     "category": "prepaid_card",
+    "status": "active",
     "countries": [
       "FR"
     ],
@@ -3671,6 +3934,7 @@
     "code": "papaya",
     "vendor": "papaya",
     "category": "prepaid_card",
+    "status": "active",
     "name": {
       "en": "Papaya"
     },
@@ -3682,6 +3946,7 @@
     "code": "postepay",
     "vendor": "postepay",
     "category": "prepaid_card",
+    "status": "active",
     "name": {
       "en": "Postepay"
     },
@@ -3693,6 +3958,7 @@
     "code": "serve",
     "vendor": "serve",
     "category": "prepaid_card",
+    "status": "active",
     "name": {
       "en": "Serve"
     },
@@ -3704,6 +3970,7 @@
     "code": "flexepinemoneyvouchers",
     "vendor": "flexepinemoneyvouchers",
     "category": "prepaid_card",
+    "status": "active",
     "countries": [
       "AU",
       "CA"
@@ -3719,6 +3986,7 @@
     "code": "cashu",
     "vendor": "cashu",
     "category": "prepaid_card",
+    "status": "active",
     "countries": [
       "BH",
       "CL",
@@ -3745,6 +4013,7 @@
     "code": "paysafecard",
     "vendor": "optimalpayments",
     "category": "prepaid_card",
+    "status": "active",
     "countries": [
       "AR",
       "AU",
@@ -3796,6 +4065,7 @@
     "code": "ukash",
     "vendor": "ukash",
     "category": "prepaid_card",
+    "status": "active",
     "countries": [
       "AU",
       "CZ",
@@ -3829,6 +4099,7 @@
     "code": "dinersclub",
     "vendor": "dinersclub",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Diners Club International"
     },
@@ -3840,6 +4111,7 @@
     "code": "chinaunionpay",
     "vendor": "chinaunionpay",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "AU",
       "CL"
@@ -3855,6 +4127,7 @@
     "code": "presto",
     "vendor": "presto",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "CL"
     ],
@@ -3869,6 +4142,7 @@
     "code": "banamex",
     "vendor": "banamex",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "MX"
     ],
@@ -3880,6 +4154,7 @@
     "code": "tarjetaripley",
     "vendor": "tarjetaripley",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "CL"
     ],
@@ -3894,6 +4169,7 @@
     "code": "americanexpress",
     "vendor": "americanexpress",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "American Express"
     },
@@ -3905,6 +4181,7 @@
     "code": "cartasi",
     "vendor": "cartasi",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "IT"
     ],
@@ -3919,6 +4196,7 @@
     "code": "uatp",
     "vendor": "uatp",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "UATP"
     },
@@ -3930,6 +4208,7 @@
     "code": "elo",
     "vendor": "elo",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "BR"
     ],
@@ -3944,6 +4223,7 @@
     "code": "aura",
     "vendor": "aura",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "BR",
       "FR"
@@ -3959,6 +4239,7 @@
     "code": "hipercard",
     "vendor": "hipercard",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "BR"
     ],
@@ -3973,6 +4254,7 @@
     "code": "mastercard",
     "vendor": "mastercard",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "MasterCard"
     },
@@ -3984,6 +4266,7 @@
     "code": "visa2",
     "vendor": "visa2",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Visa"
     },
@@ -3995,6 +4278,7 @@
     "code": "jcb",
     "vendor": "jcb",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "JCB"
     },
@@ -4006,6 +4290,7 @@
     "code": "discover",
     "vendor": "discover",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Discover"
     },
@@ -4017,6 +4302,7 @@
     "code": "magna",
     "vendor": "magna",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "CL"
     ],
@@ -4028,6 +4314,7 @@
     "code": "webpayplus",
     "vendor": "webpayplus",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "CL"
     ],
@@ -4039,6 +4326,7 @@
     "code": "tarjetanaranjacreditcard",
     "vendor": "tarjetanaranjacreditcard",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "AR"
     ],
@@ -4053,6 +4341,7 @@
     "code": "vpay",
     "vendor": "vpay",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "FR",
       "IT",
@@ -4069,6 +4358,7 @@
     "code": "cabal",
     "vendor": "cabal",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "AR"
     ],
@@ -4083,6 +4373,7 @@
     "code": "visaelectron",
     "vendor": "visaelectron",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Visa Electron"
     },
@@ -4094,6 +4385,7 @@
     "code": "mastercarddebit",
     "vendor": "mastercarddebit",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "MasterCard Debit"
     },
@@ -4105,6 +4397,7 @@
     "code": "maestro",
     "vendor": "maestro",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "AU",
       "BE",
@@ -4123,6 +4416,7 @@
     "code": "cartebancaires",
     "vendor": "cartebancaires",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Carte Bancaires"
     },
@@ -4134,6 +4428,7 @@
     "code": "rupaypaysecure",
     "vendor": "rupaypaysecure",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "IN"
     ],
@@ -4148,6 +4443,7 @@
     "code": "dankort",
     "vendor": "dankort",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "DK"
     ],
@@ -4162,6 +4458,7 @@
     "code": "debitobradesco",
     "vendor": "debitobradesco",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "BR"
     ],
@@ -4176,6 +4473,7 @@
     "code": "cartebleue",
     "vendor": "cartebleue",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "FR"
     ],
@@ -4190,6 +4488,7 @@
     "code": "girocard",
     "vendor": "girocard",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "DE"
     ],
@@ -4204,6 +4503,7 @@
     "code": "visadebit",
     "vendor": "visadebit",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Visa Debit"
     },
@@ -4215,6 +4515,7 @@
     "code": "postfinancecard",
     "vendor": "postfinancecard",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "CH"
     ],
@@ -4229,6 +4530,7 @@
     "code": "electroniccheckach",
     "vendor": "electroniccheckach",
     "category": "check",
+    "status": "active",
     "countries": [
       "UM"
     ],
@@ -4243,6 +4545,7 @@
     "code": "papercheck",
     "vendor": "papercheck",
     "category": "check",
+    "status": "active",
     "name": {
       "en": "Paper Check"
     },
@@ -4254,6 +4557,7 @@
     "code": "zipmark",
     "vendor": "zipmark",
     "category": "check",
+    "status": "active",
     "countries": [
       "UM"
     ],
@@ -4268,6 +4572,7 @@
     "code": "smsbilling",
     "vendor": "smsbilling",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "SMS Billing"
     },
@@ -4279,6 +4584,7 @@
     "code": "carrierbilling",
     "vendor": "carrierbilling",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Carrier Billing"
     },
@@ -4290,6 +4596,7 @@
     "code": "ivrbilling",
     "vendor": "ivrbilling",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "IVR Billing"
     },
@@ -4301,6 +4608,7 @@
     "code": "pingping",
     "vendor": "pingping",
     "category": "mobile_payment",
+    "status": "active",
     "countries": [
       "BE"
     ],
@@ -4315,6 +4623,7 @@
     "code": "pagofacil",
     "vendor": "pagofacil",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "AR"
     ],
@@ -4329,6 +4638,7 @@
     "code": "moneytopay",
     "vendor": "moneytopay",
     "category": "prepaid_card",
+    "status": "active",
     "name": {
       "en": "MoneyToPay"
     }
@@ -4337,6 +4647,7 @@
     "code": "argencard",
     "vendor": "argencard",
     "category": "cash_payment",
+    "status": "active",
     "countries": [
       "AR"
     ],
@@ -4351,6 +4662,7 @@
     "code": "barpay",
     "vendor": "barpay",
     "category": "invoice_payment",
+    "status": "active",
     "countries": [
       "DE"
     ],
@@ -4365,6 +4677,7 @@
     "code": "onlinenaira",
     "vendor": "onlinenaira",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "OnlineNaira"
     },
@@ -4376,6 +4689,7 @@
     "code": "bkmexpress",
     "vendor": "bkmexpress",
     "category": "digital_wallet",
+    "status": "active",
     "countries": [
       "TR"
     ],
@@ -4390,6 +4704,7 @@
     "code": "postfinanceefinance",
     "vendor": "postfinanceefinance",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CH"
     ],
@@ -4404,6 +4719,7 @@
     "code": "bankaxess",
     "vendor": "bankaxess",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "NO"
     ],
@@ -4418,6 +4734,7 @@
     "code": "icabanken",
     "vendor": "icabanken",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SE"
     ],
@@ -4432,6 +4749,7 @@
     "code": "lansforsakringar",
     "vendor": "lansforsakringar",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SE"
     ],
@@ -4446,6 +4764,7 @@
     "code": "saastopankki",
     "vendor": "saastopankki",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ"
     ],
@@ -4460,6 +4779,7 @@
     "code": "bancsabadell",
     "vendor": "bancsabadell",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "ES"
     ],
@@ -4474,6 +4794,7 @@
     "code": "aktia",
     "vendor": "aktia",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "FJ"
     ],
@@ -4488,6 +4809,7 @@
     "code": "multibanconet",
     "vendor": "multibanconet",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "PT"
     ],
@@ -4502,6 +4824,7 @@
     "code": "bancontactmistercash",
     "vendor": "bancontactmistercash",
     "category": "payment_card",
+    "status": "active",
     "countries": [
       "BE"
     ],
@@ -4515,6 +4838,7 @@
   {
     "code": "geopaynet",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "GEO Pay"
     }
@@ -4522,6 +4846,7 @@
   {
     "code": "china_citic_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "China Citic Bank",
       "zh": "中信银行"
@@ -4530,6 +4855,7 @@
   {
     "code": "industrial_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Industrial Bank",
       "zh": "兴业银行"
@@ -4538,6 +4864,7 @@
   {
     "code": "china_guangfa_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "China Guangfa Bank",
       "zh": "广发银行"
@@ -4546,6 +4873,7 @@
   {
     "code": "china_merchants_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "China Merchants Bank",
       "zh": "招商银行"
@@ -4554,6 +4882,7 @@
   {
     "code": "china_postal_savings_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "China Postal Savings Bank",
       "zh": "中国邮政储蓄银行"
@@ -4562,6 +4891,7 @@
   {
     "code": "bank_of_china",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank of China",
       "zh": "中国银行"
@@ -4570,6 +4900,7 @@
   {
     "code": "agricultural_bank_of_china",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Agricultural Bank of China",
       "zh": "中国农业银行"
@@ -4578,6 +4909,7 @@
   {
     "code": "china_everbright_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "China Everbright Bank",
       "zh": "中国光大银行"
@@ -4586,6 +4918,7 @@
   {
     "code": "china_construction_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "China Construction Bank",
       "zh": "中国建设银行"
@@ -4594,6 +4927,7 @@
   {
     "code": "ping_an_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Ping An Bank",
       "zh": "平安银行"
@@ -4602,6 +4936,7 @@
   {
     "code": "bank_of_communication",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank of Communication",
       "zh": "交通银行"
@@ -4610,6 +4945,7 @@
   {
     "code": "industrial_and_commercial_bank_of_china",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Industrial and Commercial Bank of China",
       "zh": "中国工商银行"
@@ -4618,6 +4954,7 @@
   {
     "code": "shanghai_pudong_development_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Shanghai Pudong Development Bank",
       "zh": "浦发银行"
@@ -4626,6 +4963,7 @@
   {
     "code": "china_minsheng_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "China Minsheng Bank",
       "zh": "中国民生银行"
@@ -4634,6 +4972,7 @@
   {
     "code": "china_union_pay",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "China Union Pay",
       "zh": "中国银联"
@@ -4642,6 +4981,7 @@
   {
     "code": "siam_commercial_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Siam Commercial Bank"
     }
@@ -4649,6 +4989,7 @@
   {
     "code": "krung_thai_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Krung Thai Bank"
     }
@@ -4656,6 +4997,7 @@
   {
     "code": "krungsri",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Krungsri (Bank of Ayudhya Public Company Limited)"
     }
@@ -4663,6 +5005,7 @@
   {
     "code": "uobt",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "UOBT"
     }
@@ -4670,6 +5013,7 @@
   {
     "code": "kasikorn_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Kasikorn Bank"
     }
@@ -4677,6 +5021,7 @@
   {
     "code": "bangko_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bangkok Bank"
     }
@@ -4684,6 +5029,7 @@
   {
     "code": "cimb_clicks_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "CIMB Clicks Bank"
     }
@@ -4691,6 +5037,7 @@
   {
     "code": "public_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Public Bank"
     }
@@ -4698,6 +5045,7 @@
   {
     "code": "rhb_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "RHB Bank"
     }
@@ -4705,6 +5053,7 @@
   {
     "code": "hong_leong_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Hong Leong Bank"
     }
@@ -4712,6 +5061,7 @@
   {
     "code": "may_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "May Bank"
     }
@@ -4719,6 +5069,7 @@
   {
     "code": "australia_and_new_zealand_banking_group",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Australia and New Zealand Banking Group"
     }
@@ -4726,6 +5077,7 @@
   {
     "code": "westpac",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Westpac"
     }
@@ -4733,6 +5085,7 @@
   {
     "code": "national_australia_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "National Australia Bank"
     }
@@ -4740,6 +5093,7 @@
   {
     "code": "commonwealth_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Commonwealth Bank"
     }
@@ -4747,6 +5101,7 @@
   {
     "code": "axis_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Axis Bank"
     }
@@ -4754,6 +5109,7 @@
   {
     "code": "indian_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Indian Bank"
     }
@@ -4761,6 +5117,7 @@
   {
     "code": "state_bank_of_india",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "State Bank of India"
     }
@@ -4768,6 +5125,7 @@
   {
     "code": "kotak_mahindra_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Kotak Mahindra Bank"
     }
@@ -4775,6 +5133,7 @@
   {
     "code": "canara_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Canara Bank"
     }
@@ -4782,6 +5141,7 @@
   {
     "code": "icici_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "ICICI Bank"
     }
@@ -4789,6 +5149,7 @@
   {
     "code": "punjab_national_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Punjab National Bank"
     }
@@ -4796,6 +5157,7 @@
   {
     "code": "bank_of_india",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank of India"
     }
@@ -4803,6 +5165,7 @@
   {
     "code": "idbi_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "IDBI Bank"
     }
@@ -4810,6 +5173,7 @@
   {
     "code": "standard_charter_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Standard Charter Bank"
     }
@@ -4817,6 +5181,7 @@
   {
     "code": "karnataka_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Karnataka Bank"
     }
@@ -4824,6 +5189,7 @@
   {
     "code": "hdfc_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "HDFC Bank"
     }
@@ -4831,6 +5197,7 @@
   {
     "code": "yes_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Yes Bank"
     }
@@ -4838,6 +5205,7 @@
   {
     "code": "central_bank_of_india",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Central Bank of India"
     }
@@ -4845,6 +5213,7 @@
   {
     "code": "union_bank_of_india",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Union Bank of India"
     }
@@ -4852,6 +5221,7 @@
   {
     "code": "bank_of_baroda",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank of Baroda"
     }
@@ -4859,6 +5229,7 @@
   {
     "code": "mandiri_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Mandiri Bank"
     }
@@ -4866,6 +5237,7 @@
   {
     "code": "bank_negara_indonesia",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank Negara Indonesia"
     }
@@ -4873,6 +5245,7 @@
   {
     "code": "bank_central_asia",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank Central Asia"
     }
@@ -4880,6 +5253,7 @@
   {
     "code": "bank_rakyat_indonesia",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Bank Rakyat Indonesia"
     }
@@ -4887,6 +5261,7 @@
   {
     "code": "permata_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Permata Bank"
     }
@@ -4894,6 +5269,7 @@
   {
     "code": "cimb_clicks_indonesia",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "CIMB Clicks Indonesia"
     }
@@ -4901,6 +5277,7 @@
   {
     "code": "danamon_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Danamon Bank"
     }
@@ -4908,6 +5285,7 @@
   {
     "code": "btn_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "BTN Bank"
     }
@@ -4915,6 +5293,7 @@
   {
     "code": "acb_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "ACB Bank"
     }
@@ -4922,6 +5301,7 @@
   {
     "code": "vietcom_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "VIETCOM Bank"
     }
@@ -4929,6 +5309,7 @@
   {
     "code": "vietin_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "VIETIN Bank"
     }
@@ -4936,6 +5317,7 @@
   {
     "code": "sacom_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "SACOM Bank"
     }
@@ -4943,6 +5325,7 @@
   {
     "code": "bidv_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "BIDV Bank"
     }
@@ -4950,6 +5333,7 @@
   {
     "code": "techom_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Techom Bank"
     }
@@ -4957,6 +5341,7 @@
   {
     "code": "dong_a_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Dong A Bank"
     }
@@ -4964,6 +5349,7 @@
   {
     "code": "exim_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Exim Bank"
     }
@@ -4971,6 +5357,7 @@
   {
     "code": "permata_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Permata Bank"
     }
@@ -4978,6 +5365,7 @@
   {
     "code": "bri_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "BRI Bank"
     }
@@ -4985,6 +5373,7 @@
   {
     "code": "busan_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Busan Bank"
     }
@@ -4992,6 +5381,7 @@
   {
     "code": "citibank_korea",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Citibank Korea"
     }
@@ -4999,6 +5389,7 @@
   {
     "code": "daegu_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Daegu Bank"
     }
@@ -5006,6 +5397,7 @@
   {
     "code": "everrich_postal_savings_and_insurance_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "EVERRICH Postal Savings and Insurance Bank"
     }
@@ -5013,6 +5405,7 @@
   {
     "code": "hana_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Hana Bank"
     }
@@ -5020,6 +5413,7 @@
   {
     "code": "industrial_bank_of_korea",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Industrial Bank of Korea"
     }
@@ -5027,6 +5421,7 @@
   {
     "code": "kookmin_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Kookmin Bank"
     }
@@ -5034,6 +5429,7 @@
   {
     "code": "korea_development_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Korea Development Bank"
     }
@@ -5041,6 +5437,7 @@
   {
     "code": "kwangju_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Kwangju Bank"
     }
@@ -5048,6 +5445,7 @@
   {
     "code": "mg_bank_saemmul",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "MG Bank (Saemmul)"
     }
@@ -5055,6 +5453,7 @@
   {
     "code": "nonghyup_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Nonghyup Bank"
     }
@@ -5062,6 +5461,7 @@
   {
     "code": "shinhan_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Shinhan Bank"
     }
@@ -5069,6 +5469,7 @@
   {
     "code": "standard_chartered_bank_korea",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Standard Chartered Bank Korea"
     }
@@ -5076,6 +5477,7 @@
   {
     "code": "suhyup_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Suhyup Bank"
     }
@@ -5083,6 +5485,7 @@
   {
     "code": "woori_bank",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "Woori Bank"
     }
@@ -5090,6 +5493,7 @@
   {
     "code": "crypto",
     "category": "bank_transfer",
+    "status": "active",
     "name": {
       "en": "CRYPTO"
     }
@@ -5097,6 +5501,7 @@
   {
     "code": "wechat",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Wechat"
     }
@@ -5104,6 +5509,7 @@
   {
     "code": "qqpay",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "QQPay"
     }
@@ -5111,6 +5517,7 @@
   {
     "code": "alipay",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Alipay"
     }
@@ -5118,6 +5525,7 @@
   {
     "code": "unionpay_qr",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Unionpay_QR"
     }
@@ -5126,6 +5534,7 @@
     "code": "visa",
     "vendor": "visa",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Visa"
     },
@@ -5137,6 +5546,7 @@
     "code": "mir",
     "vendor": "kartamir",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "ru": "Мир"
     },
@@ -5148,6 +5558,7 @@
     "code": "paysafecash",
     "vendor": "optimalpayments",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AT",
       "HR",
@@ -5167,6 +5578,7 @@
     "code": "resursbank",
     "vendor": "resursbank",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SE",
       "NO",
@@ -5181,6 +5593,7 @@
     "code": "rapidtransfer",
     "vendor": "skrill",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AT",
       "DK",
@@ -5204,6 +5617,7 @@
     "code": "nordeasolo",
     "vendor": "nordeasolo",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "SE"
     ],
@@ -5215,6 +5629,7 @@
     "code": "epaybg",
     "vendor": "epaybg",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "BG"
     ],
@@ -5226,6 +5641,7 @@
     "code": "astropaydirect",
     "vendor": "astropay",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AR",
       "BR"
@@ -5238,6 +5654,7 @@
     "code": "astropaymanual",
     "vendor": "astropay",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "BR",
       "CL",
@@ -5252,6 +5669,7 @@
     "code": "astropaycash",
     "vendor": "astropay",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "AR",
       "BR",
@@ -5270,6 +5688,7 @@
     "code": "astropayunion",
     "vendor": "astropay",
     "category": "internet_banking",
+    "status": "active",
     "countries": [
       "CN"
     ],
@@ -5289,6 +5708,7 @@
     "code": "mercuryo",
     "vendor": "mercuryo",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Mercuryo",
       "ru": "Mercuryo",
@@ -5299,6 +5719,7 @@
     "code": "ecopayz",
     "vendor": "ecopayz",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Ecopayz",
       "ru": "Ecopayz",
@@ -5309,6 +5730,7 @@
     "code": "ecopayz_voucher",
     "vendor": "ecopayz",
     "category": "prepaid_card",
+    "status": "active",
     "name": {
       "en": "Ecopayz voucher",
       "ru": "Ecopayz voucher",
@@ -5319,6 +5741,7 @@
     "code": "paymentwall",
     "vendor": "paymentwall",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "PaymentWall",
       "ru": "PaymentWall",
@@ -5329,6 +5752,7 @@
     "code": "wlandpay",
     "vendor": "wlandpay",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Wlandpay",
       "ru": "Wlandpay",
@@ -5339,6 +5763,7 @@
     "code": "exactly",
     "vendor": "exactly",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Exactly",
       "ru": "Exactly",
@@ -5349,6 +5774,7 @@
     "code": "cypix",
     "vendor": "cypix",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Cypix",
       "ru": "Cypix",
@@ -5359,6 +5785,7 @@
     "code": "muchbetter",
     "vendor": "muchbetter",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "MuchBetter",
       "ru": "MuchBetter",
@@ -5369,6 +5796,7 @@
     "code": "ecobanq",
     "vendor": "ecobanq",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "Ecobanq",
       "ru": "Ecobanq",
@@ -5379,6 +5807,7 @@
     "code": "airtel_money",
     "vendor": "selcom",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Airtel money",
       "ru": "Airtel money",
@@ -5389,6 +5818,7 @@
     "code": "vodacom",
     "vendor": "selcom",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Vodacom",
       "ru": "Vodacom",
@@ -5399,6 +5829,7 @@
     "code": "tigo_pesa",
     "vendor": "selcom",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Tigo pesa",
       "ru": "Tigo pesa",
@@ -5409,6 +5840,7 @@
     "code": "halo_pesa",
     "vendor": "selcom",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Halo pessa",
       "ru": "Halo pessa",
@@ -5419,6 +5851,7 @@
     "code": "zantel_ezypesa",
     "vendor": "selcom",
     "category": "mobile_payment",
+    "status": "active",
     "name": {
       "en": "Zantel ezypesa",
       "ru": "Zantel ezypesa",
@@ -5429,6 +5862,7 @@
     "code": "uax",
     "vendor": "kuna",
     "category": "alternative",
+    "status": "active",
     "name": {
       "en": "UAX",
       "ru": "UAX",
@@ -5438,6 +5872,7 @@
   {
     "code": "visa_qr_code",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Visa QR Code",
       "ru": "Visa QR Code",
@@ -5447,6 +5882,7 @@
   {
     "code": "net_banking",
     "category": "payment_card",
+    "status": "active",
     "name": {
       "en": "Pay with bank",
       "ru": "Pay with bank",
@@ -5456,6 +5892,7 @@
   {
     "code": "vcreditos",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "VCreditos wallet",
       "ru": "VCreditos wallet",
@@ -5465,6 +5902,7 @@
   {
     "code": "vcreditos_push",
     "category": "digital_wallet",
+    "status": "active",
     "name": {
       "en": "VCreditos wallet",
       "ru": "VCreditos wallet",

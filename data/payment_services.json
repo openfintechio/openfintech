@@ -1,5 +1,6 @@
 [
   {
+    "status": "active",
     "code": "qiwi_rub_hpp",
     "flow": "hpp",
     "method": "qiwi",
@@ -27,6 +28,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "ingbankpl_pln_hpp",
     "flow": "hpp",
     "method": "ingpl",
@@ -88,6 +90,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "privat24_usd_hpp",
     "flow": "hpp",
     "method": "privat24",
@@ -96,6 +99,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "promsvyazbank_rub_hpp",
     "flow": "hpp",
     "method": "promsvyazbank",
@@ -104,6 +108,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "liqpay_usd_hpp",
     "flow": "hpp",
     "method": "liqpay",
@@ -112,6 +117,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "test_xts_test",
     "flow": "test",
     "method": "test",
@@ -139,6 +145,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "test_uah_test",
     "flow": "test",
     "method": "test",
@@ -166,6 +173,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "test_usd_test",
     "flow": "test",
     "method": "test",
@@ -193,6 +201,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "test_eur_test",
     "flow": "test",
     "method": "test",
@@ -220,6 +229,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "privat24_eur_hpp",
     "flow": "hpp",
     "method": "privat24",
@@ -228,6 +238,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "liqpay_wallet_eur_hpp",
     "flow": "hpp",
     "method": "liqpay_wallet",
@@ -236,6 +247,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "privat24_uah_hpp",
     "flow": "hpp",
     "method": "privat24",
@@ -244,6 +256,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "liqpay_rub_hpp",
     "flow": "hpp",
     "method": "liqpay",
@@ -252,6 +265,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_rub_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -260,6 +274,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_chf_hpp",
     "currency": "CHF",
     "method": "payment_card",
@@ -268,6 +283,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_gip_hpp",
     "currency": "GIP",
     "method": "payment_card",
@@ -276,6 +292,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_sgd_hpp",
     "currency": "SGD",
     "method": "payment_card",
@@ -284,6 +301,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_hkd_hpp",
     "currency": "HKD",
     "method": "payment_card",
@@ -292,6 +310,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_jpy_hpp",
     "currency": "JPY",
     "method": "payment_card",
@@ -300,6 +319,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_rub_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -308,6 +328,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_byn_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -316,6 +337,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_ngn_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -324,6 +346,7 @@
     "amount_max": 1000000000
   },
   {
+    "status": "active",
     "code": "payment_card_tzs_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -332,6 +355,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_cny_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -340,6 +364,7 @@
     "amount_max": 100000000
   },
   {
+    "status": "active",
     "code": "payment_card_token_rub_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
@@ -367,6 +392,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "privat24_rub_hpp",
     "flow": "hpp",
     "method": "privat24",
@@ -375,6 +401,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "liqpay_uah_hpp",
     "flow": "hpp",
     "method": "liqpay",
@@ -383,6 +410,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "liqpay_wallet_uah_hpp",
     "flow": "hpp",
     "method": "liqpay_wallet",
@@ -391,6 +419,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "masterpass_usd_hpp",
     "flow": "hpp",
     "method": "masterpass",
@@ -399,6 +428,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_uah_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -407,6 +437,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_thb_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -415,6 +446,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_vnd_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -423,6 +455,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_myr_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -431,6 +464,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_idr_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -439,6 +473,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_ngn_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -447,6 +482,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_zar_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -455,6 +491,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_uah_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -463,6 +500,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_token_uah_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
@@ -490,6 +528,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "coingate_usd_hpp",
     "flow": "hpp",
     "method": "coingate",
@@ -498,6 +537,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "coingate_eur_hpp",
     "flow": "hpp",
     "method": "coingate",
@@ -506,6 +546,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "usdt_usd_hpp",
     "flow": "hpp",
     "method": "usdt",
@@ -514,6 +555,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "masterpass_eur_hpp",
     "flow": "hpp",
     "method": "masterpass",
@@ -522,6 +564,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_btc_hpp",
     "flow": "hpp",
     "method": "bitcoin",
@@ -530,6 +573,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_bch_hpp",
     "flow": "hpp",
     "method": "bitcoin",
@@ -538,6 +582,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_eth_hpp",
     "flow": "hpp",
     "method": "bitcoin",
@@ -546,6 +591,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_ltc_hpp",
     "flow": "hpp",
     "method": "bitcoin",
@@ -554,6 +600,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_cash_bch_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
@@ -562,6 +609,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_cash_btc_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
@@ -570,6 +618,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_cash_eth_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
@@ -578,6 +627,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_cash_ltc_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
@@ -586,6 +636,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_cash_usd_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
@@ -594,6 +645,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_cash_eur_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
@@ -602,6 +654,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "masterpass_rub_hpp",
     "flow": "hpp",
     "method": "masterpass",
@@ -610,6 +663,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_usd_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -618,6 +672,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_usd_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -626,6 +681,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_token_usd_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
@@ -653,6 +709,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "ethereum_eth_hpp",
     "flow": "hpp",
     "method": "ethereum",
@@ -661,6 +718,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "ethereum_btc_hpp",
     "flow": "hpp",
     "method": "ethereum",
@@ -669,6 +727,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "ethereum_bch_hpp",
     "flow": "hpp",
     "method": "ethereum",
@@ -677,6 +736,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "ethereum_ltc_hpp",
     "flow": "hpp",
     "method": "ethereum",
@@ -685,6 +745,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "ethereum_usd_hpp",
     "flow": "hpp",
     "method": "ethereum",
@@ -693,6 +754,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "ethereum_eur_hpp",
     "flow": "hpp",
     "method": "ethereum",
@@ -701,6 +763,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "privatbank_ssk_uah_hpp",
     "flow": "hpp",
     "method": "privatbank_ssk",
@@ -709,6 +772,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "privatbank_ssk_usd_hpp",
     "flow": "hpp",
     "method": "privatbank_ssk",
@@ -717,6 +781,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "litecoin_ltc_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -725,6 +790,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "litecoin_btc_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -733,6 +799,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "litecoin_bch_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -741,6 +808,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "litecoin_eth_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -749,6 +817,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "litecoin_usd_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -757,6 +826,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "litecoin_eur_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -765,6 +835,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "privatbank_ssk_rub_hpp",
     "flow": "hpp",
     "method": "privatbank_ssk",
@@ -773,6 +844,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "liqpay_wallet_usd_hpp",
     "flow": "hpp",
     "method": "liqpay_wallet",
@@ -781,6 +853,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "liqpay_eur_hpp",
     "flow": "hpp",
     "method": "liqpay",
@@ -789,6 +862,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "liqpay_wallet_rub_hpp",
     "flow": "hpp",
     "method": "liqpay_wallet",
@@ -797,6 +871,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_eur_hpp",
     "flow": "hpp",
     "method": "bank_card",
@@ -805,6 +880,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_eur_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -813,6 +889,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_token_eur_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
@@ -840,6 +917,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "privatbank_ssk_eur_hpp",
     "flow": "hpp",
     "method": "privatbank_ssk",
@@ -848,6 +926,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "masterpass_uah_hpp",
     "flow": "hpp",
     "method": "masterpass",
@@ -856,6 +935,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "webmoneytransfer_wme_hpp",
     "currency": "WME",
     "method": "webmoneytransfer",
@@ -864,6 +944,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "webmoneytransfer_wmz_hpp",
     "currency": "WMZ",
     "method": "webmoneytransfer",
@@ -872,6 +953,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "webmoneytransfer_wmr_hpp",
     "currency": "WMR",
     "method": "webmoneytransfer",
@@ -880,6 +962,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "webmoneytransfer_wmu_hpp",
     "currency": "WMU",
     "method": "webmoneytransfer",
@@ -888,6 +971,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "webmoneytransfer_wmb_hpp",
     "currency": "WMB",
     "method": "webmoneytransfer",
@@ -896,6 +980,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "webmoneytransfer_wmk_hpp",
     "currency": "WMK",
     "method": "webmoneytransfer",
@@ -904,6 +989,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "webmoneytransfer_wmx_hpp",
     "currency": "WMX",
     "method": "webmoneytransfer",
@@ -912,6 +998,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "webmoneytransfer_rub_hpp",
     "currency": "RUB",
     "method": "webmoneytransfer",
@@ -920,6 +1007,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "beeline_rub_hpp",
     "currency": "RUB",
     "method": "beeline",
@@ -947,6 +1035,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "beeline_rub_invoice",
     "currency": "RUB",
     "method": "beeline",
@@ -974,6 +1063,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "latam_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
@@ -982,6 +1072,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "ussd_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -990,6 +1081,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "ussd_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
@@ -998,6 +1090,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bank_transfer_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -1151,6 +1244,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "bank_transfer_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -1304,6 +1398,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "bank_transfer_myr_hpp",
     "currency": "MYR",
     "flow": "hpp",
@@ -1457,6 +1552,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "bank_transfer_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -1610,6 +1706,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "bank_transfer_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
@@ -1763,6 +1860,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "bank_transfer_zar_hpp",
     "currency": "ZAR",
     "flow": "hpp",
@@ -1916,6 +2014,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "visa_qr_code_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
@@ -1924,6 +2023,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "net_banking_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
@@ -1932,6 +2032,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "megafon_rub_hpp",
     "currency": "RUB",
     "method": "megafon",
@@ -1959,6 +2060,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "megafon_rub_invoice",
     "currency": "RUB",
     "method": "megafon",
@@ -1986,6 +2088,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "mts_rub_hpp",
     "currency": "RUB",
     "method": "mts",
@@ -2013,6 +2116,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "mts_rub_invoice",
     "currency": "RUB",
     "method": "mts",
@@ -2040,6 +2144,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "advcash_wallet_rub_hpp",
     "currency": "RUB",
     "method": "advcash_wallet",
@@ -2048,6 +2153,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "advcash_wallet_usd_hpp",
     "currency": "USD",
     "method": "advcash_wallet",
@@ -2056,6 +2162,7 @@
     "amount_max": 999999.00
   },
   {
+    "status": "active",
     "code": "advcash_wallet_eur_hpp",
     "currency": "EUR",
     "method": "advcash_wallet",
@@ -2064,6 +2171,7 @@
     "amount_max": 999999.00
   },
   {
+    "status": "active",
     "code": "advcash_wallet_uah_hpp",
     "currency": "UAH",
     "method": "advcash_wallet",
@@ -2072,6 +2180,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "advcash_wallet_gbp_hpp",
     "currency": "GBP",
     "method": "advcash_wallet",
@@ -2080,6 +2189,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "advcash_wallet_kzt_hpp",
     "currency": "KZT",
     "method": "advcash_wallet",
@@ -2088,6 +2198,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "advcash_wallet_brl_hpp",
     "currency": "BRL",
     "method": "advcash_wallet",
@@ -2096,6 +2207,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "i_wallet_eur_hpp",
     "currency": "EUR",
     "method": "i_wallet",
@@ -2104,6 +2216,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "i_wallet_usd_hpp",
     "currency": "USD",
     "method": "i_wallet",
@@ -2112,6 +2225,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "yandexmoney_rub_hpp",
     "currency": "RUB",
     "method": "yandexmoney",
@@ -2120,6 +2234,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "exmo_rub_hpp",
     "currency": "RUB",
     "method": "exmo",
@@ -2128,6 +2243,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "exmo_usd_hpp",
     "currency": "USD",
     "method": "exmo",
@@ -2136,6 +2252,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "exmo_eur_hpp",
     "currency": "EUR",
     "method": "exmo",
@@ -2144,6 +2261,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "tele2ru_rub_hpp",
     "currency": "RUB",
     "method": "tele2ru",
@@ -2171,6 +2289,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "tele2ru_rub_invoice",
     "currency": "RUB",
     "method": "tele2ru",
@@ -2198,6 +2317,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "euroset_rub_hpp",
     "currency": "RUB",
     "method": "euroset",
@@ -2206,6 +2326,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "svyaznoy_rub_hpp",
     "currency": "RUB",
     "method": "svyaznoy",
@@ -2214,6 +2335,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "perfectmoney_usd_hpp",
     "currency": "USD",
     "method": "perfectmoney",
@@ -2222,6 +2344,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "perfectmoney_eur_hpp",
     "currency": "EUR",
     "method": "perfectmoney",
@@ -2230,6 +2353,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "qiwi_eur_hpp",
     "currency": "EUR",
     "method": "qiwi",
@@ -2257,6 +2381,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "qiwi_usd_hpp",
     "currency": "USD",
     "method": "qiwi",
@@ -2284,6 +2409,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "cash_rub_hpp",
     "currency": "RUB",
     "method": "cash",
@@ -2292,6 +2418,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "cash_eur_hpp",
     "currency": "EUR",
     "method": "cash",
@@ -2300,6 +2427,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "cash_usd_hpp",
     "currency": "USD",
     "method": "cash",
@@ -2308,6 +2436,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "cash_uah_hpp",
     "currency": "UAH",
     "method": "cash",
@@ -2316,6 +2445,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_rub_hpp",
     "currency": "RUB",
     "method": "bitcoin",
@@ -2324,6 +2454,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_eur_hpp",
     "currency": "EUR",
     "method": "bitcoin",
@@ -2332,6 +2463,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bitcoin_usd_hpp",
     "currency": "USD",
     "method": "bitcoin",
@@ -2340,6 +2472,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "exmo_uah_hpp",
     "currency": "UAH",
     "method": "exmo",
@@ -2348,6 +2481,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "mminvoicing_gel_hpp",
     "currency": "GEL",
     "method": "mminvoicing",
@@ -2356,6 +2490,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "gemoney_gel_hpp",
     "currency": "GEL",
     "method": "gemoney",
@@ -2364,6 +2499,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "easypay_uah_hpp",
     "currency": "UAH",
     "method": "easypay",
@@ -2372,6 +2508,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_gel_hpp",
     "currency": "GEL",
     "method": "bank_card",
@@ -2380,6 +2517,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_gel_hpp",
     "currency": "GEL",
     "method": "payment_card",
@@ -2388,6 +2526,7 @@
     "amount_max": 500000
   },
   {
+    "status": "active",
     "code": "payment_card_ghs_hpp",
     "currency": "GHS",
     "method": "payment_card",
@@ -2396,6 +2535,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "psbretail_rub_hpp",
     "currency": "RUB",
     "method": "psbretail",
@@ -2404,6 +2544,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "alfaclick_rub_hpp",
     "currency": "RUB",
     "method": "alfaclick",
@@ -2412,6 +2553,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "alfaclick_eur_hpp",
     "currency": "EUR",
     "method": "alfaclick",
@@ -2420,6 +2562,7 @@
     "amount_max": 50000
   },
   {
+    "status": "active",
     "code": "alfaclick_kzt_hpp",
     "currency": "KZT",
     "method": "alfaclick",
@@ -2428,6 +2571,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "alfaclick_usd_hpp",
     "currency": "USD",
     "method": "alfaclick",
@@ -2436,6 +2580,7 @@
     "amount_max": 50000
   },
   {
+    "status": "active",
     "code": "rbkmoney_rub_hpp",
     "currency": "RUB",
     "method": "rbkmoney",
@@ -2444,6 +2589,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "visacheckout_uah_hpp",
     "currency": "UAH",
     "method": "visacheckout",
@@ -2452,6 +2598,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_gbp_hpp",
     "currency": "GBP",
     "method": "bank_card",
@@ -2460,6 +2607,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_gbp_hpp",
     "currency": "GBP",
     "method": "payment_card",
@@ -2468,6 +2616,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_card_try_hpp",
     "currency": "TRY",
     "method": "bank_card",
@@ -2476,6 +2625,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_try_hpp",
     "currency": "TRY",
     "method": "payment_card",
@@ -2484,6 +2634,7 @@
     "amount_max": 500000
   },
   {
+    "status": "active",
     "code": "payment_card_cad_hpp",
     "currency": "CAD",
     "method": "payment_card",
@@ -2492,6 +2643,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_aud_hpp",
     "currency": "AUD",
     "method": "payment_card",
@@ -2500,6 +2652,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payment_card_czk_hpp",
     "currency": "CZK",
     "method": "payment_card",
@@ -2508,6 +2661,7 @@
     "amount_max": 500000
   },
   {
+    "status": "active",
     "code": "payment_card_pln_hpp",
     "currency": "PLN",
     "method": "payment_card",
@@ -2516,6 +2670,7 @@
     "amount_max": 500000
   },
   {
+    "status": "active",
     "code": "payment_card_tmt_hpp",
     "currency": "TMT",
     "method": "payment_card",
@@ -2524,6 +2679,7 @@
     "amount_max": 500000
   },
   {
+    "status": "active",
     "code": "payment_card_uzs_hpp",
     "currency": "UZS",
     "method": "payment_card",
@@ -2532,6 +2688,7 @@
     "amount_max": 100000000
   },
   {
+    "status": "active",
     "code": "payment_card_azn_hpp",
     "currency": "AZN",
     "method": "payment_card",
@@ -2540,6 +2697,7 @@
     "amount_max": 500000
   },
   {
+    "status": "active",
     "code": "payment_card_mdl_hpp",
     "currency": "MDL",
     "method": "payment_card",
@@ -2548,6 +2706,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_tjs_hpp",
     "currency": "TJS",
     "method": "payment_card",
@@ -2556,6 +2715,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "payment_card_kgs_hpp",
     "currency": "KGS",
     "method": "payment_card",
@@ -2564,6 +2724,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "interkassa_uah_hpp",
     "currency": "UAH",
     "method": "interkassa",
@@ -2572,6 +2733,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "interkassa_usd_hpp",
     "currency": "USD",
     "method": "interkassa",
@@ -2580,6 +2742,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "interkassa_eur_hpp",
     "currency": "EUR",
     "method": "interkassa",
@@ -2588,6 +2751,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "interkassa_rub_hpp",
     "currency": "RUB",
     "method": "interkassa",
@@ -2596,6 +2760,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "interkassa_wmz_hpp",
     "currency": "WMZ",
     "method": "interkassa",
@@ -2604,6 +2769,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "interkassa_wme_hpp",
     "currency": "WME",
     "method": "interkassa",
@@ -2612,6 +2778,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "interkassa_wmr_hpp",
     "currency": "WMR",
     "method": "interkassa",
@@ -2620,6 +2787,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "interkassa_wmu_hpp",
     "currency": "WMU",
     "method": "interkassa",
@@ -2628,6 +2796,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "geopaynet_grn_hpp",
     "currency": "GRN",
     "flow": "hpp",
@@ -2636,6 +2805,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "geopaynet_uah_hpp",
     "currency": "UAH",
     "flow": "hpp",
@@ -2644,6 +2814,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "paypal_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
@@ -2652,6 +2823,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "paypal_eur_hpp",
     "currency": "EUR",
     "flow": "hpp",
@@ -2660,6 +2832,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "paypal_huf_hpp",
     "currency": "HUF",
     "flow": "hpp",
@@ -2668,6 +2841,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "paypal_gbp_hpp",
     "currency": "GBP",
     "flow": "hpp",
@@ -2676,6 +2850,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "china_citic_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2684,6 +2859,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "industrial_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2692,6 +2868,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "china_guangfa_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2700,6 +2877,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "china_merchants_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2708,6 +2886,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "china_postal_savings_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2716,6 +2895,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bank_of_china_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2724,6 +2904,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "agricultural_bank_of_china_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2732,6 +2913,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "china_everbright_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2740,6 +2922,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "china_construction_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2748,6 +2931,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "ping_an_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2756,6 +2940,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bank_of_communication_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2764,6 +2949,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "industrial_and_commercial_bank_of_china_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2772,6 +2958,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "shanghai_pudong_development_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2780,6 +2967,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "china_minsheng_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2788,6 +2976,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "china_union_pay_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -2796,6 +2985,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "siam_commercial_bank_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -2804,6 +2994,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "krung_thai_bank_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -2812,6 +3003,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "krungsri_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -2820,6 +3012,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "uobt_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -2828,6 +3021,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "kasikorn_bank_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -2836,6 +3030,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bangko_bank_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -2844,6 +3039,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "cimb_clicks_bank_myr_hpp",
     "currency": "MYR",
     "flow": "hpp",
@@ -2852,6 +3048,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "public_bank_myr_hpp",
     "currency": "MYR",
     "flow": "hpp",
@@ -2860,6 +3057,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "rhb_bank_myr_hpp",
     "currency": "MYR",
     "flow": "hpp",
@@ -2868,6 +3066,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "hong_leong_bank_myr_hpp",
     "currency": "MYR",
     "flow": "hpp",
@@ -2876,6 +3075,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "may_bank_myr_hpp",
     "currency": "MYR",
     "flow": "hpp",
@@ -2884,6 +3084,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "australia_and_new_zealand_banking_group_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
@@ -2892,6 +3093,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "westpac_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
@@ -2900,6 +3102,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "national_australia_bank_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
@@ -2908,6 +3111,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "commonwealth_bank_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
@@ -2916,6 +3120,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "axis_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2924,6 +3129,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "indian_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2932,6 +3138,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "state_bank_of_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2940,6 +3147,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "kotak_mahindra_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2948,6 +3156,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "canara_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2956,6 +3165,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "icici_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2964,6 +3174,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "punjab_national_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2972,6 +3183,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bank_of_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2980,6 +3192,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "idbi_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2988,6 +3201,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "standard_charter_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -2996,6 +3210,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "karnataka_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -3004,6 +3219,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "hdfc_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -3012,6 +3228,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "yes_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -3020,6 +3237,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "central_bank_of_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -3028,6 +3246,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "union_bank_of_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -3036,6 +3255,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bank_of_baroda_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -3044,6 +3264,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "mandiri_bank_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -3052,6 +3273,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bank_negara_indonesia_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -3060,6 +3282,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bank_central_asia_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -3068,6 +3291,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bank_rakyat_indonesia_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -3076,6 +3300,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "permata_bank_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -3084,6 +3309,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "cimb_clicks_indonesia_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -3092,6 +3318,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "danamon_bank_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -3100,6 +3327,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "btn_bank_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
@@ -3108,6 +3336,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "acb_bank_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -3116,6 +3345,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "vietcom_bank_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -3124,6 +3354,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "vietin_bank_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -3132,6 +3363,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "sacom_bank_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -3140,6 +3372,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bidv_bank_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -3148,6 +3381,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "techom_bank_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -3156,6 +3390,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "dong_a_bank_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -3164,6 +3399,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "exim_bank_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -3172,6 +3408,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "may_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -3180,6 +3417,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "permata_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -3188,6 +3426,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "bri_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -3196,6 +3435,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "busan_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3204,6 +3444,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "citibank_korea_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3212,6 +3453,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "daegu_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3220,6 +3462,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "everrich_postal_savings_and_insurance_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3228,6 +3471,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "hana_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3236,6 +3480,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "industrial_bank_of_korea_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3244,6 +3489,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "kookmin_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3252,6 +3498,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "korea_development_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3260,6 +3507,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "kwangju_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3268,6 +3516,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "mg_bank_saemmul_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3276,6 +3525,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "nonghyup_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3284,6 +3534,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "shinhan_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3292,6 +3543,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "standard_chartered_bank_korea_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3300,6 +3552,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "suhyup_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3308,6 +3561,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "woori_bank_krw_hpp",
     "currency": "KRW",
     "flow": "hpp",
@@ -3316,6 +3570,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "crypto_btc_hpp",
     "currency": "BTC",
     "flow": "hpp",
@@ -3324,6 +3579,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "wechat_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -3332,6 +3588,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "qqpay_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -3340,6 +3597,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "alipay_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -3348,6 +3606,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "unionpay_qr_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -3356,6 +3615,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "perfectmoney_account_usd_hpp",
     "currency": "USD",
     "method": "perfectmoney_account",
@@ -3364,6 +3624,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "perfectmoney_account_eur_hpp",
     "currency": "EUR",
     "method": "perfectmoney_account",
@@ -3372,6 +3633,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "perfectmoney_account_btc_hpp",
     "currency": "BTC",
     "method": "perfectmoney_account",
@@ -3380,6 +3642,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "perfectmoney_voucher_usd_hpp",
     "currency": "USD",
     "method": "perfectmoney_voucher",
@@ -3388,6 +3651,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "perfectmoney_voucher_eur_hpp",
     "currency": "EUR",
     "method": "perfectmoney_voucher",
@@ -3396,6 +3660,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "perfectmoney_voucher_btc_hpp",
     "currency": "BTC",
     "method": "perfectmoney_voucher",
@@ -3404,6 +3669,7 @@
     "amount_max": 1000
   },
   {
+    "status": "active",
     "code": "payment_card_email_eur_hpp",
     "currency": "EUR",
     "method": "payment_card_email",
@@ -3431,6 +3697,7 @@
     ]
   },
   {
+    "status": "active",
     "code": "payeer_rub_hpp",
     "flow": "hpp",
     "method": "payeer",
@@ -3439,6 +3706,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payeer_usd_hpp",
     "flow": "hpp",
     "method": "payeer",
@@ -3447,6 +3715,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "payeer_eur_hpp",
     "flow": "hpp",
     "method": "payeer",
@@ -3455,6 +3724,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "terminal_rf_rub_hpp",
     "flow": "hpp",
     "method": "terminal_rf",
@@ -3463,6 +3733,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "visa_rub_hpp",
     "flow": "hpp",
     "method": "visa",
@@ -3471,6 +3742,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "mastercard_rub_hpp",
     "flow": "hpp",
     "method": "mastercard",
@@ -3479,6 +3751,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "maestro_rub_hpp",
     "flow": "hpp",
     "method": "maestro",
@@ -3487,6 +3760,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "mir_rub_hpp",
     "flow": "hpp",
     "method": "mir",
@@ -3495,6 +3769,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "skrill_eur_hpp",
     "flow": "hpp",
     "method": "skrill",
@@ -3503,6 +3778,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "neteller_eur_hpp",
     "flow": "hpp",
     "method": "neteller",
@@ -3530,6 +3806,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "neteller_inr_hpp",
     "flow": "hpp",
     "method": "neteller",
@@ -3557,6 +3834,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "neteller_usd_hpp",
     "flow": "hpp",
     "method": "neteller",
@@ -3584,6 +3862,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_usd_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3592,6 +3871,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_eur_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3600,6 +3880,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_gbp_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3608,6 +3889,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_chf_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3616,6 +3898,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_bgn_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3624,6 +3907,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_czk_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3632,6 +3916,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_dkk_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3640,6 +3925,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_hrk_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3648,6 +3934,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_huf_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3656,6 +3943,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_nok_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3664,6 +3952,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_pln_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3672,6 +3961,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_ron_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3680,6 +3970,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecard_sek_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -3688,6 +3979,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paysafecash_eur_hpp",
     "flow": "hpp",
     "method": "paysafecash",
@@ -3696,6 +3988,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "resursbank_eur_hpp",
     "flow": "hpp",
     "method": "resursbank",
@@ -3704,6 +3997,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "visa_eur_hpp",
     "flow": "hpp",
     "method": "visa",
@@ -3712,6 +4006,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "mastercard_eur_hpp",
     "flow": "hpp",
     "method": "mastercard",
@@ -3720,6 +4015,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "visaelectron_eur_hpp",
     "flow": "hpp",
     "method": "visaelectron",
@@ -3728,6 +4024,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "maestro_eur_hpp",
     "flow": "hpp",
     "method": "maestro",
@@ -3736,6 +4033,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "americanexpress_eur_hpp",
     "flow": "hpp",
     "method": "americanexpress",
@@ -3744,6 +4042,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "dinersclub_eur_hpp",
     "flow": "hpp",
     "method": "dinersclub",
@@ -3752,6 +4051,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "jcb_eur_hpp",
     "flow": "hpp",
     "method": "jcb",
@@ -3760,6 +4060,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "cartebleue_eur_hpp",
     "flow": "hpp",
     "method": "cartebleue",
@@ -3768,6 +4069,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "dankort_eur_hpp",
     "flow": "hpp",
     "method": "dankort",
@@ -3776,6 +4078,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "postepay_eur_hpp",
     "flow": "hpp",
     "method": "postepay",
@@ -3784,6 +4087,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "cartasi_eur_hpp",
     "flow": "hpp",
     "method": "cartasi",
@@ -3792,6 +4096,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "rapidtransfer_eur_hpp",
     "flow": "hpp",
     "method": "rapidtransfer",
@@ -3800,6 +4105,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "giropay_eur_hpp",
     "flow": "hpp",
     "method": "giropay",
@@ -3808,6 +4114,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "directdebit_eur_hpp",
     "flow": "hpp",
     "method": "directdebit",
@@ -3816,6 +4123,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "nordeasolo_eur_hpp",
     "flow": "hpp",
     "method": "nordeasolo",
@@ -3824,6 +4132,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "ideal_eur_hpp",
     "flow": "hpp",
     "method": "ideal",
@@ -3832,6 +4141,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "eps_eur_hpp",
     "flow": "hpp",
     "method": "eps",
@@ -3840,6 +4150,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "polipayonline_aud_hpp",
     "flow": "hpp",
     "method": "polipayonline",
@@ -3848,6 +4159,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "przelewy24_eur_hpp",
     "flow": "hpp",
     "method": "przelewy24",
@@ -3856,6 +4168,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "piastrix_eur_hpp",
     "flow": "hpp",
     "method": "piastrix",
@@ -3864,6 +4177,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "piastrix_usd_hpp",
     "flow": "hpp",
     "method": "piastrix",
@@ -3872,6 +4186,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "piastrix_rub_hpp",
     "flow": "hpp",
     "method": "piastrix",
@@ -3880,6 +4195,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "epaybg_eur_hpp",
     "flow": "hpp",
     "method": "epaybg",
@@ -3888,6 +4204,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "trustly_eur_hpp",
     "flow": "hpp",
     "method": "trustly",
@@ -3896,6 +4213,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "alipay_eur_hpp",
     "flow": "hpp",
     "method": "alipay",
@@ -3904,6 +4222,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "astropaydirect_eur_hpp",
     "flow": "hpp",
     "method": "astropaydirect",
@@ -3912,6 +4231,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "astropaymanual_eur_hpp",
     "flow": "hpp",
     "method": "astropaymanual",
@@ -3920,6 +4240,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "astropaycash_eur_hpp",
     "flow": "hpp",
     "method": "astropaycash",
@@ -3928,6 +4249,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "astropayunion_eur_hpp",
     "flow": "hpp",
     "method": "astropayunion",
@@ -3936,6 +4258,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "paypal_cad_hpp",
     "currency": "CAD",
     "flow": "hpp",
@@ -3944,6 +4267,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "paypal_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
@@ -3952,6 +4276,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "applepay_uah_hpp",
     "currency": "UAH",
     "flow": "hpp",
@@ -3960,6 +4285,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "applepay_rub_hpp",
     "currency": "RUB",
     "flow": "hpp",
@@ -3968,6 +4294,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "applepay_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
@@ -3976,6 +4303,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "applepay_eur_hpp",
     "currency": "EUR",
     "flow": "hpp",
@@ -3984,6 +4312,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "applepay_gbp_hpp",
     "currency": "GBP",
     "flow": "hpp",
@@ -3992,6 +4321,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "googlepay_uah_hpp",
     "currency": "UAH",
     "flow": "hpp",
@@ -4000,6 +4330,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "swift_usd_invoice",
     "currency": "USD",
     "flow": "invoice",
@@ -4008,6 +4339,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "swift_eur_invoice",
     "currency": "EUR",
     "flow": "invoice",
@@ -4016,6 +4348,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "sberbank_rub_hpp",
     "currency": "RUB",
     "flow": "hpp",
@@ -4024,6 +4357,7 @@
     "amount_max": 9999999
   },
   {
+    "status": "active",
     "code": "swift_gbp_invoice",
     "currency": "GBP",
     "flow": "invoice",
@@ -4032,6 +4366,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "swift_cny_invoice",
     "currency": "CNY",
     "flow": "invoice",
@@ -4040,6 +4375,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "swift_jpy_invoice",
     "currency": "JPY",
     "flow": "invoice",
@@ -4048,6 +4384,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "swift_rub_invoice",
     "currency": "RUB",
     "flow": "invoice",
@@ -4056,6 +4393,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "swift_kzt_invoice",
     "currency": "KZT",
     "flow": "invoice",
@@ -4064,6 +4402,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "smsbilling_rub_hpp",
     "currency": "RUB",
     "flow": "hpp",
@@ -4072,6 +4411,7 @@
     "amount_max": 25000
   },
   {
+    "status": "active",
     "code": "mercuryo_btc_hpp",
     "currency": "BTC",
     "flow": "hpp",
@@ -4080,6 +4420,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "payment_card_kzt_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -4088,6 +4429,7 @@
     "amount_max": 1000000
   },
   {
+    "status": "active",
     "code": "ecopayz_usd_hpp",
     "currency": "USD",
     "fields": [
@@ -4149,6 +4491,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_eur_hpp",
     "currency": "EUR",
     "fields": [
@@ -4210,6 +4553,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_uah_hpp",
     "currency": "UAH",
     "fields": [
@@ -4271,6 +4615,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_rub_hpp",
     "currency": "RUB",
     "fields": [
@@ -4332,6 +4677,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_gbp_hpp",
     "currency": "GBP",
     "fields": [
@@ -4393,6 +4739,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_aud_hpp",
     "currency": "AUD",
     "fields": [
@@ -4454,6 +4801,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_cad_hpp",
     "currency": "CAD",
     "fields": [
@@ -4515,6 +4863,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_brl_hpp",
     "currency": "BRL",
     "fields": [
@@ -4576,6 +4925,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_inr_hpp",
     "currency": "INR",
     "fields": [
@@ -4637,6 +4987,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_ngn_hpp",
     "currency": "NGN",
     "fields": [
@@ -4698,6 +5049,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_pln_hpp",
     "currency": "PLN",
     "fields": [
@@ -4759,6 +5111,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_mdl_hpp",
     "currency": "MDL",
     "fields": [
@@ -4820,6 +5173,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_mxn_hpp",
     "currency": "MXN",
     "fields": [
@@ -4881,6 +5235,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecopayz_voucher_usd_hpp",
     "currency": "USD",
     "method": "ecopayz_voucher",
@@ -4889,6 +5244,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "ecopayz_voucher_eur_hpp",
     "currency": "EUR",
     "method": "ecopayz_voucher",
@@ -4897,6 +5253,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "ecopayz_voucher_gbp_hpp",
     "currency": "GBP",
     "method": "ecopayz_voucher",
@@ -4905,6 +5262,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "ecopayz_voucher_cad_hpp",
     "currency": "CAD",
     "method": "ecopayz_voucher",
@@ -4913,6 +5271,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "muchbetter_usd_invoice",
     "currency": "USD",
     "fields": [
@@ -4941,6 +5300,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "muchbetter_eur_invoice",
     "currency": "EUR",
     "fields": [
@@ -4969,6 +5329,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "muchbetter_gbp_invoice",
     "currency": "GBP",
     "fields": [
@@ -4997,6 +5358,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "muchbetter_brl_invoice",
     "currency": "BRL",
     "fields": [
@@ -5025,6 +5387,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "ecobanq_inr_transfer",
     "currency": "INR",
     "fields": [
@@ -5071,6 +5434,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "airtel_money_tzs_invoice",
     "currency": "TZS",
     "fields": [
@@ -5099,6 +5463,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "vodacom_tzs_invoice",
     "currency": "TZS",
     "fields": [
@@ -5127,6 +5492,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "tigo_pesa_tzs_invoice",
     "currency": "TZS",
     "fields": [
@@ -5155,6 +5521,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "halo_pesa_tzs_invoice",
     "currency": "TZS",
     "fields": [
@@ -5183,6 +5550,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "zantel_ezypesa_tzs_invoice",
     "currency": "TZS",
     "fields": [
@@ -5211,6 +5579,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "uax_uah_invoice",
     "currency": "UAH",
     "flow": "invoice",
@@ -5219,6 +5588,7 @@
     "amount_max": 100000
   },
   {
+    "status": "active",
     "code": "bank_transfer_klarna_pln_hpp",
     "currency": "PLN",
     "flow": "hpp",
@@ -5227,6 +5597,7 @@
     "amount_max": 500000
   },
   {
+    "status": "active",
     "code": "vcreditos_brl_transfer",
     "currency": "BRL",
     "flow": "transfer",
@@ -5271,6 +5642,7 @@
     "amount_max": 999999
   },
   {
+    "status": "active",
     "code": "vcreditos_push_brl_transfer",
     "currency": "BRL",
     "flow": "transfer",

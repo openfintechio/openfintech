@@ -14,7 +14,8 @@
       "type",
       "exponent",
       "parent_currency_multiplier",
-      "category"
+      "category",
+      "status"
     ],
     "properties": {
       "code": {
@@ -117,6 +118,19 @@
             ]
           }
         }
+      },
+      "status": {
+        "$id": "#/items/properties/status",
+        "type": "string",
+        "enum": [
+          "active",
+          "inactive",
+          "deprecated"
+        ],
+        "title": "The Status Schema",
+        "examples": [
+          "active"
+        ]
       }
     }
   }
