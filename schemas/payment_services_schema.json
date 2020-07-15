@@ -12,7 +12,8 @@
       "code",
       "flow",
       "method",
-      "currency"
+      "currency",
+      "status"
     ],
     "properties": {
       "code": {
@@ -129,6 +130,19 @@
         "title": "The Amount_max Schema",
         "examples": [
           "100000.00000000"
+        ]
+      },
+      "status": {
+        "$id": "#/items/properties/status",
+        "type": "string",
+        "enum": [
+          "active",
+          "inactive",
+          "deprecated"
+        ],
+        "title": "The Status Schema",
+        "examples": [
+          "active"
         ]
       }
     }

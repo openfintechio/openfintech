@@ -11,7 +11,8 @@
     "required": [
       "code",
       "name",
-      "category"
+      "category",
+      "status"
     ],
     "properties": {
       "code": {
@@ -55,6 +56,19 @@
             "UA"
           ]
         }
+      },
+      "status": {
+        "$id": "#/items/properties/status",
+        "type": "string",
+        "enum": [
+          "active",
+          "inactive",
+          "deprecated"
+        ],
+        "title": "The Status Schema",
+        "examples": [
+          "active"
+        ]
       }
     }
   }

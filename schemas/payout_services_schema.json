@@ -11,7 +11,8 @@
     "required": [
       "code",
       "amount_min",
-      "amount_max"
+      "amount_max",
+      "status"
     ],
     "properties": {
       "code": {
@@ -157,6 +158,19 @@
             100000
           ]
         }
+      },
+      "status": {
+        "$id": "#/items/properties/status",
+        "type": "string",
+        "enum": [
+          "active",
+          "inactive",
+          "deprecated"
+        ],
+        "title": "The Status Schema",
+        "examples": [
+          "active"
+        ]
       }
     }
   }

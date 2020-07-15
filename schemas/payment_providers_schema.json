@@ -11,7 +11,8 @@
     "required": [
       "code",
       "vendor",
-      "name"
+      "name",
+      "status"
     ],
     "properties": {
       "code": {
@@ -150,6 +151,19 @@
             ]
           }
         }
+      },
+      "status": {
+        "$id": "#/items/properties/status",
+        "type": "string",
+        "enum": [
+          "active",
+          "inactive",
+          "deprecated"
+        ],
+        "title": "The Status Schema",
+        "examples": [
+          "active"
+        ]
       }
     }
   }
