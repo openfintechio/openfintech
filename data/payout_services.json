@@ -69962,6 +69962,87 @@
   },
   {
     "status": "active",
+    "code": "neteller_azn",
+    "method": "neteller",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "status": "active",
+    "code": "neteller_uzs",
+    "method": "neteller",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "status": "active",
+    "code": "neteller_pkr",
+    "method": "neteller",
+    "currency": "PKR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000"
+  },
+  {
+    "status": "active",
     "code": "vcreditos_brl",
     "method": "vcreditos",
     "currency": "BRL",
