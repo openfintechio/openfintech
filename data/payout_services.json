@@ -40897,7 +40897,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{8,14}$\/",
+        "regexp": "\/^[0-9]{11}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -41025,23 +41025,6 @@
         "position": 2
       },
       {
-        "key": "bank_branch",
-        "type": "string",
-        "label": {
-          "en": "Bank Branch",
-          "ru": "Филиал банка",
-          "uk": "Філія банку"
-        },
-        "hint": {
-          "en": "Enter Bank Branch",
-          "ru": "Введите код филиала банка",
-          "uk": "Введіть код філії банку"
-        },
-        "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
-        "required": false,
-        "position": 3
-      },
-      {
         "key": "account_type",
         "type": "string",
         "regexp": "\/^[A-Z]{1}$\/",
@@ -41133,7 +41116,7 @@
           "ru": "Введите код банка",
           "uk": "Введіть код банку"
         },
-        "required": false,
+        "required": true,
         "position": 2
       },
       {
@@ -41150,7 +41133,7 @@
           "uk": "Введіть код філії банку"
         },
         "regexp": "\/^[A-z,a-z,0-9]{2,100}$\/",
-        "required": false,
+        "required": true,
         "position": 3
       },
       {
@@ -41396,7 +41379,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9\\-\\_\\.K]{8,14}$\/",
+        "regexp": "\/^[0-9\\-]{8,9}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -41493,7 +41476,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": false,
+        "required": true,
         "position": 7
       }
     ]
@@ -41605,7 +41588,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": false,
+        "required": true,
         "position": 7
       }
     ]
@@ -41734,7 +41717,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": false,
+        "required": true,
         "position": 7
       }
     ]
@@ -41812,7 +41795,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": false,
+        "required": true,
         "position": 4
       },
       {
