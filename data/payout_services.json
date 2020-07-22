@@ -59,7 +59,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "14000"
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -87,7 +87,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "14000"
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -115,7 +115,35 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "14000"
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
+    "code": "3mob_utel_phone_uah",
+    "method": "3mob_utel_phone",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Kyivstar number:",
+          "uk": "Номер Київстар:",
+          "ru": "Номер Киевстар:"
+        },
+        "regexp": "\/^(\\+380)[0-9]{9}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your phone number in international format without «+»",
+          "uk": "Введіть номер телефону в міжнародному форматі, без «+»",
+          "ru": "Введите номер телефона в международном формате, без «+»"
+        },
+        "example": "380121234567"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -9673,6 +9701,34 @@
   },
   {
     "status": "active",
+    "code": "allody_online_uah",
+    "method": "allody_online",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Nick",
+          "uk": "Нік",
+          "ru": "Ник"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter Nick",
+          "uk": "Введіть нік",
+          "ru": "Введите ник"
+        },
+        "example": "fetch88"
+      }
+    ],
+    "amount_min": "10",
+    "amount_max": "4999"
+  },
+  {
+    "status": "active",
     "code": "vgorode_uah",
     "method": "vgorode",
     "currency": "UAH",
@@ -11330,6 +11386,34 @@
     ],
     "amount_min": "6",
     "amount_max": "4999"
+  },
+  {
+    "status": "active",
+    "code": "tanki_online_uah",
+    "method": "tanki_online",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Nick",
+          "uk": "Нік",
+          "ru": "Ник"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter Nick",
+          "uk": "Введіть нік",
+          "ru": "Введите ник"
+        },
+        "example": "KILERUA"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -13024,6 +13108,34 @@
   },
   {
     "status": "active",
+    "code": "vega_contract_uah",
+    "method": "vega_contract",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "The contract number",
+          "uk": "Номер договору",
+          "ru": "Номер договора"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter the contract number",
+          "uk": "Введіть номер договору",
+          "ru": "Введите номер договора"
+        },
+        "example": "856292"
+      }
+    ],
+    "amount_min": "2",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "intraffik_uah",
     "method": "intraffik",
     "currency": "UAH",
@@ -13220,6 +13332,34 @@
   },
   {
     "status": "active",
+    "code": "triolan_internet_uah",
+    "method": "triolan_internet",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "The contract number",
+          "uk": "Номер договору",
+          "ru": "Номер договора"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter the contract number",
+          "uk": "Введіть номер договору",
+          "ru": "Введите номер договора"
+        },
+        "example": "1041858"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
     "code": "triolan-tv_uah",
     "method": "triolan-tv",
     "currency": "UAH",
@@ -13245,6 +13385,34 @@
     ],
     "amount_min": "1",
     "amount_max": "14999"
+  },
+  {
+    "status": "active",
+    "code": "triolan_tv_uah",
+    "method": "triolan_tv",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "The contract number",
+          "uk": "Номер договору",
+          "ru": "Номер договора"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter the contract number",
+          "uk": "Введіть номер договору",
+          "ru": "Введите номер договора"
+        },
+        "example": "2136419"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "100000"
   },
   {
     "status": "active",
@@ -14647,6 +14815,34 @@
   },
   {
     "status": "active",
+    "code": "o3_freenet_uah",
+    "method": "o3_freenet",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Contract №",
+          "uk": "№ контракту",
+          "ru": "№ контракта"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your contact №",
+          "uk": "Введіть № контракту",
+          "ru": "Введите № контракта"
+        },
+        "example": "442206943"
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "kichkas-net_uah",
     "method": "kichkas-net",
     "currency": "UAH",
@@ -15319,6 +15515,34 @@
   },
   {
     "status": "active",
+    "code": "information_technology_uah",
+    "method": "information_technology",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "PIN",
+          "uk": "ПІН",
+          "ru": "ПИН"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter PIN",
+          "uk": "Введіть ПІН",
+          "ru": "Введите ПИН"
+        },
+        "example": "16211220"
+      }
+    ],
+    "amount_min": "200",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "velton-telekom-po-telefonu_uah",
     "method": "velton-telekom-po-telefonu",
     "currency": "UAH",
@@ -15456,6 +15680,34 @@
     ],
     "amount_min": "2",
     "amount_max": "14999"
+  },
+  {
+    "status": "active",
+    "code": "ukrtelekom_phone_uah",
+    "method": "ukrtelekom_phone",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "uk": "Номер телефонa",
+          "ru": "Номер телефонa"
+        },
+        "regexp": "\"\\/^(\\+380)[0-9]{9}$\\/\"",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter phone number",
+          "uk": "Введіть номер телефонa",
+          "ru": "Введите номер телефонa"
+        },
+        "example": "+380123456789"
+      }
+    ],
+    "amount_min": "200",
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -15763,6 +16015,34 @@
       }
     ],
     "amount_min": "2",
+    "amount_max": "14999"
+  },
+  {
+    "status": "active",
+    "code": "intertelekom_uah",
+    "method": "intertelekom",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "uk": "Номер телефону",
+          "ru": "Номер телефона"
+        },
+        "regexp": "\/^\\+?(380)(94|45)\\d{7}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter phone number",
+          "uk": "Введіть номер телефону",
+          "ru": "Введите номер телефона"
+        },
+        "example": "80389988465"
+      }
+    ],
+    "amount_min": "0.01",
     "amount_max": "14999"
   },
   {
@@ -18859,7 +19139,7 @@
       }
     ],
     "amount_min": "2",
-    "amount_max": "14999"
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -22468,7 +22748,7 @@
       }
     ],
     "amount_min": "2",
-    "amount_max": "14999"
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -23256,6 +23536,118 @@
   },
   {
     "status": "active",
+    "code": "kyivstar_internet_uah",
+    "method": "kyivstar_internet",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Contract №",
+          "uk": "№ контракту",
+          "ru": "№ контракта"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter сontract №",
+          "uk": "Введіть № контракту",
+          "ru": "Введите № контракта"
+        },
+        "example": "7004852"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
+    "code": "kyivstar_contract_uah",
+    "method": "kyivstar_contract",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Contract №",
+          "uk": "№ контракту",
+          "ru": "№ контракта"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter сontract №",
+          "uk": "Введіть № контракту",
+          "ru": "Введите № контракта"
+        },
+        "example": "7004852"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
+    "code": "vodafone_contract_uah",
+    "method": "vodafone_contract",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Contract №",
+          "uk": "№ контракту",
+          "ru": "№ контракта"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter сontract №",
+          "uk": "Введіть № контракту",
+          "ru": "Введите № контракта"
+        },
+        "example": "7004852"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
+    "code": "intertelekom_contract_uah",
+    "method": "intertelekom_contract",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Contract №",
+          "uk": "№ контракту",
+          "ru": "№ контракта"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter сontract №",
+          "uk": "Введіть № контракту",
+          "ru": "Введите № контракта"
+        },
+        "example": "7004852"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "roket-net-donetskaia-obl_uah",
     "method": "roket-net-donetskaia-obl",
     "currency": "UAH",
@@ -23564,6 +23956,34 @@
   },
   {
     "status": "active",
+    "code": "kyivstar_contract_number_uah",
+    "method": "kyivstar_contract_number",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Kyivstar contract №",
+          "uk": "№ контракту Київстар",
+          "ru": "№ контракта Киевстар"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter kyivstar contract №",
+          "uk": "Введіть № контракту київстар",
+          "ru": "Введите № контракта киевстар"
+        },
+        "example": "5028283"
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "kmkpt-artemovsk_uah",
     "method": "kmkpt-artemovsk",
     "currency": "UAH",
@@ -23801,6 +24221,34 @@
   },
   {
     "status": "active",
+    "code": "world_of_tanks_uah",
+    "method": "world_of_tanks",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "E-mail",
+          "uk": "E-mail",
+          "ru": "E-mail"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter E-mail",
+          "uk": "Введіть E-mail",
+          "ru": "Введите E-mail"
+        },
+        "example": "mdn28051984@gmail.com"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "world-of-warplanes_uah",
     "method": "world-of-warplanes",
     "currency": "UAH",
@@ -23829,6 +24277,34 @@
   },
   {
     "status": "active",
+    "code": "world_of_warplanes_uah",
+    "method": "world_of_warplanes",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "E-mail",
+          "uk": "E-mail",
+          "ru": "E-mail"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter E-mail",
+          "uk": "Введіть E-mail",
+          "ru": "Введите E-mail"
+        },
+        "example": "andrey.tkachuk.88@bk.ru"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "world-of-warships_uah",
     "method": "world-of-warships",
     "currency": "UAH",
@@ -23854,6 +24330,34 @@
     ],
     "amount_min": "1",
     "amount_max": "4999"
+  },
+  {
+    "status": "active",
+    "code": "world_of_warships_uah",
+    "method": "world_of_warships",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "E-mail",
+          "uk": "E-mail",
+          "ru": "E-mail"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter E-mail",
+          "uk": "Введіть E-mail",
+          "ru": "Введите E-mail"
+        },
+        "example": "andrey.tkachuk.88@bk.ru"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "500000"
   },
   {
     "status": "active",
@@ -23937,7 +24441,7 @@
       }
     ],
     "amount_min": "9",
-    "amount_max": "4999"
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -24162,6 +24666,34 @@
     ],
     "amount_min": "7",
     "amount_max": "4999"
+  },
+  {
+    "status": "active",
+    "code": "perfect_world_uah",
+    "method": "perfect_world",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Account",
+          "uk": "Аккаунт",
+          "ru": "Аккаунт"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account",
+          "uk": "Введіть аккаунт",
+          "ru": "Введите аккаунт"
+        },
+        "example": "marya13"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -24501,6 +25033,34 @@
   },
   {
     "status": "active",
+    "code": "war_thunder_uah",
+    "method": "war_thunder",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Login/email",
+          "uk": "Логін/пошта",
+          "ru": "Логин/почта"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter login or email",
+          "uk": "Введіть логін або пошту",
+          "ru": "Введите логин или почту"
+        },
+        "example": "rostalker@mail.ru"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "archeage_uah",
     "method": "archeage",
     "currency": "UAH",
@@ -24525,7 +25085,7 @@
       }
     ],
     "amount_min": "7",
-    "amount_max": "4999"
+    "amount_max": "300000"
   },
   {
     "status": "active",
@@ -24553,7 +25113,7 @@
       }
     ],
     "amount_min": "10",
-    "amount_max": "4999"
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -24722,6 +25282,34 @@
     ],
     "amount_min": "1040",
     "amount_max": "1040"
+  },
+  {
+    "status": "active",
+    "code": "league_of_legends_uah",
+    "method": "league_of_legends",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Login/email",
+          "uk": "Логін/пошта",
+          "ru": "Логин/почта"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter login or email",
+          "uk": "Введіть логін або пошту",
+          "ru": "Введите логин или почту"
+        },
+        "example": "Probe"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -24974,6 +25562,34 @@
   },
   {
     "status": "active",
+    "code": "dragon_nest_uah",
+    "method": "dragon_nest",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Login/email",
+          "uk": "Логін/пошта",
+          "ru": "Логин/почта"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter login or email",
+          "uk": "Введіть логін або пошту",
+          "ru": "Введите логин или почту"
+        },
+        "example": "629607043"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "firestorm_uah",
     "method": "firestorm",
     "currency": "UAH",
@@ -25169,6 +25785,34 @@
   },
   {
     "status": "active",
+    "code": "lineage_2_uah",
+    "method": "lineage_2",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "E-mail",
+          "uk": "E-mail",
+          "ru": "E-mail"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter E-mail",
+          "uk": "Введіть E-mail",
+          "ru": "Введите E-mail"
+        },
+        "example": "brauna@ukr.net"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "lost-magic_uah",
     "method": "lost-magic",
     "currency": "UAH",
@@ -25253,6 +25897,34 @@
   },
   {
     "status": "active",
+    "code": "my_lands_uah",
+    "method": "my_lands",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Nickname",
+          "uk": "Ник",
+          "ru": "Ник"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter nickname",
+          "uk": "Введіть ник",
+          "ru": "Введите ник"
+        },
+        "example": "zarikmogudun1"
+      }
+    ],
+    "amount_min": "700",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
     "code": "neverlands_uah",
     "method": "neverlands",
     "currency": "UAH",
@@ -25333,7 +26005,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "700"
+    "amount_max": "499900"
   },
   {
     "status": "active",
@@ -25361,7 +26033,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "4999"
+    "amount_max": "500000"
   },
   {
     "status": "active",
@@ -57994,6 +58666,34 @@
     ],
     "amount_min": "2.00",
     "amount_max": "14999.00"
+  },
+  {
+    "status": "active",
+    "code": "volia_internet_uah",
+    "method": "volia_internet",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Введіть номер договору",
+          "ru": "Введіть номер договору",
+          "uk": "Введіть номер договору"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Введіть номер договору",
+          "ru": "Введіть номер договору",
+          "uk": "Введіть номер договору"
+        },
+        "example": "210946556"
+      }
+    ],
+    "amount_min": "100",
+    "amount_max": "499900"
   },
   {
     "status": "active",
