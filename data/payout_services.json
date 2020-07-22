@@ -127,9 +127,9 @@
         "key": "phone_number",
         "type": "string",
         "label": {
-          "en": "Kyivstar number:",
-          "uk": "Номер Київстар:",
-          "ru": "Номер Киевстар:"
+          "en": "3Mob Utel number:",
+          "uk": "Номер 3Mob Utel:",
+          "ru": "Номер 3Mob Utel:"
         },
         "regexp": "\/^(\\+380)[0-9]{9}$\/",
         "required": true,
@@ -218,6 +218,40 @@
     "code": "payment_card_uah",
     "method": "payment_card",
     "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_amd",
+    "method": "payment_card",
+    "currency": "AMD",
     "fields": [
       {
         "key": "card_number",
