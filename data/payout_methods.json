@@ -3329,6 +3329,16 @@
   },
   {
     "status": "active",
+    "code": "allody_online",
+    "category": "entertainment",
+    "name": {
+      "en": "Allods Online",
+      "uk": "Аллоди Онлайн",
+      "ru": "Аллоды Онлайн"
+    }
+  },
+  {
+    "status": "active",
     "code": "vgorode",
     "category": "entertainment",
     "name": {
@@ -3990,6 +4000,16 @@
   {
     "status": "active",
     "code": "tanki-onlain",
+    "category": "entertainment",
+    "name": {
+      "en": "Tanki online",
+      "uk": "Танки онлайн",
+      "ru": "Танки Онлайн"
+    }
+  },
+  {
+    "status": "active",
+    "code": "tanki_online",
     "category": "entertainment",
     "name": {
       "en": "Tanks online",
@@ -5799,7 +5819,27 @@
   },
   {
     "status": "active",
+    "code": "triolan_internet",
+    "category": "telecommunications",
+    "name": {
+      "en": "Triolan - Internet",
+      "uk": "Тріолан - Інтернет",
+      "ru": "Триолан - Интернет"
+    }
+  },
+  {
+    "status": "active",
     "code": "triolan-tv",
+    "category": "telecommunications",
+    "name": {
+      "en": "Triolan - TV",
+      "uk": "Тріолан - ТВ",
+      "ru": "Триолан - ТВ"
+    }
+  },
+  {
+    "status": "active",
+    "code": "triolan_tv",
     "category": "telecommunications",
     "name": {
       "en": "Triolan - TV",
@@ -6409,6 +6449,16 @@
   },
   {
     "status": "active",
+    "code": "o3_freenet",
+    "category": "telecommunications",
+    "name": {
+      "en": "O3 (FreeNet)",
+      "uk": "O3 (FreeNet)",
+      "ru": "O3 (FreeNet)"
+    }
+  },
+  {
+    "status": "active",
     "code": "kichkas-net",
     "category": "telecommunications",
     "name": {
@@ -6425,6 +6475,16 @@
       "en": "Vega equipment",
       "uk": "Вега обладнання",
       "ru": "Вега оборудование"
+    }
+  },
+  {
+    "status": "active",
+    "code": "vega_contract",
+    "category": "telecommunications",
+    "name": {
+      "en": "Vega contract",
+      "uk": "Вега контракт",
+      "ru": "Вега контракт"
     }
   },
   {
@@ -7099,6 +7159,16 @@
   },
   {
     "status": "active",
+    "code": "information_technology",
+    "category": "telecommunications",
+    "name": {
+      "en": "Information Technologies",
+      "uk": "Інформаційні технології",
+      "ru": "Информационные технологии"
+    }
+  },
+  {
+    "status": "active",
     "code": "chp-kvartal-mirts-g-artemovsk",
     "category": "public-services",
     "name": {
@@ -7670,6 +7740,16 @@
   {
     "status": "active",
     "code": "ukrtelekom-po-nomeru-telefona",
+    "category": "telecommunications",
+    "name": {
+      "en": "Ukrtelecom (by phone number)",
+      "uk": "Укртелеком (за номером телефону)",
+      "ru": "Укртелеком (по номеру телефона)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ukrtelekom_phone",
     "category": "telecommunications",
     "name": {
       "en": "Ukrtelecom (by phone number)",
@@ -12509,6 +12589,16 @@
   },
   {
     "status": "active",
+    "code": "world_of_tanks",
+    "category": "entertainment",
+    "name": {
+      "en": "World of Tanks",
+      "uk": "World of Tanks",
+      "ru": "World of Tanks"
+    }
+  },
+  {
+    "status": "active",
     "code": "world-of-warplanes",
     "category": "entertainment",
     "name": {
@@ -12519,7 +12609,27 @@
   },
   {
     "status": "active",
+    "code": "world_of_warplanes",
+    "category": "entertainment",
+    "name": {
+      "en": "World of Warplanes",
+      "uk": "World of Warplanes",
+      "ru": "World of Warplanes"
+    }
+  },
+  {
+    "status": "active",
     "code": "world-of-warships",
+    "category": "entertainment",
+    "name": {
+      "en": "World of Warships",
+      "uk": "World of Warships",
+      "ru": "World of Warships"
+    }
+  },
+  {
+    "status": "active",
+    "code": "world_of_warships",
     "category": "entertainment",
     "name": {
       "en": "World of Warships",
@@ -12575,6 +12685,16 @@
       "en": "Kyivstar (by phone number)",
       "uk": "Київстар (за номером телефону)",
       "ru": "Киевстар (по номеру телефона)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "3mob_utel_phone",
+    "category": "telecommunications",
+    "name": {
+      "en": "3Mob Utel (by phone number)",
+      "uk": "3Mob Utel (за номером телефону)",
+      "ru": "3Mob Utel (по номеру телефона)"
     }
   },
   {
@@ -12660,6 +12780,16 @@
   {
     "status": "active",
     "code": "perfect-world",
+    "category": "entertainment",
+    "name": {
+      "en": "Perfect World",
+      "uk": "Perfect World",
+      "ru": "Perfect World"
+    }
+  },
+  {
+    "status": "active",
+    "code": "perfect_world",
     "category": "entertainment",
     "name": {
       "en": "Perfect World",
@@ -12780,6 +12910,16 @@
   {
     "status": "active",
     "code": "war-thunder",
+    "category": "entertainment",
+    "name": {
+      "en": "War Thunder",
+      "uk": "War Thunder",
+      "ru": "War Thunder"
+    }
+  },
+  {
+    "status": "active",
+    "code": "war_thunder",
     "category": "entertainment",
     "name": {
       "en": "War Thunder",
@@ -12979,6 +13119,16 @@
   },
   {
     "status": "active",
+    "code": "dragon_nest",
+    "category": "entertainment",
+    "name": {
+      "en": "Dragon Nest",
+      "uk": "Dragon Nest",
+      "ru": "Dragon Nest"
+    }
+  },
+  {
+    "status": "active",
     "code": "firestorm",
     "category": "entertainment",
     "name": {
@@ -13069,6 +13219,16 @@
   },
   {
     "status": "active",
+    "code": "lineage_2",
+    "category": "entertainment",
+    "name": {
+      "en": "Lineage 2",
+      "uk": "Lineage 2",
+      "ru": "Lineage 2"
+    }
+  },
+  {
+    "status": "active",
     "code": "lost-magic",
     "category": "entertainment",
     "name": {
@@ -13090,6 +13250,16 @@
   {
     "status": "active",
     "code": "my-lands",
+    "category": "entertainment",
+    "name": {
+      "en": "My lands",
+      "uk": "My lands",
+      "ru": "My lands"
+    }
+  },
+  {
+    "status": "active",
+    "code": "my_lands",
     "category": "entertainment",
     "name": {
       "en": "My lands",
@@ -16019,6 +16189,46 @@
   },
   {
     "status": "active",
+    "code": "kyivstar_internet",
+    "category": "telecommunications",
+    "name": {
+      "en": "Kyivstar (internet)",
+      "uk": "Київстар (інтернет)",
+      "ru": "Киевстар (интернет)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kyivstar_contract",
+    "category": "telecommunications",
+    "name": {
+      "en": "Kyivstar (contract)",
+      "uk": "Київстар (контракт)",
+      "ru": "Киевстар (контракт)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "vodafone_contract",
+    "category": "telecommunications",
+    "name": {
+      "en": "Vodafone (contract)",
+      "uk": "Водафон (контракт)",
+      "ru": "Водафон (контракт)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "intertelekom_contract",
+    "category": "telecommunications",
+    "name": {
+      "en": "Intertelekom (contract)",
+      "uk": "Інтертелеком (контракт)",
+      "ru": "Интертелеком (контракт)"
+    }
+  },
+  {
+    "status": "active",
     "code": "pat-chernigivoblenergo-sribnianskii-rem",
     "category": "public-services",
     "name": {
@@ -17752,6 +17962,16 @@
     "category": "bank_transfer",
     "name": {
       "en": "Danamon Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "league_of_legends",
+    "category": "entertainment",
+    "name": {
+      "en": "League of Legends",
+      "uk": "Ліга легенд",
+      "ru": "Лига легенд"
     }
   },
   {
@@ -21983,6 +22203,16 @@
   {
     "status": "active",
     "code": "volia-internet",
+    "category": "telecommunications",
+    "name": {
+      "en": "Воля(Інтернет)",
+      "ru": "Воля(Інтернет)",
+      "uk": "Воля(Інтернет)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "volia_internet",
     "category": "telecommunications",
     "name": {
       "en": "Воля(Інтернет)",
