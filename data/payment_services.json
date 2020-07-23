@@ -4570,6 +4570,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_amd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "AMD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "ecopayz_usd_hpp",
     "currency": "USD",
     "fields": [
