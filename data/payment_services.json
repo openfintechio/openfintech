@@ -5798,5 +5798,41 @@
     "method": "vcreditos_push",
     "amount_min": 0.1,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "payment_card_uah",
+    "currency": "UAH",
+    "flow": "hpp",
+    "method": "payment_card",
+    "amount_min": 0.1,
+    "amount_max": 30000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_usd",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "payment_card",
+    "amount_min": 0.1,
+    "amount_max": 1000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_eur",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "payment_card",
+    "amount_min": 0.1,
+    "amount_max": 1000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_rub",
+    "currency": "RUB",
+    "flow": "hpp",
+    "method": "payment_card",
+    "amount_min": 0.1,
+    "amount_max": 75000
   }
 ]
