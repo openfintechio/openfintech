@@ -42202,15 +42202,32 @@
         "label": {
           "en": "Document ID",
           "ru": "Номер документа",
-          "uk": "Номер документу"
+          "uk": "Номер документа"
         },
         "hint": {
           "en": "Enter Document ID",
           "ru": "Введите номер документа",
-          "uk": "Введіть номер документу"
+          "uk": "Введіть номер документа"
         },
         "required": true,
         "position": 1
+      },
+      {
+        "key": "document_type",
+        "regexp": "\/^(NIT|CI|CE)$\/",
+        "type": "string",
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документа"
+        },
+        "hint": {
+          "en": "Enter Document Type (CI, CE, NIT)",
+          "ru": "Введите тип документа (CI, CE, NIT)",
+          "uk": "Введіть тип документу (CI, CE, NIT)"
+        },
+        "position": 2,
+        "required": true
       },
       {
         "key": "bank_account",
@@ -42226,7 +42243,7 @@
           "ru": "Введите номер банковского счета",
           "uk": "Введіть номер банківського рахунку"
         },
-        "position": 2,
+        "position": 3,
         "required": true
       },
       {
@@ -42243,24 +42260,7 @@
           "ru": "Введите код банка",
           "uk": "Введіть код банку"
         },
-        "position": 3,
-        "required": true
-      },
-      {
-        "key": "account_type",
-        "type": "string",
-        "regexp": "\/^[A-Z]{1}$\/",
-        "label": {
-          "en": "Account type",
-          "ru": "Тип аккаунта",
-          "uk": "Тип акаунту"
-        },
-        "hint": {
-          "en": "Enter account type",
-          "ru": "Введите тип аккаунта",
-          "uk": "Введіть тип акаунту"
-        },
-        "position": 5,
+        "position": 4,
         "required": true
       },
       {
@@ -42276,7 +42276,7 @@
           "ru": "Введите имя получателя",
           "uk": "Введіть імʼя отримувача"
         },
-        "position": 6,
+        "position": 5,
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true
       },
@@ -42295,7 +42295,7 @@
         },
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
-        "position": 7
+        "position": 6
       }
     ]
   },
