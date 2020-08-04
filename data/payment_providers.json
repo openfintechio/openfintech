@@ -16471,5 +16471,21 @@
     ],
     "payout_method": [
     ]
+  },
+  {
+    "status": "active",
+    "code": "royalpay",
+    "vendor": "royalpay",
+    "name": {
+      "en": "Royal Pay",
+      "ru": "Royal Pay",
+      "uk": "Royal Pay"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+
+    ]
   }
 ]
