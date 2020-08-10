@@ -5825,5 +5825,50 @@
     "method": "vcreditos_push",
     "amount_min": 0.1,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "stripe_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "stripe",
+    "amount_min": 0.5,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "stripe_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "stripe",
+    "amount_min": 0.5,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "stripe_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "stripe",
+    "amount_min": 0.45,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "stripe_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "stripe",
+    "amount_min": 1,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "stripe_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "stripe",
+    "amount_min": 1,
+    "amount_max": 999999
   }
 ]

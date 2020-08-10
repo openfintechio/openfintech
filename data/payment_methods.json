@@ -5909,5 +5909,15 @@
       "ru": "VCreditos wallet",
       "uk": "VCreditos wallet"
     }
+  },
+  {
+    "code": "stripe",
+    "category": "payment_card",
+    "status": "active",
+    "name": {
+      "en": "Stripe",
+      "ru": "Stripe",
+      "uk": "Stripe"
+    }
   }
 ]
