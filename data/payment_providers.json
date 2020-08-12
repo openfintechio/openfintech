@@ -16487,5 +16487,21 @@
     "payout_method": [
 
     ]
+  },
+  {
+    "status": "active",
+    "code": "bilderlings",
+    "vendor": "bilderlings",
+    "name": {
+      "en": "Bilderlings",
+      "ru": "Bilderlings",
+      "uk": "Bilderlings"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+
+    ]
   }
 ]
