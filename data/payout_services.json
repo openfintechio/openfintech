@@ -67553,7 +67553,7 @@
       {
         "key": "beneficiary_city",
         "type": "string",
-        "regexp": "/^[A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 13,
         "label": {
@@ -67570,7 +67570,7 @@
       {
         "key": "beneficiary_postcode",
         "type": "string",
-        "regexp": "/^[\\w-\\s]{1,64}$/",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
         "required": false,
         "position": 14,
         "label": {
@@ -67587,7 +67587,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "/^A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -67604,7 +67604,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "/^A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -67616,6 +67616,23 @@
           "en": "Enter beneficiary country code",
           "ru": "Введите beneficiary country code",
           "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       }
     ],
@@ -67649,7 +67666,7 @@
       {
         "key": "beneficiary_country_code_iso",
         "type": "string",
-        "regexp": "\/^.{2,6}$\/",
+        "regexp": "\/^[A-Z]{2,3}$\/",
         "required": false,
         "position": 2,
         "label": {
@@ -67681,26 +67698,26 @@
         }
       },
       {
-        "key": "beneficiary_name",
+        "key": "beneficiary_full_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-zА-Яа-я\\d]{2,100}$\/",
         "required": false,
         "position": 4,
         "label": {
-          "en": "Beneficiary first name",
-          "ru": "Имя получателя",
-          "uk": "Імʼя отримувача"
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
         },
         "hint": {
-          "en": "Enter beneficiary first name",
-          "ru": "Введите имя получателя",
-          "uk": "Введіть імʼя отримувача"
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       },
       {
         "key": "beneficiary_city",
         "type": "string",
-        "regexp": "/^[A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s-\\d]{2,64}$\/",
         "required": false,
         "position": 5,
         "label": {
@@ -67717,7 +67734,7 @@
       {
         "key": "beneficiary_postcode",
         "type": "string",
-        "regexp": "/^[\\w-\\s]{1,64}$/",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
         "required": false,
         "position": 6,
         "label": {
@@ -67734,7 +67751,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "/^A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 7,
         "label": {
@@ -67751,7 +67768,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "/^A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -69488,7 +69505,7 @@
       {
         "key": "beneficiary_city",
         "type": "string",
-        "regexp": "/^[A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 13,
         "label": {
@@ -69505,7 +69522,7 @@
       {
         "key": "beneficiary_postcode",
         "type": "string",
-        "regexp": "/^[\\w-\\s]{1,64}$/",
+        "regexp": "/^[\\w\\-\\s]{1,64}$/",
         "required": false,
         "position": 14,
         "label": {
@@ -69522,7 +69539,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "/^A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -69539,7 +69556,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "/^A-Za-zА-Яа-я,\\s-\\d]{2,64}$/",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -69551,6 +69568,23 @@
           "en": "Enter beneficiary country code",
           "ru": "Введите beneficiary country code",
           "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-zА-Яа-я\\d]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       }
     ],
