@@ -67468,7 +67468,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -67485,7 +67485,308 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_id",
+        "type": "string",
+        "regexp": "\/^[A-Z0-9]{3,20}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary Document ID",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document ID",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_type",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{3,20}$\/",
+        "required": false,
+        "position": 11,
+        "label": {
+          "en": "Beneficiary Document Type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document Type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_country_code_iso",
+        "type": "string",
+        "regexp": "\/^.{2,6}$\/",
+        "required": false,
+        "position": 12,
+        "label": {
+          "en": "Beneficiary country code",
+          "ru": "Beneficiary country code",
+          "uk": "Beneficiary country code"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        }
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Beneficiary postcode",
+          "ru": "Beneficiary postcode",
+          "uk": "Beneficiary postcode"
+        },
+        "hint": {
+          "en": "Enter beneficiary postcode",
+          "ru": "Введите beneficiary postcode",
+          "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 16,
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000.00"
+  },
+
+  {
+    "status": "active",
+    "code": "bank_transfer_eur",
+    "method": "bank_transfer",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{1,10}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z0-9_]{2,100}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Bank Name",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank name",
+          "ru": "Введите имя банка",
+          "uk": "Введіть ім'я банку"
+        }
+      },
+      {
+        "key": "bank_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Bank Address",
+          "ru": "Адрес банка",
+          "uk": "Адреса банку"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 9,
         "label": {
@@ -67641,368 +67942,6 @@
   },
   {
     "status": "active",
-    "code": "bank_transfer_gbp",
-    "method": "bank_transfer",
-    "currency": "GBP",
-    "fields": [
-      {
-        "key": "account_number",
-        "type": "string",
-        "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
-        },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Enter account number or IBAN",
-          "ru": "Введите номер счета или IBAN",
-          "uk": "Введіть номер рахунку або IBAN"
-        },
-        "example": "GB97BARC20031877565489"
-      },
-      {
-        "key": "beneficiary_country_code_iso",
-        "type": "string",
-        "regexp": "\/^[A-Z]{2,3}$\/",
-        "required": false,
-        "position": 2,
-        "label": {
-          "en": "Beneficiary country code",
-          "ru": "Beneficiary country code",
-          "uk": "Beneficiary country code"
-        },
-        "hint": {
-          "en": "Enter beneficiary country code",
-          "ru": "Введите beneficiary country code",
-          "uk": "Введіть beneficiary country code"
-        }
-      },
-      {
-        "key": "account_type",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{1,10}$\/",
-        "required": false,
-        "position": 3,
-        "label": {
-          "en": "Account type",
-          "ru": "Тип аккаунта",
-          "uk": "Тип акаунту"
-        },
-        "hint": {
-          "en": "Enter account type",
-          "ru": "Введите тип аккаунта",
-          "uk": "Введіть тип акаунту"
-        }
-      },
-      {
-        "key": "beneficiary_full_name",
-        "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-zА-Яа-я\\d]{2,100}$\/",
-        "required": false,
-        "position": 4,
-        "label": {
-          "en": "Beneficiary full name",
-          "ru": "Полное имя получателя",
-          "uk": "Повне імʼя отримувача"
-        },
-        "hint": {
-          "en": "Enter beneficiary full name",
-          "ru": "Введите полное имя получателя",
-          "uk": "Введіть повне імʼя отримувача"
-        }
-      },
-      {
-        "key": "beneficiary_city",
-        "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,\\s-\\d]{2,64}$\/",
-        "required": false,
-        "position": 5,
-        "label": {
-          "en": "Beneficiary city",
-          "ru": "Beneficiary city",
-          "uk": "Beneficiary city"
-        },
-        "hint": {
-          "en": "Enter beneficiary city",
-          "ru": "Введите beneficiary city",
-          "uk": "Введіть beneficiary city"
-        }
-      },
-      {
-        "key": "beneficiary_postcode",
-        "type": "string",
-        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
-        "required": false,
-        "position": 6,
-        "label": {
-          "en": "Beneficiary postcode",
-          "ru": "Beneficiary postcode",
-          "uk": "Beneficiary postcode"
-        },
-        "hint": {
-          "en": "Enter beneficiary postcode",
-          "ru": "Введите beneficiary postcode",
-          "uk": "Введіть beneficiary postcode"
-        }
-      },
-      {
-        "key": "beneficiary_state",
-        "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
-        "required": false,
-        "position": 7,
-        "label": {
-          "en": "Beneficiary state",
-          "ru": "Beneficiary state",
-          "uk": "Beneficiary state"
-        },
-        "hint": {
-          "en": "Enter beneficiary state",
-          "ru": "Введите beneficiary state",
-          "uk": "Введіть beneficiary state"
-        }
-      },
-      {
-        "key": "beneficiary_address",
-        "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
-        "required": false,
-        "position": 8,
-        "label": {
-          "en": "Beneficiary address",
-          "ru": "Beneficiary address",
-          "uk": "Beneficiary address"
-        },
-        "hint": {
-          "en": "Enter beneficiary country code",
-          "ru": "Введите beneficiary country code",
-          "uk": "Введіть beneficiary country code"
-        }
-      }
-    ],
-    "amount_min": "0.01",
-    "amount_max": "1000000.00"
-  },
-  {
-    "status": "active",
-    "code": "bank_transfer_eur",
-    "method": "bank_transfer",
-    "currency": "EUR",
-    "fields": [
-      {
-        "key": "account_number",
-        "type": "string",
-        "label": {
-          "en": "Account number",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
-        },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Enter account number or IBAN",
-          "ru": "Введите номер счета или IBAN",
-          "uk": "Введіть номер рахунку або IBAN"
-        },
-        "example": "GB97BARC20031877565489"
-      },
-      {
-        "key": "account_type",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{1,10}$\/",
-        "required": false,
-        "position": 2,
-        "label": {
-          "en": "Account type",
-          "ru": "Тип аккаунта",
-          "uk": "Тип акаунту"
-        },
-        "hint": {
-          "en": "Enter account type",
-          "ru": "Введите тип аккаунта",
-          "uk": "Введіть тип акаунту"
-        }
-      },
-      {
-        "key": "account_name",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
-        "required": false,
-        "position": 3,
-        "label": {
-          "en": "Account Name",
-          "ru": "Account Name",
-          "uk": "Account Name"
-        },
-        "hint": {
-          "en": "Enter Account Name",
-          "ru": "Введите Account Name",
-          "uk": "Введіть Account Name"
-        }
-      },
-      {
-        "key": "bank_branch",
-        "type": "string",
-        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
-        "required": false,
-        "position": 4,
-        "label": {
-          "en": "Bank Branch",
-          "ru": "Bank Branch",
-          "uk": "Bank Branch"
-        },
-        "hint": {
-          "en": "Enter Bank Branch",
-          "ru": "Введите Bank Branch",
-          "uk": "Введіть Bank Branch"
-        }
-      },
-      {
-        "key": "bank_code",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
-        "required": false,
-        "position": 5,
-        "label": {
-          "en": "Bank Code",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "hint": {
-          "en": "Enter bank code",
-          "ru": "Введите код банка",
-          "uk": "Введіть код банку"
-        }
-      },
-      {
-        "key": "bank_name",
-        "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z0-9_]{2,100}$\/",
-        "required": false,
-        "position": 6,
-        "label": {
-          "en": "Bank Name",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "hint": {
-          "en": "Enter bank name",
-          "ru": "Введите имя банка",
-          "uk": "Введіть ім'я банку"
-        }
-      },
-      {
-        "key": "bank_address",
-        "type": "string",
-        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
-        "required": false,
-        "position": 7,
-        "label": {
-          "en": "Bank Address",
-          "ru": "Адрес банка",
-          "uk": "Адреса банку"
-        },
-        "hint": {
-          "en": "Enter bank address",
-          "ru": "Введите адрес банка",
-          "uk": "Введіть адресу банку"
-        }
-      },
-      {
-        "key": "beneficiary_name",
-        "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": false,
-        "position": 8,
-        "label": {
-          "en": "Beneficiary first name",
-          "ru": "Имя получателя",
-          "uk": "Імʼя отримувача"
-        },
-        "hint": {
-          "en": "Enter beneficiary first name",
-          "ru": "Введите имя получателя",
-          "uk": "Введіть імʼя отримувача"
-        }
-      },
-      {
-        "key": "beneficiary_lastname",
-        "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": false,
-        "position": 9,
-        "label": {
-          "en": "Beneficiary last name",
-          "ru": "Фамилия получателя",
-          "uk": "Прізвище отримувача"
-        },
-        "hint": {
-          "en": "Enter beneficiary last name",
-          "ru": "Введите фамилию получателя",
-          "uk": "Введіть прізвище отримувача"
-        }
-      },
-      {
-        "key": "beneficiary_document_id",
-        "type": "string",
-        "regexp": "\/^[A-Z0-9]{3,20}$\/",
-        "required": false,
-        "position": 10,
-        "label": {
-          "en": "Beneficiary Document ID",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документу отримувача"
-        },
-        "hint": {
-          "en": "Enter Beneficiary Document ID",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документу отримувача"
-        }
-      },
-      {
-        "key": "beneficiary_document_type",
-        "type": "string",
-        "regexp": "\/^[A-Za-z]{3,20}$\/",
-        "required": false,
-        "position": 11,
-        "label": {
-          "en": "Beneficiary Document Type",
-          "ru": "Тип документа получателя",
-          "uk": "Тип документу отримувача"
-        },
-        "hint": {
-          "en": "Enter Beneficiary Document Type",
-          "ru": "Введите тип документа получателя",
-          "uk": "Введіть тип документу отримувача"
-        }
-      },
-      {
-        "key": "beneficiary_country_code_iso",
-        "type": "string",
-        "regexp": "\/^.{2,6}$\/",
-        "required": false,
-        "position": 12,
-        "label": {
-          "en": "Beneficiary country code",
-          "ru": "Beneficiary country code",
-          "uk": "Beneficiary country code"
-        },
-        "hint": {
-          "en": "Enter beneficiary country code",
-          "ru": "Введите beneficiary country code",
-          "uk": "Введіть beneficiary country code"
-        }
-      }
-    ],
-    "amount_min": "0.01",
-    "amount_max": "1000000.00"
-  },
-  {
-    "status": "active",
     "code": "bank_transfer_pln",
     "method": "bank_transfer",
     "currency": "PLN",
@@ -68130,7 +68069,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -68147,7 +68086,7 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 9,
         "label": {
@@ -68210,6 +68149,91 @@
           "en": "Enter beneficiary country code",
           "ru": "Введите beneficiary country code",
           "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        }
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Beneficiary postcode",
+          "ru": "Beneficiary postcode",
+          "uk": "Beneficiary postcode"
+        },
+        "hint": {
+          "en": "Enter beneficiary postcode",
+          "ru": "Введите beneficiary postcode",
+          "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 16,
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       }
     ],
@@ -68345,7 +68369,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -68362,7 +68386,7 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 9,
         "label": {
@@ -68425,6 +68449,91 @@
           "en": "Enter beneficiary country code",
           "ru": "Введите beneficiary country code",
           "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        }
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Beneficiary postcode",
+          "ru": "Beneficiary postcode",
+          "uk": "Beneficiary postcode"
+        },
+        "hint": {
+          "en": "Enter beneficiary postcode",
+          "ru": "Введите beneficiary postcode",
+          "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 16,
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       }
     ],
@@ -68560,7 +68669,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -68577,7 +68686,7 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 9,
         "label": {
@@ -68640,6 +68749,91 @@
           "en": "Enter beneficiary country code",
           "ru": "Введите beneficiary country code",
           "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        }
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Beneficiary postcode",
+          "ru": "Beneficiary postcode",
+          "uk": "Beneficiary postcode"
+        },
+        "hint": {
+          "en": "Enter beneficiary postcode",
+          "ru": "Введите beneficiary postcode",
+          "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 16,
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       }
     ],
@@ -68775,7 +68969,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -68792,7 +68986,7 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 9,
         "label": {
@@ -68855,6 +69049,91 @@
           "en": "Enter beneficiary country code",
           "ru": "Введите beneficiary country code",
           "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        }
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Beneficiary postcode",
+          "ru": "Beneficiary postcode",
+          "uk": "Beneficiary postcode"
+        },
+        "hint": {
+          "en": "Enter beneficiary postcode",
+          "ru": "Введите beneficiary postcode",
+          "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 16,
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       }
     ],
@@ -68990,7 +69269,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -69007,7 +69286,7 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 9,
         "label": {
@@ -69070,6 +69349,91 @@
           "en": "Enter beneficiary country code",
           "ru": "Введите beneficiary country code",
           "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        }
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Beneficiary postcode",
+          "ru": "Beneficiary postcode",
+          "uk": "Beneficiary postcode"
+        },
+        "hint": {
+          "en": "Enter beneficiary postcode",
+          "ru": "Введите beneficiary postcode",
+          "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 16,
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       }
     ],
@@ -69205,7 +69569,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -69222,7 +69586,7 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 9,
         "label": {
@@ -69285,6 +69649,91 @@
           "en": "Enter beneficiary country code",
           "ru": "Введите beneficiary country code",
           "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        }
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Beneficiary postcode",
+          "ru": "Beneficiary postcode",
+          "uk": "Beneficiary postcode"
+        },
+        "hint": {
+          "en": "Enter beneficiary postcode",
+          "ru": "Введите beneficiary postcode",
+          "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 16,
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
         }
       }
     ],
@@ -69420,7 +69869,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -69437,7 +69886,7 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
         "required": false,
         "position": 9,
         "label": {
@@ -69522,7 +69971,7 @@
       {
         "key": "beneficiary_postcode",
         "type": "string",
-        "regexp": "/^[\\w\\-\\s]{1,64}$/",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
         "required": false,
         "position": 14,
         "label": {
@@ -69573,7 +70022,7 @@
       {
         "key": "beneficiary_full_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-zА-Яа-я\\d]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "position": 17,
         "label": {
@@ -71564,5 +72013,305 @@
     ],
     "amount_min": "1",
     "amount_max": "50000"
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_gbp",
+    "method": "bank_transfer",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{1,10}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z0-9_]{2,100}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Bank Name",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank name",
+          "ru": "Введите имя банка",
+          "uk": "Введіть ім'я банку"
+        }
+      },
+      {
+        "key": "bank_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Bank Address",
+          "ru": "Адрес банка",
+          "uk": "Адреса банку"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_id",
+        "type": "string",
+        "regexp": "\/^[A-Z0-9]{3,20}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary Document ID",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document ID",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_type",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{3,20}$\/",
+        "required": false,
+        "position": 11,
+        "label": {
+          "en": "Beneficiary Document Type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document Type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_country_code_iso",
+        "type": "string",
+        "regexp": "\/^.{2,6}$\/",
+        "required": false,
+        "position": 12,
+        "label": {
+          "en": "Beneficiary country code",
+          "ru": "Beneficiary country code",
+          "uk": "Beneficiary country code"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        }
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^[\\w\\-\\s]{1,64}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Beneficiary postcode",
+          "ru": "Beneficiary postcode",
+          "uk": "Beneficiary postcode"
+        },
+        "hint": {
+          "en": "Enter beneficiary postcode",
+          "ru": "Введите beneficiary postcode",
+          "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 16,
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 17,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000.00"
   }
 ]
