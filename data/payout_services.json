@@ -70421,6 +70421,23 @@
         "regexp": "\/^[Q]\\d{6}$\/",
         "required": true,
         "position": 1
+      },
+      {
+      "key": "user_password",
+      "type": "string",
+      "label": {
+        "en": "User password",
+        "ru": "User password",
+        "uk": "User password"
+      },
+      "hint": {
+        "en": "Enter user password",
+        "ru": "Введите user password",
+        "uk": "Введіть user password"
+      },
+      "regexp": "\/^.{1,64}$\/",
+      "required": true,
+      "position": 2
       }
     ],
     "amount_min": "0.01",
