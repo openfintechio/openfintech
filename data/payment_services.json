@@ -4462,6 +4462,24 @@
   },
   {
     "status": "active",
+    "code": "applepay_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "googlepay_uah_hpp",
     "currency": "UAH",
     "flow": "hpp",
