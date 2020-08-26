@@ -67587,7 +67587,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -67604,7 +67604,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -67888,7 +67888,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -67905,7 +67905,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -68188,7 +68188,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -68205,7 +68205,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -68488,7 +68488,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -68505,7 +68505,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -68788,7 +68788,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -68805,7 +68805,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -69088,7 +69088,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -69105,7 +69105,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -69388,7 +69388,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -69405,7 +69405,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -69688,7 +69688,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -69705,7 +69705,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -69988,7 +69988,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -70005,7 +70005,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -72279,7 +72279,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -72296,7 +72296,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
         "required": false,
         "position": 16,
         "label": {
