@@ -501,6 +501,24 @@
   },
   {
     "status": "active",
+    "code": "payment_card_inr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_mxn_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_token_uah_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
