@@ -351,7 +351,7 @@
     "category": "internet_banking",
     "status": "active",
     "name": {
-      "uk": "Euteller"
+      "en": "Euteller"
     },
     "description": {
       "en": "Euteller is a privately held payment service provider enabling consumers to make direct payment using online bank account."
@@ -908,7 +908,8 @@
       "en": "Paymer check"
     },
     "description": {
-      "ru": "Чек Paymer"
+      "ru": "Чек Paymer",
+      "en": "Paymer check"
     }
   },
   {
@@ -5548,10 +5549,12 @@
     "category": "payment_card",
     "status": "active",
     "name": {
-      "ru": "Мир"
+      "ru": "Мир",
+      "en": "Mir"
     },
     "description": {
-      "ru": "Оплата картой банка Мир."
+      "ru": "Оплата картой банка Мир.",
+      "en": "Payment by card of the Mir bank."
     }
   },
   {

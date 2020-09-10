@@ -2,6 +2,9 @@
   "translatable": {
     "type": "object",
     "title": "The Name Schema",
+    "required": [
+      "en"
+    ],
     "properties": {
       "en": {
         "$id": "#/item/properties/name/properties/en",
