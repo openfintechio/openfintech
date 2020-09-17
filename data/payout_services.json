@@ -616,6 +616,24 @@
             }
           ]
         }
+      },
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "uk": "Номер телефону",
+          "ru": "Номер телефона"
+        },
+        "regexp": "\/^\\d{1,32}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Phone number",
+          "uk": "Номер телефону",
+          "ru": "Номер телефона"
+        },
+        "example": "0500155177"
       }
     ],
     "amount_min": "0.01",
