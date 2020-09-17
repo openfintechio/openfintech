@@ -626,12 +626,12 @@
           "ru": "Номер телефона"
         },
         "regexp": "\/^\\d{1,32}$\/",
-        "required": true,
-        "position": 1,
+        "required": false,
+        "position": 2,
         "hint": {
-          "en": "Phone number",
-          "uk": "Номер телефону",
-          "ru": "Номер телефона"
+          "en": "Enter phone number",
+          "uk": "Введите номер телефону",
+          "ru": "Введіть номер телефона"
         },
         "example": "0500155177"
       }
