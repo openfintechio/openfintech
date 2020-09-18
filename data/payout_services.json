@@ -72348,5 +72348,75 @@
     ],
     "amount_min": "0.01",
     "amount_max": "1000000.00"
+  },
+  {
+    "status": "active",
+    "code": "bankonego_transfer_rub",
+    "method": "bankonego_transfer",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      },
+      {
+        "key": "sender_name",
+        "type": "string",
+        "label": {
+          "en": "Sender name",
+          "ru": "Sender name",
+          "uk": "Sender name"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 2,
+        "hint": {
+          "en": "Enter sender name",
+          "ru": "Enter sender name",
+          "uk": "Enter sender name"
+        },
+        "example": "Joe"
+      },
+      {
+        "key": "recipient_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient name",
+          "ru": "Recipient name",
+          "uk": "Recipient name"
+        },
+        "regexp": "\/^.{1,255}$\/",
+        "required": true,
+        "position": 3,
+        "hint": {
+          "en": "Enter recipient name",
+          "ru": "Enter recipient name",
+          "uk": "Enter recipient name"
+        },
+        "example": "Joe"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "9999999"
   }
 ]
