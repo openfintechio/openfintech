@@ -284,6 +284,33 @@
   },
   {
     "status": "active",
+    "code": "payment_card_nok_hpp",
+    "currency": "NOK",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_dkk_hpp",
+    "currency": "DKK",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_nzd_hpp",
+    "currency": "NZD",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_gip_hpp",
     "currency": "GIP",
     "method": "payment_card",
