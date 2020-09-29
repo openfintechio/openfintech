@@ -42662,6 +42662,118 @@
   },
   {
     "status": "active",
+    "code": "dlocal_py_pyg",
+    "method": "dlocal",
+    "currency": "PYG",
+    "amount_min": "0.01",
+    "amount_max": "100000",
+    "fields": [
+      {
+        "key": "document_id",
+        "regexp": "\/^[0-9]{7,8}$\/",
+        "type": "string",
+        "label": {
+          "en": "Document ID",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter Document ID",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        },
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "document_type",
+        "regexp": "\/^(CI|RUC)$\/",
+        "type": "string",
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        },
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account",
+        "type": "string",
+        "regexp": "\/^[0-9]{16}$\/",
+        "label": {
+          "en": "Bank Account",
+          "ru": "Номер банковского счета",
+          "uk": "Номер банківського рахунку"
+        },
+        "hint": {
+          "en": "Enter bank account",
+          "ru": "Введите номер банковского счета",
+          "uk": "Введіть номер банківського рахунку"
+        },
+        "position": 4,
+        "required": true
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[1-9]{1}$|^[1-3]{1}[0-9]{1}|^(40){1}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Z]{1}$\/",
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        },
+        "position": 6,
+        "required": false
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "payeer_usd",
     "method": "payeer",
     "currency": "USD",
