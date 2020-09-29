@@ -4252,18 +4252,6 @@
     }
   },
   {
-    "code": "mastercard",
-    "vendor": "mastercard",
-    "category": "payment_card",
-    "status": "active",
-    "name": {
-      "en": "MasterCard"
-    },
-    "description": {
-      "en": "MasterCard is one of world's best known online payment methods and dominant credit card brands. MasterCard is truly a global payment brand, supporting 150 currencies with over 35 million acceptance locations (point-of-sale and online) in over 210 countries."
-    }
-  },
-  {
     "code": "visa2",
     "vendor": "visa2",
     "category": "payment_card",
@@ -4392,25 +4380,6 @@
     },
     "description": {
       "en": "The Debit MasterCard is a debit card. It uses the same systems as the standard MasterCard credit card and does not use a line of credit to the custome"
-    }
-  },
-  {
-    "code": "maestro",
-    "vendor": "maestro",
-    "category": "payment_card",
-    "status": "active",
-    "countries": [
-      "AU",
-      "BE",
-      "IT",
-      "ES",
-      "AE"
-    ],
-    "name": {
-      "en": "Maestro"
-    },
-    "description": {
-      "en": "Maestro is a multi-national debit card service owned by MasterCard that was founded in 1990. Maestro cards are obtained from associate banks and can b"
     }
   },
   {
@@ -5529,32 +5498,6 @@
     "status": "active",
     "name": {
       "en": "Unionpay_QR"
-    }
-  },
-  {
-    "code": "visa",
-    "vendor": "visa",
-    "category": "payment_card",
-    "status": "active",
-    "name": {
-      "en": "Visa"
-    },
-    "description": {
-      "en": "Pay with Visa card"
-    }
-  },
-  {
-    "code": "mir",
-    "vendor": "kartamir",
-    "category": "payment_card",
-    "status": "active",
-    "name": {
-      "ru": "Мир",
-      "en": "Mir"
-    },
-    "description": {
-      "ru": "Оплата картой банка Мир.",
-      "en": "Payment by card of the Mir bank."
     }
   },
   {

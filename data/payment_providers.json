@@ -56,13 +56,11 @@
       "cabal",
       "americanexpress",
       "hipercard",
-      "mastercard",
       "bancontactmistercash",
       "elo",
       "multibanconet",
       "jcb",
       "dinersclub",
-      "maestro",
       "cartebancaires",
       "presto",
       "discover",
@@ -222,8 +220,6 @@
     "payment_method": [
       "bancontactmistercash",
       "visa2",
-      "maestro",
-      "mastercard",
       "vpay",
       "sofortbanking",
       "ideal",
@@ -420,7 +416,6 @@
       "americanexpress",
       "visa2",
       "visadebit",
-      "mastercard",
       "mastercarddebit",
       "account2account",
       "wiretransfer"
@@ -497,8 +492,7 @@
       "dinersclub",
       "visaelectron",
       "discover",
-      "visadebit",
-      "mastercard"
+      "visadebit"
     ],
     "metadata": {
       "about_payments_code": "securionpay"
@@ -570,7 +564,6 @@
       "chinaunionpay",
       "dankort",
       "americanexpress",
-      "mastercard",
       "cartasi",
       "ukash",
       "bancontactmistercash",
@@ -578,8 +571,7 @@
       "jcb",
       "dinersclub",
       "cartebleue",
-      "visaelectron",
-      "maestro"
+      "visaelectron"
     ],
     "metadata": {
       "about_payments_code": "merchantscout"
@@ -904,7 +896,6 @@
     ],
     "payment_method": [
       "visa2",
-      "mastercard",
       "carrierbilling"
     ],
     "metadata": {
@@ -1147,8 +1138,7 @@
       "AE"
     ],
     "payment_method": [
-      "visa2",
-      "mastercard"
+      "visa2"
     ],
     "metadata": {
       "about_payments_code": "paymentgarage"
@@ -1194,13 +1184,11 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "ukash",
       "jcb",
       "visa2",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "chinaunionpay",
@@ -1624,11 +1612,9 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "bancontactmistercash",
       "visa2",
       "paysafecard",
-      "maestro",
       "visaelectron",
       "cartebancaires",
       "vpay",
@@ -1672,9 +1658,7 @@
       "americanexpress",
       "visa2",
       "visaelectron",
-      "maestro",
       "visadebit",
-      "mastercard",
       "mastercarddebit",
       "bkmexpress"
     ],
@@ -1833,10 +1817,8 @@
       "AE"
     ],
     "payment_method": [
-      "mastercard",
       "visa2",
       "visaelectron",
-      "maestro",
       "visadebit",
       "vpay",
       "mastercarddebit",
@@ -2013,10 +1995,8 @@
     ],
     "payment_method": [
       "visa2",
-      "mastercard",
       "americanexpress",
       "jcb",
-      "maestro",
       "visaelectron",
       "discover",
       "visadebit",
@@ -2100,11 +2080,9 @@
       "visa2",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "chinaunionpay",
-      "mastercard",
       "vpay",
       "mastercarddebit"
     ],
@@ -2125,8 +2103,7 @@
       "aggregating"
     ],
     "payment_method": [
-      "visa2",
-      "mastercard"
+      "visa2"
     ],
     "metadata": {
       "about_payments_code": "africanpaymentsolutions"
@@ -2204,13 +2181,11 @@
       "NL"
     ],
     "payment_method": [
-      "mastercard",
       "cartasi",
       "bancontactmistercash",
       "visa2",
       "paysafecard",
       "visaelectron",
-      "maestro",
       "cartebancaires",
       "visadebit",
       "mastercarddebit",
@@ -2322,12 +2297,10 @@
       "AE"
     ],
     "payment_method": [
-      "mastercard",
       "visa2",
       "paysafecard",
       "cashu",
       "visaelectron",
-      "maestro",
       "visadebit",
       "chinaunionpay",
       "vpay",
@@ -2362,7 +2335,6 @@
     "payment_method": [
       "americanexpress",
       "visa2",
-      "mastercard",
       "paypal"
     ],
     "metadata": {
@@ -2469,13 +2441,11 @@
       "aggregating"
     ],
     "payment_method": [
-      "mastercard",
       "bancontactmistercash",
       "visa2",
       "cartebleue",
       "paysafecard",
       "visaelectron",
-      "maestro",
       "visadebit",
       "mastercarddebit",
       "postepay",
@@ -2545,13 +2515,11 @@
       "chinaunionpay",
       "dankort",
       "americanexpress",
-      "mastercard",
       "cartasi",
       "jcb",
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "discover",
       "cartebancaires",
       "visadebit",
@@ -2593,12 +2561,10 @@
       "banamex",
       "americanexpress",
       "hipercard",
-      "mastercard",
       "elo",
       "cartebleue",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "presto",
       "visadebit",
       "mastercarddebit",
@@ -2724,9 +2690,7 @@
       "visa2",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "visadebit",
-      "mastercard",
       "mastercarddebit"
     ],
     "metadata": {
@@ -2753,8 +2717,6 @@
       "bancontactmistercash",
       "visa2",
       "cartebleue",
-      "maestro",
-      "mastercard",
       "dankort",
       "ideal",
       "sepadirectdebit",
@@ -5148,7 +5110,6 @@
       "teleingreso",
       "chinaunionpay",
       "hipercard",
-      "mastercard",
       "ukash",
       "elo",
       "visadebit",
@@ -5805,14 +5766,12 @@
       "cartebleue",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "visadebit",
       "vpay",
       "mastercarddebit",
       "cartasi",
       "multibanconet",
       "chinaunionpay",
-      "mastercard",
       "discover",
       "wiretransfer",
       "erstebank",
@@ -5865,10 +5824,8 @@
       "americanexpress",
       "visa2",
       "visaelectron",
-      "maestro",
       "visadebit",
       "chinaunionpay",
-      "mastercard",
       "mastercarddebit",
       "qiwi",
       "webmoneytransfer",
@@ -5973,13 +5930,11 @@
       "chinaunionpay",
       "dankort",
       "americanexpress",
-      "mastercard",
       "ukash",
       "elo",
       "jcb",
       "cartebleue",
       "dinersclub",
-      "maestro",
       "visaelectron",
       "discover",
       "presto",
@@ -6064,13 +6019,11 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "bancontactmistercash",
       "jcb",
       "visa2",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "chinaunionpay",
@@ -6128,14 +6081,12 @@
       "chinaunionpay",
       "dankort",
       "americanexpress",
-      "mastercard",
       "cartasi",
       "bancontactmistercash",
       "jcb",
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "vpay",
@@ -6194,13 +6145,11 @@
       "americanexpress",
       "banamex",
       "hipercard",
-      "mastercard",
       "elo",
       "jcb",
       "cartebleue",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "vpay",
@@ -6334,7 +6283,6 @@
       "banamex",
       "magna",
       "webpayplus",
-      "mastercard",
       "dinersclub",
       "discover",
       "visadebit",
@@ -7295,7 +7243,6 @@
       "webmoneytransfer",
       "test",
       "visa2",
-      "mastercard",
       "privat24",
       "beeline",
       "megafon",
@@ -7434,7 +7381,6 @@
       "jcb",
       "dinersclub",
       "cartebleue",
-      "maestro",
       "visaelectron",
       "visadebit",
       "vpay",
@@ -7448,7 +7394,6 @@
       "dankort",
       "cabal",
       "hipercard",
-      "mastercard",
       "elo",
       "presto",
       "discover",
@@ -7765,13 +7710,11 @@
     "payment_method": [
       "americanexpress",
       "girocard",
-      "mastercard",
       "bancontactmistercash",
       "multibanconet",
       "visa2",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "cartebancaires",
       "visadebit",
       "chinaunionpay",
@@ -7902,8 +7845,7 @@
       "americanexpress",
       "visa2",
       "dinersclub",
-      "discover",
-      "mastercard"
+      "discover"
     ],
     "metadata": {
       "about_payments_code": "securenetllc"
@@ -8111,9 +8053,7 @@
       "visa2",
       "cashu",
       "visaelectron",
-      "maestro",
       "visadebit",
-      "mastercard",
       "mastercarddebit"
     ],
     "metadata": {
@@ -8144,12 +8084,10 @@
       "teleingreso",
       "chinaunionpay",
       "americanexpress",
-      "mastercard",
       "ukash",
       "jcb",
       "dinersclub",
       "cartebleue",
-      "maestro",
       "visaelectron",
       "discover",
       "visadebit",
@@ -8211,7 +8149,6 @@
       "bancontactmistercash",
       "americanexpress",
       "visa2",
-      "mastercard",
       "sofortbanking",
       "ideal",
       "bank_transfer_klarna",
@@ -8242,12 +8179,10 @@
       "paysafecard",
       "dankort",
       "americanexpress",
-      "mastercard",
       "ukash",
       "bancontactmistercash",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "cartebancaires",
       "visadebit",
       "vpay",
@@ -8361,11 +8296,9 @@
       "banamex",
       "magna",
       "hipercard",
-      "mastercard",
       "elo",
       "jcb",
       "dinersclub",
-      "maestro",
       "visaelectron",
       "presto",
       "discover",
@@ -8392,13 +8325,11 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "bancontactmistercash",
       "visa2",
       "cartebleue",
       "paysafecard",
-      "visaelectron",
-      "maestro"
+      "visaelectron"
     ],
     "metadata": {
       "about_payments_code": "docdatapayments"
@@ -8560,7 +8491,6 @@
       "teleingreso",
       "dankort",
       "americanexpress",
-      "mastercard",
       "cartasi",
       "ukash",
       "ticketpremium",
@@ -8568,7 +8498,6 @@
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "cartebancaires",
       "visadebit",
       "vpay",
@@ -8659,11 +8588,9 @@
       "americanexpress",
       "visa2",
       "chinaunionpay",
-      "mastercard",
       "jcb",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "visadebit",
       "mastercarddebit",
       "directdebit"
@@ -9255,13 +9182,11 @@
       "jcb",
       "visa2",
       "dinersclub",
-      "maestro",
       "visaelectron",
       "discover",
       "visadebit",
       "chinaunionpay",
       "vpay",
-      "mastercard",
       "mastercarddebit"
     ],
     "metadata": {
@@ -9576,13 +9501,11 @@
       "dankort",
       "americanexpress",
       "hipercard",
-      "mastercard",
       "ukash",
       "jcb",
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "mastercarddebit",
@@ -9625,10 +9548,7 @@
       "paysafecard",
       "paysafecash",
       "resursbank",
-      "visa",
-      "mastercard",
       "visaelectron",
-      "maestro",
       "americanexpress",
       "dinersclub",
       "jcb",
@@ -9962,7 +9882,6 @@
     ],
     "payment_method": [
       "visa2",
-      "mastercard",
       "ukash",
       "trustly",
       "sofortbanking"
@@ -10357,12 +10276,10 @@
       "paysafecard",
       "teleingreso",
       "americanexpress",
-      "mastercard",
       "ukash",
       "multibanconet",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "visadebit",
       "mastercarddebit",
       "nordea",
@@ -10471,9 +10388,7 @@
       "jcb",
       "visa2",
       "visaelectron",
-      "maestro",
       "visadebit",
-      "mastercard",
       "mastercarddebit"
     ],
     "metadata": {
@@ -10503,12 +10418,10 @@
       "americanexpress",
       "magna",
       "hipercard",
-      "mastercard",
       "elo",
       "jcb",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "tarjetaripley",
@@ -10588,12 +10501,10 @@
       "postfinancecard",
       "paysafecard",
       "americanexpress",
-      "mastercard",
       "bancontactmistercash",
       "multibanconet",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "cartebancaires",
       "visadebit",
       "vpay",
@@ -10653,12 +10564,10 @@
       "dankort",
       "americanexpress",
       "vvvgiftcard",
-      "mastercard",
       "cartasi",
       "bancontactmistercash",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "visadebit",
       "mastercarddebit",
       "wiretransfer",
@@ -10720,12 +10629,10 @@
       "americanexpress",
       "magna",
       "hipercard",
-      "mastercard",
       "elo",
       "multibanconet",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "tarjetaripley",
       "bancopopular",
       "smsbilling"
@@ -10747,9 +10654,7 @@
     "payment_method": [
       "visa2",
       "visaelectron",
-      "maestro",
       "visadebit",
-      "mastercard",
       "mastercarddebit",
       "qiwi",
       "yandexmoney"
@@ -10840,12 +10745,10 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "multibanconet",
       "visa2",
       "cartebleue",
       "paysafecard",
-      "maestro",
       "cartebancaires",
       "neosurf",
       "carrierbilling",
@@ -10939,13 +10842,11 @@
       "chinaunionpay",
       "dankort",
       "americanexpress",
-      "mastercard",
       "bancontactmistercash",
       "jcb",
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "vpay",
@@ -11007,7 +10908,6 @@
       "multibanconet",
       "debitobradesco",
       "hipercard",
-      "mastercard",
       "elo",
       "rupaypaysecure",
       "visa2",
@@ -11016,7 +10916,6 @@
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "visadebit",
       "vpay",
       "mastercarddebit",
@@ -11265,7 +11164,6 @@
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "visadebit",
       "vpay",
       "mastercarddebit",
@@ -11281,7 +11179,6 @@
       "cabal",
       "dankort",
       "hipercard",
-      "mastercard",
       "elo",
       "discover",
       "presto",
@@ -11386,13 +11283,11 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "rupaypaysecure",
       "jcb",
       "visa2",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "mastercarddebit",
@@ -11420,7 +11315,6 @@
     "payment_method": [
       "americanexpress",
       "payment_card",
-      "mastercard",
       "ukash",
       "jcb",
       "visa2",
@@ -11454,13 +11348,11 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "bancontactmistercash",
       "jcb",
       "visa2",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "chinaunionpay",
@@ -11498,12 +11390,10 @@
       "dankort",
       "americanexpress",
       "banamex",
-      "mastercard",
       "ukash",
       "jcb",
       "dinersclub",
       "cartebleue",
-      "maestro",
       "visaelectron",
       "discover",
       "visadebit",
@@ -11547,13 +11437,11 @@
       "teleingreso",
       "banamex",
       "hipercard",
-      "mastercard",
       "bancontactmistercash",
       "elo",
       "multibanconet",
       "jcb",
       "dinersclub",
-      "maestro",
       "visaelectron",
       "cartebancaires",
       "discover",
@@ -11586,7 +11474,6 @@
       "jcb",
       "dinersclub",
       "cartebleue",
-      "maestro",
       "visaelectron",
       "visadebit",
       "vpay",
@@ -11602,7 +11489,6 @@
       "dankort",
       "cabal",
       "hipercard",
-      "mastercard",
       "elo",
       "presto",
       "discover",
@@ -11737,14 +11623,12 @@
       "dankort",
       "americanexpress",
       "hipercard",
-      "mastercard",
       "ukash",
       "elo",
       "jcb",
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "mastercarddebit",
@@ -11774,7 +11658,6 @@
     "payment_method": [
       "americanexpress",
       "girocard",
-      "mastercard",
       "ukash",
       "multibanconet",
       "jcb",
@@ -11783,7 +11666,6 @@
       "cartebleue",
       "paysafecard",
       "visaelectron",
-      "maestro",
       "payd",
       "cartebancaires",
       "discover",
@@ -11817,7 +11699,6 @@
       "americanexpress",
       "aura",
       "hipercard",
-      "mastercard",
       "elo",
       "visa2",
       "dinersclub",
@@ -11853,12 +11734,10 @@
       "paysafecard",
       "chinaunionpay",
       "americanexpress",
-      "mastercard",
       "bancontactmistercash",
       "jcb",
       "dinersclub",
       "cartebleue",
-      "maestro",
       "visaelectron",
       "cartebancaires",
       "discover",
@@ -11946,10 +11825,8 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "jcb",
       "visa2",
-      "maestro",
       "visaelectron",
       "cartebancaires",
       "discover",
@@ -12044,12 +11921,10 @@
       "paysafecard",
       "cashu",
       "americanexpress",
-      "mastercard",
       "ukash",
       "bancontactmistercash",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "cartebancaires",
       "visadebit",
       "mastercarddebit",
@@ -12110,13 +11985,11 @@
       "chinaunionpay",
       "americanexpress",
       "banamex",
-      "mastercard",
       "ukash",
       "ticketpremium",
       "jcb",
       "dinersclub",
       "cartebleue",
-      "maestro",
       "visaelectron",
       "presto",
       "discover",
@@ -12147,8 +12020,7 @@
       "CH"
     ],
     "payment_method": [
-      "visa2",
-      "mastercard"
+      "visa2"
     ],
     "metadata": {
       "about_payments_code": "aduno"
@@ -12168,8 +12040,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "visa2",
-      "mastercard"
+      "visa2"
     ],
     "metadata": {
       "about_payments_code": "checkoutbyamazon"
@@ -12210,7 +12081,6 @@
       "banamex",
       "americanexpress",
       "aura",
-      "mastercard",
       "ukash",
       "visa2",
       "paysafecard",
@@ -12298,12 +12168,10 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "jcb",
       "visa2",
       "dinersclub",
       "paysafecard",
-      "maestro",
       "visaelectron",
       "discover",
       "visadebit",
@@ -12341,7 +12209,6 @@
       "visa2",
       "visaelectron",
       "visadebit",
-      "mastercard",
       "mastercarddebit",
       "mbank",
       "maybanknetbankingphillipines",
@@ -12365,7 +12232,6 @@
     ],
     "payment_method": [
       "visa2",
-      "mastercard",
       "sofortbanking",
       "ideal"
     ],
@@ -12388,12 +12254,10 @@
       "paysafecard",
       "chinaunionpay",
       "americanexpress",
-      "mastercard",
       "cartasi",
       "jcb",
       "dinersclub",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "vpay",
@@ -12435,7 +12299,6 @@
       "dinersclub",
       "discover",
       "visadebit",
-      "mastercard",
       "mastercarddebit",
       "wiretransfer",
       "paypal"
@@ -12455,8 +12318,7 @@
       "distributing"
     ],
     "payment_method": [
-      "visa2",
-      "mastercard"
+      "visa2"
     ],
     "metadata": {
       "about_payments_code": "skipjackpaymentsolutions"
@@ -12480,7 +12342,6 @@
       "visa2",
       "discover",
       "chinaunionpay",
-      "mastercard",
       "bitcoin"
     ],
     "metadata": {
@@ -12571,7 +12432,6 @@
       "cartebleue",
       "dinersclub",
       "paysafecard",
-      "maestro",
       "discover",
       "chinaunionpay",
       "papercheck",
@@ -12651,7 +12511,6 @@
     "payment_method": [
       "chinaunionpay",
       "americanexpress",
-      "mastercard",
       "jcb",
       "hdfcbanknetbankingindia",
       "icicinetbanking",
@@ -12771,10 +12630,8 @@
       "visa2",
       "dinersclub",
       "cartebleue",
-      "maestro",
       "visaelectron",
       "visadebit",
-      "mastercard",
       "mastercarddebit",
       "sofortbanking",
       "bitcoin",
@@ -12813,8 +12670,7 @@
       "visa2",
       "dinersclub",
       "discover",
-      "chinaunionpay",
-      "mastercard"
+      "chinaunionpay"
     ],
     "metadata": {
       "about_payments_code": "2c2p"
@@ -12843,9 +12699,7 @@
       "americanexpress",
       "visa2",
       "visaelectron",
-      "maestro",
       "visadebit",
-      "mastercard",
       "vpay",
       "mastercarddebit",
       "ideal"
@@ -12868,9 +12722,7 @@
       "jcb",
       "visa2",
       "visaelectron",
-      "maestro",
       "visadebit",
-      "mastercard",
       "mastercarddebit"
     ],
     "metadata": {
@@ -12890,7 +12742,6 @@
     "payment_method": [
       "americanexpress",
       "visa2",
-      "mastercard",
       "qiwi",
       "webmoneytransfer",
       "yandexmoney"
@@ -12911,10 +12762,8 @@
     ],
     "payment_method": [
       "visa2",
-      "maestro",
       "visadebit",
-      "vpay",
-      "mastercard"
+      "vpay"
     ],
     "metadata": {
       "about_payments_code": "aibmerchantservices"
@@ -12940,8 +12789,7 @@
     "payment_method": [
       "americanexpress",
       "visa2",
-      "cashu",
-      "mastercard"
+      "cashu"
     ],
     "metadata": {
       "about_payments_code": "payfort"
@@ -13048,7 +12896,6 @@
       "dinersclub",
       "discover",
       "chinaunionpay",
-      "mastercard",
       "mastercarddebit",
       "ukash",
       "neteller",
@@ -13090,13 +12937,11 @@
       "chinaunionpay",
       "dankort",
       "americanexpress",
-      "mastercard",
       "ukash",
       "bancontactmistercash",
       "jcb",
       "dinersclub",
       "cartebleue",
-      "maestro",
       "visaelectron",
       "discover",
       "visadebit",
@@ -13197,13 +13042,11 @@
       "dankort",
       "americanexpress",
       "hipercard",
-      "mastercard",
       "ukash",
       "jcb",
       "dinersclub",
       "cartebleue",
       "visaelectron",
-      "maestro",
       "discover",
       "visadebit",
       "vpay",
@@ -13267,7 +13110,6 @@
     ],
     "payment_method": [
       "americanexpress",
-      "mastercard",
       "jcb",
       "visa2",
       "visaelectron",
@@ -13796,12 +13638,10 @@
       "AE"
     ],
     "payment_method": [
-      "mastercard",
       "visa2",
       "cartebleue",
       "paysafecard",
-      "visaelectron",
-      "maestro"
+      "visaelectron"
     ],
     "metadata": {
       "about_payments_code": "fibonatix"
@@ -15460,10 +15300,6 @@
       "yandexmoney",
       "qiwi",
       "bitcoin",
-      "visa",
-      "mastercard",
-      "maestro",
-      "mir",
       "alfaclick",
       "euroset",
       "svyaznoy",
@@ -15486,15 +15322,11 @@
       "beeline",
       "mts",
       "megafon",
-      "visa",
-      "mastercard",
-      "maestro",
       "advcash_wallet",
       "tele2ru",
       "bitcoin",
       "ethereum",
       "bitcoin_cash",
-      "mir",
       "litecoin",
       "dash"
     ],
