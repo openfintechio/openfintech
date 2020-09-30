@@ -49,7 +49,7 @@
     "payment_method": [
       "tarjetanaranjacreditcard",
       "girocard",
-      "card",
+      "payment_card",
       "paysafecard",
       "teleingreso",
       "chinaunionpay",
@@ -219,7 +219,7 @@
     ],
     "payment_method": [
       "bancontactmistercash",
-      "card",
+      "payment_card",
       "vpay",
       "sofortbanking",
       "ideal",
@@ -414,7 +414,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "visadebit",
       "mastercarddebit",
       "account2account",
@@ -488,7 +488,7 @@
     ],
     "payment_method": [
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "visaelectron",
       "discover",
@@ -558,7 +558,7 @@
     ],
     "payment_method": [
       "girocard",
-      "card",
+      "payment_card",
       "paysafecard",
       "cashu",
       "chinaunionpay",
@@ -895,7 +895,7 @@
       "VN"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "carrierbilling"
     ],
     "metadata": {
@@ -1138,7 +1138,7 @@
       "AE"
     ],
     "payment_method": [
-      "card"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "paymentgarage"
@@ -1186,7 +1186,7 @@
       "americanexpress",
       "ukash",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "visaelectron",
       "discover",
@@ -1215,7 +1215,7 @@
     ],
     "payment_method": [
       "rupaypaysecure",
-      "card",
+      "payment_card",
       "cartasi"
     ],
     "metadata": {
@@ -1613,7 +1613,7 @@
     "payment_method": [
       "americanexpress",
       "bancontactmistercash",
-      "card",
+      "payment_card",
       "paysafecard",
       "visaelectron",
       "cartebancaires",
@@ -1656,7 +1656,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "mastercarddebit",
@@ -1817,7 +1817,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "vpay",
@@ -1994,7 +1994,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "americanexpress",
       "jcb",
       "visaelectron",
@@ -2077,7 +2077,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "visaelectron",
       "discover",
@@ -2103,7 +2103,7 @@
       "aggregating"
     ],
     "payment_method": [
-      "card"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "africanpaymentsolutions"
@@ -2183,7 +2183,7 @@
     "payment_method": [
       "cartasi",
       "bancontactmistercash",
-      "card",
+      "payment_card",
       "paysafecard",
       "visaelectron",
       "cartebancaires",
@@ -2297,7 +2297,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "cashu",
       "visaelectron",
@@ -2334,7 +2334,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "paypal"
     ],
     "metadata": {
@@ -2442,7 +2442,7 @@
     ],
     "payment_method": [
       "bancontactmistercash",
-      "card",
+      "payment_card",
       "cartebleue",
       "paysafecard",
       "visaelectron",
@@ -2510,7 +2510,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "chinaunionpay",
       "dankort",
@@ -2552,7 +2552,7 @@
       "collecting"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "bancontactmistercash",
       "multibanconet",
       "cartebancaires",
@@ -2687,7 +2687,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "visaelectron",
       "visadebit",
@@ -2715,7 +2715,7 @@
     ],
     "payment_method": [
       "bancontactmistercash",
-      "card",
+      "payment_card",
       "cartebleue",
       "dankort",
       "ideal",
@@ -5102,7 +5102,7 @@
       "distributing"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "postfinancecard",
       "bancontactmistercash",
       "tarjetanaranjacreditcard",
@@ -5758,7 +5758,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cartebancaires",
       "moneytopay",
       "americanexpress",
@@ -5822,7 +5822,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "chinaunionpay",
@@ -5918,7 +5918,7 @@
       "VE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "postfinancecard",
       "cashu",
       "cartasi",
@@ -6021,7 +6021,7 @@
       "americanexpress",
       "bancontactmistercash",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "visaelectron",
       "discover",
@@ -6074,7 +6074,7 @@
       "collecting"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "postfinancecard",
       "paysafecard",
       "cashu",
@@ -6134,7 +6134,7 @@
       "aggregating"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cartasi",
       "multibanconet",
       "payd",
@@ -6275,7 +6275,7 @@
       "VN"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "chinaunionpay",
       "debitobradesco",
@@ -7242,7 +7242,7 @@
     "payment_method": [
       "webmoneytransfer",
       "test",
-      "card",
+      "payment_card",
       "privat24",
       "beeline",
       "megafon",
@@ -7373,7 +7373,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cashu",
       "cartebancaires",
       "tarjetanaranjacreditcard",
@@ -7712,7 +7712,7 @@
       "girocard",
       "bancontactmistercash",
       "multibanconet",
-      "card",
+      "payment_card",
       "cartebleue",
       "visaelectron",
       "cartebancaires",
@@ -7843,7 +7843,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "dinersclub",
       "discover"
     ],
@@ -8050,7 +8050,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "cashu",
       "visaelectron",
       "visadebit",
@@ -8074,7 +8074,7 @@
       "aggregating"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cashu",
       "bancontactmistercash",
       "cartebancaires",
@@ -8148,7 +8148,7 @@
     "payment_method": [
       "bancontactmistercash",
       "americanexpress",
-      "card",
+      "payment_card",
       "sofortbanking",
       "ideal",
       "bank_transfer_klarna",
@@ -8175,7 +8175,7 @@
       "NL"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "dankort",
       "americanexpress",
@@ -8288,7 +8288,7 @@
     ],
     "payment_method": [
       "rupaypaysecure",
-      "card",
+      "payment_card",
       "tarjetanaranjacreditcard",
       "aura",
       "cabal",
@@ -8326,7 +8326,7 @@
     "payment_method": [
       "americanexpress",
       "bancontactmistercash",
-      "card",
+      "payment_card",
       "cartebleue",
       "paysafecard",
       "visaelectron"
@@ -8486,7 +8486,7 @@
       "UM"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "teleingreso",
       "dankort",
@@ -8586,7 +8586,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "chinaunionpay",
       "jcb",
       "cartebleue",
@@ -9180,7 +9180,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "visaelectron",
       "discover",
@@ -9489,7 +9489,7 @@
       "VN"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "postfinancecard",
       "cashu",
       "bancontactmistercash",
@@ -9571,7 +9571,7 @@
       "astropaymanual",
       "astropaycash",
       "astropayunion",
-      "card"
+      "payment_card"
     ],
     "payout_method": [
       "skrill"
@@ -9882,7 +9882,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "ukash",
       "trustly",
       "sofortbanking"
@@ -10273,7 +10273,7 @@
       "distributing"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "teleingreso",
       "americanexpress",
@@ -10387,7 +10387,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "mastercarddebit"
@@ -10409,7 +10409,7 @@
       "aggregating"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cashu",
       "multibanconet",
       "tarjetanaranjacreditcard",
@@ -10498,7 +10498,7 @@
     ],
     "payment_method": [
       "girocard",
-      "card",
+      "payment_card",
       "postfinancecard",
       "paysafecard",
       "americanexpress",
@@ -10560,7 +10560,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "dankort",
       "americanexpress",
@@ -10624,7 +10624,7 @@
     "payment_method": [
       "tarjetanaranjacreditcard",
       "aura",
-      "card",
+      "payment_card",
       "paysafecard",
       "cabal",
       "americanexpress",
@@ -10653,7 +10653,7 @@
       "distributing"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "mastercarddebit",
@@ -10747,7 +10747,7 @@
     "payment_method": [
       "americanexpress",
       "multibanconet",
-      "card",
+      "payment_card",
       "cartebleue",
       "paysafecard",
       "cartebancaires",
@@ -10838,7 +10838,7 @@
       "UM"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "chinaunionpay",
       "dankort",
@@ -10911,7 +10911,7 @@
       "hipercard",
       "elo",
       "rupaypaysecure",
-      "card",
+      "payment_card",
       "americanexpress",
       "jcb",
       "dinersclub",
@@ -11156,7 +11156,7 @@
       "UM"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cashu",
       "cartebancaires",
       "americanexpress",
@@ -11286,7 +11286,7 @@
       "americanexpress",
       "rupaypaysecure",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "visaelectron",
       "discover",
@@ -11318,7 +11318,7 @@
       "payment_card",
       "ukash",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "paysafecard",
       "cashu",
@@ -11351,7 +11351,7 @@
       "americanexpress",
       "bancontactmistercash",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "visaelectron",
       "discover",
@@ -11378,7 +11378,7 @@
       "distributing"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "postfinancecard",
       "cashu",
       "cartasi",
@@ -11427,7 +11427,7 @@
       "aura",
       "girocard",
       "rupaypaysecure",
-      "card",
+      "payment_card",
       "postfinancecard",
       "chinaunionpay",
       "debitobradesco",
@@ -11468,7 +11468,7 @@
     ],
     "payment_method": [
       "rupaypaysecure",
-      "card",
+      "payment_card",
       "payd",
       "cartebancaires",
       "americanexpress",
@@ -11614,7 +11614,7 @@
       "VE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "postfinancecard",
       "bancontactmistercash",
       "aura",
@@ -11662,7 +11662,7 @@
       "ukash",
       "multibanconet",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "cartebleue",
       "paysafecard",
@@ -11701,7 +11701,7 @@
       "aura",
       "hipercard",
       "elo",
-      "card",
+      "payment_card",
       "dinersclub",
       "discover",
       "visadebit",
@@ -11730,7 +11730,7 @@
       "collecting"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "postfinancecard",
       "paysafecard",
       "chinaunionpay",
@@ -11827,7 +11827,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "visaelectron",
       "cartebancaires",
       "discover",
@@ -11918,7 +11918,7 @@
     ],
     "payment_method": [
       "girocard",
-      "card",
+      "payment_card",
       "paysafecard",
       "cashu",
       "americanexpress",
@@ -11975,7 +11975,7 @@
       "collecting"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cashu",
       "bancontactmistercash",
       "multibanconet",
@@ -12021,7 +12021,7 @@
       "CH"
     ],
     "payment_method": [
-      "card"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "aduno"
@@ -12041,7 +12041,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "checkoutbyamazon"
@@ -12083,7 +12083,7 @@
       "americanexpress",
       "aura",
       "ukash",
-      "card",
+      "payment_card",
       "paysafecard",
       "visaelectron",
       "visadebit",
@@ -12170,7 +12170,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "paysafecard",
       "visaelectron",
@@ -12207,7 +12207,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "mastercarddebit",
@@ -12232,7 +12232,7 @@
       "collecting"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "sofortbanking",
       "ideal"
     ],
@@ -12251,7 +12251,7 @@
       "distributing"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "chinaunionpay",
       "americanexpress",
@@ -12296,7 +12296,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "discover",
       "visadebit",
@@ -12319,7 +12319,7 @@
       "distributing"
     ],
     "payment_method": [
-      "card"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "skipjackpaymentsolutions"
@@ -12340,7 +12340,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "discover",
       "chinaunionpay",
       "bitcoin"
@@ -12442,7 +12442,7 @@
       "bitcoin",
       "giropay",
       "przelewy24",
-      "card"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "2000charge"
@@ -12542,7 +12542,7 @@
       "smartmoney",
       "alipay",
       "masterpass",
-      "card"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "asiapay"
@@ -12630,7 +12630,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "dinersclub",
       "cartebleue",
       "visaelectron",
@@ -12670,7 +12670,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "discover",
       "chinaunionpay"
@@ -12700,7 +12700,7 @@
     "payment_method": [
       "bancontactmistercash",
       "americanexpress",
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "vpay",
@@ -12723,7 +12723,7 @@
     ],
     "payment_method": [
       "jcb",
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "mastercarddebit"
@@ -12744,7 +12744,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "qiwi",
       "webmoneytransfer",
       "yandexmoney"
@@ -12764,7 +12764,7 @@
       "acquiring"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "visadebit",
       "vpay"
     ],
@@ -12791,7 +12791,7 @@
     ],
     "payment_method": [
       "americanexpress",
-      "card",
+      "payment_card",
       "cashu"
     ],
     "metadata": {
@@ -12895,7 +12895,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "dinersclub",
       "discover",
       "chinaunionpay",
@@ -12935,7 +12935,7 @@
       "distributing"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "paysafecard",
       "chinaunionpay",
       "dankort",
@@ -13034,7 +13034,7 @@
       "UM"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cartasi",
       "bancontactmistercash",
       "aura",
@@ -13114,7 +13114,7 @@
     "payment_method": [
       "americanexpress",
       "jcb",
-      "card",
+      "payment_card",
       "visaelectron",
       "visadebit",
       "chinaunionpay",
@@ -13641,7 +13641,7 @@
       "AE"
     ],
     "payment_method": [
-      "card",
+      "payment_card",
       "cartebleue",
       "paysafecard",
       "visaelectron"
@@ -15310,7 +15310,7 @@
       "mts",
       "megafon",
       "tele2ru",
-      "card"
+      "payment_card"
     ],
     "payout_method": [
       "qiwi",
@@ -15333,7 +15333,7 @@
       "bitcoin_cash",
       "litecoin",
       "dash",
-      "card"
+      "payment_card"
     ],
     "name": {
       "en": "Payeer"
