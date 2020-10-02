@@ -3779,42 +3779,6 @@
   },
   {
     "status": "active",
-    "code": "visa_rub_hpp",
-    "flow": "hpp",
-    "method": "visa",
-    "currency": "RUB",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
-    "code": "mastercard_rub_hpp",
-    "flow": "hpp",
-    "method": "mastercard",
-    "currency": "RUB",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
-    "code": "maestro_rub_hpp",
-    "flow": "hpp",
-    "method": "maestro",
-    "currency": "RUB",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
-    "code": "mir_rub_hpp",
-    "flow": "hpp",
-    "method": "mir",
-    "currency": "RUB",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
     "code": "skrill_eur_hpp",
     "flow": "hpp",
     "method": "skrill",
@@ -4183,36 +4147,9 @@
   },
   {
     "status": "active",
-    "code": "visa_eur_hpp",
-    "flow": "hpp",
-    "method": "visa",
-    "currency": "EUR",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
-    "code": "mastercard_eur_hpp",
-    "flow": "hpp",
-    "method": "mastercard",
-    "currency": "EUR",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
     "code": "visaelectron_eur_hpp",
     "flow": "hpp",
     "method": "visaelectron",
-    "currency": "EUR",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
-    "code": "maestro_eur_hpp",
-    "flow": "hpp",
-    "method": "maestro",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
