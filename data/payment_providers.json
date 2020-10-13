@@ -16397,5 +16397,21 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paysage",
+    "vendor": "paysage",
+    "name": {
+      "en": "PaySage.io",
+      "ru": "PaySage.io",
+      "uk": "PaySage.io"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method" : [
+      "payment_card"
+    ]
   }
 ]
