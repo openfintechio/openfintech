@@ -5825,5 +5825,14 @@
     "method": "vcreditos_push",
     "amount_min": 0.1,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_usd_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
