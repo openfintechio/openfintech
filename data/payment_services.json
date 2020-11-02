@@ -351,6 +351,25 @@
     "flow": "hpp",
     "method": "payment_card",
     "currency": "RUB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "/^\\d{12,19}$/",
+        "required": false,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 1000000
   },
