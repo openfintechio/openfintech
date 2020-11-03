@@ -72968,5 +72968,32 @@
     ],
     "amount_min": "0.01",
     "amount_max": "100000.00"
+  },
+  {
+    "status": "active",
+    "code": "card_token",
+    "method": "payment_card",
+    "currency": "XXX",
+    "fields": [
+      {
+        "key": "token",
+        "type": "string",
+        "label": {
+          "en": "Card token",
+          "ru": "Токен карты",
+          "uk": "Токен карти"
+        },
+        "hint": {
+          "en": "Enter card token",
+          "ru": "Введите токен карты",
+          "uk": "Введіть токен карти"
+        },
+        "regexp": "\/^.{1,128}\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
   }
 ]
