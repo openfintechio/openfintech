@@ -16458,5 +16458,23 @@
       "ru": "Коммерческий Индустриальный Банк Украина",
       "uk": "Комерційний Індустріальний Банк Україна"
     }
+  },
+  {
+    "status": "active",
+    "code": "mineexchange",
+    "vendor": "mineexchange",
+    "payment_method": [
+      "payment_card",
+      "qiwi"
+    ],
+    "payout_method" : [
+      "payment_card",
+      "qiwi"
+    ],
+    "name": {
+      "en": "MineExchange",
+      "ru": "MineExchange",
+      "uk": "MineExchange"
+    }
   }
 ]
