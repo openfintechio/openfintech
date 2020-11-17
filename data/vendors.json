@@ -4949,18 +4949,24 @@
     }
   },
   {
-    "code": "ab_ukrgazbank",
+    "code": "ukrgasbank",
     "status": "active",
     "contacts": {
-      "fax": "2392844"
+      "fax": "2392844",
+      "phone": "0 800 309 000"
+    },
+    "links": {
+      "website": "https:\/\/www.ukrgasbank.com/"
     },
     "address": {
       "country": "Ukraine",
       "city": "Київ",
-      "street": "вул. Єреванська, 1"
+      "street": "вул. Богдана Хмельницького, 16-22"
     },
     "name": {
-      "en": "ПАТ АКЦІОНЕРНИЙ БАНК 'УКРГАЗБАНК'"
+      "uk": "ПУБЛІЧНЕ АКЦІОНЕРНЕ ТОВАРИСТВО АКЦІОНЕРНИЙ БАНК \"УКРГАЗБАНК\"",
+      "en": "PUBLIC JOINT STOCK COMPANY JOINT STOCK BANK \"UKRGASBANK\"",
+      "ru": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО АКЦИОНЕРНЫЙ БАНК \"УКРГАЗБАНК\""
     }
   },
   {
