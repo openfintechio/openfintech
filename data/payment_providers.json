@@ -16476,5 +16476,18 @@
       "ru": "MineExchange",
       "uk": "MineExchange"
     }
+  },
+  {
+    "status": "active",
+    "code": "ukrgasbank",
+    "vendor": "ukrgasbank",
+    "name": {
+      "uk": "УКРГАЗБАНК",
+      "en": "UKRGASBANK",
+      "ru": "УКРГАЗБАНК"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
