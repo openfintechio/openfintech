@@ -16440,7 +16440,12 @@
       "uk": "CoinsPaid"
     },
     "payment_method": [
-      "payment_card"
+      "bitcoin",
+      "ripple",
+      "ethereum",
+      "bitcoin_cash",
+      "ethereum",
+      "litecoin"
     ]
   },
   {

@@ -710,6 +710,15 @@
   },
   {
     "status": "active",
+    "code": "bitcoin_cash_uah_hpp",
+    "flow": "hpp",
+    "method": "bitcoin_cash",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "bitcoin_cash_eur_hpp",
     "flow": "hpp",
     "method": "bitcoin_cash",
@@ -819,6 +828,15 @@
   },
   {
     "status": "active",
+    "code": "ethereum_uah_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "ethereum_eur_hpp",
     "flow": "hpp",
     "method": "ethereum",
@@ -864,6 +882,15 @@
   },
   {
     "status": "active",
+    "code": "litecoin_uah_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "UAH",
+    "amount_min": 0.00001,
+    "amount_max": 1000
+  },
+  {
+    "status": "active",
     "code": "litecoin_bch_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -886,6 +913,15 @@
     "flow": "hpp",
     "method": "litecoin",
     "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ripple_uah_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "UAH",
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -2530,6 +2566,15 @@
     "status": "active",
     "code": "bitcoin_usd_hpp",
     "currency": "USD",
+    "method": "bitcoin",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_uah_hpp",
+    "currency": "UAH",
     "method": "bitcoin",
     "flow": "hpp",
     "amount_min": 0.01,
