@@ -565,6 +565,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_vnd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 999999999
+  },
+  {
+    "status": "active",
     "code": "payment_card_token_uah_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
