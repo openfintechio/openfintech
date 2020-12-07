@@ -16537,5 +16537,18 @@
       "ru": "Российский Стандарт Банк",
       "uk": "Російський Стандарт Банк"
     }
+  },
+  {
+    "status": "active",
+    "code": "crosspay",
+    "vendor": "crosspay",
+    "name": {
+      "en": "CrossPay",
+      "ru": "CrossPay",
+      "uk": "CrossPay"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
