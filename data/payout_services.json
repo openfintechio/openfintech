@@ -718,24 +718,6 @@
             }
           ]
         }
-      },
-      {
-        "key": "phone_number",
-        "type": "string",
-        "label": {
-          "en": "Phone number",
-          "uk": "Номер телефону",
-          "ru": "Номер телефона"
-        },
-        "regexp": "/^\\+\\d{10,14}$/",
-        "required": false,
-        "position": 2,
-        "hint": {
-          "en": "Enter phone number",
-          "uk": "Введіть номер телефону",
-          "ru": "Введите номер телефона"
-        },
-        "example": "0500155177"
       }
     ],
     "amount_min": "0.01",
