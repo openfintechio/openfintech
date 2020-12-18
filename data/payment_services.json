@@ -275,6 +275,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_php_hpp",
+    "currency": "PHP",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_chf_hpp",
     "currency": "CHF",
     "method": "payment_card",
