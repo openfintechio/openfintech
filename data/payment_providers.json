@@ -16566,5 +16566,21 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "iboxbank",
+    "vendor": "iboxbank",
+    "name": {
+      "en": "Ibox Bank",
+      "ru": "АЙБОКС БАНК",
+      "uk": "АЙБОКС БАНК"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
