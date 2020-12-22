@@ -34714,6 +34714,33 @@
   },
   {
     "status": "active",
+    "code": "paypal_email_php",
+    "method": "paypal",
+    "currency": "PHP",
+    "amount_min": "0.01",
+    "amount_max": "20000",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Электронная почта",
+          "uk": "Електронна пошта"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите адрес электронной почты",
+          "uk": "Введіть адресу електронної пошти"
+        },
+        "regexp": "\/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "paypal_phone_usd",
     "method": "paypal",
     "currency": "USD",
@@ -34930,6 +34957,33 @@
   },
   {
     "status": "active",
+    "code": "paypal_phone_php",
+    "method": "paypal",
+    "currency": "PHP",
+    "amount_min": "0.01",
+    "amount_max": "10000",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Телефон",
+          "uk": "Телефон"
+        },
+        "hint": {
+          "en": "Enter phone",
+          "ru": "Введите телефон получателя",
+          "uk": "Введіть телефон отримувача"
+        },
+        "regexp": "\/^\\+?[-\\d]{9,32}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "paypal_id_usd",
     "method": "paypal",
     "currency": "USD",
@@ -35122,6 +35176,33 @@
     "code": "paypal_id_aud",
     "method": "paypal",
     "currency": "AUD",
+    "amount_min": "0.01",
+    "amount_max": "10000",
+    "fields": [
+      {
+        "key": "paypal_id",
+        "type": "string",
+        "label": {
+          "en": "PayPal ID",
+          "ru": "PayPal ID",
+          "uk": "PayPal ID"
+        },
+        "hint": {
+          "en": "Enter PayPal ID",
+          "ru": "Введите PayPal ID",
+          "uk": "Введіть PayPal ID"
+        },
+        "regexp": "\/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paypal_id_php",
+    "method": "paypal",
+    "currency": "PHP",
     "amount_min": "0.01",
     "amount_max": "10000",
     "fields": [
