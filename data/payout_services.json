@@ -67344,6 +67344,34 @@
   },
   {
     "status": "active",
+    "code": "ecopayz_uzs",
+    "method": "ecopayz",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "client_account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,10}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "999999.00"
+  },
+  {
+    "status": "active",
     "code": "ecopayz_aud",
     "method": "ecopayz",
     "currency": "AUD",
