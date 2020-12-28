@@ -16333,6 +16333,21 @@
   },
   {
     "status": "active",
+    "code": "kassa",
+    "vendor": "kassa",
+    "name": {
+      "en": "Kassa",
+      "ru": "Kassa",
+      "uk": "Kassa"
+    },
+    "payment_method": [
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "bankonego",
     "vendor": "bankonego",
     "name": {
