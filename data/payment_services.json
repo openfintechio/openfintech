@@ -5081,6 +5081,68 @@
   },
   {
     "status": "active",
+    "code": "ecopayz_uzs_hpp",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя",
+          "uk": "Ім`я"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя",
+          "uk": "Введіть ім`я"
+        },
+        "regexp": "\/^.{0,255}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия",
+          "uk": "Прізвище"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию",
+          "uk": "Введіть прізвище"
+        },
+        "regexp": "\/^.{0,255}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
+    "flow": "hpp",
+    "method": "ecopayz",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
     "code": "ecopayz_aud_hpp",
     "currency": "AUD",
     "fields": [
