@@ -15595,18 +15595,6 @@
   },
   {
     "status": "active",
-    "code": "winpayru",
-    "vendor": "winpayru",
-    "name": {
-      "en": "WinPay"
-    },
-    "payment_method": [
-    ],
-    "payout_method": [
-    ]
-  },
-  {
-    "status": "active",
     "code": "xpresspayio",
     "vendor": "xpresspayio",
     "name": {
@@ -16087,7 +16075,13 @@
       "en": "WinPay",
       "ru": "WinPay",
       "uk": "WinPay"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "winpay"
+    ]
   },
   {
     "status": "active",
