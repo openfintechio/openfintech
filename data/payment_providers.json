@@ -16075,7 +16075,13 @@
       "en": "WinPay",
       "ru": "WinPay",
       "uk": "WinPay"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "winpay"
+    ]
   },
   {
     "status": "active",
