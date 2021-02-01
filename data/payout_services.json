@@ -42257,7 +42257,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9]{10}$\/",
+        "regexp": "\/^.{6,12}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
