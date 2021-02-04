@@ -34065,7 +34065,7 @@
           "ru": "Введите Litecoin кошелек",
           "uk": "Введіть Litecoin гаманець"
         },
-        "regexp": "\/^L[a-zA-Z0-9]{26,33}$\/",
+        "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
         "required": true,
         "position": 1
       }
