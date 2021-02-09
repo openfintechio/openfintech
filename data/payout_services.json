@@ -51,11 +51,11 @@
         "required": true,
         "position": 1,
         "hint": {
-          "en": "Enter your phone number in international format without «+»",
-          "uk": "Введіть номер телефону в міжнародному форматі, без «+»",
-          "ru": "Введите номер телефона в международном формате, без «+»"
+          "en": "Enter your phone number in international format",
+          "uk": "Введіть номер телефону в міжнародному форматі",
+          "ru": "Введите номер телефона в международном формате"
         },
-        "example": "380121234567"
+        "example": "+380121234567"
       }
     ],
     "amount_min": "1",
@@ -79,11 +79,11 @@
         "required": true,
         "position": 1,
         "hint": {
-          "en": "Enter your phone number in international format without «+»",
-          "uk": "Введіть номер телефону в міжнародному форматі, без «+»",
-          "ru": "Введите номер телефона в международном формате, без «+»"
+          "en": "Enter your phone number in international format",
+          "uk": "Введіть номер телефону в міжнародному форматі",
+          "ru": "Введите номер телефона в международном формате"
         },
-        "example": "380121234567"
+        "example": "+380121234567"
       }
     ],
     "amount_min": "1",
@@ -107,11 +107,11 @@
         "required": true,
         "position": 1,
         "hint": {
-          "en": "Enter your phone number in international format without «+»",
-          "uk": "Введіть номер телефону в міжнародному форматі, без «+»",
-          "ru": "Введите номер телефона в международном формате, без «+»"
+          "en": "Enter your phone number in international format",
+          "uk": "Введіть номер телефону в міжнародному форматі",
+          "ru": "Введите номер телефона в международном формате"
         },
-        "example": "380121234567"
+        "example": "+380121234567"
       }
     ],
     "amount_min": "1",
@@ -135,11 +135,11 @@
         "required": true,
         "position": 1,
         "hint": {
-          "en": "Enter your phone number in international format without «+»",
-          "uk": "Введіть номер телефону в міжнародному форматі, без «+»",
-          "ru": "Введите номер телефона в международном формате, без «+»"
+          "en": "Enter your phone number in international format",
+          "uk": "Введіть номер телефону в міжнародному форматі",
+          "ru": "Введите номер телефона в международном формате"
         },
-        "example": "380121234567"
+        "example": "+380121234567"
       }
     ],
     "amount_min": "1",
@@ -23860,6 +23860,34 @@
     "status": "active",
     "code": "intertelekom_contract_uah",
     "method": "intertelekom_contract",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "client_id",
+        "type": "string",
+        "label": {
+          "en": "Contract №",
+          "uk": "№ контракту",
+          "ru": "№ контракта"
+        },
+        "regexp": "\/^\\d{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter сontract №",
+          "uk": "Введіть № контракту",
+          "ru": "Введите № контракта"
+        },
+        "example": "7004852"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "499900"
+  },
+  {
+    "status": "active",
+    "code": "lifecell_contract_uah",
+    "method": "lifecell_contract",
     "currency": "UAH",
     "fields": [
       {
