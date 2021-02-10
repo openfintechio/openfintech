@@ -420,6 +420,24 @@
   },
   {
     "status": "active",
+    "code": "payment_card_bgn_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "BGN",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_sek_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "SEK",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_token_rub_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
