@@ -71930,7 +71930,7 @@
           "ru": "Введите IFSC",
           "uk": "Введіть IFSC"
         },
-        "regexp": "\/^[A-Za-z]{4}\\d{7}$\/",
+        "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
         "required": true,
         "position": 5
       },
