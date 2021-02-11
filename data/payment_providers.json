@@ -16582,5 +16582,21 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "square",
+    "vendor": "square",
+    "name": {
+      "en": "Square",
+      "ru": "Square",
+      "uk": "Square"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
