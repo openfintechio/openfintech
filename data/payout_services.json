@@ -43031,6 +43031,23 @@
         "position": 2
       },
       {
+        "key": "beneficiary_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "position": 3,
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true
+      },
+      {
         "key": "beneficiary_lastname",
         "type": "string",
         "label": {
@@ -43045,7 +43062,7 @@
         },
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
-        "position": 3
+        "position": 4
       },
       {
         "key": "bank_account",
@@ -43061,7 +43078,7 @@
           "ru": "Введите номер банковского счета",
           "uk": "Введіть номер банківського рахунку"
         },
-        "position": 4,
+        "position": 5,
         "required": true
       },
       {
@@ -43069,7 +43086,7 @@
         "type": "string",
         "regexp": "\/^[1-9]{1}$|^[1-3]{1}[0-9]{1}|^(40){1}$\/",
         "required": false,
-        "position": 5,
+        "position": 6,
         "label": {
           "en": "Bank Code",
           "ru": "Код банка",
@@ -43095,7 +43112,7 @@
           "ru": "Введите тип аккаунта",
           "uk": "Введіть тип акаунту"
         },
-        "position": 6,
+        "position": 7,
         "required": false
       }
     ]
