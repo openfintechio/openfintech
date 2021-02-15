@@ -16327,6 +16327,21 @@
   },
   {
     "status": "active",
+    "code": "pumb",
+    "vendor": "pumb",
+    "name": {
+      "en": "Pumb",
+      "ru": "Пумб",
+      "uk": "Пумб"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "status": "active",
     "code": "kassa",
     "vendor": "kassa",
     "name": {
