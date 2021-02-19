@@ -16636,5 +16636,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "externalprovider",
+    "vendor": "externalprovider",
+    "name": {
+      "uk": "External Provider",
+      "en": "External Provider",
+      "ru": "External Provider"
+    },
+    "payout_method": [
+      "pokermatch_account"
+    ]
   }
 ]
