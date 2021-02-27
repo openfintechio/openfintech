@@ -34215,7 +34215,7 @@
           "ru": "Введите Bitcoin cash кошелек",
           "uk": "Введіть Bitcoin cash гаманець"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash|bchreg|bchtest):)?(q|p)[a-z0-9]{41}|^((BITCOINCASH|BCHREG|BCHTEST):)?(Q|P)[a-zA-Z0-9]{41}$\/",
         "required": true,
         "position": 1
       }
@@ -34242,7 +34242,7 @@
           "ru": "Введите Bitcoin cash кошелек",
           "uk": "Введіть Bitcoin cash гаманець"
         },
-        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "regexp": "\/^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash|bchreg|bchtest):)?(q|p)[a-z0-9]{41}|^((BITCOINCASH|BCHREG|BCHTEST):)?(Q|P)[a-zA-Z0-9]{41}$\/",
         "required": true,
         "position": 1
       }
