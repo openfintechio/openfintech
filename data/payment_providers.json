@@ -16353,6 +16353,21 @@
   },
   {
     "status": "active",
+    "code": "twoclick",
+    "vendor": "twoclick",
+    "name": {
+      "en": "2click",
+      "ru": "2click",
+      "uk": "2click"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "status": "active",
     "code": "kassa",
     "vendor": "kassa",
     "name": {
