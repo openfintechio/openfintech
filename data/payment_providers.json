@@ -16218,6 +16218,17 @@
   },
   {
     "status": "active",
+    "code": "alikassa",
+    "vendor": "alikassa",
+    "name": {
+      "en": "AliKassa"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paysafe",
     "vendor": "paysafe",
     "name": {
@@ -16333,6 +16344,21 @@
       "en": "Pumb",
       "ru": "Пумб",
       "uk": "Пумб"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "status": "active",
+    "code": "twoclick",
+    "vendor": "twoclick",
+    "name": {
+      "en": "2click",
+      "ru": "2click",
+      "uk": "2click"
     },
     "payment_method": [
       "payment_card"

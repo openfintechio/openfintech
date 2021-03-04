@@ -6455,6 +6455,13 @@
     }
   },
   {
+    "code": "alikassa",
+    "status": "active",
+    "name": {
+      "en": "AliKassa"
+    }
+  },
+  {
     "code": "lacaixa",
     "status": "active",
     "countries": [
@@ -12484,6 +12491,27 @@
     "status": "active",
     "name": {
       "en": "Bank of Tanzania"
+    }
+  },
+  {
+    "code": "nrb",
+    "status": "active",
+    "name": {
+      "en": "Nepal Rastra Bank"
+    }
+  },
+  {
+    "code": "cbsl",
+    "status": "active",
+    "name": {
+      "en": "Central Bank of Sri Lanka"
+    }
+  },
+  {
+    "code": "bdcb",
+    "status": "active",
+    "name": {
+      "en": "Bangladesh central bank"
     }
   },
   {
@@ -27879,6 +27907,18 @@
       "en": "Cauri",
       "ru": "Cauri",
       "uk": "Cauri"
+    }
+  },
+  {
+    "code": "twoclick",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/2click.money"
+    },
+    "name": {
+      "en": "2click",
+      "ru": "2click",
+      "uk": "2click"
     }
   },
   {
