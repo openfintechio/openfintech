@@ -15,8 +15,8 @@ if [ ! -z "$TRAVIS_TAG" ]; then
       CMDS+=("--include=$i")
   done
 
-  echo "${CMDS[@]}" | xargs aws s3 sync --quiet resources s3://resources.openfintech.io
-  echo "${CMDS[@]}" | xargs aws s3 sync --quiet resources/payment_methods s3://resources.openfintech.io/payment-methods
-  echo "${CMDS[@]}" | xargs aws s3 sync --quiet resources/payout_methods s3://resources.openfintech.io/payout-methods
-  echo "${CMDS[@]}" | xargs aws s3 sync --quiet resources/payment_providers s3://resources.openfintech.io/payment-providers
+  echo "${CMDS[@]}" | xargs aws s3 sync --quiet resources s3://${AWS_BUCKET_NAME}
+  echo "${CMDS[@]}" | xargs aws s3 sync --quiet resources/payment_methods s3://${AWS_BUCKET_NAME}/payment-methods
+  echo "${CMDS[@]}" | xargs aws s3 sync --quiet resources/payout_methods s3://${AWS_BUCKET_NAME}/payout-methods
+  echo "${CMDS[@]}" | xargs aws s3 sync --quiet resources/payment_providers s3://${AWS_BUCKET_NAME}/payment-providers
 fi
