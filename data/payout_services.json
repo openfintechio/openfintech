@@ -34028,6 +34028,60 @@
   },
   {
     "status": "active",
+    "code": "ethereum_usd",
+    "method": "ethereum",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum wallet",
+          "ru": "Ethereum кошелек",
+          "uk": "Ethereum гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum wallet",
+          "ru": "Введите Ethereum кошелек",
+          "uk": "Введіть Ethereum гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "ethereum_eur",
+    "method": "ethereum",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum wallet",
+          "ru": "Ethereum кошелек",
+          "uk": "Ethereum гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum wallet",
+          "ru": "Введите Ethereum кошелек",
+          "uk": "Введіть Ethereum гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "webmoneytransfer_usd",
     "method": "webmoneytransfer",
     "currency": "USD",
@@ -34117,6 +34171,60 @@
   },
   {
     "status": "active",
+    "code": "bitcoin_usd",
+    "method": "bitcoin",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin wallet",
+          "ru": "Bitcoin кошелек",
+          "uk": "Bitcoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin wallet",
+          "ru": "Введите Bitcoin кошелек",
+          "uk": "Введіть Bitcoin гаманець"
+        },
+        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_eur",
+    "method": "bitcoin",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin wallet",
+          "ru": "Bitcoin кошелек",
+          "uk": "Bitcoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin wallet",
+          "ru": "Введите Bitcoin кошелек",
+          "uk": "Введіть Bitcoin гаманець"
+        },
+        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "litecoin_ltc",
     "method": "litecoin",
     "currency": "LTC",
@@ -34171,6 +34279,60 @@
   },
   {
     "status": "active",
+    "code": "litecoin_usd",
+    "method": "litecoin",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Litecoin wallet",
+          "ru": "Litecoin кошелек",
+          "uk": "Litecoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Litecoin wallet",
+          "ru": "Введите Litecoin кошелек",
+          "uk": "Введіть Litecoin гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "litecoin_eur",
+    "method": "litecoin",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Litecoin wallet",
+          "ru": "Litecoin кошелек",
+          "uk": "Litecoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Litecoin wallet",
+          "ru": "Введите Litecoin кошелек",
+          "uk": "Введіть Litecoin гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "ripple_uah",
     "method": "ripple",
     "currency": "UAH",
@@ -34195,6 +34357,60 @@
     ],
     "amount_min": "1",
     "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "ripple_usd",
+    "method": "ripple",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ripple wallet",
+          "ru": "Ripple кошелек",
+          "uk": "Ripple гаманець"
+        },
+        "hint": {
+          "en": "Enter Ripple wallet",
+          "ru": "Введите Ripple кошелек",
+          "uk": "Введіть Ripple гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,33}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "ripple_eur",
+    "method": "ripple",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ripple wallet",
+          "ru": "Ripple кошелек",
+          "uk": "Ripple гаманець"
+        },
+        "hint": {
+          "en": "Enter Ripple wallet",
+          "ru": "Введите Ripple кошелек",
+          "uk": "Введіть Ripple гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,33}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
   },
   {
     "status": "active",
@@ -34249,6 +34465,60 @@
     ],
     "amount_min": "1",
     "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_usd",
+    "method": "bitcoin_cash",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin cash wallet",
+          "ru": "Bitcoin cash кошелек",
+          "uk": "Bitcoin cash гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin cash wallet",
+          "ru": "Введите Bitcoin cash кошелек",
+          "uk": "Введіть Bitcoin cash гаманець"
+        },
+        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_eur",
+    "method": "bitcoin_cash",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin cash wallet",
+          "ru": "Bitcoin cash кошелек",
+          "uk": "Bitcoin cash гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin cash wallet",
+          "ru": "Введите Bitcoin cash кошелек",
+          "uk": "Введіть Bitcoin cash гаманець"
+        },
+        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
   },
   {
     "status": "active",
