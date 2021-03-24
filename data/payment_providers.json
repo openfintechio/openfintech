@@ -16481,10 +16481,13 @@
     "code": "ukrgasbank",
     "vendor": "ukrgasbank",
     "name": {
-      "uk": "УКРГАЗБАНК",
-      "en": "UKRGASBANK",
-      "ru": "УКРГАЗБАНК"
+      "uk": "Укргазбанк",
+      "en": "UkrGasBank",
+      "ru": "Укргазбанк"
     },
+    "payment_method": [
+      "payment_card"
+    ],
     "payout_method": [
       "payment_card"
     ]
