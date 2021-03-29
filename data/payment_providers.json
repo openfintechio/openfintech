@@ -16621,5 +16621,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "sdkfinance",
+    "vendor": "sdkfinance",
+    "name": {
+      "uk": "SDK.finance",
+      "en": "SDK.finance",
+      "ru": "SDK.finance"
+    },
+    "payment_method": [
+      "cascad"
+    ]
   }
 ]
