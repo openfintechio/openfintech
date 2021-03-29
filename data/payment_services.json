@@ -6570,5 +6570,14 @@
     "currency": "MYR",
     "amount_min": 0.01,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "cascad_uah_hpp",
+    "flow": "hpp",
+    "method": "cascad",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 999999
   }
 ]
