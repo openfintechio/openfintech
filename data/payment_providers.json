@@ -16608,5 +16608,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "pay2kassa",
+    "vendor": "pay2kassa",
+    "name": {
+      "en": "pay2kassa",
+      "ru": "pay2kassa",
+      "uk": "pay2kassa"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
