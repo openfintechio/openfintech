@@ -16634,5 +16634,21 @@
     "payment_method": [
       "cascad"
     ]
+  },
+  {
+    "status": "active",
+    "code": "pay2kassa",
+    "vendor": "pay2kassa",
+    "name": {
+      "en": "Pay2Kassa",
+      "ru": "Pay2Kassa",
+      "uk": "Pay2Kassa"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
