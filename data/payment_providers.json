@@ -16650,5 +16650,21 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "easypayru",
+    "vendor": "easypayru",
+    "name": {
+      "en": "EasyPayRU",
+      "ru": "EasyPayRU",
+      "uk": "EasyPayRU"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
