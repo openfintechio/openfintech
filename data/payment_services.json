@@ -6282,6 +6282,64 @@
   },
   {
     "status": "active",
+    "code": "muchbetter_pln_invoice",
+    "currency": "PLN",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "muchbetter",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "muchbetter_cad_invoice",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "muchbetter",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
     "code": "ecobanq_inr_transfer",
     "currency": "INR",
     "fields": [
