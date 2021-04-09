@@ -2203,6 +2203,15 @@
     "amount_min": 0.01,
     "amount_max": 9999999
   },
+   {
+    "status": "active",
+    "code": "visa_qr_code_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "visa_qr_code",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
   {
     "status": "active",
     "code": "net_banking_ngn_hpp",
