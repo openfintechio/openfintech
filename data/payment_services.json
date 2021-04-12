@@ -4222,6 +4222,34 @@
   },
   {
     "status": "active",
+    "code": "neteller_mdl_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "MDL",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "paysafecard_usd_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -6635,6 +6663,42 @@
     "flow": "hpp",
     "method": "skrill",
     "currency": "MYR",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_bdt_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "BDT",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_npr_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "NPR",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_lkr_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "LKR",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_mdl_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "MDL",
     "amount_min": 0.01,
     "amount_max": 999999
   },

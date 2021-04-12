@@ -44118,6 +44118,114 @@
   },
   {
     "status": "active",
+    "code": "skrill_bdt",
+    "method": "skrill",
+    "currency": "BDT",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999"
+  },
+  {
+    "status": "active",
+    "code": "skrill_npr",
+    "method": "skrill",
+    "currency": "NPR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999"
+  },
+  {
+    "status": "active",
+    "code": "skrill_lkr",
+    "method": "skrill",
+    "currency": "LKR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999"
+  },
+  {
+    "status": "active",
+    "code": "skrill_mdl",
+    "method": "skrill",
+    "currency": "MDL",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999"
+  },
+  {
+    "status": "active",
     "code": "swift_usd",
     "method": "swift",
     "currency": "USD",
@@ -73503,6 +73611,33 @@
     "code": "neteller_mxn",
     "method": "neteller",
     "currency": "MXN",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999"
+  },
+  {
+    "status": "active",
+    "code": "neteller_mdl",
+    "method": "neteller",
+    "currency": "MDL",
     "fields": [
       {
         "key": "email",
