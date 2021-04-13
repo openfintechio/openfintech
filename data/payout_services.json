@@ -42803,7 +42803,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9\\-]{8,9}$\/",
+        "regexp": "\/^[0-9A-Z\\-]{8,9}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
