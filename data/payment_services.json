@@ -3810,7 +3810,7 @@
     "currency": "BTC",
     "method": "perfectmoney_account",
     "flow": "hpp",
-    "amount_min": 0.001,
+    "amount_min": 0.01,
     "amount_max": 1000
   },
   {
@@ -3837,7 +3837,7 @@
     "currency": "BTC",
     "method": "perfectmoney_voucher",
     "flow": "hpp",
-    "amount_min": 0.001,
+    "amount_min": 0.01,
     "amount_max": 1000
   },
   {

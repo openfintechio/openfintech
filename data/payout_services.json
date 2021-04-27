@@ -34543,7 +34543,7 @@
     "code": "perfectmoney_transfer_btc",
     "method": "perfectmoney_transfer",
     "currency": "BTC",
-    "amount_min": "0.001",
+    "amount_min": "0.01",
     "amount_max": "10000",
     "fields": [
       {
