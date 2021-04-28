@@ -5863,53 +5863,7 @@
     "code": "trustpay",
     "status": "active",
     "countries": [
-      "AX",
-      "AL",
-      "AD",
-      "AU",
-      "BY",
-      "BE",
-      "BA",
-      "BG",
-      "HR",
-      "CY",
-      "CZ",
-      "DK",
-      "EE",
-      "FO",
-      "FJ",
-      "FR",
-      "DE",
-      "GI",
-      "GR",
-      "GG",
-      "HU",
-      "IS",
-      "IM",
-      "IT",
-      "JE",
-      "LV",
-      "LI",
-      "LT",
-      "LU",
-      "ML",
-      "MD",
-      "MC",
-      "ME",
-      "NL",
-      "NO",
-      "PT",
-      "RO",
-      "SM",
-      "RS",
-      "SK",
-      "ES",
-      "SJ",
-      "SE",
-      "CH",
-      "TR",
-      "RW",
-      "AE"
+      "SK"
     ],
     "contacts": {
       "email": "info@trustpay.eu",
@@ -6452,6 +6406,13 @@
     "status": "active",
     "name": {
       "en": "Alipay.com"
+    }
+  },
+  {
+    "code": "alikassa",
+    "status": "active",
+    "name": {
+      "en": "AliKassa"
     }
   },
   {
@@ -12484,6 +12445,27 @@
     "status": "active",
     "name": {
       "en": "Bank of Tanzania"
+    }
+  },
+  {
+    "code": "nrb",
+    "status": "active",
+    "name": {
+      "en": "Nepal Rastra Bank"
+    }
+  },
+  {
+    "code": "cbsl",
+    "status": "active",
+    "name": {
+      "en": "Central Bank of Sri Lanka"
+    }
+  },
+  {
+    "code": "bdcb",
+    "status": "active",
+    "name": {
+      "en": "Bangladesh central bank"
     }
   },
   {
@@ -27882,6 +27864,18 @@
     }
   },
   {
+    "code": "twoclick",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/2click.money"
+    },
+    "name": {
+      "en": "2click",
+      "ru": "2click",
+      "uk": "2click"
+    }
+  },
+  {
     "code": "nium",
     "status": "active",
     "links": {
@@ -27903,6 +27897,18 @@
       "en": "IPaytotal",
       "ru": "IPaytotal",
       "uk": "IPaytotal"
+    }
+  },
+  {
+    "code": "pumb",
+    "status": "active",
+    "links": {
+      "website":  "https:\/\/www.pumb.ua"
+    },
+    "name": {
+      "en": "The First Ukrainian International Bank",
+      "ru": "Первый Украинский Международный Банк",
+      "uk": "Перший Український Міжнародний Банк"
     }
   },
   {
@@ -28110,6 +28116,71 @@
       "en": "Ibox Bank",
       "ru": "АЙБОКС БАНК",
       "uk": "АЙБОКС БАНК"
+    }
+  },
+  {
+    "code": "square",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/squareup.com"
+    },
+    "address": {
+      "country": "USA",
+      "city": "San Francisco",
+      "street": "CA 94103"
+    },
+    "name": {
+      "en": "Square",
+      "ru": "Square",
+      "uk": "Square"
+    }
+  },
+  {
+    "code": "externalprovider",
+    "status": "active",
+    "name": {
+      "en": "External provider",
+      "ru": "External provider",
+      "uk": "External provider"
+    }
+  },
+  {
+    "code": "forta",
+    "status": "active",
+    "name": {
+      "en": "Forta",
+      "ru": "Forta",
+      "uk": "Forta"
+    }
+  },
+  {
+    "code": "sdkfinance",
+    "status": "active",
+    "name": {
+      "en": "SDK.finance",
+      "ru": "SDK.finance",
+      "uk": "SDK.finance"
+    }
+  },
+  {
+    "code": "pay2kassa",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/pay2kassa.net"
+    },
+    "name": {
+      "en": "Pay2Kassa",
+      "ru": "Pay2Kassa",
+      "uk": "Pay2Kassa"
+    }
+  },
+  {
+    "code": "easypayru",
+    "status": "active",
+    "name": {
+      "en": "EasyPayRU",
+      "ru": "EasyPayRU",
+      "uk": "EasyPayRU"
     }
   }
 ]

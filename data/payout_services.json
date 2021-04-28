@@ -415,7 +415,7 @@
       }
     ],
     "amount_min": "0.01",
-    "amount_max": "14999"
+    "amount_max": "100000"
   },
   {
     "status": "active",
@@ -34028,6 +34028,60 @@
   },
   {
     "status": "active",
+    "code": "ethereum_usd",
+    "method": "ethereum",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum wallet",
+          "ru": "Ethereum кошелек",
+          "uk": "Ethereum гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum wallet",
+          "ru": "Введите Ethereum кошелек",
+          "uk": "Введіть Ethereum гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "ethereum_eur",
+    "method": "ethereum",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum wallet",
+          "ru": "Ethereum кошелек",
+          "uk": "Ethereum гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum wallet",
+          "ru": "Введите Ethereum кошелек",
+          "uk": "Введіть Ethereum гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "webmoneytransfer_usd",
     "method": "webmoneytransfer",
     "currency": "USD",
@@ -34117,6 +34171,60 @@
   },
   {
     "status": "active",
+    "code": "bitcoin_usd",
+    "method": "bitcoin",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin wallet",
+          "ru": "Bitcoin кошелек",
+          "uk": "Bitcoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin wallet",
+          "ru": "Введите Bitcoin кошелек",
+          "uk": "Введіть Bitcoin гаманець"
+        },
+        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_eur",
+    "method": "bitcoin",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin wallet",
+          "ru": "Bitcoin кошелек",
+          "uk": "Bitcoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin wallet",
+          "ru": "Введите Bitcoin кошелек",
+          "uk": "Введіть Bitcoin гаманець"
+        },
+        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "litecoin_ltc",
     "method": "litecoin",
     "currency": "LTC",
@@ -34171,6 +34279,60 @@
   },
   {
     "status": "active",
+    "code": "litecoin_usd",
+    "method": "litecoin",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Litecoin wallet",
+          "ru": "Litecoin кошелек",
+          "uk": "Litecoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Litecoin wallet",
+          "ru": "Введите Litecoin кошелек",
+          "uk": "Введіть Litecoin гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "litecoin_eur",
+    "method": "litecoin",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Litecoin wallet",
+          "ru": "Litecoin кошелек",
+          "uk": "Litecoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Litecoin wallet",
+          "ru": "Введите Litecoin кошелек",
+          "uk": "Введіть Litecoin гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "ripple_uah",
     "method": "ripple",
     "currency": "UAH",
@@ -34198,6 +34360,60 @@
   },
   {
     "status": "active",
+    "code": "ripple_usd",
+    "method": "ripple",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ripple wallet",
+          "ru": "Ripple кошелек",
+          "uk": "Ripple гаманець"
+        },
+        "hint": {
+          "en": "Enter Ripple wallet",
+          "ru": "Введите Ripple кошелек",
+          "uk": "Введіть Ripple гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,33}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "ripple_eur",
+    "method": "ripple",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ripple wallet",
+          "ru": "Ripple кошелек",
+          "uk": "Ripple гаманець"
+        },
+        "hint": {
+          "en": "Enter Ripple wallet",
+          "ru": "Введите Ripple кошелек",
+          "uk": "Введіть Ripple гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,33}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "bitcoin_cash_bch",
     "method": "bitcoin_cash",
     "currency": "BCH",
@@ -34215,7 +34431,7 @@
           "ru": "Введите Bitcoin cash кошелек",
           "uk": "Введіть Bitcoin cash гаманець"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash|bchreg|bchtest):)?(q|p)[a-z0-9]{41}|^((BITCOINCASH|BCHREG|BCHTEST):)?(Q|P)[a-zA-Z0-9]{41}$\/",
         "required": true,
         "position": 1
       }
@@ -34242,13 +34458,67 @@
           "ru": "Введите Bitcoin cash кошелек",
           "uk": "Введіть Bitcoin cash гаманець"
         },
-        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "regexp": "\/^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash|bchreg|bchtest):)?(q|p)[a-z0-9]{41}|^((BITCOINCASH|BCHREG|BCHTEST):)?(Q|P)[a-zA-Z0-9]{41}$\/",
         "required": true,
         "position": 1
       }
     ],
     "amount_min": "1",
     "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_usd",
+    "method": "bitcoin_cash",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin cash wallet",
+          "ru": "Bitcoin cash кошелек",
+          "uk": "Bitcoin cash гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin cash wallet",
+          "ru": "Введите Bitcoin cash кошелек",
+          "uk": "Введіть Bitcoin cash гаманець"
+        },
+        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_eur",
+    "method": "bitcoin_cash",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin cash wallet",
+          "ru": "Bitcoin cash кошелек",
+          "uk": "Bitcoin cash гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin cash wallet",
+          "ru": "Введите Bitcoin cash кошелек",
+          "uk": "Введіть Bitcoin cash гаманець"
+        },
+        "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
   },
   {
     "status": "active",
@@ -42533,7 +42803,7 @@
     "fields": [
       {
         "key": "document_id",
-        "regexp": "\/^[0-9\\-]{8,9}$\/",
+        "regexp": "\/^[0-9A-Z\\-]{8,9}$\/",
         "type": "string",
         "label": {
           "en": "Document ID",
@@ -43031,6 +43301,23 @@
         "position": 2
       },
       {
+        "key": "beneficiary_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "position": 3,
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true
+      },
+      {
         "key": "beneficiary_lastname",
         "type": "string",
         "label": {
@@ -43045,7 +43332,7 @@
         },
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": true,
-        "position": 3
+        "position": 4
       },
       {
         "key": "bank_account",
@@ -43061,7 +43348,7 @@
           "ru": "Введите номер банковского счета",
           "uk": "Введіть номер банківського рахунку"
         },
-        "position": 4,
+        "position": 5,
         "required": true
       },
       {
@@ -43069,7 +43356,7 @@
         "type": "string",
         "regexp": "\/^[1-9]{1}$|^[1-3]{1}[0-9]{1}|^(40){1}$\/",
         "required": false,
-        "position": 5,
+        "position": 6,
         "label": {
           "en": "Bank Code",
           "ru": "Код банка",
@@ -43095,7 +43382,7 @@
           "ru": "Введите тип аккаунта",
           "uk": "Введіть тип акаунту"
         },
-        "position": 6,
+        "position": 7,
         "required": false
       }
     ]
@@ -43807,6 +44094,114 @@
     "code": "skrill_myr",
     "method": "skrill",
     "currency": "MYR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999"
+  },
+  {
+    "status": "active",
+    "code": "skrill_bdt",
+    "method": "skrill",
+    "currency": "BDT",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999"
+  },
+  {
+    "status": "active",
+    "code": "skrill_npr",
+    "method": "skrill",
+    "currency": "NPR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999"
+  },
+  {
+    "status": "active",
+    "code": "skrill_lkr",
+    "method": "skrill",
+    "currency": "LKR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999"
+  },
+  {
+    "status": "active",
+    "code": "skrill_mdl",
+    "method": "skrill",
+    "currency": "MDL",
     "fields": [
       {
         "key": "email",
@@ -71120,6 +71515,62 @@
   },
   {
     "status": "active",
+    "code": "muchbetter_pln",
+    "method": "muchbetter",
+    "currency": "PLN",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999.00"
+  },
+  {
+    "status": "active",
+    "code": "muchbetter_cad",
+    "method": "muchbetter",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "999999.00"
+  },
+  {
+    "status": "active",
     "code": "paysafecard_usd",
     "method": "paysafecard",
     "currency": "USD",
@@ -72088,7 +72539,7 @@
           "ru": "Введите IFSC",
           "uk": "Введіть IFSC"
         },
-        "regexp": "\/^[A-Za-z]{4}\\d{7}$\/",
+        "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
         "required": true,
         "position": 6
       },
@@ -73160,6 +73611,33 @@
     "code": "neteller_mxn",
     "method": "neteller",
     "currency": "MXN",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "99999"
+  },
+  {
+    "status": "active",
+    "code": "neteller_mdl",
+    "method": "neteller",
+    "currency": "MDL",
     "fields": [
       {
         "key": "email",
@@ -75164,5 +75642,32 @@
     ],
     "amount_min": "0.01",
     "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "pokermatch_account_uah",
+    "method": "pokermatch_account",
+    "currency": "UAH",
+    "amount_min": "0.01",
+    "amount_max": "15000",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер аккаунта",
+          "uk": "Номер аккаунта"
+        },
+        "hint": {
+          "en": "Enter account Number",
+          "ru": "Введите номер аккаунта",
+          "uk": "Введіть номер аккаунта"
+        },
+        "regexp": "/^(\\w|\\.| |\\-|\\+|@){1,14}$/",
+        "required": true,
+        "position": 1
+      }
+    ]
   }
 ]
