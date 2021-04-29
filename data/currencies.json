@@ -9016,7 +9016,7 @@
     "name": {
       "en": "LTC"
     },
-    "type": "digital",
+    "type": "crypto",
     "status": "active",
     "iso_numeric3_code": "0",
     "exponent": 8,
@@ -11621,7 +11621,7 @@
     "name": {
       "en": "BTC"
     },
-    "type": "digital",
+    "type": "crypto",
     "status": "active",
     "exponent": 8,
     "category": "other",
@@ -12059,5 +12059,27 @@
     "exponent": 2,
     "category": "electronic",
     "parent_currency_multiplier": 1
+  },
+  {
+    "code": "ADA",
+    "name": {
+      "en": "ADA"
+    },
+    "type": "crypto",
+    "status": "active",
+    "iso_numeric3_code": "0",
+    "exponent": 8,
+    "category": "other"
+  },
+  {
+    "code": "BNB",
+    "name": {
+      "en": "BNB"
+    },
+    "type": "crypto",
+    "status": "active",
+    "iso_numeric3_code": "0",
+    "exponent": 8,
+    "category": "other"
   }
 ]
