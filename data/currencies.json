@@ -2054,7 +2054,7 @@
   {
     "code": "XUA",
     "name": {
-      "en": "ADB Unit of Account"
+      "en": "XUA - The African Development Bank (ADB) is using a Unit of Account which is registered as XUA as ISO 4217 standard currency code."
     },
     "type": "national",
     "status": "active",
@@ -12069,7 +12069,8 @@
     "status": "active",
     "iso_numeric3_code": "0",
     "exponent": 8,
-    "category": "other"
+    "category": "other",
+    "parent_currency_multiplier": 1
   },
   {
     "code": "BNB",
@@ -12080,6 +12081,7 @@
     "status": "active",
     "iso_numeric3_code": "0",
     "exponent": 8,
-    "category": "other"
+    "category": "other",
+    "parent_currency_multiplier": 1
   }
 ]
