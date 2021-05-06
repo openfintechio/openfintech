@@ -43045,7 +43045,7 @@
       {
         "key": "bank_account",
         "type": "string",
-        "regexp": "\/^[0-9\\-]{4,18}$\/",
+        "regexp": "\/^[0-9.\\-]{4,18}$\/",
         "label": {
           "en": "Bank Account",
           "ru": "Номер банковского счета",
