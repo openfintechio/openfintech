@@ -75669,5 +75669,32 @@
         "position": 1
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "slotoking_account_uah",
+    "method": "slotoking_account",
+    "currency": "UAH",
+    "amount_min": "1",
+    "amount_max": "15000",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер аккаунта",
+          "uk": "Номер аккаунта"
+        },
+        "hint": {
+          "en": "Enter account Number",
+          "ru": "Введите номер аккаунта",
+          "uk": "Введіть номер аккаунта"
+        },
+        "regexp": "/^\\d{6,7}$/",
+        "required": true,
+        "position": 1
+      }
+    ]
   }
 ]
