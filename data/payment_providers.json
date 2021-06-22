@@ -16680,5 +16680,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "trustpayments",
+    "vendor": "trustpayments",
+    "name": {
+      "en": "Trust Payments",
+      "ru": "Trust Payments",
+      "uk": "Trust Payments"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
