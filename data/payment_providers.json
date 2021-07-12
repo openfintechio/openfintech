@@ -16699,5 +16699,31 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "concordpay",
+    "vendor": "concordpay",
+    "name": {
+      "en": "Concord Pay",
+      "ru": "Concord Pay",
+      "uk": "Concord Pay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "easytransfer",
+    "vendor": "easytransfer",
+    "name": {
+      "en": "EasyTransfer",
+      "ru": "EasyTransfer",
+      "uk": "EasyTransfer"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
