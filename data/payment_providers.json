@@ -2241,86 +2241,13 @@
     "status": "active",
     "code": "trustpay",
     "vendor": "trustpay",
-    "categories": [
-      "collecting",
-      "distributing",
-      "aggregating",
-      "acquiring"
-    ],
-    "countries": [
-      "AX",
-      "AL",
-      "AD",
-      "AU",
-      "BY",
-      "BE",
-      "BA",
-      "BG",
-      "HR",
-      "CY",
-      "CZ",
-      "DK",
-      "EE",
-      "FO",
-      "FJ",
-      "FR",
-      "DE",
-      "GI",
-      "GR",
-      "GG",
-      "HU",
-      "IS",
-      "IM",
-      "IT",
-      "JE",
-      "LV",
-      "LI",
-      "LT",
-      "LU",
-      "ML",
-      "MD",
-      "MC",
-      "ME",
-      "NL",
-      "NO",
-      "PT",
-      "RO",
-      "SM",
-      "RS",
-      "SK",
-      "ES",
-      "SJ",
-      "SE",
-      "CH",
-      "TR",
-      "RW",
-      "AE"
-    ],
     "payment_method": [
-      "payment_card",
-      "paysafecard",
-      "cashu",
-      "visaelectron",
-      "visadebit",
-      "chinaunionpay",
-      "vpay",
-      "mastercarddebit",
-      "gemoney",
-      "wiretransfer",
-      "komercnibanka",
-      "postovabanka",
-      "unicredit",
-      "slovenskasporitelna",
-      "tatrabanka",
-      "vubbanka",
-      "sepadirectdebit",
-      "sepacredittransfer"
+      "payment_card"
     ],
-    "metadata": {
-      "about_payments_code": "trustpay"
-    },
     "name": {
-      "en": "TrustPay"
+      "en": "TrustPay",
+      "ru": "TrustPay",
+      "uk": "TrustPay"
     }
   },
   {
@@ -2901,7 +2828,7 @@
       "about_payments_code": "cardpay"
     },
     "name": {
-      "en": "CardPay"
+      "en": "Unlimint"
     },
     "countries": [
       "UA",
@@ -8133,7 +8060,7 @@
       "about_payments_code": "safecharge"
     },
     "name": {
-      "en": "SafeCharge "
+      "en": "Nuvei"
     }
   },
   {
@@ -15176,7 +15103,7 @@
     "code": "satchelpay",
     "vendor": "satchelpay",
     "name": {
-      "en": "SatchelPay"
+      "en": "Satchel"
     },
     "payout_method": [
       "sepa_credit_transfer"
@@ -16232,6 +16159,20 @@
   },
   {
     "status": "active",
+    "code": "alikassa",
+    "vendor": "alikassa",
+    "name": {
+      "en": "AliKassa"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paysafe",
     "vendor": "paysafe",
     "name": {
@@ -16325,13 +16266,43 @@
     ]
   },
   {
-    "status": "active",
+    "status": "deprecated",
     "code": "ipaytotal",
     "vendor": "ipaytotal",
     "name": {
       "en": "IPaytotal",
       "ru": "IPaytotal",
       "uk": "IPaytotal"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pumb",
+    "vendor": "pumb",
+    "name": {
+      "en": "The First Ukrainian International Bank",
+      "ru": "Первый Украинский Международный Банк",
+      "uk": "Перший Український Міжнародний Банк"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+    ]
+  },
+  {
+    "status": "active",
+    "code": "twoclick",
+    "vendor": "twoclick",
+    "name": {
+      "en": "2click",
+      "ru": "2click",
+      "uk": "2click"
     },
     "payment_method": [
       "payment_card"
@@ -16349,10 +16320,16 @@
       "uk": "Kassa"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "yandexmoney",
+      "webmoneytransfer",
+      "qiwi"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "yandexmoney",
+      "webmoneytransfer",
+      "qiwi"
     ]
   },
   {
@@ -16524,10 +16501,13 @@
     "code": "ukrgasbank",
     "vendor": "ukrgasbank",
     "name": {
-      "uk": "УКРГАЗБАНК",
-      "en": "UKRGASBANK",
-      "ru": "УКРГАЗБАНК"
+      "uk": "Укргазбанк",
+      "en": "UkrGasBank",
+      "ru": "Укргазбанк"
     },
+    "payment_method": [
+      "payment_card"
+    ],
     "payout_method": [
       "payment_card"
     ]
@@ -16620,6 +16600,117 @@
       "payment_card"
     ],
     "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "square",
+    "vendor": "square",
+    "name": {
+      "en": "Square",
+      "ru": "Square",
+      "uk": "Square"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "externalprovider",
+    "vendor": "externalprovider",
+    "name": {
+      "uk": "External Provider",
+      "en": "External Provider",
+      "ru": "External Provider"
+    },
+    "payout_method": [
+      "pokermatch_account",
+      "slotoking_account"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "forta",
+    "vendor": "forta",
+    "name": {
+      "uk": "Forta",
+      "en": "Forta",
+      "ru": "Forta"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "sdkfinance",
+    "vendor": "sdkfinance",
+    "name": {
+      "uk": "SDK.finance",
+      "en": "SDK.finance",
+      "ru": "SDK.finance"
+    },
+    "payment_method": [
+      "cascad"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pay2kassa",
+    "vendor": "pay2kassa",
+    "name": {
+      "en": "Pay2Kassa",
+      "ru": "Pay2Kassa",
+      "uk": "Pay2Kassa"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "easypayru",
+    "vendor": "easypayru",
+    "name": {
+      "en": "EasyPayRU",
+      "ru": "EasyPayRU",
+      "uk": "EasyPayRU"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pspgate",
+    "vendor": "pspgate",
+    "name": {
+      "en": "PSPGate",
+      "ru": "PSPGate",
+      "uk": "PSPGate"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "trustpayments",
+    "vendor": "trustpayments",
+    "name": {
+      "en": "Trust Payments",
+      "ru": "Trust Payments",
+      "uk": "Trust Payments"
+    },
+    "payment_method": [
       "payment_card"
     ]
   }

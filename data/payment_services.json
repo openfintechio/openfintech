@@ -963,6 +963,24 @@
   },
   {
     "status": "active",
+    "code": "ripple_usd_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ripple_eur_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "litecoin_eur_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -2180,6 +2198,15 @@
     "status": "active",
     "code": "visa_qr_code_thb_hpp",
     "currency": "THB",
+    "flow": "hpp",
+    "method": "visa_qr_code",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+   {
+    "status": "active",
+    "code": "visa_qr_code_vnd_hpp",
+    "currency": "VND",
     "flow": "hpp",
     "method": "visa_qr_code",
     "amount_min": 0.01,
@@ -4195,6 +4222,34 @@
   },
   {
     "status": "active",
+    "code": "neteller_mdl_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "MDL",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "paysafecard_usd_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -5999,7 +6054,7 @@
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
-    "amount_max": 999999
+    "amount_max": 9999999
   },
   {
     "status": "active",
@@ -6237,6 +6292,64 @@
     "status": "active",
     "code": "muchbetter_thb_invoice",
     "currency": "THB",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "muchbetter",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "muchbetter_pln_invoice",
+    "currency": "PLN",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона MuchBetter кошелька",
+          "uk": "Введіть номер телефону MuchBetter гаманця"
+        },
+        "example": "+447624222721",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "muchbetter",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "muchbetter_cad_invoice",
+    "currency": "CAD",
     "fields": [
       {
         "key": "phone",
@@ -6550,6 +6663,51 @@
     "flow": "hpp",
     "method": "skrill",
     "currency": "MYR",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_bdt_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "BDT",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_npr_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "NPR",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_lkr_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "LKR",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "skrill_mdl_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "MDL",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "cascad_uah_hpp",
+    "flow": "hpp",
+    "method": "cascad",
+    "currency": "UAH",
     "amount_min": 0.01,
     "amount_max": 999999
   }

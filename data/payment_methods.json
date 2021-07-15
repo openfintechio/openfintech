@@ -1486,7 +1486,7 @@
   },
   {
     "code": "sberbank",
-    "category": "bank_transfers",
+    "category": "bank_transfer",
     "status": "active",
     "name": {
       "en": "SberBank",
@@ -1496,7 +1496,7 @@
   },
   {
     "code": "privatbank",
-    "category": "bank_transfers",
+    "category": "bank_transfer",
     "status": "active",
     "name": {
       "en": "Privatbank",
@@ -5633,7 +5633,7 @@
   {
     "code": "tranzzo",
     "vendor": "tranzzo",
-    "category": "online_banking",
+    "category": "internet_banking",
     "status": "active",
     "name": {
       "en": "Tranzzo"
@@ -5842,6 +5842,16 @@
       "en": "VCreditos wallet",
       "ru": "VCreditos wallet",
       "uk": "VCreditos wallet"
+    }
+  },
+  {
+    "code": "cascad",
+    "category": "payment_card",
+    "status": "active",
+    "name": {
+      "en": "Cascad",
+      "ru": "Cascad",
+      "uk": "Cascad"
     }
   }
 ]
