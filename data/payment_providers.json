@@ -16445,7 +16445,21 @@
       "ripple",
       "ethereum",
       "bitcoin_cash",
-      "ethereum",
+      "litecoin"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "amlnode",
+    "vendor": "amlnode",
+    "name": {
+      "en": "AML Node",
+      "ru": "AML Node",
+      "uk": "AML node"
+    },
+    "payment_method": [
+      "bitcoin",
+      "bitcoin_cash",
       "litecoin"
     ]
   },
