@@ -75696,5 +75696,77 @@
         "position": 1
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "cash_uah",
+    "method": "cash",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "cash_rub",
+    "method": "cash",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "cash_usd",
+    "method": "cash",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_eur",
+    "method": "cash",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_gbp",
+    "method": "cash",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_cad",
+    "method": "cash",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_aud",
+    "method": "cash",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_pln",
+    "method": "cash",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_kzt",
+    "method": "cash",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]

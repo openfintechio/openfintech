@@ -6710,5 +6710,86 @@
     "currency": "UAH",
     "amount_min": 0.01,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "cash_uah_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "cash_rub_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "cash_usd_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_eur_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_gbp_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_cad_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_aud_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_pln_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_kzt_hpp",
+    "flow": "hpp",
+    "method": "cash",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]
