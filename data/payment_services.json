@@ -6713,6 +6713,195 @@
   },
   {
     "status": "active",
+    "code": "bitcoin_btc_invoice",
+    "flow": "invoice",
+    "method": "bitcoin",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 10000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_ltc_invoice",
+    "flow": "invoice",
+    "method": "bitcoin",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_bch_invoice",
+    "flow": "invoice",
+    "method": "bitcoin",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_usd_invoice",
+    "flow": "invoice",
+    "method": "bitcoin",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_eur_invoice",
+    "flow": "invoice",
+    "method": "bitcoin",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_uah_invoice",
+    "flow": "invoice",
+    "method": "bitcoin",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_rub_invoice",
+    "flow": "invoice",
+    "method": "bitcoin",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_btc_invoice",
+    "flow": "invoice",
+    "method": "bitcoin_cash",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 10000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_ltc_invoice",
+    "flow": "invoice",
+    "method": "bitcoin_cash",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_bch_invoice",
+    "flow": "invoice",
+    "method": "bitcoin_cash",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_usd_invoice",
+    "flow": "invoice",
+    "method": "bitcoin_cash",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_eur_invoice",
+    "flow": "invoice",
+    "method": "bitcoin_cash",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_uah_invoice",
+    "flow": "invoice",
+    "method": "bitcoin_cash",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_cash_rub_invoice",
+    "flow": "invoice",
+    "method": "bitcoin_cash",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_btc_invoice",
+    "flow": "invoice",
+    "method": "litecoin",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 10000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_rub_invoice",
+    "flow": "invoice",
+    "method": "litecoin",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_ltc_invoice",
+    "flow": "invoice",
+    "method": "litecoin",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_bch_invoice",
+    "flow": "invoice",
+    "method": "litecoin",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_usd_invoice",
+    "flow": "invoice",
+    "method": "litecoin",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_eur_invoice",
+    "flow": "invoice",
+    "method": "litecoin",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_uah_invoice",
+    "flow": "invoice",
+    "method": "litecoin",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "cash_uah_hpp",
     "flow": "hpp",
     "method": "cash",
