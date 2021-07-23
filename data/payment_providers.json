@@ -15613,10 +15613,14 @@
       "en": "Manual"
     },
     "payment_method": [
-      "swift"
+      "swift",
+      "bank_transfer",
+      "cash"
     ],
     "payout_method": [
-      "swift"
+      "swift",
+      "bank_transfer",
+      "cash"
     ]
   },
   {
