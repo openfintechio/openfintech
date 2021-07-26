@@ -75768,5 +75768,32 @@
     "currency": "KZT",
     "amount_min": 0.01,
     "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "globalmoney_uah",
+    "method": "globalmoney",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account",
+          "uk": "Акаунт",
+          "ru": "Аккаунт"
+        },
+        "regexp": "/^380\\d{9}$|^\\d{3,14}$|^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Account (ID, phone number in the format 380987654321, email)",
+          "uk": "Акаунт (ID, номер телефону в форматі 380987654321, email)",
+          "ru": "Аккаунт (ID, номер телефона в формате 380987654321, email)"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
