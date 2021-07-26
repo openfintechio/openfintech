@@ -15613,14 +15613,10 @@
       "en": "Manual"
     },
     "payment_method": [
-      "swift",
-      "bank_transfer",
-      "cash"
+      "swift"
     ],
     "payout_method": [
-      "swift",
-      "bank_transfer",
-      "cash"
+      "swift"
     ]
   },
   {
@@ -16449,21 +16445,7 @@
       "ripple",
       "ethereum",
       "bitcoin_cash",
-      "litecoin"
-    ]
-  },
-  {
-    "status": "active",
-    "code": "amlnode",
-    "vendor": "amlnode",
-    "name": {
-      "en": "AML Node",
-      "ru": "AML Node",
-      "uk": "AML node"
-    },
-    "payment_method": [
-      "bitcoin",
-      "bitcoin_cash",
+      "ethereum",
       "litecoin"
     ]
   },
@@ -16761,6 +16743,19 @@
       "payment_card"
     ],
     "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "qiwi",
+    "vendor": "qiwi",
+    "name": {
+      "en": "Qiwi",
+      "ru": "Qiwi",
+      "uk": "Qiwi"
+    },
+    "payment_method": [
       "payment_card"
     ]
   },
