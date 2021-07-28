@@ -75795,5 +75795,60 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ecascad_account_uah",
+    "method": "ecascad",
+    "currency": "UAH",
+    "amount_min": "1",
+    "amount_max": "1000000",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер аккаунта",
+          "uk": "Номер аккаунта"
+        },
+        "hint": {
+          "en": "Enter account Number",
+          "ru": "Введите номер аккаунта",
+          "uk": "Введіть номер аккаунта"
+        },
+        "regexp": "/^\\d{3,128}$/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ecascad_phone_uah",
+    "method": "ecascad",
+    "currency": "UAH",
+    "amount_min": "1",
+    "amount_max": "1000000",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+380987654321",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
   }
 ]
