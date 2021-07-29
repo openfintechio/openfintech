@@ -16813,5 +16813,18 @@
     "payout_method": [
       "ecascad"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payclub",
+    "vendor": "payclub",
+    "name": {
+      "en": "PayClub",
+      "ru": "PayClub",
+      "uk": "PayClub"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
