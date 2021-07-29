@@ -16826,5 +16826,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "rubikonsoft",
+    "vendor": "rubikonsoft",
+    "name": {
+      "en": "Rubikon Soft",
+      "ru": "Rubikon Soft",
+      "uk": "Rubikon Soft"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
