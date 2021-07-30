@@ -1,0 +1,48 @@
+name: Validate
+
+on: [push]
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.1'
+
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            vendor
+            bin
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install dependencies
+        run: |
+          export PATH="$HOME/.composer/vendor/bin:$PATH"
+          composer self-update
+          composer install -o --ignore-platform-reqs
+
+      - name: Validate composer.json and composer.lock
+        run: composer validate --strict
+
+  validate:
+    needs: prepare
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: |
+            vendor
+            bin
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Run validate
+        run: ./etc/validate.sh

@@ -4,13 +4,18 @@ set -ex
 SCRIPT_PATH="$(dirname $(readlink -f $0))"
 
 build_documentation() {
-  cd $SCRIPT_PATH/doc-build && composer install --ignore-platform-reqs && cd /tmp && git clone https://${GH_TOKEN}@github.com/openfintechio/openfintech-docs.git \
+  cd $SCRIPT_PATH/doc-build && composer install --ignore-platform-reqs && cd /tmp && git clone git@github.com:vfrmn/openfintech-docs.git  \
   && php $SCRIPT_PATH/doc-build/index.php -p /tmp/openfintech-docs && cd openfintech-docs
 }
 
 build_documentation
-git config --global user.email "travis@travis-ci.org"
-git config --global user.name "Travis CI"
+git config --global user.email "actions@github.com"
+git config --global user.name "Github Actions"
 git add .
-git commit --message "Travis build: ${TRAVIS_BUILD_NUMBER}"
-git push origin master
+if ! (git status | grep -q "nothing to commit");
+then
+  git commit --message "Github actions build: ${BUILD_NUMBER}"
+  git push origin master
+fi
+
+
