@@ -17339,16 +17339,6 @@
   },
   {
     "status": "active",
-    "code": "usdt",
-    "category": "alternative",
-    "name": {
-      "en": "Tether",
-      "uk": "Tether",
-      "ru": "Tether"
-    }
-  },
-  {
-    "status": "active",
     "code": "litecoin",
     "category": "alternative",
     "name": {
@@ -23880,6 +23870,17 @@
       "en": "e.Cascad wallet",
       "uk": "e.Cascad wallet",
       "ru": "e.Cascad wallet"
+    }
+  },
+  {
+    "code": "tether",
+    "vendor": "tether",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Tether",
+      "ru": "Tether",
+      "uk": "Tether"
     }
   }
 ]

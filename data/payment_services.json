@@ -649,7 +649,7 @@
     "status": "active",
     "code": "usdt_usd_hpp",
     "flow": "hpp",
-    "method": "usdt",
+    "method": "tether",
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
@@ -6980,5 +6980,77 @@
     "currency": "KZT",
     "amount_min": 0.01,
     "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "tether_btc_invoice",
+    "flow": "invoice",
+    "method": "tether",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 10000
+  },
+  {
+    "status": "active",
+    "code": "tether_ltc_invoice",
+    "flow": "invoice",
+    "method": "tether",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_bch_invoice",
+    "flow": "invoice",
+    "method": "tether",
+    "currency": "BCH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_usd_invoice",
+    "flow": "invoice",
+    "method": "tether",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_eur_invoice",
+    "flow": "invoice",
+    "method": "tether",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_uah_invoice",
+    "flow": "invoice",
+    "method": "tether",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_rub_invoice",
+    "flow": "invoice",
+    "method": "tether",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_usdt_invoice",
+    "flow": "invoice",
+    "method": "tether",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
