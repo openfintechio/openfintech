@@ -2162,14 +2162,6 @@
     }
   },
   {
-    "code": "usdt",
-    "category": "alternative",
-    "status": "active",
-    "name": {
-      "en": "Tether"
-    }
-  },
-  {
     "code": "ekonto",
     "vendor": "ekonto",
     "category": "internet_banking",
@@ -5860,6 +5852,17 @@
     "category": "cash_payment",
     "name": {
       "en": "CASH"
+    }
+  },
+  {
+    "code": "tether",
+    "vendor": "tether",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Tether",
+      "ru": "Tether",
+      "uk": "Tether"
     }
   }
 ]
