@@ -16843,6 +16843,19 @@
   },
   {
     "status": "active",
+    "code": "dixonpay",
+    "vendor": "dixonpay",
+    "name": {
+      "en": "DixonPay",
+      "ru": "DixonPay",
+      "uk": "DixonPay"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "betatransfer",
     "vendor": "betatransfer",
     "name": {
