@@ -16866,5 +16866,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "gumballpay",
+    "vendor": "gumballpay",
+    "name": {
+      "en": "GumballPay",
+      "ru": "GumballPay",
+      "uk": "GumballPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]

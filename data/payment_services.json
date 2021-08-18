@@ -574,6 +574,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_zar_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "ZAR",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_inr_hpp",
     "flow": "hpp",
     "method": "payment_card",
