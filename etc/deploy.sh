@@ -3,27 +3,26 @@
 set -ex
 
 setup_git() {
-  git config --global user.email "travis@travis-ci.org"
-  git config --global user.name "Travis CI"
-}
-
-commit_files() {
-  git add .
-  git commit --message "Travis build: ${TRAVIS_BUILD_NUMBER}"
+  git config --global user.email "actions@github.com"
+  git config --global user.name "Github Actions"
 }
 
 push_files() {
-  git push origin master
+  git add .
+  if ! (git status | grep -q "nothing to commit");
+  then
+    git commit --message "Github actions build: ${BUILD_NUMBER}"
+    git push origin master
+    git push origin master
+  fi
 }
-
 build_meta() {
   mkdir -p metadata && cd metadata && php ../etc/metadata-build.php && cd - && mv metadata /tmp/ && cd /tmp \
-  && git clone https://${GH_TOKEN}@github.com/openfintechio/meta.git  \
+  && git clone git@github.com:vfrmn/meta.git  \
   && cp metadata/* meta/data/ \
   && cd meta
 }
 
 build_meta
 setup_git
-commit_files
 push_files

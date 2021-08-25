@@ -1,0 +1,61 @@
+name: Deploy
+
+on:
+  workflow_run:
+    workflows:
+      - Validate
+    types:
+      - completed
+    branches:
+      - master
+
+jobs:
+  deploy-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Generate build number
+        uses: einaregilsson/build-number@v3
+        with:
+          token: ${{ secrets.github_token }}
+
+      - name: Add SSH Agent
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
+
+      - name: Deploy metadata
+        run: ./etc/deploy.sh
+
+  deploy-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Generate build number
+        uses: einaregilsson/build-number@v3
+        with:
+          token: ${{ secrets.github_token }}
+
+      - name: Add SSH Agent
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_DOCS_KEY }}
+
+      - name: Deploy docs
+        run: ./etc/deploy-docs.sh
+
+  deploy-s3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install AWS Command Line Interface
+        run: |
+          pip install --user awscli
+          export PATH=$PATH:$HOME/.local/bin
+
+      - name: Deploy resources
+        run: ./etc/deploy-s3.sh
+
