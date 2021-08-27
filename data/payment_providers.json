@@ -16678,19 +16678,6 @@
   },
   {
     "status": "active",
-    "code": "sdkfinance",
-    "vendor": "sdkfinance",
-    "name": {
-      "uk": "SDK.finance",
-      "en": "SDK.finance",
-      "ru": "SDK.finance"
-    },
-    "payment_method": [
-      "cascad"
-    ]
-  },
-  {
-    "status": "active",
     "code": "pay2kassa",
     "vendor": "pay2kassa",
     "name": {
@@ -16819,6 +16806,9 @@
     },
     "payout_method": [
       "ecascad"
+    ],
+    "payment_method": [
+      "cascad"
     ]
   },
   {
