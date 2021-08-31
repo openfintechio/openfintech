@@ -16547,7 +16547,10 @@
     "code": "tome",
     "vendor": "tome",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "yandexmoney",
+      "webmoneytransfer",
+      "qiwi"
     ],
     "payout_method" : [
       "payment_card",
