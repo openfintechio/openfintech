@@ -71290,6 +71290,41 @@
           "ru": "Введите полное имя отправителя",
           "uk": "Введіть повне імʼя відправкника"
         }
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\d{9,14}$\/",
+        "required": true,
+        "position": 4
       }
     ],
     "amount_min": "0.01",
@@ -75884,5 +75919,101 @@
         "position": 1
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "upi_inr",
+    "currency": "INR",
+    "method": "upi",
+    "fields": [
+      {
+        "key": "vpa",
+        "type": "string",
+        "label": {
+          "en": "VPA",
+          "ru": "VPA",
+          "uk": "VPA"
+        },
+        "hint": {
+          "en": "Enter VPA",
+          "ru": "Введите VPA",
+          "uk": "Введіть VPA"
+        },
+        "regexp": "\/^\\w.+@\\w+$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "label": {
+          "en": "Full name",
+          "ru": "ФИО",
+          "uk": "ПIБ"
+        },
+        "hint": {
+          "en": "Enter Full name",
+          "ru": "Введите ФИО",
+          "uk": "Введіть ПIБ"
+        },
+        "regexp": "\/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\d{9,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter Address",
+          "ru": "Введите адресс",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": true,
+        "position": 7
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
