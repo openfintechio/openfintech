@@ -16942,5 +16942,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "moneypay",
+    "vendor": "moneypay",
+    "name": {
+      "en": "MoneyPay",
+      "ru": "MoneyPay",
+      "uk": "MoneyPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
