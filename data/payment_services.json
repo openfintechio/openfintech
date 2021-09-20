@@ -7073,6 +7073,60 @@
   },
   {
     "status": "active",
+    "code": "tether_erc20_uah_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_usd_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_eur_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_uah_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_usd_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_eur_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "tether_eur_invoice",
     "flow": "invoice",
     "method": "tether",
