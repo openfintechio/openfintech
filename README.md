@@ -1,7 +1,7 @@
 
 # OpenSource FinTech standards and data
 
-[![Build Status](https://img.shields.io/travis/openfintechio/openfintech.svg?style=flat-square)](https://travis-ci.org/openfintechio/openfintech)
+[![Deploy](https://github.com/openfintechio/openfintech/actions/workflows/deploy.yml/badge.svg)](https://github.com/openfintechio/openfintech/actions/workflows/deploy.yml)
 [![Total Downloads](https://poser.pugx.org/paycore/openfintech-data/downloads?format=flat-square)](https://packagist.org/packages/paycore/openfintech-data)
 [![License: MIT](https://img.shields.io/packagist/l/paycore/openfintech-data?style=flat-square)](https://opensource.org/licenses/MIT)
 
