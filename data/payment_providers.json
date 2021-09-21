@@ -16929,5 +16929,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "getapay",
+    "vendor": "getapay",
+    "name": {
+      "en": "GetaPay",
+      "ru": "GetaPay",
+      "uk": "GetaPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
