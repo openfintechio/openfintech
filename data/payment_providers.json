@@ -16916,5 +16916,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "appexmoney",
+    "vendor": "appexmoney",
+    "name": {
+      "en": "Appexmoney",
+      "ru": "Appexmoney",
+      "uk": "Appexmoney"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
