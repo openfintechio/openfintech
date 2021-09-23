@@ -7160,5 +7160,41 @@
     "currency": "USDT",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_usdt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_usdt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "binance_coin_bnb_hpp",
+    "flow": "hpp",
+    "method": "binance_coin",
+    "currency": "BNB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_doge_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "DOGE",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
