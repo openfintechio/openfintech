@@ -7136,35 +7136,25 @@
     "vendor": "interkassa",
     "payment_method": [
       "webmoneytransfer",
-      "test",
       "payment_card",
-      "privat24",
       "beeline",
       "megafon",
       "mts",
-      "advcash_wallet",
-      "payeer",
       "exmo",
-      "qiwi",
       "yandexmoney",
       "tele2ru",
       "euroset",
       "svyaznoy",
       "perfectmoney",
-      "rbkmoney",
       "alfaclick",
       "psbretail",
-      "ssk_ua",
-      "ibox",
       "easypay",
-      "walletone",
-      "mminvoicing",
-      "epese",
-      "ecoineu",
-      "epayua"
+      "mminvoicing"
     ],
     "payout_method": [
-      "bank_card"
+      "payment_card",
+      "bank_transfer",
+      "upi"
     ],
     "name": {
       "en": "Interkassa"
