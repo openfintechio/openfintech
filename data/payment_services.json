@@ -882,6 +882,15 @@
   },
   {
     "status": "active",
+    "code": "ethereum_usdt_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "ethereum_uah_hpp",
     "flow": "hpp",
     "method": "ethereum",
@@ -2683,6 +2692,15 @@
     "status": "active",
     "code": "bitcoin_uah_hpp",
     "currency": "UAH",
+    "method": "bitcoin",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_usdt_hpp",
+    "currency": "USDT",
     "method": "bitcoin",
     "flow": "hpp",
     "amount_min": 0.01,
@@ -7096,6 +7114,24 @@
     "method": "tether",
     "currency": "EUR",
     "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_eth_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_btc_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "BTC",
+    "amount_min": 0.00001,
     "amount_max": 100000
   },
   {
