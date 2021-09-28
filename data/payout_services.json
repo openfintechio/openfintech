@@ -34123,6 +34123,54 @@
   },
   {
     "status": "active",
+    "code": "tether_erc20_usd",
+    "method": "tether",
+    "currency": "USD",
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_usd",
+    "method": "tether",
+    "currency": "USD",
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_uah",
+    "method": "tether",
+    "currency": "UAH",
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_uah",
+    "method": "tether",
+    "currency": "UAH",
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_eur",
+    "method": "tether",
+    "currency": "EUR",
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_eur",
+    "method": "tether",
+    "currency": "EUR",
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
     "code": "bitcoin_btc",
     "method": "bitcoin",
     "currency": "BTC",
