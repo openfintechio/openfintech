@@ -878,7 +878,7 @@
     "method": "ethereum",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -887,7 +887,7 @@
     "method": "ethereum",
     "currency": "UAH",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -896,7 +896,7 @@
     "method": "ethereum",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -905,7 +905,7 @@
     "method": "privatbank_ssk",
     "currency": "UAH",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -914,7 +914,7 @@
     "method": "privatbank_ssk",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -940,8 +940,8 @@
     "flow": "hpp",
     "method": "litecoin",
     "currency": "UAH",
-    "amount_min": 0.00001,
-    "amount_max": 1000
+    "amount_min": 0.01,
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -968,7 +968,7 @@
     "method": "litecoin",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -977,7 +977,7 @@
     "method": "ripple",
     "currency": "UAH",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -986,7 +986,7 @@
     "method": "ripple",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -995,7 +995,7 @@
     "method": "ripple",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000
   },
   {
     "status": "active",
