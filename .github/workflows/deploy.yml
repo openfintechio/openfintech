@@ -16,11 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Generate build number
-        uses: einaregilsson/build-number@v3
-        with:
-          token: ${{ secrets.github_token }}
-
       - name: Add SSH Agent
         uses: webfactory/ssh-agent@v0.5.3
         with:
@@ -34,11 +29,6 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v2
-
-      - name: Generate build number
-        uses: einaregilsson/build-number@v3
-        with:
-          token: ${{ secrets.github_token }}
 
       - name: Add SSH Agent
         uses: webfactory/ssh-agent@v0.5.3

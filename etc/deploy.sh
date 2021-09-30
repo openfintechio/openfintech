@@ -10,7 +10,7 @@ setup_git() {
 push_files() {
   git add .
   if ! (git status | grep -q "nothing to commit"); then
-    git commit --message "Github actions build: ${BUILD_NUMBER}"
+    git commit --message "Github action #${GITHUB_RUN_NUMBER}: ID ${GITHUB_RUN_ID}"
     git push origin master
   fi
 }
