@@ -16723,7 +16723,10 @@
       "uk": "EasyTransfer"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "ethereum",
+      "tether",
+      "bitcoin"
     ],
     "payout_method": [
       "payment_card"
