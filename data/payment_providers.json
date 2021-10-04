@@ -16965,5 +16965,18 @@
       "binance_coin",
       "dogecoin"
     ]
+  },
+  {
+    "status": "active",
+    "code": "volt",
+    "vendor": "volt",
+    "name": {
+      "en": "VOLT",
+      "ru": "VOLT",
+      "uk": "VOLT"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
