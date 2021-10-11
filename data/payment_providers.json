@@ -16978,5 +16978,19 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "processingmoney",
+    "vendor": "processingmoney",
+    "name": {
+      "en": "Processing.Money"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
