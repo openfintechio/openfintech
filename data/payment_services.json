@@ -3032,6 +3032,15 @@
   },
   {
     "status": "active",
+    "code": "interkassa_inr_hpp",
+    "currency": "INR",
+    "method": "interkassa",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "geopaynet_grn_hpp",
     "currency": "GRN",
     "flow": "hpp",
@@ -7232,5 +7241,259 @@
     "currency": "DOGE",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "industrial_development_bank_of_india_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "industrial_development_bank_of_india",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "dhanalaxmi_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "dhanalaxmi_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "federal_bank_of_india_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "federal_bank_of_india",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "karnatka_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "karnatka_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "development_credit_bank_of_india_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "development_credit_bank_of_india",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "jammu_and_kashmir_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "jammu_and_kashmir_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "karurvysya_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "karurvysya_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "indian_overseas_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "indian_overseas_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "indusind_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "indusind_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bank_of_maharashtra_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "bank_of_maharashtra",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "tamilnad_mercantile_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "tamilnad_mercantile_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "lakshmi_vilas_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "lakshmi_vilas_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "uco_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "uco_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "cosmos_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "cosmos_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "shamrao_vithal_cooperative_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "shamrao_vithal_cooperative_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "idfc_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "idfc_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "deutsche_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "deutsche_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "south_indian_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "south_indian_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "upi_aggregated_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "upi_aggregated",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "uk": "Номер рахунку",
+          "ru": "Номер счета"
+        },
+        "regexp": "\/^.{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter Account Number",
+          "uk": "Введіть номер рахунку",
+          "ru": "Введите номер счета"
+        },
+        "example": "name@bankname"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "paytm_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "paytm",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "mobikwik_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "mobikwik",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "airtel_money",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "reliance_jio_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "reliance_jio",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "ola_money_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "ola_money",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "freecharge_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "freecharge",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "phonepe_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "phonepe",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]
