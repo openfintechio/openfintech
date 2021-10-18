@@ -16983,10 +16983,12 @@
   },
   {
     "status": "active",
-    "code": "processingmoney",
-    "vendor": "processingmoney",
+    "code": "pmsolutions",
+    "vendor": "pmsolutions",
     "name": {
-      "en": "Processing.Money"
+      "en": "PMSolutions",
+      "ru": "PMSolutions",
+      "uk": "PMSolutions"
     },
     "payment_method": [
       "payment_card"
