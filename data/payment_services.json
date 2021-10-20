@@ -7477,5 +7477,61 @@
     "method": "phonepe",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "nixmoney_usd_hpp",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "ID аккаунта",
+          "uk": "ID аккаунта"
+        },
+        "hint": {
+          "en": "Enter account ID",
+          "ru": "Введите ID аккаунта",
+          "uk": "Введіть ID аккаунта"
+        },
+        "regexp": "\/^(U|E)[0-9]{14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "hpp",
+    "method": "nixmoney",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "nixmoney_eur_hpp",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "ID аккаунта",
+          "uk": "ID аккаунта"
+        },
+        "hint": {
+          "en": "Enter account ID",
+          "ru": "Введите ID аккаунта",
+          "uk": "Введіть ID аккаунта"
+        },
+        "regexp": "\/^(U|E)[0-9]{14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "hpp",
+    "method": "nixmoney",
+    "amount_min": 0.01,
+    "amount_max": 999999
   }
 ]
