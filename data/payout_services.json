@@ -76001,5 +76001,59 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "nixmoney_usd",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "ID аккаунта",
+          "uk": "ID аккаунта"
+        },
+        "hint": {
+          "en": "Enter account ID",
+          "ru": "Введите ID аккаунта",
+          "uk": "Введіть ID аккаунта"
+        },
+        "regexp": "\/^(U|E)[0-9]{14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "method": "nixmoney",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "nixmoney_eur",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "ID аккаунта",
+          "uk": "ID аккаунта"
+        },
+        "hint": {
+          "en": "Enter account ID",
+          "ru": "Введите ID аккаунта",
+          "uk": "Введіть ID аккаунта"
+        },
+        "regexp": "\/^(U|E)[0-9]{14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "method": "nixmoney",
+    "amount_min": 0.01,
+    "amount_max": 999999
   }
 ]
