@@ -17134,5 +17134,18 @@
     "payout_method": [
       "nixmoney"
     ]
+  },
+  {
+    "status": "active",
+    "code": "decard",
+    "vendor": "decard",
+    "name": {
+      "en": "Decard",
+      "ru": "Decard",
+      "uk": "Decard"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
