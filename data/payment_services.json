@@ -7484,17 +7484,17 @@
     "currency": "USD",
     "fields": [
       {
-        "key": "account",
+        "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account ID",
-          "ru": "ID аккаунта",
-          "uk": "ID аккаунта"
+          "en": "Wallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
         },
         "hint": {
-          "en": "Enter account ID",
-          "ru": "Введите ID аккаунта",
-          "uk": "Введіть ID аккаунта"
+          "en": "Enter wallet ID",
+          "ru": "Введите ID кошелька",
+          "uk": "Введіть ID гаманця"
         },
         "regexp": "\/^(U|E)[0-9]{14}$\/",
         "required": false,
@@ -7512,17 +7512,17 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "account",
+        "key": "wallet_id",
         "type": "string",
         "label": {
-          "en": "Account ID",
-          "ru": "ID аккаунта",
-          "uk": "ID аккаунта"
+          "en": "Wallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
         },
         "hint": {
-          "en": "Enter account ID",
-          "ru": "Введите ID аккаунта",
-          "uk": "Введіть ID аккаунта"
+          "en": "Enter wallet ID",
+          "ru": "Введите ID кошелька",
+          "uk": "Введіть ID гаманця"
         },
         "regexp": "\/^(U|E)[0-9]{14}$\/",
         "required": false,
