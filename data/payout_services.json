@@ -75799,6 +75799,33 @@
   },
   {
     "status": "active",
+    "code": "paytm_inr",
+    "method": "paytm",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер аккаунта",
+          "uk": "Номер аккаунта"
+        },
+        "hint": {
+          "en": "Enter account Number",
+          "ru": "Введите номер аккаунта",
+          "uk": "Введіть номер аккаунта"
+        },
+        "regexp": "/\\d{10,15}$/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
     "code": "globalmoney_uah",
     "method": "globalmoney",
     "currency": "UAH",

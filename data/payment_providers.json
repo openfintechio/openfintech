@@ -17010,5 +17010,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "octopayz",
+    "vendor": "octopayz",
+    "name": {
+      "en": "Octopayz",
+      "ru": "Octopayz",
+      "uk": "Octopayz"
+    },
+    "payout_method": [
+      "paytm"
+    ]
   }
 ]

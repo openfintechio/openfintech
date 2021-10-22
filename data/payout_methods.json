@@ -23853,6 +23853,16 @@
   },
   {
     "status": "active",
+    "code": "paytm",
+    "category": "digital_wallet",
+    "name": {
+      "en": "PayTM Wallet",
+      "uk": "PayTM Гаманець",
+      "ru": "PayTM Кошелёк"
+    }
+  },
+  {
+    "status": "active",
     "code": "globalmoney",
     "vendor": "globalmoney",
     "category": "digital_wallet",
