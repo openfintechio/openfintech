@@ -7253,19 +7253,19 @@
   },
   {
     "status": "active",
-    "code": "dhanalaxmi_bank_inr_hpp",
+    "code": "dhanalaxmi_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "dhanalaxmi_bank",
+    "method": "dhanalaxmi_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "federal_bank_of_india_inr_hpp",
+    "code": "federal_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "federal_bank_of_india",
+    "method": "federal_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -7280,28 +7280,28 @@
   },
   {
     "status": "active",
-    "code": "development_credit_bank_of_india_inr_hpp",
+    "code": "dcb_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "development_credit_bank_of_india",
+    "method": "dcb_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "jammu_and_kashmir_bank_inr_hpp",
+    "code": "j_k_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "jammu_and_kashmir_bank",
+    "method": "j_k_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "karurvysya_bank_inr_hpp",
+    "code": "karurvysya_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "karurvysya_bank",
+    "method": "karurvysya_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -7325,73 +7325,73 @@
   },
   {
     "status": "active",
-    "code": "bank_of_maharashtra_inr_hpp",
+    "code": "maharashtra_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "bank_of_maharashtra",
+    "method": "maharashtra_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "tamilnad_mercantile_bank_inr_hpp",
+    "code": "tamilnad_mercantile_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "tamilnad_mercantile_bank",
+    "method": "tamilnad_mercantile_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "lakshmi_vilas_bank_inr_hpp",
+    "code": "lakshmi_vilas_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "lakshmi_vilas_bank",
+    "method": "lakshmi_vilas_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "uco_bank_inr_hpp",
+    "code": "uco_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "uco_bank",
+    "method": "uco_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "cosmos_bank_inr_hpp",
+    "code": "cosmos_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "cosmos_bank",
+    "method": "cosmos_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "shamrao_vithal_cooperative_bank_inr_hpp",
+    "code": "shamrao_vithal_cooperative_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "shamrao_vithal_cooperative_bank",
+    "method": "shamrao_vithal_cooperative_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "idfc_bank_inr_hpp",
+    "code": "idfc_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "idfc_bank",
+    "method": "idfc_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
   {
     "status": "active",
-    "code": "deutsche_bank_inr_hpp",
+    "code": "deutsche_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "deutsche_bank",
+    "method": "deutsche_bank_india",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -7471,10 +7471,10 @@
   },
   {
     "status": "active",
-    "code": "ola_money_inr_hpp",
+    "code": "olamoney_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
-    "method": "ola_money",
+    "method": "olamoney",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
