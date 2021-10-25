@@ -17076,5 +17076,21 @@
     ],
     "payout_method": [
     ]
+  },
+  {
+    "status": "active",
+    "code": "whitebit",
+    "vendor": "whitebit",
+    "name": {
+      "en": "WhiteBIT",
+      "ru": "WhiteBIT",
+      "uk": "WhiteBIT"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
