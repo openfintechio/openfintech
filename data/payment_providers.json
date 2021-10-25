@@ -17061,5 +17061,20 @@
     "payout_method": [
       "paytm"
     ]
+  },
+  {
+    "status": "active",
+    "code": "opay",
+    "vendor": "opay",
+    "name": {
+      "en": "OPay",
+      "ru": "OPay",
+      "uk": "OPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+    ]
   }
 ]
