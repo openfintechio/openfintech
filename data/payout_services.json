@@ -34171,6 +34171,33 @@
   },
   {
     "status": "active",
+    "code": "tether_erc20_usdt",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Number wallet",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet",
+          "ru": "Введите кошелек",
+          "uk": "Введіть гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
     "code": "bitcoin_btc",
     "method": "bitcoin",
     "currency": "BTC",
