@@ -7244,15 +7244,6 @@
   },
   {
     "status": "active",
-    "code": "industrial_development_bank_of_india_inr_hpp",
-    "currency": "INR",
-    "flow": "hpp",
-    "method": "industrial_development_bank_of_india",
-    "amount_min": 0.01,
-    "amount_max": 9999999
-  },
-  {
-    "status": "active",
     "code": "dhanalaxmi_bank_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -7266,15 +7257,6 @@
     "currency": "INR",
     "flow": "hpp",
     "method": "federal_bank_india",
-    "amount_min": 0.01,
-    "amount_max": 9999999
-  },
-  {
-    "status": "active",
-    "code": "karnatka_bank_inr_hpp",
-    "currency": "INR",
-    "flow": "hpp",
-    "method": "karnatka_bank",
     "amount_min": 0.01,
     "amount_max": 9999999
   },
