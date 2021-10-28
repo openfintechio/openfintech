@@ -17108,6 +17108,19 @@
   },
   {
     "status": "active",
+    "code": "dialup",
+    "vendor": "dialup",
+    "name": {
+      "en": "Dialup",
+      "ru": "Dialup",
+      "uk": "Dialup"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "nixmoney",
     "vendor": "nixmoney",
     "name": {
