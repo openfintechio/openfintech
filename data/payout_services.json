@@ -34118,6 +34118,25 @@
     "code": "tether_usd",
     "method": "tether",
     "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether wallet",
+          "ru": "Tether кошелек",
+          "uk": "Tether гаманець"
+        },
+        "hint": {
+          "en": "Tether wallet",
+          "ru": "Tether кошелек",
+          "uk": "Tether гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": "10",
     "amount_max": "21943"
   },
@@ -34126,6 +34145,25 @@
     "code": "tether_erc20_usd",
     "method": "tether",
     "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелек",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелек",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": "0.01",
     "amount_max": "1000000"
   },
@@ -34134,6 +34172,25 @@
     "code": "tether_trc20_usd",
     "method": "tether",
     "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелек",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелек",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": "0.01",
     "amount_max": "1000000"
   },
@@ -34142,6 +34199,25 @@
     "code": "tether_erc20_uah",
     "method": "tether",
     "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелек",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелек",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": "0.01",
     "amount_max": "1000000"
   },
@@ -34150,6 +34226,25 @@
     "code": "tether_trc20_uah",
     "method": "tether",
     "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелек",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелек",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": "0.01",
     "amount_max": "1000000"
   },
@@ -34158,6 +34253,25 @@
     "code": "tether_erc20_eur",
     "method": "tether",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелек",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелек",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": "0.01",
     "amount_max": "1000000"
   },
@@ -34166,6 +34280,25 @@
     "code": "tether_trc20_eur",
     "method": "tether",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелек",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелек",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": "0.01",
     "amount_max": "1000000"
   },
