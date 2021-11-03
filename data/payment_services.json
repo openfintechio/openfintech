@@ -7477,5 +7477,61 @@
     "method": "phonepe",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "nixmoney_usd_hpp",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите ID кошелька",
+          "uk": "Введіть ID гаманця"
+        },
+        "regexp": "\/^(U|E)[0-9]{14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "hpp",
+    "method": "nixmoney",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "nixmoney_eur_hpp",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите ID кошелька",
+          "uk": "Введіть ID гаманця"
+        },
+        "regexp": "\/^(U|E)[0-9]{14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "hpp",
+    "method": "nixmoney",
+    "amount_min": 0.01,
+    "amount_max": 999999
   }
 ]
