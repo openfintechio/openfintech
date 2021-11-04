@@ -33989,12 +33989,12 @@
         "type": "string",
         "label": {
           "en": "Ethereum wallet",
-          "ru": "Ethereum кошелек",
+          "ru": "Ethereum кошелёк",
           "uk": "Ethereum гаманець"
         },
         "hint": {
           "en": "Enter Ethereum wallet",
-          "ru": "Введите Ethereum кошелек",
+          "ru": "Введите Ethereum кошелёк",
           "uk": "Введіть Ethereum гаманець"
         },
         "regexp": "\/^\\+\\d{1,15}$\/",
@@ -34016,12 +34016,12 @@
         "type": "string",
         "label": {
           "en": "Ethereum wallet",
-          "ru": "Ethereum кошелек",
+          "ru": "Ethereum кошелёк",
           "uk": "Ethereum гаманець"
         },
         "hint": {
           "en": "Enter Ethereum wallet",
-          "ru": "Введите Ethereum кошелек",
+          "ru": "Введите Ethereum кошелёк",
           "uk": "Введіть Ethereum гаманець"
         },
         "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
@@ -34043,12 +34043,12 @@
         "type": "string",
         "label": {
           "en": "Ethereum wallet",
-          "ru": "Ethereum кошелек",
+          "ru": "Ethereum кошелёк",
           "uk": "Ethereum гаманець"
         },
         "hint": {
           "en": "Enter Ethereum wallet",
-          "ru": "Введите Ethereum кошелек",
+          "ru": "Введите Ethereum кошелёк",
           "uk": "Введіть Ethereum гаманець"
         },
         "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
@@ -34070,12 +34070,12 @@
         "type": "string",
         "label": {
           "en": "Ethereum wallet",
-          "ru": "Ethereum кошелек",
+          "ru": "Ethereum кошелёк",
           "uk": "Ethereum гаманець"
         },
         "hint": {
           "en": "Enter Ethereum wallet",
-          "ru": "Введите Ethereum кошелек",
+          "ru": "Введите Ethereum кошелёк",
           "uk": "Введіть Ethereum гаманець"
         },
         "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
@@ -34102,7 +34102,7 @@
         },
         "hint": {
           "en": "Enter WMZ wallet",
-          "ru": "Введите WMZ кошелек",
+          "ru": "Введите WMZ кошелёк",
           "uk": "Введіть WMZ гаманець"
         },
         "regexp": "\/^Z\\d{12}$\/",
@@ -34124,17 +34124,18 @@
         "type": "string",
         "label": {
           "en": "Tether wallet",
-          "ru": "Tether кошелек",
+          "ru": "Tether кошелёк",
           "uk": "Tether гаманець"
         },
         "hint": {
           "en": "Tether wallet",
-          "ru": "Tether кошелек",
+          "ru": "Tether кошелёк",
           "uk": "Tether гаманець"
         },
         "regexp": "\/^.{10,64}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
     "amount_min": "10",
@@ -34151,17 +34152,18 @@
         "type": "string",
         "label": {
           "en": "Tether ERC-20 wallet",
-          "ru": "Tether ERC-20 кошелек",
+          "ru": "Tether ERC-20 кошелёк",
           "uk": "Tether ERC-20 гаманець"
         },
         "hint": {
           "en": "Tether ERC-20 wallet",
-          "ru": "Tether ERC-20 кошелек",
+          "ru": "Tether ERC-20 кошелёк",
           "uk": "Tether ERC-20 гаманець"
         },
         "regexp": "\/^.{10,64}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
     "amount_min": "0.01",
@@ -34178,17 +34180,18 @@
         "type": "string",
         "label": {
           "en": "Tether TRC-20 wallet",
-          "ru": "Tether TRC-20 кошелек",
+          "ru": "Tether TRC-20 кошелёк",
           "uk": "Tether TRC-20 гаманець"
         },
         "hint": {
           "en": "Tether TRC-20 wallet",
-          "ru": "Tether TRC-20 кошелек",
+          "ru": "Tether TRC-20 кошелёк",
           "uk": "Tether TRC-20 гаманець"
         },
         "regexp": "\/^.{10,64}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
     "amount_min": "0.01",
@@ -34205,17 +34208,18 @@
         "type": "string",
         "label": {
           "en": "Tether ERC-20 wallet",
-          "ru": "Tether ERC-20 кошелек",
+          "ru": "Tether ERC-20 кошелёк",
           "uk": "Tether ERC-20 гаманець"
         },
         "hint": {
           "en": "Tether ERC-20 wallet",
-          "ru": "Tether ERC-20 кошелек",
+          "ru": "Tether ERC-20 кошелёк",
           "uk": "Tether ERC-20 гаманець"
         },
         "regexp": "\/^.{10,64}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
     "amount_min": "0.01",
@@ -34232,17 +34236,18 @@
         "type": "string",
         "label": {
           "en": "Tether TRC-20 wallet",
-          "ru": "Tether TRC-20 кошелек",
+          "ru": "Tether TRC-20 кошелёк",
           "uk": "Tether TRC-20 гаманець"
         },
         "hint": {
           "en": "Tether TRC-20 wallet",
-          "ru": "Tether TRC-20 кошелек",
+          "ru": "Tether TRC-20 кошелёк",
           "uk": "Tether TRC-20 гаманець"
         },
         "regexp": "\/^.{10,64}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
     "amount_min": "0.01",
@@ -34259,17 +34264,18 @@
         "type": "string",
         "label": {
           "en": "Tether ERC-20 wallet",
-          "ru": "Tether ERC-20 кошелек",
+          "ru": "Tether ERC-20 кошелёк",
           "uk": "Tether ERC-20 гаманець"
         },
         "hint": {
           "en": "Tether ERC-20 wallet",
-          "ru": "Tether ERC-20 кошелек",
+          "ru": "Tether ERC-20 кошелёк",
           "uk": "Tether ERC-20 гаманець"
         },
         "regexp": "\/^.{10,64}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
     "amount_min": "0.01",
@@ -34286,17 +34292,18 @@
         "type": "string",
         "label": {
           "en": "Tether TRC-20 wallet",
-          "ru": "Tether TRC-20 кошелек",
+          "ru": "Tether TRC-20 кошелёк",
           "uk": "Tether TRC-20 гаманець"
         },
         "hint": {
           "en": "Tether TRC-20 wallet",
-          "ru": "Tether TRC-20 кошелек",
+          "ru": "Tether TRC-20 кошелёк",
           "uk": "Tether TRC-20 гаманець"
         },
         "regexp": "\/^.{10,64}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
     "amount_min": "0.01",
@@ -34313,12 +34320,12 @@
         "type": "string",
         "label": {
           "en": "Bitcoin wallet",
-          "ru": "Bitcoin кошелек",
+          "ru": "Bitcoin кошелёк",
           "uk": "Bitcoin гаманець"
         },
         "hint": {
           "en": "Enter Bitcoin wallet",
-          "ru": "Введите Bitcoin кошелек",
+          "ru": "Введите Bitcoin кошелёк",
           "uk": "Введіть Bitcoin гаманець"
         },
         "regexp": "\/^\\+\\d{1,15}$\/",
@@ -34340,12 +34347,12 @@
         "type": "string",
         "label": {
           "en": "Bitcoin wallet",
-          "ru": "Bitcoin кошелек",
+          "ru": "Bitcoin кошелёк",
           "uk": "Bitcoin гаманець"
         },
         "hint": {
           "en": "Enter Bitcoin wallet",
-          "ru": "Введите Bitcoin кошелек",
+          "ru": "Введите Bitcoin кошелёк",
           "uk": "Введіть Bitcoin гаманець"
         },
         "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
@@ -34367,12 +34374,12 @@
         "type": "string",
         "label": {
           "en": "Bitcoin wallet",
-          "ru": "Bitcoin кошелек",
+          "ru": "Bitcoin кошелёк",
           "uk": "Bitcoin гаманець"
         },
         "hint": {
           "en": "Enter Bitcoin wallet",
-          "ru": "Введите Bitcoin кошелек",
+          "ru": "Введите Bitcoin кошелёк",
           "uk": "Введіть Bitcoin гаманець"
         },
         "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
@@ -34394,12 +34401,12 @@
         "type": "string",
         "label": {
           "en": "Bitcoin wallet",
-          "ru": "Bitcoin кошелек",
+          "ru": "Bitcoin кошелёк",
           "uk": "Bitcoin гаманець"
         },
         "hint": {
           "en": "Enter Bitcoin wallet",
-          "ru": "Введите Bitcoin кошелек",
+          "ru": "Введите Bitcoin кошелёк",
           "uk": "Введіть Bitcoin гаманець"
         },
         "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
@@ -34421,12 +34428,12 @@
         "type": "string",
         "label": {
           "en": "Litecoin wallet",
-          "ru": "Litecoin кошелек",
+          "ru": "Litecoin кошелёк",
           "uk": "Litecoin гаманець"
         },
         "hint": {
           "en": "Enter Litecoin wallet",
-          "ru": "Введите Litecoin кошелек",
+          "ru": "Введите Litecoin кошелёк",
           "uk": "Введіть Litecoin гаманець"
         },
         "regexp": "\/^\\+\\d{1,15}$\/",
@@ -34448,12 +34455,12 @@
         "type": "string",
         "label": {
           "en": "Litecoin wallet",
-          "ru": "Litecoin кошелек",
+          "ru": "Litecoin кошелёк",
           "uk": "Litecoin гаманець"
         },
         "hint": {
           "en": "Enter Litecoin wallet",
-          "ru": "Введите Litecoin кошелек",
+          "ru": "Введите Litecoin кошелёк",
           "uk": "Введіть Litecoin гаманець"
         },
         "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
@@ -34475,12 +34482,12 @@
         "type": "string",
         "label": {
           "en": "Litecoin wallet",
-          "ru": "Litecoin кошелек",
+          "ru": "Litecoin кошелёк",
           "uk": "Litecoin гаманець"
         },
         "hint": {
           "en": "Enter Litecoin wallet",
-          "ru": "Введите Litecoin кошелек",
+          "ru": "Введите Litecoin кошелёк",
           "uk": "Введіть Litecoin гаманець"
         },
         "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
@@ -34502,12 +34509,12 @@
         "type": "string",
         "label": {
           "en": "Litecoin wallet",
-          "ru": "Litecoin кошелек",
+          "ru": "Litecoin кошелёк",
           "uk": "Litecoin гаманець"
         },
         "hint": {
           "en": "Enter Litecoin wallet",
-          "ru": "Введите Litecoin кошелек",
+          "ru": "Введите Litecoin кошелёк",
           "uk": "Введіть Litecoin гаманець"
         },
         "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
@@ -34529,12 +34536,12 @@
         "type": "string",
         "label": {
           "en": "Ripple wallet",
-          "ru": "Ripple кошелек",
+          "ru": "Ripple кошелёк",
           "uk": "Ripple гаманець"
         },
         "hint": {
           "en": "Enter Ripple wallet",
-          "ru": "Введите Ripple кошелек",
+          "ru": "Введите Ripple кошелёк",
           "uk": "Введіть Ripple гаманець"
         },
         "regexp": "\/^[a-zA-Z0-9]{26,33}$\/",
@@ -34556,12 +34563,12 @@
         "type": "string",
         "label": {
           "en": "Ripple wallet",
-          "ru": "Ripple кошелек",
+          "ru": "Ripple кошелёк",
           "uk": "Ripple гаманець"
         },
         "hint": {
           "en": "Enter Ripple wallet",
-          "ru": "Введите Ripple кошелек",
+          "ru": "Введите Ripple кошелёк",
           "uk": "Введіть Ripple гаманець"
         },
         "regexp": "\/^[a-zA-Z0-9]{26,33}$\/",
@@ -34583,12 +34590,12 @@
         "type": "string",
         "label": {
           "en": "Ripple wallet",
-          "ru": "Ripple кошелек",
+          "ru": "Ripple кошелёк",
           "uk": "Ripple гаманець"
         },
         "hint": {
           "en": "Enter Ripple wallet",
-          "ru": "Введите Ripple кошелек",
+          "ru": "Введите Ripple кошелёк",
           "uk": "Введіть Ripple гаманець"
         },
         "regexp": "\/^[a-zA-Z0-9]{26,33}$\/",
@@ -34610,12 +34617,12 @@
         "type": "string",
         "label": {
           "en": "Bitcoin cash wallet",
-          "ru": "Bitcoin cash кошелек",
+          "ru": "Bitcoin cash кошелёк",
           "uk": "Bitcoin cash гаманець"
         },
         "hint": {
           "en": "Enter Bitcoin cash wallet",
-          "ru": "Введите Bitcoin cash кошелек",
+          "ru": "Введите Bitcoin cash кошелёк",
           "uk": "Введіть Bitcoin cash гаманець"
         },
         "regexp": "\/^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash|bchreg|bchtest):)?(q|p)[a-z0-9]{41}|^((BITCOINCASH|BCHREG|BCHTEST):)?(Q|P)[a-zA-Z0-9]{41}$\/",
@@ -34637,12 +34644,12 @@
         "type": "string",
         "label": {
           "en": "Bitcoin cash wallet",
-          "ru": "Bitcoin cash кошелек",
+          "ru": "Bitcoin cash кошелёк",
           "uk": "Bitcoin cash гаманець"
         },
         "hint": {
           "en": "Enter Bitcoin cash wallet",
-          "ru": "Введите Bitcoin cash кошелек",
+          "ru": "Введите Bitcoin cash кошелёк",
           "uk": "Введіть Bitcoin cash гаманець"
         },
         "regexp": "\/^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash|bchreg|bchtest):)?(q|p)[a-z0-9]{41}|^((BITCOINCASH|BCHREG|BCHTEST):)?(Q|P)[a-zA-Z0-9]{41}$\/",
@@ -34664,12 +34671,12 @@
         "type": "string",
         "label": {
           "en": "Bitcoin cash wallet",
-          "ru": "Bitcoin cash кошелек",
+          "ru": "Bitcoin cash кошелёк",
           "uk": "Bitcoin cash гаманець"
         },
         "hint": {
           "en": "Enter Bitcoin cash wallet",
-          "ru": "Введите Bitcoin cash кошелек",
+          "ru": "Введите Bitcoin cash кошелёк",
           "uk": "Введіть Bitcoin cash гаманець"
         },
         "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
@@ -34691,12 +34698,12 @@
         "type": "string",
         "label": {
           "en": "Bitcoin cash wallet",
-          "ru": "Bitcoin cash кошелек",
+          "ru": "Bitcoin cash кошелёк",
           "uk": "Bitcoin cash гаманець"
         },
         "hint": {
           "en": "Enter Bitcoin cash wallet",
-          "ru": "Введите Bitcoin cash кошелек",
+          "ru": "Введите Bitcoin cash кошелёк",
           "uk": "Введіть Bitcoin cash гаманець"
         },
         "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$\/",
@@ -34723,7 +34730,7 @@
         },
         "hint": {
           "en": "Enter WMZ wallet",
-          "ru": "Введите WMZ кошелек",
+          "ru": "Введите WMZ кошелёк",
           "uk": "Введіть WMZ гаманець"
         },
         "regexp": "\/^Z\\d{12}$\/",
