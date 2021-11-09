@@ -1,18 +1,16 @@
 name: Deploy
 
 on:
-  workflow_run:
-    workflows:
-      - Validate
+  release:
     types:
-      - completed
-    branches:
-      - master
-
+      - released
 jobs:
+  validate:
+    uses: openfintechio/openfintech/.github/workflows/validate.yml@master
+
   deploy-metadata:
+    needs: validate
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v2
 
@@ -25,8 +23,8 @@ jobs:
         run: ./etc/deploy.sh
 
   deploy-docs:
+    needs: validate
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v2
 
@@ -39,8 +37,8 @@ jobs:
         run: ./etc/deploy-docs.sh
 
   deploy-s3:
+    needs: validate
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v2
 
