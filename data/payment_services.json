@@ -20,7 +20,7 @@
           "uk": "Введіть номер телефону"
         },
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
