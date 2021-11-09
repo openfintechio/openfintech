@@ -16991,14 +16991,22 @@
   },
   {
     "status": "active",
-    "code": "changcoinspay",
-    "vendor": "changcoinspay",
+    "code": "changecoins",
+    "vendor": "changecoins",
     "name": {
-      "en": "ChangcoinsPay",
-      "ru": "ChangcoinsPay",
-      "uk": "ChangcoinsPay"
+      "en": "ChangeCoins",
+      "ru": "ChangeCoins",
+      "uk": "ChangeCoins"
     },
     "payment_method": [
+      "bitcoin",
+      "ethereum",
+      "tether",
+      "binance_coin",
+      "dogecoin",
+      "payment_card"
+    ],
+    "payout_method": [
       "bitcoin",
       "ethereum",
       "tether",

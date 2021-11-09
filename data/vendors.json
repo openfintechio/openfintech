@@ -28392,15 +28392,15 @@
     }
   },
   {
-    "code": "changcoinspay",
+    "code": "changecoins",
     "status": "active",
     "links": {
       "website": "https://pay.changecoins.io/"
     },
     "name": {
-      "en": "ChangcoinsPay",
-      "ru": "ChangcoinsPay",
-      "uk": "ChangcoinsPay"
+      "en": "ChangeCoins",
+      "ru": "ChangeCoins",
+      "uk": "ChangeCoins"
     }
   },
   {
@@ -28524,6 +28524,24 @@
       "en": "Unlimco",
       "ru": "Unlimco",
       "uk": "Unlimco"
+    }
+  },
+  {
+    "code": "dogecoin",
+    "status": "active",
+    "name": {
+      "en": "Dogecoin",
+      "ru": "Dogecoin",
+      "uk": "Dogecoin"
+    }
+  },
+  {
+    "code": "binance_coin",
+    "status": "active",
+    "name": {
+      "en": "Binance coin",
+      "ru": "Binance coin",
+      "uk": "Binance coin"
     }
   }
 ]
