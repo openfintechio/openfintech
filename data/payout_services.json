@@ -76137,6 +76137,23 @@
         "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
         "required": false,
         "position": 5
+      },
+      {
+        "key": "ifsc_bank_code",
+        "type": "string",
+        "label": {
+          "en": "IFSC Bank Code",
+          "ru": "IFSC Код банка",
+          "uk": "IFSC Код банку"
+        },
+        "hint": {
+          "en": "Enter IFSC Bank Code",
+          "ru": "Введите IFSC код банка",
+          "uk": "Введіть IFSC код банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
+        "required": false,
+        "position": 6
       }
     ],
     "amount_min": 0.01,
