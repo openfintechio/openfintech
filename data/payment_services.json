@@ -837,6 +837,33 @@
   },
   {
     "status": "active",
+    "code": "ethereum_eth_invoice",
+    "flow": "invoice",
+    "method": "ethereum",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ethereum_classic_etc_invoice",
+    "flow": "invoice",
+    "method": "ethereum_classic",
+    "currency": "ETC",
+    "amount_min": 0.00000001,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "waves_waves_invoice",
+    "flow": "invoice",
+    "method": "waves",
+    "currency": "WAVES",
+    "amount_min": 0.00001,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "ethereum_eth_hpp",
     "flow": "hpp",
     "method": "ethereum",
