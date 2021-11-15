@@ -76288,7 +76288,7 @@
           "ru": "Введите Dogecoin кошелёк",
           "uk": "Введіть Dogecoin гаманець"
         },
-        "regexp": "/^.{10,64}$//",
+        "regexp": "\/^.{10,64}$\/",
         "required": true,
         "position": 1
       }
