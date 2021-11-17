@@ -17184,5 +17184,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "stepfourpay",
+    "vendor": "stepfourpay",
+    "name": {
+      "en": "Step4Pay",
+      "ru": "Step4Pay",
+      "uk": "Step4Pay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
