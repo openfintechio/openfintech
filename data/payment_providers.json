@@ -17625,5 +17625,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paycos",
+    "vendor": "paycos",
+    "name": {
+      "en": "PAYCOS",
+      "ru": "PAYCOS",
+      "uk": "PAYCOS"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
