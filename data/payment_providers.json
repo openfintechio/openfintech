@@ -17237,5 +17237,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "unonapay",
+    "vendor": "unonapay",
+    "name": {
+      "en": "UNONAPAY",
+      "ru": "UNONAPAY",
+      "uk": "UNONAPAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
