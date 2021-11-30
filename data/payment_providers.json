@@ -17224,5 +17224,18 @@
       "china_union_pay",
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "eupaymentz",
+    "vendor": "eupaymentz",
+    "name": {
+      "en": "EUPaymentz",
+      "ru": "EUPaymentz",
+      "uk": "EUPaymentz"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
