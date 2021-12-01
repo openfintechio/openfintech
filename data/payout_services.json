@@ -34529,6 +34529,33 @@
   },
   {
     "status": "active",
+    "code": "litecoin_rub",
+    "method": "litecoin",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Litecoin wallet",
+          "ru": "Litecoin кошелёк",
+          "uk": "Litecoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Litecoin wallet",
+          "ru": "Введите Litecoin кошелёк",
+          "uk": "Введіть Litecoin гаманець"
+        },
+        "regexp": "\/^[a-zA-Z0-9]{26,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000000"
+  },
+  {
+    "status": "active",
     "code": "litecoin_usd",
     "method": "litecoin",
     "currency": "USD",
