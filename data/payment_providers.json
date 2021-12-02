@@ -17279,5 +17279,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payplay",
+    "vendor": "payplay",
+    "name": {
+      "en": "PayPlay",
+      "ru": "PayPlay",
+      "uk": "PayPlay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
