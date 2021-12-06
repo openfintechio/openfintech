@@ -35013,7 +35013,7 @@
     "amount_max": "10000",
     "fields": [
       {
-        "key": "account",
+        "key": "wallet_id",
         "type": "string",
         "label": {
           "en": "Account number",
@@ -35040,7 +35040,7 @@
     "amount_max": "10000",
     "fields": [
       {
-        "key": "account",
+        "key": "wallet_id",
         "type": "string",
         "label": {
           "en": "Account number",
@@ -35067,7 +35067,7 @@
     "amount_max": "10000",
     "fields": [
       {
-        "key": "account",
+        "key": "wallet_id",
         "type": "string",
         "label": {
           "en": "Account number",
