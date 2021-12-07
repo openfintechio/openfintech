@@ -76248,7 +76248,7 @@
     "currency": "USD",
     "fields": [
       {
-        "key": "wallet_id",
+        "key": "account",
         "type": "string",
         "label": {
           "en": "Wallet ID",
@@ -76275,7 +76275,7 @@
     "currency": "EUR",
     "fields": [
       {
-        "key": "wallet_id",
+        "key": "account",
         "type": "string",
         "label": {
           "en": "Wallet ID",
