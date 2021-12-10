@@ -31,19 +31,4 @@ final class PaymentProviderTest extends AbstractDataTest
             'in payment providers'
         );
     }
-
-    public function test_payment_provider_with_countries_relation(): void
-    {
-        $relation = new Relation(
-            ResourceType::PAYMENT_PROVIDER,
-            'countries',
-            ResourceType::COUNTRY
-        );
-
-        $this->assertCorrectRelationWithMany(
-            $relation,
-            'Providers with unknown countries:',
-            'country codes'
-        );
-    }
 }

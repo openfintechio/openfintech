@@ -15,19 +15,4 @@ final class VendorTest extends AbstractDataTest
             'Duplicate vendors:'
         );
     }
-
-    public function test_vendor_with_countries_relation()
-    {
-        $relation = new Relation(
-            ResourceType::VENDOR,
-            'countries',
-            ResourceType::COUNTRY
-        );
-
-        $this->assertCorrectRelationWithMany(
-            $relation,
-            'Vendors with unknown countries:',
-            'country codes'
-        );
-    }
 }
