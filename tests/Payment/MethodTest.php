@@ -55,19 +55,4 @@ final class MethodTest extends AbstractDataTest
             'in payment methods'
         );
     }
-
-    public function test_method_with_countries_relation(): void
-    {
-        $relation = new Relation(
-            ResourceType::PAYMENT_METHOD,
-            'countries',
-            ResourceType::COUNTRY
-        );
-
-        $this->assertCorrectRelationWithMany(
-            $relation,
-            'Payment methods with unknown countries:',
-            'country codes'
-        );
-    }
 }

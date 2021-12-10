@@ -162,8 +162,6 @@ abstract class AbstractDataTest extends TestCase
                 return $this->dataProvider->getVendors();
             case ResourceType::PAYMENT_PROVIDER:
                 return $this->dataProvider->getProviders();
-            case ResourceType::COUNTRY:
-                return $this->dataProvider->getCountries();
             default:
                 throw new \RuntimeException('Invalid resource DTO class.');
         }
