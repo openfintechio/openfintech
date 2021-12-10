@@ -17266,5 +17266,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "uniteplat",
+    "vendor": "uniteplat",
+    "name": {
+      "en": "UnitePlat",
+      "ru": "UnitePlat",
+      "uk": "UnitePlat"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
