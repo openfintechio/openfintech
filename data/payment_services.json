@@ -7868,5 +7868,14 @@
     "method": "nixmoney",
     "amount_min": 0.01,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "picksell_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "picksell",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]

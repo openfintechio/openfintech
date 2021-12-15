@@ -17305,5 +17305,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "picksell",
+    "vendor": "picksell",
+    "name": {
+      "en": "Picksell",
+      "ru": "Picksell",
+      "uk": "Picksell"
+    },
+    "payment_method": [
+      "picksell"
+    ]
   }
 ]
