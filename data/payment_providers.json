@@ -16855,7 +16855,7 @@
       "ru": "DixonPay",
       "uk": "DixonPay"
     },
-    "payout_method": [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -17288,6 +17288,19 @@
       "en": "PayPlay",
       "ru": "PayPlay",
       "uk": "PayPlay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "realdeposits",
+    "vendor": "realdeposits",
+    "name": {
+      "en": "Real Deposits",
+      "ru": "Real Deposits",
+      "uk": "Real Deposits"
     },
     "payment_method": [
       "payment_card"
