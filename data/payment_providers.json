@@ -17334,5 +17334,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payassist",
+    "vendor": "payassist",
+    "name": {
+      "en": "PayAssist",
+      "ru": "PayAssist",
+      "uk": "PayAssist"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
