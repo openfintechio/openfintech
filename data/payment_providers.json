@@ -13328,49 +13328,14 @@
     "status": "active",
     "code": "emerchantpay",
     "vendor": "emerchantpay",
-    "countries": [
-      "AD",
-      "AU",
-      "BE",
-      "BG",
-      "HR",
-      "CZ",
-      "DK",
-      "EE",
-      "FO",
-      "FJ",
-      "DE",
-      "GI",
-      "GR",
-      "HU",
-      "IS",
-      "IM",
-      "IT",
-      "JE",
-      "LV",
-      "LI",
-      "LT",
-      "LU",
-      "ML",
-      "MC",
-      "NL",
-      "NO",
-      "AX",
-      "PT",
-      "RO",
-      "SM",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "AE"
-    ],
-    "metadata": {
-      "about_payments_code": "emerchantpay"
-    },
     "name": {
-      "en": "eMerchantPay Ltd"
-    }
+      "en": "EmerchantPay",
+      "ru": "EmerchantPay",
+      "uk": "EmerchantPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
