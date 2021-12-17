@@ -16821,7 +16821,7 @@
       "ru": "DixonPay",
       "uk": "DixonPay"
     },
-    "payment_method": [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -17349,6 +17349,19 @@
       "en": "EMS",
       "ru": "EMS",
       "uk": "EMS"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kraft",
+    "vendor": "kraft",
+    "name": {
+      "en": "Kraft",
+      "ru": "Kraft",
+      "uk": "Kraft"
     },
     "payout_method": [
       "payment_card"
