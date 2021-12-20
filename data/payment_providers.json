@@ -17318,5 +17318,21 @@
     "payment_method": [
       "picksell"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payelata",
+    "vendor": "payelata",
+    "name": {
+      "en": "Payelata",
+      "ru": "Payelata",
+      "uk": "Payelata"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
