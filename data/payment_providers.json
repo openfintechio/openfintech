@@ -17367,5 +17367,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paymentrush",
+    "vendor": "paymentrush",
+    "name": {
+      "en": "Payment Rush",
+      "ru": "Payment Rush",
+      "uk": "Payment Rush"
+    },
+    "payment_method": [
+      "paymentrush"
+    ]
   }
 ]
