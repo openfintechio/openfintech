@@ -17348,5 +17348,19 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "jeton",
+    "vendor": "jeton",
+    "name": {
+      "en": "Jeton",
+      "ru": "Jeton",
+      "uk": "Jeton"
+    },
+    "payment_method": [
+      "paypay",
+      "bank_transfer"
+    ]
   }
 ]
