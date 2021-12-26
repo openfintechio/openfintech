@@ -351,7 +351,7 @@
     "currency": "JPY",
     "method": "payment_card",
     "flow": "hpp",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 1000000
   },
   {
@@ -1457,7 +1457,7 @@
     "currency": "JPY",
     "flow": "hpp",
     "method": "bank_transfer",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999,
     "fields": [
       {
@@ -8038,7 +8038,7 @@
     "currency": "JPY",
     "flow": "hpp",
     "method": "bank_transfer",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999,
     "fields": [
       {
