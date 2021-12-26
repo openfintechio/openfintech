@@ -8185,5 +8185,23 @@
         "example": "050"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "sofort_eur_hpp",
+    "flow": "hpp",
+    "method": "sofort",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sofort_usd_hpp",
+    "flow": "hpp",
+    "method": "sofort",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
