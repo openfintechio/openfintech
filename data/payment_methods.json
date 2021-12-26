@@ -6110,5 +6110,16 @@
       "ru": "PayPay",
       "uk": "PayPay"
     }
+  },
+  {
+    "code": "sofort",
+    "vendor": "klarna",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Sofort",
+      "ru": "Sofort",
+      "uk": "Sofort"
+    }
   }
 ]
