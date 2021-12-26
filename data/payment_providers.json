@@ -16519,7 +16519,8 @@
       "payment_card",
       "yandexmoney",
       "webmoneytransfer",
-      "qiwi"
+      "qiwi",
+      "googlepay"
     ],
     "payout_method" : [
       "payment_card",
@@ -17282,6 +17283,62 @@
     },
     "payment_method": [
       "picksell"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payelata",
+    "vendor": "payelata",
+    "name": {
+      "en": "Payelata",
+      "ru": "Payelata",
+      "uk": "Payelata"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payassist",
+    "vendor": "payassist",
+    "name": {
+      "en": "PayAssist",
+      "ru": "PayAssist",
+      "uk": "PayAssist"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "jeton",
+    "vendor": "jeton",
+    "name": {
+      "en": "Jeton",
+      "ru": "Jeton",
+      "uk": "Jeton"
+    },
+    "payment_method": [
+      "paypay",
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "micropayments",
+    "vendor": "micropayments",
+    "name": {
+      "en": "MicroPayments",
+      "ru": "MicroPayments",
+      "uk": "MicroPayments"
+    },
+    "payout_method": [
+      "payment_card"
     ]
   }
 ]
