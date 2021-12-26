@@ -17340,5 +17340,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "ems",
+    "vendor": "ems",
+    "name": {
+      "en": "EMS",
+      "ru": "EMS",
+      "uk": "EMS"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
