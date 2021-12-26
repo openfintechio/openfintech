@@ -24097,55 +24097,10 @@
   {
     "code": "emerchantpay",
     "status": "active",
-    "countries": [
-      "AD",
-      "AU",
-      "BE",
-      "BG",
-      "HR",
-      "CZ",
-      "DK",
-      "EE",
-      "FO",
-      "FJ",
-      "DE",
-      "GI",
-      "GR",
-      "HU",
-      "IS",
-      "IM",
-      "IT",
-      "JE",
-      "LV",
-      "LI",
-      "LT",
-      "LU",
-      "ML",
-      "MC",
-      "NL",
-      "NO",
-      "AX",
-      "PT",
-      "RO",
-      "SM",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "AE"
-    ],
-    "contacts": {
-      "email": "sales@emerchantpay.com",
-      "phone": "+44 800 088 7624"
-    },
-    "address": {
-      "street": " Tyne and Wear Tyne and WearUnited Kingdom "
-    },
     "name": {
-      "en": "eMerchantPay Ltd"
-    },
-    "description": {
-      "en": " Founded in 2002, eMerchantPay is a reliable payment partner whose outstanding processing solutions and risk management tools enable you to increase your conversion ratio and prevent fraud.  In addition to our multi-currency platform with 150+ transaction currencies, we offer various payment methods without any upfront costs to accept them on your web site: international and local cards, bank transfers, prepaid cards, e-wallets, mobile payments, etc. Through our customised solutions your customers can pay in their preferred language, currency and means of payment. eMerchantPay has solid experience in developing top quality fraud-scrubbing techniques to prevent cyber-crime and revenue loss. We utilise a Level 1 PCI DSS compliant gateway and ensure that payment data undergoes robust security checks. Our ISO 9001:2008 and 27001:2005 certifications recognise our compliance with the best industry practices and information security standards. "
+      "en": "EmerchantPay",
+      "ru": "EmerchantPay",
+      "uk": "EmerchantPay"
     }
   },
   {
@@ -28605,6 +28560,18 @@
     }
   },
   {
+    "code": "realdeposits",
+    "status": "active",
+    "links": {
+      "website": "https://realdeposits.com"
+    },
+    "name": {
+      "en": "Real Deposits",
+      "ru": "Real Deposits",
+      "uk": "Real Deposits"
+    }
+  },
+  {
     "code": "uniteplat",
     "status": "active",
     "links": {
@@ -28623,6 +28590,54 @@
       "en": "PayPlay",
       "ru": "PayPlay",
       "uk": "PayPlay"
+    }
+  },
+  {
+    "code": "payelata",
+    "status": "active",
+    "name": {
+      "en": "Payelata",
+      "ru": "Payelata",
+      "uk": "Payelata"
+    }
+  },
+  {
+    "code": "payassist",
+    "status": "active",
+    "links": {
+      "website": "https://payassist.io/"
+    },
+    "name": {
+      "en": "PayAssist",
+      "ru": "PayAssist",
+      "uk": "PayAssist"
+    }
+  },
+  {
+    "code": "jeton",
+    "status": "active",
+    "name": {
+      "en": "Jeton",
+      "ru": "Jeton",
+      "uk": "Jeton"
+    }
+  },
+  {
+    "code": "micropayments",
+    "status": "active",
+    "name": {
+      "en": "MicroPayments",
+      "ru": "MicroPayments",
+      "uk": "MicroPayments"
+    }
+  },
+  {
+    "code": "ems",
+    "status": "active",
+    "name": {
+      "en": "EMS",
+      "ru": "EMS",
+      "uk": "EMS"
     }
   }
 ]

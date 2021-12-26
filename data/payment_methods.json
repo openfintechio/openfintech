@@ -6089,5 +6089,37 @@
       "ru": "NixMoney Кошелёк",
       "uk": "NixMoney Гаманець"
     }
+  },
+  {
+    "code": "picksell",
+    "vendor": "picksell",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Picksell Wallet",
+      "ru": "Picksell Кошелёк",
+      "uk": "Picksell Гаманець"
+    }
+  },
+  {
+    "code": "paypay",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "PayPay",
+      "ru": "PayPay",
+      "uk": "PayPay"
+    }
+  },
+  {
+    "code": "sofort",
+    "vendor": "klarna",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Sofort",
+      "ru": "Sofort",
+      "uk": "Sofort"
+    }
   }
 ]

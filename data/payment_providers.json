@@ -13328,49 +13328,14 @@
     "status": "active",
     "code": "emerchantpay",
     "vendor": "emerchantpay",
-    "countries": [
-      "AD",
-      "AU",
-      "BE",
-      "BG",
-      "HR",
-      "CZ",
-      "DK",
-      "EE",
-      "FO",
-      "FJ",
-      "DE",
-      "GI",
-      "GR",
-      "HU",
-      "IS",
-      "IM",
-      "IT",
-      "JE",
-      "LV",
-      "LI",
-      "LT",
-      "LU",
-      "ML",
-      "MC",
-      "NL",
-      "NO",
-      "AX",
-      "PT",
-      "RO",
-      "SM",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "AE"
-    ],
-    "metadata": {
-      "about_payments_code": "emerchantpay"
-    },
     "name": {
-      "en": "eMerchantPay Ltd"
-    }
+      "en": "EmerchantPay",
+      "ru": "EmerchantPay",
+      "uk": "EmerchantPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -16554,7 +16519,8 @@
       "payment_card",
       "yandexmoney",
       "webmoneytransfer",
-      "qiwi"
+      "qiwi",
+      "googlepay"
     ],
     "payout_method" : [
       "payment_card",
@@ -16855,7 +16821,7 @@
       "ru": "DixonPay",
       "uk": "DixonPay"
     },
-    "payout_method": [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -17290,6 +17256,101 @@
       "uk": "PayPlay"
     },
     "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "realdeposits",
+    "vendor": "realdeposits",
+    "name": {
+      "en": "Real Deposits",
+      "ru": "Real Deposits",
+      "uk": "Real Deposits"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "picksell",
+    "vendor": "picksell",
+    "name": {
+      "en": "Picksell",
+      "ru": "Picksell",
+      "uk": "Picksell"
+    },
+    "payment_method": [
+      "picksell"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payelata",
+    "vendor": "payelata",
+    "name": {
+      "en": "Payelata",
+      "ru": "Payelata",
+      "uk": "Payelata"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payassist",
+    "vendor": "payassist",
+    "name": {
+      "en": "PayAssist",
+      "ru": "PayAssist",
+      "uk": "PayAssist"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "jeton",
+    "vendor": "jeton",
+    "name": {
+      "en": "Jeton",
+      "ru": "Jeton",
+      "uk": "Jeton"
+    },
+    "payment_method": [
+      "paypay",
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "micropayments",
+    "vendor": "micropayments",
+    "name": {
+      "en": "MicroPayments",
+      "ru": "MicroPayments",
+      "uk": "MicroPayments"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ems",
+    "vendor": "ems",
+    "name": {
+      "en": "EMS",
+      "ru": "EMS",
+      "uk": "EMS"
+    },
+    "payout_method": [
       "payment_card"
     ]
   }
