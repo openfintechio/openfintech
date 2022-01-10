@@ -17380,5 +17380,18 @@
     "payment_method": [
       "paymentrush"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cards2cards",
+    "vendor": "cards2cards",
+    "name": {
+      "en": "Cards2Cards",
+      "ru": "Cards2Cards",
+      "uk": "Cards2Cards"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
