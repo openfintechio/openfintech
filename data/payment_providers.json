@@ -17384,5 +17384,18 @@
     "payment_method": [
       "paymentrush"
     ]
+  },
+  {
+    "status": "active",
+    "code": "infotrend",
+    "vendor": "infotrend",
+    "name": {
+      "en": "Infotrend",
+      "ru": "Infotrend",
+      "uk": "Infotrend"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
