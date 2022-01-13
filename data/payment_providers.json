@@ -17384,5 +17384,31 @@
     "payment_method": [
       "paymentrush"
     ]
+  },
+  {
+    "status": "active",
+    "code": "infotrend",
+    "vendor": "infotrend",
+    "name": {
+      "en": "Infotrend",
+      "ru": "Infotrend",
+      "uk": "Infotrend"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "cards2cards",
+    "vendor": "cards2cards",
+    "name": {
+      "en": "cards2cards",
+      "ru": "cards2cards",
+      "uk": "cards2cards"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
