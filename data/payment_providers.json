@@ -17512,5 +17512,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cps",
+    "vendor": "cps",
+    "name": {
+      "en": "CPS",
+      "ru": "CPS",
+      "uk": "CPS"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
