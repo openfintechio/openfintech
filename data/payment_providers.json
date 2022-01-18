@@ -17582,5 +17582,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "exbase",
+    "vendor": "exbase",
+    "name": {
+      "en": "ExBase",
+      "ru": "ExBase",
+      "uk": "ExBase"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
