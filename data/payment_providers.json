@@ -17440,6 +17440,19 @@
   },
   {
     "status": "active",
+    "code": "monetix",
+    "vendor": "monetix",
+    "name": {
+      "en": "Monetix",
+      "ru": "Monetix",
+      "uk": "Monetix"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paysoftsolutions",
     "vendor": "paysoftsolutions",
     "name": {
