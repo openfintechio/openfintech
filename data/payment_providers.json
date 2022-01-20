@@ -15716,7 +15716,8 @@
       "RU"
     ],
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "googlepay"
     ]
   },
   {
@@ -17421,6 +17422,19 @@
       "uk": "ConnPay"
     },
     "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "inqud",
+    "vendor": "inqud",
+    "name": {
+      "en": "Inqud",
+      "ru": "Inqud",
+      "uk": "Inqud"
+    },
+    "payout_method": [
       "payment_card"
     ]
   }
