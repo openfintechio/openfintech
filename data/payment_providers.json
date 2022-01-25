@@ -15717,7 +15717,11 @@
     ],
     "payment_method": [
       "payment_card",
-      "googlepay"
+      "googlepay",
+      "applepay"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
