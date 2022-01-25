@@ -76508,5 +76508,278 @@
     ],
     "amount_min": 0.00001,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_jpy",
+    "method": "bank_transfer",
+    "currency": "JPY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "12345678"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "regexp": "\/^[A-za-z,0-9\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        }
+      },
+      {
+        "key": "bank_branch_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch Code",
+          "ru": "Bank Branch Code",
+          "uk": "Bank Branch Code"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "example": "626"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9\\p{L}]{2,20}$\/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "example": "0009"
+      },
+      {
+        "key": "bank_country_code_iso",
+        "type": "string",
+        "regexp": "\/^.{2,6}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank country code",
+          "ru": "Bank country code",
+          "uk": "Bank country code"
+        },
+        "hint": {
+          "en": "Enter bank country code",
+          "ru": "Введите bank country code",
+          "uk": "Введіть bank country code"
+        },
+        "example": "JP"
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z0-9_\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Bank Name",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank name",
+          "ru": "Введите имя банка",
+          "uk": "Введіть ім'я банку"
+        }
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d\\p{L}\\p{L}]{2,64}$\/u",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter Address",
+          "ru": "Введите адресс",
+          "uk": "Введіть адресу"
+        }
+      },
+      {
+        "key": "beneficiary_country_code_iso",
+        "type": "string",
+        "regexp": "\/^.{2,6}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary country code",
+          "ru": "Beneficiary country code",
+          "uk": "Beneficiary country code"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": false,
+        "position": 11,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com"
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "regexp": "\/^.{1,255}$\/",
+        "required": false,
+        "position": 12,
+        "label": {
+          "en": "City",
+          "ru": "City",
+          "uk": "City"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Enter city",
+          "uk": "Enter city"
+        },
+        "example": "London"
+      },
+      {
+        "key": "beneficiary_postcode",
+        "type": "string",
+        "regexp": "\/^.{1,255}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Postcode",
+          "ru": "Postcode",
+          "uk": "Postcode"
+        },
+        "hint": {
+          "en": "Enter postcode",
+          "ru": "Enter postcode",
+          "uk": "Enter postcode"
+        },
+        "example": "postcode"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "regexp": "\/^\\+\\d{1,15}$\/",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        }
+      },
+      {
+        "key": "beneficiary_dob",
+        "type": "string",
+        "regexp": "\/^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$\/",
+        "required": false,
+        "position": 15,
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Enter date of birth",
+          "ru": "Введите дату рождения",
+          "uk": "Введіть дату народження"
+        },
+        "example": "10/05/1964"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "1000000"
   }
 ]
