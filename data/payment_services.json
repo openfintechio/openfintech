@@ -230,6 +230,62 @@
   },
   {
     "status": "active",
+    "code": "test_btc_test",
+    "flow": "test",
+    "method": "test",
+    "currency": "BTC",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.00000001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "test_eth_test",
+    "flow": "test",
+    "method": "test",
+    "currency": "ETH",
+    "fields": [
+      {
+        "key": "status",
+        "type": "string",
+        "label": {
+          "en": "Status",
+          "ru": "Статус",
+          "uk": "Статус"
+        },
+        "hint": {
+          "en": "Enter Status",
+          "ru": "Введите статус",
+          "uk": "Введіть статус"
+        },
+        "regexp": "\/^[a-zA-Z_]*$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.00000001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "privat24_eur_hpp",
     "flow": "hpp",
     "method": "privat24",
