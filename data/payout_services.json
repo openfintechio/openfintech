@@ -2301,6 +2301,164 @@
   },
   {
     "status": "active",
+    "code": "test_btc",
+    "method": "test",
+    "currency": "BTC",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "method": "test",
+        "label": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "hint": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "regexp": "\/^\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "test_details_success_rate",
+        "type": "string",
+        "label": {
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
+        },
+        "hint": {
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
+        },
+        "regexp": "\/^\\d{1,15}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "test_details_payout_status",
+        "type": "string",
+        "label": {
+          "en": "Expected status",
+          "ru": "Ожидаемый статус",
+          "uk": "Очікуваний статус"
+        },
+        "hint": {
+          "en": "Expected status",
+          "ru": "Ожидаемый статус",
+          "uk": "Очікуваний статус"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "test_details_payout_resolution",
+        "type": "string",
+        "label": {
+          "en": "Expected resolution",
+          "ru": "Ожидаемый resolution",
+          "uk": "Очікуваний resolution"
+        },
+        "hint": {
+          "en": "Expected resolution",
+          "ru": "Ожидаемый resolution",
+          "uk": "Очікуваний resolution"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": false,
+        "position": 4
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "test_eth",
+    "method": "test",
+    "currency": "ETH",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "method": "test",
+        "label": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "hint": {
+          "en": "Account",
+          "ru": "Аккаунт",
+          "uk": "Акаунт"
+        },
+        "regexp": "\/^\\d{1,15}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "test_details_success_rate",
+        "type": "string",
+        "label": {
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
+        },
+        "hint": {
+          "en": "Success rate (%)",
+          "ru": "Вероятность успеха (%)",
+          "uk": "Імовірність успіху (%)"
+        },
+        "regexp": "\/^\\d{1,15}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "test_details_payout_status",
+        "type": "string",
+        "label": {
+          "en": "Expected status",
+          "ru": "Ожидаемый статус",
+          "uk": "Очікуваний статус"
+        },
+        "hint": {
+          "en": "Expected status",
+          "ru": "Ожидаемый статус",
+          "uk": "Очікуваний статус"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "test_details_payout_resolution",
+        "type": "string",
+        "label": {
+          "en": "Expected resolution",
+          "ru": "Ожидаемый resolution",
+          "uk": "Очікуваний resolution"
+        },
+        "hint": {
+          "en": "Expected resolution",
+          "ru": "Ожидаемый resolution",
+          "uk": "Очікуваний resolution"
+        },
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,64}$\/",
+        "required": false,
+        "position": 4
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
     "code": "certus_transfer_uah",
     "method": "certus_transfer",
     "currency": "UAH",
