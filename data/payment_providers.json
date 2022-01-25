@@ -16647,6 +16647,9 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -17446,6 +17449,19 @@
       "en": "PaySoft Solutions",
       "ru": "PaySoft Solutions",
       "uk": "PaySoft Solutions"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "monetix",
+    "vendor": "monetix",
+    "name": {
+      "en": "Monetix",
+      "ru": "Monetix",
+      "uk": "Monetix"
     },
     "payment_method": [
       "payment_card"
