@@ -8431,5 +8431,72 @@
     "method": "paymentrush",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "payment_card_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "payment_card",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "boleto_bancario_brl_invoice",
+    "currency": "BRL",
+    "flow": "invoice",
+    "method": "boleto_bancario",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,11}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "12345678900"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pix_brl_invoice",
+    "currency": "BRL",
+    "flow": "invoice",
+    "method": "pix",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,11}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "12345678900"
+      }
+    ]
   }
 ]

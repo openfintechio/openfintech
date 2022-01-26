@@ -2670,8 +2670,8 @@
     }
   },
   {
-    "code": "boletobancariopay",
-    "vendor": "boletobancariopay",
+    "code": "boleto_bancario",
+    "vendor": "bcb",
     "category": "invoice_payment",
     "status": "active",
     "name": {
@@ -6131,6 +6131,17 @@
       "en": "Payment Rush",
       "ru": "Payment Rush",
       "uk": "Payment Rush"
+    }
+  },
+  {
+    "code": "pix",
+    "vendor": "bcb",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "PIX",
+      "ru": "PIX",
+      "uk": "PIX"
     }
   }
 ]

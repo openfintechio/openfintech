@@ -7339,7 +7339,7 @@
       "raiffeisenbank",
       "volksbank",
       "sebbank",
-      "boletobancariopay",
+      "boleto_bancario",
       "polipayonline",
       "pagoefectivo",
       "bpay",
@@ -8029,7 +8029,7 @@
       "giropay",
       "safetypay",
       "billmelater",
-      "boletobancariopay",
+      "boleto_bancario",
       "sepadirectdebit",
       "polipayonline",
       "elektronischeslastschriftverfahren",
@@ -8173,7 +8173,7 @@
       "przelewy24",
       "safetypay",
       "sofortbanking",
-      "boletobancariopay",
+      "boleto_bancario",
       "sepadirectdebit",
       "polipayonline",
       "eps"
@@ -8437,7 +8437,7 @@
       "electroniccheckach",
       "giropay",
       "przelewy24",
-      "boletobancariopay",
+      "boleto_bancario",
       "sepadirectdebit",
       "eps",
       "polipayonline"
@@ -10863,7 +10863,7 @@
       "ideal",
       "safetypay",
       "pingping",
-      "boletobancariopay",
+      "boleto_bancario",
       "polipayonline",
       "pagoefectivo",
       "hdfcbanknetbankingindia",
@@ -11127,7 +11127,7 @@
       "sebbank",
       "bankzachodniwbk",
       "creditagricole",
-      "boletobancariopay",
+      "boleto_bancario",
       "pagorapido",
       "polipayonline",
       "przelewy24",
@@ -11252,7 +11252,7 @@
       "smsbilling",
       "safetypay",
       "sofortbanking",
-      "boletobancariopay",
+      "boleto_bancario",
       "sepacredittransfer"
     ],
     "metadata": {
@@ -11866,7 +11866,7 @@
       "safetypay",
       "sofortbanking",
       "usemyservices",
-      "boletobancariopay",
+      "boleto_bancario",
       "sepadirectdebit",
       "polipayonline",
       "acceptemail",
@@ -12197,7 +12197,7 @@
       "ekonto",
       "giropay",
       "przelewy24",
-      "boletobancariopay",
+      "boleto_bancario",
       "qiwi",
       "moneta",
       "skrill",
@@ -12989,7 +12989,7 @@
       "sepacredittransfer",
       "giropay",
       "barpay",
-      "boletobancariopay",
+      "boleto_bancario",
       "sepadirectdebit",
       "polipayonline",
       "paybybill",
@@ -17536,7 +17536,9 @@
       "uk": "Online IPS"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "pix",
+      "boleto_bancario"
     ]
   },
   {
