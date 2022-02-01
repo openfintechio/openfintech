@@ -17525,5 +17525,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "onlineips",
+    "vendor": "onlineips",
+    "name": {
+      "en": "Online IPS",
+      "ru": "Online IPS",
+      "uk": "Online IPS"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
