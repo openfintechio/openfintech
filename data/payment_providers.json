@@ -17569,5 +17569,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payrun",
+    "vendor": "payrun",
+    "name": {
+      "en": "PayRun",
+      "ru": "PayRun",
+      "uk": "PayRun"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
