@@ -17585,14 +17585,17 @@
   },
   {
     "status": "active",
-    "code": "exbase",
-    "vendor": "exbase",
+    "code": "exbaseio",
+    "vendor": "exbaseio",
     "name": {
-      "en": "ExBase",
-      "ru": "ExBase",
-      "uk": "ExBase"
+      "en": "EXBASE.IO",
+      "ru": "EXBASE.IO",
+      "uk": "EXBASE.IO"
     },
     "payout_method": [
+      "payment_card"
+    ],
+    "payment_method": [
       "payment_card"
     ]
   }
