@@ -17572,6 +17572,19 @@
   },
   {
     "status": "active",
+    "code": "ensopay",
+    "vendor": "ensopay",
+    "name": {
+      "en": "EnsoPay",
+      "ru": "EnsoPay",
+      "uk": "EnsoPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payrun",
     "vendor": "payrun",
     "name": {
