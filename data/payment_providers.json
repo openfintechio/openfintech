@@ -17598,5 +17598,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "bp",
+    "vendor": "bp",
+    "name": {
+      "en": "BP",
+      "ru": "BP",
+      "uk": "BP"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
