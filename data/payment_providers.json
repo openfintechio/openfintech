@@ -17615,6 +17615,19 @@
   },
   {
     "status": "active",
+    "code": "bankotkritie",
+    "vendor": "bankotkritie",
+    "name": {
+      "en": "Bank Otkritie",
+      "ru": "Банк Открытие",
+      "uk": "Банк Открытие"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "bp",
     "vendor": "bp",
     "name": {
