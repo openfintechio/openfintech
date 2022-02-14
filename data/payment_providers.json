@@ -17636,6 +17636,26 @@
   },
   {
     "status": "active",
+    "code": "virtualpay",
+    "vendor": "virtualpay",
+    "name": {
+      "en": "Virtual Pay",
+      "ru": "Virtual Pay",
+      "uk": "Virtual Pay"
+    },
+    "payment_method": [
+      "safaricom",
+      "airtel_money",
+      "vodacom",
+      "tigo_pesa",
+      "halotel",
+      "mtn",
+      "equitel",
+      "zantel_ezypesa"
+    ]
+  },
+  {
+    "status": "active",
     "code": "exbaseio",
     "vendor": "exbaseio",
     "name": {

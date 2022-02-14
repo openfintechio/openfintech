@@ -5758,6 +5758,46 @@
     }
   },
   {
+    "code": "safaricom",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "Safaricom",
+      "ru": "Safaricom",
+      "uk": "Safaricom"
+    }
+  },
+  {
+    "code": "halotel",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "Halotel",
+      "ru": "Halotel",
+      "uk": "Halotel"
+    }
+  },
+  {
+    "code": "mtn",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "MTN",
+      "ru": "MTN",
+      "uk": "MTN"
+    }
+  },
+  {
+    "code": "equitel",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "Equitel",
+      "ru": "Equitel",
+      "uk": "Equitel"
+    }
+  },
+  {
     "code": "vodacom",
     "vendor": "selcom",
     "category": "mobile_payment",

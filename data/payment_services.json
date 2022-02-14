@@ -7272,6 +7272,267 @@
   },
   {
     "status": "active",
+    "code": "safaricom_kes_invoice",
+    "currency": "KES",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "safaricom",
+    "amount_min": 0.01,
+    "amount_max": 11490000
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_kes_invoice",
+    "currency": "KES",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "airtel_money",
+    "amount_min": 0.01,
+    "amount_max": 11490000
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_ugx_invoice",
+    "currency": "UGX",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "airtel_money",
+    "amount_min": 1,
+    "amount_max": 360000000
+  },
+  {
+    "status": "active",
+    "code": "equitel_kes_invoice",
+    "currency": "KES",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "equitel",
+    "amount_min": 0.01,
+    "amount_max": 11490000
+  },
+  {
+    "status": "active",
+    "code": "zantel_ezypesa_zmw_invoice",
+    "currency": "ZMW",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "zantel_ezypesa",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "mtn_ugx_invoice",
+    "currency": "UGX",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "mtn",
+    "amount_min": 1,
+    "amount_max": 360000000
+  },
+  {
+    "status": "active",
+    "code": "mtn_rwf_invoice",
+    "currency": "RWF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "mtn",
+    "amount_min": 1,
+    "amount_max": 102500000
+  },
+  {
+    "status": "active",
+    "code": "mtn_ghs_invoice",
+    "currency": "GHS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "mtn",
+    "amount_min": 0.01,
+    "amount_max": 760000
+  },
+  {
+    "status": "active",
+    "code": "halotel_tzs_invoice",
+    "currency": "TZS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "halotel",
+    "amount_min": 0.01,
+    "amount_max": 232000000
+  },
+  {
+    "status": "active",
     "code": "tigo_pesa_tzs_invoice",
     "currency": "TZS",
     "fields": [
