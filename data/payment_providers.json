@@ -16431,10 +16431,18 @@
     },
     "payment_method": [
       "bitcoin",
-      "ripple",
-      "ethereum",
       "bitcoin_cash",
+      "ethereum",
       "litecoin",
+      "ripple",
+      "tether"
+    ],
+    "payout_method":[
+      "bitcoin",
+      "bitcoin_cash",
+      "ethereum",
+      "litecoin",
+      "ripple",
       "tether"
     ]
   },
