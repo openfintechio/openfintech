@@ -8606,6 +8606,24 @@
   },
   {
     "status": "active",
+    "code": "payment_card_idr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 10000000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_myr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "MYR",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
     "code": "boleto_bancario_brl_hpp",
     "currency": "BRL",
     "flow": "hpp",
