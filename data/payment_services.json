@@ -8679,5 +8679,14 @@
         "example": "12345678900"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "payment_card_pen_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "PEN",
+    "amount_min": 0.01,
+    "amount_max": 10000000
   }
 ]
