@@ -1611,6 +1611,33 @@
   },
   {
     "status": "active",
+    "code": "advcash_email_uah",
+    "method": "advcash_email",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_email",
+        "type": "string",
+        "label": {
+          "en": "Wallet email",
+          "ru": "адрес электронной почты кошелька",
+          "uk": "Адреса електронної пошти гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet email",
+          "ru": "Введите адрес электронной почты кошелька",
+          "uk": "Введіть адресу електронної пошти гаманця"
+        },
+        "regexp": "\/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "300000"
+  },
+  {
+    "status": "active",
     "code": "advcash_email_eur",
     "method": "advcash_email",
     "currency": "EUR",
@@ -34352,7 +34379,7 @@
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
-    "amount_min": "0.01",
+    "amount_min": "0.00000001",
     "amount_max": "1000000"
   },
   {
@@ -34380,7 +34407,91 @@
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
       }
     ],
-    "amount_min": "0.01",
+    "amount_min": "0.00000001",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_omni_usdt",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether OMNI wallet",
+          "ru": "Tether OMNI кошелёк",
+          "uk": "Tether OMNI гаманець"
+        },
+        "hint": {
+          "en": "Tether OMNI wallet",
+          "ru": "Tether OMNI кошелёк",
+          "uk": "Tether OMNI гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_usdt",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_eos_usdt",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether EOS wallet",
+          "ru": "Tether EOS кошелёк",
+          "uk": "Tether EOS гаманець"
+        },
+        "hint": {
+          "en": "Tether EOS wallet",
+          "ru": "Tether EOS кошелёк",
+          "uk": "Tether EOS гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.00000001",
     "amount_max": "1000000"
   },
   {
