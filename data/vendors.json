@@ -28810,6 +28810,18 @@
     }
   },
   {
+    "code": "ensopay",
+    "status": "active",
+    "links": {
+      "website": "https://www.ensopay.com/"
+    },
+    "name": {
+      "en": "EnsoPay",
+      "ru": "EnsoPay",
+      "uk": "EnsoPay"
+    }
+  },
+  {
     "code": "payrun",
     "status": "active",
     "links": {
@@ -28831,6 +28843,39 @@
       "en": "EXBASE.IO",
       "ru": "EXBASE.IO",
       "uk": "EXBASE.IO"
+    }
+  },
+  {
+    "code": "bankotkritie",
+    "status": "active",
+    "links": {
+      "website": "https://www.open.ru/"
+    },
+    "name": {
+      "en": "Bank Otkritie",
+      "ru": "Банк Открытие",
+      "uk": "Банк Открытие"
+    }
+  },
+  {
+    "code": "bp",
+    "status": "active",
+    "name": {
+      "en": "BP",
+      "ru": "BP",
+      "uk": "BP"
+    }
+  },
+  {
+    "code": "paycos",
+    "status": "active",
+    "links": {
+      "website": "https://paycos.com/"
+    },
+    "name": {
+      "en": "PAYCOS",
+      "ru": "PAYCOS",
+      "uk": "PAYCOS"
     }
   }
 ]

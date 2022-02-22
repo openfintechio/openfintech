@@ -21,7 +21,7 @@
         "examples": [
           "dwolla"
         ],
-        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
+        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)$"
       },
       "name": { "$ref": "#/definitions/translatable" },
       "description": { "$ref": "#/definitions/translatable" },

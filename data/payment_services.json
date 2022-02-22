@@ -3740,8 +3740,8 @@
   },
   {
     "status": "active",
-    "code": "geopaynet_grn_hpp",
-    "currency": "GRN",
+    "code": "geopaynet_uah_hpp",
+    "currency": "UAH",
     "flow": "hpp",
     "method": "geopaynet",
     "amount_min": 0.01,
@@ -3749,8 +3749,17 @@
   },
   {
     "status": "active",
-    "code": "geopaynet_uah_hpp",
-    "currency": "UAH",
+    "code": "geopaynet_rub_hpp",
+    "currency": "RUB",
+    "flow": "hpp",
+    "method": "geopaynet",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "geopaynet_eur_hpp",
+    "currency": "EUR",
     "flow": "hpp",
     "method": "geopaynet",
     "amount_min": 0.01,
@@ -8594,6 +8603,24 @@
     "method": "payment_card",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_idr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 10000000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_myr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "MYR",
+    "amount_min": 0.01,
+    "amount_max": 10000000
   },
   {
     "status": "active",
