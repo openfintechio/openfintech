@@ -17703,5 +17703,21 @@
       "qiwi",
       "advcash_email"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paycash",
+    "vendor": "paycash",
+    "name": {
+      "en": "PayCash",
+      "ru": "PayCash",
+      "uk": "PayCash"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
