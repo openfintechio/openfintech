@@ -17722,5 +17722,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "abank",
+    "vendor": "abank",
+    "name": {
+      "en": "A-BANK",
+      "ru": "A-BANK",
+      "uk": "A-BANK"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
