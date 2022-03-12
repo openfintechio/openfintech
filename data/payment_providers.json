@@ -13692,8 +13692,13 @@
       "about_payments_code": "ecommpay"
     },
     "name": {
-      "en": "ECommPay"
-    }
+      "en": "ECOMMPAY",
+      "ru": "ECOMMPAY",
+      "uk": "ECOMMPAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
