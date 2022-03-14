@@ -3326,6 +3326,34 @@
   },
   {
     "status": "active",
+    "code": "qiwi_kzt_hpp",
+    "currency": "KZT",
+    "method": "qiwi",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
     "code": "cash_rub_hpp",
     "currency": "RUB",
     "method": "cash",
