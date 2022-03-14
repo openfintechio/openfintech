@@ -6143,5 +6143,37 @@
       "ru": "PIX",
       "uk": "PIX"
     }
+  },
+  {
+    "code": "sbp_tome_qr",
+    "vendor": "tome",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "SBP Tome QR",
+      "ru": "СБП Tome QR",
+      "uk": "СБП Tome QR"
+    },
+    "description": {
+      "en": "Quick transfers between banks using Tome QR-code",
+      "ru": "Быстрые переводы между банками при помощи Tome QR-кода",
+      "uk": "Швидкі перекази між банками за допомогою Tome QR-коду"
+    }
+  },
+  {
+    "code": "sbp",
+    "vendor": "sbp",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "SBP",
+      "ru": "Система быстрых платежей ЦБ РФ",
+      "uk": "СБП"
+    },
+    "description": {
+      "en": "Quick transfers between banks",
+      "ru": "Быстрые переводы между банками",
+      "uk": "Швидкі перекази між банками"
+    }
   }
 ]
