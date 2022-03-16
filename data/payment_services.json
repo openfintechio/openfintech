@@ -8716,5 +8716,23 @@
     "currency": "PEN",
     "amount_min": 0.01,
     "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "sbp_tome_qr_rub_hpp",
+    "flow": "hpp",
+    "method": "sbp_tome_qr",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "sbp_rub_hpp",
+    "flow": "hpp",
+    "method": "sbp",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]
