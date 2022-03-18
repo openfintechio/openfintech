@@ -17842,5 +17842,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "millikart",
+    "vendor": "millikart",
+    "name": {
+      "en": "MilliKart",
+      "ru": "MilliKart",
+      "uk": "MilliKart"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
