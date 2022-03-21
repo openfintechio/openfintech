@@ -74909,7 +74909,7 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,30}$\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -74956,7 +74956,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-za-z,0-9\\s]{2,100}$\/",
         "required": false,
         "position": 4,
         "label": {
@@ -75207,6 +75207,24 @@
           "ru": "Введите полное имя отправителя",
           "uk": "Введіть повне імʼя відправкника"
         }
+      },
+      {
+        "key": "bank_branch_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "required": false,
+        "position": 19,
+        "label": {
+          "en": "Bank Branch Code",
+          "ru": "Bank Branch Code",
+          "uk": "Bank Branch Code"
+        },
+        "hint": {
+          "en": "Enter Bank Branch Code",
+          "ru": "Введите Bank Branch Code",
+          "uk": "Введіть Bank Branch Code"
+        },
+        "example": "626"
       }
     ],
     "amount_min": "0.01",
@@ -75226,7 +75244,7 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,30}$\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -75273,7 +75291,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-za-z,0-9\\s]{2,100}$\/",
         "required": false,
         "position": 4,
         "label": {
@@ -75524,6 +75542,24 @@
           "ru": "Введите полное имя отправителя",
           "uk": "Введіть повне імʼя відправкника"
         }
+      },
+      {
+        "key": "bank_branch_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "required": false,
+        "position": 19,
+        "label": {
+          "en": "Bank Branch Code",
+          "ru": "Bank Branch Code",
+          "uk": "Bank Branch Code"
+        },
+        "hint": {
+          "en": "Enter Bank Branch Code",
+          "ru": "Введите Bank Branch Code",
+          "uk": "Введіть Bank Branch Code"
+        },
+        "example": "626"
       }
     ],
     "amount_min": "0.01",
@@ -75543,7 +75579,7 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,30}$\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -75590,7 +75626,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-za-z,0-9\\s]{2,100}$\/",
         "required": false,
         "position": 4,
         "label": {
@@ -75841,6 +75877,24 @@
           "ru": "Введите полное имя отправителя",
           "uk": "Введіть повне імʼя відправкника"
         }
+      },
+      {
+        "key": "bank_branch_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "required": false,
+        "position": 19,
+        "label": {
+          "en": "Bank Branch Code",
+          "ru": "Bank Branch Code",
+          "uk": "Bank Branch Code"
+        },
+        "hint": {
+          "en": "Enter Bank Branch Code",
+          "ru": "Введите Bank Branch Code",
+          "uk": "Введіть Bank Branch Code"
+        },
+        "example": "626"
       }
     ],
     "amount_min": "0.01",
@@ -75860,7 +75914,7 @@
           "ru": "Номер счета",
           "uk": "Номер рахунку"
         },
-        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,30}$\/",
         "required": true,
         "position": 1,
         "hint": {
@@ -75907,7 +75961,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-za-z,0-9\\s]{2,100}$\/",
         "required": false,
         "position": 4,
         "label": {
@@ -76158,6 +76212,24 @@
           "ru": "Введите полное имя отправителя",
           "uk": "Введіть повне імʼя відправкника"
         }
+      },
+      {
+        "key": "bank_branch_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "required": false,
+        "position": 19,
+        "label": {
+          "en": "Bank Branch Code",
+          "ru": "Bank Branch Code",
+          "uk": "Bank Branch Code"
+        },
+        "hint": {
+          "en": "Enter Bank Branch Code",
+          "ru": "Введите Bank Branch Code",
+          "uk": "Введіть Bank Branch Code"
+        },
+        "example": "626"
       }
     ],
     "amount_min": "0.01",
