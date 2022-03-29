@@ -17796,5 +17796,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "chargemoney",
+    "vendor": "chargemoney",
+    "name": {
+      "en": "ChargeMoney",
+      "ru": "ChargeMoney",
+      "uk": "ChargeMoney"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
