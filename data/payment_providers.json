@@ -17855,5 +17855,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "dimocopayments",
+    "vendor": "dimocopayments",
+    "name": {
+      "en": "DIMOCO Payments",
+      "ru": "DIMOCO Payments",
+      "uk": "DIMOCO Payments"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
