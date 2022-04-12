@@ -17908,5 +17908,18 @@
       "imps",
       "googlepay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "bennupay",
+    "vendor": "bennupay",
+    "name": {
+      "en": "bennupay",
+      "ru": "bennupay",
+      "uk": "bennupay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
