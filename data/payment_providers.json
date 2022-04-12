@@ -17868,5 +17868,22 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "10pay",
+    "vendor": "10pay",
+    "name": {
+      "en": "10Pay",
+      "ru": "10Pay",
+      "uk": "10Pay"
+    },
+    "payment_method": [
+      "paytm",
+      "phonepe",
+      "upi",
+      "imps",
+      "googlepay"
+    ]
   }
 ]
