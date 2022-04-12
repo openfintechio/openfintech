@@ -4218,6 +4218,96 @@
   },
   {
     "status": "active",
+    "code": "allahabad_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "allahabad_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "corporation_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "corporation_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "oriental_bank_of_commerce_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "oriental_bank_of_commerce",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "city_union_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "city_union_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "vijaya_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "vijaya_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "united_bank_of_india_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "united_bank_of_india",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "rbl_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "rbl_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "andhra_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "andhra_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "csb_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "csb_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "au_small_finance_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "au_small_finance_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
     "code": "central_bank_of_india_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
