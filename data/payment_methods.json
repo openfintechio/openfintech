@@ -6225,5 +6225,25 @@
       "ru": "Binance Pay",
       "uk": "Binance Pay"
     }
+  },
+  {
+    "status": "active",
+    "code": "upi",
+    "category": "bank_transfer",
+    "name": {
+      "en": "UPI",
+      "uk": "UPI",
+      "ru": "UPI"
+    }
+  },
+  {
+    "status": "active",
+    "code": "imps",
+    "category": "bank_transfer",
+    "name": {
+      "en": "IMPS",
+      "uk": "IMPS",
+      "ru": "IMPS"
+    }
   }
 ]

@@ -9013,5 +9013,32 @@
     "currency": "CLP",
     "amount_min": 1,
     "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "upi_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "upi",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "imps_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "imps",
+    "amount_min": 0.01,
+    "amount_max": 10000000
   }
 ]
