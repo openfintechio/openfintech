@@ -76410,6 +76410,23 @@
         "regexp": "/\\d{10,15}$/",
         "required": true,
         "position": 1
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "label": {
+          "en": "Account Name",
+          "ru": "Имя аккаунта",
+          "uk": "Ім'я аккаунта"
+        },
+        "hint": {
+          "en": "Enter account name",
+          "ru": "Введите имя аккаунта",
+          "uk": "Введіть ім'я аккаунта"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "required": false,
+        "position": 2
       }
     ],
     "amount_min": 0.01,
@@ -77143,5 +77160,127 @@
     "method": "m_pesa",
     "amount_min": 100,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "upi_bank_account_inr",
+    "currency": "INR",
+    "method": "upi_bank_account",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Account Number",
+          "uk": "Account Number"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите Account Number",
+          "uk": "Введіть Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "account_holder_full_name",
+        "type": "string",
+        "label": {
+          "en": "Account holder full name",
+          "ru": "ФИО",
+          "uk": "ПIБ"
+        },
+        "hint": {
+          "en": "Enter account holder full name",
+          "ru": "Введите ФИО",
+          "uk": "Введіть ПIБ"
+        },
+        "regexp": "\/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "ifsc",
+        "type": "string",
+        "label": {
+          "en": "IFSC",
+          "ru": "IFSC",
+          "uk": "IFSC"
+        },
+        "hint": {
+          "en": "Enter IFSC",
+          "ru": "Введите IFSC",
+          "uk": "Введіть IFSC"
+        },
+        "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
+        "required": false,
+        "position": 3
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "imps_inr",
+    "currency": "INR",
+    "method": "imps",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Account Number",
+          "uk": "Account Number"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите Account Number",
+          "uk": "Введіть Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "account_holder_full_name",
+        "type": "string",
+        "label": {
+          "en": "Account holder full name",
+          "ru": "ФИО",
+          "uk": "ПIБ"
+        },
+        "hint": {
+          "en": "Enter Account holder full name",
+          "ru": "Введите ФИО",
+          "uk": "Введіть ПIБ"
+        },
+        "regexp": "\/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "ifsc",
+        "type": "string",
+        "label": {
+          "en": "IFSC",
+          "ru": "IFSC",
+          "uk": "IFSC"
+        },
+        "hint": {
+          "en": "Enter IFSC",
+          "ru": "Введите IFSC",
+          "uk": "Введіть IFSC"
+        },
+        "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
+        "required": false,
+        "position": 3
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
   }
 ]
