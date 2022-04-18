@@ -17894,6 +17894,19 @@
   },
   {
     "status": "active",
+    "code": "leobank",
+    "vendor": "leobank",
+    "name": {
+      "en": "LeoBank",
+      "ru": "LeoBank",
+      "uk": "LeoBank"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "10pay",
     "vendor": "10pay",
     "name": {
