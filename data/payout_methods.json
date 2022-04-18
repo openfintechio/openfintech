@@ -23955,5 +23955,25 @@
       "ru": "M-Pesa",
       "uk": "M-Pesa"
     }
+  },
+  {
+    "status": "active",
+    "code": "upi_bank_account",
+    "category": "bank_transfer",
+    "name": {
+      "en": "UPI Bank Account",
+      "uk": "UPI Bank Account",
+      "ru": "UPI Bank Account"
+    }
+  },
+  {
+    "status": "active",
+    "code": "imps",
+    "category": "bank_transfer",
+    "name": {
+      "en": "IMPS",
+      "uk": "IMPS",
+      "ru": "IMPS"
+    }
   }
 ]
