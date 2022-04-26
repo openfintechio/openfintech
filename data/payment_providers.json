@@ -468,13 +468,18 @@
     "code": "4bill",
     "vendor": "4bill",
     "payment_method": [
-      "bank_card"
+      "payment_card",
+      "settlepay_wallet",
+      "applepay",
+      "googlepay"
     ],
     "payout_method": [
-      "bank_card"
+      "payment_card"
     ],
     "name": {
-      "en": "4bill"
+      "en": "4bill",
+      "ru": "4bill",
+      "uk": "4bill"
     }
   },
   {
