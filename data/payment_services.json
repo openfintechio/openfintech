@@ -9175,5 +9175,14 @@
     "method": "imps",
     "amount_min": 0.01,
     "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "settlepay_wallet_uah_hpp",
+    "currency": "UAH",
+    "flow": "hpp",
+    "method": "settlepay_wallet",
+    "amount_min": 0.01,
+    "amount_max": 3000000
   }
 ]
