@@ -17965,5 +17965,18 @@
     "payment_method": [
       "trustly"
     ]
+  },
+  {
+    "status": "active",
+    "code": "safetypay",
+    "vendor": "safetypay",
+    "name": {
+      "en": "SafetyPay",
+      "ru": "SafetyPay",
+      "uk": "SafetyPay"
+    },
+    "payment_method": [
+      "safetypay"
+    ]
   }
 ]
