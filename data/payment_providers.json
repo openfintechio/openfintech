@@ -17936,5 +17936,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "trustly",
+    "vendor": "trustly",
+    "name": {
+      "en": "Trustly",
+      "ru": "Trustly",
+      "uk": "Trustly"
+    },
+    "payment_method": [
+      "trustly"
+    ]
   }
 ]
