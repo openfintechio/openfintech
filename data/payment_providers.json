@@ -17978,5 +17978,18 @@
     "payment_method": [
       "safetypay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "kiberpay",
+    "vendor": "kiberpay",
+    "name": {
+      "en": "Kiberpay",
+      "ru": "Kiberpay",
+      "uk": "Kiberpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
