@@ -9030,5 +9030,32 @@
     "method": "settlepay_wallet",
     "amount_min": 0.01,
     "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "trustly_gbp_hpp",
+    "flow": "hpp",
+    "method": "trustly",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "trustly_chf_hpp",
+    "flow": "hpp",
+    "method": "trustly",
+    "currency": "CHF",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "trustly_pln_hpp",
+    "flow": "hpp",
+    "method": "trustly",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 500000
   }
 ]
