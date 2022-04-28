@@ -1355,12 +1355,12 @@
   },
   {
     "status": "active",
-    "code": "safetypay_express_mxn_hpp",
+    "code": "safetypay_mxn_hpp",
     "currency": "MXN",
     "flow": "hpp",
-    "method": "safetypay_express",
+    "method": "safetypay",
     "amount_min": 0.01,
-    "amount_max": 1000000
+    "amount_max": 2050000
   },
   {
     "status": "active",
