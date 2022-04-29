@@ -76868,7 +76868,7 @@
       {
         "key": "beneficiary_full_name",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s\\p{L}]{2,100}$\/u",
         "required": false,
         "position": 8,
         "label": {
