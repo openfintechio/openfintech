@@ -1365,7 +1365,7 @@
       {
         "key": "payer_first_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z\\p{L}]{2,100}$\/u",
         "required": false,
         "position": 1,
         "label": {
@@ -1383,7 +1383,7 @@
       {
         "key": "payer_last_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[A-Z\\-\\sa-z\\p{L}]{2,100}$\/u",
         "required": false,
         "position": 2,
         "label": {
