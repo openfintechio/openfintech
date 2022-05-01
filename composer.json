@@ -4,7 +4,7 @@
   "type": "project",
   "description": "Openfintech data",
   "require": {
-    "php": "^7.0 || ^8.0",
+    "php": "^7.4 || ^8.0",
     "justinrainbow/json-schema": "^5.2",
     "ext-json": "*"
   }

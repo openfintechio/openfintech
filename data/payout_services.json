@@ -1264,7 +1264,7 @@
         }
       }
     ],
-    "amount_min": "0.01",
+    "amount_min": "1",
     "amount_max": "1000000"
   },
   {
@@ -3050,34 +3050,6 @@
           "ru": "Введите номер договора"
         },
         "example": "0022179740"
-      }
-    ],
-    "amount_min": "200",
-    "amount_max": "149900"
-  },
-  {
-    "status": "active",
-    "code": "forza24_uah",
-    "method": "forza24",
-    "currency": "UAH",
-    "fields": [
-      {
-        "key": "client_id",
-        "type": "string",
-        "label": {
-          "en": "Phone number",
-          "ru": "Номер телефона",
-          "uk": "Номер телефону"
-        },
-        "regexp": "\/^\\d{1,128}$\/",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Enter phone number",
-          "ru": "Введите номер телефона",
-          "uk": "Введіть номер телефону"
-        },
-        "example": "380634864244"
       }
     ],
     "amount_min": "200",
@@ -12872,34 +12844,6 @@
   },
   {
     "status": "active",
-    "code": "pat-kb-globus-pogashennia-kreditiv_uah",
-    "method": "pat-kb-globus-pogashennia-kreditiv",
-    "currency": "UAH",
-    "fields": [
-      {
-        "key": "client_id",
-        "type": "string",
-        "label": {
-          "en": "Phone number (from 380) or INN",
-          "uk": "Номер телефону (з 380) або ІПН",
-          "ru": "Номер телефона (с 380) или ИНН"
-        },
-        "regexp": "\/^\\d{1,128}$\/",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Phone number (from 380) or INN",
-          "uk": "Номер телефону (з 380) або ІПН",
-          "ru": "Номер телефона (с 380) или ИНН"
-        },
-        "example": "1234567890"
-      }
-    ],
-    "amount_min": "0.9",
-    "amount_max": "14999"
-  },
-  {
-    "status": "active",
     "code": "didgitnet-mariupol_uah",
     "method": "didgitnet-mariupol",
     "currency": "UAH",
@@ -16280,34 +16224,6 @@
   },
   {
     "status": "active",
-    "code": "viasat-uatv_uah",
-    "method": "viasat-uatv",
-    "currency": "UAH",
-    "fields": [
-      {
-        "key": "client_id",
-        "type": "string",
-        "label": {
-          "en": "The contract number",
-          "uk": "Номер договору",
-          "ru": "Номер договора"
-        },
-        "regexp": "\/^\\d{1,128}$\/",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Enter the contract number",
-          "uk": "Введіть номер договору",
-          "ru": "Введите номер договора"
-        },
-        "example": "0022179740"
-      }
-    ],
-    "amount_min": "2",
-    "amount_max": "14999"
-  },
-  {
-    "status": "active",
     "code": "orion-city_uah",
     "method": "orion-city",
     "currency": "UAH",
@@ -16472,34 +16388,6 @@
       }
     ],
     "amount_min": "2",
-    "amount_max": "14999"
-  },
-  {
-    "status": "active",
-    "code": "intertelekom_uah",
-    "method": "intertelekom",
-    "currency": "UAH",
-    "fields": [
-      {
-        "key": "client_id",
-        "type": "string",
-        "label": {
-          "en": "Phone number",
-          "uk": "Номер телефону",
-          "ru": "Номер телефона"
-        },
-        "regexp": "\/^\\+?(380)(94|45)\\d{7}$\/",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Enter phone number",
-          "uk": "Введіть номер телефону",
-          "ru": "Введите номер телефона"
-        },
-        "example": "80389988465"
-      }
-    ],
-    "amount_min": "0.01",
     "amount_max": "14999"
   },
   {
@@ -43371,7 +43259,7 @@
     "code": "dlocal_cl_clp",
     "method": "dlocal",
     "currency": "CLP",
-    "amount_min": "0.01",
+    "amount_min": "1",
     "amount_max": "100000",
     "fields": [
       {
@@ -43836,7 +43724,7 @@
     "code": "dlocal_py_pyg",
     "method": "dlocal",
     "currency": "PYG",
-    "amount_min": "0.01",
+    "amount_min": "1",
     "amount_max": "100000",
     "fields": [
       {
@@ -48890,34 +48778,6 @@
   },
   {
     "status": "active",
-    "code": "dp-gazposttach-pat-ternopilmiskgaz_uah",
-    "method": "dp-gazposttach-pat-ternopilmiskgaz",
-    "currency": "UAH",
-    "fields": [
-      {
-        "key": "client_id",
-        "type": "string",
-        "label": {
-          "en": "Укажите лицевой счет",
-          "ru": "Укажите лицевой счет",
-          "uk": "Укажите лицевой счет"
-        },
-        "regexp": "\/^[\\w|\\.| |\\-|\\+|@|\\#]{1,128}$\/",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Укажите лицевой счет",
-          "ru": "Укажите лицевой счет",
-          "uk": "Укажите лицевой счет"
-        },
-        "example": "101561"
-      }
-    ],
-    "amount_min": "1.00",
-    "amount_max": "14999.00"
-  },
-  {
-    "status": "active",
     "code": "tdv-sk-naftagazstrakh_uah",
     "method": "tdv-sk-naftagazstrakh",
     "currency": "UAH",
@@ -53000,34 +52860,6 @@
       }
     ],
     "amount_min": "2.00",
-    "amount_max": "14999.00"
-  },
-  {
-    "status": "active",
-    "code": "kp-ternopilmiskteplokomunenergo_uah",
-    "method": "kp-ternopilmiskteplokomunenergo",
-    "currency": "UAH",
-    "fields": [
-      {
-        "key": "client_id",
-        "type": "string",
-        "label": {
-          "en": "Укажите лицевой счет",
-          "ru": "Укажите лицевой счет",
-          "uk": "Укажите лицевой счет"
-        },
-        "regexp": "\/^[\\w|\\.| |\\-|\\+|@|\\#]{1,128}$\/",
-        "required": true,
-        "position": 1,
-        "hint": {
-          "en": "Укажите лицевой счет",
-          "ru": "Укажите лицевой счет",
-          "uk": "Укажите лицевой счет"
-        },
-        "example": "101561"
-      }
-    ],
-    "amount_min": "1.00",
     "amount_max": "14999.00"
   },
   {
@@ -68767,8 +68599,8 @@
         "example": "1100382992"
       }
     ],
-    "amount_min": "1.00",
-    "amount_max": "999999.00"
+    "amount_min": "1",
+    "amount_max": "999999"
   },
   {
     "status": "active",
@@ -72052,7 +71884,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "99999.00"
+    "amount_max": "99999"
   },
   {
     "status": "active",
@@ -73642,63 +73474,9 @@
   },
   {
     "status": "active",
-    "code": "neteller_myr",
-    "method": "neteller",
-    "currency": "MYR",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "status": "active",
     "code": "neteller_mad",
     "method": "neteller",
     "currency": "MAD",
-    "fields": [
-      {
-        "key": "email",
-        "type": "string",
-        "label": {
-          "en": "Email",
-          "ru": "Email",
-          "uk": "Email"
-        },
-        "hint": {
-          "en": "Enter the recipient's email address",
-          "ru": "Введите Email получателя",
-          "uk": "Введiть Email отримувача"
-        },
-        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "1",
-    "amount_max": "50000"
-  },
-  {
-    "status": "active",
-    "code": "neteller_mxn",
-    "method": "neteller",
-    "currency": "MXN",
     "fields": [
       {
         "key": "email",
@@ -76232,35 +76010,8 @@
         "example": "626"
       }
     ],
-    "amount_min": "0.01",
-    "amount_max": "100000.00"
-  },
-  {
-    "status": "active",
-    "code": "card_token",
-    "method": "payment_card",
-    "currency": "XXX",
-    "fields": [
-      {
-        "key": "token",
-        "type": "string",
-        "label": {
-          "en": "Card token",
-          "ru": "Токен карты",
-          "uk": "Токен карти"
-        },
-        "hint": {
-          "en": "Enter card token",
-          "ru": "Введите токен карты",
-          "uk": "Введіть токен карти"
-        },
-        "regexp": "\/^.{1,128}\/",
-        "required": true,
-        "position": 1
-      }
-    ],
-    "amount_min": "0.01",
-    "amount_max": "1000000"
+    "amount_min": "1",
+    "amount_max": "100000"
   },
   {
     "status": "active",

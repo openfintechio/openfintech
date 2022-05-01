@@ -1176,36 +1176,6 @@
   },
   {
     "status": "active",
-    "code": "firstatlanticcommerce",
-    "vendor": "firstatlanticcommerce",
-    "categories": [
-      "collecting",
-      "aggregating",
-      "distributing"
-    ],
-    "payment_method": [
-      "americanexpress",
-      "ukash",
-      "jcb",
-      "payment_card",
-      "dinersclub",
-      "visaelectron",
-      "discover",
-      "visadebit",
-      "chinaunionpay",
-      "mastercarddebit",
-      "electroniccheckach",
-      "skrill"
-    ],
-    "metadata": {
-      "about_payments_code": "firstatlanticcommerce"
-    },
-    "name": {
-      "en": "First Atlantic Commerce"
-    }
-  },
-  {
-    "status": "active",
     "code": "digitalriverworldpayments",
     "vendor": "digitalriverworldpayments",
     "categories": [
@@ -6632,69 +6602,6 @@
     },
     "name": {
       "en": "JunglePay"
-    }
-  },
-  {
-    "status": "active",
-    "code": "paymentwall",
-    "vendor": "paymentwall",
-    "countries": [
-      "AX",
-      "AL",
-      "AD",
-      "AU",
-      "BY",
-      "BE",
-      "BM",
-      "BA",
-      "BG",
-      "CA",
-      "HR",
-      "CZ",
-      "DK",
-      "EE",
-      "FO",
-      "FJ",
-      "FR",
-      "DE",
-      "GI",
-      "GR",
-      "GG",
-      "HU",
-      "IS",
-      "IM",
-      "IT",
-      "JE",
-      "LV",
-      "LI",
-      "LT",
-      "LU",
-      "ML",
-      "MX",
-      "MD",
-      "MC",
-      "ME",
-      "NL",
-      "NO",
-      "PT",
-      "RO",
-      "SM",
-      "RS",
-      "SK",
-      "ES",
-      "PM",
-      "SJ",
-      "SE",
-      "CH",
-      "RW",
-      "AE",
-      "UM"
-    ],
-    "metadata": {
-      "about_payments_code": "paymentwall"
-    },
-    "name": {
-      "en": "Paymentwall"
     }
   },
   {
@@ -15463,19 +15370,6 @@
     ],
     "payout_method": [
       "payment_card"
-    ]
-  },
-  {
-    "status": "active",
-    "code": "paymentwall",
-    "vendor": "paymentwall",
-    "name": {
-      "en": "Paymentwall"
-    },
-    "payment_method": [
-      "payment_card"
-    ],
-    "payout_method": [
     ]
   },
   {
