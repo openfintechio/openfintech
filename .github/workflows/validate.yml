@@ -37,7 +37,7 @@ jobs:
       - name: Validate composer.json and composer.lock
         run: composer validate --strict
 
-  validate:
+  validate-json:
     needs: prepare
     runs-on: ubuntu-latest
     steps:
@@ -52,3 +52,21 @@ jobs:
 
       - name: Run validate
         run: ./etc/validate.sh
+
+  phpunit:
+    needs: validate-json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: |
+            vendor
+            bin
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Run PHPUnit Tests
+        uses: php-actions/phpunit@v9
+        with:
+          configuration: phpunit.xml

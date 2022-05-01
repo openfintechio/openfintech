@@ -1,0 +1,17 @@
+name: Test
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  phpunit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: php-actions/composer@v5
+
+      - name: Run PHPUnit Tests
+        uses: php-actions/phpunit@v9
+        with:
+          configuration: phpunit.xml

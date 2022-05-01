@@ -10,11 +10,18 @@
   }
   ,
   "require-dev": {
-    "roave/security-advisories": "dev-master"
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "^9.5"
   },
   "autoload": {
     "psr-4": {
-      "Oft\\Provider\\": "./"
+      "Oft\\Provider\\": "./",
+      "Oft\\Generator\\": "./etc/doc-build/src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "./tests/"
     }
   },
   "prefer-stable": true,
