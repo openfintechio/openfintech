@@ -1536,16 +1536,6 @@
     }
   },
   {
-    "code": "cash",
-    "category": "alternative",
-    "status": "active",
-    "name": {
-      "en": "Cash",
-      "ru": "Наличные",
-      "uk": "Готівка"
-    }
-  },
-  {
     "code": "ecoineu",
     "category": "alternative",
     "status": "active",
@@ -2512,18 +2502,6 @@
     },
     "description": {
       "en": "V.me simplifies the payment experience for online or in-app shoppers. "
-    }
-  },
-  {
-    "code": "alipay",
-    "vendor": "alipay",
-    "category": "digital_wallet",
-    "status": "active",
-    "name": {
-      "en": "Alipay.com"
-    },
-    "description": {
-      "en": "Alipay is China's leading third-party online payment solution, providing an easy, safe and secure way for millions of individuals and businesses to ma"
     }
   },
   {
@@ -5302,14 +5280,6 @@
     "status": "active",
     "name": {
       "en": "Bank Rakyat Indonesia"
-    }
-  },
-  {
-    "code": "permata_bank",
-    "category": "bank_transfer",
-    "status": "active",
-    "name": {
-      "en": "Permata Bank"
     }
   },
   {

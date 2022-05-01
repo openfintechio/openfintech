@@ -721,15 +721,6 @@
   },
   {
     "status": "active",
-    "code": "tether_usd_hpp",
-    "flow": "hpp",
-    "method": "tether",
-    "currency": "USD",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
     "code": "masterpass_eur_hpp",
     "flow": "hpp",
     "method": "masterpass",
@@ -1676,7 +1667,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "bank_transfer",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999,
     "fields": [
       {
@@ -2790,7 +2781,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "visa_qr_code",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4266,7 +4257,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "acb_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4275,7 +4266,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "vietcom_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4284,7 +4275,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "vietin_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4293,7 +4284,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "sacom_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4302,7 +4293,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "bidv_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4311,7 +4302,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "techom_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4320,7 +4311,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "dong_a_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4329,7 +4320,7 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "exim_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4365,7 +4356,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "busan_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4374,7 +4365,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "citibank_korea",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4383,7 +4374,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "daegu_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4392,7 +4383,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "everrich_postal_savings_and_insurance_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4401,7 +4392,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "hana_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4410,7 +4401,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "industrial_bank_of_korea",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4419,7 +4410,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "kookmin_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4428,7 +4419,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "korea_development_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4437,7 +4428,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "kwangju_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4446,7 +4437,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "mg_bank_saemmul",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4455,7 +4446,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "nonghyup_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4464,7 +4455,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "shinhan_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4473,7 +4464,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "standard_chartered_bank_korea",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4482,7 +4473,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "suhyup_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -4491,7 +4482,7 @@
     "currency": "KRW",
     "flow": "hpp",
     "method": "woori_bank",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -6385,68 +6376,6 @@
   },
   {
     "status": "active",
-    "code": "ecopayz_mxn_hpp",
-    "currency": "MXN",
-    "fields": [
-      {
-        "key": "first_name",
-        "type": "string",
-        "label": {
-          "en": "First name",
-          "ru": "Имя",
-          "uk": "Ім`я"
-        },
-        "hint": {
-          "en": "Enter first name",
-          "ru": "Введите имя",
-          "uk": "Введіть ім`я"
-        },
-        "regexp": "\/^.{0,255}$\/",
-        "required": true,
-        "position": 1
-      },
-      {
-        "key": "last_name",
-        "type": "string",
-        "label": {
-          "en": "Last name",
-          "ru": "Фамилия",
-          "uk": "Прізвище"
-        },
-        "hint": {
-          "en": "Enter last name",
-          "ru": "Введите фамилию",
-          "uk": "Введіть прізвище"
-        },
-        "regexp": "\/^.{0,255}$\/",
-        "required": true,
-        "position": 2
-      },
-      {
-        "key": "date_of_birth",
-        "type": "string",
-        "label": {
-          "en": "Date of birth",
-          "ru": "Дата рождения",
-          "uk": "Дата народження"
-        },
-        "hint": {
-          "en": "Enter date of birth",
-          "ru": "Введите дату рождения",
-          "uk": "Введіть дату народження"
-        },
-        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
-        "position": 3
-      }
-    ],
-    "flow": "hpp",
-    "method": "ecopayz",
-    "amount_min": 0.01,
-    "amount_max": 999999
-  },
-  {
-    "status": "active",
     "code": "ecopayz_voucher_usd_hpp",
     "currency": "USD",
     "method": "ecopayz_voucher",
@@ -6788,7 +6717,7 @@
     ],
     "flow": "hpp",
     "method": "ecopayz",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 9999999
   },
   {
@@ -6962,7 +6891,7 @@
     ],
     "flow": "invoice",
     "method": "muchbetter",
-    "amount_min": 0.01,
+    "amount_min": 1,
     "amount_max": 999999
   },
   {
