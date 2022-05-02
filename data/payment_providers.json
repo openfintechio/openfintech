@@ -15608,6 +15608,22 @@
   },
   {
     "status": "active",
+    "code": "gate",
+    "vendor": "corefy",
+    "name": {
+      "en": "Gate"
+    },
+    "countries": [
+    ],
+    "payment_method": [
+      "payment_card",
+      "applepay",
+      "masterpass",
+      "googlepay"
+    ]
+  },
+  {
+    "status": "active",
     "code": "manual",
     "vendor": "paycore",
     "name": {
