@@ -8,7 +8,7 @@ use Oft\Generator\Enums\ResourceType;
 
 final class VendorTest extends AbstractDataTest
 {
-    public function test_chech_vendors_for_duplicates(): void
+    public function test_check_vendors_for_duplicates(): void
     {
         $this->assertResourceHasNoDuplication(
             ResourceType::VENDOR,

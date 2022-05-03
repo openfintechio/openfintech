@@ -5532,10 +5532,14 @@
   },
   {
     "code": "alipay",
-    "category": "payment_card",
+    "category": "alternative",
     "status": "active",
+    "vendor": "alipay",
     "name": {
       "en": "Alipay"
+    },
+    "description": {
+      "en": "Alipay helps you to connect with customers across the world. With truly innovative e-Wallet payment solutions, Alipay provides seamless payment collection and a convenient customer experience."
     }
   },
   {
@@ -5957,7 +5961,9 @@
     "code": "cash",
     "category": "cash_payment",
     "name": {
-      "en": "CASH"
+      "en": "Cash",
+      "ru": "Наличные",
+      "uk": "Готівка"
     }
   },
   {
