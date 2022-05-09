@@ -8995,5 +8995,14 @@
     "currency": "PLN",
     "amount_min": 0.01,
     "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_pkr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "PKR",
+    "amount_min": 1,
+    "amount_max": 20000000
   }
 ]
