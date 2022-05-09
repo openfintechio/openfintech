@@ -77095,5 +77095,68 @@
     ],
     "amount_min": 0.01,
     "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "pix_brl",
+    "currency": "BRL",
+    "method": "pix",
+    "amount_min": 1,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,11}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "88899988811"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "regexp": "\/^\\+55\\d{10}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+558872265111"
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      }
+    ]
   }
 ]

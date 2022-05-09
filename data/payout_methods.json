@@ -23765,5 +23765,16 @@
       "uk": "SettlePay Wallet",
       "ru": "SettlePay Wallet"
     }
+  },
+  {
+    "status": "active",
+    "code": "pix",
+    "vendor": "cbc",
+    "category": "bank_transfer",
+    "name": {
+      "en": "PIX",
+      "uk": "PIX",
+      "ru": "PIX"
+    }
   }
 ]
