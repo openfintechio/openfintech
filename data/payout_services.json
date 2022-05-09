@@ -77067,5 +77067,33 @@
     ],
     "amount_min": "0.01",
     "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "settlepay_wallet_uah",
+    "method": "settlepay_wallet",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Settlepay wallet ID",
+          "ru": "ID Settlepay кошелька",
+          "uk": "ID Settlepay гаманця"
+        },
+        "hint": {
+          "en": "Enter Settlepay wallet ID",
+          "ru": "Введите ID Settlepay кошелька",
+          "uk": "Введіть ID Settlepay гаманця"
+        },
+        "example": "SP27ARC2B031973",
+        "regexp": "\/^SP[a-zA-Z\\d]{13}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3000000
   }
 ]
