@@ -17892,6 +17892,22 @@
   },
   {
     "status": "active",
+    "code": "hawex",
+    "vendor": "hawex",
+    "name": {
+      "en": "HAWEX",
+      "ru": "HAWEX",
+      "uk": "HAWEX"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paytoneio",
     "vendor": "paytoneio",
     "name": {
