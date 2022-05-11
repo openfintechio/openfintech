@@ -17921,5 +17921,21 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "honeypay",
+    "vendor": "honeypay",
+    "name": {
+      "en": "HoneyPay",
+      "ru": "HoneyPay",
+      "uk": "HoneyPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
