@@ -17969,5 +17969,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "maguapay",
+    "vendor": "maguapay",
+    "name": {
+      "en": "Magua Pay",
+      "ru": "Magua Pay",
+      "uk": "Magua Pay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
