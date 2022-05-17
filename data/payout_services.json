@@ -77125,7 +77125,7 @@
       {
         "key": "beneficiary_phone",
         "type": "string",
-        "regexp": "\/^\\+55\\d{10}$\/",
+        "regexp": "/^\\+\\d{10,14}$/",
         "required": false,
         "position": 2,
         "label": {
@@ -77138,7 +77138,7 @@
           "ru": "Введите номер телефона",
           "uk": "Введіть номер телефону"
         },
-        "example": "+558872265111"
+        "example": "+5588722651111"
       },
       {
         "key": "beneficiary_email",
