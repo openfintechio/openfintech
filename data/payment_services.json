@@ -9175,5 +9175,14 @@
         "example": "Doe"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "payment_card_bdt_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "BDT",
+    "amount_min": 1,
+    "amount_max": 10000000
   }
 ]
