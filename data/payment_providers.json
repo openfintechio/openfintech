@@ -17943,5 +17943,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "inwizo",
+    "vendor": "inwizo",
+    "name": {
+      "en": "Inwizo",
+      "ru": "Inwizo",
+      "uk": "Inwizo"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
