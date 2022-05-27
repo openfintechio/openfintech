@@ -3641,6 +3641,15 @@
   },
   {
     "status": "active",
+    "code": "geopaynet_kzt_hpp",
+    "currency": "KZT",
+    "flow": "hpp",
+    "method": "geopaynet",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
     "code": "paypal_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
