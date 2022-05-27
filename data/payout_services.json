@@ -56788,6 +56788,118 @@
   },
   {
     "status": "active",
+    "code": "kvitum_usd",
+    "method": "kvitum",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "regexp": "\/^3[\\d]{10}$|^([a-zA-Z0-9_-]+\\.)*[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)*\\.[a-zA-Z]{2,6}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter wallet number or email",
+          "ru": "Введите номер кошелька или email",
+          "uk": "Введіть номер гаманця або email"
+        },
+        "example": "31557414711"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "100000.00"
+  },
+  {
+    "status": "active",
+    "code": "kvitum_eur",
+    "method": "kvitum",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "regexp": "\/^3[\\d]{10}$|^([a-zA-Z0-9_-]+\\.)*[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)*\\.[a-zA-Z]{2,6}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter wallet number or email",
+          "ru": "Введите номер кошелька или email",
+          "uk": "Введіть номер гаманця або email"
+        },
+        "example": "31557414711"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "100000.00"
+  },
+  {
+    "status": "active",
+    "code": "kvitum_uah",
+    "method": "kvitum",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "regexp": "\/^3[\\d]{10}$|^([a-zA-Z0-9_-]+\\.)*[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)*\\.[a-zA-Z]{2,6}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter wallet number or email",
+          "ru": "Введите номер кошелька или email",
+          "uk": "Введіть номер гаманця або email"
+        },
+        "example": "31557414711"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "3000000.00"
+  },
+  {
+    "status": "active",
+    "code": "kvitum_kzt",
+    "method": "kvitum",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "regexp": "\/^3[\\d]{10}$|^([a-zA-Z0-9_-]+\\.)*[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)*\\.[a-zA-Z]{2,6}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter wallet number or email",
+          "ru": "Введите номер кошелька или email",
+          "uk": "Введіть номер гаманця або email"
+        },
+        "example": "31557414711"
+      }
+    ],
+    "amount_min": "1.00",
+    "amount_max": "40000000.00"
+  },
+  {
+    "status": "active",
     "code": "piastrix_uah",
     "method": "piastrix",
     "currency": "UAH",
