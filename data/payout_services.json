@@ -35217,6 +35217,33 @@
   },
   {
     "status": "active",
+    "code": "geopaynet_kzt",
+    "method": "geopaynet",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "user_id",
+        "type": "string",
+        "label": {
+          "en": "User ID",
+          "ru": "ID пользователя",
+          "uk": "ID користувача"
+        },
+        "hint": {
+          "en": "Enter GEO User ID",
+          "ru": "Введите GEO ID пользователя",
+          "uk": "Введіть GEO ID користувача"
+        },
+        "regexp": "\/^[a-f0-9]{64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
     "code": "perfectmoney_transfer_usd",
     "method": "perfectmoney_transfer",
     "currency": "USD",
