@@ -9078,6 +9078,15 @@
   },
   {
     "status": "active",
+    "code": "monobank_uah_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "UAH",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "picpay_brl_hpp",
     "currency": "BRL",
     "flow": "hpp",
@@ -9175,5 +9184,14 @@
         "example": "Doe"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "payment_card_bdt_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "BDT",
+    "amount_min": 1,
+    "amount_max": 10000000
   }
 ]
