@@ -18002,5 +18002,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "virtpay",
+    "vendor": "virtpay",
+    "name": {
+      "en": "Virtpay",
+      "ru": "Virtpay",
+      "uk": "Virtpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
