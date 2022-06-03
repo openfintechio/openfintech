@@ -18064,5 +18064,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payecardsakurateco",
+    "vendor": "payecardsakurateco",
+    "name": {
+      "en": "PayeCards",
+      "ru": "PayeCards",
+      "uk": "PayeCards"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
