@@ -77270,5 +77270,195 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "spei_usd",
+    "method": "spei",
+    "currency": "USD",
+    "amount_min": "0.01",
+    "amount_max": "1000000",
+    "fields": [
+      {
+        "key": "beneficiary_name",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "position": 1,
+        "required": true
+      },
+      {
+        "key": "beneficiary_lastname",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прiзвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прiзвище отримувача"
+        },
+        "position": 2,
+        "required": true
+      },
+      {
+        "key": "document_id",
+        "regexp": "\/^.{6,12}$\/",
+        "type": "string",
+        "label": {
+          "en": "Document ID",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter Document ID",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        },
+        "position": 3,
+        "required": true
+      },
+      {
+        "key": "bank_code",
+        "regexp": "\/^[0-9]{2,4}$\/",
+        "type": "string",
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "position": 4,
+        "required": true
+      },
+      {
+        "key": "account_number",
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер счёта",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите номер счёта",
+          "uk": "Введіть номер рахунку"
+        },
+        "position": 5,
+        "required": true
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "spei_mxn",
+    "method": "spei",
+    "currency": "MXN",
+    "amount_min": "0.01",
+    "amount_max": "1000000",
+    "fields": [
+      {
+        "key": "beneficiary_name",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "position": 1,
+        "required": true
+      },
+      {
+        "key": "beneficiary_lastname",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прiзвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прiзвище отримувача"
+        },
+        "position": 2,
+        "required": true
+      },
+      {
+        "key": "document_id",
+        "regexp": "\/^.{6,12}$\/",
+        "type": "string",
+        "label": {
+          "en": "Document ID",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter Document ID",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        },
+        "position": 3,
+        "required": true
+      },
+      {
+        "key": "bank_code",
+        "regexp": "\/^[0-9]{2,4}$\/",
+        "type": "string",
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "position": 4,
+        "required": true
+      },
+      {
+        "key": "account_number",
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер счёта",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите номер счёта",
+          "uk": "Введіть номер рахунку"
+        },
+        "position": 5,
+        "required": true
+      }
+    ]
   }
 ]

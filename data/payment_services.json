@@ -8872,7 +8872,7 @@
         "key": "cpf_number",
         "type": "string",
         "regexp": "\/^[0-9]{1,11}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "CPF number",
@@ -9193,5 +9193,305 @@
     "currency": "BDT",
     "amount_min": 1,
     "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "pix_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "pix",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,11}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "12345678900"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 2,
+        "example": "+255742044295",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        }
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        }
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "spei_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "spei",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,11}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "12345678900"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 2,
+        "example": "+255742044295",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        }
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        }
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "spei_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "spei",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,11}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "12345678900"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 2,
+        "example": "+255742044295",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        }
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        }
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      }
+    ]
   }
 ]
