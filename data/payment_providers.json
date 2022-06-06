@@ -18015,5 +18015,22 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payretailers",
+    "vendor": "payretailers",
+    "name": {
+      "en": "PayRetailers",
+      "ru": "PayRetailers",
+      "uk": "PayRetailers"
+    },
+    "payout_method": [
+      "spei"
+    ],
+    "payment_method": [
+      "pix",
+      "spei"
+    ]
   }
 ]
