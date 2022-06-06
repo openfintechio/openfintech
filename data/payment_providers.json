@@ -17427,7 +17427,11 @@
       "payment_card"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "lifecell_phone",
+      "kyivstar_phone",
+      "vodafone_phone",
+      "bank_transfer"
     ]
   },
   {
