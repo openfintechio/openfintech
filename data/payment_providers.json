@@ -18032,5 +18032,21 @@
       "pix",
       "spei"
     ]
+  },
+  {
+    "status": "active",
+    "code": "remitos",
+    "vendor": "remitos",
+    "name": {
+      "en": "Remitos",
+      "ru": "Remitos",
+      "uk": "Remitos"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
