@@ -68926,6 +68926,85 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_uah",
+    "method": "bank_transfer",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{10}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІНН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите индивидуальный налоговый номер получателя",
+          "uk": "Введіть індивідуальний податковий номер отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        }
+      },
+      {
+        "key": "sender_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Sender full name",
+          "ru": "Полное имя отправителя",
+          "uk": "Повне імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter Sender full name",
+          "ru": "Введите полное имя отправителя",
+          "uk": "Введіть повне імʼя відправкникa"
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "3000000"
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_usd",
     "method": "bank_transfer",
     "currency": "USD",
@@ -69241,7 +69320,6 @@
     "amount_min": "0.01",
     "amount_max": "1000000.00"
   },
-
   {
     "status": "active",
     "code": "bank_transfer_eur",
