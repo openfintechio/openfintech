@@ -27434,6 +27434,18 @@
     }
   },
   {
+    "code": "dropayment",
+    "status": "active",
+    "links": {
+      "website": "https:\/\/dropayment.com"
+    },
+    "name": {
+      "en": "Dropayment",
+      "ru": "Dropayment",
+      "uk": "Dropayment"
+    }
+  },
+  {
     "code": "cypix",
     "status": "active",
     "links": {
@@ -29058,6 +29070,49 @@
       "en": "Virtpay",
       "ru": "Virtpay",
       "uk": "Virtpay"
+    }
+  },
+  {
+    "code": "payretailers",
+    "status": "active",
+    "links": {
+      "website": "https://payretailers.com/"
+    },
+    "name": {
+      "en": "PayRetailers",
+      "ru": "PayRetailers",
+      "uk": "PayRetailers"
+    }
+  },
+  {
+    "code": "bnd",
+    "status": "active",
+    "name": {
+      "en": "Banco de México"
+    }
+  },
+  {
+    "code": "remitos",
+    "status": "active",
+    "links": {
+      "website": "https://remitos.net/"
+    },
+    "name": {
+      "en": "Remitos",
+      "ru": "Remitos",
+      "uk": "Remitos"
+    }
+  },
+  {
+    "code": "payecardsakurateco",
+    "status": "active",
+    "links": {
+      "website": "https://www.payecards.com/"
+    },
+    "name": {
+      "en": "PayeCards Akurateco",
+      "ru": "PayeCards Akurateco",
+      "uk": "PayeCards Akurateco"
     }
   }
 ]

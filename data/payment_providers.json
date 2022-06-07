@@ -15896,6 +15896,22 @@
   },
   {
     "status": "active",
+    "code": "dropayment",
+    "vendor": "dropayment",
+    "name": {
+      "en": "Dropayment",
+      "ru": "Dropayment",
+      "uk": "Dropayment"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method" : [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "cypix",
     "vendor": "cypix",
     "name": {
@@ -17428,7 +17444,11 @@
       "payment_card"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "lifecell_phone",
+      "kyivstar_phone",
+      "vodafone_phone",
+      "bank_transfer"
     ]
   },
   {
@@ -18012,6 +18032,52 @@
       "en": "Virtpay",
       "ru": "Virtpay",
       "uk": "Virtpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payretailers",
+    "vendor": "payretailers",
+    "name": {
+      "en": "PayRetailers",
+      "ru": "PayRetailers",
+      "uk": "PayRetailers"
+    },
+    "payout_method": [
+      "spei"
+    ],
+    "payment_method": [
+      "pix",
+      "spei"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "remitos",
+    "vendor": "remitos",
+    "name": {
+      "en": "Remitos",
+      "ru": "Remitos",
+      "uk": "Remitos"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payecardsakurateco",
+    "vendor": "payecardsakurateco",
+    "name": {
+      "en": "PayeCards Akurateco",
+      "ru": "PayeCards Akurateco",
+      "uk": "PayeCards Akurateco"
     },
     "payment_method": [
       "payment_card"
