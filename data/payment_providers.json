@@ -4632,12 +4632,14 @@
     "status": "active",
     "code": "checkoutcom",
     "vendor": "checkoutcom",
-    "metadata": {
-      "about_payments_code": "checkoutcom"
-    },
     "name": {
-      "en": "Checkout.com"
-    }
+      "en": "Checkout.com",
+      "ru": "Checkout.com",
+      "uk": "Checkout.com"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
