@@ -15912,6 +15912,19 @@
   },
   {
     "status": "active",
+    "code": "epayglobal",
+    "vendor": "epayglobal",
+    "name": {
+      "en": "ePay Global",
+      "ru": "ePay Global",
+      "uk": "ePay Global"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "cypix",
     "vendor": "cypix",
     "name": {
