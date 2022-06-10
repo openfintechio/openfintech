@@ -3632,6 +3632,15 @@
   },
   {
     "status": "active",
+    "code": "geopaynet_kzt_hpp",
+    "currency": "KZT",
+    "flow": "hpp",
+    "method": "geopaynet",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
     "code": "geopaynet_eur_hpp",
     "currency": "EUR",
     "flow": "hpp",
