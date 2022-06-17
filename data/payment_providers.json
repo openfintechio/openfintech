@@ -18097,5 +18097,21 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "v9pay",
+    "vendor": "v9pay",
+    "name": {
+      "en": "V9Pay",
+      "ru": "V9Pay",
+      "uk": "V9Pay"
+    },
+    "payment_method": [
+      "bank_transfer",
+      "momo",
+      "zalopay",
+      "viettelpay"
+    ]
   }
 ]

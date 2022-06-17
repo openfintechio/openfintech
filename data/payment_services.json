@@ -9502,5 +9502,32 @@
         "example": "Doe"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "momo_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "momo",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "zalopay_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "zalopay",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "viettelpay_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "viettelpay",
+    "amount_min": 1,
+    "amount_max": 9999999
   }
 ]
