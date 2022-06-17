@@ -6354,5 +6354,35 @@
       "ru": "SPEI",
       "uk": "SPEI"
     }
+  },
+  {
+    "code": "momo",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "Momo",
+      "ru": "Momo",
+      "uk": "Momo"
+    }
+  },
+  {
+    "code": "zalopay",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "ZaloPay",
+      "ru": "ZaloPay",
+      "uk": "ZaloPay"
+    }
+  },
+  {
+    "code": "viettelpay",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "ViettelPay",
+      "ru": "ViettelPay",
+      "uk": "ViettelPay"
+    }
   }
 ]
