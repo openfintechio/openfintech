@@ -8880,7 +8880,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9]{1,11}$\/",
+        "regexp": "\/^[0-9\\.\\-]{1,11}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -9215,7 +9215,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9]{1,11}$\/",
+        "regexp": "\/^[0-9\\.\\-]{1,11}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -9315,7 +9315,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9]{1,11}$\/",
+        "regexp": "\/^[0-9\\.\\-]{1,11}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -9415,7 +9415,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9]{1,11}$\/",
+        "regexp": "\/^[0-9\\.\\-]{1,11}$\/",
         "required": false,
         "position": 1,
         "label": {
