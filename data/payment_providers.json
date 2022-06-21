@@ -4864,6 +4864,19 @@
   },
   {
     "status": "active",
+    "code": "litepay",
+    "vendor": "litepay",
+    "name": {
+      "en": "LitePay",
+      "ru": "LitePay",
+      "uk": "LitePay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "cardcomplete",
     "vendor": "cardcomplete",
     "metadata": {
