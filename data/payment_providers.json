@@ -18146,5 +18146,20 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "alycepay",
+    "vendor": "alycepay",
+    "name": {
+      "en": "Alycepay",
+      "ru": "Alycepay",
+      "uk": "Alycepay"
+    },
+    "payout_method": [
+      "bank_transfer",
+      "imps",
+      "upi_bank_account"
+    ]
   }
 ]
