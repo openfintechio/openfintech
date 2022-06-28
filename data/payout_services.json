@@ -77170,6 +77170,23 @@
         "position": 2
       },
       {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+91\\d{10}$\/",
+        "required": false,
+        "position": 3
+      },
+      {
         "key": "ifsc",
         "type": "string",
         "label": {
@@ -77184,7 +77201,7 @@
         },
         "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
         "required": false,
-        "position": 3
+        "position": 4
       }
     ],
     "amount_min": 0.01,
@@ -77231,6 +77248,23 @@
         "position": 2
       },
       {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+91\\d{10}$\/",
+        "required": false,
+        "position": 3
+      },
+      {
         "key": "ifsc",
         "type": "string",
         "label": {
@@ -77245,7 +77279,7 @@
         },
         "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
         "required": false,
-        "position": 3
+        "position": 4
       }
     ],
     "amount_min": 0.01,
