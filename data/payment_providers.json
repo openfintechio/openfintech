@@ -18131,5 +18131,18 @@
       "zalopay",
       "viettelpay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "beonpaypayouts",
+    "vendor": "beonpaypayouts",
+    "name": {
+      "en": "Beonpay Payouts",
+      "ru": "Beonpay Payouts",
+      "uk": "Beonpay Payouts"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
