@@ -15134,11 +15134,13 @@
     ]
   },
   {
-    "status": "deprecated",
+    "status": "active",
     "code": "twelvelive",
     "vendor": "twelvelive",
     "name": {
-      "en": "Twelve.live"
+      "en": "Twelve",
+      "ru": "Twelve",
+      "uk": "Twelve"
     },
     "payment_method": [
       "payment_card"
