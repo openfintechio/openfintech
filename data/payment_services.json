@@ -8965,6 +8965,42 @@
           "uk": "Введіть прізвище відправника"
         },
         "example": "Doe"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^\\d{8}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс плательщика",
+          "uk": "Поштовий індекс платника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс плательщика",
+          "uk": "Введіть поштовий індекс платника"
+        },
+        "example": "68506250"
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer date of birth",
+          "ru": "Дата рождения плательщика",
+          "uk": "Дата народження клієнта платника"
+        },
+        "hint": {
+          "en": "Enter payer date of birth",
+          "ru": "Введите дату рождения плательщика",
+          "uk": "Введіть дату народження платника"
+        },
+        "example": "1986‐05‐22"
       }
     ]
   },
