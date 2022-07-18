@@ -18402,5 +18402,18 @@
       "imps",
       "upi_bank_account"
     ]
+  },
+  {
+    "status": "active",
+    "code": "apcopay",
+    "vendor": "apcopay",
+    "name": {
+      "en": "Apcopay",
+      "ru": "Apcopay",
+      "uk": "Apcopay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
