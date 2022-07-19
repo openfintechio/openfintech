@@ -18428,5 +18428,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "boombill",
+    "vendor": "boombill",
+    "name": {
+      "en": "Boom-Bill",
+      "ru": "Boom-Bill",
+      "uk": "Boom-Bill"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
