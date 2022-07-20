@@ -18415,5 +18415,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "azulpay",
+    "vendor": "azulpay",
+    "name": {
+      "en": "AzulPay",
+      "ru": "AzulPay",
+      "uk": "AzulPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
