@@ -34070,7 +34070,7 @@
           "ru": "Введите Ethereum кошелёк",
           "uk": "Введіть Ethereum гаманець"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^[A-Za-z0-9]{25,65}$\/",
         "required": true,
         "position": 1
       }
@@ -34261,7 +34261,7 @@
           "ru": "Tether ERC-20 кошелёк",
           "uk": "Tether ERC-20 гаманець"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^[A-Za-z0-9]{25,65}$\/",
         "required": true,
         "position": 1,
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
@@ -34289,7 +34289,7 @@
           "ru": "Tether TRC-20 кошелёк",
           "uk": "Tether TRC-20 гаманець"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^[A-Za-z0-9]{25,65}$\/",
         "required": true,
         "position": 1,
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
@@ -34317,7 +34317,7 @@
           "ru": "Tether OMNI кошелёк",
           "uk": "Tether OMNI гаманець"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^[A-Za-z0-9]{25,65}$\/",
         "required": true,
         "position": 1,
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
@@ -34345,7 +34345,7 @@
           "ru": "Tether BEP-20 кошелёк",
           "uk": "Tether BEP-20 гаманець"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^[A-Za-z0-9]{25,65}$\/",
         "required": true,
         "position": 1,
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
@@ -34373,10 +34373,10 @@
           "ru": "Tether EOS кошелёк",
           "uk": "Tether EOS гаманець"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^[A-Za-z0-9.]{12}|[A-Za-z9-9]\\.[a-z]$\/",
         "required": true,
         "position": 1,
-        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+        "example": "vbdoctdtpwb1"
       }
     ],
     "amount_min": "0.00000001",
@@ -34541,7 +34541,7 @@
           "ru": "Введите Bitcoin кошелёк",
           "uk": "Введіть Bitcoin гаманець"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^[A-Za-z0-9]{25,65}$\/",
         "required": true,
         "position": 1
       }
@@ -34649,7 +34649,7 @@
           "ru": "Введите Litecoin кошелёк",
           "uk": "Введіть Litecoin гаманець"
         },
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^[A-Za-z0-9]{25,65}$\/",
         "required": true,
         "position": 1
       }
