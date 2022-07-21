@@ -856,6 +856,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_huf_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "HUF",
+    "amount_min": 0.01,
+    "amount_max": 39600000
+  },
+  {
+    "status": "active",
     "code": "payment_card_token_usd_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
