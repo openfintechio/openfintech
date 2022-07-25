@@ -18467,5 +18467,48 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "virtouspayments",
+    "vendor": "virtouspayments",
+    "name": {
+      "en": "Virtous Payments",
+      "ru": "Virtous Payments",
+      "uk": "Virtous Payments"
+    },
+    "payment_method": [
+      "upi",
+      "yes_bank",
+      "idbi_bank",
+      "union_bank_of_india",
+      "punjab_national_bank",
+      "kotak_mahindra_bank",
+      "karnataka_bank",
+      "j_k_bank_india",
+      "indusind_bank",
+      "indian_bank",
+      "dcb_bank_india",
+      "uco_bank_india",
+      "cosmos_bank_india",
+      "central_bank_of_india",
+      "maharashtra_bank_india",
+      "bank_of_baroda",
+      "canara_bank",
+      "bank_of_india",
+      "state_bank_of_india",
+      "hdfc_bank",
+      "icici_bank",
+      "axis_bank",
+      "freecharge",
+      "airtel_money",
+      "olamoney",
+      "phonepe",
+      "paytm",
+      "mobikwik",
+      "punjab_sind_bank",
+      "kanata_sahakari_bank",
+      "amazon_pay"
+    ]
   }
 ]
