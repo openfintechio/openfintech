@@ -9074,7 +9074,27 @@
     "flow": "hpp",
     "method": "upi",
     "amount_min": 0.01,
-    "amount_max": 10000000
+    "amount_max": 10000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\\/^.{1,128}$\\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "name@bankname"
+      }
+    ]
   },
   {
     "status": "active",
@@ -9573,6 +9593,33 @@
     "flow": "hpp",
     "method": "viettelpay",
     "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "punjab_sind_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "punjab_sind_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "kanata_sahakari_bank_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "kanata_sahakari_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "amazon_pay_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "amazon_pay",
+    "amount_min": 0.01,
     "amount_max": 9999999
   }
 ]
