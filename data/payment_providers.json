@@ -18539,5 +18539,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "billingcx",
+    "vendor": "billingcx",
+    "name": {
+      "en": "Billing.CX",
+      "ru": "Billing.CX",
+      "uk": "Billing.CX"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
