@@ -9079,7 +9079,7 @@
       {
         "key": "account",
         "type": "string",
-        "regexp": "\\/^.{1,128}$\\/",
+        "regexp": "\/^.{1,128}$\/",
         "required": false,
         "position": 1,
         "label": {
