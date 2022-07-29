@@ -18510,5 +18510,18 @@
       "kanata_sahakari_bank",
       "amazon_pay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "gateexpress",
+    "vendor": "gateexpress",
+    "name": {
+      "en": "Gate.Express",
+      "ru": "Gate.Express",
+      "uk": "Gate.Express"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
