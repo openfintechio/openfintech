@@ -9621,5 +9621,14 @@
     "method": "amazon_pay",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "alycepay_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "alycepay",
+    "amount_min": 0.01,
+    "amount_max": 10000000
   }
 ]
