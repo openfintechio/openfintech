@@ -7964,6 +7964,15 @@
   },
   {
     "status": "active",
+    "code": "skrill_mxn_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
     "code": "cascad_uah_hpp",
     "flow": "hpp",
     "method": "cascad",
