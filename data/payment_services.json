@@ -9621,5 +9621,23 @@
     "method": "amazon_pay",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "paywise_cash_ttd_invoice",
+    "currency": "TTD",
+    "flow": "invoice",
+    "method": "paywise_cash",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "paywise_cash_usd_invoice",
+    "currency": "USD",
+    "flow": "invoice",
+    "method": "paywise_cash",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
