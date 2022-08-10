@@ -5111,6 +5111,15 @@
   },
   {
     "status": "active",
+    "code": "paysafecard_mxn_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
     "code": "resursbank_eur_hpp",
     "flow": "hpp",
     "method": "resursbank",
