@@ -9279,6 +9279,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_lkr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "LKR",
+    "amount_min": 1,
+    "amount_max": 36000000
+  },
+  {
+    "status": "active",
     "code": "pix_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
