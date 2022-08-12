@@ -1422,6 +1422,40 @@
   },
   {
     "status": "active",
+    "code": "payment_card_krw",
+    "method": "payment_card",
+    "currency": "KRW",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "130000000"
+  },
+  {
+    "status": "active",
     "code": "qiwi_rub",
     "method": "qiwi",
     "currency": "RUB",
@@ -72488,6 +72522,88 @@
     ],
     "amount_min": "1",
     "amount_max": "99999.00"
+  },
+  {
+    "status": "active",
+    "code": "paysafecard_mxn",
+    "method": "paysafecard",
+    "currency": "MXN",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Аккаунт ID",
+          "uk": "Аккаунт ID"
+        },
+        "hint": {
+          "en": "Enter account ID",
+          "ru": "Введите аккаунт ID",
+          "uk": "Введіть аккаунт ID"
+        },
+        "example": "447624222721",
+        "regexp": "\/^[-0-9a-zA-Z.+_]+@[-0-9a-zA-ZА-Яа-я.+_]+[.][a-zA-ZА-Яа-я]{2,4}|\\d{12}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "label": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "hint": {
+          "en": "Date of birth",
+          "ru": "Дата рождения",
+          "uk": "Дата народження"
+        },
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "example": "1996-10-20",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "first_name",
+        "type": "string",
+        "label": {
+          "en": "First name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Max",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "label": {
+          "en": "Last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z]{2,64}$\/",
+        "example": "Power",
+        "required": true,
+        "position": 4
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "2000000.00"
   },
   {
     "status": "active",
