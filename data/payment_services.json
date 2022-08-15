@@ -9657,5 +9657,14 @@
     "method": "paywise_cash",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_krw_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "KRW",
+    "amount_min": 1,
+    "amount_max": 130000000
   }
 ]
