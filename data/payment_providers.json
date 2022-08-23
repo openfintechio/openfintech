@@ -17613,6 +17613,24 @@
   },
   {
     "status": "active",
+    "code": "jetonlp",
+    "vendor": "jetonlp",
+    "name": {
+      "en": "JetonLP",
+      "ru": "JetonLP",
+      "uk": "JetonLP"
+    },
+    "payment_method": [
+      "paypay",
+      "bank_transfer",
+      "pix"
+    ],
+    "payout_method": [
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "micropayments",
     "vendor": "micropayments",
     "name": {
