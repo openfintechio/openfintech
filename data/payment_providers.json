@@ -18587,5 +18587,18 @@
     "payment_method": [
       "paywise_cash"
     ]
+  },
+  {
+    "status": "active",
+    "code": "dectasoap",
+    "vendor": "dectasoap",
+    "name": {
+      "en": "DectaSoap",
+      "ru": "DectaSoap",
+      "uk": "DectaSoap"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
