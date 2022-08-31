@@ -77885,5 +77885,285 @@
     ],
     "amount_min": "0.01",
     "amount_max": "2000000"
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_eur",
+    "method": "jeton_wallet",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_usd",
+    "method": "jeton_wallet",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_gbp",
+    "method": "jeton_wallet",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_try",
+    "method": "jeton_wallet",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_jpy",
+    "method": "jeton_wallet",
+    "currency": "JPY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0,
+    "amount_max": 13800000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_nok",
+    "method": "jeton_wallet",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 980000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_inr",
+    "method": "jeton_wallet",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 8000000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_pln",
+    "method": "jeton_wallet",
+    "currency": "PLN",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 480000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_cad",
+    "method": "jeton_wallet",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 130000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_sek",
+    "method": "jeton_wallet",
+    "currency": "SEK",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Jeton wallet ID",
+          "ru": "ID Jeton кошелька",
+          "uk": "ID Jeton гаманця"
+        },
+        "hint": {
+          "en": "Enter Jeton wallet ID",
+          "ru": "Введите ID Jeton кошелька",
+          "uk": "Введіть ID Jeton гаманця"
+        },
+        "example": "12345678",
+        "regexp": "\/^(\\d{1,8})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1070000
   }
 ]
