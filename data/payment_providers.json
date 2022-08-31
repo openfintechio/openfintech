@@ -18746,5 +18746,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "hwx",
+    "vendor": "hwx",
+    "name": {
+      "en": "HWX",
+      "ru": "HWX",
+      "uk": "HWX"
+    },
+    "payout_method": [
+      "sepa_transfer"
+    ]
   }
 ]
