@@ -81317,5 +81317,86 @@
     ],
     "amount_min": 0.01,
     "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "tron_trx",
+    "method": "tron",
+    "currency": "TRX",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet Address",
+          "ru": "Адрес кошелька",
+          "uk": "Адреса гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet address",
+          "ru": "Введите адрес кошелька",
+          "uk": "Введіть адресу гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/" ,
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.000001",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_usdc",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet Address",
+          "ru": "Адрес кошелька",
+          "uk": "Адреса гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet address",
+          "ru": "Введите адрес кошелька",
+          "uk": "Введіть адресу гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/" ,
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "near_protocol_near",
+    "method": "near_protocol",
+    "currency": "NEAR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet Address",
+          "ru": "Адрес кошелька",
+          "uk": "Адреса гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet address",
+          "ru": "Введите адрес кошелька",
+          "uk": "Введіть адресу гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/" ,
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "1000000"
   }
 ]

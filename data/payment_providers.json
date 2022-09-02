@@ -18642,5 +18642,24 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "abex",
+    "vendor": "abex",
+    "name": {
+      "en": "Abex",
+      "ru": "Abex",
+      "uk": "Abex"
+    },
+    "payout_method": [
+      "payment_card",
+      "bitcoin",
+      "ethereum",
+      "tether",
+      "tron",
+      "near_protocol",
+      "usd_coin"
+    ]
   }
 ]
