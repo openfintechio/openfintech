@@ -4462,6 +4462,48 @@
     }
   },
   {
+    "code": "USDC",
+    "name": {
+      "en": "USDC"
+    },
+    "type": "crypto",
+    "status": "active",
+    "exponent": 2,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "USDC"
+    }
+  },
+  {
+    "code": "TRX",
+    "name": {
+      "en": "TRX"
+    },
+    "type": "crypto",
+    "status": "active",
+    "exponent": 6,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "TRX"
+    }
+  },
+  {
+    "code": "NEAR",
+    "name": {
+      "en": "NEAR"
+    },
+    "type": "crypto",
+    "status": "active",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "NEAR"
+    }
+  },
+  {
     "code": "ARCAAMD",
     "parent_code": "AMD",
     "vendor": "arca",
