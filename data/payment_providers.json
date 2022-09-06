@@ -18611,5 +18611,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "lemanpay",
+    "vendor": "lemanpay",
+    "name": {
+      "en": "LemanPay",
+      "ru": "LemanPay",
+      "uk": "LemanPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
