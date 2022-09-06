@@ -9666,5 +9666,95 @@
     "currency": "KRW",
     "amount_min": 1,
     "amount_max": 130000000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_eur_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_usd_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_gbp_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_try_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_jpy_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "JPY",
+    "amount_min": 0,
+    "amount_max": 13800000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_nok_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "NOK",
+    "amount_min": 0.01,
+    "amount_max": 980000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_inr_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 8000000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_pln_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 480000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_cad_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 130000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_sek_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "SEK",
+    "amount_min": 0.01,
+    "amount_max": 1070000
   }
 ]
