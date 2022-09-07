@@ -78165,5 +78165,3157 @@
     ],
     "amount_min": 0.01,
     "amount_max": 1070000
+  },
+  {
+    "status": "active",
+    "code": "interac_cad",
+    "method": "interac",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "account_transit_number",
+        "type": "string",
+        "label": {
+          "en": "Account transit number",
+          "ru": "Транзитный номер аккаунта",
+          "uk": "Транзитний номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account transit number",
+          "ru": "Введите транзитный номер аккаунта",
+          "uk": "Введіть транзитний номер рахунку"
+        },
+        "example": "123450101212345",
+        "regexp":  "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "bank_financial_institution_number",
+        "type": "string",
+        "label": {
+          "en": "Bank financial institution number",
+          "ru": "Номер финансового учреждения",
+          "uk": "Номер фінансової установи"
+        },
+        "hint": {
+          "en": "Enter financial institution number",
+          "ru": "Введите номер финансового учреждения",
+          "uk": "Введіть номер  фінансової установи"
+        },
+        "example": "241",
+        "regexp":  "\/^[0-9]{1,3}$\/",
+        "required": true,
+        "position": 3
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 130000
+  },
+  {
+    "status": "active",
+    "code": "papara_try",
+    "method": "papara",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^[0-9]{1,10}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "ziraat_bank_try",
+    "method": "ziraat_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "ziraat_bank_eur",
+    "method": "ziraat_bank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ziraat_bank_nok",
+    "method": "ziraat_bank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "ziraat_bank_dkk",
+    "method": "ziraat_bank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "turkey_econom_bank_try",
+    "method": "turkey_econom_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "turkey_econom_bank_eur",
+    "method": "turkey_econom_bank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "turkey_econom_bank_nok",
+    "method": "turkey_econom_bank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "turkey_econom_bank_dkk",
+    "method": "turkey_econom_bank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "ing_bank_turkey_try",
+    "method": "ing_bank_turkey",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "ing_bank_turkey_eur",
+    "method": "ing_bank_turkey",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ing_bank_turkey_nok",
+    "method": "ing_bank_turkey",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "ing_bank_turkey_dkk",
+    "method": "ing_bank_turkey",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "turkey_is_bank_try",
+    "method": "turkey_is_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "turkey_is_bank_eur",
+    "method": "turkey_is_bank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "turkey_is_bank_nok",
+    "method": "turkey_is_bank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "turkey_is_bank_dkk",
+    "method": "turkey_is_bank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "ininal_try",
+    "method": "ininal",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "ininal_eur",
+    "method": "ininal",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ininal_nok",
+    "method": "ininal",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "ininal_dkk",
+    "method": "ininal",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "hegra_sparebank_try",
+    "method": "hegra_sparebank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "hegra_sparebank_eur",
+    "method": "hegra_sparebank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hegra_sparebank_nok",
+    "method": "hegra_sparebank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "hegra_sparebank_dkk",
+    "method": "hegra_sparebank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "sparebank_1_smn_try",
+    "method": "sparebank_1_smn",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "sparebank_1_smn_eur",
+    "method": "sparebank_1_smn",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sparebank_1_smn_nok",
+    "method": "sparebank_1_smn",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "sparebank_1_smn_dkk",
+    "method": "sparebank_1_smn",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "nordea_bank_try",
+    "method": "nordea_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "nordea_bank_eur",
+    "method": "nordea_bank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "nordea_bank_nok",
+    "method": "nordea_bank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "nordea_bank_dkk",
+    "method": "nordea_bank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "sbanken_bank_try",
+    "method": "sbanken_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "sbanken_bank_eur",
+    "method": "sbanken_bank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sbanken_bank_nok",
+    "method": "sbanken_bank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "sbanken_bank_dkk",
+    "method": "sbanken_bank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "danske_bank_try",
+    "method": "danske_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "danske_bank_eur",
+    "method": "danske_bank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "danske_bank_nok",
+    "method": "danske_bank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "danske_bank_dkk",
+    "method": "danske_bank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "dnb_bank_try",
+    "method": "dnb_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "dnb_bank_eur",
+    "method": "dnb_bank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dnb_bank_nok",
+    "method": "dnb_bank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "dnb_bank_dkk",
+    "method": "dnb_bank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "storebrand_try",
+    "method": "storebrand",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "storebrand_eur",
+    "method": "storebrand",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "storebrand_nok",
+    "method": "storebrand",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "storebrand_dkk",
+    "method": "storebrand",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "totens_sparebank_try",
+    "method": "totens_sparebank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "totens_sparebank_eur",
+    "method": "totens_sparebank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "totens_sparebank_nok",
+    "method": "totens_sparebank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "totens_sparebank_dkk",
+    "method": "totens_sparebank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "sparebanken_vest_try",
+    "method": "sparebanken_vest",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "sparebanken_vest_eur",
+    "method": "sparebanken_vest",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sparebanken_vest_nok",
+    "method": "sparebanken_vest",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "sparebanken_vest_dkk",
+    "method": "sparebanken_vest",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "qnb_finansbank_try",
+    "method": "qnb_finansbank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "qnb_finansbank_eur",
+    "method": "qnb_finansbank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "qnb_finansbank_nok",
+    "method": "qnb_finansbank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "qnb_finansbank_dkk",
+    "method": "qnb_finansbank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "turkey_finans_katilim_bank_try",
+    "method": "turkey_finans_katilim_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "turkey_finans_katilim_bank_eur",
+    "method": "turkey_finans_katilim_bank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "turkey_finans_katilim_bank_nok",
+    "method": "turkey_finans_katilim_bank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "turkey_finans_katilim_bank_dkk",
+    "method": "turkey_finans_katilim_bank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
+  },
+  {
+    "status": "active",
+    "code": "akbank_try",
+    "method": "akbank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "akbank_eur",
+    "method": "akbank",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "akbank_nok",
+    "method": "akbank",
+    "currency": "NOK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "akbank_dkk",
+    "method": "akbank",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{11}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 750000
   }
 ]
