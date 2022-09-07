@@ -18674,5 +18674,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "crederes",
+    "vendor": "crederes",
+    "name": {
+      "en": "Crederes",
+      "ru": "Crederes",
+      "uk": "Crederes"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
