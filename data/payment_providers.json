@@ -18661,5 +18661,18 @@
       "near_protocol",
       "usd_coin"
     ]
+  },
+  {
+    "status": "active",
+    "code": "finhub",
+    "vendor": "finhub",
+    "name": {
+      "en": "FinHub",
+      "ru": "FinHub",
+      "uk": "FinHub"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
