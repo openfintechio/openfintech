@@ -18661,5 +18661,31 @@
       "near_protocol",
       "usd_coin"
     ]
+  },
+  {
+    "status": "active",
+    "code": "finhub",
+    "vendor": "finhub",
+    "name": {
+      "en": "FinHub",
+      "ru": "FinHub",
+      "uk": "FinHub"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "crederes",
+    "vendor": "crederes",
+    "name": {
+      "en": "Crederes",
+      "ru": "Crederes",
+      "uk": "Crederes"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
