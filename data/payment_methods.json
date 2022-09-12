@@ -6478,11 +6478,21 @@
   {
     "status": "active",
     "code": "online_banking_qr",
-    "category": "alternative",
+    "category": "online_banking",
     "name": {
       "en": "Online Banking QR",
       "uk": "Online Banking QR",
       "ru": "Online Banking QR"
+    }
+  },
+  {
+    "status": "active",
+    "code": "online_banking",
+    "category": "online_banking",
+    "name": {
+      "en": "Online Banking",
+      "uk": "Online Banking",
+      "ru": "Online Banking"
     }
   }
 ]
