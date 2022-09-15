@@ -18711,5 +18711,22 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "copay",
+    "vendor": "copay",
+    "name": {
+      "en": "Copay",
+      "ru": "Copay",
+      "uk": "Copay"
+    },
+    "payment_method": [
+      "bank_transfer",
+      "online_banking",
+      "online_banking_qr",
+      "zalopay",
+      "momo"
+    ]
   }
 ]

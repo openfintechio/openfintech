@@ -1683,7 +1683,7 @@
         "key": "payer_first_name",
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Payer first name",
@@ -1701,7 +1701,7 @@
         "key": "payer_last_name",
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "label": {
           "en": "Payer last name",
@@ -1754,7 +1754,7 @@
         "key": "payer_city",
         "type": "string",
         "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
-        "required": true,
+        "required": false,
         "position": 5,
         "label": {
           "en": "Payer city",
@@ -10145,5 +10145,23 @@
     "currency": "PEN",
     "amount_min": 0.01,
     "amount_max": 385000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_vnd_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "online_banking_qr_vnd_hpp",
+    "flow": "hpp",
+    "method": "online_banking_qr",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 9999999
   }
 ]
