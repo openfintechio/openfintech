@@ -15505,6 +15505,11 @@
     "payment_method": [
     ],
     "payout_method": [
+      "payment_card",
+      "vodafone_phone",
+      "lifecell_phone",
+      "kyivstar_phone",
+      "mobile"
     ]
   },
   {
