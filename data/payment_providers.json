@@ -18733,5 +18733,18 @@
       "zalopay",
       "momo"
     ]
+  },
+  {
+    "status": "active",
+    "code": "electropay",
+    "vendor": "electropay",
+    "name": {
+      "en": "ElectroPay",
+      "ru": "ElectroPay",
+      "uk": "ElectroPay"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
