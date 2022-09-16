@@ -9596,6 +9596,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_mad_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "MAD",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "pix_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
