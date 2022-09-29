@@ -10181,5 +10181,14 @@
     "currency": "VND",
     "amount_min": 1,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "swiffy_eft_zar_hpp",
+    "flow": "hpp",
+    "method": "swiffy_eft",
+    "currency": "ZAR",
+    "amount_min": 1,
+    "amount_max": 1800000
   }
 ]
