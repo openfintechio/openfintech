@@ -15414,7 +15414,8 @@
     ],
     "payment_method": [
       "payment_card",
-      "applepay"
+      "applepay",
+      "googlepay"
     ],
     "payout_method": [
     ]
@@ -18628,6 +18629,9 @@
       "ru": "DectaSoap",
       "uk": "DectaSoap"
     },
+    "payout_method": [
+      "payment_card"
+    ],
     "payment_method": [
       "payment_card"
     ]
