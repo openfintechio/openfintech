@@ -77423,6 +77423,23 @@
         "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
         "required": false,
         "position": 4
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient bank name",
+          "ru": "Название банка получателя",
+          "uk": "Назва банку одержувача"
+        },
+        "hint": {
+          "en": "Enter recipient bank name",
+          "ru": "Введите название банка получателя",
+          "uk": "Введіть назву банку одержувача"
+        },
+        "regexp": "\/^[A-Z\\-\\ a-z0-9_]{2,100}$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
