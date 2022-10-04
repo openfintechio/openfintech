@@ -17601,6 +17601,19 @@
   },
   {
     "status": "active",
+    "code": "fenige",
+    "vendor": "fenige",
+    "name": {
+      "en": "Fenige",
+      "ru": "Fenige",
+      "uk": "Fenige"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "jeton",
     "vendor": "jeton",
     "name": {
