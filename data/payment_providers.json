@@ -4923,7 +4923,7 @@
       "uk": "LitePay"
     },
     "payment_method": [
-      "payment_card"
+      "card_transfer"
     ]
   },
   {
@@ -17638,16 +17638,26 @@
       "uk": "JetonLP"
     },
     "payment_method": [
-      "paypay",
       "bank_transfer",
-      "pix"
+      "paypay",
+      "pix",
+      "interac",
+      "boleto_bancario",
+      "community_bank",
+      "cepbank",
+      "pagoefectivo_cip",
+      "pagoefectivo",
+      "papara",
+      "online_banking_qr"
     ],
     "payout_method": [
       "bank_transfer",
       "papara",
       "interac",
+      "pix",
       "ziraat_bank",
       "turkey_econom_bank",
+      "turkey_is_bank",
       "ing_bank_turkey",
       "ininal",
       "hegra_sparebank",
@@ -17661,8 +17671,7 @@
       "sparebanken_vest",
       "qnb_finansbank",
       "turkey_finans_katilim_bank",
-      "akbank",
-      "pix"
+      "akbank"
     ]
   },
   {
