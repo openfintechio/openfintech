@@ -18780,5 +18780,18 @@
     "payout_method": [
       "sepa_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "swiffy",
+    "vendor": "swiffy",
+    "name": {
+      "en": "Swiffy",
+      "ru": "Swiffy",
+      "uk": "Swiffy"
+    },
+    "payment_method": [
+      "swiffy_eft"
+    ]
   }
 ]
