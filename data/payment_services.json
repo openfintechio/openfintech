@@ -10181,5 +10181,23 @@
     "currency": "VND",
     "amount_min": 1,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "swiffy_eft_zar_hpp",
+    "flow": "hpp",
+    "method": "swiffy_eft",
+    "currency": "ZAR",
+    "amount_min": 1,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_rub_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]

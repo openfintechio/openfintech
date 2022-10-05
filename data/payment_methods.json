@@ -6494,5 +6494,25 @@
       "uk": "Online Banking",
       "ru": "Online Banking"
     }
+  },
+  {
+    "status": "active",
+    "code": "swiffy_eft",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Swiffy EFT",
+      "uk": "Swiffy EFT",
+      "ru": "Swiffy EFT"
+    }
+  },
+  {
+    "status": "active",
+    "code": "card_transfer",
+    "category": "invoice_payment",
+    "name": {
+      "en": "Card transfer",
+      "uk": "Card transfer",
+      "ru": "Card transfer"
+    }
   }
 ]
