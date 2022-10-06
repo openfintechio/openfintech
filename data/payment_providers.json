@@ -18802,5 +18802,18 @@
     "payment_method": [
       "swiffy_eft"
     ]
+  },
+  {
+    "status": "active",
+    "code": "yapily",
+    "vendor": "yapily",
+    "name": {
+      "en": "Yapily",
+      "ru": "Yapily",
+      "uk": "Yapily"
+    },
+    "payment_method": [
+      "bank_transfer"
+    ]
   }
 ]
