@@ -6514,5 +6514,15 @@
       "uk": "Card transfer",
       "ru": "Card transfer"
     }
+  },
+  {
+    "status": "active",
+    "code": "pay_id",
+    "category": "invoice_payment",
+    "name": {
+      "en": "PayID",
+      "uk": "PayID",
+      "ru": "PayID"
+    }
   }
 ]
