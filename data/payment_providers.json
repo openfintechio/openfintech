@@ -18818,5 +18818,18 @@
     "payment_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "aps",
+    "vendor": "aps",
+    "name": {
+      "en": "APS",
+      "ru": "APS",
+      "uk": "APS"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
