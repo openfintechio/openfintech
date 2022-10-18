@@ -17506,6 +17506,19 @@
   },
   {
     "status": "active",
+    "code": "poli",
+    "vendor": "poli",
+    "name": {
+      "en": "POLi",
+      "ru": "POLi",
+      "uk": "POLi"
+    },
+    "payment_method": [
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "1payment",
     "vendor": "1payment",
     "name": {

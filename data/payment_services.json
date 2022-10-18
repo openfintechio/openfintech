@@ -2940,6 +2940,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_clp_hpp",
     "currency": "CLP",
     "flow": "hpp",
