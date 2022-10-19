@@ -18808,6 +18808,19 @@
   },
   {
     "status": "active",
+    "code": "thenoy",
+    "vendor": "thenoy",
+    "name": {
+      "en": "THENOY",
+      "ru": "THENOY",
+      "uk": "THENOY"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "swiffy",
     "vendor": "swiffy",
     "name": {
