@@ -10253,5 +10253,14 @@
     "currency": "RUB",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "pay_id_aud_invoice",
+    "flow": "invoice",
+    "method": "pay_id",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
