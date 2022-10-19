@@ -18870,5 +18870,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "amazonpaymentservices",
+    "vendor": "amazonpaymentservices",
+    "name": {
+      "en": "Amazon Payment Services",
+      "ru": "Amazon Payment Services",
+      "uk": "Amazon Payment Services"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
