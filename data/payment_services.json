@@ -9986,6 +9986,123 @@
   },
   {
     "status": "active",
+    "code": "shinhan_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "shinhan_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "hd_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "hd_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "cimb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "cimb_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "shb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "shb_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "scb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "scb_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "uobt_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "uobt",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "vp_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "vp_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "tp_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "tp_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "ncb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "ncb_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "viet_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "viet_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "omllvcb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "omllvcb_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "ocb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "ocb_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "cfc_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "cfc_bank",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
     "code": "viettelpay_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
