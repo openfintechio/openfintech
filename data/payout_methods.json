@@ -17614,14 +17614,6 @@
   },
   {
     "status": "active",
-    "code": "cimb_bank",
-    "category": "bank_transfer",
-    "name": {
-      "en": "CIMB Bank"
-    }
-  },
-  {
-    "status": "active",
     "code": "public_bank_berhad",
     "category": "bank_transfer",
     "name": {
@@ -24036,6 +24028,416 @@
       "en": "Sepa Transfer",
       "uk": "Sepa Transfer",
       "ru": "Sepa Transfer"
+    }
+  },
+  {
+    "status": "active",
+    "code": "vib_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Vietnam International Commercial Joint Stock Bank",
+      "uk": "Vietnam International Commercial Joint Stock Bank",
+      "ru": "Vietnam International Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "agri_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Vietnam Bank for Agriculture and Rural Development",
+      "uk": "Vietnam Bank for Agriculture and Rural Development",
+      "ru": "Vietnam Bank for Agriculture and Rural Development"
+    }
+  },
+  {
+    "status": "active",
+    "code": "saigon_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Saigon Bank For Industry And Trade",
+      "uk": "Saigon Bank For Industry And Trade",
+      "ru": "Saigon Bank For Industry And Trade"
+    }
+  },
+  {
+    "status": "active",
+    "code": "vrb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Vietnam - Russia Joint Venture Bank",
+      "uk": "Vietnam - Russia Joint Venture Bank",
+      "ru": "Vietnam - Russia Joint Venture Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ab_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "An Binh Commercial Joint Stock Bank",
+      "uk": "An Binh Commercial Joint Stock Bank",
+      "ru": "An Binh Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "baoviet_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Baoviet Joint Stock Commercial Bank",
+      "uk": "Baoviet Joint Stock Commercial Bank",
+      "ru": "Baoviet Joint Stock Commercial Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "public_bank_vietnam",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Public Bank Vietnam",
+      "uk": "Public Bank Vietnam",
+      "ru": "Public Bank Vietnam"
+    }
+  },
+  {
+    "status": "active",
+    "code": "pvcom_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Vietnam Public Joint Stock Commercial Bank",
+      "uk": "Vietnam Public Joint Stock Commercial Bank",
+      "ru": "Vietnam Public Joint Stock Commercial Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kien_long_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Kien Long Commercial Joint - Stock Bank",
+      "uk": "Kien Long Commercial Joint - Stock Bank",
+      "ru": "Kien Long Commercial Joint - Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "mb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "MB Bank",
+      "uk": "MB Bank",
+      "ru": "MB Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "standard_chartered_bank_vietnam",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Standard Chartered Bank (Vietnam) Limited",
+      "uk": "Standard Chartered Bank (Vietnam) Limited",
+      "ru": "Standard Chartered Bank (Vietnam) Limited"
+    }
+  },
+  {
+    "status": "active",
+    "code": "petrolimex_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Petrolimex Group Commercial Joint Stock Bank",
+      "uk": "Petrolimex Group Commercial Joint Stock Bank",
+      "ru": "Petrolimex Group Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "viet_capital_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Viet Capital Commercial",
+      "uk": "Viet Capital Commercial",
+      "ru": "Viet Capital Commercial"
+    }
+  },
+  {
+    "status": "active",
+    "code": "viet_a_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "VietNam Asia Commercial Bank",
+      "uk": "VietNam Asia Commercial Bank",
+      "ru": "VietNam Asia Commercial Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ocean_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Ocean Commercial One Member Limited Liability Bank",
+      "uk": "Ocean Commercial One Member Limited Liability Bank",
+      "ru": "Ocean Commercial One Member Limited Liability Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nam_a_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Nam A Commercial Joint Stock Bank",
+      "uk": "Nam A Commercial Joint Stock Bank",
+      "ru": "Nam A Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "indovina_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Indovina Bank Ltd.",
+      "uk": "Indovina Bank Ltd.",
+      "ru": "Indovina Bank Ltd."
+    }
+  },
+  {
+    "status": "active",
+    "code": "lien_viet_post_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "LienVietPostBank",
+      "uk": "LienVietPostBank",
+      "ru": "LienVietPostBank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "industrial_bank_ho_chi_minh",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Industrial Bank Of Korea (IBK) - Ho Chi Minh City Branch",
+      "uk": "Industrial Bank Of Korea (IBK) - Ho Chi Minh City Branch",
+      "ru": "Industrial Bank Of Korea (IBK) - Ho Chi Minh City Branch"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bac_a_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "North Asia Commercial Joint Stock Bank",
+      "uk": "North Asia Commercial Joint Stock Bank",
+      "ru": "North Asia Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "maritime_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Vietnam Maritime Commercial Joint Stock Bank",
+      "uk": "Vietnam Maritime Commercial Joint Stock Bank",
+      "ru": "Vietnam Maritime Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "cooperative_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Co-operative Bank of Viet Nam",
+      "uk": "Co-operative Bank of Viet Nam",
+      "ru": "Co-operative Bank of Viet Nam"
+    }
+  },
+  {
+    "status": "active",
+    "code": "gp_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Global Petro Sole Member Limited Commercial Bank",
+      "uk": "Global Petro Sole Member Limited Commercial Bank",
+      "ru": "Global Petro Sole Member Limited Commercial Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "industrial_bank_hanoi",
+    "category": "bank_transfer",
+    "name": {
+      "en": "INDUSTRIAL BANK OF KOREA – HANOI BRANCH",
+      "uk": "INDUSTRIAL BANK OF KOREA – HANOI BRANCH",
+      "ru": "INDUSTRIAL BANK OF KOREA – HANOI BRANCH"
+    }
+  },
+  {
+    "status": "active",
+    "code": "sea_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Southeast Asia Commercial Joint Stock Bank",
+      "uk": "Southeast Asia Commercial Joint Stock Bank",
+      "ru": "Southeast Asia Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "hd_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Housing Development Commercial Joint Stock Bank",
+      "uk": "Housing Development Commercial Joint Stock Bank",
+      "ru": "Housing Development Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "cimb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "CIMB Bank Vietnam Limited",
+      "uk": "CIMB Bank Vietnam Limited",
+      "ru": "CIMB Bank Vietnam Limited"
+    }
+  },
+  {
+    "status": "active",
+    "code": "shb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Saigon-Hanoi Commercial Joint Stock Bank",
+      "uk": "Saigon-Hanoi Commercial Joint Stock Bank",
+      "ru": "Saigon-Hanoi Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "scb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Sai Gon Joint Stock Commercial Bank",
+      "uk": "Sai Gon Joint Stock Commercial Bank",
+      "ru": "Sai Gon Joint Stock Commercial Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "vp_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Vietnam Prosperity Joint‑Stock Commercial Bank",
+      "uk": "Vietnam Prosperity Joint‑Stock Commercial Bank",
+      "ru": "Vietnam Prosperity Joint‑Stock Commercial Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "tp_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Tien Phong Commercial Joint Stock Bank",
+      "uk": "Tien Phong Commercial Joint Stock Bank",
+      "ru": "Tien Phong Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ncb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "National Citizen Commercial Joint Stock Bank",
+      "uk": "National Citizen Commercial Joint Stock Bank",
+      "ru": "National Citizen Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "viet_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Vietnam Thuong Tin Commercial Joint Stock Bank",
+      "uk": "Vietnam Thuong Tin Commercial Joint Stock Bank",
+      "ru": "Vietnam Thuong Tin Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "omllvcb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Vietnam Construction Joint Stock Commercial Bank",
+      "uk": "Vietnam Construction Joint Stock Commercial Bank",
+      "ru": "Vietnam Construction Joint Stock Commercial Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ocb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Orient Commercial Joint Stock Bank",
+      "uk": "Orient Commercial Joint Stock Bank",
+      "ru": "Orient Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "cfc_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "VietCredit Finance Joint Stock Company",
+      "uk": "VietCredit Finance Joint Stock Company",
+      "ru": "VietCredit Finance Joint Stock Company"
+    }
+  },
+  {
+    "status": "active",
+    "code": "momo",
+    "category": "mobile_payment",
+    "name": {
+      "en": "MoMo",
+      "uk": "MoMo",
+      "ru": "MoMo"
+    }
+  },
+  {
+    "status": "active",
+    "code": "zalopay",
+    "category": "mobile_payment",
+    "name": {
+      "en": "ZaloPay",
+      "uk": "ZaloPay",
+      "ru": "ZaloPay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "shinhan_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Shinhan Bank",
+      "uk": "Shinhan Bank",
+      "ru": "Shinhan Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "woori_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Woori Bank",
+      "uk": "Woori Bank",
+      "ru": "Woori Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "uobt",
+    "category": "bank_transfer",
+    "name": {
+      "en": "UOBT",
+      "uk": "UOBT",
+      "ru": "UOBT"
     }
   }
 ]
