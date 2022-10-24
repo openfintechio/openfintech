@@ -19050,5 +19050,18 @@
     "payment_method": [
       "upi_qr"
     ]
+  },
+  {
+    "status": "active",
+    "code": "mxpay",
+    "vendor": "mxpay",
+    "name": {
+      "en": "MXPay",
+      "ru": "MXPay",
+      "uk": "MXPay"
+    },
+    "payout_method" : [
+      "payment_card"
+    ]
   }
 ]
