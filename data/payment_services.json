@@ -10379,5 +10379,14 @@
     "currency": "AUD",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "upi_qr_inr_invoice",
+    "flow": "invoice",
+    "method": "upi_qr",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 8000000
   }
 ]
