@@ -10388,5 +10388,14 @@
     "currency": "INR",
     "amount_min": 0.01,
     "amount_max": 8000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_inr_invoice",
+    "currency": "INR",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 8000000
   }
 ]
