@@ -14657,7 +14657,11 @@
       "ru": "Certus Finance",
       "uk": "Certus Finance"
 
-    }
+    },
+    "payment_method": [
+      "bank_transfer",
+      "upi_qr"
+    ]
   },
   {
     "status": "active",
