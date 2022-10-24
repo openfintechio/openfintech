@@ -14657,7 +14657,11 @@
       "ru": "Certus Finance",
       "uk": "Certus Finance"
 
-    }
+    },
+    "payment_method": [
+      "bank_transfer",
+      "upi_qr"
+    ]
   },
   {
     "status": "active",
@@ -17254,6 +17258,7 @@
       "payment_card"
     ],
     "payout_method": [
+      "bank_transfer",
       "bitcoin",
       "ethereum",
       "tether",
@@ -18821,6 +18826,19 @@
   },
   {
     "status": "active",
+    "code": "securepaycard",
+    "vendor": "securepaycard",
+    "name": {
+      "en": "Securepaycard",
+      "ru": "Securepaycard",
+      "uk": "Securepaycard"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "swiffy",
     "vendor": "swiffy",
     "name": {
@@ -18881,6 +18899,172 @@
       "uk": "Amazon Payment Services"
     },
     "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "lpb",
+    "vendor": "lpb",
+    "name": {
+      "en": "LPB",
+      "ru": "LPB",
+      "uk": "LPB"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "zepto",
+    "vendor": "zepto",
+    "name": {
+      "en": "Zepto",
+      "ru": "Zepto",
+      "uk": "Zepto"
+    },
+    "payment_method": [
+      "pay_id"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "skpay",
+    "vendor": "skpay",
+    "name": {
+      "en": "SKPay",
+      "ru": "SKPay",
+      "uk": "SKPay"
+    },
+    "payment_method": [
+      "woori_bank",
+      "acb_bank",
+      "exim_bank",
+      "sacom_bank",
+      "vietcom_bank",
+      "bidv_bank",
+      "hong_leong_bank",
+      "dong_a_bank",
+      "shinhan_bank",
+      "uobt",
+      "techom_bank",
+      "vietin_bank",
+      "momo",
+      "zalopay",
+      "vib_bank",
+      "agri_bank",
+      "saigon_bank",
+      "vrb_bank",
+      "ab_bank",
+      "baoviet_bank",
+      "public_bank_vietnam",
+      "pvcom_bank",
+      "kien_long_bank",
+      "mb_bank",
+      "standard_chartered_bank_vietnam",
+      "petrolimex_bank",
+      "viet_capital_bank",
+      "viet_a_bank",
+      "ocean_bank",
+      "nam_a_bank",
+      "indovina_bank",
+      "lien_viet_post_bank",
+      "industrial_bank_ho_chi_minh",
+      "bac_a_bank",
+      "maritime_bank",
+      "cooperative_bank",
+      "gp_bank",
+      "industrial_bank_hanoi",
+      "sea_bank",
+      "hd_bank",
+      "cimb_bank",
+      "shb_bank",
+      "scb_bank",
+      "vp_bank",
+      "tp_bank",
+      "ncb_bank",
+      "viet_bank",
+      "omllvcb_bank",
+      "ocb_bank",
+      "cfc_bank"
+    ],
+    "payout_method": [
+      "woori_bank",
+      "acb_bank",
+      "exim_bank",
+      "sacom_bank",
+      "vietcom_bank",
+      "bidv_bank",
+      "hong_leong_bank",
+      "dong_a_bank",
+      "shinhan_bank",
+      "uobt",
+      "techom_bank",
+      "vietin_bank",
+      "vib_bank",
+      "agri_bank",
+      "saigon_bank",
+      "vrb_bank",
+      "ab_bank",
+      "baoviet_bank",
+      "public_bank_vietnam",
+      "pvcom_bank",
+      "kien_long_bank",
+      "mb_bank",
+      "standard_chartered_bank_vietnam",
+      "petrolimex_bank",
+      "viet_capital_bank",
+      "viet_a_bank",
+      "ocean_bank",
+      "nam_a_bank",
+      "indovina_bank",
+      "lien_viet_post_bank",
+      "industrial_bank_ho_chi_minh",
+      "bac_a_bank",
+      "maritime_bank",
+      "cooperative_bank",
+      "gp_bank",
+      "industrial_bank_hanoi",
+      "sea_bank",
+      "hd_bank",
+      "cimb_bank",
+      "shb_bank",
+      "scb_bank",
+      "vp_bank",
+      "tp_bank",
+      "ncb_bank",
+      "viet_bank",
+      "omllvcb_bank",
+      "ocb_bank",
+      "cfc_bank",
+      "momo",
+      "zalopay"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "toshani",
+    "vendor": "toshani",
+    "name": {
+      "en": "Toshani",
+      "ru": "Toshani",
+      "uk": "Toshani"
+    },
+    "payment_method": [
+      "upi_qr"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mxpay",
+    "vendor": "mxpay",
+    "name": {
+      "en": "MXPay",
+      "ru": "MXPay",
+      "uk": "MXPay"
+    },
+    "payout_method" : [
       "payment_card"
     ]
   }

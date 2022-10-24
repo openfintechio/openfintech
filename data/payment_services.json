@@ -4628,6 +4628,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "acb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -4637,6 +4657,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "vietcom_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -4646,6 +4686,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "vietin_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -4655,6 +4715,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "sacom_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -4664,6 +4744,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "bidv_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -4673,6 +4773,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "techom_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -4682,6 +4802,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "dong_a_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -4691,6 +4831,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "exim_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -9972,6 +10132,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "momo",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
   },
@@ -9981,8 +10161,1168 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "zalopay",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
     "amount_min": 1,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "shinhan_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "shinhan_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "vib_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "vib_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "agri_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "agri_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "saigon_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "saigon_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "vrb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "vrb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "ab_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "ab_bank",
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "baoviet_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "baoviet_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "public_bank_vietnam_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "public_bank_vietnam",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "pvcom_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "pvcom_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "kien_long_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "kien_long_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "woori_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "woori_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "mb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "mb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "standard_chartered_bank_vietnam_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "standard_chartered_bank_vietnam",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "petrolimex_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "petrolimex_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "viet_capital_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "viet_capital_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "viet_a_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "viet_a_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "ocean_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "ocean_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "nam_a_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "nam_a_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "indovina_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "indovina_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "lien_viet_post_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "lien_viet_post_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "industrial_bank_ho_chi_minh_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "industrial_bank_ho_chi_minh",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "bac_a_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "bac_a_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "maritime_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "maritime_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "cooperative_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "cooperative_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "gp_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "gp_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "industrial_bank_hanoi_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "industrial_bank_hanoi",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "sea_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "sea_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "hong_leong_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "hong_leong_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "hd_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "hd_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "cimb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "cimb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "shb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "shb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "scb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "scb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "uobt_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "uobt",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "vp_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "vp_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "tp_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "tp_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "ncb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "ncb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "viet_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "viet_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "omllvcb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "omllvcb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "ocb_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "ocb_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "cfc_bank_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "cfc_bank",
+    "fields": [
+      {
+        "key": "payer_name",
+        "type": "string",
+        "label": {
+          "en": "Payer name",
+          "ru": "Имя плательщика",
+          "uk": "Імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s] {2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2500000000
   },
   {
     "status": "active",
@@ -10253,5 +11593,32 @@
     "currency": "RUB",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "pay_id_aud_invoice",
+    "flow": "invoice",
+    "method": "pay_id",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "upi_qr_inr_invoice",
+    "flow": "invoice",
+    "method": "upi_qr",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 8000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_inr_invoice",
+    "currency": "INR",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 8000000
   }
 ]

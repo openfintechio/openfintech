@@ -29461,6 +29461,18 @@
     }
   },
   {
+    "code": "securepaycard",
+    "status": "active",
+    "links": {
+      "website": "https://securepaycard.com/"
+    },
+    "name": {
+      "en": "Securepaycard",
+      "ru": "Securepaycard",
+      "uk": "Securepaycard"
+    }
+  },
+  {
     "code": "swiffy",
     "status": "active",
     "links": {
@@ -29515,6 +29527,57 @@
       "en": "Amazon Payment Services",
       "ru": "Amazon Payment Services",
       "uk": "Amazon Payment Services"
+    }
+  },
+  {
+    "code": "lpb",
+    "status": "active",
+    "links": {
+      "website": "https://lpb.lv/"
+    },
+    "name": {
+      "en": "LPB",
+      "ru": "LPB",
+      "uk": "LPB"
+    }
+  },
+  {
+    "code": "zepto",
+    "status": "active",
+    "name": {
+      "en": "Zepto",
+      "ru": "Zepto",
+      "uk": "Zepto"
+    }
+  },
+  {
+    "code": "skpay",
+    "status": "active",
+    "name": {
+      "en": "SKPay",
+      "ru": "SKPay",
+      "uk": "SKPay"
+    }
+  },
+  {
+    "code": "toshani",
+    "status": "active",
+    "links": {
+      "website": "https://upi.toshanidigital.com/"
+    },
+    "name": {
+      "en": "Toshani",
+      "ru": "Toshani",
+      "uk": "Toshani"
+    }
+  },
+  {
+    "code": "mxpay",
+    "status": "active",
+    "name": {
+      "en": "MXPay",
+      "ru": "MXPay",
+      "uk": "MXPay"
     }
   }
 ]
