@@ -76872,11 +76872,28 @@
         "example": "12345678"
       },
       {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
         "key": "bank_branch",
         "type": "string",
         "regexp": "\/^[A-za-z,0-9\\p{L}]{2,100}$\/u",
         "required": false,
-        "position": 2,
+        "position": 3,
         "label": {
           "en": "Bank Branch",
           "ru": "Bank Branch",
@@ -76893,7 +76910,7 @@
         "type": "string",
         "regexp": "\/^[0-9]{2,100}$\/",
         "required": false,
-        "position": 3,
+        "position": 4,
         "label": {
           "en": "Bank Branch Code",
           "ru": "Bank Branch Code",
@@ -76911,7 +76928,7 @@
         "type": "string",
         "regexp": "\/^[A-Za-z0-9\\p{L}]{2,20}$\/u",
         "required": false,
-        "position": 4,
+        "position": 5,
         "label": {
           "en": "Bank Code",
           "ru": "Код банка",
@@ -76929,7 +76946,7 @@
         "type": "string",
         "regexp": "\/^.{2,6}$\/",
         "required": false,
-        "position": 5,
+        "position": 6,
         "label": {
           "en": "Bank country code",
           "ru": "Bank country code",
@@ -76947,7 +76964,7 @@
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z0-9_\\p{L}]{2,100}$\/u",
         "required": false,
-        "position": 6,
+        "position": 7,
         "label": {
           "en": "Bank Name",
           "ru": "Код банка",
@@ -76964,7 +76981,7 @@
         "type": "string",
         "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,100}$\/u",
         "required": false,
-        "position": 7,
+        "position": 8,
         "label": {
           "en": "Beneficiary first name",
           "ru": "Имя получателя",
@@ -76981,7 +76998,7 @@
         "type": "string",
         "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s\\p{L}]{2,100}$\/u",
         "required": false,
-        "position": 8,
+        "position": 9,
         "label": {
           "en": "Beneficiary full name",
           "ru": "Полное имя получателя",
@@ -76998,7 +77015,7 @@
         "type": "string",
         "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d\\p{L}\\p{L}]{2,64}$\/u",
         "required": false,
-        "position": 9,
+        "position": 10,
         "label": {
           "en": "Address",
           "ru": "Address",
@@ -77015,7 +77032,7 @@
         "type": "string",
         "regexp": "\/^.{2,6}$\/",
         "required": false,
-        "position": 10,
+        "position": 11,
         "label": {
           "en": "Beneficiary country code",
           "ru": "Beneficiary country code",
@@ -77032,7 +77049,7 @@
         "type": "string",
         "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
         "required": false,
-        "position": 11,
+        "position": 12,
         "label": {
           "en": "Email",
           "ru": "Email",
@@ -77050,7 +77067,7 @@
         "type": "string",
         "regexp": "\/^.{1,255}$\/",
         "required": false,
-        "position": 12,
+        "position": 13,
         "label": {
           "en": "City",
           "ru": "City",
@@ -77068,7 +77085,7 @@
         "type": "string",
         "regexp": "\/^.{1,255}$\/",
         "required": false,
-        "position": 13,
+        "position": 14,
         "label": {
           "en": "Postcode",
           "ru": "Postcode",
@@ -77086,7 +77103,7 @@
         "type": "string",
         "regexp": "\/^\\+\\d{1,15}$\/",
         "required": false,
-        "position": 14,
+        "position": 15,
         "label": {
           "en": "Phone number",
           "ru": "Номер телефона",
@@ -77103,7 +77120,7 @@
         "type": "string",
         "regexp": "\/^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$\/",
         "required": false,
-        "position": 15,
+        "position": 16,
         "label": {
           "en": "Date of birth",
           "ru": "Дата рождения",
