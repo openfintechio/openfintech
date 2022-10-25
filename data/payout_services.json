@@ -351,6 +351,856 @@
   },
   {
     "status": "active",
+    "code": "payment_card_cad",
+    "method": "payment_card",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "150000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_gel",
+    "method": "payment_card",
+    "currency": "GEL",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "280000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_huf",
+    "method": "payment_card",
+    "currency": "HUF",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "39600000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_hrk",
+    "method": "payment_card",
+    "currency": "HRK",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "760000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_aud",
+    "method": "payment_card",
+    "currency": "AUD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "160000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_lkr",
+    "method": "payment_card",
+    "currency": "LKR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "37000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_isk",
+    "method": "payment_card",
+    "currency": "ISK",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "15000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_ils",
+    "method": "payment_card",
+    "currency": "ILS",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "360000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_czk",
+    "method": "payment_card",
+    "currency": "CZK",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "2500000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_ars",
+    "method": "payment_card",
+    "currency": "ARS",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "16000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_aed",
+    "method": "payment_card",
+    "currency": "AED",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "370000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_mkd",
+    "method": "payment_card",
+    "currency": "MKD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "6200000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_mop",
+    "method": "payment_card",
+    "currency": "MOP",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "800000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_mur",
+    "method": "payment_card",
+    "currency": "MUR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "4600000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_myr",
+    "method": "payment_card",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "480000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_qar",
+    "method": "payment_card",
+    "currency": "QAR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "370000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_ron",
+    "method": "payment_card",
+    "currency": "RON",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_rsd",
+    "method": "payment_card",
+    "currency": "RSD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "11800000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_sar",
+    "method": "payment_card",
+    "currency": "SAR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "380000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_thb",
+    "method": "payment_card",
+    "currency": "THB",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "3800000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_try",
+    "method": "payment_card",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1900000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_twd",
+    "method": "payment_card",
+    "currency": "TWD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "3300000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_uyu",
+    "method": "payment_card",
+    "currency": "UYU",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "4200000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_vnd",
+    "method": "payment_card",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "4500000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_zwl",
+    "method": "payment_card",
+    "currency": "ZWL",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "36200000"
+  },
+  {
+    "status": "active",
     "code": "payment_card_amd",
     "method": "payment_card",
     "currency": "AMD",
@@ -586,6 +1436,40 @@
     ],
     "amount_min": "1",
     "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_egp",
+    "method": "payment_card",
+    "currency": "EGP",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "2000000"
   },
   {
     "status": "active",
