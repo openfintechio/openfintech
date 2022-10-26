@@ -15348,10 +15348,43 @@
       "en": "Spoynt"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "papara",
+      "online_banking_qr",
+      "cepbank",
+      "jeton_wallet",
+      "interac",
+      "pix",
+      "boleto_bancario",
+      "spei",
+      "pagoefectivo_cip",
+      "upi",
+      "community_bank",
+      "bank_transfer"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "papara",
+      "interac",
+      "turkey_finans_katilim_bank",
+      "akbank",
+      "qnb_finansbank",
+      "totens_sparebank",
+      "sparebanken_vest",
+      "storebrand",
+      "dnb_bank",
+      "danske_bank",
+      "sbanken_bank",
+      "nordea_bank",
+      "sparebank_1_smn",
+      "hegra_sparebank",
+      "ininal",
+      "turkey_is_bank",
+      "ing_bank_turkey",
+      "turkey_econom_bank",
+      "ziraat_bank",
+      "pix",
+      "bank_transfer"
     ]
   },
   {
@@ -18427,6 +18460,7 @@
       "uk": "PayRetailers"
     },
     "payout_method": [
+      "pix",
       "spei"
     ],
     "payment_method": [

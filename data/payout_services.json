@@ -78472,7 +78472,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
         "required": false,
         "position": 4,
         "label": {
@@ -78489,7 +78489,7 @@
       {
         "key": "beneficiary_lastname",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
         "required": false,
         "position": 5,
         "label": {
@@ -78506,7 +78506,7 @@
       {
         "key": "bank_code",
         "type": "string",
-        "regexp": "\/^[a-zA-Z0-9]{2,12}$\/",
+        "regexp": "\/^[-\\d\\s\\p{L}]{2,12}$\/",
         "required": false,
         "position": 6,
         "label": {
@@ -78634,7 +78634,7 @@
     "fields": [
       {
         "key": "beneficiary_name",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
         "type": "string",
         "label": {
           "en": "Beneficiary first name",
@@ -78651,7 +78651,7 @@
       },
       {
         "key": "beneficiary_lastname",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
         "type": "string",
         "label": {
           "en": "Beneficiary last name",
@@ -78729,7 +78729,7 @@
     "fields": [
       {
         "key": "beneficiary_name",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
         "type": "string",
         "label": {
           "en": "Beneficiary first name",
@@ -78746,7 +78746,7 @@
       },
       {
         "key": "beneficiary_lastname",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
         "type": "string",
         "label": {
           "en": "Beneficiary last name",
