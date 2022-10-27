@@ -73559,21 +73559,21 @@
         "position": 1
       },
       {
-      "key": "user_password",
-      "type": "string",
-      "label": {
-        "en": "User password",
-        "ru": "User password",
-        "uk": "User password"
-      },
-      "hint": {
-        "en": "Enter user password",
-        "ru": "Введите user password",
-        "uk": "Введіть user password"
-      },
-      "regexp": "\/^.{1,64}$\/",
-      "required": true,
-      "position": 2
+        "key": "user_password",
+        "type": "string",
+        "label": {
+          "en": "User password",
+          "ru": "User password",
+          "uk": "User password"
+        },
+        "hint": {
+          "en": "Enter user password",
+          "ru": "Введите user password",
+          "uk": "Введіть user password"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": true,
+        "position": 2
       }
     ],
     "amount_min": "0.01",
@@ -76269,6 +76269,52 @@
     ],
     "amount_min": "0.01",
     "amount_max": "100000.00"
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aud",
+    "method": "bank_transfer",
+    "currency": "AUD",
+    "amount_min": "0.01",
+    "amount_max": "100000.00",
+    "fields": [
+      {
+        "key": "bank_branch_code",
+        "type": "string",
+        "regexp": "\/^\\d{1,20}$\/",
+        "required": true,
+        "position": 3,
+        "label": {
+          "en": "Branch code",
+          "ru": "Код филиала",
+          "uk": "Код філії"
+        },
+        "hint": {
+          "en": "Enter branch code",
+          "ru": "Введите код филиала",
+          "uk": "Введіть код філії"
+        },
+        "example": "123456"
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^\\d{1,20}$\/",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер аккаунта",
+          "uk": "Номер аккаунта"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер аккаунта",
+          "uk": "Введіть номер аккаунта"
+        },
+        "example": "100000000393"
+      }
+    ]
   },
   {
     "status": "active",
@@ -79286,7 +79332,7 @@
           "uk": "Введіть транзитний номер рахунку"
         },
         "example": "123450101212345",
-        "regexp":  "\/^[0-9]{5,100}$\/",
+        "regexp": "\/^[0-9]{5,100}$\/",
         "required": true,
         "position": 2
       },
@@ -79304,7 +79350,7 @@
           "uk": "Введіть номер  фінансової установи"
         },
         "example": "241",
-        "regexp":  "\/^[0-9]{1,3}$\/",
+        "regexp": "\/^[0-9]{1,3}$\/",
         "required": true,
         "position": 3
       }
@@ -82419,7 +82465,7 @@
           "ru": "Введите адрес кошелька",
           "uk": "Введіть адресу гаманця"
         },
-        "regexp": "\/^.{10,64}$\/" ,
+        "regexp": "\/^.{10,64}$\/",
         "required": true,
         "position": 1
       }
@@ -82446,7 +82492,7 @@
           "ru": "Введите адрес кошелька",
           "uk": "Введіть адресу гаманця"
         },
-        "regexp": "\/^.{10,64}$\/" ,
+        "regexp": "\/^.{10,64}$\/",
         "required": true,
         "position": 1
       }
@@ -82473,7 +82519,7 @@
           "ru": "Введите адрес кошелька",
           "uk": "Введіть адресу гаманця"
         },
-        "regexp": "\/^.{10,64}$\/" ,
+        "regexp": "\/^.{10,64}$\/",
         "required": true,
         "position": 1
       }
