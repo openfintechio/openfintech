@@ -892,6 +892,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_aed_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "payment_card_huf_hpp",
     "flow": "hpp",
     "method": "payment_card",
