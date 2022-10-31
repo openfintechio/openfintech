@@ -9864,6 +9864,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_npr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "NPR",
+    "amount_min": 0.01,
+    "amount_max": 13000000
+  },
+  {
+    "status": "active",
     "code": "pix_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
