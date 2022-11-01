@@ -76283,7 +76283,7 @@
         "type": "string",
         "regexp": "\/^\\d{1,20}$\/",
         "required": true,
-        "position": 3,
+        "position": 1,
         "label": {
           "en": "Branch code",
           "ru": "Код филиала",
@@ -76301,7 +76301,7 @@
         "type": "string",
         "regexp": "\/^\\d{1,20}$\/",
         "required": true,
-        "position": 4,
+        "position": 2,
         "label": {
           "en": "Account number",
           "ru": "Номер аккаунта",

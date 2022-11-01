@@ -18962,7 +18962,11 @@
       "uk": "Zepto"
     },
     "payment_method": [
-      "pay_id"
+      "pay_id",
+      "bank_transfer"
+    ],
+    "payout_method": [
+      "bank_transfer"
     ]
   },
   {
