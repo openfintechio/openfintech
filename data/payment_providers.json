@@ -9146,17 +9146,14 @@
     "status": "active",
     "code": "megagatepay",
     "vendor": "megagatepay",
+    "name": {
+      "en": "MegaGatePay",
+      "ru": "MegaGatePay",
+      "uk": "MegaGatePay"
+    },
     "payment_method": [
       "payment_card"
-    ],
-    "metadata": {
-      "about_payments_code": "megagatepay"
-    },
-    "name": {
-      "en": "Megagatepay",
-      "ru": "Megagatepay",
-      "uk": "Megagatepay"
-    }
+    ]
   },
   {
     "status": "active",
