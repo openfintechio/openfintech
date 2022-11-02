@@ -18872,6 +18872,9 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -19107,6 +19110,19 @@
     },
     "payout_method" : [
       "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "sbpay",
+    "vendor": "sbpay",
+    "name": {
+      "en": "SBPay",
+      "ru": "SBPay",
+      "uk": "SBPay"
+    },
+    "payment_method" : [
+      "sbp"
     ]
   }
 ]

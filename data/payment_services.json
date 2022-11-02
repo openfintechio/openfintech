@@ -892,6 +892,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_aed_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "payment_card_huf_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -9852,6 +9861,15 @@
     "currency": "THB",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "payment_card_npr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "NPR",
+    "amount_min": 0.01,
+    "amount_max": 13000000
   },
   {
     "status": "active",
