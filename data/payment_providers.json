@@ -19117,6 +19117,19 @@
   },
   {
     "status": "active",
+    "code": "walletto",
+    "vendor": "walletto",
+    "name": {
+      "en": "Walletto",
+      "ru": "Walletto",
+      "uk": "Walletto"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "sbpay",
     "vendor": "sbpay",
     "name": {
