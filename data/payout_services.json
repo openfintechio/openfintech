@@ -70604,6 +70604,23 @@
           "ru": "Введите полное имя отправителя",
           "uk": "Введіть повне імʼя відправкника"
         }
+      },
+      {
+        "key": "beneficiary_itn",
+        "type": "string",
+        "regexp": "\/^\\d{10}$\/",
+        "required": false,
+        "position": 19,
+        "label": {
+          "en": "Beneficiary ITN",
+          "ru": "ИНН получателя",
+          "uk": "ІПН отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary Individual Tax Number",
+          "ru": "Введите ИНН получателя",
+          "uk": "Введіть ІПН отримувача"
+        }
       }
     ],
     "amount_min": "0.01",
