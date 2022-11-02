@@ -9144,6 +9144,19 @@
   },
   {
     "status": "active",
+    "code": "megagatepay",
+    "vendor": "megagatepay",
+    "name": {
+      "en": "MegaGatePay",
+      "ru": "MegaGatePay",
+      "uk": "MegaGatePay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "datatrans",
     "vendor": "datatrans",
     "countries": [
