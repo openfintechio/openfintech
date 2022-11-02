@@ -9144,6 +9144,22 @@
   },
   {
     "status": "active",
+    "code": "megagate",
+    "vendor": "megagate",
+    "payment_method": [
+      "payment_card"
+    ],
+    "metadata": {
+      "about_payments_code": "megagate"
+    },
+    "name": {
+      "en": "MegaGate",
+      "ru": "MegaGate",
+      "uk": "MegaGate"
+    }
+  },
+  {
+    "status": "active",
     "code": "datatrans",
     "vendor": "datatrans",
     "countries": [
