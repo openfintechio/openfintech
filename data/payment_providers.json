@@ -14674,6 +14674,11 @@
     "payment_method": [
       "bank_transfer",
       "upi_qr"
+    ],
+    "payout_method": [
+      "bank_transfer",
+      "upi",
+      "certus_transfer"
     ]
   },
   {
