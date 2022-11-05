@@ -6894,5 +6894,185 @@
       "uk": "UPI QR",
       "ru": "UPI QR"
     }
+  },
+  {
+    "code": "pse",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "PSE",
+      "ru": "PSE",
+      "uk": "PSE"
+    }
+  },
+  {
+    "code": "banco_guayaquil",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Guayaquil",
+      "ru": "Banco Guayaquil",
+      "uk": "Banco Guayaquil"
+    }
+  },
+  {
+    "code": "banco_pichincha",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Pichincha",
+      "ru": "Banco Pichincha",
+      "uk": "Banco Pichincha"
+    }
+  },
+  {
+    "code": "banco_bci",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Bci",
+      "ru": "Banco Bci",
+      "uk": "Banco Bci"
+    }
+  },
+  {
+    "code": "mach",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Mach",
+      "ru": "Mach",
+      "uk": "Mach"
+    }
+  },
+  {
+    "code": "khipu",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Khipu",
+      "ru": "Khipu",
+      "uk": "Khipu"
+    }
+  },
+  {
+    "code": "webpay",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Webpay",
+      "ru": "Webpay",
+      "uk": "Webpay"
+    }
+  },
+  {
+    "code": "multicaja",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Multicaja",
+      "ru": "Multicaja",
+      "uk": "Multicaja"
+    }
+  },
+  {
+    "code": "banco_de_credito",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco De Credito",
+      "ru": "Banco De Credito",
+      "uk": "Banco De Credito"
+    }
+  },
+  {
+    "code": "bbva_continental",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Bbva Continental",
+      "ru": "Bbva Continental",
+      "uk": "Bbva Continental"
+    }
+  },
+  {
+    "code": "caja_arequipa",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Arequipa",
+      "ru": "Caja Arequipa",
+      "uk": "Caja Arequipa"
+    }
+  },
+  {
+    "code": "caja_huancayo",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Huancayo",
+      "ru": "Caja Huancayo",
+      "uk": "Caja Huancayo"
+    }
+  },
+  {
+    "code": "caja_tacna",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Tacna",
+      "ru": "Caja Tacna",
+      "uk": "Caja Tacna"
+    }
+  },
+  {
+    "code": "caja_trujillo",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Trujillo",
+      "ru": "Caja Trujillo",
+      "uk": "Caja Trujillo"
+    }
+  },
+  {
+    "code": "interbank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Interbank",
+      "ru": "Interbank",
+      "uk": "Interbank"
+    }
+  },
+  {
+    "code": "scotiabank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Scotiabank",
+      "ru": "Scotiabank",
+      "uk": "Scotiabank"
+    }
+  },
+  {
+    "code": "banco_nacional",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Nacional",
+      "ru": "Banco Nacional",
+      "uk": "Banco Nacional"
+    }
+  },
+  {
+    "code": "transfer_bancaria",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Transfer Bancaria",
+      "ru": "Transfer Bancaria",
+      "uk": "Transfer Bancaria"
+    }
   }
 ]
