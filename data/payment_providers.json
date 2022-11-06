@@ -19174,5 +19174,18 @@
     "payment_method" : [
       "sbp"
     ]
+  },
+  {
+    "status": "active",
+    "code": "pagsmile",
+    "vendor": "pagsmile",
+    "name": {
+      "en": "Pagsmile",
+      "ru": "Pagsmile",
+      "uk": "Pagsmile"
+    },
+    "payment_method" : [
+      "pix"
+    ]
   }
 ]
