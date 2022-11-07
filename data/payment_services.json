@@ -11701,5 +11701,320 @@
     "method": "bank_transfer",
     "amount_min": 0.01,
     "amount_max": 8000000
+  },
+  {
+    "status": "active",
+    "code": "pse_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "pse",
+    "amount_min": 0.01,
+    "amount_max": 4900000000
+  },
+  {
+    "status": "active",
+    "code": "pse_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "pse",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_guayaquil_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_guayaquil",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_pichincha_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_pichincha",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_bci_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "banco_bci",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "banco_bci_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_bci",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mach_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "mach",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "mach_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "mach",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "khipu_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "khipu",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "khipu_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "khipu",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "webpay_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "webpay",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "webpay_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "webpay",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "multicaja_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "multicaja",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "multicaja_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "multicaja",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_de_credito_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "banco_de_credito",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "banco_de_credito_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_de_credito",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bbva_continental_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "bbva_continental",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "bbva_continental_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "bbva_continental",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "caja_arequipa_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "caja_arequipa",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "caja_arequipa_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "caja_arequipa",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "caja_huancayo_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "caja_huancayo",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "caja_huancayo_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "caja_huancayo",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "caja_tacna_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "caja_tacna",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "caja_tacna_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "caja_tacna",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "caja_trujillo_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "caja_trujillo",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "caja_trujillo_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "caja_trujillo",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "interbank_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "interbank",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "interbank_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "interbank",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "scotiabank_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "scotiabank",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "scotiabank_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "scotiabank",
+    "amount_min": 0.01,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "scotiabank_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "scotiabank",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_nacional_crc_hpp",
+    "currency": "CRC",
+    "flow": "hpp",
+    "method": "banco_nacional",
+    "amount_min": 0.01,
+    "amount_max": 62000000
+  },
+  {
+    "status": "active",
+    "code": "banco_nacional_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_nacional",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "transfer_bancaria_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "transfer_bancaria",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "transfer_bancaria_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "transfer_bancaria",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
