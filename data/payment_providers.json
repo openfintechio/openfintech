@@ -19189,5 +19189,21 @@
     "payment_method" : [
       "pix"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paygames",
+    "vendor": "paygames",
+    "name": {
+      "en": "PayGames",
+      "ru": "PayGames",
+      "uk": "PayGames"
+    },
+    "payment_method" : [
+      "payment_card"
+    ],
+    "payout_method" : [
+      "payment_card"
+    ]
   }
 ]
