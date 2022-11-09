@@ -3643,6 +3643,51 @@
   },
   {
     "status": "active",
+    "code": "cash_brl_hpp",
+    "currency": "BRL",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 510000
+  },
+  {
+    "status": "active",
+    "code": "cash_cop_hpp",
+    "currency": "COP",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "cash_mxn_hpp",
+    "currency": "MXN",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "cash_clp_hpp",
+    "currency": "CLP",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 90700000
+  },
+  {
+    "status": "active",
+    "code": "cash_pen_hpp",
+    "currency": "PEN",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
     "code": "bitcoin_rub_hpp",
     "currency": "RUB",
     "method": "bitcoin",
@@ -9464,7 +9509,7 @@
         "key": "cpf_number",
         "type": "string",
         "regexp": "\/^[0-9]{1,11}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "CPF number",
@@ -9479,6 +9524,42 @@
         "example": "12345678900"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "boleto_bancario_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "boleto_bancario",
+    "amount_min": 1,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "boleto_bancario_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "boleto_bancario",
+    "amount_min": 1,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "boleto_bancario_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "boleto_bancario",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "boleto_bancario_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "boleto_bancario",
+    "amount_min": 1,
+    "amount_max": 400000
   },
   {
     "status": "active",
@@ -9615,6 +9696,42 @@
         "example": "1986‐05‐22"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "pix_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "pix",
+    "amount_min": 1,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "pix_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "pix",
+    "amount_min": 1,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "pix_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "pix",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "pix_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "pix",
+    "amount_min": 1,
+    "amount_max": 400000
   },
   {
     "status": "active",
@@ -11650,6 +11767,51 @@
   },
   {
     "status": "active",
+    "code": "online_banking_brl_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "BRL",
+    "amount_min": 1,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_cop_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "COP",
+    "amount_min": 1,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_mxn_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_clp_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_pen_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
     "code": "online_banking_qr_vnd_hpp",
     "flow": "hpp",
     "method": "online_banking_qr",
@@ -11764,6 +11926,42 @@
     "method": "mach",
     "amount_min": 1,
     "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "mach_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "mach",
+    "amount_min": 1,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "mach_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "mach",
+    "amount_min": 1,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "mach_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "mach",
+    "amount_min": 1,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "mach_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "mach",
+    "amount_min": 1,
+    "amount_max": 400000
   },
   {
     "status": "active",
