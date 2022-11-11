@@ -910,6 +910,33 @@
   },
   {
     "status": "active",
+    "code": "payment_card_zmk_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "ZMK",
+    "amount_min": 0.01,
+    "amount_max": 1640000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_ugx_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "UGX",
+    "amount_min": 1,
+    "amount_max": 377400000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_kes_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "KES",
+    "amount_min": 0.01,
+    "amount_max": 12200000
+  },
+  {
+    "status": "active",
     "code": "payment_card_token_usd_hpp",
     "flow": "hpp",
     "method": "payment_card_token",
