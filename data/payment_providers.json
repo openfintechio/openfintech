@@ -15357,6 +15357,22 @@
   },
   {
     "status": "active",
+    "code": "sobini",
+    "vendor": "sobini",
+    "name": {
+      "en": "Sobini",
+      "ru": "Sobini",
+      "uk": "Sobini"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "spoynt",
     "description": {
       "en": "Spoynt payment processing system: A payment invoice is the heart of the Spoynt payment processing system. It includes customer information, payment card numbers, and account authorisation data. It is similar to a contract between the merchant and the gateway protocol. The system also provides payment invoice dashboards and direct integration with APIs. Besides a ready-made checkout page, Spoynt also offers a hosted payment page. The integration with APIs ensures secure data storage and payment processing, and ensures that payment receipts are delivered to the client."
