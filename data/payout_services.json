@@ -78655,7 +78655,7 @@
       {
         "key": "account_number",
         "type": "string",
-        "regexp": "\/^[0-9]{4,100}$\/",
+        "regexp": "\/^(^[0-9]{4,100}$)|(^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$)|(^[a-z0-9-]{36}$)|(^\\+55\\d{10,12}$)$\/",
         "required": false,
         "position": 8,
         "label": {
@@ -78740,7 +78740,7 @@
       {
         "key": "document_type",
         "type": "string",
-        "regexp": "\/^[A-Z]{1,5}$\/",
+        "regexp": "\/^(CPF|CNPJ)$\/",
         "required": false,
         "position": 13,
         "label": {
@@ -78776,7 +78776,7 @@
       {
         "key": "account_type",
         "type": "string",
-        "regexp": "\/^[A-Z]{1,5}$\/",
+        "regexp": "\/^(CPF|CNPJ|EVP|PHONE|EMAIL)$\/",
         "required": false,
         "position": 15,
         "label": {
