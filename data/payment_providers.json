@@ -9530,7 +9530,12 @@
       "astropaymanual",
       "astropaycash",
       "astropayunion",
-      "payment_card"
+      "payment_card",
+      "cash",
+      "boleto_bancario",
+      "pix",
+      "online_banking",
+      "mach"
     ],
     "payout_method": [
       "skrill"
