@@ -19275,6 +19275,19 @@
     ]
   },
   {
+    "status": "active",
+    "code": "paytriot",
+    "vendor": "paytriot",
+    "name": {
+      "en": "Paytriot",
+      "ru": "Paytriot",
+      "uk": "Paytriot"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
+  },
+  {
     "code": "neopay",
     "status": "active",
     "description": {
