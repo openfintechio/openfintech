@@ -19452,5 +19452,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "impaya",
+    "vendor": "impaya",
+    "name": {
+      "en": "Impaya",
+      "ru": "Impaya",
+      "uk": "Impaya"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   }
 ]
