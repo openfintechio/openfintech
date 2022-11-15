@@ -3144,6 +3144,22 @@
     }
   },
   {
+    "code": "united_overseas_bank_berhad",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "United Overseas Bank Malaysia"
+    }
+  },
+  {
+    "code": "united_overseas_bank_indonesia",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "United Overseas Bank Indonesia"
+    }
+  },
+  {
     "code": "creditagricole",
     "vendor": "creditagricole",
     "category": "online_banking",
@@ -4384,6 +4400,14 @@
     }
   },
   {
+    "code": "rupay",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "RuPay"
+    }
+  },
+  {
     "code": "dankort",
     "vendor": "dankort",
     "category": "payment_card",
@@ -5075,6 +5099,38 @@
     }
   },
   {
+    "code": "bandhan_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Bandhan Bank"
+    }
+  },
+  {
+    "code": "india_post_payment_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "India Post Payments Bank"
+    }
+  },
+  {
+    "code": "paytm_payments_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Paytm Payments Bank"
+    }
+  },
+  {
+    "code": "ujjivan_small_finance_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Ujjivan Small Finance Bank"
+    }
+  },
+  {
     "code": "canara_bank",
     "category": "bank_transfer",
     "status": "active",
@@ -5283,6 +5339,14 @@
     }
   },
   {
+    "code": "bank_rakyat_malaysia_berhad",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Bank Rakyat"
+    }
+  },
+  {
     "code": "cimb_clicks_indonesia",
     "category": "bank_transfer",
     "status": "active",
@@ -5323,11 +5387,27 @@
     }
   },
   {
+    "code": "vietcom_bank_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "VIETCOM Bank QR"
+    }
+  },
+  {
     "code": "vietin_bank",
     "category": "bank_transfer",
     "status": "active",
     "name": {
       "en": "VIETIN Bank"
+    }
+  },
+  {
+    "code": "vietin_bank_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "VIETIN Bank QR"
     }
   },
   {
@@ -5344,6 +5424,14 @@
     "status": "active",
     "name": {
       "en": "BIDV Bank"
+    }
+  },
+  {
+    "code": "bidv_bank_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "BIDV Bank QR"
     }
   },
   {
@@ -5451,6 +5539,14 @@
     }
   },
   {
+    "code": "indian_development_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Indian Development Bank"
+    }
+  },
+  {
     "code": "kwangju_bank",
     "category": "bank_transfer",
     "status": "active",
@@ -5488,6 +5584,14 @@
     "status": "active",
     "name": {
       "en": "Standard Chartered Bank Korea"
+    }
+  },
+  {
+    "code": "standard_chartered_bank_india",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Standard Chartered Bank India"
     }
   },
   {
@@ -6008,6 +6112,14 @@
     }
   },
   {
+    "code": "laxmi_vilas_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Lakshmi Vilas Bank"
+    }
+  },
+  {
     "code": "federal_bank_india",
     "category": "bank_transfer",
     "status": "active",
@@ -6366,6 +6478,16 @@
     }
   },
   {
+    "code": "momo_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Momo QR",
+      "ru": "Momo QR",
+      "uk": "Momo QR"
+    }
+  },
+  {
     "code": "zalopay",
     "category": "mobile_payment",
     "status": "active",
@@ -6373,6 +6495,16 @@
       "en": "ZaloPay",
       "ru": "ZaloPay",
       "uk": "ZaloPay"
+    }
+  },
+  {
+    "code": "zalo_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "ZaloPay QR",
+      "ru": "ZaloPay QR",
+      "uk": "ZaloPay QR"
     }
   },
   {
@@ -7073,6 +7205,246 @@
       "en": "Transfer Bancaria",
       "ru": "Transfer Bancaria",
       "uk": "Transfer Bancaria"
+    }
+  },
+  {
+    "code": "techcom_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Vietnam Technological and Commercial Joint Stock Bank"
+    }
+  },
+  {
+    "code": "techcom_bank_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Vietnam Technological and Commercial Joint Stock Bank QR"
+    }
+  },
+  {
+    "code": "asia_commercial_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Asia Commercial Bank"
+    }
+  },
+  {
+    "code": "asia_commercial_bank_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Asia Commercial Bank QR"
+    }
+  },
+  {
+    "code": "affin_bank_berhad",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Affin Bank Berhad"
+    }
+  },
+  {
+    "code": "alliance_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Alliance Bank Malaysia Berhad"
+    }
+  },
+  {
+    "code": "ambank_berhad",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "AmBank"
+    }
+  },
+  {
+    "code": "bank_islam_malaysia",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Bank Islam Malaysia"
+    }
+  },
+  {
+    "code": "bank_simpanan_nasional_berhad",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Bank Simpanan Nasional"
+    }
+  },
+  {
+    "code": "citi_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Citibank"
+    }
+  },
+  {
+    "code": "hsbc_bank_malaysia_berhad",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "HSBC Bank Malaysia"
+    }
+  },
+  {
+    "code": "hsbc_bank_indonesia",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "HSBC Bank Indonesia"
+    }
+  },
+  {
+    "code": "maybank_berhad",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Maybank"
+    }
+  },
+  {
+    "code": "ocbc_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "OCBC (OCBC Bank)"
+    }
+  },
+  {
+    "code": "ocbc_bank_indonesia",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "OCBC (OCBC Bank Indonesia)"
+    }
+  },
+  {
+    "code": "public_bank_berhad",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Public Bank Berhad"
+    }
+  },
+  {
+    "code": "vietnam_prosperity_commerial_bank_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Vietnam Prosperity Joint-Stock Commercial Bank QR"
+    }
+  },
+  {
+    "code": "military_commercial_bank_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Military Commercial Joint Stock Bank QR"
+    }
+  },
+  {
+    "code": "artha_graha_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Bank Artha Graha"
+    }
+  },
+  {
+    "code": "bukopin_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Bank KB Bukopin"
+    }
+  },
+  {
+    "code": "mega_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Mega International Commercial Bank"
+    }
+  },
+  {
+    "code": "maspion_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Bank Maspion"
+    }
+  },
+  {
+    "code": "mestika_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Bank Mestika"
+    }
+  },
+  {
+    "code": "panin_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Panin Bank"
+    }
+  },
+  {
+    "code": "sumut_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Sumut Bank"
+    }
+  },
+  {
+    "code": "sinar_mas_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Bank Sinarmas"
+    }
+  },
+  {
+    "code": "btpn_bank",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Bank BTPN"
+    }
+  },
+  {
+    "code": "cimb_niaga",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Bank CIMB Niaga"
+    }
+  },
+  {
+    "code": "jiomoney",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "JioMoney | India Ka Naya Cash"
+    }
+  },
+  {
+    "code": "india_bank_selection",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "India Bank Selection"
     }
   }
 ]
