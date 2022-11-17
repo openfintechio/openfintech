@@ -77891,7 +77891,7 @@
       {
         "key": "bank_code",
         "type": "string",
-        "regexp": "\/^[A-Za-z0-9\\p{L}]{2,20}$\/u",
+        "regexp": "\/^[A-Za-z0-9\\p{L}\\.]{2,20}$\/u",
         "required": false,
         "position": 5,
         "label": {
