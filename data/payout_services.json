@@ -78456,6 +78456,23 @@
         "regexp": "\/^[A-Z\\-\\ a-z0-9_]{2,100}$\/",
         "required": false,
         "position": 5
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        }
       }
     ],
     "amount_min": 0.01,
@@ -87964,5 +87981,127 @@
     ],
     "amount_min": "0.01",
     "amount_max": "400000"
+  },
+  {
+    "status": "active",
+    "code": "rtgs_inr",
+    "currency": "INR",
+    "method": "rtgs",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Account Number",
+          "uk": "Account Number"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите Account Number",
+          "uk": "Введіть Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        }
+      },
+      {
+        "key": "ifsc",
+        "type": "string",
+        "label": {
+          "en": "IFSC",
+          "ru": "IFSC",
+          "uk": "IFSC"
+        },
+        "hint": {
+          "en": "Enter IFSC",
+          "ru": "Введите IFSC",
+          "uk": "Введіть IFSC"
+        },
+        "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
+        "required": false,
+        "position": 3
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "neft_inr",
+    "currency": "INR",
+    "method": "neft",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Account Number",
+          "uk": "Account Number"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите Account Number",
+          "uk": "Введіть Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        }
+      },
+      {
+        "key": "ifsc",
+        "type": "string",
+        "label": {
+          "en": "IFSC",
+          "ru": "IFSC",
+          "uk": "IFSC"
+        },
+        "hint": {
+          "en": "Enter IFSC",
+          "ru": "Введите IFSC",
+          "uk": "Введіть IFSC"
+        },
+        "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
+        "required": false,
+        "position": 3
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
   }
 ]

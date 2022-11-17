@@ -24439,5 +24439,25 @@
       "uk": "UOBT",
       "ru": "UOBT"
     }
+  },
+  {
+    "status": "active",
+    "code": "rtgs",
+    "category": "bank_transfer",
+    "name": {
+      "en": "RTGS",
+      "uk": "RTGS",
+      "ru": "RTGS"
+    }
+  },
+  {
+    "status": "active",
+    "code": "neft",
+    "category": "bank_transfer",
+    "name": {
+      "en": "NEFT",
+      "uk": "NEFT",
+      "ru": "NEFT"
+    }
   }
 ]
