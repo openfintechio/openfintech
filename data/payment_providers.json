@@ -19280,6 +19280,19 @@
     ]
   },
   {
+    "status": "active",
+    "code": "paytriot",
+    "vendor": "paytriot",
+    "name": {
+      "en": "Paytriot",
+      "ru": "Paytriot",
+      "uk": "Paytriot"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
+  },
+  {
     "code": "neopay",
     "status": "active",
     "description": {
@@ -19410,6 +19423,47 @@
       "payment_card",
       "mastercarddebit",
       "saraswat_cooperative_bank"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "maxpayment",
+    "vendor": "maxpayment",
+    "name": {
+      "en": "Maxpayment",
+      "ru": "Maxpayment",
+      "uk": "Maxpayment"
+    },
+    "payment_method": [
+      "payment_card",
+      "papara",
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "forestpayment",
+    "vendor": "forestpayment",
+    "name": {
+      "en": "ForestPayment",
+      "ru": "ForestPayment",
+      "uk": "ForestPayment"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "impaya",
+    "vendor": "impaya",
+    "name": {
+      "en": "Impaya",
+      "ru": "Impaya",
+      "uk": "Impaya"
+    },
+    "payment_method" : [
+      "payment_card"
     ]
   }
 ]
