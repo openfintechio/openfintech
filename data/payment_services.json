@@ -3012,6 +3012,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",

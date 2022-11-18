@@ -19424,5 +19424,20 @@
       "mastercarddebit",
       "saraswat_cooperative_bank"
     ]
+  },
+  {
+    "status": "active",
+    "code": "maxpayment",
+    "vendor": "maxpayment",
+    "name": {
+      "en": "Maxpayment",
+      "ru": "Maxpayment",
+      "uk": "Maxpayment"
+    },
+    "payment_method": [
+      "payment_card",
+      "papara",
+      "bank_transfer"
+    ]
   }
 ]
