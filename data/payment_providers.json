@@ -19439,5 +19439,18 @@
       "papara",
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "forestpayment",
+    "vendor": "forestpayment",
+    "name": {
+      "en": "ForestPayment",
+      "ru": "ForestPayment",
+      "uk": "ForestPayment"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
