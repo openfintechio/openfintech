@@ -19171,6 +19171,11 @@
     },
     "payment_method": [
       "upi_qr"
+    ],
+    "payout_method": [
+      "imps",
+      "rtgs",
+      "neft"
     ]
   },
   {
@@ -19413,7 +19418,11 @@
       "standard_chartered_bank_india",
       "punjab_sind_bank",
       "rupay",
-      "india_bank_selection"
+      "india_bank_selection",
+      "visadebit",
+      "payment_card",
+      "mastercarddebit",
+      "saraswat_cooperative_bank"
     ]
   }
 ]
