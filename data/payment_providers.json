@@ -19277,6 +19277,11 @@
     "payment_method" : [
       "payment_card",
       "qiwi"
+    ],
+    "payout_method" : [
+      "payment_card",
+      "qiwi",
+      "mobile"
     ]
   },
   {
