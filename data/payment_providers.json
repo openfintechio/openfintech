@@ -6313,15 +6313,14 @@
     "status": "active",
     "code": "payhub",
     "vendor": "payhub",
-    "countries": [
-      "UM"
-    ],
-    "metadata": {
-      "about_payments_code": "payhub"
-    },
     "name": {
-      "en": "PayHub"
-    }
+      "en": "PayHub",
+      "ru": "PayHub",
+      "uk": "PayHub"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
