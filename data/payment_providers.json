@@ -5065,7 +5065,7 @@
   {
     "status": "active",
     "code": "ppro",
-     "description": {
+    "description": {
       "en": "PPro is a company that specializes in payment orchestration. This means that they help businesses streamline their payments so that they are easier to manage and more efficient. They work with a variety of clients, including small businesses, e-commerce companies, and even enterprise-level businesses. PPro has a lot of experience in the industry, and they have a good reputation for being a reliable and trustworthy company. PPro offers a lot of features that can help businesses streamline their payments. They have a simple, easy-to-use interface that makes it easy to keep track of your payments and see where they are going. They also offer a variety of payment options, so you can choose the one that best fits your needs. Additionally, PPro offers a lot of security features so you can be sure that your payments are safe and secure. Overall, PPro is a great company that can help you streamline your payments and make them more efficient. They have a lot of experience in the industry, and they offer a variety of features that can help you make your payments more efficient. If you are looking for a company to help you with your payment needs, then PPro is a great option."
     },
     "vendor": "ppro",
@@ -14687,7 +14687,6 @@
       "en": "Certus Finance",
       "ru": "Certus Finance",
       "uk": "Certus Finance"
-
     },
     "payment_method": [
       "bank_transfer",
@@ -15291,7 +15290,6 @@
       "en": "GEO Pay",
       "ru": "GEO Pay",
       "uk": "GEO Pay"
-
     },
     "payment_method": [
       "geopaynet",
@@ -16219,7 +16217,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16235,7 +16233,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16426,7 +16424,6 @@
       "uk": "PayPoint"
     },
     "payment_method": [
-
     ],
     "payout_method": [
       "payment_card"
@@ -16503,8 +16500,7 @@
     "payment_method": [
       "bank_transfer_klarna"
     ],
-    "payout_method" : [
-
+    "payout_method": [
     ]
   },
   {
@@ -16520,7 +16516,7 @@
       "vcreditos",
       "vcreditos_push"
     ],
-    "payout_method" : [
+    "payout_method": [
       "vcreditos"
     ]
   },
@@ -16553,7 +16549,6 @@
       "payment_card"
     ],
     "payout_method": [
-
     ]
   },
   {
@@ -16683,7 +16678,6 @@
       "payment_card"
     ],
     "payout_method": [
-
     ]
   },
   {
@@ -16720,7 +16714,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16736,7 +16730,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16760,7 +16754,7 @@
       "ripple",
       "tether"
     ],
-    "payout_method":[
+    "payout_method": [
       "bitcoin",
       "bitcoin_cash",
       "ethereum",
@@ -16825,7 +16819,7 @@
       "payment_card",
       "qiwi"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card",
       "qiwi"
     ],
@@ -16865,7 +16859,7 @@
       "sbp_tome_qr",
       "sbp"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card",
       "yandexmoney",
       "qiwi",
@@ -19055,7 +19049,7 @@
       "ru": "NMI",
       "uk": "NMI"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -19200,7 +19194,7 @@
       "ru": "MXPay",
       "uk": "MXPay"
     },
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -19213,10 +19207,10 @@
       "ru": "Walletto",
       "uk": "Walletto"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -19229,7 +19223,7 @@
       "ru": "SBPay",
       "uk": "SBPay"
     },
-    "payment_method" : [
+    "payment_method": [
       "sbp"
     ]
   },
@@ -19242,10 +19236,10 @@
       "ru": "Pagsmile",
       "uk": "Pagsmile"
     },
-    "payment_method" : [
+    "payment_method": [
       "pix"
     ],
-    "payout_method" : [
+    "payout_method": [
       "pix"
     ]
   },
@@ -19258,10 +19252,10 @@
       "ru": "PayGames",
       "uk": "PayGames"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -19274,7 +19268,7 @@
       "ru": "CashOneX",
       "uk": "CashOneX"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -19287,7 +19281,7 @@
       "ru": "VanilaPay",
       "uk": "VanilaPay"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card",
       "qiwi"
     ],
@@ -19441,6 +19435,80 @@
       "payment_card",
       "mastercarddebit",
       "saraswat_cooperative_bank"
+    ],
+    "payout_method": [
+      "hdfc_bank",
+      "icici_bank",
+      "indusind_bank",
+      "state_bank_of_india",
+      "kotak_mahindra_bank",
+      "idfc_bank_india",
+      "axis_bank",
+      "bandhan_bank",
+      "bank_of_baroda",
+      "federal_bank_india",
+      "idbi_bank",
+      "india_post_payment_bank",
+      "j_k_bank_india",
+      "karnataka_bank",
+      "lakshmi_vilas_bank_india",
+      "paytm_payments_bank",
+      "ujjivan_small_finance_bank",
+      "bank_transfer",
+      "techcom_bank",
+      "sacom_bank",
+      "vietcom_bank",
+      "asia_commercial_bank",
+      "dong_a_bank",
+      "vietin_bank",
+      "bidv_bank",
+      "exim_bank",
+      "agri_bank",
+      "bank_central_asia",
+      "bank_negara_indonesia",
+      "mandiri_bank",
+      "bank_rakyat_indonesia",
+      "affin_bank_berhad",
+      "alliance_bank",
+      "ambank_berhad",
+      "bank_islam_malaysia",
+      "bank_rakyat_malaysia_berhad",
+      "bank_simpanan_nasional_berhad",
+      "cimb_bank",
+      "citi_bank",
+      "hong_leong_bank",
+      "hsbc_bank_malaysia_berhad",
+      "maybank_berhad",
+      "ocbc_bank",
+      "public_bank_vietnam",
+      "rhb_bank",
+      "united_overseas_bank_berhad",
+      "asia_commercial_bank_qr",
+      "bidv_bank_qr",
+      "vietcom_bank_qr",
+      "vietin_bank_qr",
+      "momo_qr",
+      "zalo_qr",
+      "vietnam_prosperity_commerial_bank_qr",
+      "military_commercial_bank_qr",
+      "techcom_bank_qr",
+      "artha_graha_bank",
+      "bukopin_bank",
+      "commonwealth_bank",
+      "danamon_bank",
+      "mega_bank",
+      "maspion_bank",
+      "mestika_bank",
+      "panin_bank",
+      "sumut_bank",
+      "sinar_mas_bank",
+      "btpn_bank",
+      "cimb_niaga",
+      "hsbc_bank_indonesia",
+      "ocbc_bank_indonesia",
+      "permata_bank",
+      "united_overseas_bank_indonesia",
+      "upi"
     ]
   },
   {
