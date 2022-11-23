@@ -23687,6 +23687,16 @@
   },
   {
     "status": "active",
+    "code": "upi_payout",
+    "category": "digital_wallet",
+    "name": {
+      "en": "UPI Payout",
+      "uk": "UPI Payout",
+      "ru": "UPI Payout"
+    }
+  },
+  {
+    "status": "active",
     "code": "nixmoney",
     "vendor": "nixmoney",
     "category": "digital_wallet",

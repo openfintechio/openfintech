@@ -77614,6 +77614,24 @@
         "position": 1
       },
       {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
         "key": "beneficiary_full_name",
         "type": "string",
         "label": {
@@ -77628,7 +77646,7 @@
         },
         "regexp": "\/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$\/",
         "required": false,
-        "position": 2
+        "position": 3
       },
       {
         "key": "beneficiary_email",
@@ -77646,7 +77664,7 @@
         "example": "johndoe@cashfree.com",
         "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
         "required": false,
-        "position": 3
+        "position": 4
       },
       {
         "key": "beneficiary_phone",
@@ -77663,7 +77681,7 @@
         },
         "regexp": "\/^\\+91\\d{10}$\/",
         "required": false,
-        "position": 4
+        "position": 5
       },
       {
         "key": "beneficiary_address",
@@ -77680,7 +77698,7 @@
         },
         "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
         "required": false,
-        "position": 5
+        "position": 6
       },
       {
         "key": "ifsc_bank_code",
@@ -77697,7 +77715,138 @@
         },
         "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
         "required": false,
+        "position": 7
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "upi_payout_inr",
+    "currency": "INR",
+    "method": "upi_payout",
+    "fields": [
+      {
+        "key": "vpa",
+        "type": "string",
+        "label": {
+          "en": "VPA",
+          "ru": "VPA",
+          "uk": "VPA"
+        },
+        "hint": {
+          "en": "Enter VPA",
+          "ru": "Введите VPA",
+          "uk": "Введіть VPA"
+        },
+        "regexp": "\/^.{2,}@\\w+$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "label": {
+          "en": "Full name",
+          "ru": "ФИО",
+          "uk": "ПIБ"
+        },
+        "hint": {
+          "en": "Enter Full name",
+          "ru": "Введите ФИО",
+          "uk": "Введіть ПIБ"
+        },
+        "regexp": "\/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+91\\d{10}$\/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter Address",
+          "ru": "Введите адресс",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^(\\w|\\.| |\\-|\\+|@){1,128}$\/",
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "ifsc_bank_code",
+        "type": "string",
+        "label": {
+          "en": "IFSC Bank Code",
+          "ru": "IFSC Код банка",
+          "uk": "IFSC Код банку"
+        },
+        "hint": {
+          "en": "Enter IFSC Bank Code",
+          "ru": "Введите IFSC код банка",
+          "uk": "Введіть IFSC код банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{1,11}$\/",
+        "required": false,
+        "position": 7
       }
     ],
     "amount_min": 0.01,
