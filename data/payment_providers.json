@@ -19571,5 +19571,18 @@
       "cmt",
       "pep"
     ]
+  },
+  {
+    "status": "active",
+    "code": "localpayments",
+    "vendor": "localpayments",
+    "name": {
+      "en": "Localpayments",
+      "ru": "Localpayments",
+      "uk": "Localpayments"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   }
 ]
