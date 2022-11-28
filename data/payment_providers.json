@@ -19552,5 +19552,25 @@
     "payment_method" : [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "vevopay",
+    "vendor": "vevopay",
+    "name": {
+      "en": "VevoPay",
+      "ru": "VevoPay",
+      "uk": "VevoPay"
+    },
+    "payout_method" : [
+      "papara",
+      "bank_transfer",
+      "mefete",
+      "payfix",
+      "parazula",
+      "fups",
+      "cmt",
+      "pep"
+    ]
   }
 ]
