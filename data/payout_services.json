@@ -78787,7 +78787,7 @@
       {
         "key": "bank_code",
         "type": "string",
-        "regexp": "\/^[-\\d\\s\\p{L}]{2,12}$\/",
+        "regexp": "\/^[-\\d\\s\\p{L}]{2,12}$\/u",
         "required": false,
         "position": 6,
         "label": {
@@ -79620,8 +79620,29 @@
         "position": 1
       },
       {
+        "key": "account_name",
+        "type": "string",
+        "label": {
+          "en": "Account name",
+          "ru": "Название счета",
+          "uk": "Назва рахунку"
+        },
+        "hint": {
+          "en": "Enter account name",
+          "ru": "Введите название счета",
+          "uk": "Введіть назву рахунку"
+        },
+        "example": "example",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
         "key": "beneficiary_full_name",
         "type": "string",
+        "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 3,
         "label": {
           "en": "Recipient full name",
           "ru": "Полное имя получателя",
@@ -79631,10 +79652,7 @@
           "en": "Enter Beneficiary full name",
           "ru": "Введите полное имя получателя",
           "uk": "Введіть повне імʼя одержувача"
-        },
-        "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
-        "required": false,
-        "position": 2
+        }
       }
     ],
     "amount_min": 0.01,
@@ -91894,6 +91912,24 @@
         "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
         "required": true,
         "position": 2
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "label": {
+          "en": "Account name",
+          "ru": "Название счета",
+          "uk": "Назва рахунку"
+        },
+        "hint": {
+          "en": "Enter account name",
+          "ru": "Введите название счета",
+          "uk": "Введіть назву рахунку"
+        },
+        "example": "example",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 3
       }
     ],
     "amount_min": 0.01,
