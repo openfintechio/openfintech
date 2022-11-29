@@ -6313,15 +6313,14 @@
     "status": "active",
     "code": "payhub",
     "vendor": "payhub",
-    "countries": [
-      "UM"
-    ],
-    "metadata": {
-      "about_payments_code": "payhub"
-    },
     "name": {
-      "en": "PayHub"
-    }
+      "en": "PayHub",
+      "ru": "PayHub",
+      "uk": "PayHub"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -15742,7 +15741,7 @@
     "code": "billline",
     "vendor": "billline",
     "name": {
-      "en": "BillLine"
+      "en": "bill_line"
     },
     "payment_method": [
       "payment_card"
@@ -18533,7 +18532,8 @@
       "interbank",
       "scotiabank",
       "banco_nacional",
-      "transfer_bancaria"
+      "transfer_bancaria",
+      "bank_transfer"
     ]
   },
   {
@@ -19571,6 +19571,19 @@
       "fups",
       "cmt",
       "pep"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "localpayments",
+    "vendor": "localpayments",
+    "name": {
+      "en": "Localpayments",
+      "ru": "Localpayments",
+      "uk": "Localpayments"
+    },
+    "payment_method" : [
+      "payment_card"
     ]
   }
 ]

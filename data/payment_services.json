@@ -11398,6 +11398,24 @@
   },
   {
     "status": "active",
+    "code": "payment_card_ils_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "ILS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_qar_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "QAR",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
     "code": "pix_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
