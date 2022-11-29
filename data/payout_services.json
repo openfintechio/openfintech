@@ -78250,7 +78250,7 @@
       {
         "key": "sender_full_name",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,100}$\/u",
         "required": false,
         "position": 16,
         "label": {
@@ -78267,7 +78267,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,64}$\/u",
         "required": false,
         "position": 17,
         "label": {
