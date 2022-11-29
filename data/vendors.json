@@ -755,6 +755,18 @@
     }
   },
   {
+    "code": "city24",
+    "status": "active",
+    "links": {
+      "website": "https://city24.ua/"
+    },
+    "name": {
+      "en": "City24",
+      "ru": "City24",
+      "uk": "City24"
+    }
+  },
+  {
     "code": "swift",
     "status": "active",
     "name": {
@@ -14447,21 +14459,13 @@
   {
     "code": "payhub",
     "status": "active",
-    "countries": [
-      "UM"
-    ],
-    "contacts": {
-      "email": "sales@payhub.com",
-      "phone": "+1-866.286.1300"
-    },
-    "address": {
-      "street": " 4100 W. Royal Lane, Suite 15075063 IrvingTexasUnited States of America "
+    "links" : {
+      "website" : "https://payhub.me/"
     },
     "name": {
-      "en": "PayHub"
-    },
-    "description": {
-      "en": " Started by industry veterans, we are new breed of merchant services provider. We focus on providing an integrated line of payment products to our clients. "
+      "en": "PayHub",
+      "ru": "PayHub",
+      "uk": "PayHub"
     }
   },
   {
@@ -29680,6 +29684,96 @@
       "en": "VanilaPay",
       "ru": "VanilaPay",
       "uk": "VanilaPay"
+    }
+  },
+  {
+    "code": "paytriot",
+    "status": "active",
+    "links": {
+      "website": "https://paytriot.co.uk/"
+    },
+    "name": {
+      "en": "Paytriot",
+      "ru": "Paytriot",
+      "uk": "Paytriot"
+    }
+  },
+  {
+    "code": "neopay",
+    "status": "active",
+    "links": {
+      "website": "https://neopay.online"
+    },
+    "name": {
+      "en": "Neopay",
+      "ru": "Neopay",
+      "uk": "Neopay"
+    }
+  },
+  {
+    "code": "exxogate",
+    "status": "active",
+    "links": {
+      "website": "https://exxogate.com"
+    },
+    "name": {
+      "en": "Exxogate",
+      "ru": "Exxogate",
+      "uk": "Exxogate"
+    }
+  },
+  {
+    "code": "maxpayment",
+    "status": "active",
+    "name": {
+      "en": "Maxpayment",
+      "ru": "Maxpayment",
+      "uk": "Maxpayment"
+    }
+  },
+  {
+    "code": "forestpayment",
+    "status": "active",
+    "links": {
+      "website": "http://forestpayment.com/"
+    },
+    "name": {
+      "en": "ForestPayment",
+      "ru": "ForestPayment",
+      "uk": "ForestPayment"
+    }
+  },
+  {
+    "code": "impaya",
+    "status": "active",
+    "links": {
+      "website": "https://www.impaya.com/"
+    },
+    "name": {
+      "en": "Impaya",
+      "ru": "Impaya",
+      "uk": "Impaya"
+    }
+  },
+  {
+    "code": "vevopay",
+    "status": "active",
+    "name": {
+      "en": "VevoPay",
+      "ru": "VevoPay",
+      "uk": "VevoPay"
+    }
+  },
+  {
+    "code": "localpayments",
+    "status": "active",
+    "links": {
+      "website": "https://localpayment.com/"
+    },
+    "name": {
+      "en": "Localpayments",
+      "ru": "Localpayments",
+      "uk": "Localpayments"
     }
   }
 ]

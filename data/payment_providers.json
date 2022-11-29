@@ -5065,7 +5065,7 @@
   {
     "status": "active",
     "code": "ppro",
-     "description": {
+    "description": {
       "en": "PPro is a company that specializes in payment orchestration. This means that they help businesses streamline their payments so that they are easier to manage and more efficient. They work with a variety of clients, including small businesses, e-commerce companies, and even enterprise-level businesses. PPro has a lot of experience in the industry, and they have a good reputation for being a reliable and trustworthy company. PPro offers a lot of features that can help businesses streamline their payments. They have a simple, easy-to-use interface that makes it easy to keep track of your payments and see where they are going. They also offer a variety of payment options, so you can choose the one that best fits your needs. Additionally, PPro offers a lot of security features so you can be sure that your payments are safe and secure. Overall, PPro is a great company that can help you streamline your payments and make them more efficient. They have a lot of experience in the industry, and they offer a variety of features that can help you make your payments more efficient. If you are looking for a company to help you with your payment needs, then PPro is a great option."
     },
     "vendor": "ppro",
@@ -6313,15 +6313,14 @@
     "status": "active",
     "code": "payhub",
     "vendor": "payhub",
-    "countries": [
-      "UM"
-    ],
-    "metadata": {
-      "about_payments_code": "payhub"
-    },
     "name": {
-      "en": "PayHub"
-    }
+      "en": "PayHub",
+      "ru": "PayHub",
+      "uk": "PayHub"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -12940,6 +12939,19 @@
   },
   {
     "status": "active",
+    "code": "city24",
+    "vendor": "city24",
+    "payout_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "City24",
+      "ru": "City24",
+      "uk": "City24"
+    }
+  },
+  {
+    "status": "active",
     "code": "abilipay",
     "description": {
       "en": "Abilipay is a payment orchestration platform that enables businesses to accept and process payments from multiple payment gateway providers. It offers a single integration point for all your payment gateway providers, making it easy to manage your payment processing. Abilipay also offers a fraud prevention system and advanced reporting tools. The main advantages of using Abilipay are its ease of use and its ability to accept payments from multiple payment gateway providers. Additionally, the fraud prevention system and advanced reporting tools help you keep track of your payment processing and prevent fraudulent activity. However, there are a few disadvantages to using Abilipay. First, it is a bit more expensive than some other payment processing platforms. Second, it does not offer support for all countries. Finally, it is not as widely accepted as some other payment processors. Overall, Abilipay is a good choice for businesses that want an easy-to-use platform that can accept payments from multiple payment gateway providers. It is also a good choice for businesses that need a fraud prevention system and advanced reporting tools. However, it is more expensive than some other payment processing platforms and it is not as widely accepted as some other payment processors."
@@ -14674,7 +14686,6 @@
       "en": "Certus Finance",
       "ru": "Certus Finance",
       "uk": "Certus Finance"
-
     },
     "payment_method": [
       "bank_transfer",
@@ -15278,7 +15289,6 @@
       "en": "GEO Pay",
       "ru": "GEO Pay",
       "uk": "GEO Pay"
-
     },
     "payment_method": [
       "geopaynet",
@@ -16206,7 +16216,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16222,7 +16232,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16413,7 +16423,6 @@
       "uk": "PayPoint"
     },
     "payment_method": [
-
     ],
     "payout_method": [
       "payment_card"
@@ -16490,8 +16499,7 @@
     "payment_method": [
       "bank_transfer_klarna"
     ],
-    "payout_method" : [
-
+    "payout_method": [
     ]
   },
   {
@@ -16507,7 +16515,7 @@
       "vcreditos",
       "vcreditos_push"
     ],
-    "payout_method" : [
+    "payout_method": [
       "vcreditos"
     ]
   },
@@ -16540,7 +16548,6 @@
       "payment_card"
     ],
     "payout_method": [
-
     ]
   },
   {
@@ -16670,7 +16677,6 @@
       "payment_card"
     ],
     "payout_method": [
-
     ]
   },
   {
@@ -16707,7 +16713,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16723,7 +16729,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16747,7 +16753,7 @@
       "ripple",
       "tether"
     ],
-    "payout_method":[
+    "payout_method": [
       "bitcoin",
       "bitcoin_cash",
       "ethereum",
@@ -16812,7 +16818,7 @@
       "payment_card",
       "qiwi"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card",
       "qiwi"
     ],
@@ -16852,7 +16858,7 @@
       "sbp_tome_qr",
       "sbp"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card",
       "yandexmoney",
       "qiwi",
@@ -19043,7 +19049,7 @@
       "ru": "NMI",
       "uk": "NMI"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -19172,6 +19178,11 @@
     },
     "payment_method": [
       "upi_qr"
+    ],
+    "payout_method": [
+      "imps",
+      "rtgs",
+      "neft"
     ]
   },
   {
@@ -19183,7 +19194,7 @@
       "ru": "MXPay",
       "uk": "MXPay"
     },
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -19196,10 +19207,10 @@
       "ru": "Walletto",
       "uk": "Walletto"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -19212,7 +19223,7 @@
       "ru": "SBPay",
       "uk": "SBPay"
     },
-    "payment_method" : [
+    "payment_method": [
       "sbp"
     ]
   },
@@ -19225,10 +19236,10 @@
       "ru": "Pagsmile",
       "uk": "Pagsmile"
     },
-    "payment_method" : [
+    "payment_method": [
       "pix"
     ],
-    "payout_method" : [
+    "payout_method": [
       "pix"
     ]
   },
@@ -19241,10 +19252,10 @@
       "ru": "PayGames",
       "uk": "PayGames"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -19257,7 +19268,7 @@
       "ru": "CashOneX",
       "uk": "CashOneX"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -19270,9 +19281,309 @@
       "ru": "VanilaPay",
       "uk": "VanilaPay"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card",
       "qiwi"
+    ],
+    "payout_method" : [
+      "payment_card",
+      "qiwi",
+      "mobile"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paytriot",
+    "vendor": "paytriot",
+    "name": {
+      "en": "Paytriot",
+      "ru": "Paytriot",
+      "uk": "Paytriot"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
+  },
+  {
+    "code": "neopay",
+    "status": "active",
+    "description": {
+      "en": "Neopay is a European open banking payments solutions provider. They deliver localized payment experiences across Europe with less hassle, lower costs and more conversions. Their focus is various payments products and solutions that can be adopted to specific business needs. They offer incoming payments, payouts & refunds, one-click payments, bulk payments, subscription payments, active payment links, user ID verification, cards payments, POS lending, Buy now Pay later, and 12Play for iGaming companies which helps onboard customers faster and easier. Neopay operates in 15 European countries and can add the countries you need. Their clients are mainly e-commerce, utilities, iGaming companies. The company processes 2 million payments per month. It is a publicly listed company (ticker NEOFI:VLX) with an EMI license. It operates under PSD2and is supervised by Bank of Lithuania. Their other businesses are crowdfunding and P2P lending."
+    },
+    "vendor": "neopay",
+    "name": {
+      "en": "Neopay",
+      "ru": "Neopay",
+      "uk": "Neopay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "exxogate",
+    "vendor": "exxogate",
+    "name": {
+      "en": "Exxogate",
+      "ru": "Exxogate",
+      "uk": "Exxogate"
+    },
+    "payment_method": [
+      "hdfc_bank",
+      "icici_bank",
+      "indusind_bank",
+      "state_bank_of_india",
+      "kotak_mahindra_bank",
+      "idfc_bank_india",
+      "axis_bank",
+      "bandhan_bank",
+      "bank_of_baroda",
+      "federal_bank_india",
+      "idbi_bank",
+      "india_post_payment_bank",
+      "j_k_bank_india",
+      "karnataka_bank",
+      "lakshmi_vilas_bank_india",
+      "paytm_payments_bank",
+      "ujjivan_small_finance_bank",
+      "techcom_bank",
+      "sacom_bank",
+      "vietcom_bank",
+      "asia_commercial_bank",
+      "dong_a_bank",
+      "vietin_bank",
+      "bidv_bank",
+      "exim_bank",
+      "agri_bank",
+      "bank_central_asia",
+      "bank_negara_indonesia",
+      "mandiri_bank",
+      "bank_rakyat_indonesia",
+      "affin_bank_berhad",
+      "alliance_bank",
+      "ambank_berhad",
+      "bank_islam_malaysia",
+      "bank_rakyat_malaysia_berhad",
+      "bank_simpanan_nasional_berhad",
+      "cimb_bank",
+      "citi_bank",
+      "hong_leong_bank",
+      "hsbc_bank_malaysia_berhad",
+      "maybank_berhad",
+      "ocbc_bank",
+      "public_bank_berhad",
+      "rhb_bank",
+      "united_overseas_bank_berhad",
+      "asia_commercial_bank_qr",
+      "bidv_bank_qr",
+      "vietcom_bank_qr",
+      "vietin_bank_qr",
+      "momo_qr",
+      "zalo_qr",
+      "vietnam_prosperity_commerial_bank_qr",
+      "military_commercial_bank_qr",
+      "techcom_bank_qr",
+      "artha_graha_bank",
+      "bukopin_bank",
+      "commonwealth_bank",
+      "danamon_bank",
+      "mega_bank",
+      "maspion_bank",
+      "mestika_bank",
+      "panin_bank",
+      "sumut_bank",
+      "sinar_mas_bank",
+      "btpn_bank",
+      "cimb_niaga",
+      "hsbc_bank_indonesia",
+      "ocbc_bank_indonesia",
+      "permata_bank",
+      "united_overseas_bank_indonesia",
+      "upi",
+      "airtel_money",
+      "reliance_jio",
+      "freecharge",
+      "phonepe",
+      "amazon_pay",
+      "olamoney",
+      "mobikwik",
+      "paytm",
+      "jiomoney",
+      "maharashtra_bank_india",
+      "central_bank_of_india",
+      "canara_bank",
+      "bank_of_india",
+      "city_union_bank",
+      "indian_bank",
+      "indian_overseas_bank",
+      "indian_development_bank",
+      "karnataka_bank",
+      "karurvysya_bank_india",
+      "south_indian_bank",
+      "bank_of_baroda",
+      "yes_bank",
+      "andhra_bank",
+      "uco_bank_india",
+      "csb_bank",
+      "allahabad_bank",
+      "dhanalaxmi_bank_india",
+      "laxmi_vilas_bank",
+      "punjab_national_bank",
+      "standard_chartered_bank_india",
+      "punjab_sind_bank",
+      "rupay",
+      "india_bank_selection",
+      "visadebit",
+      "payment_card",
+      "mastercarddebit",
+      "saraswat_cooperative_bank"
+    ],
+    "payout_method": [
+      "hdfc_bank",
+      "icici_bank",
+      "indusind_bank",
+      "state_bank_of_india",
+      "kotak_mahindra_bank",
+      "idfc_bank_india",
+      "axis_bank",
+      "bandhan_bank",
+      "bank_of_baroda",
+      "federal_bank_india",
+      "idbi_bank",
+      "india_post_payment_bank",
+      "j_k_bank_india",
+      "karnataka_bank",
+      "lakshmi_vilas_bank_india",
+      "paytm_payments_bank",
+      "ujjivan_small_finance_bank",
+      "bank_transfer",
+      "techcom_bank",
+      "sacom_bank",
+      "vietcom_bank",
+      "asia_commercial_bank",
+      "dong_a_bank",
+      "vietin_bank",
+      "bidv_bank",
+      "exim_bank",
+      "agri_bank",
+      "bank_central_asia",
+      "bank_negara_indonesia",
+      "mandiri_bank",
+      "bank_rakyat_indonesia",
+      "affin_bank_berhad",
+      "alliance_bank",
+      "ambank_berhad",
+      "bank_islam_malaysia",
+      "bank_rakyat_malaysia_berhad",
+      "bank_simpanan_nasional_berhad",
+      "cimb_bank",
+      "citi_bank",
+      "hong_leong_bank",
+      "hsbc_bank_malaysia_berhad",
+      "maybank_berhad",
+      "ocbc_bank",
+      "public_bank_vietnam",
+      "rhb_bank",
+      "united_overseas_bank_berhad",
+      "asia_commercial_bank_qr",
+      "bidv_bank_qr",
+      "vietcom_bank_qr",
+      "vietin_bank_qr",
+      "momo_qr",
+      "zalo_qr",
+      "vietnam_prosperity_commerial_bank_qr",
+      "military_commercial_bank_qr",
+      "techcom_bank_qr",
+      "artha_graha_bank",
+      "bukopin_bank",
+      "commonwealth_bank",
+      "danamon_bank",
+      "mega_bank",
+      "maspion_bank",
+      "mestika_bank",
+      "panin_bank",
+      "sumut_bank",
+      "sinar_mas_bank",
+      "btpn_bank",
+      "cimb_niaga",
+      "hsbc_bank_indonesia",
+      "ocbc_bank_indonesia",
+      "permata_bank",
+      "united_overseas_bank_indonesia",
+      "upi",
+      "upi_payout"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "maxpayment",
+    "vendor": "maxpayment",
+    "name": {
+      "en": "Maxpayment",
+      "ru": "Maxpayment",
+      "uk": "Maxpayment"
+    },
+    "payment_method": [
+      "payment_card",
+      "papara",
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "forestpayment",
+    "vendor": "forestpayment",
+    "name": {
+      "en": "ForestPayment",
+      "ru": "ForestPayment",
+      "uk": "ForestPayment"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "impaya",
+    "vendor": "impaya",
+    "name": {
+      "en": "Impaya",
+      "ru": "Impaya",
+      "uk": "Impaya"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "vevopay",
+    "vendor": "vevopay",
+    "name": {
+      "en": "VevoPay",
+      "ru": "VevoPay",
+      "uk": "VevoPay"
+    },
+    "payout_method" : [
+      "papara",
+      "bank_transfer",
+      "mefete",
+      "payfix",
+      "parazula",
+      "fups",
+      "cmt",
+      "pep"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "localpayments",
+    "vendor": "localpayments",
+    "name": {
+      "en": "Localpayments",
+      "ru": "Localpayments",
+      "uk": "Localpayments"
+    },
+    "payment_method" : [
+      "payment_card"
     ]
   }
 ]
