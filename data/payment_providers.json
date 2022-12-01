@@ -15739,6 +15739,11 @@
   {
     "status": "active",
     "code": "billline",
+    "description": {
+      "en": "bill_line is a Ukrainian fintech company with a global focus. It developed and is constantly upgrading a payment system for any online business. bill_line's clients are online stores, marketplaces, banks, insurance companies, charity organisations and any other companies with online payment operations. Their main payment service provider features are custom checkout pages, individual payment links, recurring payments, and reliable cascading of transactions. bill_line team implements the client care principle at every stage of interaction with the client, from the connection request to integration and transaction support.",
+      "ru": "bill_line – украинская финтех-компания, разработавшая и развивающая платежное решение для любого онлайн-бизнеса. Клиенты bill_line – интернет-магазины, маркетплейсы, банки, страховые компании, благотворительные организации и любые другие компании с платежными операциями в интернете. Среди особенностей компании как платежного сервис-провайдера – возможности создания кастомных checkout-страниц, платежных ссылок, настройки рекуррентных платежей и надежного каскадирования транзакций. Команда bill_line внедряет принцип client care на каждом этапе взаимодействия с клиентом, от запроса на подключение до интеграции и сопровождения транзакций.",
+      "uk": "bill_line – українська фінтех-компанія, яка розробила і розвиває платіжне рішення для будь-якого онлайн-бізнесу. Клієнти bill_line — інтернет-магазини, маркетплейси, банки, страхові компанії, благодійні організації та будь-які інші компанії з платіжними операціями в інтернеті. Серед особливостей компанії як платіжного сервіс-провайдера – можливості створення кастомних checkout-сторінок, платіжних посилань, налаштування рекурентних платежів та надійне каскадування транзакцій. Команда bill_line впроваджує принцип client care на кожному етапі взаємодії з клієнтом, від запиту на підключення до інтеграції та супроводу транзакцій."
+    },
     "vendor": "billline",
     "name": {
       "en": "bill_line"
