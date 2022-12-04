@@ -19636,5 +19636,18 @@
       "ru": "Kluwp",
       "uk": "Kluwp"
     }
+  },
+  {
+    "status": "active",
+    "code": "whitepay",
+    "vendor": "whitepay",
+    "name": {
+      "en": "Whitepay",
+      "ru": "Whitepay",
+      "uk": "Whitepay"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   }
 ]
