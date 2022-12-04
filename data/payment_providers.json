@@ -19596,6 +19596,19 @@
   },
   {
     "status": "active",
+    "code": "whitepay",
+    "vendor": "whitepay",
+    "name": {
+      "en": "Whitepay",
+      "ru": "Whitepay",
+      "uk": "Whitepay"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "kluwp",
     "vendor": "kluwp",
     "payment_method": [
