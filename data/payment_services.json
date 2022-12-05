@@ -5397,6 +5397,60 @@
   },
   {
     "status": "active",
+    "code": "mefete_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "mefete",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "payfix_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "payfix",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "parazula_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "parazula",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "fups_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "fups",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "cmt_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "cmt",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "pep_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "pep",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
     "code": "cimb_clicks_indonesia_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
