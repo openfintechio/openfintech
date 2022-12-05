@@ -13140,6 +13140,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_kwd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "KWD",
+    "amount_min": 0.1,
+    "amount_max": 31000
+  },
+  {
+    "status": "active",
     "code": "jeton_wallet_eur_hpp",
     "flow": "hpp",
     "method": "jeton_wallet",
