@@ -3788,8 +3788,13 @@
       "about_payments_code": "cardinity"
     },
     "name": {
-      "en": "Cardinity"
-    }
+      "en": "Cardinity",
+      "ru": "Cardinity",
+      "uk": "Cardinity"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
