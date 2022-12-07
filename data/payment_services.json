@@ -2546,7 +2546,7 @@
     "flow": "hpp",
     "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 10000000,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "payer_first_name",
@@ -13516,7 +13516,7 @@
     "flow": "invoice",
     "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 80000000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
