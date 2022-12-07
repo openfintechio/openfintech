@@ -1742,6 +1742,16 @@
     }
   },
   {
+    "code": "sepa_transfer",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Sepa Transfer",
+      "uk": "Sepa Transfer",
+      "ru": "Sepa Transfer"
+    }
+  },
+  {
     "code": "bank_transfer",
     "category": "bank_transfer",
     "status": "active",

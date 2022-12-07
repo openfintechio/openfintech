@@ -4792,6 +4792,35 @@
   },
   {
     "status": "active",
+    "code": "sepa_transfer_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "punjab_national_bank_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
