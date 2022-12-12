@@ -14892,5 +14892,23 @@
         "example": "1100382992"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "pix_qr_brl_invoice",
+    "flow": "hpp",
+    "method": "pix",
+    "currency": "BRL",
+    "amount_min": 0.01,
+    "amount_max": 520000
+  },
+  {
+    "status": "active",
+    "code": "pix_qr_ars_invoice",
+    "flow": "hpp",
+    "method": "pix",
+    "currency": "ARS",
+    "amount_min": 0.01,
+    "amount_max": 17000000
   }
 ]
