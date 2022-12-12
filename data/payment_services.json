@@ -439,6 +439,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_sar_hpp",
+    "currency": "SAR",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 380000
+  },
+  {
+    "status": "active",
     "code": "payment_card_hkd_hpp",
     "currency": "HKD",
     "method": "payment_card",
