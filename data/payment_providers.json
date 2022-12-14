@@ -19842,5 +19842,18 @@
       "upi_payout",
       "sepa_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "spartapay",
+    "vendor": "spartapay",
+    "name": {
+      "en": "Sparta-Pay",
+      "ru": "Sparta-Pay",
+      "uk": "Sparta-Pay"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   }
 ]
