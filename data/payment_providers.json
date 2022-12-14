@@ -19845,6 +19845,19 @@
   },
   {
     "status": "active",
+    "code": "gatetwoway",
+    "vendor": "gatetwoway",
+    "name": {
+      "en": "Gate2way",
+      "ru": "Gate2way",
+      "uk": "Gate2way"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "spartapay",
     "vendor": "spartapay",
     "name": {
