@@ -19868,5 +19868,18 @@
     "payment_method" : [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payplanet",
+    "vendor": "payplanet",
+    "payout_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PayPlanet",
+      "ru": "PayPlanet",
+      "uk": "PayPlanet"
+    }
   }
 ]
