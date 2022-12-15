@@ -698,7 +698,7 @@
     "method": "payment_card",
     "currency": "INR",
     "amount_min": 0.01,
-    "amount_max": 1000000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -4116,7 +4116,7 @@
     "method": "interkassa",
     "flow": "hpp",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -4536,7 +4536,7 @@
     "flow": "hpp",
     "method": "axis_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4565,7 +4565,7 @@
     "flow": "hpp",
     "method": "indian_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4594,7 +4594,7 @@
     "flow": "hpp",
     "method": "state_bank_of_india",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -4603,7 +4603,7 @@
     "flow": "hpp",
     "method": "kotak_mahindra_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4632,7 +4632,7 @@
     "flow": "hpp",
     "method": "bandhan_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4661,7 +4661,7 @@
     "flow": "hpp",
     "method": "india_post_payment_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4690,7 +4690,7 @@
     "flow": "hpp",
     "method": "paytm_payments_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4719,7 +4719,7 @@
     "flow": "hpp",
     "method": "ujjivan_small_finance_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4748,7 +4748,7 @@
     "flow": "hpp",
     "method": "canara_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4777,7 +4777,7 @@
     "flow": "hpp",
     "method": "icici_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4835,7 +4835,7 @@
     "flow": "hpp",
     "method": "punjab_national_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4864,7 +4864,7 @@
     "flow": "hpp",
     "method": "bank_of_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4893,7 +4893,7 @@
     "flow": "hpp",
     "method": "idbi_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4922,7 +4922,7 @@
     "flow": "hpp",
     "method": "standard_charter_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -4931,7 +4931,7 @@
     "flow": "hpp",
     "method": "karnataka_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4960,7 +4960,7 @@
     "flow": "hpp",
     "method": "hdfc_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -4989,7 +4989,7 @@
     "flow": "hpp",
     "method": "yes_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -5018,7 +5018,7 @@
     "flow": "hpp",
     "method": "allahabad_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -5047,7 +5047,7 @@
     "flow": "hpp",
     "method": "corporation_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -5056,7 +5056,7 @@
     "flow": "hpp",
     "method": "oriental_bank_of_commerce",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -5065,7 +5065,7 @@
     "flow": "hpp",
     "method": "city_union_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -5094,7 +5094,7 @@
     "flow": "hpp",
     "method": "vijaya_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -5103,7 +5103,7 @@
     "flow": "hpp",
     "method": "united_bank_of_india",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -5112,7 +5112,7 @@
     "flow": "hpp",
     "method": "rbl_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -5121,7 +5121,7 @@
     "flow": "hpp",
     "method": "andhra_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -5150,7 +5150,7 @@
     "flow": "hpp",
     "method": "csb_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -5179,7 +5179,7 @@
     "flow": "hpp",
     "method": "au_small_finance_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -5188,7 +5188,7 @@
     "flow": "hpp",
     "method": "central_bank_of_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -5217,7 +5217,7 @@
     "flow": "hpp",
     "method": "union_bank_of_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -5246,7 +5246,7 @@
     "flow": "hpp",
     "method": "bank_of_baroda",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -6076,7 +6076,7 @@
     "flow": "hpp",
     "method": "indian_development_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -6150,7 +6150,7 @@
     "flow": "hpp",
     "method": "standard_chartered_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -6443,7 +6443,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -7927,7 +7927,7 @@
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
-    "amount_max": 999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -8825,7 +8825,7 @@
     "flow": "transfer",
     "method": "ecobanq",
     "amount_min": 0.01,
-    "amount_max": 999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -9879,7 +9879,7 @@
     "flow": "hpp",
     "method": "dhanalaxmi_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -9908,7 +9908,7 @@
     "flow": "hpp",
     "method": "laxmi_vilas_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -9937,7 +9937,7 @@
     "flow": "hpp",
     "method": "federal_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -9966,7 +9966,7 @@
     "flow": "hpp",
     "method": "dcb_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -9975,7 +9975,7 @@
     "flow": "hpp",
     "method": "j_k_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10004,7 +10004,7 @@
     "flow": "hpp",
     "method": "karurvysya_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10033,7 +10033,7 @@
     "flow": "hpp",
     "method": "indian_overseas_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10062,7 +10062,7 @@
     "flow": "hpp",
     "method": "indusind_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10091,7 +10091,7 @@
     "flow": "hpp",
     "method": "maharashtra_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10120,7 +10120,7 @@
     "flow": "hpp",
     "method": "tamilnad_mercantile_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -10129,7 +10129,7 @@
     "flow": "hpp",
     "method": "lakshmi_vilas_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10158,7 +10158,7 @@
     "flow": "hpp",
     "method": "uco_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10187,7 +10187,7 @@
     "flow": "hpp",
     "method": "cosmos_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -10196,7 +10196,7 @@
     "flow": "hpp",
     "method": "shamrao_vithal_cooperative_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -10205,7 +10205,7 @@
     "flow": "hpp",
     "method": "idfc_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10234,7 +10234,7 @@
     "flow": "hpp",
     "method": "deutsche_bank_india",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -10243,7 +10243,7 @@
     "flow": "hpp",
     "method": "south_indian_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10292,7 +10292,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -10301,7 +10301,7 @@
     "flow": "hpp",
     "method": "paytm",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10330,7 +10330,7 @@
     "flow": "hpp",
     "method": "mobikwik",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10359,7 +10359,7 @@
     "flow": "hpp",
     "method": "airtel_money",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10388,7 +10388,7 @@
     "flow": "hpp",
     "method": "reliance_jio",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10417,7 +10417,7 @@
     "flow": "hpp",
     "method": "olamoney",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10446,7 +10446,7 @@
     "flow": "hpp",
     "method": "freecharge",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10475,7 +10475,7 @@
     "flow": "hpp",
     "method": "phonepe",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -10940,7 +10940,7 @@
     "flow": "hpp",
     "method": "paymentrush",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -11258,7 +11258,7 @@
     "flow": "hpp",
     "method": "googlepay",
     "amount_min": 0.01,
-    "amount_max": 10000000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -11267,7 +11267,7 @@
     "flow": "hpp",
     "method": "upi",
     "amount_min": 0.01,
-    "amount_max": 10000000,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -11296,7 +11296,7 @@
     "flow": "hpp",
     "method": "imps",
     "amount_min": 0.01,
-    "amount_max": 10000000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -13152,7 +13152,7 @@
     "flow": "hpp",
     "method": "punjab_sind_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -13181,7 +13181,7 @@
     "flow": "hpp",
     "method": "kanata_sahakari_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -13190,7 +13190,7 @@
     "flow": "hpp",
     "method": "amazon_pay",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -13309,7 +13309,7 @@
     "method": "jeton_wallet",
     "currency": "INR",
     "amount_min": 0.01,
-    "amount_max": 8000000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -13516,7 +13516,7 @@
     "method": "upi_qr",
     "currency": "INR",
     "amount_min": 0.01,
-    "amount_max": 8000000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -14784,7 +14784,7 @@
     "flow": "hpp",
     "method": "jiomoney",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -14813,7 +14813,7 @@
     "flow": "hpp",
     "method": "rupay",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -14842,7 +14842,7 @@
     "flow": "hpp",
     "method": "india_bank_selection",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
@@ -14871,7 +14871,7 @@
     "flow": "hpp",
     "method": "saraswat_cooperative_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 1000000000,
     "fields": [
       {
         "key": "account",
