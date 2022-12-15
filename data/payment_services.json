@@ -10281,7 +10281,7 @@
           "ru": "Номер счета"
         },
         "regexp": "\/^.{1,128}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "hint": {
           "en": "Enter Account Number",

@@ -19894,5 +19894,18 @@
     "payment_method" : [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "xurpay",
+    "vendor": "xurpay",
+    "name": {
+      "en": "Xurpay",
+      "ru": "Xurpay",
+      "uk": "Xurpay"
+    },
+    "payment_method" : [
+      "upi_aggregated"
+    ]
   }
 ]
