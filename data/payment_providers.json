@@ -19881,5 +19881,18 @@
       "ru": "PayPlanet",
       "uk": "PayPlanet"
     }
+  },
+  {
+    "status": "active",
+    "code": "cashbulls",
+    "vendor": "cashbulls",
+    "name": {
+      "en": "Cash Bulls",
+      "ru": "Cash Bulls",
+      "uk": "Cash Bulls"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   }
 ]
