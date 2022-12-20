@@ -92238,5 +92238,159 @@
     ],
     "amount_min": 0.01,
     "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_gbp",
+    "method": "sepa_transfer",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number or IBAN",
+          "ru": "Номер счета или IBAN-код",
+          "uk": "Номер рахунку або IBAN-код"
+        },
+        "hint": {
+          "en": "Enter the Account Number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[A-Z]{2}(\\w){13,29}$\/",
+        "required": true,
+        "position": 1,
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\ a-z]{2,100}$\/",
+        "required": false,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Z\\-\\ a-z]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "example": "Doe"
+      },
+      {
+        "key": "beneficiary_country",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary country code",
+          "ru": "Beneficiary country code",
+          "uk": "Beneficiary country code"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        },
+        "regexp": "\/^[A-Z]{2}$\/",
+        "required": false,
+        "position": 4,
+        "example": "UA"
+      },
+      {
+        "key": "beneficiary_city",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary city",
+          "ru": "Beneficiary city",
+          "uk": "Beneficiary city"
+        },
+        "hint": {
+          "en": "Enter beneficiary city",
+          "ru": "Введите beneficiary city",
+          "uk": "Введіть beneficiary city"
+        },
+        "regexp": "\/^[A-Za-z,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 5,
+        "example": "Kyiv"
+      },
+      {
+        "key": "beneficiary_address",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary address",
+          "ru": "Beneficiary address",
+          "uk": "Beneficiary address"
+        },
+        "hint": {
+          "en": "Enter beneficiary address",
+          "ru": "Введите адрес получателя",
+          "uk": "Введіть адресу отримувача"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 6,
+        "example": "Dzerzhinskogo str., bld. 30"
+      },
+      {
+        "key": "beneficiary_bank_swift_code",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary Bank's SWIFT code",
+          "ru": "SWIFT код банка получателя",
+          "uk": "SWIFT код банку отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Bank's SWIFT code",
+          "ru": "Введите SWIFT код банка получателя",
+          "uk": "Введіть SWIFT код банку отримувача"
+        },
+        "regexp": "\/^[A-Z]{6}[A-Z0-9]{2}([A-Z0-9]{3})?$\/",
+        "required": false,
+        "position": 7,
+        "example": "LEABCD5805N"
+      },
+      {
+        "key": "beneficiary_bank_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary Bank Name",
+          "ru": "Название банка получателя",
+          "uk": "Назва банку"
+        },
+        "hint": {
+          "en": "Enter bank name",
+          "ru": "Введите название банка",
+          "uk": "Введіть назву банку"
+        },
+        "regexp": "\/^[A-Z\\-\\ a-z0-9_]{2,100}$\/",
+        "required": false,
+        "position": 8,
+        "example": "Bank of Lemuria"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 82000
   }
 ]
