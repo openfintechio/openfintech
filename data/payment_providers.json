@@ -19907,5 +19907,21 @@
     "payment_method" : [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "noda",
+    "vendor": "noda",
+    "payment_method": [
+      "sepa_transfer"
+    ],
+    "payout_method": [
+      "sepa_transfer"
+    ],
+    "name": {
+      "en": "Noda",
+      "ru": "Noda",
+      "uk": "Noda"
+    }
   }
 ]

@@ -14910,5 +14910,23 @@
     "currency": "ARS",
     "amount_min": 0.01,
     "amount_max": 17000000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_eur",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 94000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_gbp",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 82000
   }
 ]
