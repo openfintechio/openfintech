@@ -6852,6 +6852,69 @@
   },
   {
     "status": "active",
+    "code": "tron_trx_hpp",
+    "flow": "hpp",
+    "method": "tron",
+    "currency": "TRX",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_trc20_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_erc20_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "binance_smart_chain_bep20_bnb_hpp",
+    "flow": "hpp",
+    "method": "binance_smart_chain",
+    "currency": "BNB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_bep20_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_erc20_dai_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "DAI",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_bep20_dai_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "DAI",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "americanexpress_eur_hpp",
     "flow": "hpp",
     "method": "americanexpress",
@@ -9839,6 +9902,15 @@
   {
     "status": "active",
     "code": "tether_erc20_usdt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_usdt_hpp",
     "flow": "hpp",
     "method": "tether",
     "currency": "USDT",

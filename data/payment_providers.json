@@ -19902,6 +19902,26 @@
   },
   {
     "status": "active",
+    "code": "cryptohawex",
+    "vendor": "cryptohawex",
+    "payout_method": [
+      "payment_card",
+      "bitcoin",
+      "tether",
+      "tron",
+      "usd_coin",
+      "ethereum",
+      "dai_coin",
+      "binance_smart_chain"
+    ],
+    "name": {
+      "en": "CryptoHawex",
+      "ru": "CryptoHawex",
+      "uk": "CryptoHawex"
+    }
+  },
+  {
+    "status": "active",
     "code": "cashbulls",
     "vendor": "cashbulls",
     "name": {
