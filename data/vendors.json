@@ -28384,6 +28384,15 @@
     }
   },
   {
+    "code": "globaltransactioncharge",
+    "status": "active",
+    "name": {
+      "en": "GlobalTransactionCharge",
+      "ru": "GlobalTransactionCharge",
+      "uk": "GlobalTransactionCharge"
+    }
+  },
+  {
     "code": "stepfourpay",
     "status": "active",
     "name": {
@@ -29859,6 +29868,18 @@
       "en": "Cash Bulls",
       "ru": "Cash Bulls",
       "uk": "Cash Bulls"
+    }
+  },
+  {
+    "code": "noda",
+    "status": "active",
+    "links": {
+      "website": "https://www.noda.live/"
+    },
+    "name": {
+      "en": "Noda",
+      "ru": "Noda",
+      "uk": "Noda"
     }
   }
 ]
