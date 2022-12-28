@@ -78995,6 +78995,51 @@
   },
   {
     "status": "active",
+    "code": "pix_ars",
+    "currency": "ARS",
+    "method": "pix",
+    "amount_min": "0.01",
+    "amount_max": "100000",
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "88899988811"
+      },
+      {
+        "key": "pix_key",
+        "type": "string",
+        "regexp": "\/^.{4,255}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Pix key",
+          "ru": "Ключ Pix",
+          "uk": "Ключ Pix"
+        },
+        "hint": {
+          "en": "Enter Pix key",
+          "ru": "Введите ключ Pix",
+          "uk": "Введіть ключ Pix"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "spei_usd",
     "method": "spei",
     "currency": "USD",
