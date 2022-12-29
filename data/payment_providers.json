@@ -19938,7 +19938,8 @@
     "code": "noda",
     "vendor": "noda",
     "payment_method": [
-      "sepa_transfer"
+      "sepa_transfer",
+      "payment_card"
     ],
     "payout_method": [
       "sepa_transfer"
