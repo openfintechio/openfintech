@@ -78022,7 +78022,7 @@
       {
         "key": "account_name",
         "type": "string",
-        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,100}$\/",
         "required": false,
         "position": 2,
         "label": {
@@ -78039,7 +78039,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-za-z,0-9\\p{L}]{2,100}$\/u",
+        "regexp": "\/^[A-Za-zА-Яа-я,0-9\\-\\s\\p{L}]{2,100}$\/",
         "required": false,
         "position": 3,
         "label": {
