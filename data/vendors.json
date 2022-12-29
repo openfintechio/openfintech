@@ -1438,6 +1438,34 @@
     }
   },
   {
+    "code": "tron",
+    "status": "active",
+    "name": {
+      "en": "Tron"
+    }
+  },
+  {
+    "code": "usd_coin",
+    "status": "active",
+    "name": {
+      "en": "Usd Coin"
+    }
+  },
+  {
+    "code": "dai_coin",
+    "status": "active",
+    "name": {
+      "en": "Dai Coin"
+    }
+  },
+  {
+    "code": "binance_smart_chain",
+    "status": "active",
+    "name": {
+      "en": "Binance smart chain"
+    }
+  },
+  {
     "code": "hmel_f_patkbprivatbank_m_hmelnickij",
     "status": "active",
     "contacts": {
@@ -4409,17 +4437,13 @@
   {
     "code": "dusupay",
     "status": "active",
-    "contacts": {
-      "phone": "+447969173786"
-    },
-    "address": {
-      "street": " 10 Albury court, Phipps bridge rdCR4 3PX LondonSelect a StateUnited Kingdom "
+    "links": {
+      "website": "https://dusupay.com/"
     },
     "name": {
-      "en": "DusuPay"
-    },
-    "description": {
-      "en": " Send money and get paid all over Africa. We are the continents largest Payment Gateway "
+      "en": "Dusupay",
+      "ru": "Dusupay",
+      "uk": "Dusupay"
     }
   },
   {
@@ -29872,6 +29896,27 @@
       "en": "Cash Bulls",
       "ru": "Cash Bulls",
       "uk": "Cash Bulls"
+    }
+  },
+  {
+    "code": "noda",
+    "status": "active",
+    "links": {
+      "website": "https://www.noda.live/"
+    },
+    "name": {
+      "en": "Noda",
+      "ru": "Noda",
+      "uk": "Noda"
+    }
+  },
+  {
+    "code": "cryptohawex",
+    "status": "active",
+    "name": {
+      "en": "CryptoHawex",
+      "ru": "CryptoHawex",
+      "uk": "CryptoHawex"
     }
   }
 ]
