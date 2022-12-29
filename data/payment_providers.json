@@ -19949,5 +19949,18 @@
       "ru": "Noda",
       "uk": "Noda"
     }
+  },
+  {
+    "status": "active",
+    "code": "blablapay",
+    "vendor": "blablapay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "BlaBlaPay",
+      "ru": "BlaBlaPay",
+      "uk": "BlaBlaPay"
+    }
   }
 ]
