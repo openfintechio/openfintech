@@ -17549,6 +17549,19 @@
   },
   {
     "status": "active",
+    "code": "bzpay",
+    "vendor": "bzpay",
+    "name": {
+      "en": "BZPAY",
+      "ru": "BZPAY",
+      "uk": "BZPAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "stepfourpay",
     "description": {
       "en": "There are many payment gateway providers out there, but not all of them offer the same features and benefits. Payment orchestration platforms like StepfourPay can provide a more complete picture of your transactions and help you manage your payments more effectively. Let's take a closer look at what StepfourPay has to offer. StepfourPay is a payment orchestration platform that helps businesses streamline their payment processes. With StepfourPay, you can connect to multiple payment gateway providers and view all of your transactions in one place. This makes it easy to see where your money is going and track your spending. StepfourPay also offers a number of features that can save you time and money. For example, you can set up automatic payments so that you don't have to manually enter your payment information each time. You can also set up recurring payments for customers who need to make regular payments. If you're looking for a payment gateway provider that offers more than just basic payment processing, StepfourPay is worth considering. With its comprehensive view of your transactions and powerful automation features, StepfourPay can help you take control of your payments and save time and money."
