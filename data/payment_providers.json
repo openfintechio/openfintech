@@ -4958,12 +4958,14 @@
     "status": "active",
     "code": "dusupay",
     "vendor": "dusupay",
-    "metadata": {
-      "about_payments_code": "dusupay"
-    },
     "name": {
-      "en": "DusuPay"
-    }
+      "en": "Dusupay",
+      "ru": "Dusupay",
+      "uk": "Dusupay"
+    },
+    "payment_method" : [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -18759,6 +18761,9 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -19910,6 +19915,26 @@
   },
   {
     "status": "active",
+    "code": "cryptohawex",
+    "vendor": "cryptohawex",
+    "payout_method": [
+      "payment_card",
+      "bitcoin",
+      "tether",
+      "tron",
+      "usd_coin",
+      "ethereum",
+      "dai_coin",
+      "binance_smart_chain"
+    ],
+    "name": {
+      "en": "CryptoHawex",
+      "ru": "CryptoHawex",
+      "uk": "CryptoHawex"
+    }
+  },
+  {
+    "status": "active",
     "code": "cashbulls",
     "vendor": "cashbulls",
     "name": {
@@ -19920,5 +19945,35 @@
     "payment_method" : [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "noda",
+    "vendor": "noda",
+    "payment_method": [
+      "sepa_transfer",
+      "payment_card"
+    ],
+    "payout_method": [
+      "sepa_transfer"
+    ],
+    "name": {
+      "en": "Noda",
+      "ru": "Noda",
+      "uk": "Noda"
+    }
+  },
+  {
+    "status": "active",
+    "code": "blablapay",
+    "vendor": "blablapay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "BlaBlaPay",
+      "ru": "BlaBlaPay",
+      "uk": "BlaBlaPay"
+    }
   }
 ]

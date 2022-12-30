@@ -66,6 +66,15 @@
     }
   },
   {
+    "code": "tron",
+    "vendor": "tron",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Tron"
+    }
+  },
+  {
     "code": "litecoin",
     "category": "alternative",
     "status": "active",
@@ -6149,6 +6158,39 @@
       "en": "Tether",
       "ru": "Tether",
       "uk": "Tether"
+    }
+  },
+  {
+    "code": "usd_coin",
+    "vendor": "usd_coin",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Usd Coin",
+      "ru": "Usd Coin",
+      "uk": "Usd Coin"
+    }
+  },
+  {
+    "code": "dai_coin",
+    "vendor": "dai_coin",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Dai Coin",
+      "ru": "Dai Coin",
+      "uk": "Dai Coin"
+    }
+  },
+  {
+    "code": "binance_smart_chain",
+    "vendor": "binance_smart_chain",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Binance smart chain",
+      "ru": "Binance smart chain",
+      "uk": "Binance smart chain"
     }
   },
   {
