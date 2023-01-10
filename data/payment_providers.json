@@ -17578,6 +17578,19 @@
   },
   {
     "status": "active",
+    "code": "magicpayments",
+    "vendor": "magicpayments",
+    "name": {
+      "en": "Magic Payments",
+      "ru": "Magic Payments",
+      "uk": "Magic Payments"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "reeves",
     "vendor": "reeves",
     "name": {
