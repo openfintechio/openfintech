@@ -19988,5 +19988,18 @@
       "ru": "BlaBlaPay",
       "uk": "BlaBlaPay"
     }
+  },
+  {
+    "status": "active",
+    "code": "usbxpay",
+    "vendor": "usbxpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "USBxPAY",
+      "ru": "USBxPAY",
+      "uk": "USBxPAY"
+    }
   }
 ]
