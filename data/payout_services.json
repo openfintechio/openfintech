@@ -43193,6 +43193,118 @@
   },
   {
     "status": "active",
+    "code": "bank_negara_indonesia_va_idr",
+    "currency": "IDR",
+    "method": "bank_negara_indonesia_va",
+    "amount_min": "50000",
+    "amount_max": "25000000",
+    "fields": [
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "bank_account_name",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Name",
+          "ru": "Bank Account Name",
+          "uk": "Bank Account Name"
+        },
+        "hint": {
+          "en": "Enter Bank Account Name",
+          "ru": "Введите Bank Account Name",
+          "uk": "Введіть Bank Account Name"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 6
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "permata_bank_idr",
     "currency": "IDR",
     "method": "permata_bank",
