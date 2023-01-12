@@ -28421,12 +28421,36 @@
     }
   },
   {
+    "code": "bzpay",
+    "status": "active",
+    "links": {
+      "website": "https://www.bzpay.com.mx/"
+    },
+    "name": {
+      "en": "BZPAY",
+      "ru": "BZPAY",
+      "uk": "BZPAY"
+    }
+  },
+  {
     "code": "stepfourpay",
     "status": "active",
     "name": {
       "en": "Step4Pay",
       "ru": "Step4Pay",
       "uk": "Step4Pay"
+    }
+  },
+  {
+    "code": "magicpayments",
+    "status": "active",
+    "links": {
+      "website": "https://magic-payments.com/"
+    },
+    "name": {
+      "en": "Magic Payments",
+      "ru": "Magic Payments",
+      "uk": "Magic Payments"
     }
   },
   {
@@ -29926,6 +29950,18 @@
       "en": "BlaBlaPay",
       "ru": "BlaBlaPay",
       "uk": "BlaBlaPay"
+    }
+  },
+  {
+    "code": "usbxpay",
+    "status": "active",
+    "links": {
+      "website": "https://usb-pay.com"
+    },
+    "name": {
+      "en": "USBxPAY",
+      "ru": "USBxPAY",
+      "uk": "USBxPAY"
     }
   }
 ]
