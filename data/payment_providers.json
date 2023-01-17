@@ -20004,5 +20004,21 @@
       "ru": "USBxPAY",
       "uk": "USBxPAY"
     }
+  },
+  {
+    "status": "active",
+    "code": "paydex",
+    "vendor": "paydex",
+    "name": {
+      "en": "Paydex",
+      "ru": "Paydex",
+      "uk": "Paydex"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
