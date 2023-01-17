@@ -20020,5 +20020,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "nummuspay",
+    "vendor": "nummuspay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "NummusPay",
+      "ru": "NummusPay",
+      "uk": "NummusPay"
+    }
   }
 ]
