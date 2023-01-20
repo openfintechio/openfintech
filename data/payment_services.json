@@ -2561,7 +2561,7 @@
         "key": "payer_first_name",
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Payer first name",
@@ -2579,7 +2579,7 @@
         "key": "payer_last_name",
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "label": {
           "en": "Payer last name",
@@ -2632,7 +2632,7 @@
         "key": "payer_city",
         "type": "string",
         "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
-        "required": true,
+        "required": false,
         "position": 5,
         "label": {
           "en": "Payer city",
