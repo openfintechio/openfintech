@@ -4332,7 +4332,27 @@
     "flow": "hpp",
     "method": "siam_commercial_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   },
   {
     "status": "active",
@@ -4341,7 +4361,27 @@
     "flow": "hpp",
     "method": "krung_thai_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   },
   {
     "status": "active",
@@ -4350,7 +4390,27 @@
     "flow": "hpp",
     "method": "krungsri",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   },
   {
     "status": "active",
@@ -4368,7 +4428,27 @@
     "flow": "hpp",
     "method": "kasikorn_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   },
   {
     "status": "active",
@@ -4377,7 +4457,27 @@
     "flow": "hpp",
     "method": "bangko_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   },
   {
     "status": "active",
@@ -15029,5 +15129,324 @@
     "currency": "GBP",
     "amount_min": 0.01,
     "amount_max": 82000
+  },
+  {
+    "status": "active",
+    "code": "thai_military_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "thai_military_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "cimb_thai_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "cimb_thai_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "government_savings_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "government_savings_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "united_overseas_bank_thai_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "united_overseas_bank_thai",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "government_housing_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "government_housing_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "hong_kong_shanghai_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "hong_kong_shanghai_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "standard_chartered_bank_thai_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "standard_chartered_bank_thai",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "land_and_houses_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "land_and_houses_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "thai_qr_payment_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "thai_qr_payment",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "krungthai_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "krungthai_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kiatnakin_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "kiatnakin_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   }
 ]
