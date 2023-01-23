@@ -621,7 +621,7 @@
     "code": "moneymail",
     "vendor": "moneymail",
     "category": "online_banking",
-    "status": "active",
+    "status": "deprecated",
     "name": {
       "en": "MoneyMail"
     },
@@ -925,7 +925,7 @@
     "code": "paymer",
     "vendor": "webmoney",
     "category": "alternative",
-    "status": "active",
+    "status": "deprecated",
     "countries": [
       "UA"
     ],
@@ -1037,7 +1037,7 @@
     "code": "wmcard",
     "vendor": "webmoney",
     "category": "alternative",
-    "status": "active",
+    "status": "deprecated",
     "name": {
       "en": "WebMoney card",
       "ru": "WebMoney карта",
@@ -1048,7 +1048,7 @@
     "code": "wmnote",
     "vendor": "webmoney",
     "category": "alternative",
-    "status": "active",
+    "status": "deprecated",
     "name": {
       "en": "WebMoney note"
     }
@@ -1281,7 +1281,7 @@
     "code": "webmoneytransfer",
     "vendor": "webmoneytransfer",
     "category": "digital_wallet",
-    "status": "active",
+    "status": "deprecated",
     "countries": [
       "AR",
       "BO",
@@ -2534,7 +2534,7 @@
     "code": "yandexmoney",
     "vendor": "yandex",
     "category": "digital_wallet",
-    "status": "active",
+    "status": "deprecated",
     "name": {
       "en": "Yandex.Money",
       "ru": "Яндекс.Деньги",
@@ -2683,7 +2683,7 @@
     "code": "moneta",
     "vendor": "moneta",
     "category": "digital_wallet",
-    "status": "active",
+    "status": "deprecated",
     "name": {
       "en": "Moneta"
     },
