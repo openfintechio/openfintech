@@ -20063,5 +20063,18 @@
       "ru": "NummusPay",
       "uk": "NummusPay"
     }
+  },
+  {
+    "status": "active",
+    "code": "uniongate",
+    "vendor": "uniongate",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "UnionGate",
+      "ru": "UnionGate",
+      "uk": "UnionGate"
+    }
   }
 ]
