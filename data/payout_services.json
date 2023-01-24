@@ -93381,5 +93381,33 @@
     ],
     "amount_min": 0.01,
     "amount_max": 3800000
+  },
+  {
+    "status": "deprecated",
+    "code": "yoomoney_rub",
+    "method": "yoomoney",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер рахунку",
+          "uk": "Номер счёта"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введіть номер рахунку",
+          "uk": "Введите номер счёта"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "example": "4100111111111"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "100000"
   }
 ]
