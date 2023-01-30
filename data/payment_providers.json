@@ -20092,5 +20092,27 @@
       "ru": "Payabl.",
       "uk": "Payabl."
     }
+  },
+  {
+    "status": "active",
+    "code": "cryptomus",
+    "vendor": "cryptomus",
+    "payment_method": [
+      "ethereum",
+      "tether",
+      "bitcoin",
+      "tron",
+      "digital_cash",
+      "litecoin",
+      "binance_coin",
+      "binance_usd",
+      "polygon",
+      "toncoin"
+    ],
+    "name": {
+      "en": "Cryptomus",
+      "ru": "Cryptomus",
+      "uk": "Cryptomus"
+    }
   }
 ]

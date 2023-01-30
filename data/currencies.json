@@ -12154,5 +12154,41 @@
     "exponent": 8,
     "category": "other",
     "parent_currency_multiplier": 1
+  },
+  {
+    "code": "BUSD",
+    "name": {
+      "en": "BUSD"
+    },
+    "type": "crypto",
+    "status": "active",
+    "iso_numeric3_code": "0",
+    "exponent": 8,
+    "category": "other",
+    "parent_currency_multiplier": 1
+  },
+  {
+    "code": "MATIC",
+    "name": {
+      "en": "MATIC"
+    },
+    "type": "crypto",
+    "status": "active",
+    "iso_numeric3_code": "0",
+    "exponent": 8,
+    "category": "other",
+    "parent_currency_multiplier": 1
+  },
+  {
+    "code": "TON",
+    "name": {
+      "en": "TON"
+    },
+    "type": "crypto",
+    "status": "active",
+    "iso_numeric3_code": "0",
+    "exponent": 8,
+    "category": "other",
+    "parent_currency_multiplier": 1
   }
 ]

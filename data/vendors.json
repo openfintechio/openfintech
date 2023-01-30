@@ -1335,6 +1335,34 @@
     }
   },
   {
+    "code": "digital_cash",
+    "status": "active",
+    "name": {
+      "en": "Digital Cash"
+    }
+  },
+  {
+    "code": "binance_usd",
+    "status": "active",
+    "name": {
+      "en": "Binance Usd"
+    }
+  },
+  {
+    "code": "polygon",
+    "status": "active",
+    "name": {
+      "en": "Polygon"
+    }
+  },
+  {
+    "code": "toncoin",
+    "status": "active",
+    "name": {
+      "en": "Toncoin"
+    }
+  },
+  {
     "code": "coinsnap",
     "status": "active",
     "contacts": {
@@ -30007,6 +30035,18 @@
       "en": "Payabl.",
       "ru": "Payabl.",
       "uk": "Payabl."
+    }
+  },
+  {
+    "code": "cryptomus",
+    "status": "active",
+    "links": {
+      "website": "https://cryptomus.com"
+    },
+    "name": {
+      "en": "Cryptomus",
+      "ru": "Cryptomus",
+      "uk": "Cryptomus"
     }
   }
 ]

@@ -10048,6 +10048,51 @@
   },
   {
     "status": "active",
+    "code": "tether_polygon_usdt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "digital_cash_dash_hpp",
+    "flow": "hpp",
+    "method": "digital_cash",
+    "currency": "DASH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "binance_usd_busd_hpp",
+    "flow": "hpp",
+    "method": "binance_usd",
+    "currency": "BUSD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "polygon_matic_hpp",
+    "flow": "hpp",
+    "method": "polygon",
+    "currency": "MATIC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "toncoin_ton_hpp",
+    "flow": "hpp",
+    "method": "toncoin",
+    "currency": "TON",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "tether_trc20_usdt_hpp",
     "flow": "hpp",
     "method": "tether",
