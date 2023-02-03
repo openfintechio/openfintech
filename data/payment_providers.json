@@ -20113,5 +20113,18 @@
       "ru": "Cryptomus",
       "uk": "Cryptomus"
     }
+  },
+  {
+    "status": "active",
+    "code": "fiatsystems",
+    "vendor": "fiatsystems",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "FiatSystems",
+      "ru": "FiatSystems",
+      "uk": "FiatSystems"
+    }
   }
 ]
