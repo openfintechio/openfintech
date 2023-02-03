@@ -35032,6 +35032,141 @@
   },
   {
     "status": "active",
+    "code": "digital_cash_dash",
+    "method": "digital_cash",
+    "currency": "DASH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Digital cash wallet",
+          "ru": "Digital cash кошелёк",
+          "uk": "Digital cash гаманець"
+        },
+        "hint": {
+          "en": "Enter digital cash wallet",
+          "ru": "Введите digital cash кошелёк",
+          "uk": "Введіть digital cash гаманець"
+        },
+        "regexp": "\/X[1-9A-HJ-NP-Za-km-z]{33}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1610"
+  },
+  {
+    "status": "active",
+    "code": "binance_usd_busd",
+    "method": "binance_usd",
+    "currency": "BUSD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Binance usd wallet",
+          "ru": "Binance usd кошелёк",
+          "uk": "Binance usd гаманець"
+        },
+        "hint": {
+          "en": "Enter binance usd wallet",
+          "ru": "Введите binance usd кошелёк",
+          "uk": "Введіть binance usd гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "polygon_matic",
+    "method": "polygon",
+    "currency": "MATIC",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Polygon wallet",
+          "ru": "Polygon кошелёк",
+          "uk": "Polygon гаманець"
+        },
+        "hint": {
+          "en": "Enter polygon wallet",
+          "ru": "Введите polygon кошелёк",
+          "uk": "Введіть polygon гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "93000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_usdt_hpp",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether wallet",
+          "ru": "Tether кошелёк",
+          "uk": "Tether гаманець"
+        },
+        "hint": {
+          "en": "Enter tether wallet",
+          "ru": "Введите tether кошелёк",
+          "uk": "Введіть tether гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "100000"
+  },
+    {
+    "status": "active",
+    "code": "toncoin_ton",
+    "method": "toncoin",
+    "currency": "TON",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Toncoin wallet",
+          "ru": "Toncoin кошелёк",
+          "uk": "Toncoin гаманець"
+        },
+        "hint": {
+          "en": "Enter toncoin wallet",
+          "ru": "Введите toncoin кошелёк",
+          "uk": "Введіть toncoin гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "43000"
+  },
+  {
+    "status": "active",
     "code": "ethereum_uah",
     "method": "ethereum",
     "currency": "UAH",
