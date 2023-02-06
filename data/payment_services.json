@@ -15493,5 +15493,158 @@
         "example": "1100382992"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "advcash_card_usd_hpp",
+    "currency": "USD",
+    "method": "advcash_card",
+    "flow": "hpp",
+    "amount_min": 0.1,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "advcash_card_eur_hpp",
+    "currency": "EUR",
+    "method": "advcash_card",
+    "flow": "hpp",
+    "amount_min": 0.1,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_eur_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_usd_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "omni_payments_eur_hpp",
+    "flow": "hpp",
+    "method": "omni_payments",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "omni_payments_usd_hpp",
+    "flow": "hpp",
+    "method": "omni_payments",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "omni_payments_rub_hpp",
+    "flow": "hpp",
+    "method": "omni_payments",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "omni_payments_kzt_hpp",
+    "flow": "hpp",
+    "method": "omni_payments",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "noros_p2p_rub_hpp",
+    "flow": "hpp",
+    "method": "noros_p2p",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_eur_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_wallet",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_usd_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_wallet",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_rub_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_wallet",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 7000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_kzt_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_wallet",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_znx_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_wallet",
+    "currency": "ZNX",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_usdt_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_wallet",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "stripe_eur_hpp",
+    "flow": "hpp",
+    "method": "stripe",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "stripe_usd_hpp",
+    "flow": "hpp",
+    "method": "stripe",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]

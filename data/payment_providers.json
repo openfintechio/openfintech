@@ -20126,5 +20126,32 @@
       "ru": "FiatSystems",
       "uk": "FiatSystems"
     }
+  },
+  {
+    "status": "active",
+    "code": "bitexpro",
+    "vendor": "bitexpro",
+    "payout_method": [
+      "advcash_wallet",
+      "payeer",
+      "bitexpro_wallet",
+      "hero_payments"
+    ],
+    "payment_method": [
+      "advcash_wallet",
+      "advcash_card",
+      "payeer",
+      "bitexpro_wallet",
+      "hero_payments",
+      "omni_payments",
+      "noros_p2p",
+      "bitexpro_wallet",
+      "stripe"
+    ],
+    "name": {
+      "en": "BitexPRO",
+      "ru": "BitexPRO",
+      "uk": "BitexPRO"
+    }
   }
 ]
