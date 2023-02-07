@@ -7714,5 +7714,63 @@
     "name": {
       "en": "Kiatnakin Bank"
     }
+  },
+  {
+    "code": "advcash_card",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "AdvCash"
+    }
+  },
+  {
+    "status": "active",
+    "code": "hero_payments",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Hero Payments",
+      "ru": "Hero Payments",
+      "uk": "Hero Payments"
+    }
+  },
+  {
+    "status": "active",
+    "code": "omni_payments",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Omni Payments",
+      "ru": "Omni Payments",
+      "uk": "Omni Payments"
+    }
+  },
+  {
+    "status": "deprecated",
+    "code": "noros_p2p",
+    "category": "digital_wallet",
+    "name": {
+      "en": "NOROS P2P",
+      "ru": "NOROS P2P",
+      "uk": "NOROS P2P"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet",
+    "category": "digital_wallet",
+    "name": {
+      "en": "BitexPRO wallet",
+      "ru": "BitexPRO wallet",
+      "uk": "BitexPRO wallet"
+    }
+  },
+  {
+    "status": "active",
+    "code": "stripe",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Stripe",
+      "ru": "Stripe",
+      "uk": "Stripe"
+    }
   }
 ]

@@ -45080,6 +45080,23 @@
     "method": "payeer",
     "currency": "USD",
     "fields": [
+    {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
       {
         "key": "account_number",
         "type": "string",
@@ -45094,7 +45111,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[P]{1}[0-9]{7,15}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -45108,6 +45125,23 @@
     "currency": "RUB",
     "fields": [
       {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
         "key": "account_number",
         "type": "string",
         "label": {
@@ -45121,7 +45155,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[P]{1}[0-9]{7,15}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -45134,6 +45168,23 @@
     "method": "payeer",
     "currency": "EUR",
     "fields": [
+        {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
       {
         "key": "account_number",
         "type": "string",
@@ -45148,7 +45199,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[P]{1}[0-9]{7,15}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -45161,6 +45212,23 @@
     "method": "payeer",
     "currency": "BTC",
     "fields": [
+        {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
       {
         "key": "account_number",
         "type": "string",
@@ -45175,7 +45243,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[P]{1}[0-9]{7,15}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -45188,6 +45256,23 @@
     "method": "payeer",
     "currency": "ETH",
     "fields": [
+        {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
       {
         "key": "account_number",
         "type": "string",
@@ -45202,7 +45287,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[P]{1}[0-9]{7,15}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -45215,6 +45300,23 @@
     "method": "payeer",
     "currency": "BCH",
     "fields": [
+        {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
       {
         "key": "account_number",
         "type": "string",
@@ -45229,7 +45331,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[P]{1}[0-9]{7,15}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -45242,6 +45344,23 @@
     "method": "payeer",
     "currency": "LTC",
     "fields": [
+        {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
       {
         "key": "account_number",
         "type": "string",
@@ -45256,7 +45375,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[P]{1}[0-9]{7,15}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -45269,6 +45388,23 @@
     "method": "payeer",
     "currency": "DASH",
     "fields": [
+        {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
       {
         "key": "account_number",
         "type": "string",
@@ -45283,7 +45419,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[P]{1}[0-9]{7,15}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -93544,5 +93680,194 @@
     ],
     "amount_min": "1",
     "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_eur",
+    "method": "bitexpro_wallet",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_usd",
+    "method": "bitexpro_wallet",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_rub",
+    "method": "bitexpro_wallet",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 7000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_znx",
+    "method": "bitexpro_wallet",
+    "currency": "ZNX",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_wallet_usdt",
+    "method": "bitexpro_wallet",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+   {
+    "status": "active",
+    "code": "hero_payments_eur",
+    "method": "hero_payments",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_usd",
+    "method": "hero_payments",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
