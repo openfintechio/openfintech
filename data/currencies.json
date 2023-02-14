@@ -12202,5 +12202,125 @@
     "exponent": 8,
     "category": "other",
     "parent_currency_multiplier": 1
+  },
+  {
+    "code": "USDTERC20",
+    "parent_code": "USDT",
+    "name": {
+      "en": "USDTERC20"
+    },
+    "type": "crypto",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "USDT-ERC20"
+    },
+    "status": "active"
+  },
+  {
+    "code": "USDTTRC20",
+    "parent_code": "USDT",
+    "name": {
+      "en": "USDTTRC20"
+    },
+    "type": "crypto",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "USDT-TRC20"
+    },
+    "status": "active"
+  },
+  {
+    "code": "USDTBEP20",
+    "parent_code": "USDT",
+    "name": {
+      "en": "USDTBEP20"
+    },
+    "type": "crypto",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "USDT-BEP20"
+    },
+    "status": "active"
+  },
+  {
+    "code": "USDCERC20",
+    "parent_code": "USDC",
+    "name": {
+      "en": "USDCERC20"
+    },
+    "type": "crypto",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "USDC-ERC20"
+    },
+    "status": "active"
+  },
+  {
+    "code": "USDCTRC20",
+    "parent_code": "USDC",
+    "name": {
+      "en": "USDCTRC20"
+    },
+    "type": "crypto",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "USDC-TRC20"
+    },
+    "status": "active"
+  },
+  {
+    "code": "USDCBEP20",
+    "parent_code": "USDC",
+    "name": {
+      "en": "USDCBEP20"
+    },
+    "type": "crypto",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "USDC-BEP20"
+    },
+    "status": "active"
+  },
+  {
+    "code": "DAIERC20",
+    "parent_code": "DAI",
+    "name": {
+      "en": "DAIERC20"
+    },
+    "type": "crypto",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "DAI-ERC20"
+    },
+    "status": "active"
+  },
+  {
+    "code": "DAIBEP20",
+    "parent_code": "DAI",
+    "name": {
+      "en": "DAIBEP20"
+    },
+    "type": "crypto",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "DAI-BEP20"
+    },
+    "status": "active"
   }
 ]

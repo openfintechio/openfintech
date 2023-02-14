@@ -15646,5 +15646,77 @@
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_usdterc20_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDTERC20",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_usdttrc20_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDTTRC20",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_usdtbep20_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDTBEP20",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_usdcerc20_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDCERC20",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_usdctrc20_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDCTRC20",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_usdcbep20_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDCBEP20",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_daierc20_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "DAIERC20",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_daibep20_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "DAIBEP20",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
