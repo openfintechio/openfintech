@@ -20163,5 +20163,18 @@
       "ru": "BitexPRO",
       "uk": "BitexPRO"
     }
+  },
+  {
+    "status": "active",
+    "code": "antrpay",
+    "vendor": "antrpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Antrpay",
+      "ru": "Antrpay",
+      "uk": "Antrpay"
+    }
   }
 ]
