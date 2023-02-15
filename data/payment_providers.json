@@ -20179,5 +20179,18 @@
       "ru": "Antrpay",
       "uk": "Antrpay"
     }
+  },
+  {
+    "status": "active",
+    "code": "b2pay",
+    "vendor": "b2pay",
+    "name": {
+      "en": "b2pay.io",
+      "ru": "b2pay.io",
+      "uk": "b2pay.io"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
