@@ -15440,7 +15440,7 @@
     ]
   },
   {
-    "status": "deprecated",
+    "status": "active",
     "code": "payeer",
     "description": {
       "en": "The Positives of Payeer As One of the Top Cryptocurrency Payment Providers: If you've been considering e-currencies as a payment option, Payeer has a lot of positives to offer. Not only can you accept payments in fiat currency, but you can also send and receive them in cryptocurrencies. With a free account, you can try a variety of services and currencies. Listed below are the benefits of using Payeer. If you're in the market for a new payment provider, Payeer could be a good fit for your needs. Users of Payeer are able to open a business account to manage funds. It is possible to replenish your account through the company's account, and you can participate in surveys to help improve the platform. You can also use your personal account to make payments through a Payeer-approved merchant. Once you've signed up, you'll be able to add funds to your account, as well as participate in rewards programs that can earn you money. In addition to its convenience, Payeer offers competitive fees. While depositing funds is free, receiving funds from another payment processor charges 0.95 percent. A 2% currency conversion fee is charged, and the company also charges specified amounts for password recovery and auto-reminder. While the service has many positives, it is important to understand its terms and fees before signing up. Ultimately, Payeer is an excellent choice for many cryptocurrency traders."
@@ -19708,6 +19708,9 @@
     },
     "payment_method" : [
       "payment_card"
+    ],
+    "payout_method" : [
+      "payment_card"
     ]
   },
   {
@@ -20162,6 +20165,19 @@
       "en": "BitexPRO",
       "ru": "BitexPRO",
       "uk": "BitexPRO"
+    }
+  },
+  {
+    "status": "active",
+    "code": "antrpay",
+    "vendor": "antrpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Antrpay",
+      "ru": "Antrpay",
+      "uk": "Antrpay"
     }
   }
 ]
