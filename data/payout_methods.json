@@ -25133,5 +25133,45 @@
       "ru": "Hero Payments",
       "uk": "Hero Payments"
     }
+  },
+  {
+    "status": "active",
+    "code": "instant_bank_transfer",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Instant Bank Transfer",
+      "ru": "Instant Bank Transfer",
+      "uk": "Instant Bank Transfer"
+    }
+  },
+  {
+    "status": "active",
+    "code": "maldo_crypto",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Maldo Crypto",
+      "ru": "Maldo Crypto",
+      "uk": "Maldo Crypto"
+    }
+  },
+  {
+    "status": "active",
+    "code": "paykwik",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Paykwik",
+      "ru": "Paykwik",
+      "uk": "Paykwik"
+    }
+  },
+  {
+    "status": "active",
+    "code": "astropay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Astropay",
+      "ru": "Astropay",
+      "uk": "Astropay"
+    }
   }
 ]

@@ -15718,5 +15718,50 @@
     "currency": "DAIBEP20",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "maldo_crypto_try_hpp",
+    "flow": "hpp",
+    "method": "maldo_crypto",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "instant_papara_try_hpp",
+    "flow": "hpp",
+    "method": "instant_papara",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "paykwik_try_hpp",
+    "flow": "hpp",
+    "method": "paykwik",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "instant_bank_transfer_try_hpp",
+    "flow": "hpp",
+    "method": "instant_bank_transfer",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "astropay_try_hpp",
+    "flow": "hpp",
+    "method": "astropay",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
   }
 ]

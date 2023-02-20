@@ -20192,5 +20192,40 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "maldopay",
+    "vendor": "maldopay",
+    "payment_method": [
+      "payment_card",
+      "bank_transfer",
+      "online_banking_qr",
+      "maldo_crypto",
+      "papara",
+      "instant_papara",
+      "paykwik",
+      "instant_bank_transfer",
+      "payfix",
+      "mefete",
+      "pep",
+      "astropay",
+      "community_bank"
+    ],
+    "payout_method": [
+      "bank_transfer",
+      "instant_bank_transfer",
+      "papara",
+      "maldo_crypto",
+      "paykwik",
+      "payfix",
+      "mefete",
+      "astropay"
+    ],
+    "name": {
+      "en": "MaldoPay",
+      "ru": "MaldoPay",
+      "uk": "MaldoPay"
+    }
   }
 ]

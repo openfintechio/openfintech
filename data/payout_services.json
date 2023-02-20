@@ -93869,5 +93869,37 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "instant_bank_transfer_try",
+    "method": "instant_bank_transfer",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "maldo_crypto_try",
+    "method": "maldo_crypto",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "paykwik_try",
+    "method": "paykwik",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "astropay_try",
+    "method": "astropay",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
   }
 ]
