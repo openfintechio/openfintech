@@ -25136,6 +25136,17 @@
   },
   {
     "status": "active",
+    "code": "binance_smart_chain",
+    "vendor": "binance_smart_chain",
+    "category": "alternative",
+    "name": {
+      "en": "Binance smart chain",
+      "ru": "Binance smart chain",
+      "uk": "Binance smart chain"
+    }
+  },
+  {
+    "status": "active",
     "code": "instant_bank_transfer",
     "category": "bank_transfer",
     "name": {
@@ -25172,6 +25183,17 @@
       "en": "Astropay",
       "ru": "Astropay",
       "uk": "Astropay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "dai_coin",
+    "vendor": "dai_coin",
+    "category": "alternative",
+    "name": {
+      "en": "Dai Coin",
+      "ru": "Dai Coin",
+      "uk": "Dai Coin"
     }
   }
 ]
