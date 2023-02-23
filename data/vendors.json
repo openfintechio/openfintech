@@ -1406,7 +1406,7 @@
   },
   {
     "code": "payeer",
-    "status": "active",
+    "status": "deprecated",
     "links": {
       "website": "https:\/\/payeer.com\/en\/"
     },
@@ -30101,6 +30101,30 @@
       "en": "Sirpaga",
       "ru": "Sirpaga",
       "uk": "Sirpaga"
+    }
+  },
+  {
+    "code": "prmoney",
+    "status": "active",
+    "links": {
+      "website": "https://new.prmoney.com"
+    },
+    "name": {
+      "en": "PrMoney",
+      "ru": "PrMoney",
+      "uk": "PrMoney"
+    }
+  },
+  {
+    "code": "pionpay",
+    "status": "active",
+    "links": {
+      "website": "https://pion.finance "
+    },
+    "name": {
+      "en": "PionPay",
+      "ru": "PionPay",
+      "uk": "PionPay"
     }
   }
 ]

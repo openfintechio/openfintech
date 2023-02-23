@@ -484,7 +484,8 @@
       "settlepay_wallet",
       "applepay",
       "googlepay",
-      "pix_qr"
+      "pix_qr",
+      "binancepay"
     ],
     "payout_method": [
       "payment_card",
@@ -20248,6 +20249,32 @@
       "en": "Sirpaga",
       "ru": "Sirpaga",
       "uk": "Sirpaga"
+    }
+  },
+  {
+    "status": "active",
+    "code": "prmoney",
+    "vendor": "prmoney",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PrMoney",
+      "ru": "PrMoney",
+      "uk": "PrMoney"
+    }
+  },
+  {
+    "status": "active",
+    "code": "pionpay",
+    "vendor": "pionpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PionPay",
+      "ru": "PionPay",
+      "uk": "PionPay"
     }
   }
 ]
