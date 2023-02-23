@@ -20254,5 +20254,18 @@
       "ru": "PrMoney",
       "uk": "PrMoney"
     }
+  },
+  {
+    "status": "active",
+    "code": "pionpay",
+    "vendor": "pionpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PionPay",
+      "ru": "PionPay",
+      "uk": "PionPay"
+    }
   }
 ]
