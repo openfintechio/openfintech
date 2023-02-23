@@ -11490,6 +11490,114 @@
   },
   {
     "status": "active",
+    "code": "binancepay_usd_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_eur_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_inr_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 8300000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_kzt_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 45000000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_pln_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 450000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_brl_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "BRL",
+    "amount_min": 0.01,
+    "amount_max": 550000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_try_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_cad_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_aud_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_kgs_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "KGS",
+    "amount_min": 0.01,
+    "amount_max": 9000000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_uzs_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "binancepay_azn_hpp",
+    "flow": "hpp",
+    "method": "binancepay",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
     "code": "payment_card_clp_hpp",
     "flow": "hpp",
     "method": "payment_card",
