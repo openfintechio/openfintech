@@ -11835,6 +11835,42 @@
   },
   {
     "status": "active",
+    "code": "payment_card_vef_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "VEF",
+    "amount_min": 2500,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_nhl_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "HNL",
+    "amount_min": 25,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_crc_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "CRC",
+    "amount_min": 560,
+    "amount_max": 600000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_bwp_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "BWP",
+    "amount_min": 13,
+    "amount_max": 14000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_thb_hpp",
     "flow": "hpp",
     "method": "payment_card",
