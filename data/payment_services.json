@@ -5578,7 +5578,27 @@
     "flow": "hpp",
     "method": "mefete",
     "amount_min": 0.01,
-    "amount_max": 1800000
+    "amount_max": 1800000,
+    "fields": [
+      {
+        "key": "identification_number",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer identification number",
+          "ru": "Индентификационный код плательщика",
+          "uk": "Ідентифікаційний код платника"
+        },
+        "hint": {
+          "en": "Enter payer identification number",
+          "ru": "Введите индентификационный код плательщика",
+          "uk": "Введіть ідентифікаційний код платника"
+        },
+        "example": "11003829920"
+      }
+    ]
   },
   {
     "status": "active",
@@ -5623,7 +5643,27 @@
     "flow": "hpp",
     "method": "pep",
     "amount_min": 0.01,
-    "amount_max": 1800000
+    "amount_max": 1800000,
+    "fields": [
+      {
+        "key": "identification_number",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer identification number",
+          "ru": "Индентификационный код плательщика",
+          "uk": "Ідентифікаційний код платника"
+        },
+        "hint": {
+          "en": "Enter payer identification number",
+          "ru": "Введите индентификационный код плательщика",
+          "uk": "Введіть ідентифікаційний код платника"
+        },
+        "example": "11003829920"
+      }
+    ]
   },
   {
     "status": "active",
@@ -13780,7 +13820,27 @@
     "method": "papara",
     "currency": "TRY",
     "amount_min": 0.01,
-    "amount_max": 1800000
+    "amount_max": 1800000,
+    "fields": [
+      {
+        "key": "identification_number",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer identification number",
+          "ru": "Индентификационный код плательщика",
+          "uk": "Ідентифікаційний код платника"
+        },
+        "hint": {
+          "en": "Enter payer identification number",
+          "ru": "Введите индентификационный код плательщика",
+          "uk": "Введіть ідентифікаційний код платника"
+        },
+        "example": "11003829920"
+      }
+    ]
   },
   {
     "status": "active",
