@@ -7822,5 +7822,85 @@
       "uk": "Astropay",
       "ru": "Astropay"
     }
+  },
+  {
+    "status": "active",
+    "code": "spcbl",
+    "category": "bank_transfer",
+    "name": {
+      "en": "The Surat Peoples Co-Operative Bank Limited",
+      "uk": "The Surat Peoples Co-Operative Bank Limited",
+      "ru": "The Surat Peoples Co-Operative Bank Limited"
+    }
+  },
+  {
+    "status": "active",
+    "code": "promptpay_qr",
+    "category": "alternative",
+    "name": {
+      "en": "PromptPay QR",
+      "uk": "PromptPay QR",
+      "ru": "PromptPay QR"
+    }
+  },
+  {
+    "status": "active",
+    "code": "vnpay_qr",
+    "category": "alternative",
+    "name": {
+      "en": "VNPAY QR",
+      "uk": "VNPAY QR",
+      "ru": "VNPAY QR"
+    }
+  },
+  {
+    "status": "active",
+    "code": "truemoney",
+    "category": "digital_wallet",
+    "name": {
+      "en": "True Money Wallet",
+      "uk": "True Money Wallet",
+      "ru": "True Money Wallet"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ovo",
+    "category": "digital_wallet",
+    "name": {
+      "en": "OVO",
+      "uk": "OVO",
+      "ru": "OVO"
+    }
+  },
+  {
+    "status": "active",
+    "code": "gopay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "GoPay",
+      "uk": "GoPay",
+      "ru": "GoPay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "momopay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "MoMoPay",
+      "uk": "MoMoPay",
+      "ru": "MoMoPay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "payzapp",
+    "category": "digital_wallet",
+    "name": {
+      "en": "HDFC PayZapp",
+      "uk": "HDFC PayZapp",
+      "ru": "HDFC PayZapp"
+    }
   }
 ]
