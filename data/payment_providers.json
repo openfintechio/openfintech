@@ -20328,5 +20328,18 @@
       "ru": "E-PRO",
       "uk": "E-PRO"
     }
+  },
+  {
+    "status": "active",
+    "code": "paytonegate",
+    "vendor": "paytonegate",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PaytoneGate",
+      "ru": "PaytoneGate",
+      "uk": "PaytoneGate"
+    }
   }
 ]
