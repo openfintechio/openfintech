@@ -94144,5 +94144,141 @@
     ],
     "amount_min": "0.00000001",
     "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_vef",
+    "method": "payment_card",
+    "currency": "VEF",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "25000",
+    "amount_max": "250000000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_hnl",
+    "method": "payment_card",
+    "currency": "HNL",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_crc",
+    "method": "payment_card",
+    "currency": "CRC",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "55000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_bwp",
+    "method": "payment_card",
+    "currency": "BWP",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "0.1",
+    "amount_max": "1300000"
   }
 ]
