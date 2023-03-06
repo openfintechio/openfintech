@@ -20279,6 +20279,19 @@
   },
   {
     "status": "active",
+    "code": "addonpayments",
+    "vendor": "addonpayments",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "AddonPayments",
+      "ru": "AddonPayments",
+      "uk": "AddonPayments"
+    }
+  },
+  {
+    "status": "active",
     "code": "pionpay",
     "vendor": "pionpay",
     "payment_method": [
