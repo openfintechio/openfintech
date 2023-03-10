@@ -30164,6 +30164,15 @@
     }
   },
   {
+    "code": "paymecrypto",
+    "status": "active",
+    "name": {
+      "en": "PaymeCrypto",
+      "ru": "PaymeCrypto",
+      "uk": "PaymeCrypto"
+    }
+  },
+  {
     "code": "epro",
     "status": "active",
     "links": {
@@ -30173,6 +30182,18 @@
       "en": "E-PRO",
       "ru": "E-PRO",
       "uk": "E-PRO"
+    }
+  },
+  {
+    "code": "pay2play",
+    "status": "active",
+    "links": {
+      "website": "https://pay2play.cash"
+    },
+    "name": {
+      "en": "pay2play",
+      "ru": "pay2play",
+      "uk": "pay2play"
     }
   },
   {
