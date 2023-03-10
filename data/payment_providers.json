@@ -20318,6 +20318,20 @@
   },
   {
     "status": "active",
+    "code": "paymecrypto",
+    "vendor": "paymecrypto",
+    "payment_method": [
+      "payment_card",
+      "sbp"
+    ],
+    "name": {
+      "en": "PaymeCrypto",
+      "ru": "PaymeCrypto",
+      "uk": "PaymeCrypto"
+    }
+  },
+  {
+    "status": "active",
     "code": "epro",
     "vendor": "epro",
     "payment_method": [
