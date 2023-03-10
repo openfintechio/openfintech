@@ -919,6 +919,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_egp_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "EGP",
+    "amount_min": 0.3,
+    "amount_max": 3000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_huf_hpp",
     "flow": "hpp",
     "method": "payment_card",
