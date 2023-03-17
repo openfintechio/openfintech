@@ -20383,5 +20383,18 @@
       "ru": "PinPay",
       "uk": "PinPay"
     }
+  },
+  {
+    "status": "active",
+    "code": "paymtech",
+    "vendor": "paymtech",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Paymtech",
+      "ru": "Paymtech",
+      "uk": "Paymtech"
+    }
   }
 ]
