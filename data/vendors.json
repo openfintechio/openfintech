@@ -28040,6 +28040,9 @@
   {
     "code": "pspgate",
     "status": "active",
+    "links": {
+      "website": "https://pspgate.com/"
+    },
     "name": {
       "en": "PSPGate",
       "ru": "PSPGate",
@@ -30206,6 +30209,30 @@
       "en": "PaytoneGate",
       "ru": "PaytoneGate",
       "uk": "PaytoneGate"
+    }
+  },
+  {
+    "code": "pinpay",
+    "status": "active",
+    "links": {
+      "website": "https://www.pin-pay.com/"
+    },
+    "name": {
+      "en": "PinPay",
+      "ru": "PinPay",
+      "uk": "PinPay"
+    }
+  },
+  {
+    "code": "paymtech",
+    "status": "active",
+    "links": {
+      "website": "https://paymtech.kz"
+    },
+    "name": {
+      "en": "Paymtech",
+      "ru": "Paymtech",
+      "uk": "Paymtech"
     }
   }
 ]

@@ -376,6 +376,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_ars_hpp",
+    "currency": "ARS",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 2,
+    "amount_max": 20000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_chf_hpp",
     "currency": "CHF",
     "method": "payment_card",

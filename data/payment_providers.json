@@ -2845,7 +2845,8 @@
     ],
     "payment_method": [
       "payment_card",
-      "payment_card_email"
+      "payment_card_email",
+      "paypal"
     ],
     "payout_method": [
       "payment_card",
@@ -20368,6 +20369,32 @@
       "en": "PaytoneGate",
       "ru": "PaytoneGate",
       "uk": "PaytoneGate"
+    }
+  },
+  {
+    "status": "active",
+    "code": "pinpay",
+    "vendor": "pinpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PinPay",
+      "ru": "PinPay",
+      "uk": "PinPay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "paymtech",
+    "vendor": "paymtech",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Paymtech",
+      "ru": "Paymtech",
+      "uk": "Paymtech"
     }
   }
 ]
