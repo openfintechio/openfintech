@@ -18662,6 +18662,19 @@
   },
   {
     "status": "active",
+    "code": "agentglobal",
+    "vendor": "agentglobal",
+    "name": {
+      "en": "AgentGlobal",
+      "ru": "AgentGlobal",
+      "uk": "AgentGlobal"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "alycepay",
     "vendor": "alycepay",
     "name": {
