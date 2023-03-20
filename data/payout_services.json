@@ -2644,6 +2644,60 @@
   },
   {
     "status": "active",
+    "code": "advcash_wallet_try",
+    "method": "advcash_wallet",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1800000"
+  },
+  {
+    "status": "active",
+    "code": "advcash_wallet_vnd",
+    "method": "advcash_wallet",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "30000",
+    "amount_max": "1000000000"
+  },
+  {
+    "status": "active",
     "code": "advcash_wallet_rub",
     "method": "advcash_wallet",
     "currency": "RUB",
