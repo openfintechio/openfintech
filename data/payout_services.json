@@ -2644,6 +2644,60 @@
   },
   {
     "status": "active",
+    "code": "advcash_wallet_try",
+    "method": "advcash_wallet",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1800000"
+  },
+  {
+    "status": "active",
+    "code": "advcash_wallet_vnd",
+    "method": "advcash_wallet",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "30000",
+    "amount_max": "1000000000"
+  },
+  {
+    "status": "active",
     "code": "advcash_wallet_rub",
     "method": "advcash_wallet",
     "currency": "RUB",
@@ -69201,17 +69255,17 @@
         "key": "beneficiary_account_number",
         "type": "string",
         "label": {
-          "en": "Account number",
-          "ru": "Account number",
-          "uk": "Account number"
+          "en": "Beneficiary Account number",
+          "ru": "Номер аккаунта получателя",
+          "uk": "Номер аккаунту отримувача"
         },
         "regexp": "\/^\\d{1,17}$\/",
         "required": true,
         "position": 6,
         "hint": {
-          "en": "Enter account number",
-          "ru": "Enter account number",
-          "uk": "Enter account number"
+          "en": "Enter beneficiary Account number",
+          "ru": "Введите номер аккаунта получателя",
+          "uk": "Введіть номер аккаунту отримувача"
         },
         "example": "100000000393"
       },
@@ -92435,9 +92489,9 @@
           "uk": "Введіть повне імʼя одержувача"
         },
         "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
-        "required": true,
+        "required": false,
         "position": 2
-      }
+      },
     ],
     "amount_min": 0.01,
     "amount_max": 1800000
@@ -92463,7 +92517,7 @@
         },
         "example": "1234567",
         "regexp": "\/^.{1,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -92480,8 +92534,44 @@
           "uk": "Введіть повне імʼя одержувача"
         },
         "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
-        "required": true,
+        "required": false,
         "position": 2
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Identification number",
+          "ru": "Идентификационный номер",
+          "uk": "Ідентифікаційний номер"
+        },
+        "hint": {
+          "en": "Enter identification number",
+          "ru": "Введите идентификационный номер",
+          "uk": "Введіть ідентифікаційний номер"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "user_name",
+        "type": "string",
+        "label": {
+          "en": "Your username",
+          "uk": "Ваш логін",
+          "ru": "Ваш логин"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 4,
+        "hint": {
+          "en": "Enter your username",
+          "uk": "Вкажіть ваш логін",
+          "ru": "Укажите ваш логин"
+        },
+        "example": "username"
       }
     ],
     "amount_min": 0.01,
