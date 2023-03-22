@@ -29344,6 +29344,15 @@
     }
   },
   {
+    "code": "agentglobal",
+    "status": "active",
+    "name": {
+      "en": "AgentGlobal",
+      "ru": "AgentGlobal",
+      "uk": "AgentGlobal"
+    }
+  },
+  {
     "code": "alycepay",
     "status": "active",
     "links": {
@@ -30233,6 +30242,18 @@
       "en": "Paymtech",
       "ru": "Paymtech",
       "uk": "Paymtech"
+    }
+  },
+  {
+    "code": "ubankconnect",
+    "status": "active",
+    "links": {
+      "website": "https://ubankconnect.com"
+    },
+    "name": {
+      "en": "UBank Connect",
+      "ru": "UBank Connect",
+      "uk": "UBank Connect"
     }
   }
 ]
