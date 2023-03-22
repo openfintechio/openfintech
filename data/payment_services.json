@@ -16038,5 +16038,122 @@
     "currency": "TRY",
     "amount_min": 0.01,
     "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "spcbl_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "spcbl",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "promptpay_qr_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "promptpay_qr",
+    "amount_min": 0.01,
+    "amount_max": 3500000
+  },
+  {
+    "status": "active",
+    "code": "promptpay_qr_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "promptpay_qr",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "promptpay_qr_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "promptpay_qr",
+    "amount_min": 0.01,
+    "amount_max": 4500000
+  },
+  {
+    "status": "active",
+    "code": "vnpay_qr_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "vnpay_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "truemoney_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "truemoney",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "ovo_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "ovo",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "gopay_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "gopay",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "momopay_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "momopay",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_pkr_hpp",
+    "currency": "PKR",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 130000000
+  },
+  {
+    "status": "active",
+    "code": "payzapp_inr_hpp",
+    "flow": "hpp",
+    "method": "payzapp",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
   }
 ]
