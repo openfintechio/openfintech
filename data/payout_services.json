@@ -92446,6 +92446,77 @@
         "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "position": 3
+      },
+      {
+        "key": "document_id",
+        "regexp": "\/^.{1,50}$\/",
+        "type": "string",
+        "label": {
+          "en": "Document ID",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter Document ID",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        },
+        "example": "123949203412831345",
+        "position": 4,
+        "required": false
+      },
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "beneficiary_account_number",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary Account number",
+          "ru": "Номер аккаунта получателя",
+          "uk": "Номер аккаунту отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Account number",
+          "ru": "Введите номер аккаунта получателя",
+          "uk": "Введіть номер аккаунту отримувача"
+        },
+        "regexp": "\/^\\d{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "example": "100000000393"
+      },
+      {
+        "key": "bank_branch_code",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch Code",
+          "ru": "Bank Branch Code",
+          "uk": "Bank Branch Code"
+        },
+        "hint": {
+          "en": "Enter Bank Branch Code",
+          "ru": "Введите Bank Branch Code",
+          "uk": "Введіть Bank Branch Code"
+        },
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "required": false,
+        "position": 7,
+        "example": "626"
       }
     ],
     "amount_min": 0.01,
@@ -92489,8 +92560,44 @@
           "uk": "Введіть повне імʼя одержувача"
         },
         "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
-        "required": true,
+        "required": false,
         "position": 2
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "label": {
+          "en": "Document ID",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter Document ID",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "example": "123949203412831345",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "label": {
+          "en": "Document ID",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter Document ID",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "example": "123949203412831345",
+        "required": false,
+        "position": 3
       }
     ],
     "amount_min": 0.01,
@@ -92536,6 +92643,42 @@
         "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
         "required": true,
         "position": 2
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "label": {
+          "en": "Identification number",
+          "ru": "Идентификационный номер",
+          "uk": "Ідентифікаційний номер"
+        },
+        "hint": {
+          "en": "Enter identification number",
+          "ru": "Введите идентификационный номер",
+          "uk": "Введіть ідентифікаційний номер"
+        },
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 3,
+        "example": "50284414727"
+      },
+      {
+        "key": "user_name",
+        "type": "string",
+        "label": {
+          "en": "Your username",
+          "uk": "Ваш логін",
+          "ru": "Ваш логин"
+        },
+        "hint": {
+          "en": "Enter your username",
+          "uk": "Вкажіть ваш логін",
+          "ru": "Укажите ваш логин"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 4,
+        "example": "username"
       }
     ],
     "amount_min": 0.01,
@@ -93937,6 +94080,25 @@
     "code": "maldo_crypto_try",
     "method": "maldo_crypto",
     "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Crypto wallet",
+          "ru": "Крипто кошелёк",
+          "uk": "Крипто гаманець"
+        },
+        "hint": {
+          "en": "Enter crypto wallet",
+          "ru": "Введите крипто кошелёк",
+          "uk": "Введіть крипто гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 1800000
   },
