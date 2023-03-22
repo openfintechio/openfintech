@@ -15789,6 +15789,15 @@
   },
   {
     "status": "active",
+    "code": "hero_payments_kzt_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "omni_payments_eur_hpp",
     "flow": "hpp",
     "method": "omni_payments",
