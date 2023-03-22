@@ -20172,7 +20172,8 @@
       "advcash_wallet",
       "payeer",
       "bitexpro_wallet",
-      "hero_payments"
+      "hero_payments",
+      "payment_card"
     ],
     "payment_method": [
       "advcash_wallet",
@@ -20180,9 +20181,8 @@
       "payeer",
       "bitexpro_wallet",
       "hero_payments",
-      "omni_payments",
+      "payment_card",
       "noros_p2p",
-      "bitexpro_wallet",
       "stripe"
     ],
     "name": {
