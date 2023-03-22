@@ -20172,7 +20172,8 @@
       "advcash_wallet",
       "payeer",
       "bitexpro_wallet",
-      "hero_payments"
+      "hero_payments",
+      "payment_card"
     ],
     "payment_method": [
       "advcash_wallet",
@@ -20180,9 +20181,8 @@
       "payeer",
       "bitexpro_wallet",
       "hero_payments",
-      "omni_payments",
+      "payment_card",
       "noros_p2p",
-      "bitexpro_wallet",
       "stripe"
     ],
     "name": {
@@ -20392,6 +20392,65 @@
       "en": "Paymtech",
       "ru": "Paymtech",
       "uk": "Paymtech"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ubankconnect",
+    "vendor": "ubankconnect",
+    "payment_method": [
+      "upi",
+      "airtel_money",
+      "bank_of_india",
+      "maharashtra_bank_india",
+      "canara_bank",
+      "csb_bank",
+      "central_bank_of_india",
+      "city_union_bank",
+      "cosmos_bank_india",
+      "dcb_bank_india",
+      "deutsche_bank_india",
+      "dhanalaxmi_bank_india",
+      "federal_bank_india",
+      "hdfc_bank",
+      "icici_bank",
+      "idfc_bank_india",
+      "indian_bank",
+      "indian_overseas_bank",
+      "indusind_bank",
+      "j_k_bank_india",
+      "karnataka_bank",
+      "karurvysya_bank_india",
+      "paytm",
+      "phonepe",
+      "punjab_national_bank",
+      "saraswat_cooperative_bank",
+      "south_indian_bank",
+      "tamilnad_mercantile_bank_india",
+      "spcbl",
+      "uco_bank_india",
+      "union_bank_of_india",
+      "state_bank_of_india",
+      "kasikorn_bank",
+      "siam_commercial_bank",
+      "vietcom_bank",
+      "techcom_bank",
+      "promptpay_qr",
+      "vnpay_qr",
+      "hong_leong_bank",
+      "maybank_berhad",
+      "public_bank",
+      "truemoney",
+      "ovo",
+      "gopay",
+      "momopay",
+      "bank_transfer",
+      "payzapp"
+    ],
+    "name": {
+      "en": "UBank Connect",
+      "ru": "UBank Connect",
+      "uk": "UBank Connect"
     }
   }
 ]
