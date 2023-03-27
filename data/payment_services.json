@@ -16155,5 +16155,14 @@
     "currency": "INR",
     "amount_min": 0.01,
     "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "m_pesa_kes_invoice",
+    "flow": "invoice",
+    "method": "m_pesa",
+    "currency": "KES",
+    "amount_min": 0.01,
+    "amount_max": 13200000
   }
 ]
