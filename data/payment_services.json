@@ -16158,8 +16158,8 @@
   },
   {
     "status": "active",
-    "code": "m_pesa_kes",
-    "flow": "hpp",
+    "code": "m_pesa_kes_invoice",
+    "flow": "invoice",
     "method": "m_pesa",
     "currency": "KES",
     "amount_min": 0.01,
