@@ -20466,5 +20466,18 @@
       "ru": "UBank Connect",
       "uk": "UBank Connect"
     }
+  },
+  {
+    "status": "active",
+    "code": "paylama",
+    "vendor": "paylama",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PayLama",
+      "ru": "PayLama",
+      "uk": "PayLama"
+    }
   }
 ]
