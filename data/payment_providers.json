@@ -18133,6 +18133,19 @@
   },
   {
     "status": "active",
+    "code": "impalapay",
+    "vendor": "impalapay",
+    "name": {
+      "en": "ImpalaPay",
+      "ru": "ImpalaPay",
+      "uk": "ImpalaPay"
+    },
+    "payment_method": [
+      "m_pesa"
+    ]
+  },
+  {
+    "status": "active",
     "code": "exbaseio",
     "vendor": "exbaseio",
     "name": {
