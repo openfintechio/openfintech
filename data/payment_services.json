@@ -376,6 +376,33 @@
   },
   {
     "status": "active",
+    "code": "payment_card_xaf_hpp",
+    "currency": "XAF",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_cve_hpp",
+    "currency": "CVE",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_sll_hpp",
+    "currency": "SLL",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 196,
+    "amount_max": 1967864768
+  },
+  {
+    "status": "active",
     "code": "payment_card_ars_hpp",
     "currency": "ARS",
     "method": "payment_card",
