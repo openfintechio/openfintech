@@ -20412,6 +20412,11 @@
     "status": "active",
     "code": "ubankconnect",
     "vendor": "ubankconnect",
+    "name": {
+      "en": "UBank Connect",
+      "ru": "UBank Connect",
+      "uk": "UBank Connect"
+    },
     "payment_method": [
       "upi",
       "airtel_money",
@@ -20461,11 +20466,11 @@
       "bank_transfer",
       "payzapp"
     ],
-    "name": {
-      "en": "UBank Connect",
-      "ru": "UBank Connect",
-      "uk": "UBank Connect"
-    }
+    "payout_method": [
+      "imps",
+      "rtgs",
+      "neft"
+    ]
   },
   {
     "status": "active",
