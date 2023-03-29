@@ -94310,6 +94310,33 @@
   },
   {
     "status": "active",
+    "code": "venom_venom",
+    "method": "venom",
+    "currency": "VENOM",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether wallet",
+          "ru": "Tether кошелёк",
+          "uk": "Tether гаманець"
+        },
+        "hint": {
+          "en": "Enter tether wallet",
+          "ru": "Введите tether кошелёк",
+          "uk": "Введіть tether гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00000001",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
     "code": "dai_coin_daibep20",
     "method": "dai_coin",
     "currency": "DAIBEP20",
