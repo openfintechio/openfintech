@@ -16122,6 +16122,15 @@
   },
   {
     "status": "active",
+    "code": "venom_venom_hpp",
+    "flow": "hpp",
+    "method": "venom",
+    "currency": "VENOM",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "dai_coin_daibep20_hpp",
     "flow": "hpp",
     "method": "dai_coin",
