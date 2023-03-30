@@ -3074,6 +3074,24 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aed_hpp",
+    "currency": "AED",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
@@ -3725,6 +3743,33 @@
     "status": "active",
     "code": "cash_eur_hpp",
     "currency": "EUR",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_egp_hpp",
+    "currency": "EGP",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_krw_hpp",
+    "currency": "KRW",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "cash_kzt_hpp",
+    "currency": "KZT",
     "method": "cash",
     "flow": "hpp",
     "amount_min": 0.01,
@@ -11747,6 +11792,15 @@
   },
   {
     "status": "active",
+    "code": "rtgs_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "rtgs",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "settlepay_wallet_uah_hpp",
     "currency": "UAH",
     "flow": "hpp",
@@ -14005,6 +14059,96 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_rub_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_kzt_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_uah_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_mdl_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "MDL",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_uzs_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_azn_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_ars_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "ARS",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_kgs_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "KGS",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_egp_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "EGP",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_mxn_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "pay_id_aud_invoice",
     "flow": "invoice",
     "method": "pay_id",
@@ -16176,9 +16320,27 @@
   },
   {
     "status": "active",
-    "code": "trustly_paynplay_eur",
+    "code": "trustly_paynplay_eur_hpp",
     "flow": "hpp",
     "method": "trustly_paynplay",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "wise_uah_hpp",
+    "flow": "hpp",
+    "method": "wise",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "advcash_kzt_hpp",
+    "flow": "hpp",
+    "method": "advcash",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
