@@ -94493,6 +94493,108 @@
   },
   {
     "status": "active",
+    "code": "payment_card_xaf",
+    "method": "payment_card",
+    "currency": "XAF",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "6",
+    "amount_max": "60000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_cve",
+    "method": "payment_card",
+    "currency": "CVE",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "10000000"
+  },
+  {
+    "status": "active",
+    "code": "payment_card_sll",
+    "method": "payment_card",
+    "currency": "SLL",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": "196",
+    "amount_max": "1967864768"
+  },
+  {
+    "status": "active",
     "code": "payment_card_bwp",
     "method": "payment_card",
     "currency": "BWP",
