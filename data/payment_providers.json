@@ -20495,5 +20495,29 @@
       "ru": "Centiwise",
       "uk": "Centiwise"
     }
+  },
+  {
+    "status": "active",
+    "code": "payport",
+    "vendor": "payport",
+    "payment_method": [
+      "card_transfer",
+      "cash",
+      "wise",
+      "advcash",
+      "bank_transfer",
+      "mobile",
+      "upi",
+      "neft",
+      "paytm",
+      "imps",
+      "rtgs",
+      "phonepe"
+    ],
+    "name": {
+      "en": "PayPort",
+      "ru": "PayPort",
+      "uk": "PayPort"
+    }
   }
 ]
