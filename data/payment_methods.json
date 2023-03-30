@@ -6572,6 +6572,16 @@
   },
   {
     "status": "active",
+    "code": "rtgs",
+    "category": "bank_transfer",
+    "name": {
+      "en": "RTGS",
+      "uk": "RTGS",
+      "ru": "RTGS"
+    }
+  },
+  {
+    "status": "active",
     "code": "blik",
     "category": "bank_transfer",
     "name": {
@@ -7921,6 +7931,16 @@
       "en": "M-Pesa",
       "ru": "M-Pesa",
       "uk": "M-Pesa"
+    }
+  },
+  {
+    "status": "active",
+    "code": "wise",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Wise",
+      "ru": "Wise",
+      "uk": "Wise"
     }
   }
 ]
