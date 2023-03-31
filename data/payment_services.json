@@ -16371,5 +16371,23 @@
     "currency": "KZT",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mobile_egp_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mobile_pkr_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
