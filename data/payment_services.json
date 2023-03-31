@@ -16361,7 +16361,7 @@
     "method": "wise",
     "currency": "UAH",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 10000000
   },
   {
     "status": "active",
@@ -16370,7 +16370,7 @@
     "method": "advcash",
     "currency": "KZT",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 10000000
   },
   {
     "status": "active",
@@ -16379,7 +16379,7 @@
     "method": "mobile",
     "currency": "KZT",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -16388,6 +16388,15 @@
     "method": "mobile",
     "currency": "PKR",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "neft_inr_hpp",
+    "flow": "hpp",
+    "method": "neft",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
   }
 ]
