@@ -20526,5 +20526,18 @@
       "ru": "PayPort",
       "uk": "PayPort"
     }
+  },
+  {
+    "status": "active",
+    "code": "ppay",
+    "vendor": "ppay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PPay",
+      "ru": "PPay",
+      "uk": "PPay"
+    }
   }
 ]
