@@ -12309,6 +12309,17 @@
     "status": "active"
   },
   {
+    "code": "VENOM",
+    "name": {
+      "en": "VENOM"
+    },
+    "type": "crypto",
+    "status": "active",
+    "exponent": 8,
+    "category": "other",
+    "parent_currency_multiplier": 1
+  },
+  {
     "code": "DAIBEP20",
     "parent_code": "DAI",
     "name": {

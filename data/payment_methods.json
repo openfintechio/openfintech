@@ -6227,6 +6227,16 @@
     }
   },
   {
+    "code": "venom",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "VENOM",
+      "ru": "VENOM",
+      "uk": "VENOM"
+    }
+  },
+  {
     "code": "binance_smart_chain",
     "vendor": "binance_smart_chain",
     "category": "alternative",
@@ -6568,6 +6578,16 @@
       "en": "IMPS",
       "uk": "IMPS",
       "ru": "IMPS"
+    }
+  },
+  {
+    "status": "active",
+    "code": "rtgs",
+    "category": "bank_transfer",
+    "name": {
+      "en": "RTGS",
+      "uk": "RTGS",
+      "ru": "RTGS"
     }
   },
   {
@@ -7921,6 +7941,36 @@
       "en": "M-Pesa",
       "ru": "M-Pesa",
       "uk": "M-Pesa"
+    }
+  },
+  {
+    "status": "active",
+    "code": "wise",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Wise",
+      "ru": "Wise",
+      "uk": "Wise"
+    }
+  },
+  {
+    "status": "active",
+    "code": "mobile",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Mobile",
+      "ru": "Mobile",
+      "uk": "Mobile"
+    }
+  },
+  {
+    "status": "active",
+    "code": "neft",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Neft",
+      "ru": "Neft",
+      "uk": "Neft"
     }
   }
 ]
