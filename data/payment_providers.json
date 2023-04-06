@@ -20527,5 +20527,18 @@
       "ru": "PayPort",
       "uk": "PayPort"
     }
+  },
+  {
+    "status": "active",
+    "code": "katarun",
+    "vendor": "katarun",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Katarun",
+      "ru": "Katarun",
+      "uk": "Katarun"
+    }
   }
 ]
