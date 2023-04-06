@@ -16392,6 +16392,15 @@
   },
   {
     "status": "active",
+    "code": "mobile_rub_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "RUB",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "mobile_pkr_hpp",
     "flow": "hpp",
     "method": "mobile",
