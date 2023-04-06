@@ -14086,6 +14086,15 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_usd_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "card_transfer_rub_hpp",
     "flow": "hpp",
     "method": "card_transfer",
