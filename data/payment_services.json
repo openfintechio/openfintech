@@ -14086,8 +14086,8 @@
   },
   {
     "status": "active",
-    "code": "card_transfer_usd_invoice",
-    "flow": "invoice",
+    "code": "card_transfer_usd_hpp",
+    "flow": "hpp",
     "method": "card_transfer",
     "currency": "USD",
     "amount_min": 0.01,
