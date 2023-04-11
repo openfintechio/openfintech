@@ -5529,7 +5529,7 @@
     "flow": "hpp",
     "method": "bank_negara_indonesia",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -5558,7 +5558,7 @@
     "flow": "hpp",
     "method": "bank_negara_indonesia_va",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -5587,7 +5587,7 @@
     "flow": "hpp",
     "method": "bank_central_asia",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -5911,7 +5911,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 999999999
   },
   {
     "status": "active",
@@ -5920,7 +5920,7 @@
     "flow": "hpp",
     "method": "vietcom_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -5987,7 +5987,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 999999999
   },
   {
     "status": "active",
@@ -5996,7 +5996,7 @@
     "flow": "hpp",
     "method": "vietin_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -6063,7 +6063,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 999999999
   },
   {
     "status": "active",
@@ -6110,7 +6110,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 999999999
   },
   {
     "status": "active",
@@ -6119,7 +6119,7 @@
     "flow": "hpp",
     "method": "bidv_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -6215,7 +6215,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 999999999
   },
   {
     "status": "active",
@@ -6262,7 +6262,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 999999999
   },
   {
     "status": "active",
@@ -12415,7 +12415,7 @@
     "flow": "hpp",
     "method": "momo_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -14568,7 +14568,7 @@
     "flow": "hpp",
     "method": "techcom_bank",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -14597,7 +14597,7 @@
     "flow": "hpp",
     "method": "techcom_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -14626,7 +14626,7 @@
     "flow": "hpp",
     "method": "asia_commercial_bank",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -14655,7 +14655,7 @@
     "flow": "hpp",
     "method": "asia_commercial_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -15090,7 +15090,7 @@
     "flow": "hpp",
     "method": "vietnam_prosperity_commerial_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
@@ -15119,7 +15119,7 @@
     "flow": "hpp",
     "method": "military_commercial_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 999999999,
     "fields": [
       {
         "key": "account",
