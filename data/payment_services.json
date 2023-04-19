@@ -6821,7 +6821,7 @@
       }
     ],
     "amount_min": 0.01,
-    "amount_max": 1000000
+    "amount_max": 100000000
   },
   {
     "status": "active",
@@ -8036,7 +8036,7 @@
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
-    "amount_max": 999999
+    "amount_max": 100000000
   },
   {
     "status": "active",
@@ -11750,7 +11750,7 @@
     "method": "binancepay",
     "currency": "UZS",
     "amount_min": 0.01,
-    "amount_max": 1200000000
+    "amount_max": 100000000
   },
   {
     "status": "active",
@@ -14136,7 +14136,7 @@
     "method": "card_transfer",
     "currency": "UZS",
     "amount_min": 0.01,
-    "amount_max": 1000000
+    "amount_max": 100000000
   },
   {
     "status": "active",
@@ -16217,7 +16217,7 @@
     "method": "card_transfer",
     "currency": "UZS",
     "amount_min": 0.01,
-    "amount_max": 1200000000
+    "amount_max": 100000000
   },
   {
     "status": "active",

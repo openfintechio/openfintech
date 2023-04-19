@@ -15254,30 +15254,9 @@
       "uk": "Advcash"
     },
     "payment_method": [
-      "qiwi",
-      "sepadirectdebit",
-      "sepacredittransfer",
-      "yandexmoney",
-      "privat24",
-      "exmo",
-      "bank_card",
-      "bitcoin",
-      "litecoin",
-      "bitcoin_cash",
-      "ripple",
       "advcash_wallet"
     ],
     "payout_method": [
-      "bitcoin",
-      "ethereum",
-      "litecoin",
-      "bitcoin_cash",
-      "ripple",
-      "exmo",
-      "sepa_credit_transfer",
-      "bank_card",
-      "yandexmoney",
-      "qiwi",
       "advcash_wallet"
     ]
   },
@@ -17731,7 +17710,8 @@
       "uk": "Payelata"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "card_transfer"
     ],
     "payout_method": [
       "payment_card"
