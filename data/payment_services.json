@@ -16221,6 +16221,24 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_humo_uzs_invoice",
+    "flow": "invoice",
+    "method": "card_transfer_humo",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_uzcard_uzs_invoice",
+    "flow": "invoice",
+    "method": "card_transfer_uzcard",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
     "code": "astropay_try_hpp",
     "flow": "hpp",
     "method": "astropay",
