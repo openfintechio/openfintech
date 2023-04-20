@@ -6825,6 +6825,26 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_humo",
+    "category": "invoice_payment",
+    "name": {
+      "en": "Humo card transfer",
+      "uk": "Humo card transfer",
+      "ru": "Humo card transfer"
+    }
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_uzcard",
+    "category": "invoice_payment",
+    "name": {
+      "en": "Uzcard card transfer",
+      "uk": "Uzcard card transfer",
+      "ru": "Uzcard card transfer"
+    }
+  },
+  {
+    "status": "active",
     "code": "pay_id",
     "category": "invoice_payment",
     "name": {

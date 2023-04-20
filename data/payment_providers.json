@@ -20350,7 +20350,8 @@
     "code": "pay2play",
     "vendor": "pay2play",
     "payment_method": [
-      "card_transfer"
+      "card_transfer_uzcard",
+      "card_transfer_humo"
     ],
     "name": {
       "en": "pay2play",
