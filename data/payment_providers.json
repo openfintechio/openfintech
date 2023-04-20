@@ -20551,5 +20551,18 @@
       "ru": "Smartgates",
       "uk": "Smartgates"
     }
+  },
+  {
+    "status": "active",
+    "code": "rumbapay",
+    "vendor": "rumbapay",
+    "payment_method": [
+      "upi"
+    ],
+    "name": {
+      "en": "RumbaPay",
+      "ru": "RumbaPay",
+      "uk": "RumbaPay"
+    }
   }
 ]
