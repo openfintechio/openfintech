@@ -13814,6 +13814,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_cop_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "COP",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
     "code": "jeton_wallet_eur_hpp",
     "flow": "hpp",
     "method": "jeton_wallet",
