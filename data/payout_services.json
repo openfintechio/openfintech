@@ -94762,5 +94762,67 @@
     ],
     "amount_min": "0.1",
     "amount_max": "1300000"
+  },
+  {
+    "status": "active",
+    "code": "interac_etranfser_cad",
+    "method": "interac_etranfser",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "name",
+        "type": "string",
+        "label": {
+          "en": "User`s name",
+          "ru": "Имя пользователя",
+          "uk": "Ім'я користувача"
+        },
+        "hint": {
+          "en": "Enter username",
+          "ru": "Введите имя пользователя",
+          "uk": "Введіть ім'я користувача"
+        },
+        "regexp": "\/^.{1,128}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "User`s email",
+          "ru": "адрес электронной почты пользователя",
+          "uk": "Адреса електронної пошти користувача"
+        },
+        "hint": {
+          "en": "Enter user`s email",
+          "ru": "Введите адрес электронной почты пользователя",
+          "uk": "Введіть адресу електронної пошти користувача"
+        },
+        "regexp": "\/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "User`s mobile number",
+          "uk": "User`s mobile number",
+          "ru": "User`s mobile number"
+        },
+        "regexp": "\/^\\+?\\d{8,14}$\/",
+        "required": true,
+        "position": 3,
+        "hint": {
+          "en": "Enter user`s phone number",
+          "uk": "Введіть номер телефону користувача",
+          "ru": "Введите номер телефона пользователя"
+        },
+        "example": "4031234567"
+      }
+    ],
+    "amount_min": "0.1",
+    "amount_max": "1300000"
   }
 ]
