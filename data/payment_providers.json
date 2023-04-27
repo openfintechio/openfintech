@@ -20678,5 +20678,18 @@
       "ru": "HR-24",
       "uk": "HR-24"
     }
+  },
+  {
+    "status": "active",
+    "code": "totalprocessing",
+    "vendor": "totalprocessing",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Total Processing",
+      "ru": "Total Processing",
+      "uk": "Total Processing"
+    }
   }
 ]
