@@ -16452,5 +16452,14 @@
     "method": "bank_transfer",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "interac_aggregated_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "interac_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
