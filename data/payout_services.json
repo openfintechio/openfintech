@@ -94150,7 +94150,142 @@
     "amount_min": 0.01,
     "amount_max": 100000
   },
-   {
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_rub",
+    "method": "bitexpro_p2p",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_kzt",
+    "method": "bitexpro_p2p",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 40000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_inr",
+    "method": "bitexpro_p2p",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_try",
+    "method": "bitexpro_p2p",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_uzs",
+    "method": "bitexpro_p2p",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000000
+  },
+  {
     "status": "active",
     "code": "hero_payments_eur",
     "method": "hero_payments",
