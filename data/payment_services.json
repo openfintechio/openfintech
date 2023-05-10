@@ -16086,6 +16086,123 @@
   },
   {
     "status": "active",
+    "code": "bitexpro_p2p_rub_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_inr_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_kzt_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_uah_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_try_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_uzs_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_azn_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_aed_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_idr_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_pkr_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_vnd_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_eur_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_gbp_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "stripe_eur_hpp",
     "flow": "hpp",
     "method": "stripe",
