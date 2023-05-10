@@ -20609,6 +20609,22 @@
   },
   {
     "status": "active",
+    "code": "paystage",
+    "vendor": "paystage",
+    "payment_method": [
+      "bank_transfer"
+    ],
+    "payout_method": [
+      "bank_transfer"
+    ],
+    "name": {
+      "en": "PayStage",
+      "ru": "PayStage",
+      "uk": "PayStage"
+    }
+  },
+  {
+    "status": "active",
     "code": "gigadat",
     "vendor": "gigadat",
     "payout_method": [
