@@ -20692,5 +20692,18 @@
       "ru": "Total Processing",
       "uk": "Total Processing"
     }
+  },
+  {
+    "status": "active",
+    "code": "prismpay",
+    "vendor": "prismpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Prismpay",
+      "ru": "Prismpay",
+      "uk": "Prismpay"
+    }
   }
 ]
