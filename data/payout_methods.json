@@ -17710,6 +17710,14 @@
   },
   {
     "status": "active",
+    "code": "exim_bank_vietnam",
+    "category": "online_banking",
+    "name": {
+      "en": "Eximbank Vietnam"
+    }
+  },
+  {
+    "status": "active",
     "code": "bank_central_asia",
     "category": "bank_transfer",
     "name": {
@@ -25068,6 +25076,14 @@
   },
   {
     "status": "active",
+    "code": "standard_chartered_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Standard Chartered Bank"
+    }
+  },
+  {
+    "status": "active",
     "code": "land_and_houses_bank",
     "category": "bank_transfer",
     "name": {
@@ -25092,10 +25108,122 @@
   },
   {
     "status": "active",
+    "code": "banko_de_oro",
+    "category": "online_banking",
+    "name": {
+      "en": "Banko de Oro"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banko_de_oro_corporate",
+    "category": "online_banking",
+    "name": {
+      "en": "Banko de Oro Corporate Account"
+    }
+  },
+  {
+    "status": "active",
+    "code": "philippine_islands_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Bank of the Philippine Islands"
+    }
+  },
+  {
+    "status": "active",
+    "code": "philippines_development_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Development bank of the Philippines"
+    }
+  },
+  {
+    "status": "active",
+    "code": "philippines_land_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Land Bank of the Philippines"
+    }
+  },
+  {
+    "status": "active",
+    "code": "eastwest_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "EastWest"
+    }
+  },
+  {
+    "status": "active",
+    "code": "metro_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Metrobank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "philippine_national_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Philippine National Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "rcbc",
+    "category": "online_banking",
+    "name": {
+      "en": "Rizal Commercial Banking Corporation"
+    }
+  },
+  {
+    "status": "active",
+    "code": "philippines_security_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Security Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "sterling_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Sterling Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "union_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Unionbank"
+    }
+  },
+  {
+    "status": "active",
     "code": "tmbthanachart_bank",
     "category": "bank_transfer",
     "name": {
       "en": "TMBThanachart Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "thanachart_bank",
+    "category": "online_banking",
+    "name": {
+      "en": "Thanachat Bank (Thanachart Bank Public Company Limited)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "hsbc_bank_thailand",
+    "category": "online_banking",
+    "name": {
+      "en": "THB HSBC Bank"
     }
   },
   {

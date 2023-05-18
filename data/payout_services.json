@@ -41196,7 +41196,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -41213,7 +41213,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -41230,7 +41231,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -41247,7 +41248,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -41264,7 +41265,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -41281,8 +41282,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -41308,7 +41327,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -41325,7 +41344,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -41342,7 +41362,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -41359,7 +41379,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -41376,7 +41396,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -41393,8 +41413,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -41420,7 +41458,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -41437,7 +41475,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -41454,7 +41493,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -41471,7 +41510,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -41488,7 +41527,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -41505,8 +41544,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -41532,7 +41589,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -41549,7 +41606,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -41566,7 +41624,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -41583,7 +41641,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -41600,7 +41658,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -41617,8 +41675,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -41644,7 +41720,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -41661,7 +41737,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -41678,7 +41755,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -41695,7 +41772,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -41712,7 +41789,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -41729,8 +41806,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -41843,6 +41938,24 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 7,
+        "example": "050"
       }
     ]
   },
@@ -41868,7 +41981,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -41885,7 +41998,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -41902,7 +42016,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -41919,7 +42033,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -41936,7 +42050,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -41953,8 +42067,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -41980,7 +42112,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -41997,7 +42129,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -42014,7 +42147,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -42031,7 +42164,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -42048,7 +42181,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -42065,8 +42198,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -42316,7 +42467,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -42333,7 +42484,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -42350,7 +42502,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -42367,7 +42519,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -42384,7 +42536,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -42401,8 +42553,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -42428,7 +42598,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -42445,7 +42615,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -42462,7 +42633,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -42479,7 +42650,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -42496,7 +42667,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -42513,8 +42684,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -42540,7 +42729,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -42557,7 +42746,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -42574,7 +42764,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -42591,7 +42781,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -42608,7 +42798,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -42625,8 +42815,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -42652,7 +42860,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -42669,7 +42877,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -42686,7 +42895,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -42703,7 +42912,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -42720,7 +42929,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -42737,8 +42946,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -42876,7 +43103,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -42893,7 +43120,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -42910,7 +43138,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -42927,7 +43155,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -42944,7 +43172,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -42961,8 +43189,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -42988,7 +43234,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -43005,7 +43251,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -43022,7 +43269,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -43039,7 +43286,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -43056,7 +43303,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -43073,8 +43320,89 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "exim_bank_vietnam_vnd",
+    "currency": "VND",
+    "method": "exim_bank_vietnam",
+    "amount_min": "30000",
+    "amount_max": "2300000000",
+    "fields": [
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 1
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 3
       }
     ]
   },
@@ -43100,7 +43428,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -43117,7 +43445,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -43134,7 +43463,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -43150,8 +43479,9 @@
           "ru": "Введите Bank Account Number",
           "uk": "Введіть Bank Account Number"
         },
-        "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "example": "1100382992",
         "position": 4
       },
       {
@@ -43168,7 +43498,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -43185,8 +43515,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -43212,7 +43560,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -43229,7 +43577,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -43246,7 +43595,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -43263,7 +43612,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -43280,7 +43629,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -43297,8 +43646,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -43324,7 +43691,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -43341,7 +43708,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -43358,7 +43726,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -43375,7 +43743,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -43392,7 +43760,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -43409,8 +43777,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -43548,7 +43934,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -43565,7 +43951,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -43582,7 +43969,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -43599,7 +43986,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -43616,7 +44003,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -43633,8 +44020,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -43772,7 +44177,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -43789,7 +44194,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -43806,7 +44212,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -43823,7 +44229,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -43840,7 +44246,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -43857,8 +44263,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -43884,7 +44308,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -43901,7 +44325,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -43918,7 +44343,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -43935,7 +44360,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -43952,7 +44377,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -43969,8 +44394,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -83637,7 +84080,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -83654,7 +84097,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -83671,7 +84115,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -83688,7 +84132,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -83705,7 +84149,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -83722,8 +84166,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -83749,7 +84211,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -83766,7 +84228,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -83783,7 +84246,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -83800,7 +84263,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -83817,7 +84280,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -83834,8 +84297,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -84309,7 +84790,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -84326,7 +84807,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -84343,7 +84825,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -84360,7 +84842,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -84377,7 +84859,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -84394,8 +84876,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -84533,7 +85033,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -84550,7 +85050,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -84567,7 +85068,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -84584,7 +85085,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -84601,7 +85102,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -84618,8 +85119,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -85541,7 +86060,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -85558,7 +86077,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -85575,7 +86095,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -85592,7 +86112,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -85609,7 +86129,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -85626,8 +86146,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -85765,7 +86303,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -85782,7 +86320,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -85799,7 +86338,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -85816,7 +86355,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -85833,7 +86372,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -85850,8 +86389,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -86325,7 +86882,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -86342,7 +86899,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -86359,7 +86917,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -86376,7 +86934,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -86393,7 +86951,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -86410,8 +86968,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -87781,7 +88357,7 @@
           "uk": "Введіть Bank Branch"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -87798,7 +88374,8 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
+        "example": "John Doe",
         "position": 2
       },
       {
@@ -87815,7 +88392,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -87832,7 +88409,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -87849,7 +88426,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -87866,8 +88443,26 @@
           "uk": "Введіть місто"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 6
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 7
       }
     ]
   },
@@ -90087,6 +90682,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 1,
@@ -90151,6 +90782,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 1,
@@ -90279,6 +90946,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90343,6 +91046,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90407,6 +91146,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90471,6 +91246,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90535,6 +91346,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90599,6 +91446,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90663,6 +91546,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90727,6 +91646,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90791,6 +91746,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90855,6 +91846,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -90919,6 +91946,69 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "public_bank_berhad_myr",
+    "currency": "MYR",
+    "method": "public_bank_berhad",
+    "fields": [
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 1,
+        "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
       }
     ],
     "amount_min": 0.01,
@@ -91623,6 +92713,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "example": "John Doe"
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 5,
+        "example": "050"
       }
     ],
     "amount_min": 0.01,
@@ -91687,6 +92813,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "example": "John Doe"
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 5,
+        "example": "050"
       }
     ],
     "amount_min": 0.01,
@@ -91751,6 +92913,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -91815,6 +93013,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -91879,6 +93113,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -91943,6 +93213,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92007,6 +93313,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92071,6 +93413,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92135,6 +93513,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92199,6 +93613,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92263,6 +93713,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92327,6 +93813,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92391,6 +93913,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92455,6 +94013,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -92519,9 +94113,108 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "united_overseas_bank_vnd",
+    "currency": "VND",
+    "method": "united_overseas_bank",
+    "fields": [
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 1
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 3
+      }
+    ],
+    "amount_min": 0,
     "amount_max": 10000000
   },
   {
@@ -93278,6 +94971,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -93342,6 +95071,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -93605,6 +95370,69 @@
   },
   {
     "status": "active",
+    "code": "standard_chartered_bank_myr",
+    "currency": "MYR",
+    "method": "standard_chartered_bank",
+    "fields": [
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 1,
+        "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3800000
+  },
+  {
+    "status": "active",
     "code": "land_and_houses_bank_thb",
     "currency": "THB",
     "method": "land_and_houses_bank",
@@ -93854,6 +95682,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -93923,7 +95787,826 @@
     "amount_min": 0.01,
     "amount_max": 3800000
   },
-   {
+  {
+    "status": "active",
+    "code": "uob_bank_myr",
+    "currency": "MYR",
+    "method": "uob_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 450000
+  },
+  {
+    "status": "active",
+    "code": "banko_de_oro_php",
+    "currency": "PHP",
+    "method": "banko_de_oro",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "banko_de_oro_corporate_php",
+    "currency": "PHP",
+    "method": "banko_de_oro_corporate",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "philippine_islands_bank_php",
+    "currency": "PHP",
+    "method": "philippine_islands_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "philippines_development_bank_php",
+    "currency": "PHP",
+    "method": "philippines_development_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "philippines_land_bank_php",
+    "currency": "PHP",
+    "method": "philippines_land_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "eastwest_bank_php",
+    "currency": "PHP",
+    "method": "eastwest_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "metro_bank_php",
+    "currency": "PHP",
+    "method": "metro_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "philippine_national_bank_php",
+    "currency": "PHP",
+    "method": "philippine_national_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "rcbc_php",
+    "currency": "PHP",
+    "method": "rcbc",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "philippines_security_bank_php",
+    "currency": "PHP",
+    "method": "philippines_security_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "sterling_bank_php",
+    "currency": "PHP",
+    "method": "sterling_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
+    "status": "active",
+    "code": "union_bank_php",
+    "currency": "PHP",
+    "method": "union_bank",
+    "fields": [
+      {
+      "key": "customer_name",
+      "type": "string",
+      "label": {
+        "en": "Customer name",
+        "ru": "Имя покупателя",
+        "uk": "Ім'я клієнта"
+      },
+      "hint": {
+        "en": "Enter beneficiary last name",
+        "ru": "Введите фамилию получателя",
+        "uk": "Введіть прізвище отримувача"
+      },
+      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "required": false,
+      "position": 1,
+      "example": "John Doe"
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "example": "050"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5500000
+  },
+  {
     "status": "active",
     "code": "tmbthanachart_bank_thb",
     "currency": "THB",
@@ -93982,10 +96665,172 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 4
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 5
       }
     ],
     "amount_min": 0.01,
     "amount_max": 3800000
+  },
+  {
+    "status": "active",
+    "code": "thanachart_bank_thb",
+    "currency": "THB",
+    "method": "thanachart_bank",
+    "fields": [
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 1
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 3
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3400000
+  },
+  {
+    "status": "active",
+    "code": "hsbc_bank_thailand_thb",
+    "currency": "THB",
+    "method": "hsbc_bank_thailand",
+    "fields": [
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "example": "John Doe",
+        "position": 1
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "label": {
+          "en": "Bank ID",
+          "ru": "ID Банка",
+          "uk": "ID Банку"
+        },
+        "hint": {
+          "en": "Enter Bank ID",
+          "ru": "Введите ID Банка",
+          "uk": "Введіть ID Банку"
+        },
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "example": "050",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 3
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3400000
   },
   {
     "status": "deprecated",
