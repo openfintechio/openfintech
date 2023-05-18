@@ -38038,6 +38038,135 @@
       }
     ]
   },
+    {
+    "status": "active",
+    "code": "china_construction_bank_krw",
+    "method": "china_construction_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_account_name",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Name",
+          "ru": "Bank Account Name",
+          "uk": "Bank Account Name"
+        },
+        "hint": {
+          "en": "Enter Bank Account Name",
+          "ru": "Введите Bank Account Name",
+          "uk": "Введіть Bank Account Name"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
+      }
+    ]
+  },
   {
     "status": "active",
     "code": "ping_an_bank_cny",
@@ -38595,6 +38724,135 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      }
+    ]
+  },
+   {
+    "status": "active",
+    "code": "industrial_and_commercial_bank_of_china_krw",
+    "method": "industrial_and_commercial_bank_of_china",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_account_name",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Name",
+          "ru": "Bank Account Name",
+          "uk": "Bank Account Name"
+        },
+        "hint": {
+          "en": "Enter Bank Account Name",
+          "ru": "Введите Bank Account Name",
+          "uk": "Введіть Bank Account Name"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
       }
     ]
   },
@@ -41213,7 +41471,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -41283,6 +41541,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -41325,7 +41600,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -41395,6 +41670,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -41437,7 +41729,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -41507,6 +41799,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -41549,7 +41858,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -41619,6 +41928,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -41661,7 +41987,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -41731,6 +42057,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -42179,6 +42522,135 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
+      }
+    ]
+  },
+    {
+    "status": "active",
+    "code": "may_bank_idr",
+    "currency": "IDR",
+    "method": "may_bank",
+    "amount_min": 0.01,
+    "amount_max": 10000000,
+    "fields": [
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "bank_account_name",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Name",
+          "ru": "Bank Account Name",
+          "uk": "Bank Account Name"
+        },
+        "hint": {
+          "en": "Enter Bank Account Name",
+          "ru": "Введите Bank Account Name",
+          "uk": "Введіть Bank Account Name"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 6
       }
     ]
   },
@@ -42333,7 +42805,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -42403,6 +42875,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -42445,7 +42934,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -42515,6 +43004,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -42557,7 +43063,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -42627,6 +43133,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -42669,7 +43192,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -42739,6 +43262,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -42893,7 +43433,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -42963,6 +43503,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -43005,7 +43562,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -43075,6 +43632,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -43117,7 +43691,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -43187,6 +43761,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
       }
     ]
   },
@@ -43229,7 +43820,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -43299,6 +43890,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -43341,7 +43949,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -43411,6 +44019,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -43901,7 +44526,7 @@
           "uk": "Введіть ім'я клієнта"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -43971,6 +44596,23 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -84623,6 +85265,135 @@
       }
     ]
   },
+    {
+    "status": "active",
+    "code": "woori_bank_krw",
+    "currency": "KRW",
+    "method": "woori_bank",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_account_name",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Name",
+          "ru": "Bank Account Name",
+          "uk": "Bank Account Name"
+        },
+        "hint": {
+          "en": "Enter Bank Account Name",
+          "ru": "Введите Bank Account Name",
+          "uk": "Введіть Bank Account Name"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
+      }
+    ]
+  },
   {
     "status": "active",
     "code": "mb_bank_vnd",
@@ -85745,6 +86516,135 @@
   },
   {
     "status": "active",
+    "code": "industrial_bank_ho_chi_minh_krw",
+    "currency": "KRW",
+    "method": "industrial_bank_ho_chi_minh",
+    "amount_min": "30000",
+    "amount_max": "130000000",
+    "fields": [
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_account_name",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Name",
+          "ru": "Bank Account Name",
+          "uk": "Bank Account Name"
+        },
+        "hint": {
+          "en": "Enter Bank Account Name",
+          "ru": "Введите Bank Account Name",
+          "uk": "Введіть Bank Account Name"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "bac_a_bank_vnd",
     "currency": "VND",
     "method": "bac_a_bank",
@@ -86636,6 +87536,135 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      }
+    ]
+  },
+    {
+    "status": "active",
+    "code": "shinhan_bank_krw",
+    "currency": "KRW",
+    "method": "shinhan_bank",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "bank_account_name",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Name",
+          "ru": "Bank Account Name",
+          "uk": "Bank Account Name"
+        },
+        "hint": {
+          "en": "Enter Bank Account Name",
+          "ru": "Введите Bank Account Name",
+          "uk": "Введіть Bank Account Name"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 5
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "position": 6
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 7
       }
     ]
   },
@@ -90087,6 +91116,91 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
       }
     ],
     "amount_min": 1,
@@ -90151,6 +91265,91 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+       {
+        "key": "account_name",
+        "type": "string",
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "required": false,
+        "position": 4,
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 6
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 8
       }
     ],
     "amount_min": 1,
@@ -90215,6 +91414,23 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 4
       }
     ],
     "amount_min": 0.01,
@@ -90667,6 +91883,155 @@
     ],
     "amount_min": 0.01,
     "amount_max": 10000000
+  },
+    {
+    "status": "active",
+    "code": "citi_bank_krw",
+    "currency": "KRW",
+    "method": "citi_bank",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 3,
+        "example": "Doe"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 8
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 133000000
   },
   {
     "status": "active",
@@ -93278,6 +94643,91 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 6
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 8
       }
     ],
     "amount_min": 0.01,
@@ -93342,6 +94792,91 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 6
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 8
       }
     ],
     "amount_min": 0.01,
@@ -93406,6 +94941,23 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 4
       }
     ],
     "amount_min": 0.01,
@@ -93854,6 +95406,91 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 6
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 8
       }
     ],
     "amount_min": 0.01,
@@ -93982,6 +95619,108 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "required": false,
+        "position": 4,
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 6
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 8
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
+        "required": false,
+        "position": 9
       }
     ],
     "amount_min": 0.01,
@@ -94905,5 +96644,4413 @@
     "currency": "CAD",
     "amount_min": "0.1",
     "amount_max": "1300000"
+  },
+  {
+    "status": "active",
+    "code": "va_mandiri_idr",
+    "method": "va_mandiri",
+    "vendor": "mandiri_bank",
+    "currency": "IDR",
+    "amount_min": "50000",
+    "amount_max": "25000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kookmin_bank_krw",
+    "method": "kookmin_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "keb_hana_bank_krw",
+    "method": "keb_hana_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nonghyup_bank_krw",
+    "method": "nonghyup_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nhbank_bank_krw",
+    "method": "nhbank_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "sc_first_bank_krw",
+    "method": "sc_first_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "korea_post_bank_krw",
+    "method": "korea_post_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kyongnam_bank_krw",
+    "method": "kyongnam_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kwangju_bank_krw",
+    "method": "kwangju_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "daegu_bank_krw",
+    "method": "daegu_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "busan_bank_krw",
+    "method": "busan_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kdb_bank_krw",
+    "method": "busan_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kfcc_bank_krw",
+    "method": "kfcc_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "suhyup_bank_krw",
+    "method": "suhyup_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "credit_union_bank_krw",
+    "method": "credit_union_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "jeonbuk_bank_krw",
+    "method": "jeonbuk_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "jeju_bank_krw",
+    "method": "jeju_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "daishin_bank_krw",
+    "method": "daishin_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "db_financial_investment_bank_krw",
+    "method": "db_financial_investment_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "yuanta_bank_krw",
+    "method": "yuanta_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "meritz_bank_krw",
+    "method": "meritz_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bookook_bank_krw",
+    "method": "bookook_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nhqv_bank_krw",
+    "method": "nhqv_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ebest_investment_bank_krw",
+    "method": "ebest_investment_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kiwoom_bank_krw",
+    "method": "kiwoom_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "hana_financial_bank_krw",
+    "method": "hana_financial_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "hanwha_bank_krw",
+    "method": "hanwha_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kbfg_bank_krw",
+    "method": "kbfg_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kakaopay_bank_krw",
+    "method": "kakaopay_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bnk_bank_krw",
+    "method": "bnk_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ktb_bank_krw",
+    "method": "ktb_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bnpparibas_bank_krw",
+    "method": "bnpparibas_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kakao_bank_krw",
+    "method": "kakao_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "k_bank_krw",
+    "method": "k_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "toss_bank_krw",
+    "method": "toss_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "korea_foss_bank_krw",
+    "method": "korea_foss_bank",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "133000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "gcash_php",
+    "method": "gcash",
+    "currency": "PHP",
+    "amount_min": "1",
+    "amount_max": "5600000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "easypaisa_pkr",
+    "method": "easypaisa",
+    "currency": "PKR",
+    "amount_min": "1",
+    "amount_max": "29000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "jazzcash_pkr",
+    "method": "jazzcash",
+    "currency": "PKR",
+    "amount_min": "1",
+    "amount_max": "29000000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ]
   }
 ]
