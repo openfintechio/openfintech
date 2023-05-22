@@ -5114,6 +5114,23 @@
     }
   },
   {
+    "code": "dana",
+    "category": "digital_wallet",
+    "status": "active",
+    "vendor": "dana",
+    "name": {
+      "en": "Dana"
+    }
+  },
+  {
+    "code": "va_may_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "MayBank Virtual Account"
+    }
+  },
+  {
     "code": "australia_and_new_zealand_banking_group",
     "category": "bank_transfer",
     "status": "active",
