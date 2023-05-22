@@ -20718,5 +20718,18 @@
       "ru": "Empayre",
       "uk": "Empayre"
     }
+  },
+  {
+    "status": "active",
+    "code": "ofapay",
+    "vendor": "ofapay",
+    "payment_method": [
+      "bank_transfer"
+    ],
+    "name": {
+      "en": "OfaPay",
+      "ru": "OfaPay",
+      "uk": "OfaPay"
+    }
   }
 ]
