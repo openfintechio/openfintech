@@ -4691,6 +4691,24 @@
   },
   {
     "status": "active",
+    "code": "va_may_bank_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "va_may_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "dana_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "dana",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
     "code": "australia_and_new_zealand_banking_group_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
