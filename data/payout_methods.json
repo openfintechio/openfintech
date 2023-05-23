@@ -17769,6 +17769,7 @@
   {
     "status": "active",
     "code": "mandiri_bank",
+    "vendor": "mandiri_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Mandiri Bank"
@@ -25224,6 +25225,435 @@
       "en": "Interac e-Transfer",
       "ru": "Interac e-Transfer",
       "uk": "Interac e-Transfer"
+    }
+  },
+  {
+    "status": "active",
+    "code": "va_mandiri",
+    "vendor": "mandiri_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Mandiri Virtual Account",
+      "ru": "Mandiri Virtual Account",
+      "uk": "Mandiri Virtual Account"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kookmin_bank",
+    "vendor": "kookmin_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Kookmin Bank",
+      "ru": "Kookmin Bank",
+      "uk": "Kookmin Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "keb_hana_bank",
+    "vendor": "keb_hana_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "KEB Hana Bank",
+      "ru": "KEB Hana Bank",
+      "uk": "KEB Hana Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nhbank_bank",
+    "vendor": "nhbank_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Nonghyup Bank",
+      "ru": "Nonghyup Bank",
+      "uk": "Nonghyup Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nonghyup_bank",
+    "vendor": "nonghyup_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "National Agricultural cooperative federation",
+      "ru": "National Agricultural cooperative federation",
+      "uk": "National Agricultural cooperative federation"
+    }
+  },
+  {
+    "status": "active",
+    "code": "sc_first_bank",
+    "vendor": "sc_first_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Standard Chartered Korea",
+      "ru": "Standard Chartered Korea",
+      "uk": "Standard Chartered Korea"
+    }
+  },
+  {
+    "status": "active",
+    "code": "korea_post_bank",
+    "vendor": "korea_post_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Post Bank",
+      "ru": "Post Bank",
+      "uk": "Post Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kyongnam_bank",
+    "vendor": "kyongnam_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BNK Kyongnam Bank",
+      "ru": "BNK Kyongnam Bank",
+      "uk": "BNK Kyongnam Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kwangju_bank",
+    "vendor": "kwangju_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Kwangju Bank",
+      "ru": "Kwangju Bank",
+      "uk": "Kwangju Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "daegu_bank",
+    "vendor": "daegu_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "DGB Daegu Bank",
+      "ru": "DGB Daegu Bank",
+      "uk": "DGB Daegu Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "busan_bank",
+    "vendor": "busan_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BNK Busan Bank",
+      "ru": "BNK Busan Bank",
+      "uk": "BNK Busan Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kdb_bank",
+    "vendor": "kdb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Korea Development Bank",
+      "ru": "Korea Development Bank",
+      "uk": "Korea Development Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kfcc_bank",
+    "vendor": "kfcc_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Korean Federation of Community Credit",
+      "ru": "Korean Federation of Community Credit",
+      "uk": "Korean Federation of Community Credit"
+    }
+  },
+  {
+    "status": "active",
+    "code": "suhyup_bank",
+    "vendor": "suhyup_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Suhyup Bank",
+      "ru": "Suhyup Bank",
+      "uk": "Suhyup Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "credit_union_bank",
+    "vendor": "credit_union_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "National Credit Union Federation of Korea",
+      "ru": "National Credit Union Federation of Korea",
+      "uk": "National Credit Union Federation of Korea"
+    }
+  },
+  {
+    "status": "active",
+    "code": "jeonbuk_bank",
+    "vendor": "jeonbuk_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "The Jeonbuk Bank Ltd",
+      "ru": "The Jeonbuk Bank Ltd",
+      "uk": "The Jeonbuk Bank Ltd"
+    }
+  },
+  {
+    "status": "active",
+    "code": "jeju_bank",
+    "vendor": "jeju_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Jeju Bank",
+      "ru": "Jeju Bank",
+      "uk": "Jeju Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "daishin_bank",
+    "vendor": "daishin_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Daishin Savings Bank",
+      "ru": "Daishin Savings Bank",
+      "uk": "Daishin Savings Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "db_financial_investment_bank",
+    "vendor": "db_financial_investment_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "DB FINANCIAL INVESTMENT CO.",
+      "ru": "DB FINANCIAL INVESTMENT CO.",
+      "uk": "DB FINANCIAL INVESTMENT CO."
+    }
+  },
+  {
+    "status": "active",
+    "code": "yuanta_bank",
+    "vendor": "yuanta_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Yuanta Financial Holding",
+      "ru": "Yuanta Financial Holding",
+      "uk": "Yuanta Financial Holding"
+    }
+  },
+  {
+    "status": "active",
+    "code": "meritz_bank",
+    "vendor": "meritz_bank",
+    "category": "bank_transfer",
+    "name": {
+        "en": "Meritz Securities Co. Ltd",
+        "ru": "Meritz Securities Co. Ltd",
+        "uk": "Meritz Securities Co. Ltd"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bookook_bank",
+    "vendor": "bookook_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Bookook Securities Co. Ltd",
+      "ru": "Bookook Securities Co. Ltd",
+      "uk": "Bookook Securities Co. Ltd"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nhqv_bank",
+    "vendor": "nhqv_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "NH Investment & Securities",
+      "ru": "NH Investment & Securities",
+      "uk": "NH Investment & Securities"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ebest_investment_bank",
+    "vendor": "ebest_investment_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "EBEST Investment & Securities Co. Ltd",
+      "ru": "EBEST Investment & Securities Co. Ltd",
+      "uk": "EBEST Investment & Securities Co. Ltd"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kiwoom_bank",
+    "vendor": "kiwoom_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "KIWOOM SECURITIES CO LTD",
+      "ru": "KIWOOM SECURITIES CO LTD",
+      "uk": "KIWOOM SECURITIES CO LTD"
+    }
+  },
+  {
+    "status": "active",
+    "code": "hana_financial_bank",
+    "vendor": "hana_financial_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "HANA FINANCIAL INVESTMENT CO. LTD",
+      "ru": "HANA FINANCIAL INVESTMENT CO. LTD",
+      "uk": "HANA FINANCIAL INVESTMENT CO. LTD"
+    }
+  },
+  {
+    "status": "active",
+    "code": "hanwha_bank",
+    "vendor": "hanwha_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "HANWHA LIFE INSURANCE",
+      "ru": "HANWHA LIFE INSURANCE",
+      "uk": "HANWHA LIFE INSURANCE"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kbfg_bank",
+    "vendor": "kbfg_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "KB Financial Group",
+      "ru": "KB Financial Group",
+      "uk": "KB Financial Group"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kakaopay_bank",
+    "vendor": "kakaopay_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Kakaopay Securities Corp.",
+      "ru": "Kakaopay Securities Corp.",
+      "uk": "Kakaopay Securities Corp."
+    }
+  },
+  {
+    "status": "active",
+    "code": "bnk_bank",
+    "vendor": "bnk_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BNK Securities Co. Ltd",
+      "ru": "BNK Securities Co. Ltd",
+      "uk": "BNK Securities Co. Ltd"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ktb_bank",
+    "vendor": "ktb_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "KTB Investment & Securities Co. Ltd",
+      "ru": "KTB Investment & Securities Co. Ltd",
+      "uk": "KTB Investment & Securities Co. Ltd"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bnpparibas_bank",
+    "vendor": "bnpparibas_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BNP Paribas for the Republic of Korea",
+      "ru": "BNP Paribas for the Republic of Korea",
+      "uk": "BNP Paribas for the Republic of Korea"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kakao_bank",
+    "vendor": "kakao_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "KakaoBank Corp.",
+      "ru": "KakaoBank Corp.",
+      "uk": "KakaoBank Corp."
+    }
+  },
+  {
+    "status": "active",
+    "code": "k_bank",
+    "vendor": "k_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "K Bank",
+      "ru": "K Bank",
+      "uk": "K Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "toss_bank",
+    "vendor": "toss_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Toss Bank",
+      "ru": "Toss Bank",
+      "uk": "Toss Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "korea_foss_bank",
+    "vendor": "korea_foss_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Korea Foss Securities",
+      "ru": "Korea Foss Securities",
+      "uk": "Korea Foss Securities"
+    }
+  },
+  {
+    "status": "active",
+    "code": "gcash",
+    "vendor": "gcash",
+    "category": "digital_wallet",
+    "name": {
+      "en": "GCash",
+      "ru": "GCash",
+      "uk": "GCash"
+    }
+  },
+  {
+    "status": "active",
+    "code": "easypaisa",
+    "vendor": "easypaisa",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Easypaisa",
+      "ru": "Easypaisa",
+      "uk": "Easypaisa"
+    }
+  },
+  {
+    "status": "active",
+    "code": "jazzcash",
+    "vendor": "jazzcash",
+    "category": "digital_wallet",
+    "name": {
+      "en": "JazzCash",
+      "ru": "JazzCash",
+      "uk": "JazzCash"
     }
   }
 ]
