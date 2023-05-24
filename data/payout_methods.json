@@ -25783,5 +25783,25 @@
       "ru": "JazzCash",
       "uk": "JazzCash"
     }
+  },
+  {
+    "status": "active",
+    "code": "wise",
+    "vendor": "wise",
+    "category": "online_banking",
+    "name": {
+      "en": "Wise",
+      "ru": "Wise",
+      "uk": "Wise"
+    }
+  },
+  {
+    "status": "active",
+    "code": "phonepe",
+    "vendor": "phonepe",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Phonepe Wallet"
+    }
   }
 ]
