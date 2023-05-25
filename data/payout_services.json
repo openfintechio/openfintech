@@ -99098,21 +99098,28 @@
     "currency": "RUB",
     "fields": [
       {
-        "key": "wallet_id",
+        "key": "card_number",
         "type": "string",
         "label": {
-          "en": "Wallet ID",
-          "ru": "Номер кошелька",
-          "uk": "Номер гаманця"
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
         },
         "hint": {
-          "en": "Enter wallet ID",
-          "ru": "Введите номер кошелька",
-          "uk": "Введіть номер гаманця"
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^.{12,19}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
@@ -99125,21 +99132,28 @@
     "currency": "KZT",
     "fields": [
       {
-        "key": "wallet_id",
+        "key": "card_number",
         "type": "string",
         "label": {
-          "en": "Wallet ID",
-          "ru": "Номер кошелька",
-          "uk": "Номер гаманця"
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
         },
         "hint": {
-          "en": "Enter wallet ID",
-          "ru": "Введите номер кошелька",
-          "uk": "Введіть номер гаманця"
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^.{12,19}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
@@ -99152,21 +99166,28 @@
     "currency": "INR",
     "fields": [
       {
-        "key": "wallet_id",
+        "key": "card_number",
         "type": "string",
         "label": {
-          "en": "Wallet ID",
-          "ru": "Номер кошелька",
-          "uk": "Номер гаманця"
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
         },
         "hint": {
-          "en": "Enter wallet ID",
-          "ru": "Введите номер кошелька",
-          "uk": "Введіть номер гаманця"
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^.{12,19}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
@@ -99179,21 +99200,28 @@
     "currency": "TRY",
     "fields": [
       {
-        "key": "wallet_id",
+        "key": "card_number",
         "type": "string",
         "label": {
-          "en": "Wallet ID",
-          "ru": "Номер кошелька",
-          "uk": "Номер гаманця"
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
         },
         "hint": {
-          "en": "Enter wallet ID",
-          "ru": "Введите номер кошелька",
-          "uk": "Введіть номер гаманця"
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^.{12,19}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
@@ -99206,25 +99234,304 @@
     "currency": "UZS",
     "fields": [
       {
-        "key": "wallet_id",
+        "key": "card_number",
         "type": "string",
         "label": {
-          "en": "Wallet ID",
-          "ru": "Номер кошелька",
-          "uk": "Номер гаманця"
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
         },
         "hint": {
-          "en": "Enter wallet ID",
-          "ru": "Введите номер кошелька",
-          "uk": "Введіть номер гаманця"
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
         },
-        "regexp": "\/^.{10,64}$\/",
+        "regexp": "\/^.{12,19}$\/",
         "required": true,
-        "position": 1
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
       }
     ],
     "amount_min": 0.01,
     "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_uah",
+    "method": "bitexpro_p2p",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_azn",
+    "method": "bitexpro_p2p",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_aed",
+    "method": "bitexpro_p2p",
+    "currency": "AED",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 370000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_idr",
+    "method": "bitexpro_p2p",
+    "currency": "IDR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_pkr",
+    "method": "bitexpro_p2p",
+    "currency": "PKR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_vnd",
+    "method": "bitexpro_p2p",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 4500000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_eur",
+    "method": "bitexpro_p2p",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_p2p_usd",
+    "method": "bitexpro_p2p",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "status": "active",
