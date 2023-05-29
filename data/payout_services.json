@@ -80973,7 +80973,7 @@
           "uk": "Введіть Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -81060,6 +81060,23 @@
           "ru": "Введите полное имя получателя",
           "uk": "Введіть повне імʼя одержувача"
         }
+      },
+      {
+        "key": "vpa",
+        "type": "string",
+        "label": {
+          "en": "VPA",
+          "ru": "VPA",
+          "uk": "VPA"
+        },
+        "hint": {
+          "en": "Enter VPA",
+          "ru": "Введите VPA",
+          "uk": "Введіть VPA"
+        },
+        "regexp": "\/^.{2,}@\\w+$\/",
+        "required": false,
+        "position": 7
       }
     ],
     "amount_min": 0.01,
