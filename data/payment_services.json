@@ -16596,5 +16596,23 @@
     "method": "interac_aggregated",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_bhd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "BHD",
+    "amount_min": 0.03,
+    "amount_max": 40000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_omr_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "OMR",
+    "amount_min": 0.03,
+    "amount_max": 400000
   }
 ]
