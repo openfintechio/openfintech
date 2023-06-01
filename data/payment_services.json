@@ -14158,6 +14158,51 @@
   },
   {
     "status": "active",
+    "code": "online_banking_thb_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "THB",
+    "amount_min": 0.01,
+    "amount_max": 3500000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_myr_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "MYR",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_php_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "PHP",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_idr_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "IDR",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_qr_idr_hpp",
+    "flow": "hpp",
+    "method": "online_banking_qr",
+    "currency": "IDR",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "online_banking_brl_hpp",
     "flow": "hpp",
     "method": "online_banking",
