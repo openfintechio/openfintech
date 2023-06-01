@@ -4709,6 +4709,123 @@
   },
   {
     "status": "active",
+    "code": "shopeepay_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "shopeepay",
+    "amount_min": 0.01,
+    "amount_max": 10000000000
+  },
+  {
+    "status": "active",
+    "code": "indonesia_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "indonesia_va",
+    "amount_min": 0.01,
+    "amount_max": 10000000000
+  },
+  {
+    "status": "active",
+    "code": "promptpay_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "promptpay",
+    "amount_min": 0.01,
+    "amount_max": 3500000
+  },
+  {
+    "status": "active",
+    "code": "shopeepay_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "shopeepay",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "touchngo_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "touchngo",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "boost_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "boost",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "duitnow_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "duitnow",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "grabpay_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "grabpay",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "7eleven_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "7eleven",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "coins_ph_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "coins_ph",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "gcash_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "gcash",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "grabpay_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "grabpay",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "maya_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "maya",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
     "code": "australia_and_new_zealand_banking_group_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
