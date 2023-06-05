@@ -4758,6 +4758,26 @@
     "currency": "MYR",
     "flow": "hpp",
     "method": "boost",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 10000000
   },
@@ -12683,6 +12703,24 @@
         "required": false,
         "example": "VAN TUONG LAN",
         "position": 1
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ],
     "amount_min": 1,
@@ -12799,6 +12837,26 @@
     "currency": "VND",
     "flow": "hpp",
     "method": "ab_bank",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
     "amount_min": 1,
     "amount_max": 2500000000
   },
@@ -12971,6 +13029,24 @@
         "required": false,
         "example": "VAN TUONG LAN",
         "position": 1
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ],
     "amount_min": 1,
@@ -13569,6 +13645,24 @@
         "required": false,
         "example": "VAN TUONG LAN",
         "position": 1
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ],
     "amount_min": 1,
@@ -13598,6 +13692,24 @@
         "required": false,
         "example": "VAN TUONG LAN",
         "position": 1
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ],
     "amount_min": 1,
@@ -13656,6 +13768,24 @@
         "required": false,
         "example": "VAN TUONG LAN",
         "position": 1
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ],
     "amount_min": 1,
@@ -14128,6 +14258,35 @@
     "currency": "TRY",
     "amount_min": 0.01,
     "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_qr_myr_hpp",
+    "flow": "hpp",
+    "method": "online_banking_qr",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
   },
   {
     "status": "active",
@@ -16776,5 +16935,498 @@
     "currency": "OMR",
     "amount_min": 0.03,
     "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "cimb_bank_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "cimb_bank_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "may_bank_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "may_bank_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "public_bank_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "public_bank_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "standard_chartered_bank_malaysia_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "standard_chartered_bank_malaysia_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "bank_islam_malaysia_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "bank_islam_malaysia_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "hong_leong_bank_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "hong_leong_bank_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "hsbc_bank_malaysia_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "hsbc_bank_malaysia_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "uob_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "uob_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "ocbc_bank_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "ocbc_bank_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "alliance_bank_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "alliance_bank_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "ambank_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "ambank_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "bank_simpanan_nasional_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "bank_simpanan_nasional_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "affin_bank_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "affin_bank_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "bank_rakyat_malaysia_fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "bank_rakyat_malaysia_fpx",
+    "currency": "MYR",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "curfex_jpy_hpp",
+    "flow": "hpp",
+    "method": "curfex",
+    "currency": "JPY",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 13800000
+  },
+  {
+    "status": "active",
+    "code": "tpbank_vnd_hpp",
+    "flow": "hpp",
+    "method": "tpbank",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "siam_commercial_bank_vnd_hpp",
+    "flow": "hpp",
+    "method": "siam_commercial_bank",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 9999999
   }
 ]

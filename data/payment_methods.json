@@ -7192,6 +7192,142 @@
   },
   {
     "status": "active",
+    "code": "cimb_bank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "CIMB Bank (FPX)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "may_bank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Maybank (FPX)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "public_bank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Public Bank (FPX)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "standard_chartered_bank_malaysia_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Standard Chartered Bank (FPX)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "rhb_bank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "RHB Bank (FPX)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bank_islam_malaysia_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Bank Islam Malaysia (FPX)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "hong_leong_bank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Hong Leong Bank (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "hsbc_bank_malaysia_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "HSBC Bank Malaysia (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "uob_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "UOB Bank (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ocbc_bank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "OCBC Bank (Malaysia) (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "alliance_bank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Alliance Bank (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ambank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Ambank (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bank_simpanan_nasional_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Bank Simpanan Nasional (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "affin_bank_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Affin Bank Berhad (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bank_rakyat_malaysia_fpx",
+    "category": "online_banking",
+    "name": {
+      "en": "Bank Rakyat (FPX), Malaysia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "curfex",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Curfex Japan"
+    }
+  },
+  {
+    "status": "active",
+    "code": "tpbank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "TP Bank Vietnam"
+    }
+  },
+  {
+    "status": "active",
     "code": "shb_bank",
     "category": "bank_transfer",
     "name": {
