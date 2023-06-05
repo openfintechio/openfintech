@@ -4653,6 +4653,35 @@
   },
   {
     "status": "active",
+    "code": "rhb_bank_fpx_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "rhb_bank_fpx",
+    "amount_min": 0.01,
+    "amount_max": 9999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "hong_leong_bank_myr_hpp",
     "currency": "MYR",
     "flow": "hpp",
