@@ -20820,6 +20820,10 @@
     "status": "active",
     "code": "paysafebd",
     "vendor": "paysafebd",
+    "payment_method": [
+      "upi",
+      "imps"
+    ],
     "payout_method": [
       "upi",
       "imps"
