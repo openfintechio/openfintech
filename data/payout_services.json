@@ -101978,6 +101978,330 @@
   },
   {
     "status": "active",
+    "code": "hero_payments_inr",
+    "method": "hero_payments",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 8300000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_rub",
+    "method": "hero_payments",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 8150000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_uah",
+    "method": "hero_payments",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3700000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_kzt",
+    "method": "hero_payments",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 44700000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_uzs",
+    "method": "hero_payments",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1500000000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_azn",
+    "method": "hero_payments",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 170000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_aed",
+    "method": "hero_payments",
+    "currency": "AED",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 370000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_idr",
+    "method": "hero_payments",
+    "currency": "IDR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_pkr",
+    "method": "hero_payments",
+    "currency": "PKR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 28500000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_vnd",
+    "method": "hero_payments",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2350000000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_gbp",
+    "method": "hero_payments",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 81000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_try",
+    "method": "hero_payments",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 2150000
+  },
+  {
+    "status": "active",
     "code": "instant_bank_transfer_try",
     "method": "instant_bank_transfer",
     "currency": "TRY",
