@@ -7,8 +7,7 @@
     "php": "^7.4 || ^8.0",
     "justinrainbow/json-schema": "^5.2",
     "ext-json": "*"
-  }
-  ,
+  },
   "require-dev": {
     "roave/security-advisories": "dev-master",
     "phpunit/phpunit": "^9.5"
@@ -26,15 +25,15 @@
   },
   "prefer-stable": true,
   "config": {
-      "bin-dir": "bin"
+    "bin-dir": "bin"
   },
   "suggest": {
     "paycore/openfintech-meta": "Provides additional information about images, etc."
   },
-    "extra": {
-       "branch-alias": {
-         "dev-master": "0.1.x-dev",
-         "dev-dev": "0.2.x-dev"
-       }
-   }
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev",
+      "dev-dev": "0.2.x-dev"
+    }
+  }
 }

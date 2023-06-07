@@ -12,7 +12,7 @@ use Tests\Relation;
 
 final class ServiceTest extends AbstractDataTest
 {
-    public function test_check_services_for_duplicates():void
+    public function test_check_services_for_duplicates(): void
     {
         $this->assertResourceHasNoDuplication(
             ResourceType::PAYMENT_SERVICE,
@@ -35,7 +35,7 @@ final class ServiceTest extends AbstractDataTest
         );
     }
 
-    public function test_service_with_currency_relation():void
+    public function test_service_with_currency_relation(): void
     {
         $relation = new Relation(
             ResourceType::PAYMENT_SERVICE,

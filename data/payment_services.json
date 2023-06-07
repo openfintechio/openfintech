@@ -7825,6 +7825,24 @@
   },
   {
     "status": "active",
+    "code": "mercuryo_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "mercuryo",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "mercuryo_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "mercuryo",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_kzt_hpp",
     "flow": "hpp",
     "method": "payment_card",

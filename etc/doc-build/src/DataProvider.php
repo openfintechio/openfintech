@@ -3,7 +3,6 @@
 namespace Oft\Generator;
 
 use Oft\Generator\Dto\CategoryDto;
-use Oft\Generator\Dto\CountryDto;
 use Oft\Generator\Dto\CurrencyDto;
 use Oft\Generator\Dto\CurrencyTypeDto;
 use Oft\Generator\Dto\FlowDto;
@@ -29,46 +28,19 @@ class DataProvider
     const CURRENCY_CATEGORIES_FILENAME = '/currency_categories.json';
     const VENDORS_FILENAME = '/vendors.json';
     const PAYOUT_METHOD_CATEGORIES_FILENAME = '/payout_method_categories.json';
-    const COUNTRIES_FILENAME = '/countries.json';
 
-    /* @var array */
-    private $providers;
-
-    /* @var array */
-    private $paymentMethods;
-
-    /* @var array */
-    private $payoutServices;
-
-    /* @var array */
-    private $paymentServices;
-
-    /* @var array */
-    private $payoutMethods;
-
-    /* @var array */
-    private $paymentMethodCategories;
-
-    /* @var array */
-    private $payoutMethodCategories;
-
-    /* @var array */
-    private $paymentFlows;
-
-    /* @var array */
-    private $currencies;
-
-    /* @var array */
-    private $currencyTypes;
-
-    /* @var array */
-    private $currencyCategories;
-
-    /* @var array */
-    private $vendors;
-
-    /* @var array */
-    private $countries;
+    private array $providers;
+    private array $paymentMethods;
+    private array $payoutServices;
+    private array $paymentServices;
+    private array $payoutMethods;
+    private array $paymentMethodCategories;
+    private array $payoutMethodCategories;
+    private array $paymentFlows;
+    private array $currencies;
+    private array $currencyTypes;
+    private array $currencyCategories;
+    private array $vendors;
 
     public function __construct()
     {
@@ -85,7 +57,6 @@ class DataProvider
             $this->setCurrencyCategories($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_CATEGORIES_FILENAME));
             $this->setVendors($this->getJsonContent(self::PATH_TO_DATA.self::VENDORS_FILENAME));
             $this->setPayoutMethodCategories($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_METHOD_CATEGORIES_FILENAME));
-            $this->setCountries($this->getJsonContent(self::PATH_TO_DATA.self::COUNTRIES_FILENAME));
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
         }
@@ -93,11 +64,7 @@ class DataProvider
 
     private function getJsonContent($path): array
     {
-        try {
-            return json_decode(file_get_contents($path), true);
-        } catch (\Throwable $ex) {
-            throw $ex;
-        }
+        return json_decode(file_get_contents($path), true);
     }
 
     private function setProviders(array $data): void
@@ -105,7 +72,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, ProviderDto::fromArray($item));
+            $tmp[] = ProviderDto::fromArray($item);
         }
 
         $this->providers = $tmp;
@@ -116,7 +83,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, PaymentMethodDto::fromArray($item));
+            $tmp[] = PaymentMethodDto::fromArray($item);
         }
 
         $this->paymentMethods = $tmp;
@@ -127,7 +94,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, PayoutServiceDto::fromArray($item));
+            $tmp[] = PayoutServiceDto::fromArray($item);
         }
 
         $this->payoutServices = $tmp;
@@ -138,7 +105,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, PaymentServiceDto::fromArray($item));
+            $tmp[] = PaymentServiceDto::fromArray($item);
         }
 
         $this->paymentServices = $tmp;
@@ -149,7 +116,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, PayoutMethodDto::fromArray($item));
+            $tmp[] = PayoutMethodDto::fromArray($item);
         }
 
         $this->payoutMethods = $tmp;
@@ -160,7 +127,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, CategoryDto::fromArray($item));
+            $tmp[] = CategoryDto::fromArray($item);
         }
 
         $this->paymentMethodCategories = $tmp;
@@ -171,7 +138,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, FlowDto::fromArray($item));
+            $tmp[] = FlowDto::fromArray($item);
         }
 
         $this->paymentFlows = $tmp;
@@ -182,7 +149,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, CurrencyDto::fromArray($item));
+            $tmp[] = CurrencyDto::fromArray($item);
         }
 
         $this->currencies = $tmp;
@@ -193,7 +160,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, CurrencyTypeDto::fromArray($item));
+            $tmp[] = CurrencyTypeDto::fromArray($item);
         }
 
         $this->currencyTypes = $tmp;
@@ -204,7 +171,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, CategoryDto::fromArray($item));
+            $tmp[] = CategoryDto::fromArray($item);
         }
 
         $this->currencyCategories = $tmp;
@@ -215,7 +182,7 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, VendorDto::fromArray($item));
+            $tmp[] = VendorDto::fromArray($item);
         }
 
         $this->vendors = $tmp;
@@ -226,21 +193,10 @@ class DataProvider
         $tmp = [];
 
         foreach ($data as $item) {
-            array_push($tmp, CategoryDto::fromArray($item));
+            $tmp[] = CategoryDto::fromArray($item);
         }
 
         $this->payoutMethodCategories = $tmp;
-    }
-
-    private function setCountries(array $data): void
-    {
-        $tmp = [];
-
-        foreach ($data as $item) {
-            array_push($tmp, CountryDto::fromArray($item));
-        }
-
-        $this->countries = $tmp;
     }
 
     public function getProviders(): array
@@ -301,10 +257,5 @@ class DataProvider
     public function getPayoutMethodCategories(): array
     {
         return $this->payoutMethodCategories;
-    }
-
-    public function getCountries(): array
-    {
-        return $this->countries;
     }
 }
