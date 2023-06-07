@@ -31,4 +31,34 @@ final class PaymentProviderTest extends AbstractDataTest
             'in payment providers'
         );
     }
+
+    public function test_payment_provider_with_payment_method_relation(): void
+    {
+        $relation = new Relation(
+            ResourceType::PAYMENT_PROVIDER,
+            'paymentMethod',
+            ResourceType::PAYMENT_METHOD
+        );
+
+        $this->assertCorrectRelationWithMany(
+            $relation,
+            \sprintf(self::NOT_EXISTENT_ERROR_HEADER_TEMPLATE, 'PAYMENT_METHOD'),
+            'in payment providers',
+        );
+    }
+
+    public function test_payment_provider_with_payout_method_relation(): void
+    {
+        $relation = new Relation(
+            ResourceType::PAYMENT_PROVIDER,
+            'payoutMethod',
+            ResourceType::PAYOUT_METHOD
+        );
+
+        $this->assertCorrectRelationWithMany(
+            $relation,
+            \sprintf(self::NOT_EXISTENT_ERROR_HEADER_TEMPLATE, 'PAYOUT_METHOD'),
+            'in payout providers',
+        );
+    }
 }

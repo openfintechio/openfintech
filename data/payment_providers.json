@@ -450,7 +450,17 @@
     "vendor": "anycash",
     "name": {
       "en": "AnyCash"
-    }
+    },
+    "payout_method": [
+      "qiwi",
+      "tether",
+      "litecoin",
+      "ethereum",
+      "bitcoin_cash",
+      "bitcoin",
+      "webmoneytransfer",
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -460,17 +470,22 @@
     },
     "vendor": "liqpay",
     "payment_method": [
+      "liqpay",
+      "payment_card",
+      "liqpay_wallet",
       "privat24",
       "masterpass",
-      "cash",
-      "bank_card"
+      "privatbank_ssk"
     ],
     "metadata": {
       "about_payments_code": "liqpay"
     },
     "name": {
       "en": "LiqPay"
-    }
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -481,15 +496,16 @@
     "vendor": "4bill",
     "payment_method": [
       "payment_card",
-      "settlepay_wallet",
       "applepay",
       "googlepay",
+      "settlepay_wallet",
       "pix_qr",
       "binancepay"
     ],
     "payout_method": [
       "payment_card",
-      "settlepay_wallet"
+      "settlepay_wallet",
+      "pix"
     ],
     "name": {
       "en": "4bill",
@@ -645,10 +661,15 @@
     "vendor": "zotapay",
     "payment_method": [
       "payment_card",
-      "bank_transfer"
+      "latam",
+      "ussd",
+      "i_wallet",
+      "qiwi",
+      "bank_transfer",
+      "visa_qr_code",
+      "net_banking"
     ],
     "payout_method": [
-      "payment_card",
       "bank_transfer"
     ],
     "name": {
@@ -1015,6 +1036,7 @@
       "uk": "Qiwi"
     },
     "payment_method": [
+      "qiwi",
       "payment_card"
     ]
   },
@@ -1097,7 +1119,17 @@
     },
     "name": {
       "en": "ePay"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card",
+      "lifecell_phone",
+      "kyivstar_phone",
+      "vodafone_phone",
+      "bank_transfer"
+    ]
   },
   {
     "status": "active",
@@ -1177,11 +1209,11 @@
       "aggregating"
     ],
     "payment_method": [
-      "bank_card"
+      "payment_card"
     ],
     "payout_method": [
-      "bank_card",
-      "qiwi"
+      "payment_card",
+      "yandexmoney"
     ],
     "name": {
       "en": "PayMega"
@@ -1193,7 +1225,2074 @@
     "vendor": "pat_bank_familnij",
     "name": {
       "en": "FlashPay"
-    }
+    },
+    "payout_method": [
+      "tov-otp-faktoring",
+      "dp-kievgazenerdzhi",
+      "lcom",
+      "teztelecom-dlia-agenstv",
+      "pat-rivneoblenergo-kostopils-kii-rem",
+      "pat-rivneoblenergo-rivnenskii-mrem",
+      "pat-rivneoblenergo-rivnenskii-rem",
+      "pat-rivneoblenergo-sarnenskii-rem",
+      "pat-rivneoblenergo-bereznivskii-rem",
+      "pat-rivneoblenergo-volodimiretskii-rem",
+      "pat-rivneoblenergo-kuznetsovskii-rem",
+      "pat-rivneoblenergo-goshchanskii-rem",
+      "pat-rivneoblenergo-dubnivskii-rem",
+      "pat-rivneoblenergo-dubrovitskii-rem",
+      "trinity-mariupol",
+      "pat-rivneoblenergo-zarichnenskii-rem",
+      "pat-rivneoblenergo-zdolbunivskii-rem",
+      "pat-rivneoblenergo-koretskii-rem",
+      "pat-rivneoblenergo-mlinivskii-rem",
+      "pat-rivneoblenergo-demidivskii-rem",
+      "pat-rivneoblenergo-ostrozkii-rem",
+      "pat-rivneoblenergo-radivilivskii-rem",
+      "pat-rivneoblenergo-rokitnivskii-rem",
+      "pat-kirovogradoblenergo-kirovogradskii-rmem",
+      "pat-kirovogradoblenergo-svitlovodskii-rem",
+      "undernet",
+      "pat-kirovogradoblenergo-novomirgorodskii-rem",
+      "pat-kirovogradoblenergo-oleksandriiskii-rem",
+      "pat-kirovogradoblenergo-novoukrayinskii-rem",
+      "pat-kirovogradoblenergo-bobrinetskii-rem",
+      "pat-kirovogradoblenergo-vilshanskii-rem",
+      "pat-kirovogradoblenergo-gaivoronskii-rem",
+      "pat-kirovogradoblenergo-golovanivskii-rem",
+      "pat-kirovogradoblenergo-dobrovelichkivskii-rem",
+      "pat-kirovogradoblenergo-dolinskii-rem",
+      "pat-kirovogradoblenergo-znam-ianskii-rem",
+      "v-lan",
+      "pat-kirovogradoblenergo-kirovogradskii-rem-raion",
+      "pat-kirovogradoblenergo-kompaniyivskii-rem",
+      "pat-kirovogradoblenergo-maloviskovskii-rem",
+      "pat-kirovogradoblenergo-novgorodkivskii-rem",
+      "pat-kirovogradoblenergo-novoarkhangels-kii-rem",
+      "pat-kirovogradoblenergo-oleksandrivskii-rem",
+      "pat-kirovogradoblenergo-onufriyivskii-rem",
+      "pat-kirovogradoblenergo-petrivskii-rem",
+      "pat-kirovogradoblenergo-ulianivskii-rem",
+      "pat-kirovogradoblenergo-ustinivskii-rem",
+      "pautina-net",
+      "zhkp-illichivskogo-raionu",
+      "taksi-mango-odessa",
+      "taksi-avalon-odessa",
+      "taksi-avalon-dnepropetrovsk",
+      "taksi-avalon-nikolaev",
+      "taksi-292-kiev",
+      "taksi-laik-kiev",
+      "taksi-everest-kiev",
+      "fresh-taxi-kiev",
+      "taksi-favorit-kiev-pozyvnye-1-999",
+      "datanet",
+      "taksi-diana-kiev",
+      "taksi-stolichnoe-833-kiev",
+      "taksi-klass-kiev",
+      "taksi-tank-kiev",
+      "taksi-na-zamovlennia-kiev",
+      "taksi-niania-kharkov",
+      "taksi-merkurii-kharkov",
+      "taksi-evropeiskoe-kiev",
+      "taksi-avto-mig-odessa",
+      "zhkp-zhilkompleks",
+      "mediamax-odessa",
+      "taksi-898-kiev",
+      "taksi-898-dnepropetrovsk",
+      "taksi-898-mariupol",
+      "taksi-5575-kiev",
+      "taksi-520-520-mariupol",
+      "taksi-ekonom-avto-kiev",
+      "taksi-ekonom-avto-dnepropetrovsk",
+      "taksi-ekonom-avto-odessa",
+      "zhkp-zhitlo-tsentr",
+      "taksi-ekonom-avto-zaporozhe",
+      "xbyte",
+      "taksi-femida-kiev",
+      "taksi-4242-odessa",
+      "taksi-vympel-vinnitsa",
+      "taksi-student-berdiansk",
+      "taksi-optimalnoe-ivano-frankovsk",
+      "taksi-optimalnoe-ternopol",
+      "taksi-740-ivano-frankivsk",
+      "taksi-zevs-7272-kiev",
+      "zhkp-azhk-shevchenko",
+      "taksi-zevs-7272-odessa",
+      "telesistemy-ukrainy-internet",
+      "taksi-zevs-7272-dnepropetrovsk",
+      "taksi-top-kiev",
+      "taksi-vashe-taksi-odessa",
+      "taksi-talisman-odessa",
+      "taksi-sova-kiev",
+      "taksi-907-odessa",
+      "pp-zhilfond-279",
+      "taksi-triumf-kiev",
+      "taksi-soiuz-kiev",
+      "taksi-ukraine-kiev",
+      "telesistemy-ukrainy-telefon-tv",
+      "taksi-optimalnoe-dnepropetrovsk",
+      "taksi-khoroshee",
+      "taksi-karavan-kiev",
+      "taksi-707-odessa",
+      "pp-vash-dvir",
+      "taksi-misto-kiev",
+      "taksi-903",
+      "taksi-7727-kiev",
+      "taksi-arena-kiev",
+      "taksi-poekhali-s-nami-kiev",
+      "pat-mikolayivoblenergo-bashtanska-filiia",
+      "ufo",
+      "taksi-dlia-vas-kiev",
+      "taksi-dlia-vas-odessa",
+      "taksi-dlia-vas-kharkov",
+      "kp-komunalnik",
+      "taksi-mag-dak-kiev",
+      "taksi-nika-kiev-kievskaia-oblast",
+      "taksi-global-kiev",
+      "taksi-89-89-kiev",
+      "taksi-premium-kiev",
+      "taksi-dejavu-kiev",
+      "alfa-inet",
+      "taksi-3303-dnepropetrovsk",
+      "taksi-svoe-kharkov",
+      "alians-gis",
+      "taksi-svoe-kramatorsk",
+      "taksi-svoe-slaviansk",
+      "taksi-kenguru-kiev",
+      "taksi-bonus-kiev",
+      "taksi-kavaler-kiev",
+      "taksi-velvet-kiev",
+      "taksi-velvet-odessa",
+      "ooo-real-tv",
+      "taksi-prestige-sumy",
+      "taksi-1589-sumy",
+      "taksi-dzhem-kiev",
+      "taksi-zefir-kiev",
+      "taksi-optimalnoe-rovno",
+      "taksi-tiger-kiev",
+      "taksi-delta-kiev",
+      "taksi-pchiolka-poltava",
+      "taksi-pchiolka-sumi",
+      "taksi-pchiolka-zaporozhe",
+      "ooo-sana-plius",
+      "taksi-patriot-poltava",
+      "taksi-054-poltava",
+      "taksi-kolobok-poltava",
+      "taksi-kenguru-poltava",
+      "taksi-foks-kiev",
+      "flagman-taxi-kiev",
+      "taksi-kivi-kiev",
+      "taksi-kivi-odessa",
+      "taksi-kivi-zaporozhe",
+      "taksi-594-kiev",
+      "iug-teleset",
+      "taksi-burzhui-kiev",
+      "taksi-1515-kiev",
+      "taksi-71-71-kharkov",
+      "taksi-kampania-sumy",
+      "taksi-kampania-konotop",
+      "taksi-maestro-kiev",
+      "chestnoe-taksi-cherkassy-cherkassy",
+      "taksi-prime-cherkassy",
+      "taksi-ekonom-borispol",
+      "uk-primorskii-g-mariupol",
+      "aries",
+      "taksi-universal-kiev",
+      "taksi-optimalnoe-dneprodzerzhinsk",
+      "taksi-optimalnoe-chernovtsy",
+      "taksi-optimalnoe-khmelnitskii",
+      "taksi-optimalnoe-kharkov",
+      "taksi-optimalnoe-kiev",
+      "taksi-optimalnoe-lvov",
+      "taksi-optimalnoe-odessa",
+      "taksi-optimalnoe-zhitomir",
+      "taksi-optimalnoe-krivoi-rog",
+      "tsentr-tv",
+      "uk-vostochnaia-g-mariupol",
+      "taksi-optimalnoe-vinnitsa",
+      "taksi-optimalnoe-lutsk",
+      "taksi-delta-2-kiev",
+      "taksi-servis-zaporozhe",
+      "taksi-servis-ekonom-zaporozhe",
+      "taksi-meteor-kiev",
+      "taksi-meteor-dnepropetrovsk",
+      "taksi-vzhik-lvov",
+      "taksi-aba-car-lvov",
+      "tov-zhek-zabota",
+      "taksi-kvn-kiev",
+      "uk-zapadnaia-g-mariupol",
+      "taksi-mc-taxi-kiev",
+      "taksi-271-odessa",
+      "taksi-profi-kiev",
+      "taksi-309-kiev",
+      "webtaxi-mobi",
+      "taksi-forum-kiev",
+      "taksi-stimul-kiev",
+      "taksi-apvip-603-kiev",
+      "tov-tsentralnyi-1",
+      "taksi-motor-kiev",
+      "taksi-ets-odessa",
+      "taksi-725-kiev",
+      "taksi-725-dnepr",
+      "taksi-725-zaporozhe",
+      "taksi-725-odessa",
+      "taksi-allo-kiev",
+      "evro-taksi-kiev",
+      "taksi-shark-kiev",
+      "taksi-shark-kharkov",
+      "fregat-internet",
+      "taksi-shark-dnepr",
+      "taksi-shark-zaporozhe",
+      "taksi-shark-odessa",
+      "taksi-shark-krivoi-rog",
+      "taksi-shark-nikolaev",
+      "taksi-shark-kherson",
+      "taksi-shark-poltava",
+      "taksi-energy-kiev-i-kievskaia-obl",
+      "taksi-tour-kiev-i-kievskaia-obl",
+      "taksi-diesel-kiev-i-kievskaia-obl",
+      "pat-mikolayivoblenergo-berezanska-filiia",
+      "ukrlink-kiev",
+      "taksi-bliuz-kiev",
+      "taksi-red-kiev",
+      "taksi-student-odessa",
+      "taksi-student-zaporozhe",
+      "taksi-student-lvov",
+      "taxi-mobile-kamenets-podolskii",
+      "taksi-optimalnoe-nikolaev",
+      "taksi-svoe-druzhkovka",
+      "taksi-imperiia-v-odesca",
+      "taksi-viktoriia-odecsa",
+      "domonet",
+      "taksi-draiv-odessa",
+      "taksi-navigator-odessa",
+      "taxi-gold-odessa",
+      "taksi-mobil-odessa",
+      "taksi-shik-kiev",
+      "taksi-prosto-odessa",
+      "taxi-nezhin-nezhin",
+      "taksi-okei-kiev",
+      "tsifral-servis-ukraina-kiev",
+      "taksi-722-722-mikolayiv",
+      "omega-grupp",
+      "taksi-e-95-odessa",
+      "taksi-afon-kiev",
+      "taksi-9779-kiev",
+      "taksi-229-prosto-taksi-kiev",
+      "taksi-ekonom-7000-dnepr",
+      "taksi-femida-4242-kiev",
+      "taksi-komfort-vinnitsa",
+      "alfa-taksi-716-odessa",
+      "taksi-real",
+      "taksi-bystroe-odessa",
+      "tsok-apostolivskogo",
+      "taksi-alisa-kiev-fop-voropaiev-o-iu-pozyvnye-ot-5000",
+      "taksi-ekonom-7000-kiev",
+      "taksi-ekonom-7000-odessa",
+      "taksi-ekonom-7000-zaporozhe",
+      "taksi-ekonom-7000-lvov",
+      "taksi-limon-kiev",
+      "taksi-268-odessa",
+      "taksi-510-zaporozhe",
+      "taksi-510-kharkov",
+      "taksi-7727-mariupol",
+      "tsok-vasilkivskogo-r-nu",
+      "taksi-898-kharkov",
+      "taksi-8787-kiev",
+      "taksi-otlichnoe-kiev",
+      "taksi-idealnoe-994-nikolaev",
+      "taksi-idealnoe-994-krivoi-rog",
+      "taksi-idealnoe-994-ochakov",
+      "taksi-idealnoe-994-poltava",
+      "taksi-idealnoe-994-kherson",
+      "taksi-3933-chernigov",
+      "taksi-santa-odessa",
+      "verkhnodniprovskii-rem-tsok-verkhnodniprovskogo-r-nu",
+      "taksi-shark-mariupol",
+      "taksi-shark-chernigov",
+      "taksi-shark-kremenchug",
+      "taksi-shark-summy",
+      "taksi-shark-kakhovka",
+      "taksi-shark-novaia-kakhovka",
+      "taksi-shark-belaia-tserkov",
+      "taksi-shark-melitopol",
+      "taksi-shark-nikopol",
+      "taksi-shark-berdiansk",
+      "vilnogirska-diln-tsok-verkhnodniprovskogo-r-nu",
+      "taksi-shark-kamenets-podolskii",
+      "taksi-shark-uman",
+      "taksi-shark-berdichev",
+      "taksi-shark-chernomorsk",
+      "taksi-shark-iuzhnyi",
+      "taksi-shark-khmelnitskii",
+      "taksi-shark-cherkassy",
+      "taksi-shark-vinnitsa",
+      "taksi-shark-zhitomir",
+      "taksi-shark-kropivnitskii",
+      "tsok-dniprodzerzhinskogo-r-nu",
+      "taksi-shark-kamenskoe",
+      "taksi-pilot-zolotonosha",
+      "taksi-pilot-zhovti-vodi",
+      "taksi-idealnoe-994-kiev",
+      "taksi-idealnoe-994-odessa",
+      "taksi-mustang-kiev",
+      "miks-taksi-kiev",
+      "taksi-89-89-kiev-pozyvnye-3000-do-3999",
+      "taksi-725-bila-tserkva",
+      "taksi-partner-odessa",
+      "dnipropetrovskii-mem-prav-tsok-dnipropetrovskogo-r-nu",
+      "taksi-big-ben-odessa",
+      "taksi-semerochki-odessa",
+      "taksi-740-odessa",
+      "taksi-evropa-odessa",
+      "taxi-turbo-kiev",
+      "taksi-649-ternopol",
+      "taksi-917-ternopol",
+      "taksi-avtogid-dnepr",
+      "garuda-taxi-kiyiv-kharkiv",
+      "steam-vaucher-2-300usd",
+      "dnipropetrovskii-mem-liv-tsok-dnipropetrovskogo-r-nu",
+      "timezero",
+      "wizards-world-oplata-po-wid",
+      "wizards-world-oplata-po-niku",
+      "avatary-epokha-khaosa",
+      "allody-onlain",
+      "vgorode",
+      "voina-angely-i-demony",
+      "voiny-prestolov",
+      "geroi",
+      "gladiatory",
+      "pat-mikolayivoblenergo-berezniguvatska-filiia",
+      "tsok-m-krivii-rig",
+      "dzhaggernaut",
+      "kazaki-3",
+      "kazaki-3-delux-edition",
+      "legenda-nd-feo-minor",
+      "mir-tenei",
+      "moia-derevnia",
+      "moia-sobaka",
+      "para-pa",
+      "poveliteli",
+      "smeshariki",
+      "tsok-krivorizkogo-r-nu",
+      "sparta-wg",
+      "sfera",
+      "sfera-pererozhdenie",
+      "fragoriia",
+      "khokkeinaia-liga-interneta",
+      "g2a-gift-card-vaucher-1-200euro",
+      "atom-fishing-vozvrashchenie",
+      "atom-fishing-ekstrim",
+      "banana-wars",
+      "fantastic-fishing",
+      "tsok-krinichanskogo-r-nu",
+      "ice-kings",
+      "mist-online",
+      "r2-online",
+      "rf-online",
+      "sky2fly",
+      "ufo-online",
+      "u-n-i-t",
+      "avatarika",
+      "bitva-fermerov",
+      "bolelshchiki",
+      "tsok-magdalinivskogo-r-nu",
+      "bratva",
+      "voiny-mafii",
+      "gandzhubasovye-voiny",
+      "godvill",
+      "grani-realnosti",
+      "dotsenty",
+      "zolotaia-butsa",
+      "ingamba",
+      "kolonizatory",
+      "krai-mira",
+      "tsok-mezhivskogo-r-nu",
+      "lordmanser",
+      "magicheskie-zemli",
+      "naemniki",
+      "nebesa",
+      "neboskreby",
+      "osada-onlain",
+      "ostrova",
+      "peredovaia",
+      "pitomtsy",
+      "polnyi-pi",
+      "nikopols-ki-mem-tsok-nikopols-kogo-r-nu",
+      "ponaekhali-tut-mosvar",
+      "sadovaia-imperiia",
+      "stalnoi-legion",
+      "super-gonki",
+      "tanki-onlain",
+      "tekhnomagiia",
+      "tiurma-novyi-srok",
+      "fantazium-2-evoliutsiia",
+      "ekonomicheskaia-onlain-igra-rashka",
+      "amazon-gift-card-us-10",
+      "dilnitsia-ordzhonikidze-tsok-nikopols-kogo-r-nu",
+      "ebay-gift-card-25-us",
+      "ebay-gift-card-5-us",
+      "facebook-game-card-global-10",
+      "facebook-game-card-global-5",
+      "vodokanal-kherson",
+      "gamestop-gift-card-10-us",
+      "gamestop-gift-card-25-us",
+      "google-play-gift-card-us-10",
+      "google-play-gift-card-us-15",
+      "itunes-gift-card-us-10",
+      "nikopols-kii-rem-tsok-nikopols-kogo-r-nu",
+      "itunes-gift-card-us-15",
+      "windows-phone-store-gift-card-us-15",
+      "windows-phone-store-gift-card-us-25",
+      "khersongaz-g-kherson",
+      "xbox-live-gift-card-us-10",
+      "virtualnaia-futbolnaia-liga",
+      "teploenergo-kherson",
+      "khersonoblenergo-khersonskii-belozerskii-resy",
+      "khersonskaia-tets",
+      "khersongaz-berislavskii-filial",
+      "dilnitsia-marganets-tsok-nikopols-kogo-r-nu",
+      "khersongaz-belozerskii-filial",
+      "khersongaz-v-aleksandrovskii-filial",
+      "khersongaz-vysokopolskii-filial",
+      "khersongaz-genicheskii-filial",
+      "ternopolskii-raschetnyi-tsentr",
+      "pat-khmelnitskoblenergo-bilogirskii-rem",
+      "pat-khmelnitskoblenergo-vinkovetskii-rem",
+      "pat-khmelnitskoblenergo-volochiskii-rem",
+      "pat-khmelnitskoblenergo-gorodotskii-rem",
+      "pat-khmelnitskoblenergo-derazhnianskii-rem",
+      "novomoskovskii-mem-tsok-novomoskovskogo-r-nu",
+      "pat-khmelnitskoblenergo-dunaievetskii-rem",
+      "pat-khmelnitskoblenergo-iziaslavskii-rem",
+      "pat-khmelnitskoblenergo-kam-podils-kii-rem",
+      "pat-khmelnitskoblenergo-kam-podils-kiii-mrem",
+      "khersongaz-g-pristanskii-filial",
+      "pat-khmelnitskoblenergo-krasilivskii-rem",
+      "pat-khmelnitskoblenergo-letichivskii-rem",
+      "pat-khmelnitskoblenergo-novoushitskii-rem",
+      "pat-khmelnitskoblenergo-polonskiii-rem",
+      "pat-khmelnitskoblenergo-slavutskii-rem",
+      "pat-mikolayivoblenergo-filiia-mikolayivskogo-r-u",
+      "novomoskovskii-rem-tsok-novomoskovskogo-r-nu",
+      "pat-khmelnitskoblenergo-starokostiantinivskii-rem",
+      "pat-khmelnitskoblenergo-starosiniavskii-rem",
+      "pat-khmelnitskoblenergo-teofipols-kii-rem",
+      "pat-khmelnitskoblenergo-chemerovetskii-rem",
+      "pat-khmelnitskoblenergo-shpetivskii-rem",
+      "khersongaz-kalanchakskii-filial",
+      "pat-khmelnitskoblenergo-khmelnitskii-rem",
+      "pat-khmelnitskoblenergo-iarmolinetskii-rem",
+      "khersongaz-kakhovskii-filial",
+      "dp-gazposttach-pat-ternopilmiskgaz",
+      "pavlogradski-mem-tsok-pavlogradskogo-r-nu",
+      "kp-ternopilmiskteplokomunenergo",
+      "kp-ternopilvodokanal",
+      "khersongaz-novokakhovskii-filial",
+      "khersongaz-skadovskii-filial",
+      "khersongaz-tsiuriupinskii-filial",
+      "khersongaz-chaplinskii-filial",
+      "khersongaz-v-rogachinskii-filial",
+      "iur-yivskii-rem-tsok-pavlogradskogo-r-nu",
+      "natsionalna-politsiia-ukrayini-upo-v-zaporizkii-oblasti",
+      "tov-odesagaz-postachannia",
+      "odessaoblenergo-iuzhnyi-res",
+      "odessateplosnabzhenie",
+      "odessaoblenergo-severnyi-res",
+      "odessaoblenergo-tsentralnyi-res",
+      "kp-osnovanie-utrimannia-budinkiv",
+      "kp-zhitomirvodokanal",
+      "kp-vodokanal-uzhgorod",
+      "tov-kk-domkom-nikopol",
+      "pavlogradski-rem-tsok-pavlogradskogo-r-nu",
+      "tov-keruiucha-kompaniia-domkom-sumi",
+      "tov-stanislavska-teploenergetichna-kompaniia-opalennia",
+      "tov-stanislavska-teploenergetichna-kompaniia-gariache-vodopostachannia",
+      "tov-stanislavska-teploenergetichna-kompaniia-kompl-kommunal",
+      "klub-divosvit",
+      "kp-vodokanal",
+      "dominet-kievskaia-obl",
+      "krasline-pokrovsk",
+      "tti-kovel",
+      "kp-desnianske-chernigivskoyi-miskoyi-radi-chernigov",
+      "petrikovska-dilnitsia-tsok-tsarichanskogo-r-nu",
+      "geonik-iuzhne",
+      "kontsern-miski-teplovi-merezhi",
+      "tov-zaporizhgaz-zbut",
+      "tov-veltum-zaporizhzhia",
+      "dp-tsentrgaz-g-kirovograd",
+      "evrolain-ukrayina-kiyiv",
+      "kvazar-link-melitopol",
+      "auto-ria",
+      "dom-ria",
+      "aliaska-net-ternopol",
+      "tsarichanskii-rem-tsok-tsarichanskogo-r-nu",
+      "kp-porto-frankivskii-odesa",
+      "megogo-legkaia",
+      "megogo-optimalnaia",
+      "megogo-maksimalnaia",
+      "kp-komunalnik-smila",
+      "tov-mits-telemerezha-zhitomir",
+      "okvp-dnipro-kirovograd-kirovogradske-vkg-vodopostachannia",
+      "okvp-dnipro-kirovograd-kirovogradske-vkg-vodovidvedennia",
+      "okvp-dnipro-kirovograd-oleksandriiske-vkg-vodopostachannia",
+      "okvp-dnipro-kirovograd-oleksandriiske-vkg-vodovidvedennia",
+      "petropavlivskii-rem-tsok-petropavlivskogo-r-nu",
+      "okvp-dnipro-kirovograd-znamianske-vkg-vodopostachannia",
+      "okvp-dnipro-kirovograd-znamianske-vkg-vodovidvedennia",
+      "okvp-dnipro-kirovograd-svitlovodske-vkg-vodopostachannia",
+      "okvp-dnipro-kirovograd-svitlovodske-vkg-vodovidvedennia",
+      "okvp-dnipro-kirovograd-smolinske-vkg-vodopostachannia",
+      "okvp-dnipro-kirovograd-smolinske-vkg-vodovidvedennia",
+      "pan-telekom-kiev",
+      "kp-zhitomirteplokomunenergo-zhitomirskoyi-miskoyi-radi",
+      "keruiucha-kompaniia-komenergo-zhitomir",
+      "golfstrim-chernivtsi",
+      "pershotravenska-dilnitsia-tsok-petropavlivskogo-r-nu",
+      "sweet-tv-mariupol",
+      "mkp-mukachivvodokanal",
+      "rai-optic-ivano-frankivsk",
+      "pat-kb-globus-pogashennia-kreditiv",
+      "didgitnet-mariupol",
+      "xata-net",
+      "3dcom-kiyivska-obl",
+      "kp-uzhkg-irpin-kvartplata",
+      "kpp-teploenergopostach-opalennia",
+      "kp-irpinvodokanal",
+      "tsok-pokrovskogo-r-nu",
+      "kpp-teplokomunseris-opalennia",
+      "malta-zhitomir",
+      "mitselink-ivano-frankivsk",
+      "pat-pumb-pogashennia-kreditu",
+      "pat-pumb-popovnennia-kartkovogo-potochnogorakhunku",
+      "dms-ivano-frankivska-obl",
+      "delta",
+      "itlucks-kharkov",
+      "trk-lis-internet",
+      "trk-lis-tv",
+      "p-iatikhatskii-rem-tsok-piatikhatskogo-r-nu",
+      "arslan-net",
+      "wi-fi-house-nikolaev",
+      "isp-belnet-odeska-mikolayivska",
+      "neon-mikolayiv",
+      "kompanion-finans",
+      "vega-telefoniia-lits-schet",
+      "gerts",
+      "avdeevskoe-puvkkh-voda-donbassa",
+      "volnovakhskoe-puvkkh-voda-donbassa",
+      "voda-donbassa-dzerzhinskoe",
+      "pat-mikolayivoblenergo-kazankivska-filiia",
+      "dilnitsia-zhovti-vodi-tsok-piatikhatskogo-r-nu",
+      "dimitrovskoe-puvkkh-voda-donbassa",
+      "dobropolskoe-puvkkh-voda-donbassa",
+      "artemovskoe-puvkkh-voda-donbassa",
+      "konstantinovskoe-puvkkh-voda-donbassa",
+      "krasnolimanskoe-puvkkh-voda-donbassa",
+      "novogrodovskoe-puvkkh-voda-donbassa",
+      "selidovskoe-puvkkh-voda-donbassa",
+      "chasovoiarskoe-rpu-voda-donbassa",
+      "vega-internet",
+      "khmelnitskaia-informatsionnaia-set",
+      "sinelnikivskii-mem-tsok-sinelnikivskogo-r-nu",
+      "intraffik",
+      "alfa-link-kiev",
+      "korbina-telekom-kiev",
+      "nashnet",
+      "lan4ever-vasilkov",
+      "netmaster",
+      "triolan-internet",
+      "triolan-tv",
+      "mariupol-vodokanal",
+      "pp-chereda-sumy",
+      "sinelnikivskii-rem-tsok-sinelnikivskogo-r-nu",
+      "navigator-onlain",
+      "ooo-tisa",
+      "accessnet",
+      "utels-g-kiev",
+      "kyivlink",
+      "pat-dtek-donetskoblenergo-mariupolskii-rem",
+      "simnet",
+      "tvintel-kiev",
+      "brovis-net-brovary",
+      "pridetele-com",
+      "tsok-solonianskogo-r-nu",
+      "za-mistom",
+      "skm-sumy",
+      "milan-kiev",
+      "looknet",
+      "dklan",
+      "ooo-voks",
+      "mixnet-kiev",
+      "netgroup-kiev",
+      "mariupolteploset-gor-voda",
+      "scana",
+      "tsok-sofiyivskogo-r-nu",
+      "sunnet-kiev",
+      "uteam-ivano-frankivsk",
+      "kievskie-interaktivnye-telekomunnikatsii",
+      "pp-chereda-kiev",
+      "magnus-belaia-tserkov",
+      "c-t-net-chernovtsy",
+      "happy-net",
+      "mariupolteploset-tsentr-otopl",
+      "sitel-kiev",
+      "net-city-zhitomir",
+      "tsok-tomakivskogo-r-nu",
+      "modus-global-vishnevoe",
+      "miit",
+      "alfa-tv",
+      "skynet-izmail",
+      "4ok-net-kiev",
+      "proline-kiev",
+      "sunline-kiev",
+      "deltanet-kiev",
+      "rusanovka-net-kiev",
+      "isp-imperial-kirovograd",
+      "shirokivskii-rem-tsok-shirokivskogo-r-nu",
+      "merezha",
+      "chokolovka-net-kiev",
+      "faust-kiev",
+      "misto-tb",
+      "novyi-telekom-kiev",
+      "global-siti-net",
+      "berline-g-kiev",
+      "teneta-kharkov",
+      "netlink",
+      "sitv-ktb-internet-fop-krasnikov-v-v",
+      "inguletska-dilnitsia-tsok-shirokivskogo-r-nu",
+      "sitv-ktb",
+      "o3-freenet",
+      "kichkas-net",
+      "vega-oborudovanie",
+      "tsifral-servis-ukraina-zaporozhe",
+      "gorodok-zaporozhe",
+      "gigabit-zaporozhe",
+      "chernoe-more-ktv",
+      "chernoe-more-internet",
+      "chernoe-more-tstv",
+      "zhek-10-g-chernigov-soderzhanie-domov",
+      "znet",
+      "blagodiinii-fond-oleksandriiskii",
+      "ternet",
+      "norma-4-internet",
+      "infokom",
+      "trk-mirik-tv",
+      "uaprostir",
+      "trion",
+      "nktv-nikolaev",
+      "nktv-ochakov",
+      "zhek-10-g-chernigov-elektroenergiia",
+      "liukslink-lutsk",
+      "boryspil-net",
+      "trk-maibuttia",
+      "krasnoarmeiskoe-ugg-donetskoblgaz",
+      "pat-donetskoblgaz-kramatorske-ugg-druzhkivske-viddilennia",
+      "pat-donetskoblgaz-artemivske-ugg",
+      "pat-donetskoblgaz-krasnoarmiiske-ugg-dokuchayivske-viddilennia",
+      "pat-donetskoblgaz-kramatorske-ugg",
+      "pat-donetskoblgaz-kostiantinivske-ugg",
+      "pat-donetskoblgaz-artemivske-ugg-debaltsevske-viddilennia",
+      "pat-mikolayivoblenergo-filiia-pivdenna",
+      "kp-novozavodskoe-g-chernigov-soderzh-dom",
+      "pat-donetskoblgaz-kostiantinivske-ugg-toretske-viddilennia",
+      "pat-donetskoblgaz-slov-ianske-ugg",
+      "pat-donetskoblgaz-krasnoarmiiske-ugg-mar-yinske-viddilennia",
+      "belovodskii-rem-lugansk-eo",
+      "belokurakinskii-rem-lugansk-eo",
+      "kremenskii-rem-lugansk-eo",
+      "lisichanskii-rem-lugansk-eo",
+      "milovskii-rem-lugansk-eo",
+      "novoaidarskii-rem-lugansk-eo",
+      "novopskovskii-rem-lugansk-eo",
+      "kp-chernigovvodokanal",
+      "popasniavskii-rem-lugansk-eo",
+      "rubezhanskii-rem-lugansk-eo",
+      "severodonetskii-rem-lugansk-eo",
+      "stanichno-luganskii-rem-lugansk-eo",
+      "starobelskii-rem-lugansk-eo",
+      "troitskii-rem-lugansk-eo",
+      "markovskii-rem-lugansk-eo",
+      "mistsevii-obchisliuvalnii-tsentr-m-lutska",
+      "vo-krasnii-liman-teplomerezha",
+      "vo-selidoveteplomerezha",
+      "zhek-13-g-chernigov",
+      "vo-volnovakha-mizhraiteplomerezha",
+      "vo-dimitrivteplomerezha",
+      "vo-druzhkivkateplomerezha",
+      "vo-kramatorsk-mizhraiteplomerezha",
+      "vo-slovianskteplomerezha",
+      "vo-kostiantinivkateplomerezha",
+      "vo-chasiv-iar-teplomerezha",
+      "infoaura",
+      "tsifral-servis-ukraina-kharkov",
+      "kharkivskii-mem-ak-kharkivoblenergo",
+      "ooo-faktoriia-mirts-g-artemovsk",
+      "chp-vils-mirts-g-artemovsk",
+      "zhilservis-1-mirts-g-artemovsk",
+      "npo-informatsionnye-tekhnologii",
+      "chp-kvartal-mirts-g-artemovsk",
+      "ooo-bakhmut-energiia",
+      "pat-ek-khersonoblenergo-visokopils-kii-rem",
+      "pat-ek-khersonoblenergo-genicheskii-rem",
+      "pat-ek-khersonoblenergo-golopristans-kii-rem",
+      "pat-ek-khersonoblenergo-ivanivskii-rem",
+      "merefske-rve-ak-kharkivoblenergo",
+      "pat-ek-khersonoblenergo-kakhovskii-rem",
+      "pat-ek-khersonoblenergo-velikolepetikhskii-rem",
+      "velton-telekom-po-telefonu",
+      "pat-ek-khersonoblenergo-novokakhov-i-berislav-i-rem",
+      "pat-ek-khersonoblenergo-novotroyitskii-rem",
+      "pat-ek-khersonoblenergo-skadovskii-rem",
+      "pat-ek-khersonoblenergo-tsiurupinskii-rem",
+      "pat-ek-khersonoblenergo-chaplinkivskii-rem",
+      "velton-telekom-po-personalnomu-kodu",
+      "katp-052810-g-kramatorsk",
+      "chuguyivskii-rem-ak-kharkivoblenergo",
+      "ooo-zhkk-mk-2010-g-kramatorsk",
+      "sez-zhkg-g-kramatorska",
+      "kramatorskteploset",
+      "kpp-kramatorskii-vodokanal",
+      "trimob-popovnennia-za-osobovim-rakhunkom",
+      "tov-softserv-munitsipalni-tekhnologiyi",
+      "trimob-popovnennia-rakhunku-za-nomerom-telefonu",
+      "pat-sumske-nvo-im-m-v-frunze",
+      "ooo-uk-komenergo-melitopol",
+      "teplovodosnabzhenie-g-boguslav-teplo",
+      "vovchanskii-rem-ak-kharkivoblenergo",
+      "teplovodosnabzhenie-g-boguslav-voda",
+      "vodokanal-g-borispol",
+      "zhek-g-borispol-kievskoi-obl",
+      "bilotserkovteplomerezha",
+      "vodokanal-g-iagotin",
+      "kp-bgs-ko-brovariteplovodoenergiia-opalennia-ta-gvp",
+      "kp-bmr-ko-brovariteplovodoenergiia-khvp-ta-vodovidvedennia",
+      "upravlenie-gorodskim-khoziaistvom-g-vishneve",
+      "ooo-leski-m",
+      "okp-mikolayivoblteploenergo-gariacha-voda",
+      "zmiyivskii-rem-ak-kharkivoblenergo",
+      "okp-mikolayivoblteploenergo-opalennia",
+      "zhkp-mgs-pribuzhzhia",
+      "pat-mikolayivska-teploelektrotsentral-voda",
+      "teploset-g-vyshgorod",
+      "kzhep-24",
+      "pat-mikolayivska-teploelektrotsentral-teplo",
+      "kzhep-mmr-zoria",
+      "tov-sobornoe-1",
+      "zhkp-mmr-pivden",
+      "kp-dez-okean",
+      "lipetske-rve-ak-kharkivoblenergo",
+      "zhek-10",
+      "pat-khmelnitskoblenergo-khmelnitskii-mrem",
+      "mkp-chernivtsiteplokomunenergo",
+      "pat-mikolayivoblenergo-m-mikolayiv",
+      "mkp-mikolayivvodokanal",
+      "teploset-poltava",
+      "ukrtelekom-po-nomeru-telefona",
+      "pridneprovskaia-sub",
+      "g-cherkassy-sluzhba-chistoty",
+      "kp-sub-mitnitsia",
+      "pechenizhskii-rem-ak-kharkivoblenergo",
+      "kp-subsosnivska",
+      "tov-cherkasigaz-zbut-cherkasi-ta-cherkaskii-raion",
+      "ukp-umanteplokommunenergo",
+      "cherkasskaia-tets",
+      "pat-mikolayivoblenergo-novoodeska-filiia",
+      "bogodukhivskii-rem-ak-kharkivoblenergo",
+      "valkovskii-rem-ak-kharkivoblenergo",
+      "kolomakske-rve-ak-kharkivoblenergo",
+      "dergachivskii-rem-ak-kharkivoblenergo",
+      "zachepilovskii-rem-ak-kharkivoblenergo",
+      "zolochivskii-rem-ak-kharkivoblenergo",
+      "krasnogradskii-rem-ak-kharkivoblenergo",
+      "krasnokutskii-rem-ak-kharkivoblenergo",
+      "novovodalazhskii-re-ak-kharkivoblenergo",
+      "balakliiskii-rem-ak-kharkivoblenergo",
+      "pat-mikolayivoblenergo-ochakivska-filiia",
+      "velikoburlukskii-rem-ak-kharkivoblenergo",
+      "borovskii-rem-ak-kharkivoblenergo",
+      "dvorichanskii-rem-ak-kharkivoblenergo",
+      "shevchenkovskii-rem-ak-kharkivoblenergo",
+      "iziumskii-rem-ak-kharkivoblenergo",
+      "kupianskii-rem-ak-kharkivoblenergo",
+      "kegichivskii-rem-ak-kharkivoblenergo",
+      "pervomaiskii-rem-ak-kharkivoblenergo",
+      "sakhnovshchinskii-rem-ak-kharkivoblenergo",
+      "barvinkovskii-rem-ak-kharkivoblenergo",
+      "pat-mikolayivoblenergo-singurivska-filiia",
+      "blizniukovskii-rem-ak-kharkivoblenergo",
+      "lozovskii-rem-ak-kharkivoblenergo",
+      "liubotinskii-rve-ak-kharkivoblenergo",
+      "kp-munitsipalna-investitsiina-upravliaiucha-kompaniia",
+      "vodotekhprom-m-ivano-frankivsk",
+      "teplokomunenergo-m-ivano-frankivsk",
+      "tov-ivano-frankivskgaz-zbut",
+      "pat-prikarpattiaoblenergo",
+      "kp-ivano-frankivskvodoekotekhprom-vodovidvedennia",
+      "kp-ivano-frankivskvodoekotekhprom-vodopostachannia",
+      "stikonet",
+      "pat-mikolayivoblenergo-arbuzinska-filiia",
+      "dmp-ivano-frankivskteplokomunenergo-opalennia",
+      "dmp-ivano-frankivskteplokomunenergo-pidigriv-vodi",
+      "kp-munitsipalna-investitsiina-upravliaiucha-kompaniia-kvartplata",
+      "uzhgorodskii-mrem-zakarpattia-oe",
+      "uzhgorodskii-rem-zakarpattia-oe",
+      "beregivskii-rem-zakarpattia-oe",
+      "velikobereznianskii-rem-zakarpattia-oe",
+      "vinogradivskii-rem-zakarpattia-oe",
+      "volovetskii-rem-zakarpattia-oe",
+      "irshavskii-rem-zakarpattia-oe",
+      "pat-mikolayivoblenergo-bratska-filiia",
+      "mizhgirskii-rem-zakarpattia-oe",
+      "mukachivskii-mrem-zakarpattia-oe",
+      "mukachivskii-rem-zakarpattia-oe",
+      "perechinskii-rem-zakarpattia-oe",
+      "rakhivskii-rem-zakarpattia-oe",
+      "svaliavskii-rem-zakarpattia-oe",
+      "tiachivskii-rem-zakarpattia-oe",
+      "khustskii-rem-zakarpattia-oe",
+      "prat-ek-chernivtsioblenergo-chernivetskii-rem",
+      "prat-ek-chernivtsioblenergo-gertsayivskii-rem",
+      "pat-mikolayivoblenergo-veselinivska-filiia",
+      "prat-ek-chernivtsioblenergo-kitsmanskii-rem",
+      "prat-ek-chernivtsioblenergo-glibotskii-rem",
+      "prat-ek-chernivtsioblenergo-khotinskii-rem",
+      "prat-ek-chernivtsioblenergo-kelmenetskii-rem",
+      "prat-ek-chernivtsioblenergo-novoselitskii-rem",
+      "prat-ek-chernivtsioblenergo-putils-kii-rem",
+      "prat-ek-chernivtsioblenergo-sokirianskii-rem",
+      "prat-ek-chernivtsioblenergo-storozhinetskii-rem",
+      "prat-ek-chernivtsioblenergo-vizhnitskii-rem",
+      "prat-ek-chernivtsioblenergo-zastavnivskii-rem",
+      "pat-mikolayivoblenergo-voznesenska-filiia",
+      "rivneoblvodokanal",
+      "tov-rivneteploenergo-opalennia",
+      "bar-pat-vinnitsiaoblenergo",
+      "bershad-pat-vinnitsiaoblenergo",
+      "vinnitsia-pat-vinnitsiaoblenergo-miski-em",
+      "gaisin-pat-vinnitsiaoblenergo",
+      "zhmerinka-pat-vinnitsiaoblenergo",
+      "zamostia-pat-vinnitsiaoblenergo",
+      "illintsi-pat-vinnitsiaoblenergo",
+      "kalinivka-pat-vinnitsiaoblenergo",
+      "pat-mikolayivoblenergo-vradiyivska-filiia",
+      "koziatin-pat-vinnitsiaoblenergo",
+      "krizhopil-pat-vinnitsiaoblenergo",
+      "lipovets-pat-vinnitsiaoblenergo",
+      "litin-pat-vinnitsiaoblenergo",
+      "mogiliv-podils-kii-pat-vinnitsiaoblenergo",
+      "murovani-kurilivtsi-pat-vinnitsiaoblenergo",
+      "nemiriv-pat-vinnitsiaoblenergo",
+      "orativ-pat-vinnitsiaoblenergo",
+      "pishchanka-pat-vinnitsiaoblenergo",
+      "pogrebishche-pat-vinnitsiaoblenergo",
+      "pat-mikolayivoblenergo-domanivska-filiia",
+      "teplik-pat-vinnitsiaoblenergo",
+      "tivriv-pat-vinnitsiaoblenergo",
+      "tomashpil-pat-vinnitsiaoblenergo",
+      "trostianets-pat-vinnitsiaoblenergo",
+      "tulchin-pat-vinnitsiaoblenergo",
+      "khmilnik-pat-vinnitsiaoblenergo",
+      "chernivtsi-pat-vinnitsiaoblenergo",
+      "chechelnik-pat-vinnitsiaoblenergo",
+      "shargorod-pat-vinnitsiaoblenergo",
+      "iampil-pat-vinnitsiaoblenergo",
+      "pat-mikolayivoblenergo-elanetska-filiia",
+      "ukrtelekom-po-lits-schetu",
+      "tov-ukrayina",
+      "vzhts-ariadna",
+      "zhek-1-suvorovskogo-r-nu",
+      "tov-shumen",
+      "viasat-uatv",
+      "orion-city",
+      "domashnii-telekom-televidenie",
+      "kzhrep-4",
+      "pat-mikolayivoblenergo-krivoozerska-filiia",
+      "pp-region-tsentr",
+      "pp-zhitloservis",
+      "domashnii-telekom-telefoniia",
+      "pp-remzhitloservis",
+      "ek-odesaoblenergo-chernomorskii-rem",
+      "ek-odesaoblenergo-b-dnistrovskii-rem",
+      "ek-odesaoblenergo-biliayivskii-rem",
+      "ek-odesaoblenergo-berezivskii-rem",
+      "ek-odesaoblenergo-veliko-mikhailivskii-rem",
+      "ek-odesaoblenergo-ivanivskii-rem",
+      "pat-mikolayivoblenergo-novobuzka-filiia",
+      "ek-odesaoblenergo-limanskii-rem",
+      "domashnii-telekom-internet",
+      "ek-odesaoblenergo-ovidiopils-kii-rem",
+      "ek-odesaoblenergo-rozdilnianskii-rem",
+      "ek-odesaoblenergo-artsizskii-rem",
+      "ek-odesaoblenergo-bolgradskii-rem",
+      "ek-odesaoblenergo-kiliiskii-rem",
+      "ek-odesaoblenergo-reniiskii-rem",
+      "ek-odesaoblenergo-saratskii-rem",
+      "ek-odesaoblenergo-tarutinskii-rem",
+      "pat-mikolayivoblenergo-pervomaiska-filiia",
+      "ek-odesaoblenergo-tatarbunarskii-rem",
+      "ek-odesaoblenergo-ananyivskii-rem",
+      "datagrup-internet-bum-sputnikovyi-internet",
+      "ek-odesaoblenergo-baltskii-rem",
+      "ek-odesaoblenergo-kodimskii-rem",
+      "ek-odesaoblenergo-oknianskii-rem",
+      "ek-odesaoblenergo-liubashivskii-rem",
+      "ek-odesaoblenergo-mikolayivskii-rem",
+      "ek-odesaoblenergo-savranskii-rem",
+      "ek-odesaoblenergo-zakharivskii-rem",
+      "volsstroi-odessa",
+      "izmail-vodokanal",
+      "ek-odesaoblenergo-shiriaievskii-rem",
+      "ek-odesaoblenergo-izmayils-kii-rem",
+      "ek-odesaoblenergo-podils-kii-rem",
+      "intertelekom",
+      "lifecell_phone",
+      "lifecell-popovnennia-rakhunku-za-nomerom-telef",
+      "lifecell_contract",
+      "lifecell-popovnennia-za-nomerom-dogovoru",
+      "shtrafy-pravil-dd-vinnitsaia-obl",
+      "shtrafy-za-narush-pdd-volynskaia-obl",
+      "shtrafy-za-narush-pdd-dnepr-obl",
+      "shtrafy-za-narush-pdd-donetsk-obl",
+      "izmail-vodokanal-vodootvedenie",
+      "shtrafy-za-narush-pdd-zhitomir-obl",
+      "shtrafy-za-narush-pdd-zakarpat-obl",
+      "shtrafy-za-narush-pdd-zaporozh-obl",
+      "shtrafy-za-narush-pdd-ivano-frank-obl",
+      "shtrafy-za-narush-pdd-kievskaia-obll",
+      "shtrafy-za-narush-pdd-kirovograd-obl",
+      "shtrafy-za-narush-pdd-luganskaia-obl",
+      "shtrafy-za-narush-pdd-lvovskaia-obl",
+      "shtrafy-za-narush-pdd-nikolaev-obl",
+      "shtrafy-za-narush-pdd-odesskaia-obl",
+      "kp-cherkasivodokanal",
+      "shtrafy-za-narush-pdd-poltav-obl",
+      "shtrafy-za-narush-pdd-rovens-obl",
+      "shtrafy-za-narush-pdd-sumskaia-obl",
+      "shtrafy-za-narush-pdd-ternop-obl",
+      "shtrafy-za-narush-pdd-kharkov-obl",
+      "shtrafy-za-narush-pdd-kherson-obl",
+      "shtrafy-za-narush-pdd-khmelnitsk-obl",
+      "shtrafy-za-narush-pdd-cherkas-obl",
+      "shtrafy-za-narush-pdd-chernovetsk-obl",
+      "shtrafy-za-narush-pdd-chernigov-obl",
+      "cherkassy-gres",
+      "shtrafy-za-narush-pdd-g-kiev",
+      "e-rozstrochka",
+      "ks-oshchadna-kasa",
+      "cnm-k1",
+      "cnm-k2",
+      "cnm-k3",
+      "itk-internet-fop-kozlenko-s-m-sumi",
+      "belcom",
+      "xtra-tv",
+      "sistema-zaporozhe",
+      "drabovskii-res",
+      "favorit-sport",
+      "bi-net",
+      "irshansk-telekom",
+      "localnet",
+      "eksi-net",
+      "gentel",
+      "sword",
+      "ukrayinski-optichni-sistemi",
+      "mit-skynet",
+      "monastyrishchenskii-res",
+      "tv-net",
+      "norma-4-televidenie",
+      "otp-bank-pogashenie-kredita",
+      "pollycomm",
+      "homenet",
+      "uacity",
+      "azovgaz-g-mariupol",
+      "interlan-vishgorod",
+      "lanet",
+      "prosto",
+      "chigirinskii-res",
+      "mironivkanet",
+      "volinski-optichni-merezhi",
+      "mtm",
+      "stkom",
+      "vincitynet-vinnitsa",
+      "net-line-03241-4-20-21",
+      "yezzz",
+      "kim",
+      "unitel-iunitel",
+      "itplus",
+      "gorodishchenskii-res",
+      "trk-planeta-chernivtsi",
+      "cityhost",
+      "citydomain",
+      "tm-opensvit",
+      "local-student-networks",
+      "diti-proti-raku-mbf-tsspm",
+      "dopomoga-ditiam-skhodu-mbf-tsspm",
+      "dopomoga-ditiam-dtsp-mbf-tsspm",
+      "dopomoga-glukhim-ditiam-mbf-tsspm",
+      "uvaga-tuberkuloz-mbf-tsspm",
+      "smeliansgii-gres",
+      "stop-gepatit-mbf-tsspm",
+      "dopomoga-ditiam-invalidam-mbf-tsspm",
+      "mii-drug-mbf-tsspm",
+      "suchasna-meditsina-mbf-tsspm",
+      "i-link",
+      "obltelekom",
+      "givts-g-kiev-po-identifikatoru-kvartiry",
+      "kedr",
+      "tov-dnipropetrovskgaz-zbut",
+      "tov-kharkivgaz-zbut",
+      "talnovskii-res",
+      "tov-vinnitsiagaz-zbut",
+      "tov-volingaz-zbut",
+      "dneprvodokanal",
+      "tov-zhitomirgaz-zbut",
+      "tov-zakarpatgaz-zbut",
+      "tov-kiyivoblgaz-zbut",
+      "tov-mikolayivgaz-zbut",
+      "tov-rivnegaz-zbut",
+      "dnepropetrovsk-teploset",
+      "tov-khmelnitskgaz-zbut",
+      "upravlinnia-politsiyi-okhoroni-v-m-kievi",
+      "khristinovskii-res",
+      "tov-chernigivgaz-zbut",
+      "tov-chernivtsigaz-zbut",
+      "dp-gaz-melitopolia-pat-melitopolgaz",
+      "tsok-m-dnipropetrovsk",
+      "pat-kiyivvodokanal-bagatokvartirni-budinki",
+      "pat-kiyivvodokanal-bagatokvartirni-budinki-kholodne-voda-vodovidvedennia",
+      "pat-kiyivvodokanal-bagatokvartirni-budinki-vodovidvedennia-gvp",
+      "tov-kovals-ka-zhitloservis",
+      "pat-ek-zhitomiroblenergo-andrushivskii-rem",
+      "pat-ek-zhitomiroblenergo-baranivskii-rem",
+      "kanevskii-res",
+      "pat-ek-zhitomiroblenergo-berdichivskii-rem",
+      "pat-ek-zhitomiroblenergo-brusilivskii-rem",
+      "pat-ek-zhitomiroblenergo-khoroshivskii-rem",
+      "pat-ek-zhitomiroblenergo-emilchinskii-rem",
+      "pat-ek-zhitomiroblenergo-zhitomirskii-rem",
+      "pat-ek-zhitomiroblenergo-zarichanskii-rem",
+      "pat-ek-zhitomiroblenergo-korostenskii-rem",
+      "pat-ek-zhitomiroblenergo-korostishivskii-rem",
+      "pat-ek-zhitomiroblenergo-luginskii-rem",
+      "pat-ek-zhitomiroblenergo-liubarskii-rem",
+      "smelianskii-res",
+      "pat-ek-zhitomiroblenergo-malinskii-rem",
+      "pat-ek-zhitomiroblenergo-naroditskii-rem",
+      "pat-ek-zhitomiroblenergo-novograd-volinskii-rem",
+      "pat-ek-zhitomiroblenergo-ovrutskii-rem",
+      "pat-ek-zhitomiroblenergo-olevskii-rem",
+      "pat-ek-zhitomiroblenergo-popilnianskii-rem",
+      "pat-ek-zhitomiroblenergo-radomishls-kii-rem",
+      "pat-ek-zhitomiroblenergo-romanivskii-rem",
+      "pat-ek-zhitomiroblenergo-ruzhinskii-rem",
+      "pat-ek-zhitomiroblenergo-pulinskii-rem",
+      "umanskie-es",
+      "pat-ek-zhitomiroblenergo-cherniakhivskii-rem",
+      "pat-ek-zhitomiroblenergo-chudnivskii-rem",
+      "tov-cherkasigaz-zbut-smilianskii-raion",
+      "tov-cherkasigaz-zbut-zolotoniskii-raion",
+      "tov-cherkasigaz-zbut-gorodishchenskii-raion",
+      "tov-cherkasigaz-zbut-kanivskii-raion",
+      "tov-cherkasigaz-zbut-drabivskii-raion",
+      "tov-cherkasigaz-zbut-k-shevchenkivskii-raion",
+      "tov-cherkasigaz-zbut-zhashkivskii-raion",
+      "tov-cherkasigaz-zbut-chornobayivskii-raion",
+      "lisianskii-res",
+      "tov-cherkasigaz-zbut-talnivskii-raion",
+      "tov-cherkasigaz-zbut-m-vatutine",
+      "tov-cherkasigaz-zbut-lisianskii-raion",
+      "tov-cherkasigaz-zbut-shpolianskii-raion",
+      "tov-cherkasigaz-zbut-monastirishchenskii-raion",
+      "tov-cherkasigaz-zbut-chigirinskii-raion",
+      "ov-cherkasigaz-zbut-kamianskii-raion",
+      "tov-cherkasigaz-zbut-katerinopils-kii-raion",
+      "tov-cherkasigaz-zbut-zvenigorodskii-raion",
+      "lksp-lisichanskvodokanal",
+      "katerinopolskii-res",
+      "tov-rivneteploenergo-gvp",
+      "taksi-student-kiev",
+      "taksi-student-kharkov",
+      "taksi-student-lubny",
+      "taksi-evro-zaporozhe",
+      "taksi-imperiia-kiev",
+      "taksi-imperiia-kharkov",
+      "taksi-imperiia-lubny",
+      "taksi-deviatochka-kiev",
+      "taksi-deviatochka-dnepropetrovsk",
+      "chernobaevskii-res",
+      "taksi-turist-kharkov",
+      "taksi-turist-kiev",
+      "taksi-plius-pavlograd",
+      "taksi-plius-dnepropetrovsk",
+      "taksi-turist-lubny",
+      "taksi-plius-nikopol",
+      "maksi-taksi-poltava",
+      "maksi-taksi-sumy",
+      "maksi-taksi-kremenchug",
+      "taksi-aviz-kiev",
+      "cherkasskii-res",
+      "taksi-ivan-zaporozhe",
+      "taksi-ivan-berdiansk",
+      "taksi-ivan-melitopol",
+      "taksi-ivan-kirillovka",
+      "taksi-taksa-zaporozhe",
+      "taksi-ekotrans-zaporozhe",
+      "taksi-terminal-kiev",
+      "taksi-avalon-kiev",
+      "taksi-alfa-kiev",
+      "kamenskii-res",
+      "taksi-piaterka-kiev",
+      "taksi-optimalnoe-zaporozhe",
+      "taksi-optimalnoe-kherson",
+      "taksi-dzhaz-odessa",
+      "taksi-dzhaz-dnepropetrovsk",
+      "taksi-sens-dnepropetrovsk",
+      "taksi-bavariia-kiev",
+      "takci-forsazh-kiev",
+      "taksi-915-zaporozhe",
+      "taksi-avangard348-kiev",
+      "shpolianskii-res",
+      "taksi-avangard-348-odessa",
+      "taksi-1561-1580",
+      "taksi-dzhaz-nikolaev",
+      "taksi-nazari-kiev",
+      "taksi-karat-kiev",
+      "taksi-fly-kiev",
+      "taksi-smail-odessa",
+      "taksi-dialog-kiev",
+      "taksi-domino-kiev",
+      "taksi-korporativnoe-kiev",
+      "kristall-telekom",
+      "zhashkovskii-res",
+      "taksi-1-kiev",
+      "taksi-24-kiev",
+      "taksi-571-kiev",
+      "taksi-milano-kiev",
+      "taksi-3933-kiev",
+      "taksi-3933-dnepropetrovsk",
+      "taksi-3933-nezhin",
+      "taksi-3933-odessa",
+      "taksi-3933-lvov",
+      "taksi-797-kiev",
+      "korsun-shevchenkovskii-res",
+      "taksi-797-kharkov",
+      "taksi-797-poltava",
+      "taksi-797-zaporozhe",
+      "taksi-797-odessa",
+      "taksi-797-lvov",
+      "taksi-liubimoe-kiev",
+      "taksi-662-kiev",
+      "taksi-irbis-kiev",
+      "taksi-373-kiev",
+      "taksi-915-nikolaev",
+      "zolotonoshskii-res",
+      "taksi-2444-odessa",
+      "taksi-alisa-kiev-fop-voropaiev-o-iu-pozyvnye-do-4999",
+      "taksi-5545-kiev",
+      "taksi-liniia-kiev",
+      "taksi-karbon-kiev",
+      "taksi-sierra-kiev",
+      "taksi-avrora-kiev",
+      "taksi-nedorogo-zaporozhe",
+      "peoplenet",
+      "taksi-2444-lvov",
+      "mankovskii-res",
+      "taksi-star-kiev",
+      "taksi-virazh-odessa",
+      "taksi-virazh-dnepropetrovsk",
+      "maksi-taksi-kiev",
+      "travelsim",
+      "khosting-ukraina",
+      "setka",
+      "columbus",
+      "maximum-net-internet",
+      "maximum-net-telebachennia",
+      "zvenigorodskii-res",
+      "aviso-oplata-scheta",
+      "aviso-popolnenie-lichnogo-kabineta",
+      "aviso-partneram",
+      "prolink",
+      "superdeal",
+      "okinet-kiev",
+      "eurolan",
+      "foryounet",
+      "greenet-kiev",
+      "servis-24-kiev",
+      "tov-sumigaz-zbut",
+      "pokupon",
+      "digicom",
+      "kievnet",
+      "ipnet",
+      "sohonet",
+      "alfa-inet-kiev",
+      "kuzia-kiev",
+      "cdc-slaviansk",
+      "rubintelekom-nova-kakhovka",
+      "askad-net-skadovk",
+      "kyivstar_phone",
+      "kiyivstar-popovnennia-rakhunku-za-nomerom-telefonu",
+      "smartnet-kakhovka",
+      "infotech-kiev",
+      "soborka-net-odessa",
+      "satok-kievskaia-obl",
+      "orbita-odessa",
+      "everest-vinnitsia-internet",
+      "everest-vinnitsia-analogove-telebachennia",
+      "everest-vinnitsia-tsifrove-telebachennia",
+      "prolan-kiev",
+      "ukrlink-grup-kiev",
+      "pat-sumioblenergo",
+      "artweb-kiev",
+      "bc-big-net-kievskaia-obl",
+      "tenet-internet-odessa",
+      "tenet-televidenie-odessa",
+      "tenet-internet-nikolaev",
+      "tenet-televidenie-nikolaev",
+      "isp-viplan-kiev",
+      "pivnichline-rovnenskaia-obl",
+      "diskaveri-ivano-frankovsk",
+      "intelekt-chernovtsy",
+      "kyivstar_internet",
+      "kiyivstar-domashnii-kiyivstar",
+      "roket-net-donetskaia-obl",
+      "green-net-kiev",
+      "lider-net-ivano-frankovsk",
+      "startnetwork-kiev",
+      "cid-net-ua-uid-kiev",
+      "cid-net-ua-login-kiev",
+      "bezlimit-net",
+      "artnet-artemovsk",
+      "artnetplus-artemovsk",
+      "arttv-artemovsk",
+      "kyivstar_contract",
+      "kiyivstar-popovnennia-za-osobovim-rakhunkom",
+      "kmkpt-artemovsk",
+      "iaskrave-tv-artemovsk",
+      "zakaz-artemovsk",
+      "5tv-artemovsk",
+      "kiparis-lcc-artemovsk",
+      "pervomaiskii-res",
+      "volodarskii-res",
+      "world-of-tanks",
+      "world-of-warplanes",
+      "world-of-warships",
+      "langate-chernovtsy",
+      "vodafone_phone",
+      "vodafone-po-nomeru-telefona",
+      "warface",
+      "4game",
+      "combat-arms",
+      "11-x-11",
+      "gamenet",
+      "bitva-titanov",
+      "russkaia-rybalka",
+      "varvary",
+      "perfect-world",
+      "bumz",
+      "vodafone_contract",
+      "vodafone-po-litsevomu-schetu",
+      "vikingi",
+      "drakony",
+      "legenda-nd-feo-praim",
+      "geroi-voiny-i-deneg",
+      "razrushiteli",
+      "armored-warfare-proekt-armata",
+      "cross-fire",
+      "pointblank",
+      "prime-world",
+      "war-thunder",
+      "pat-volinoblenergo-volodimir-volinska-filiia",
+      "archeage",
+      "skyforge",
+      "udivitelnyi-kolkhoz",
+      "league-of-legends-470-riot-points",
+      "league-of-legends-1000-riot-points",
+      "league-of-legends-2600-riot-points",
+      "league-of-legends-5300-riot-points",
+      "league-of-legends-8100-riot-points",
+      "league-of-legends-11000-riot-points",
+      "4story",
+      "pat-volinoblenergo-gorokhivska-filiia",
+      "8day",
+      "9-drakonov",
+      "ace-online",
+      "aika-online",
+      "art-of-war-2-online",
+      "bloody-world",
+      "dragon-nest",
+      "firestorm",
+      "gaijin-online",
+      "game-xp",
+      "pat-volinoblenergo-ivanichivska-filiia",
+      "haddan",
+      "jade-dynasty",
+      "artemovsk-gorodskoi-res",
+      "lava-online",
+      "lineage-2",
+      "lost-magic",
+      "metal-war-online",
+      "my-lands",
+      "neverlands",
+      "rappelz",
+      "pat-volinoblenergo-kamin-kashirska-filiia",
+      "artemovsk-selskii-res",
+      "riot",
+      "steam",
+      "tickets-ua",
+      "galaxy-galaktika-znakomstv",
+      "viber",
+      "skype",
+      "loveplanet",
+      "zenit-internet-kurakhovo",
+      "zenit-televidenie-kurakhovo",
+      "pat-volinoblenergo-kivetsivska-filiia",
+      "divan-tv",
+      "trk-briz-odessa",
+      "khmelnitskinfokom-khmelnitskii",
+      "n-line-kiev",
+      "it-liuks-kalush-ofis-vul-b-khmelnitskogo-14",
+      "it-liuks-kalush-ofis-vul-karakaia-9",
+      "bitnet-dobropole",
+      "uik-kiev",
+      "dzerzhinskii-res",
+      "primenet-odessa",
+      "pat-volinoblenergo-kovelsbka-filiia",
+      "stream-network-kalush",
+      "trilogic-group-kherson",
+      "gigatel-rovenskaia-oblast",
+      "trk-ros-telekom-kiev",
+      "ria-com",
+      "vicom",
+      "makler",
+      "starline-telekomunikatsiini-poslugi",
+      "starline-konsultatsiini-poslugi-v-sferi-telekomunikatsii",
+      "starline-inshi-poslugi",
+      "pat-volinoblenergo-lokachinska-filiia",
+      "ars-odesskaia-oblast",
+      "region-odesskaia-oblast",
+      "region-dnepropetrovskaia-oblast",
+      "region-kharkovskaia-oblast",
+      "lanpro-chernovitskaia-oblast",
+      "prikarpatske-vp-zv-iazku",
+      "prikarpatske-vp-zv-iazku-telefoniia",
+      "web-service-nomer-scheta-zhitomirskaia-obl",
+      "web-service-login-zhitomirskaia-obl",
+      "kramatorskii-res",
+      "pat-volinoblenergo-lutska-miska-filiia",
+      "trk-mriia-internet-ovruch",
+      "trk-mriia-televidenie-ovruch",
+      "kopiika-lviv",
+      "laki-netvork-kiev",
+      "toms-kiev",
+      "merlin-telecom-kiev",
+      "mtk-net-chernovtsy",
+      "sinet-kiev",
+      "localka-odessa",
+      "slavianskii-res",
+      "efir-mangush",
+      "pat-volinoblenergo-lutska-raionna-filiia",
+      "detut-kiev",
+      "elt-kiev",
+      "lan-net-kalush",
+      "ntk-provaider-ivano-frankivska-obl",
+      "tenet-wi-fi-2-chasa-odessa-7-grn",
+      "tenet-wi-fi-10-chasov-odessa-25-grn",
+      "tenet-wi-fi-30-chasov-odessa-60-grn",
+      "tenet-wi-fi-100-chasov-odessa-160-grn",
+      "tenet-wi-fi-sutki-odessa-15-grn",
+      "druzhkovskii-res",
+      "pat-volinoblenergo-liubeshivska-filiia",
+      "tenet-wi-fi-troe-sutok-odessa-30-grn",
+      "tenet-wi-fi-nedelia-odessa-60-grn",
+      "tenet-wi-fi-mesiats-odessa-99-grn",
+      "tenet-wi-fi-2-nedeli-odessa-120-grn",
+      "goodline",
+      "firma-radio-vinnitsia",
+      "gigapon-net-poltavskaia-oblast",
+      "hotlan-m-korsun-shevchenkivskii",
+      "inttel-artemovsk",
+      "konstantinovskii-res",
+      "pat-volinoblenergo-liubomls-ka-filiia",
+      "astra-iug-telekom-odessa",
+      "astratelcom-illichevsk",
+      "dobovo-com",
+      "fractal-kharkovkaia-oblast",
+      "adamant-telekom-domen-i-khosting",
+      "adamant-telekom-vps-i-kolokeishn",
+      "domashniaia-set-kiev",
+      "teremki-lan-kiev",
+      "expres-net-zakarpatskaia-obl",
+      "krasnolimanskii-res",
+      "pat-volinoblenergo-shatskii-rem",
+      "internet-tekhnologiyi-kiyiv",
+      "isp-alternativa-kiev",
+      "dianet-zaporozhe",
+      "rubin-plius-telebachennia-m-nova-kakhovka",
+      "wifi-in-ua",
+      "batyevka-net-kiev",
+      "hausenet-brovary",
+      "sk-etalon-polis",
+      "cnl",
+      "kirovskie-es",
+      "pat-volinoblenergo-manevitska-filiia",
+      "tvoinet-sitinet-zaporozhe",
+      "uatel-kievskaia-oblast",
+      "artmedia-bakhmut",
+      "intera-2015",
+      "qlan-kiev",
+      "wulkan-isp-kiev",
+      "bisnet-odesskaia-oblast",
+      "osokorki-online-kiev",
+      "dikii-sad-nikolaev",
+      "bitter-net-ternopil",
+      "pat-volinoblenergo-novovolinska-filiia",
+      "selidovskii-res",
+      "multinet-pavlograd",
+      "lambda-net-ua-kiev",
+      "vivat-tv-kharkov",
+      "gts-dnepropetrovsk",
+      "lan-trace-kievskaia-oblast",
+      "sila-net-kirovograd",
+      "moneyveo",
+      "luxlite-kiev",
+      "dobropolskii-res",
+      "pat-volinoblenergo-ratnivska-filiia",
+      "krivorozhskii-res",
+      "aleksandrovskii-res",
+      "krasnoarmeiskii-res",
+      "express-nikopol-oplata-po-nomeru",
+      "express-nikopol-oplata-po-imeni",
+      "airport",
+      "nak-net",
+      "askon-pereiaslav-khmelnitskii",
+      "kabare-kupon-kiev",
+      "grizli-mariupol",
+      "pat-volinoblenergo-rozhishchenska-filiia",
+      "domolan-kiev",
+      "miranet-sumy",
+      "astra-lvov-vinniki",
+      "telekompleks-kiev",
+      "srazy-network",
+      "global-net-zaporozhe",
+      "itelkom-zaporozhe",
+      "sipnet",
+      "rx-name",
+      "alliancenet",
+      "pat-volinoblenergo-starovizhivska-filiia",
+      "volia",
+      "icn-odessa",
+      "optim-kiev",
+      "m-tel-uman",
+      "sobnet-vinnitskaia-obl",
+      "concert-ua",
+      "wintelecom-vinnitsa",
+      "gaziknet-lvovskaia-obl",
+      "x-net-khotin-net-chernovitskaia-obl",
+      "pat-volinoblenergo-turiiska-filiia",
+      "popovnennia-karti",
+      "mediana-zaporozhe",
+      "trk-kraevid-nikolaev-internet",
+      "trk-kraevid-nikolaev-ktb",
+      "khatanet-pereiaslav-khmelnitskii",
+      "zahidnet-ivano-frankovskaia-obl",
+      "zeus-net-kremenchug",
+      "avdeevskii-res",
+      "ncn-odessa",
+      "domtelenet-volnovakha",
+      "the-best",
+      "givts-g-kiev-po-zheku-i-l-s",
+      "format-mariupol",
+      "triolan-wi-fi",
+      "iport-kievskaia-obl",
+      "lks-okean-odessa",
+      "spaidernet-odessa",
+      "x-net-odessa",
+      "lumina-vyshgorod",
+      "velikonovoselkovskii-res",
+      "kvant-ii-kolomiia",
+      "disavi-line-kharkivska-obl",
+      "tsifral-servis-ukraina-odessa",
+      "vita-net-chernovtsy",
+      "westelecom-odessa",
+      "flynet-kharkov",
+      "itk-internet-fop-perov-andrii-sumi",
+      "marinskii-res",
+      "vilan-kolomiia",
+      "itnet-kolomiia",
+      "limanet-rozdilna",
+      "ultra-cash",
+      "sitv-internet-fop-perov-o-o",
+      "beatle-net-chernigov",
+      "apelsin-net-kievskaia-obl",
+      "volsnet-odessa",
+      "meri-kei",
+      "prat-kiyivski-elektromerezhi-pat-kiyivenergo",
+      "volnovakhskii-res",
+      "sk-raritet",
+      "cdc-oborudovanie-slaviansk",
+      "tsentr-sp-maibutnogo-diti-meteliki",
+      "tsentr-sp-maibutnogo-bank-likiv",
+      "fastynet-kyiv",
+      "pat-kiyivvodokanal-privatnii-sektor",
+      "inbc-m-balta",
+      "novaia-sviaz-nikolaev",
+      "linet-zaporozhskaia-obl",
+      "trk-kraevid-nikolaev-tsoa-podkliuchenie-k-internetu",
+      "trk-kraevid-nikolaev-tsoa-podkliuchenie-k-ktb",
+      "global-credit-pogashenie-kredita",
+      "global-credit-prodlenie-kredita",
+      "tvoyi-groshi-pogashenie-kredita",
+      "tvoyi-groshi-prodlenie-kredita",
+      "dkc-zhitomir",
+      "norma-tv-odessa",
+      "shvidka-pozika",
+      "infomir-odessa",
+      "elan-internet-odessa",
+      "elan-tv-odessa",
+      "primonet-lviv-ta-lvivska-obl",
+      "parus-it-lviv-ta-lvivska-obl",
+      "airnet-m-kharkiv-m-dnipro",
+      "tneu-oplata-za-prozhivannia-v-gurtozhitku",
+      "tneu-za-arkhivnu-dovidku",
+      "tneu-za-navchannia",
+      "tneu-za-fakultativni-zaniattia-ponad-obsiagi-vstanovleni-navchalnim-planom",
+      "tneu-za-kursi-vivchennia-inozemnikh-mov",
+      "tneu-za-navchannia-u-chortkivskomu-koledzhi-ep",
+      "tneu-za-navchannia-u-koledzhi-epit",
+      "tneu-za-orendu",
+      "tneu-vidshkoduvannia-vartosti-vtrachenikh-dokumentiv-pro-osvitu",
+      "tneu-vidshkoduvannia-koshtiv-za-dokumenti-pro-osvitu",
+      "prat-lvivoblenergo-elektroenergiia",
+      "tneu-vidshkoduvannia-vitrat-za-nadani-komunalni-poslugi",
+      "sacura",
+      "tneu-za-vipisku-do-diplomu-pro-osvitu",
+      "ultraxnet-zhitomirska-obl-vinnitska-obl",
+      "nemicom",
+      "nuk-im-adm-makarova-splata-za-navchannia-poslugi-z-oformlennia-dokumentiv-pro-osvitu",
+      "nuk-im-adm-makarova-splata-za-kvartplatu-gurtozhitok-gospodarska-diialnist",
+      "telkom",
+      "kontekh",
+      "totallink-chernivtsi",
+      "bfgnet-koblevo",
+      "radio-network-lvivska-obl-ta-m-lviv",
+      "tsifral-servis-ukraina-dnepropetrovsk",
+      "limnet-lvivska-obl-ta-m-lviv",
+      "cactus",
+      "portal",
+      "netassist-kiev",
+      "beetectelecom-odessa",
+      "miratel-odessa",
+      "homenet-kiev",
+      "tov-magelan-mikolayiv",
+      "kp-miskteplovodenergiia-tsentr-teplopost-ta-gar-voda",
+      "kp-miskteplovodenergiia-tsentr-vodopost-ta-vodovidv-inshe",
+      "kolo-tv-g-kiev",
+      "kp-kharkivski-teplovi-merezhi-opalennia",
+      "kp-kharkivski-teplovi-merezhi-gariache-vodopostachannia",
+      "it-liuks-raion-g-ivano-frankovsk",
+      "zhilservis-2",
+      "sitv-plus-ktb-sumy",
+      "bonus-tv",
+      "skarbnitsia",
+      "svizha-kopiika",
+      "kreditor-khkhi",
+      "pat-chernigivoblenergo-chernigivski-mem",
+      "jamzonet-m-lviv",
+      "pat-chernigivoblenergo-chernigivskii-rem",
+      "pat-chernigivoblenergo-chernigivskii-rem-slavutich",
+      "pat-chernigivoblenergo-bakhmatskii-rem",
+      "pat-chernigivoblenergo-bobrovitskii-rem",
+      "pat-chernigivoblenergo-borznianskii-rem",
+      "pat-chernigivoblenergo-varvinskii-rem",
+      "pat-chernigivoblenergo-gorodnianskii-rem",
+      "pat-chernigivoblenergo-ichnianskii-rem",
+      "pat-chernigivoblenergo-kozeletskii-rem",
+      "pat-chernigivoblenergo-koropskii-rem",
+      "mylan-zhitomir",
+      "finet",
+      "pat-chernigivoblenergo-koriukivskii-rem",
+      "pat-chernigivoblenergo-kulikivskii-rem",
+      "pat-chernigivoblenergo-menskii-rem",
+      "pat-chernigivoblenergo-nizhinskii-rem",
+      "pat-chernigivoblenergo-novgorod-siverskii-rem",
+      "pat-chernigivoblenergo-nosivskii-rem",
+      "pat-chernigivoblenergo-prilutskii-rem",
+      "pat-chernigivoblenergo-ripkinskii-rem",
+      "pat-chernigivoblenergo-semenivskii-rem",
+      "pat-chernigivoblenergo-sosnitskii-rem",
+      "telegroup-internet",
+      "pat-chernigivoblenergo-sribnianskii-rem",
+      "pat-chernigivoblenergo-talalayivskii-rem",
+      "pat-chernigivoblenergo-shchorskii-rem",
+      "tov-poltavagaz-zbut-m-poltava",
+      "tov-poltavagaz-zbut-kobeliatskii-r-n",
+      "tov-poltavagaz-zbut-globinskii-r-n-globino",
+      "tov-poltavagaz-zbut-globinskii-r-n-gradizk",
+      "tov-poltavagaz-zbut-n-sanzharskii-r-n",
+      "tov-poltavagaz-zbut-kozelshchinskii-r-n",
+      "tov-poltavagaz-zbut-reshetilivskii-r-n",
+      "telegroup-telefoniia",
+      "tov-poltavagaz-zbut-dikanskii-r-n",
+      "tov-poltavagaz-zbut-shishitskii-r-n",
+      "tov-poltavagaz-zbut-v-bagachanskii-r-n-v-bagachka",
+      "tov-poltavagaz-zbut-v-bagachanskii-r-n-gogoleve",
+      "tov-poltavagaz-zbut-chutivskii-r-n",
+      "tov-poltavagaz-zbut-karlivskii-r-n",
+      "tov-poltavagaz-zbut-zinkivskii-r-n-zinkiv",
+      "tov-poltavagaz-zbut-zinkivskii-r-n-opishnia",
+      "tov-poltavagaz-zbut-kotelevskii-r-n",
+      "tov-poltavagaz-zbut-mashivskii-r-n",
+      "adamant-telekom-internet",
+      "tov-poltavagaz-zbut-mirgorodskii-r-n",
+      "tov-poltavagaz-zbut-lokhvitskii-r-n",
+      "tov-poltavagaz-zbut-khorols-kii-r-n",
+      "tov-poltavagaz-zbut-chornukhinskii-r-n",
+      "pat-zaporizhzhiaoblenergo-vasilivskii-rem",
+      "pat-zaporizhzhiaoblenergo-vilnianskii-rem",
+      "pat-zaporizhzhiaoblenergo-zaporizkii-rem",
+      "pat-zaporizhzhiaoblenergo-zaporizki-miski-elektrichni-merezhi",
+      "dp-darnitsia-1",
+      "pat-zaporizhzhiaoblenergo-mikhailivskii-rem",
+      "psts",
+      "pat-zaporizhzhiaoblenergo-kam-iansko-dniprovskii-rem-m-kam-ianko-dniprovska",
+      "pat-zaporizhzhiaoblenergo-guliapils-kii-rem",
+      "pat-zaporizhzhiaoblenergo-bilmatskii-rem",
+      "pat-zaporizhzhiaoblenergo-rozivskii-rem",
+      "pat-zaporizhzhiaoblenergo-novomikolayivskii-rem",
+      "pat-zaporizhzhiaoblenergo-orikhivskii-rem",
+      "pat-zaporizhzhiaoblenergo-pologivskii-rem",
+      "pat-zaporizhzhiaoblenergo-tokmatskii-rem",
+      "pat-zaporizhzhiaoblenergo-chernigivskii-rem",
+      "giots-kiev-detskie-sady",
+      "bkm-g-belaia-tserkov",
+      "pat-zaporizhzhiaoblenergo-melitopols-kii-miskii-rem",
+      "pat-zaporizhzhiaoblenergo-melitopols-kii-rem",
+      "pat-zaporizhzhiaoblenergo-iakimivskii-rem",
+      "pat-zaporizhzhiaoblenergo-priazovskii-rem",
+      "pat-zaporizhzhiaoblenergo-berdianskii-rem",
+      "pat-zaporizhzhiaoblenergo-berdianskii-miskii-rem",
+      "pat-zaporizhzhiaoblenergo-primorskii-rem",
+      "pat-zaporizhzhiaoblenergo-veselivskii-rem",
+      "pat-zaporizhzhiaoblenergo-kam-iansko-dniprovskii-rem-m-energodar",
+      "tov-evro-rekonstruktsiia-tsentralizovane-opalennia",
+      "ultranet",
+      "tov-evro-rekonstruktsiia-oplata-tsentralizovanogo-postachannia-gariachoyi-vodi",
+      "kp-berdianskvodokanal-vodopostachannia",
+      "kp-bakhmut-voda",
+      "pat-berdianske-pidpriemstvo-teplovikh-merezh",
+      "osbb-nova-arkadiia",
+      "proskuriv-net",
+      "tov-zhitlo-servis-grup",
+      "viner-telekom",
+      "ilan",
+      "strumin-kharkov",
+      "ukrhostbiz",
+      "nash-prostir-rivne",
+      "monolit-net-borispol",
+      "intro-net-borispol",
+      "vega-telefoniia-nomer-tel",
+      "pat-kiyivoblenergo-volodarskii-rp",
+      "pat-kiyivoblenergo-irpinskii-rem",
+      "pat-kiyivoblenergo-barishivskii-rem",
+      "pat-kiyivoblenergo-bilotserkivskii-rem-raion",
+      "pat-kiyivoblenergo-boguslavskii-rem",
+      "pat-kiyivoblenergo-borispils-kii-rem",
+      "zastava-net",
+      "pat-kiyivoblenergo-borodianskii-rem",
+      "pat-kiyivoblenergo-brovarskii-rem",
+      "pat-kiyivoblenergo-vasilkivskii-rem",
+      "pat-kiyivoblenergo-vishgorodskii-rem",
+      "pat-kiyivoblenergo-zgurivskii-rem",
+      "pat-kiyivoblenergo-ivankivskii-rem",
+      "pat-kiyivoblenergo-kagarlitskii-rem",
+      "pat-kiyivoblenergo-kiievo-sviatoshinskii-rem",
+      "pat-kiyivoblenergo-makarivskii-rem",
+      "pat-kiyivoblenergo-mironivskii-rem",
+      "teztelecom-dlia-turistov",
+      "pat-kiyivoblenergo-obukhivskii-rem",
+      "pat-kiyivoblenergo-pereiaslav-khmelnitskii-rem",
+      "pat-kiyivoblenergo-rokitnianskii-rem",
+      "pat-kiyivoblenergo-skvirskii-rem",
+      "pat-kiyivoblenergo-stavishchenskii-rem",
+      "pat-kiyivoblenergo-tarashchanskii-rem",
+      "pat-kiyivoblenergo-tetiyivskii-rem",
+      "pat-kiyivoblenergo-fastivskii-rem",
+      "pat-kiyivoblenergo-bilotserkivskii-rem-misto",
+      "pat-kiyivoblenergo-iagotinskii-rem",
+      "parimatch-loto",
+      "transportna-karta-kupivlia-20-29-kvitkiv-po-7-40-grn",
+      "transportna-karta-kupivlia-30-39-kvitkiv-po-7-10-grn",
+      "transportna-karta-kupivlia-40-49-kvitkiv-po-6-80-grn",
+      "transportna-karta-kupivlia-50-kvitkiv-po-6-50-grn",
+      "transportna-karta-kupivlia-1-go-kvitka-po-4-grn-tilki-dlia-pilgovikh-kartok",
+      "pat-taskombank-popovnennia-kartki",
+      "tov-kiyivski-merezhi",
+      "kp-tsr-trostianetsvodokanal",
+      "tov-enera-chernigiv",
+      "skynet-novoiavorivsk",
+      "prat-kharkivenergozbut",
+      "tov-prikarpatenergotreid",
+      "prat-sk-asko-ds",
+      "magisom-khmelnitska",
+      "alexcredit-pogashennia",
+      "alexcredit-podovzhennia",
+      "my-credit-pogashennia-kreditu",
+      "giznet-odesa-ta-oblast",
+      "avatar",
+      "radiocom-zaporizka-obl",
+      "it-liuks-telekom-ivano-frankivska",
+      "pp-kp-zhitlovo-budivelna-kompaniia-2",
+      "kp-irpinkomunikatsiiaservic",
+      "olnet-lvivska-obl",
+      "tov-uk-troianda",
+      "homenet-dnipropetrovska",
+      "dts-dnipropetrovska",
+      "west-tv-dnipropetrovska",
+      "tov-uk-polissia",
+      "tov-ooek-ananiyivskii-pidrozdil",
+      "tov-ooek-liubashivska-dilnitsia",
+      "giptel-nikopol",
+      "tov-ooek-b-dnistrovskii-pidrozdil",
+      "tov-ooek-baltskii-pidrozdil",
+      "tov-ooek-kodimska-dilnitsia",
+      "tov-ooek-savranska-dilnitsia",
+      "tov-ooek-biliayivskii-pidrozdil",
+      "tov-ooek-bolgradskii-pidrozdil",
+      "tov-ooek-artsizka-dilnitsia",
+      "tov-ooek-tarutinska-dilnitsia",
+      "tov-ooek-v-mikhailivskii-pidrozdil",
+      "tov-ooek-zakharivska-dilnitsia",
+      "kvant-mostiska",
+      "tov-ooek-ivanivskii-pidrozdil",
+      "tov-ooek-berezovska-dilnitsia",
+      "tov-ooek-izmayils-kii-pidrozdil",
+      "tov-ooek-reniiska-dilnitsia",
+      "tov-ooek-kiliiskii-pidrozdil",
+      "tov-ooek-limanskii-pidrozdil",
+      "tov-ooek-mikolayivskii-pidrozdil",
+      "tov-ooek-ovidiopols-kii-pidrozdil",
+      "tov-ooek-pivdennii-miskii-pidrozdil",
+      "tov-ooek-pivnichnii-miskii-pidrozdil",
+      "kvant-khodoriv",
+      "tov-ooek-podils-kii-pidrozdil",
+      "tov-ooek-oknianska-dilnitsia",
+      "tov-ooek-rozdilnianskii-pidrozdil",
+      "tov-ooek-tatarbunarskii-pidrozdil",
+      "tov-ooek-saratska-dilnitsia",
+      "tov-ooek-tsentralnii-miskii-pidrozdil",
+      "tov-ooek-chornomorskii-pidrozdil",
+      "tov-ooek-shiriayivskii-pidrozdil",
+      "tov-kiyivski-energetichni-poslugi",
+      "tov-mikolayivska-elektropostachalna-kompaniia",
+      "linknet-donetska",
+      "tov-enera-sumi",
+      "tov-cherkasienergozbut",
+      "tov-chernivetska-oek-vizhnitskii-tsok",
+      "tov-chernivetska-oek-gertsayivskii-tsok",
+      "tov-chernivetska-oek-glibotskii-tsok",
+      "tov-chernivetska-oek-zastavnivskii-tsok",
+      "tov-chernivetska-oek-kelmenetskii-tsok",
+      "tov-chernivetska-oek-kitsmanskii-tsok",
+      "tov-chernivetska-oek-novoselitskii-tsok",
+      "tov-chernivetska-oek-putils-kii-tsok",
+      "aska-zhittia",
+      "tov-chernivetska-oek-sokirianskii-tsok",
+      "tov-chernivetska-oek-storozhinetskii-tsok",
+      "tov-chernivetska-oek-khotinskii-tsok",
+      "tov-chernivetska-oek-chernivetskii-tsok",
+      "tov-zakarpattiaenergozbut",
+      "tov-volinelektrozbut",
+      "tov-zhitomirska-oek",
+      "tov-enera-vinnitsia",
+      "tov-khersonska-oblasna-energopostachalna-kompaniia",
+      "tov-dniprovski-energetichni-poslugi-apostolovskii-tsok",
+      "kosmolot",
+      "tov-dniprovski-energetichni-poslugi-vasilkivskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-verkhnodniprovsk-verkhnodniprovskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-vilnogirsk-verkhnodniprovskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-kamianskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-dniprovskii-mtsok",
+      "tov-dniprovski-energetichni-poslugi-dnipro-pravii-pidgorodnianskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-dnipro-livii-pidgorodnianskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-krivorizkii-mtsok",
+      "tov-dniprovski-energetichni-poslugi-krivorizkii-tsok",
+      "tov-dniprovski-energetichni-poslugi-krinichanskii-tsok",
+      "internet-ltc-lvivska",
+      "tov-dniprovski-energetichni-poslugi-magdalinivskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-mezhivskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-nikopols-kii-misto-nikopols-kii-tsok",
+      "tov-dniprovski-energetichni-poslugi-nikopol-selo-nikopols-kii-tsok",
+      "tov-dniprovski-energetichni-poslugi-novomoskovsk-misto-novomoskovskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-novomoskovsk-selo-novomoskovskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-pavlograd-misto-pavlogradskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-pavlograd-selo-pavlogradskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-petropavlivka-petropavlivskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-pershotravensk-petropavlivskii-tsok",
+      "tdv-sk-naftagazstrakh",
+      "tov-dniprovski-energetichni-poslugi-pokrovskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-piatikhatki-piatikhatskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-zhovti-vodi-piatikhatskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-sinelnikove-misto-sinelnikivskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-sinelnikove-selo-sinelnikivskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-solonianskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-marganetska-dilnitsia-nikopols-kii-tsok",
+      "tov-dniprovski-energetichni-poslugi-sofiyivskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-ordzhonikidze-nikopols-kii-tsok",
+      "tov-dniprovski-energetichni-poslugi-tomakivskii-tsok",
+      "likenet-dnipro",
+      "tov-dniprovski-energetichni-poslugi-pavlograd-iuriyivka-pavlogradskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-tsarichanka-tsarichanskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-petrikivka-tsarichanskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-shiroke-shirokivskii-tsok",
+      "tov-dniprovski-energetichni-poslugi-ingulets-shirokivskii-tsok",
+      "tov-kiyivska-oek-iagotinske-vok",
+      "tov-kiyivska-oek-fastivske-vok",
+      "tov-kiyivska-oek-tetiyivske-vok",
+      "tov-kiyivska-oek-tarashchanske-vok",
+      "tov-kiyivska-oek-stavishchenske-vok",
+      "flipnet-zakarpatska",
+      "tov-kiyivska-oek-skvirske-vok",
+      "tov-kiyivska-oek-rokitnianske-vok",
+      "tov-kiyivska-oek-pereiaslav-khmelnitske-vok",
+      "tov-kiyivska-oek-obukhivske-vok",
+      "tov-kiyivska-oek-mironivske-vok",
+      "tov-kiyivska-oek-makarivske-vok",
+      "tov-kiyivska-oek-kiievo-sviatoshinske-vok",
+      "tov-kiyivska-oek-kagarlitske-vok",
+      "tov-kiyivska-oek-irpinske-vok",
+      "tov-kiyivska-oek-ivankivske-vok",
+      "ukrpozika-pogashennia-kreditu",
+      "tov-kiyivska-oek-zgurivske-vok",
+      "tov-kiyivska-oek-vishgorodske-vok",
+      "tov-kiyivska-oek-volodarske-vok",
+      "tov-kiyivska-oek-vasilkivske-vok",
+      "tov-kiyivska-oek-brovarske-vok",
+      "tov-kiyivska-oek-borodianske-vok",
+      "tov-kiyivska-oek-borispils-ke-vok",
+      "tov-kiyivska-oek-boguslavske-vok",
+      "tov-kiyivska-oek-bilotserkivske-vok-raion",
+      "tov-kiyivska-oek-bilotserkivske-vok-misto",
+      "ukrpozika-podovzhennia-na-7-dniv",
+      "tov-kiyivska-oek-barishivske-vok",
+      "tov-rivnenska-oek-kostopils-kii-raion",
+      "tov-rivnenska-oek-rivne-misto",
+      "tov-rivnenska-oek-rivnenskii-raion",
+      "tov-rivnenska-oek-sarnenskii-raion",
+      "tov-rivnenska-oek-bereznivskii-raion",
+      "tov-rivnenska-oek-volodimiretskii-raion",
+      "tov-rivnenska-oek-varash-misto",
+      "tov-rivnenska-oek-goshchanskii-raion",
+      "tov-rivnenska-oek-dubenskii-raion",
+      "ukrpozika-podovzhennia-na-14-dniv",
+      "tov-rivnenska-oek-dubrovitskii-raion",
+      "tov-rivnenska-oek-zdolbunivskii-raion",
+      "tov-rivnenska-oek-koretskii-raion",
+      "tov-rivnenska-oek-mlinivskii-raion",
+      "tov-rivnenska-oek-demidivskii-raion",
+      "tov-rivnenska-oek-ostrozkii-raion",
+      "tov-rivnenska-oek-radivilivskii-raion",
+      "tov-rivnenska-oek-rokitnivskii-raion",
+      "tov-kirovogradska-oek-ustinivske-viddilennia",
+      "tov-kirovogradska-oek-blagovishchenske-viddilennia",
+      "ukrpozika-podovzhennia-na-30-dniv",
+      "tov-kirovogradska-oek-petrivske-viddilennia",
+      "tov-kirovogradska-oek-onufriyivske-viddilennia",
+      "tov-kirovogradska-oek-oleksandrivske-viddilennia",
+      "tov-kirovogradska-oek-novoarkhangels-ke-viddilennia",
+      "tov-kirovogradska-oek-novgorodkivske-viddilennia",
+      "tov-kirovogradska-oek-maloviskivske-viddilennia",
+      "tov-kirovogradska-oek-kompaniyivske-viddilennia",
+      "tov-kirovogradska-oek-kropivnitske-viddilennia",
+      "tov-kirovogradska-oek-znamianske-viddilennia",
+      "tov-kirovogradska-oek-dolinske-viddilennia",
+      "kalush-net-ivano-frankivska",
+      "tov-kirovogradska-oek-dobrovelichkivske-viddilennia",
+      "tov-kirovogradska-oek-golovanivske-viddilennia",
+      "tov-kirovogradska-oek-gaivoronske-viddilennia",
+      "tov-kirovogradska-oek-vilshanske-viddilennia",
+      "tov-kirovogradska-oek-bobrinetske-viddilennia",
+      "tov-kirovogradska-oek-novoukrayinske-viddilennia",
+      "tov-kirovogradska-oek-oleksandriiske-viddilennia",
+      "tov-kirovogradska-oek-novomirgorodske-viddilennia",
+      "tov-kirovogradska-oek-svitlovodske-viddilennia",
+      "tov-kirovogradska-oek-kropivnitske-miske-viddilennia",
+      "kreditna-istoriia-ubki",
+      "tov-rivnenska-oek-zarichnenskii-raion",
+      "tov-donetski-energetichni-poslugi-toretskii-tsok",
+      "tov-donetski-energetichni-poslugi-bakhmutskii-miskii-tsok",
+      "tov-donetski-energetichni-poslugi-bakhmutskii-miskii-tsok-raionna-dilnitsia",
+      "tov-donetski-energetichni-poslugi-kramatorskii-tsok",
+      "tov-donetski-energetichni-poslugi-kostiantinivskii-tsok",
+      "tov-donetski-energetichni-poslugi-slovianskii-tsok",
+      "tov-donetski-energetichni-poslugi-limanskii-tsok",
+      "tov-donetski-energetichni-poslugi-druzhkivskii-tsok",
+      "tov-donetski-energetichni-poslugi-selidivskii-tsok",
+      "kreditnii-reiting-ubki",
+      "tov-donetski-energetichni-poslugi-volnovaskii-tsok",
+      "tov-donetski-energetichni-poslugi-dobropils-kii-tsok",
+      "tov-donetski-energetichni-poslugi-maryinskii-tsok",
+      "tov-donetski-energetichni-poslugi-vugledarska-dilnitsia-tov",
+      "tov-donetski-energetichni-poslugi-avdiyivskii-tsok",
+      "tov-donetski-energetichni-poslugi-velikonovosilkivskii-tsok",
+      "tov-donetski-energetichni-poslugi-pokrovskii-tsok",
+      "tov-donetski-energetichni-poslugi-oleksandrivskii-tsok",
+      "tov-donetski-energetichni-poslugi-krivorizkii-tsok",
+      "tov-donetski-energetichni-poslugi-nikols-kii-tsok",
+      "status-kontrol-ubki",
+      "tov-donetski-energetichni-poslugi-mariupols-kii-tsok",
+      "tov-donetski-energetichni-poslugi-mangushskii-tsok",
+      "tov-zaporizhzhiaelektropostachannia-zaporizke-miske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-zaporizke-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-vasilivske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-energodarske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-mikhailivske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-bilmatske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-guliaipils-ke-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-novomikolayivske-raionne-viddilennia",
+      "credit-365",
+      "tov-zaporizhzhiaelektropostachannia-vilnianske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-orikhivske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-pologivske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-rozivske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-chernigivske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-iakimivske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-veselivske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-tokmatske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-berdianske-miske-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-berdianske-raionne-viddilennia",
+      "eurogroshi",
+      "tov-zaporizhzhiaelektropostachannia-priazovske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-primorske-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-melitopols-ke-miske-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-melitopols-ke-raionne-viddilennia",
+      "tov-zaporizhzhiaelektropostachannia-kamiansko-dniprovske-raionne-viddilennia",
+      "tov-lvivgaz-zbut",
+      "crediton",
+      "bystro-zaim",
+      "forza24",
+      "kreditna-otsinka",
+      "vat-ternopiloblenergo-zborivskii-rem",
+      "vat-ternopiloblenergo-kozivskii-rem",
+      "vat-ternopiloblenergo-chortkivskii-rem",
+      "vat-ternopiloblenergo-gusiatinskii-rem",
+      "vat-ternopiloblenergo-zbarazkii-rem",
+      "vat-ternopiloblenergo-zalishchitskii-rem",
+      "vat-ternopiloblenergo-pidvolochiskii-rem",
+      "vat-ternopiloblenergo-terebovlianskii-rem",
+      "vat-ternopiloblenergo-kremenetskii-rem",
+      "vat-ternopiloblenergo-shumskii-rem",
+      "vat-ternopiloblenergo-buchatskii-rem",
+      "vat-ternopiloblenergo-lanivetskii-rem",
+      "vat-ternopiloblenergo-monastiriskii-rem",
+      "khaus-menedzhment-grupp-uzhgorod",
+      "vat-ternopiloblenergo-berezhanskii-rem",
+      "vat-ternopiloblenergo-pidgaietskii-rem",
+      "vat-ternopiloblenergo-ternopils-kii-raionnii-rem",
+      "vat-ternopiloblenergo-ternopils-kii-miskii-rem",
+      "at-kb-privatbank-popovnennia-kartki",
+      "krd-at-raiffaizen-bank-aval-popovnennia-kartkovogo-rakhunku",
+      "at-ukrsibbank-popovnennia-kartki-krim-revolvernoyi-kreditnoyi-liniyi",
+      "at-ukrsibbank-popovnennia-kartki-tilki-revolverna-kreditna-liniia",
+      "goodnet-kievskaia",
+      "kings-net-kievskaia",
+      "tornet-kiev",
+      "sherman",
+      "fiber-net-kiev",
+      "skystar-donetskaia",
+      "five-group",
+      "kp-cherkaska-sluzhba-chistoti-privatnii-sektor",
+      "tov-miskii-zhitlovii-tsentr-vasilkiv",
+      "tov-miskii-zhitlovii-tsentr-obukhiv",
+      "uarnet",
+      "komunalne-ap-1728-rivne",
+      "skai-bank-pogashenie-kredita",
+      "uip-kiyivskaia-obl",
+      "pat-taskombank-pogashennia-kreditu-za-nomerom-rakhunku",
+      "pat-taskombank-pogashennia-kreditu-za-nomerom-dogovoru",
+      "pat-taskombank-popovnennia-depozitnogo-rakhunku",
+      "pat-taskombank-popovnennia-kartkovogo-rakhunku",
+      "taksi-765-lviv",
+      "taksi-765-lutsk",
+      "taksi-765-cherkasi",
+      "taksi-online-uzhgorod",
+      "kp-nk-ekoservis-nova-kakhovka",
+      "taksi-4242-dnipro",
+      "taksi-507-kiev",
+      "taksi-9192-pervomaisk-kiev-odessa-poltava-kherson",
+      "taksi-nikolaevskoe-mikolayiv",
+      "taksi-prometei-odessa",
+      "taksi-kiieva",
+      "taksi-6166-poltava",
+      "taksi-3933-uzhgorod",
+      "taksi-3933-lutsk",
+      "region-taxi-kiev-i-oblast",
+      "bystroe-gruzovoe-taksi-2040-kharkiv",
+      "taxi-domino-571-kiyiv",
+      "taksi-915-zaporizhzhia-chernnigiv-regsat",
+      "taksi-efekt-740-dnipropetrovska",
+      "taxi-764-brovari",
+      "taksi-5505-poltava-sumi-kremenchuk-kiyiv",
+      "taksi-916",
+      "taksi-216",
+      "transportna-karta-kupivlia-1-9-kvitkiv-po-8-00-grn",
+      "transportna-karta-kupivlia-10-19-kvitkiv-po-7-70-grn",
+      "ooo-aragorn-slaviansk-donetskoi",
+      "chp-zhilishchnik-mirts-g-artemovsk",
+      "upr-kompaniia-zhku-mirts-g-artemovsk",
+      "zhreu-g-borispol-kievskoi-obl",
+      "taksi-apelsin-drogobych-truskavets",
+      "kiyivstar-pokupka-nomera",
+      "etherlink",
+      "softlink-kiev",
+      "tov-keruiucha-kompaniia-status",
+      "tov-cherkasigaz-zbut",
+      "taksi-aist-kiev",
+      "taksi-king-kiev",
+      "ooo-telefant",
+      "kahovka-net",
+      "erts-kp-dnipro",
+      "msl-derzhavni-lotereyi",
+      "tov-ternopilelektropostach-ternopil",
+      "tov-ternopilelektropostach-ternopils-kii-r-n",
+      "zbarazh-tov-ternopiloblgaz",
+      "at-otp-bank-popovnennia-kartkovogo-potochnogo-rakhunku",
+      "zheo-1-rts-zenit-kropivnitskii-kvart-plata-ta-elektroenergiia",
+      "zheo-2-rts-zenit-kropivnitskii-kvart-plata-ta-elektroenergiia",
+      "zheo-3-rts-zenit-kropivnitskii-kvart-plata-ta-elektroenergiia",
+      "zheo-4-rts-zenit-kropivnitskii-kvart-plata-ta-elektroenergiia",
+      "zhek-9-rts-zenit-kropivnitskii-kvart-plata-ta-elektroenergiia",
+      "kiyiv-nks",
+      "internet-provaider-bit",
+      "bank-kliringovii-dim",
+      "alrha-fox-fop-dovgun-irina-mikhailivna",
+      "cyberlan-kharkivska",
+      "kp-kamianskoyi-mr-kamianska-teplopostachalna-kompaniia",
+      "kp-kamianskoyi-mr-pivdenni-teplomerezhi",
+      "pp-virobniche-zhrep-4-zhitomir-kvartplata",
+      "kp-zheo-2-poltava",
+      "leodomofon-lvivska-obl",
+      "pp-uzhgorodskii-budinkovii-servis-budinki",
+      "pp-uzhgorodskii-budinkovii-servis-osvitlennia",
+      "domofon-servis-prikarpattia",
+      "tsentralizovane-opalennia-kpvok-kiyivteploenergo",
+      "tsentralizovane-postachannia-gariachoyi-vodi-lichilnik-kpvok-kiyivteploenergo",
+      "kp-mirats-pmr-eko-komuntrans",
+      "kp-mirats-pmr-daiar",
+      "kp-mirats-pmr-uzhkkh",
+      "kp-mirats-pmr-k-p-1",
+      "kp-mirats-pmr-pavlogradzhitloservis",
+      "kp-mirats-pmr-zatishne-misto",
+      "kp-mirats-pmr-pavlogradvodokanal",
+      "kp-kombinat-komunalnikh-pidpriemstv-vasilkiv-voda",
+      "kp-kombinat-komunalnikh-pidpriemstv-vasilkiv-budinki-borgi",
+      "pp-kroshnia-vzhrep-4",
+      "pp-nova-kroshnia-vzhrep-4",
+      "kp-miskvodokanal-sumskoyi-miskoyi-radi-vodopostachannia",
+      "kp-miskvodokanal-sumskoyi-miskoyi-radi-vodovidvedennia",
+      "kp-chornomorskvodokanal",
+      "prosto-tv",
+      "poltavateploenergo-opalennia",
+      "tov-poltavaenergozbut"
+    ]
   },
   {
     "status": "active",
@@ -1271,7 +3370,10 @@
     },
     "name": {
       "en": "dLocal"
-    }
+    },
+    "payout_method": [
+      "dlocal"
+    ]
   },
   {
     "status": "active",
@@ -1812,28 +3914,17 @@
       "AE"
     ],
     "payment_method": [
-      "payment_card",
-      "visaelectron",
-      "visadebit",
-      "vpay",
-      "mastercarddebit",
-      "account2account",
-      "giropay",
-      "komercnibanka",
-      "raiffeisenbank",
-      "banklink",
-      "ceskasporitelna",
-      "sofortbanking",
-      "csob",
-      "sepacredittransfer",
-      "ekonto"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "fondy"
     },
     "name": {
       "en": "FONDY"
-    }
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -1995,21 +4086,7 @@
       "payment_card"
     ],
     "payment_method": [
-      "payment_card",
-      "americanexpress",
-      "jcb",
-      "visaelectron",
-      "discover",
-      "visadebit",
-      "chinaunionpay",
-      "mastercarddebit",
-      "giropay",
-      "directdebit",
-      "sofortbanking",
-      "trustly",
-      "ideal",
-      "bank_transfer_klarna",
-      "sepadirectdebit"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "paydoo"
@@ -2129,10 +4206,11 @@
     "code": "test",
     "vendor": "test",
     "payment_method": [
-      "test"
+      "test",
+      "payment_card"
     ],
     "payout_method": [
-      "test"
+      "payment_card"
     ],
     "name": {
       "en": "Test",
@@ -2745,7 +4823,10 @@
     "vendor": "ingspain",
     "name": {
       "en": "ING Bank Poland"
-    }
+    },
+    "payment_method": [
+      "ingpl"
+    ]
   },
   {
     "status": "active",
@@ -2845,7 +4926,7 @@
     ],
     "payment_method": [
       "payment_card",
-      "payment_card_email",
+      "neteller",
       "paypal"
     ],
     "payout_method": [
@@ -3151,7 +5232,10 @@
     },
     "name": {
       "en": "Oonex"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -3647,58 +5731,44 @@
       "unionpay_qr"
     ],
     "payout_method": [
-      "bank_central_asia",
-      "bank_negara_indonesia",
-      "bank_rakyat_indonesia",
-      "btn_bank",
-      "cimb_clicks_indonesia",
-      "danamon_bank",
-      "mandiri_bank",
-      "permata_bank",
-      "industrial_and_commercial_bank_of_china",
-      "bank_of_china",
-      "bank_of_communication",
       "china_citic_bank",
-      "china_everbright_bank",
-      "shanghai_pudong_development_bank",
       "china_guangfa_bank",
-      "beijing_rural_commercial_bank",
-      "bank_of_ningbo",
-      "ping_an_bank",
-      "china_zheshang_bank",
-      "bank_of_guangzhou",
-      "china_minsheng_bank",
       "china_merchants_bank",
-      "bank_of_dalian",
-      "zhuhai_rural_credit_cooperatives",
-      "hankou_bank",
+      "bank_of_china",
       "agricultural_bank_of_china",
+      "china_everbright_bank",
       "china_construction_bank",
-      "china_industrial_bank",
-      "bank_of_east_asia",
-      "shanghai_rural_commercial_bank",
-      "china_bohai_bank",
-      "bank_of_nanjing",
-      "hangzhou_city_commercial_bank",
-      "huishang_bank",
-      "bank_of_shanghai",
-      "bank_of_chengdu",
-      "shenzhen_develop_bank",
-      "bank_of_beijing",
+      "ping_an_bank",
+      "bank_of_communication",
+      "industrial_and_commercial_bank_of_china",
+      "shanghai_pudong_development_bank",
+      "china_minsheng_bank",
       "bank_of_jiangsu",
-      "shude_rural_credit_union",
-      "yaodu_rural_credit_union",
       "jin_shang_commercial_bank",
+      "yaodu_rural_credit_union",
+      "shude_rural_credit_union",
+      "bank_of_beijing",
+      "shenzhen_develop_bank",
+      "bank_of_chengdu",
+      "bank_of_shanghai",
+      "huishang_bank",
+      "hangzhou_city_commercial_bank",
+      "bank_of_nanjing",
+      "china_bohai_bank",
+      "shanghai_rural_commercial_bank",
+      "bank_of_east_asia",
+      "zhuhai_rural_credit_cooperatives",
       "siam_commercial_bank",
       "krung_thai_bank",
       "krungsri",
-      "bangko_bank",
       "kasikorn_bank",
+      "bangko_bank",
+      "united_overseas_bank",
+      "public_bank_berhad",
       "cimb_bank",
+      "rhb_bank",
       "hong_leong_bank",
       "may_bank",
-      "public_bank_berhad",
-      "rhb_bank",
       "acb_bank",
       "vietcom_bank",
       "vietin_bank",
@@ -3794,7 +5864,7 @@
       "ru": "Cardinity",
       "uk": "Cardinity"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -4166,7 +6236,7 @@
       "uk": "Dotpay"
     },
     "payout_method": [
-      "banktransfer"
+      "bank_transfer"
     ]
   },
   {
@@ -4697,6 +6767,9 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -4718,13 +6791,10 @@
       "en": "PayPal"
     },
     "payment_method": [
-      "paypal"
+      "payment_card"
     ],
     "payout_method": [
-      "paypal",
-      "paypal_id",
-      "paypal_email",
-      "paypal_phone"
+      "paypal"
     ]
   },
   {
@@ -4964,7 +7034,7 @@
       "ru": "Dusupay",
       "uk": "Dusupay"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -6327,7 +8397,7 @@
       "ru": "PayHub",
       "uk": "PayHub"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -6462,7 +8532,10 @@
     },
     "name": {
       "en": "Stripe"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -7144,23 +9217,23 @@
     "code": "interkassa",
     "vendor": "interkassa",
     "payment_method": [
-      "webmoneytransfer",
       "payment_card",
+      "upi_aggregated",
+      "webmoneytransfer",
+      "advcash",
+      "alfaclick",
       "beeline",
+      "easypay",
+      "euroset",
+      "exmo",
       "megafon",
       "mts",
-      "exmo",
-      "yandexmoney",
-      "tele2ru",
-      "euroset",
-      "svyaznoy",
       "perfectmoney",
-      "alfaclick",
-      "psbretail",
-      "easypay",
       "mminvoicing",
-      "advcash",
-      "upi_aggregated",
+      "psbretail",
+      "svyaznoy",
+      "tele2ru",
+      "yandexmoney",
       "bank_of_india",
       "maharashtra_bank_india",
       "canara_bank",
@@ -7197,6 +9270,7 @@
       "olamoney",
       "freecharge",
       "phonepe",
+      "bank_transfer",
       "allahabad_bank",
       "axis_bank",
       "corporation_bank",
@@ -7204,7 +9278,6 @@
       "city_union_bank",
       "vijaya_bank",
       "united_bank_of_india",
-      "state_bank_of_india",
       "rbl_bank",
       "andhra_bank",
       "bank_of_baroda",
@@ -7217,7 +9290,8 @@
       "payment_card",
       "bank_transfer",
       "upi",
-      "pix"
+      "pix",
+      "imps"
     ],
     "name": {
       "en": "Interkassa"
@@ -7430,7 +9504,10 @@
       "en": "EasyPay",
       "ru": "EasyPay",
       "ua": "EasyPay"
-    }
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -7455,7 +9532,10 @@
     },
     "name": {
       "en": "RBK Money"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -8021,67 +10101,17 @@
       "aggregating"
     ],
     "payment_method": [
-      "payment_card",
-      "cashu",
-      "bancontactmistercash",
-      "cartebancaires",
-      "neosurf",
-      "girocard",
-      "paysafecard",
-      "teleingreso",
-      "chinaunionpay",
-      "americanexpress",
-      "ukash",
-      "jcb",
-      "dinersclub",
-      "cartebleue",
-      "visaelectron",
-      "discover",
-      "visadebit",
-      "vpay",
-      "mastercarddebit",
-      "carrierbilling",
-      "smsbilling",
-      "wiretransfer",
-      "directdebit",
-      "euteller",
-      "ideal",
-      "sepacredittransfer",
-      "giropay",
-      "safetypay",
-      "billmelater",
-      "boleto_bancario",
-      "sepadirectdebit",
-      "polipayonline",
-      "elektronischeslastschriftverfahren",
-      "trustly",
-      "bank_transfer_klarna",
-      "7eleven",
-      "pagofacil",
-      "przelewy24",
-      "sofortbanking",
-      "eps",
-      "abaqoos",
-      "paypal",
-      "alipay",
-      "clickandbuy",
-      "neteller",
-      "payfastwallet",
-      "visacheckout",
-      "qiwi",
-      "webmoneytransfer",
-      "moneta",
-      "zimpler",
-      "toditocash",
-      "skrill",
-      "yandexmoney"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "safecharge"
     },
     "name": {
       "en": "Nuvei"
-    }
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -9326,7 +11356,10 @@
     },
     "name": {
       "en": "Axcess Merchant Services"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -9511,9 +11544,7 @@
       "paysafecard",
       "paysafecash",
       "resursbank",
-      "visaelectron",
-      "americanexpress",
-      "dinersclub",
+      "payment_card",
       "jcb",
       "cartebleue",
       "dankort",
@@ -9522,7 +11553,6 @@
       "rapidtransfer",
       "giropay",
       "directdebit",
-      "bank_transfer_klarna",
       "nordeasolo",
       "ideal",
       "eps",
@@ -9530,11 +11560,11 @@
       "przelewy24",
       "epaybg",
       "trustly",
+      "alipay",
       "astropaydirect",
       "astropaymanual",
       "astropaycash",
       "astropayunion",
-      "payment_card",
       "cash",
       "boleto_bancario",
       "pix",
@@ -11312,27 +13342,19 @@
       "distributing"
     ],
     "payment_method": [
-      "americanexpress",
-      "payment_card",
-      "ukash",
-      "jcb",
-      "dinersclub",
-      "paysafecard",
-      "cashu",
-      "discover",
-      "chinaunionpay",
-      "smsbilling",
-      "safetypay",
-      "sofortbanking",
-      "boleto_bancario",
-      "sepacredittransfer"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "maxpay"
     },
     "name": {
       "en": "Maxpay"
-    }
+    },
+    "payout_method": [
+      "qiwi",
+      "payment_card",
+      "yandexmoney"
+    ]
   },
   {
     "status": "active",
@@ -13065,64 +15087,17 @@
       "UM"
     ],
     "payment_method": [
-      "payment_card",
-      "cartasi",
-      "bancontactmistercash",
-      "aura",
-      "girocard",
-      "paysafecard",
-      "debitobradesco",
-      "chinaunionpay",
-      "dankort",
-      "americanexpress",
-      "hipercard",
-      "ukash",
-      "jcb",
-      "dinersclub",
-      "cartebleue",
-      "visaelectron",
-      "discover",
-      "visadebit",
-      "vpay",
-      "uatp",
-      "mastercarddebit",
-      "postepay",
-      "wiretransfer",
-      "mybank2",
-      "directdebit",
-      "bradescocomercioeletronico",
-      "ideal",
-      "sepacredittransfer",
-      "giropay",
-      "barpay",
-      "boleto_bancario",
-      "sepadirectdebit",
-      "polipayonline",
-      "paybybill",
-      "elektronischeslastschriftverfahren",
-      "maybanknetbankingphillipines",
-      "postpay",
-      "cimbclicksinternetbanking",
-      "paydirekt",
-      "bank_transfer_klarna",
-      "ekonto",
-      "przelewy24",
-      "sofortbanking",
-      "acceptemail",
-      "eps",
-      "paypal",
-      "alipay",
-      "moneta",
-      "mercadopago",
-      "skrill",
-      "yandexmoney"
+      "payment_card"
     ],
     "metadata": {
       "about_payments_code": "wirecard"
     },
     "name": {
       "en": "Wirecard"
-    }
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -13452,7 +15427,10 @@
     },
     "name": {
       "en": "CyberSource"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -13812,6 +15790,9 @@
       "uk": "ECOMMPAY"
     },
     "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -14710,7 +16691,13 @@
       "en": "UApay",
       "ru": "UApay",
       "uk": "UApay"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -15280,7 +17267,8 @@
       "binancepay"
     ],
     "payout_method": [
-      "geopaynet"
+      "geopaynet",
+      "payment_card"
     ]
   },
   {
@@ -15306,7 +17294,10 @@
     ],
     "name": {
       "en": "Payment Center"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -15352,7 +17343,7 @@
       "payment_card"
     ],
     "payout_method": [
-      "payment_card"
+      "card"
     ]
   },
   {
@@ -15382,19 +17373,7 @@
       "en": "Spoynt"
     },
     "payment_method": [
-      "payment_card",
-      "papara",
-      "online_banking_qr",
-      "cepbank",
-      "jeton_wallet",
-      "interac",
-      "pix",
-      "boleto_bancario",
-      "spei",
-      "pagoefectivo_cip",
-      "upi",
-      "community_bank",
-      "bank_transfer"
+      "payment_card"
     ],
     "payout_method": [
       "payment_card",
@@ -15457,14 +17436,14 @@
       "beeline",
       "mts",
       "megafon",
+      "payment_card",
+      "yandexmoney",
       "advcash_wallet",
       "tele2ru",
       "bitcoin",
       "ethereum",
       "bitcoin_cash",
-      "litecoin",
-      "dash",
-      "payment_card"
+      "litecoin"
     ],
     "name": {
       "en": "Payeer"
@@ -15488,8 +17467,7 @@
       "applepay",
       "googlepay"
     ],
-    "payout_method": [
-    ]
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15498,10 +17476,8 @@
     "name": {
       "en": "CoinPayments"
     },
-    "payment_method": [
-    ],
-    "payout_method": [
-    ]
+    "payment_method": [],
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15510,10 +17486,8 @@
     "name": {
       "en": "Payoneer"
     },
-    "payment_method": [
-    ],
-    "payout_method": [
-    ]
+    "payment_method": [],
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15522,10 +17496,8 @@
     "name": {
       "en": "Neteller"
     },
-    "countries": [
-    ],
-    "payment_method": [
-    ],
+    "countries": [],
+    "payment_method": [],
     "payout_method": [
       "neteller"
     ]
@@ -15540,12 +17512,9 @@
     "name": {
       "en": "AustralPay"
     },
-    "countries": [
-    ],
-    "payment_method": [
-    ],
-    "payout_method": [
-    ]
+    "countries": [],
+    "payment_method": [],
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15557,10 +17526,8 @@
     "name": {
       "en": "Wire2Pay"
     },
-    "payment_method": [
-    ],
-    "payout_method": [
-    ]
+    "payment_method": [],
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15572,10 +17539,8 @@
     "name": {
       "en": "LeoGaming"
     },
-    "countries": [
-    ],
-    "payment_method": [
-    ],
+    "countries": [],
+    "payment_method": [],
     "payout_method": [
       "payment_card",
       "vodafone_phone",
@@ -15591,12 +17556,9 @@
     "name": {
       "en": "MoneyMovers"
     },
-    "countries": [
-    ],
-    "payment_method": [
-    ],
-    "payout_method": [
-    ]
+    "countries": [],
+    "payment_method": [],
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15608,10 +17570,8 @@
     "countries": [
       "UA"
     ],
-    "payment_method": [
-    ],
-    "payout_method": [
-    ]
+    "payment_method": [],
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15620,13 +17580,11 @@
     "name": {
       "en": "Decta"
     },
-    "countries": [
-    ],
+    "countries": [],
     "payment_method": [
       "payment_card"
     ],
-    "payout_method": [
-    ]
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15635,8 +17593,7 @@
     "name": {
       "en": "Hashconnect"
     },
-    "countries": [
-    ],
+    "countries": [],
     "payment_method": [
       "payment_card"
     ],
@@ -15655,8 +17612,8 @@
       "UA"
     ],
     "payout_method": [
-      "parimatch-loto",
-      "parimatch_account"
+      "parimatch_account",
+      "pokermatch_account"
     ]
   },
   {
@@ -15666,8 +17623,7 @@
     "name": {
       "en": "Platio"
     },
-    "countries": [
-    ],
+    "countries": [],
     "payment_method": [
       "payment_card"
     ],
@@ -15689,20 +17645,20 @@
     },
     "payment_method": [
       "qiwi",
-      "payment_card",
-      "applepay",
-      "beeline",
-      "bitcoin_cash",
-      "ethereum",
-      "megafon",
-      "mts",
-      "terminal_rf",
       "piastrix",
-      "tele2ru",
+      "payment_card",
+      "bitcoin",
+      "ethereum",
       "yandexmoney",
       "perfectmoney",
       "payeer",
       "alfaclick",
+      "beeline",
+      "mts",
+      "megafon",
+      "tele2ru",
+      "applepay",
+      "terminal_rf",
       "tether"
     ],
     "payout_method": [
@@ -15763,10 +17719,17 @@
       "en": "EasyBits.io"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bitcoin",
+      "ethereum",
+      "tether"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer",
+      "bitcoin",
+      "ethereum",
+      "tether"
     ]
   },
   {
@@ -15779,10 +17742,8 @@
     "name": {
       "en": "Enfins"
     },
-    "payment_method": [
-    ],
-    "payout_method": [
-    ]
+    "payment_method": [],
+    "payout_method": []
   },
   {
     "status": "active",
@@ -15809,8 +17770,7 @@
     "name": {
       "en": "CardGate"
     },
-    "countries": [
-    ],
+    "countries": [],
     "payment_method": [
       "payment_card",
       "applepay",
@@ -15825,8 +17785,7 @@
     "name": {
       "en": "Gate"
     },
-    "countries": [
-    ],
+    "countries": [],
     "payment_method": [
       "payment_card",
       "applepay",
@@ -15843,13 +17802,14 @@
     },
     "payment_method": [
       "swift",
-      "bank_transfer",
-      "cash"
+      "cash",
+      "payment_card"
     ],
     "payout_method": [
       "swift",
       "bank_transfer",
-      "cash"
+      "cash",
+      "payment_card"
     ]
   },
   {
@@ -15867,6 +17827,8 @@
       "yandexmoney",
       "alfaclick",
       "smsbilling",
+      "promsvyazbank",
+      "sberbank",
       "payment_card"
     ],
     "payout_method": [
@@ -15883,12 +17845,12 @@
     "name": {
       "en": "Connectum"
     },
-    "countries": [
-    ],
+    "countries": [],
     "payment_method": [
       "payment_card"
     ],
     "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -15900,25 +17862,24 @@
     },
     "payout_method": [
       "payment_card",
+      "steam",
       "vodafone_phone",
       "lifecell_phone",
-      "kyivstar_phone",
       "ukrtelekom_phone",
-      "3mob_utel_phone",
-      "steam",
+      "world_of_tanks",
       "lineage_2",
       "archeage",
       "warface",
-      "world_of_tanks",
       "world_of_warships",
-      "world_of_warplanes",
       "dragon_nest",
       "perfect_world",
+      "world_of_warplanes",
       "allody_online",
-      "tanki_online",
+      "kyivstar_phone",
       "my_lands",
       "riot",
       "skyforge",
+      "tanki_online",
       "information_technology",
       "ipnet",
       "war_thunder",
@@ -15933,7 +17894,9 @@
       "kyivstar_contract",
       "vodafone_contract",
       "intertelekom_contract",
-      "globalmoney"
+      "3mob_utel_phone",
+      "globalmoney",
+      "mobile"
     ]
   },
   {
@@ -15948,7 +17911,8 @@
       "payment_card"
     ],
     "payout_method": [
-      "qiwi"
+      "qiwi",
+      "payment_card"
     ]
   },
   {
@@ -15957,7 +17921,10 @@
     "vendor": "rapyd",
     "name": {
       "en": "Rapyd.net"
-    }
+    },
+    "payout_method": [
+      "rapyd"
+    ]
   },
   {
     "status": "active",
@@ -16097,7 +18064,7 @@
       "uk": "ADgroup"
     },
     "payment_method": [
-      "qiwi"
+      "payment_card"
     ]
   },
   {
@@ -16191,6 +18158,9 @@
       "uk": "Exactly"
     },
     "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -16307,7 +18277,7 @@
       "payment_card"
     ],
     "payout_method": [
-      "winpay"
+      "payment_card"
     ]
   },
   {
@@ -16380,8 +18350,7 @@
       "ru": "Cashfree",
       "uk": "Cashfree"
     },
-    "payment_method": [
-    ],
+    "payment_method": [],
     "payout_method": [
       "cashfree_upi",
       "cashfree_bank_transfer"
@@ -16412,8 +18381,7 @@
       "ru": "PayPoint",
       "uk": "PayPoint"
     },
-    "payment_method": [
-    ],
+    "payment_method": [],
     "payout_method": [
       "payment_card"
     ]
@@ -16489,8 +18457,7 @@
     "payment_method": [
       "bank_transfer_klarna"
     ],
-    "payout_method": [
-    ]
+    "payout_method": []
   },
   {
     "status": "active",
@@ -16537,8 +18504,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method": [
-    ]
+    "payout_method": []
   },
   {
     "status": "active",
@@ -16549,8 +18515,7 @@
       "ru": "Nium",
       "uk": "Nium"
     },
-    "payment_method": [
-    ],
+    "payment_method": [],
     "payout_method": [
       "bank_transfer"
     ]
@@ -16567,8 +18532,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method": [
-    ]
+    "payout_method": []
   },
   {
     "status": "active",
@@ -16583,6 +18547,7 @@
       "payment_card"
     ],
     "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -16598,6 +18563,7 @@
       "payment_card"
     ],
     "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -16635,7 +18601,7 @@
       "payment_card"
     ],
     "payout_method": [
-      "payment_card"
+      "bank_transfer"
     ]
   },
   {
@@ -16666,8 +18632,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method": [
-    ]
+    "payout_method": []
   },
   {
     "status": "active",
@@ -16768,7 +18733,10 @@
       "bitcoin",
       "bitcoin_cash",
       "litecoin",
-      "tether"
+      "tether",
+      "waves",
+      "ethereum",
+      "ethereum_classic"
     ]
   },
   {
@@ -17060,7 +19028,11 @@
       "payment_card"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer",
+      "bitcoin",
+      "ethereum",
+      "tether"
     ]
   },
   {
@@ -17073,10 +19045,7 @@
       "uk": "EasyTransfer"
     },
     "payment_method": [
-      "payment_card",
-      "ethereum",
-      "tether",
-      "bitcoin"
+      "payment_card"
     ],
     "payout_method": [
       "payment_card"
@@ -17163,6 +19132,9 @@
       "uk": "DixonPay"
     },
     "payout_method": [
+      "payment_card"
+    ],
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -17295,6 +19267,9 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -17411,8 +19386,7 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method": [
-    ]
+    "payout_method": []
   },
   {
     "status": "active",
@@ -17713,8 +19687,7 @@
       "uk": "Payelata"
     },
     "payment_method": [
-      "payment_card",
-      "card_transfer"
+      "payment_card"
     ],
     "payout_method": [
       "payment_card"
@@ -17734,6 +19707,7 @@
       "payment_card"
     ],
     "payout_method": [
+      "qiwi",
       "payment_card"
     ]
   },
@@ -17789,14 +19763,10 @@
       "online_banking_qr"
     ],
     "payout_method": [
-      "bank_transfer",
-      "papara",
-      "interac",
-      "pix",
       "ziraat_bank",
       "turkey_econom_bank",
-      "turkey_is_bank",
       "ing_bank_turkey",
+      "turkey_is_bank",
       "ininal",
       "hegra_sparebank",
       "sparebank_1_smn",
@@ -17823,6 +19793,10 @@
     },
     "payout_method": [
       "payment_card"
+    ],
+    "payment_method": [
+      "paysafecard",
+      "sofort"
     ]
   },
   {
@@ -17835,6 +19809,9 @@
       "uk": "EMS"
     },
     "payout_method": [
+      "payment_card"
+    ],
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -17862,6 +19839,9 @@
     },
     "payment_method": [
       "paymentrush"
+    ],
+    "payout_method": [
+      "bank_transfer"
     ]
   },
   {
@@ -17958,25 +19938,10 @@
       "uk": "Monetix"
     },
     "payment_method": [
-      "payment_card",
-      "online_banking",
-      "dana",
-      "bank_transfer",
-      "ovo",
-      "online_banking_qr",
-      "shopeepay",
-      "indonesia_va",
-      "momopay",
-      "promptpay",
-      "truemoney",
-      "touchngo",
-      "boost",
-      "duitnow",
-      "grabpay",
-      "7eleven",
-      "coins_ph",
-      "gcash",
-      "maya"
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -18121,10 +20086,10 @@
       "airtel_money",
       "vodacom",
       "tigo_pesa",
-      "halotel",
+      "halo_pesa",
       "mtn",
-      "equitel",
-      "zantel_ezypesa"
+      "zantel_ezypesa",
+      "equitel"
     ],
     "payout_method": [
       "airtel_money",
@@ -18595,6 +20560,7 @@
     "payment_method": [
       "pix",
       "spei",
+      "pse",
       "banco_guayaquil",
       "banco_pichincha",
       "banco_bci",
@@ -18611,8 +20577,7 @@
       "interbank",
       "scotiabank",
       "banco_nacional",
-      "transfer_bancaria",
-      "bank_transfer"
+      "transfer_bancaria"
     ]
   },
   {
@@ -18684,6 +20649,9 @@
     },
     "payout_method": [
       "payment_card"
+    ],
+    "payment_method": [
+      "payment_card"
     ]
   },
   {
@@ -18710,10 +20678,10 @@
     },
     "payout_method": [
       "bank_transfer",
-      "imps",
-      "upi_bank_account"
+      "upi",
+      "imps"
     ],
-    "payment_method":  [
+    "payment_method": [
       "upi",
       "payment_card",
       "bank_transfer"
@@ -19001,6 +20969,9 @@
       "online_banking_qr",
       "zalopay",
       "momo"
+    ],
+    "payout_method": [
+      "bank_transfer"
     ]
   },
   {
@@ -19013,7 +20984,11 @@
       "uk": "ElectroPay"
     },
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "lifecell_phone",
+      "kyivstar_phone",
+      "vodafone_phone",
+      "bank_transfer"
     ]
   },
   {
@@ -19398,7 +21373,7 @@
       "payment_card",
       "qiwi"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card",
       "qiwi",
       "mobile"
@@ -19413,7 +21388,7 @@
       "ru": "Paytriot",
       "uk": "Paytriot"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -19441,6 +21416,12 @@
     },
     "payment_method": [
       "hdfc_bank",
+      "viettelpay",
+      "truemoney",
+      "ovo",
+      "dana",
+      "gopay",
+      "va_may_bank",
       "icici_bank",
       "indusind_bank",
       "state_bank_of_india",
@@ -19470,6 +21451,7 @@
       "bank_negara_indonesia",
       "mandiri_bank",
       "bank_rakyat_indonesia",
+      "bank_negara_indonesia_va",
       "affin_bank_berhad",
       "alliance_bank",
       "ambank_berhad",
@@ -19483,8 +21465,25 @@
       "maybank_berhad",
       "ocbc_bank",
       "public_bank_berhad",
-      "rhb_bank",
+      "rhb_bank_fpx",
       "united_overseas_bank_berhad",
+      "payment_card",
+      "saraswat_cooperative_bank",
+      "krung_thai_bank",
+      "siam_commercial_bank",
+      "bangko_bank",
+      "kasikorn_bank",
+      "thai_military_bank",
+      "krungsri",
+      "cimb_thai_bank",
+      "government_savings_bank",
+      "united_overseas_bank_thai",
+      "government_housing_bank",
+      "hong_kong_shanghai_bank",
+      "standard_chartered_bank_thai",
+      "land_and_houses_bank",
+      "krungthai_bank",
+      "kiatnakin_bank",
       "asia_commercial_bank_qr",
       "bidv_bank_qr",
       "vietcom_bank_qr",
@@ -19494,6 +21493,8 @@
       "vietnam_prosperity_commerial_bank_qr",
       "military_commercial_bank_qr",
       "techcom_bank_qr",
+      "thai_qr_payment",
+      "online_banking_qr",
       "artha_graha_bank",
       "bukopin_bank",
       "commonwealth_bank",
@@ -19528,10 +21529,9 @@
       "indian_bank",
       "indian_overseas_bank",
       "indian_development_bank",
-      "karnataka_bank",
       "karurvysya_bank_india",
       "south_indian_bank",
-      "bank_of_baroda",
+      "union_bank_of_india",
       "yes_bank",
       "andhra_bank",
       "uco_bank_india",
@@ -19544,33 +21544,30 @@
       "punjab_sind_bank",
       "rupay",
       "india_bank_selection",
-      "visadebit",
-      "payment_card",
-      "mastercarddebit",
-      "saraswat_cooperative_bank",
-      "bank_negara_indonesia_va",
-      "krung_thai_bank",
-      "siam_commercial_bank",
-      "bangko_bank",
-      "kasikorn_bank",
-      "thai_military_bank",
-      "krungsri",
-      "cimb_thai_bank",
-      "government_savings_bank",
-      "united_overseas_bank_thai",
-      "government_housing_bank",
-      "hong_kong_shanghai_bank",
-      "standard_chartered_bank_thai",
-      "land_and_houses_bank",
-      "thai_qr_payment",
-      "krungthai_bank",
-      "kiatnakin_bank",
-      "viettelpay",
-      "truemoney",
-      "ovo",
-      "dana",
-      "gopay",
-      "va_may_bank"
+      "boost",
+      "cimb_bank_fpx",
+      "may_bank_fpx",
+      "public_bank_fpx",
+      "standard_chartered_bank_malaysia_fpx",
+      "rhb_bank",
+      "bank_islam_malaysia_fpx",
+      "hong_leong_bank_fpx",
+      "hsbc_bank_malaysia_fpx",
+      "uob_fpx",
+      "ocbc_bank_fpx",
+      "alliance_bank_fpx",
+      "ambank_fpx",
+      "bank_simpanan_nasional_fpx",
+      "affin_bank_fpx",
+      "bank_rakyat_malaysia_fpx",
+      "curfex",
+      "tpbank",
+      "shb_bank",
+      "mb_bank",
+      "vib_bank",
+      "ab_bank",
+      "vp_bank",
+      "scb_bank"
     ],
     "payout_method": [
       "hdfc_bank",
@@ -19679,7 +21676,9 @@
     "payment_method": [
       "payment_card",
       "papara",
-      "bank_transfer"
+      "bank_transfer",
+      "pep",
+      "instant_papara"
     ],
     "payout_method": [
       "bank_transfer",
@@ -19709,7 +21708,7 @@
       "ru": "Impaya",
       "uk": "Impaya"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -19722,7 +21721,7 @@
       "ru": "VevoPay",
       "uk": "VevoPay"
     },
-    "payout_method" : [
+    "payout_method": [
       "papara",
       "bank_transfer",
       "mefete",
@@ -19732,7 +21731,7 @@
       "cmt",
       "pep"
     ],
-    "payment_method" : [
+    "payment_method": [
       "papara",
       "payment_card",
       "bank_transfer",
@@ -19753,7 +21752,7 @@
       "ru": "Localpayments",
       "uk": "Localpayments"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -19766,10 +21765,10 @@
       "ru": "Whitepay",
       "uk": "Whitepay"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ],
-    "payout_method" : [
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -19841,6 +21840,8 @@
       "public_bank_berhad",
       "rhb_bank",
       "united_overseas_bank_berhad",
+      "payment_card",
+      "saraswat_cooperative_bank",
       "asia_commercial_bank_qr",
       "bidv_bank_qr",
       "vietcom_bank_qr",
@@ -19884,10 +21885,9 @@
       "indian_bank",
       "indian_overseas_bank",
       "indian_development_bank",
-      "karnataka_bank",
       "karurvysya_bank_india",
       "south_indian_bank",
-      "bank_of_baroda",
+      "union_bank_of_india",
       "yes_bank",
       "andhra_bank",
       "uco_bank_india",
@@ -19900,10 +21900,6 @@
       "punjab_sind_bank",
       "rupay",
       "india_bank_selection",
-      "visadebit",
-      "payment_card",
-      "mastercarddebit",
-      "saraswat_cooperative_bank",
       "sepa_transfer"
     ],
     "payout_method": [
@@ -19992,7 +21988,7 @@
       "ru": "Gate2way",
       "uk": "Gate2way"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -20005,7 +22001,7 @@
       "ru": "Sparta-Pay",
       "uk": "Sparta-Pay"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -20020,7 +22016,10 @@
       "en": "PayPlanet",
       "ru": "PayPlanet",
       "uk": "PayPlanet"
-    }
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -20062,7 +22061,7 @@
       "ru": "Cash Bulls",
       "uk": "Cash Bulls"
     },
-    "payment_method" : [
+    "payment_method": [
       "payment_card"
     ]
   },
@@ -20225,14 +22224,11 @@
     ],
     "payment_method": [
       "advcash_wallet",
-      "advcash_card",
-      "payeer",
-      "bitexpro_wallet",
-      "hero_payments",
       "payment_card",
-      "noros_p2p",
-      "stripe",
-      "bitexpro_p2p"
+      "payeer",
+      "hero_payments",
+      "bitexpro_p2p",
+      "bitexpro_wallet"
     ],
     "name": {
       "en": "BitexPRO",
@@ -20470,7 +22466,6 @@
       "hdfc_bank",
       "icici_bank",
       "idfc_bank_india",
-      "indian_bank",
       "indian_overseas_bank",
       "indusind_bank",
       "j_k_bank_india",
@@ -20527,8 +22522,8 @@
       "mandiri_bank",
       "bank_central_asia",
       "bank_rakyat_indonesia",
-      "may_bank",
       "va_mandiri",
+      "may_bank",
       "industrial_bank_ho_chi_minh",
       "kookmin_bank",
       "woori_bank",
@@ -20559,7 +22554,6 @@
       "kiwoom_bank",
       "hana_financial_bank",
       "hanwha_bank",
-      "kbfg_bank",
       "industrial_and_commercial_bank_of_china",
       "kakaopay_bank",
       "bnk_bank",
@@ -20623,7 +22617,21 @@
       "en": "PayPort",
       "ru": "PayPort",
       "uk": "PayPort"
-    }
+    },
+    "payout_method": [
+      "bank_transfer",
+      "payment_card",
+      "cash",
+      "wise",
+      "advcash_wallet",
+      "mobile",
+      "upi",
+      "neft",
+      "paytm",
+      "imps",
+      "rtgs",
+      "phonepe"
+    ]
   },
   {
     "status": "active",
@@ -20814,6 +22822,19 @@
       "en": "Empayre",
       "ru": "Empayre",
       "uk": "Empayre"
+    }
+  },
+  {
+    "status": "active",
+    "code": "saltarpay",
+    "vendor": "saltarpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "SaltarPay",
+      "ru": "SaltarPay",
+      "uk": "SaltarPay"
     }
   },
   {

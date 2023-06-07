@@ -99,7 +99,7 @@ abstract class AbstractDataTest extends TestCase
         string $resourceDtoClass,
         string $errorHeader,
         string $identityParamName = 'code'
-    ):void {
+    ): void {
         $resourceDtos = $this->getResourcesByType($resourceDtoClass);
         $resourceCodes = \array_map(static fn ($resourceDto) => $resourceDto->{$identityParamName}, $resourceDtos);
 
