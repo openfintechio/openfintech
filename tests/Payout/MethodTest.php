@@ -10,7 +10,7 @@ use Tests\Relation;
 
 final class MethodTest extends AbstractDataTest
 {
-    public function test_check_methods_for_duplicates():void
+    public function test_check_methods_for_duplicates(): void
     {
         $this->assertResourceHasNoDuplication(
             ResourceType::PAYOUT_METHOD,
@@ -18,7 +18,7 @@ final class MethodTest extends AbstractDataTest
         );
     }
 
-    public function test_check_method_categories_for_duplicates():void
+    public function test_check_method_categories_for_duplicates(): void
     {
         $this->assertResourceHasNoDuplication(
             ResourceType::PAYOUT_METHOD_CATEGORY,
