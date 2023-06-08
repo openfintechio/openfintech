@@ -16373,6 +16373,105 @@
   },
   {
     "status": "active",
+    "code": "hero_payments_inr_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_rub_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_uah_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_try_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_uzs_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_azn_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_aed_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_idr_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_pkr_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_vnd_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "VND",
+    "amount_min": 0,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hero_payments_gbp_hpp",
+    "flow": "hpp",
+    "method": "hero_payments",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "omni_payments_eur_hpp",
     "flow": "hpp",
     "method": "omni_payments",
