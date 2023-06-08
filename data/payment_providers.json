@@ -22898,5 +22898,18 @@
       "ru": "AliumPay",
       "uk": "AliumPay"
     }
+  },
+  {
+    "status": "active",
+    "code": "cpay",
+    "vendor": "cpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "C.Pay",
+      "ru": "C.Pay",
+      "uk": "C.Pay"
+    }
   }
 ]
