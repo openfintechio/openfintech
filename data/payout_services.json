@@ -43,9 +43,9 @@
         "key": "phone_number",
         "type": "string",
         "label": {
-          "en": "Vodafone number:",
-          "uk": "Номер Vodafone:",
-          "ru": "Номер Vodafone:"
+          "en": "Vodafone number: ",
+          "uk": "Номер Vodafone: ",
+          "ru": "Номер Vodafone: "
         },
         "regexp": "\/^(\\+380)[0-9]{9}$\/",
         "required": true,
@@ -71,9 +71,9 @@
         "key": "phone_number",
         "type": "string",
         "label": {
-          "en": "Lifecell number:",
-          "uk": "Номер Lifecell:",
-          "ru": "Номер Lifecell:"
+          "en": "Lifecell number: ",
+          "uk": "Номер Lifecell: ",
+          "ru": "Номер Lifecell: "
         },
         "regexp": "\/^(\\+380)[0-9]{9}$\/",
         "required": true,
@@ -99,9 +99,9 @@
         "key": "phone_number",
         "type": "string",
         "label": {
-          "en": "Kyivstar number:",
-          "uk": "Номер Київстар:",
-          "ru": "Номер Киевстар:"
+          "en": "Kyivstar number: ",
+          "uk": "Номер Київстар: ",
+          "ru": "Номер Киевстар: "
         },
         "regexp": "\/^(\\+380)[0-9]{9}$\/",
         "required": true,
@@ -127,9 +127,9 @@
         "key": "phone_number",
         "type": "string",
         "label": {
-          "en": "3Mob Utel number:",
-          "uk": "Номер 3Mob Utel:",
-          "ru": "Номер 3Mob Utel:"
+          "en": "3Mob Utel number: ",
+          "uk": "Номер 3Mob Utel: ",
+          "ru": "Номер 3Mob Utel: "
         },
         "regexp": "\/^(\\+380)[0-9]{9}$\/",
         "required": true,
@@ -107342,5 +107342,6107 @@
     ],
     "amount_min": "0.03",
     "amount_max": "40000"
+  },
+  {
+   "status": "active",
+   "code": "3_line_ngn",
+   "method": "3_line",
+   "currency": "NGN",
+   "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+   ],
+   "amount_min": 1,
+   "amount_max": 10000000
+  },
+  {
+   "status": "active",
+   "code": "ab_mfb_ngn",
+   "method": "ab_mfb",
+   "currency": "NGN",
+   "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+   ],
+   "amount_min": 1,
+   "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "abbey_mortgage_bank_ngn",
+     "method": "abbey_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "above_only_mfb_ngn",
+     "method": "above_only_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "abu_mfb_ngn",
+     "method": "abu_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "access_bank_nigeria_ngn",
+     "method": "access_bank_nigeria",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "access_yelloand_beta_ngn",
+     "method": "access_yelloand_beta",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "accessmoney_ngn",
+     "method": "accessmoney",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "accion_mfb_ngn",
+     "method": "accion_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "addosser_mfb_ngn",
+     "method": "addosser_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "adeyemi_college_staff_mfb_ngn",
+     "method": "adeyemi_college_staff_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "afekhafe_mfb_ngn",
+     "method": "afekhafe_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ag_mortgage_bank_ngn",
+     "method": "ag_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "al_barkah_mfb_ngn",
+     "method": "al_barkah_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "al_hayat_mfb_ngn",
+     "method": "al_hayat_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "alekun_mfb_ngn",
+     "method": "alekun_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "alert_mfb_ngn",
+     "method": "alert_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "allworkers_mfb_ngn",
+     "method": "allworkers_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "alpha_kapital_mfb_ngn",
+     "method": "alpha_kapital_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "amju_unique_mfb_ngn",
+     "method": "amju_unique_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "amml_mfb_ngn",
+     "method": "amml_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "apeks_mfb_ngn",
+     "method": "apeks_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "arise_mfb_ngn",
+     "method": "arise_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "aso_savings_and_loans_ngn",
+     "method": "aso_savings_and_loans",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "assetmatrix_mfb_ngn",
+     "method": "assetmatrix_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "astrapolaris_mfb_ngn",
+     "method": "astrapolaris_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "auchi_mfb_ngn",
+     "method": "auchi_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "baines_credit_mfb_ngn",
+     "method": "baines_credit_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "balogun_gambari_mfb_ngn",
+     "method": "balogun_gambari_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "baobab_mfb_ngn",
+     "method": "baobab_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "bc_kash_mfb_ngn",
+     "method": "bc_kash_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "boctrust_mfb_ngn",
+     "method": "boctrust_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "bosak_mfb_ngn",
+     "method": "bosak_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "bowen_mfb_ngn",
+     "method": "bowen_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "brent_mortgage_bank_ngn",
+     "method": "brent_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "brethren_mfb_ngn",
+     "method": "brethren_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "brightway_mfb_ngn",
+     "method": "brightway_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "cellulant_ngn",
+     "method": "cellulant",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "cemcs_mfb_ngn",
+     "method": "cemcs_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "chikum_mfb_ngn",
+     "method": "chikum_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "cit_mfb_ngn",
+     "method": "cit_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "citibank_nigeria_ngn",
+     "method": "citibank_nigeria",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "consumer_mfb_ngn",
+     "method": "consumer_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "contec_global_infotech_ngn",
+     "method": "contec_global_infotech",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "coronation_merchant_bank_ngn",
+     "method": "coronation_merchant_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "covenant_ngn",
+     "method": "covenant",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "credit_afrique_mfb_ngn",
+     "method": "credit_afrique_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "daylight_mfb_ngn",
+     "method": "daylight_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ebarcs_mfb_ngn",
+     "method": "ebarcs_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "eagle_flight_mfb_ngn",
+     "method": "eagle_flight_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "eartholeum_ngn",
+     "method": "eartholeum",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ecobank_bank_ngn",
+     "method": "ecobank_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ecobank_xpress_ngn",
+     "method": "ecobank_xpress",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "edfin_mfb_ngn",
+     "method": "edfin_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ekondo_mfb_ngn",
+     "method": "ekondo_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "emeralds_mfb_ngn",
+     "method": "emeralds_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "empire_trust_mfb_ngn",
+     "method": "empire_trust_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "esan_mfb_ngn",
+     "method": "esan_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "esoe_mfb_ngn",
+     "method": "esoe_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "etranzact_ngn",
+     "method": "etranzact",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "evangel_mfb_ngn",
+     "method": "evangel_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fast_mfb_ngn",
+     "method": "fast_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fbn_quest_merchant_bank_ngn",
+     "method": "fbn_quest_merchant_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fcmb_easy_account_ngn",
+     "method": "fcmb_easy_account",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fct_mfb_ngn",
+     "method": "fct_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "federal_university_dutse_mfb_ngn",
+     "method": "federal_university_dutse_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fedpoly_nasarawa_mfb_ngn",
+     "method": "fedpoly_nasarawa_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fets_ngn",
+     "method": "fets",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ffs_microfinance_ngn",
+     "method": "ffs_microfinance",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fidelity_bank_ngn",
+     "method": "fidelity_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fidelity_mobile_ngn",
+     "method": "fidelity_mobile",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fidfund_mfb_ngn",
+     "method": "fidfund_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "finatrust_mfb_ngn",
+     "method": "finatrust_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "first_apple_ngn",
+     "method": "first_apple",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "first_bankof_nigeria_ngn",
+     "method": "first_bankof_nigeria",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "first_city_monument_bank_ngn",
+     "method": "first_city_monument_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "first_gen_mortgage_bank_ngn",
+     "method": "first_gen_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "first_multiple_mfb_ngn",
+     "method": "first_multiple_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "first_option_mfb_ngn",
+     "method": "first_option_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "first_royal_mfb_ngn",
+     "method": "first_royal_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "first_trust_mortgage_bank_ngn",
+     "method": "first_trust_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "firstmonie_wallet_ngn",
+     "method": "firstmonie_wallet",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "flutterwave_tech_solutions_ngn",
+     "method": "flutterwave_tech_solutions",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fortis_mfb_ngn",
+     "method": "fortis_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fortis_mobile_ngn",
+     "method": "fortis_mobile",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "fsdh_merchant_bank_ngn",
+     "method": "fsdh_merchant_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "full_range_mfb_ngn",
+     "method": "full_range_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "futo_mfb_ngn",
+     "method": "futo_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "gashua_mfb_ngn",
+     "method": "gashua_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "gateway_mortgage_bank_ngn",
+     "method": "gateway_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "globus_bank_ngn",
+     "method": "globus_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "glory_mfb_ngn",
+     "method": "glory_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "gomoney_ngn",
+     "method": "gomoney",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "gowans_mfb_ngn",
+     "method": "gowans_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "greenbank_mfb_ngn",
+     "method": "greenbank_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "greenville_mfb_ngn",
+     "method": "greenville_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "grooming_mfb_ngn",
+     "method": "grooming_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "gt_mobile_money_ngn",
+     "method": "gt_mobile_money",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "guaranty_trust_bank_ngn",
+     "method": "guaranty_trust_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "hackman_mfb_ngn",
+     "method": "hackman_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "haggai_mortgage_bank_ngn",
+     "method": "haggai_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "hala_mfb_ngn",
+     "method": "hala_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "hasal_mfb_ngn",
+     "method": "hasal_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "hedonmark_ngn",
+     "method": "hedonmark",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "heritage_bank_ngn",
+     "method": "heritage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ibile_mfb_ngn",
+     "method": "ibile_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ikire_mfb_ngn",
+     "method": "ikire_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "imo_state_mfb_ngn",
+     "method": "imo_state_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "imperial_homes_mortgage_bank_ngn",
+     "method": "imperial_homes_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "infinity_mfb_ngn",
+     "method": "infinity_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "infinity_trust_mortgage_bank_ngn",
+     "method": "infinity_trust_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "innovectives_kesh_ngn",
+     "method": "innovectives_kesh",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "interswitch_ngn",
+     "method": "interswitch",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "irl_mfb_ngn",
+     "method": "irl_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "itex_integrated_services_ngn",
+     "method": "itex_integrated_services",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "jaiz_bank_ngn",
+     "method": "jaiz_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "jubilee_life_ngn",
+     "method": "jubilee_life",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "kadpoly_mfb_ngn",
+     "method": "kadpoly_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "kcmb_mfb_ngn",
+     "method": "kcmb_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "kegow_ngn",
+     "method": "kegow",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "keystone_bank_ngn",
+     "method": "keystone_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "kontagora_mfb_ngn",
+     "method": "kontagora_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "kredi_bank_ngn",
+     "method": "kredi_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "kuda_mfb_ngn",
+     "method": "kuda_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "la_fayette_mfb_ngn",
+     "method": "la_fayette_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "lagos_building_investment_company_ngn",
+     "method": "lagos_building_investment_company",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "lapo_mfb_ngn",
+     "method": "lapo_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "lavender_mfb_ngn",
+     "method": "lavender_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "lovonus_mfb_ngn",
+     "method": "lovonus_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "m_kudi_ngn",
+     "method": "m_kudi",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "mainstreet_mfb_ngn",
+     "method": "mainstreet_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "malachy_mfb_ngn",
+     "method": "malachy_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "megapraise_mfb_ngn",
+     "method": "megapraise_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "microvis_mfb_ngn",
+     "method": "microvis_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "midland_mfb_ngn",
+     "method": "midland_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "mimoney_intellifin_solutions_ngn",
+     "method": "mimoney_intellifin_solutions",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "mint_finex_mfb_ngn",
+     "method": "mint_finex_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "money_trust_mfb_ngn",
+     "method": "money_trust_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "moneybox_ngn",
+     "method": "moneybox",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "mutual_benefits_mifb_ngn",
+     "method": "mutual_benefits_mifb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "mutual_trust_mfb_ngn",
+     "method": "mutual_trust_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "nargata_mfb_ngn",
+     "method": "nargata_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ndiorah_mfb_ngn",
+     "method": "ndiorah_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "new_dawn_mfb_ngn",
+     "method": "new_dawn_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "new_prudential_bank_ngn",
+     "method": "new_prudential_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "nigerian_navy_mfb_ngn",
+     "method": "nigerian_navy_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "nigerian_police_force_mfb_ngn",
+     "method": "nigerian_police_force_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "nirsal_mfb_ngn",
+     "method": "nirsal_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "nnew_women_mfb_ngn",
+     "method": "nnew_women_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "nova_merchant_bank_ngn",
+     "method": "nova_merchant_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "ohafia_mfb_ngn",
+     "method": "ohafia_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "okpoga_mfb_ngn",
+     "method": "okpoga_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "olabisi_onabanjo_university_mfb_ngn",
+     "method": "olabisi_onabanjo_university_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "omiye_mfb_ngn",
+     "method": "omiye_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "omoluabi_mortgage_bank_ngn",
+     "method": "omoluabi_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "one_finance_ngn",
+     "method": "one_finance",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "paga_ngn",
+     "method": "paga",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "page_financials_ngn",
+     "method": "page_financials",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "palmpay_ngn",
+     "method": "palmpay",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "parallex_mfb_ngn",
+     "method": "parallex_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "parkway_readycash_ngn",
+     "method": "parkway_readycash",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "patrickgold_mfb_ngn",
+     "method": "patrickgold_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "payattitude_online_ngn",
+     "method": "payattitude_online",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "paycom_ngn",
+     "method": "paycom",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "paystack_payments_ngn",
+     "method": "paystack_payments",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "pecantrust_mfb_ngn",
+     "method": "pecantrust_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "pennywise_mfb_ngn",
+     "method": "pennywise_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "personal_trust_mfb_ngn",
+     "method": "personal_trust_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "petra_mfb_ngn",
+     "method": "petra_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "pillar_mfb_ngn",
+     "method": "pillar_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "platinum_mortgage_bank_ngn",
+     "method": "platinum_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "polaris_bank_ngn",
+     "method": "polaris_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "polyuwana_mfb_ngn",
+     "method": "polyuwana_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "prestige_mfb_ngn",
+     "method": "prestige_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "providus_bank_ngn",
+     "method": "providus_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "purplemoney_mfb_ngn",
+     "method": "purplemoney_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "quickfund_mfb_ngn",
+     "method": "quickfund_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "rahama_mfb_ngn",
+     "method": "rahama_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "rand_merchant_bank_ngn",
+     "method": "rand_merchant_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "refuge_mortgage_bank_ngn",
+     "method": "refuge_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "regent_mfb_ngn",
+     "method": "regent_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "reliance_mfb_ngn",
+     "method": "reliance_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "renmoney_mfb_ngn",
+     "method": "renmoney_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "richway_mfb_ngn",
+     "method": "richway_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "rolez_bank_ngn",
+     "method": "rolez_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "royal_exchange_mfb_ngn",
+     "method": "royal_exchange_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "rubies_mfb_ngn",
+     "method": "rubies_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "safe_haven_mfb_ngn",
+     "method": "safe_haven_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "safetrust_mortgage_bank_ngn",
+     "method": "safetrust_mortgage_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "sagamu_mfb_ngn",
+     "method": "sagamu_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "seed_capital_mfb_ngn",
+     "method": "seed_capital_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "sparkle_bank_ngn",
+     "method": "sparkle_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "stanbic_ibtc_ngn",
+     "method": "stanbic_ibtc",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "stanbic_ibtc_ease_wal_ngn",
+     "method": "stanbic_ibtc_ease_wal",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "standard_chartered_bank_ngn",
+     "method": "standard_chartered_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "stanford_mfb_ngn",
+     "method": "stanford_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "stellas_mfb_ngn",
+     "method": "stellas_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "sterling_bank_ngn",
+     "method": "sterling_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "sulspap_mfb_ngn",
+     "method": "sulspap_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "suntrust_bank_ngn",
+     "method": "suntrust_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "tagpay_ngn",
+     "method": "tagpay",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "taj_bank_ngn",
+     "method": "taj_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "tcf_mfb_ngn",
+     "method": "tcf_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "team_apt_ngn",
+     "method": "team_apt",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "teasy_mobile_ngn",
+     "method": "teasy_mobile",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "titan_trust_bank_ngn",
+     "method": "titan_trust_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "trident_mfb_ngn",
+     "method": "trident_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "trustbank_mfb_ngn",
+     "method": "trustbank_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "trustfund_mfb_ngn",
+     "method": "trustfund_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "uniben_mfb_ngn",
+     "method": "uniben_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "unical_mfb_ngn",
+     "method": "unical_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "union_bankof_nigeria_ngn",
+     "method": "union_bankof_nigeria",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "united_bankfor_africa_ngn",
+     "method": "united_bankfor_africa",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "unity_bank_ngn",
+     "method": "unity_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "unn_mfb_ngn",
+     "method": "unn_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "vfd_mfb_ngn",
+     "method": "vfd_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "virtue_mfb_ngn",
+     "method": "virtue_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "visa_mfb_ngn",
+     "method": "visa_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "vtnetwork_ngn",
+     "method": "vtnetwork",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "wema_bank_ngn",
+     "method": "wema_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "wetland_mfb_ngn",
+     "method": "wetland_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "xslnce_mfb_ngn",
+     "method": "xslnce_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "yes_mfb_ngn",
+     "method": "yes_mfb",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "zenith_bank_ngn",
+     "method": "zenith_bank",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "zenith_mobile_ngn",
+     "method": "zenith_mobile",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
+  },
+  {
+     "status": "active",
+     "code": "zinternet_ngn",
+     "method": "zinternet",
+     "currency": "NGN",
+     "fields": [
+        {
+           "key": "account_number",
+           "type": "string",
+           "label": {
+              "en": "Account number",
+              "ru": "Номер счета",
+              "uk": "Номер рахунку"
+           },
+           "hint": {
+              "en": "Enter account number",
+              "ru": "Введите номер счета",
+              "uk": "Введіть номер рахунку"
+           },
+           "regexp": "\/^.{1,50}$\/",
+           "required":true,
+           "position": 1
+        }
+     ],
+     "amount_min": 1,
+     "amount_max": 10000000
   }
 ]
