@@ -14602,6 +14602,25 @@
     "flow": "invoice",
     "method": "upi_qr",
     "currency": "INR",
+    "fields": [
+      {
+        "key": "vpa",
+        "type": "string",
+        "label": {
+          "en": "VPA",
+          "ru": "VPA",
+          "uk": "VPA"
+        },
+        "hint": {
+          "en": "Enter VPA",
+          "ru": "Введите VPA",
+          "uk": "Введіть VPA"
+        },
+        "regexp": "\/^.{2,}@\\w+$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 1000000000
   },
