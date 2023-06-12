@@ -17602,5 +17602,140 @@
     ],
     "amount_min": 1,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "hong_leong_bank_qr_myr_invoice",
+    "currency": "MYR",
+    "flow": "invoice",
+    "method": "hong_leong_bank_qr",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "hsbc_bank_malaysia_berhad_qr_myr_invoice",
+    "currency": "MYR",
+    "flow": "invoice",
+    "method": "hsbc_bank_malaysia_berhad_qr",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "maybank_berhad_qr_myr_invoice",
+    "currency": "MYR",
+    "flow": "invoice",
+    "method": "maybank_berhad_qr",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "public_bank_qr_myr_invoice",
+    "currency": "MYR",
+    "flow": "invoice",
+    "method": "public_bank_qr",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "rhb_bank_qr_myr_invoice",
+    "currency": "MYR",
+    "flow": "invoice",
+    "method": "rhb_bank_qr",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "united_overseas_bank_berhad_qr_myr_invoice",
+    "currency": "MYR",
+    "flow": "invoice",
+    "method": "united_overseas_bank_berhad_qr",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "asia_commercial_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "asia_commercial_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bidv_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "bidv_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "dong_a_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "dong_a_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "exim_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "exim_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "sacom_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "sacom_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "techcom_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "techcom_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "vietcom_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "vietcom_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "vietin_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "vietin_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "vp_bank_qr_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "vp_bank_qr",
+    "amount_min": 1,
+    "amount_max": 9999999
   }
 ]
