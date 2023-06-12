@@ -35201,6 +35201,138 @@
   },
   {
     "status": "active",
+    "code": "polygon_usdc",
+    "method": "polygon",
+    "currency": "USDC",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Polygon wallet",
+          "ru": "Polygon кошелёк",
+          "uk": "Polygon гаманець"
+        },
+        "hint": {
+          "en": "Enter polygon wallet",
+          "ru": "Введите polygon кошелёк",
+          "uk": "Введіть polygon гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "vasp",
+        "type": "string",
+        "label": {
+          "en": "VASP Name",
+          "ru": "VASP имя",
+          "uk": "VASP ім'я"
+        },
+        "hint": {
+          "en": "Enter VASP Name",
+          "ru": "Введите имя ASP",
+          "uk": "Введіть ім'я VASP"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": false,
+        "position": 2
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "solana_usdc",
+    "method": "solana",
+    "currency": "USDC",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Solana wallet",
+          "ru": "Solana кошелёк",
+          "uk": "Solana гаманець"
+        },
+        "hint": {
+          "en": "Enter solana wallet",
+          "ru": "Введите solana кошелёк",
+          "uk": "Введіть solana гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "vasp",
+        "type": "string",
+        "label": {
+          "en": "VASP Name",
+          "ru": "VASP имя",
+          "uk": "VASP ім'я"
+        },
+        "hint": {
+          "en": "Enter VASP Name",
+          "ru": "Введите имя ASP",
+          "uk": "Введіть ім'я VASP"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": false,
+        "position": 2
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "stellar_usdc",
+    "method": "stellar",
+    "currency": "USDC",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Stellar wallet",
+          "ru": "Stellar кошелёк",
+          "uk": "Stellar гаманець"
+        },
+        "hint": {
+          "en": "Enter stellar wallet",
+          "ru": "Введите stellar кошелёк",
+          "uk": "Введіть stellar гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "vasp",
+        "type": "string",
+        "label": {
+          "en": "VASP Name",
+          "ru": "VASP имя",
+          "uk": "VASP ім'я"
+        },
+        "hint": {
+          "en": "Enter VASP Name",
+          "ru": "Введите имя ASP",
+          "uk": "Введіть ім'я VASP"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": false,
+        "position": 2
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
     "code": "tether_polygon_usdt",
     "method": "tether",
     "currency": "USDT",
@@ -35440,6 +35572,23 @@
         "required": true,
         "position": 1,
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      },
+      {
+        "key": "vasp",
+        "type": "string",
+        "label": {
+          "en": "VASP Name",
+          "ru": "VASP имя",
+          "uk": "VASP ім'я"
+        },
+        "hint": {
+          "en": "Enter VASP Name",
+          "ru": "Введите имя ASP",
+          "uk": "Введіть ім'я VASP"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": false,
+        "position": 2
       }
     ],
     "amount_min": "0.00000001",
@@ -35719,6 +35868,23 @@
         "regexp": "\/^(bc1|[13])[a-zA-HJ-NP-Z0-9]{10,65}$\/",
         "required": true,
         "position": 1
+      },
+      {
+        "key": "vasp",
+        "type": "string",
+        "label": {
+          "en": "VASP Name",
+          "ru": "VASP имя",
+          "uk": "VASP ім'я"
+        },
+        "hint": {
+          "en": "Enter VASP Name",
+          "ru": "Введите имя ASP",
+          "uk": "Введіть ім'я VASP"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": false,
+        "position": 2
       }
     ],
     "amount_min": "0.00001",
