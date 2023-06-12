@@ -6279,6 +6279,9 @@
     "status": "active",
     "code": "peachpayments",
     "vendor": "peachpayments",
+    "payment_method": [
+      "payment_card"
+    ],
     "metadata": {
       "about_payments_code": "peachpayments"
     },
