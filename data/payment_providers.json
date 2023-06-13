@@ -18068,7 +18068,12 @@
       "uk": "ADgroup"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "qiwi"
+    ],
+    "payout_method": [
+      "payment_card",
+      "qiwi"
     ]
   },
   {
@@ -19050,10 +19055,16 @@
     },
     "payment_method": [
       "payment_card",
-      "card_transfer"
+      "bitcoin",
+      "ethereum",
+      "tether"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer",
+      "bitcoin",
+      "ethereum",
+      "tether"
     ]
   },
   {
