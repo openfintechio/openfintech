@@ -23237,5 +23237,18 @@
       "ru": "airpay",
       "uk": "airpay"
     }
+  },
+  {
+    "status": "active",
+    "code": "siquro",
+    "vendor": "siquro",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Siquro",
+      "ru": "Siquro",
+      "uk": "Siquro"
+    }
   }
 ]
