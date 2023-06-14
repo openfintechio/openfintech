@@ -23224,5 +23224,18 @@
       "ru": "Payfuture",
       "uk": "Payfuture"
     }
+  },
+  {
+    "status": "active",
+    "code": "airpay",
+    "vendor": "airpay",
+    "payment_method": [
+      "upi"
+    ],
+    "name": {
+      "en": "airpay",
+      "ru": "airpay",
+      "uk": "airpay"
+    }
   }
 ]
