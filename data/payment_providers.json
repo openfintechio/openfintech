@@ -23250,5 +23250,21 @@
       "ru": "Siquro",
       "uk": "Siquro"
     }
+  },
+  {
+    "status": "active",
+    "code": "paylinkio",
+    "vendor": "paylinkio",
+    "name": {
+      "en": "Paylinkio",
+      "ru": "Paylinkio",
+      "uk": "Paylinkio"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
