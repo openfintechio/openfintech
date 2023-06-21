@@ -21439,7 +21439,8 @@
       "uk": "Pagsmile"
     },
     "payment_method": [
-      "pix"
+      "pix",
+      "pix_qr"
     ],
     "payout_method": [
       "pix"
@@ -23589,5 +23590,22 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "bitso",
+    "vendor": "bitso",
+    "payout_method": [
+      "polygon",
+      "stellar",
+      "solana",
+      "bitcoin",
+      "tether"
+    ],
+    "name": {
+      "en": "Bitso",
+      "ru": "Bitso",
+      "uk": "Bitso"
+    }
   }
 ]

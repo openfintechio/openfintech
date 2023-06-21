@@ -3282,6 +3282,160 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_sar_hpp",
+    "currency": "SAR",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 375000,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
+        }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "visa_qr_code_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
@@ -16015,7 +16169,134 @@
     "method": "pix_qr",
     "currency": "BRL",
     "amount_min": 0.01,
-    "amount_max": 520000
+    "amount_max": 520000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-]{1,11}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "12345678900"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 2,
+        "example": "+255742044295",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        }
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        }
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^\\d{8}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс плательщика",
+          "uk": "Поштовий індекс платника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс плательщика",
+          "uk": "Введіть поштовий індекс платника"
+        },
+        "example": "68506250"
+      },
+      {
+        "key": "date_of_birth",
+        "type": "string",
+        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer date of birth",
+          "ru": "Дата рождения плательщика",
+          "uk": "Дата народження клієнта платника"
+        },
+        "hint": {
+          "en": "Enter payer date of birth",
+          "ru": "Введите дату рождения плательщика",
+          "uk": "Введіть дату народження платника"
+        },
+        "example": "1986‐05‐22"
+      }
+    ]
   },
   {
     "status": "active",

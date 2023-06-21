@@ -1356,6 +1356,20 @@
     }
   },
   {
+    "code": "solana",
+    "status": "active",
+    "name": {
+      "en": "Solana"
+    }
+  },
+  {
+    "code": "stellar",
+    "status": "active",
+    "name": {
+      "en": "Stellar"
+    }
+  },
+  {
     "code": "toncoin",
     "status": "active",
     "name": {
@@ -33406,6 +33420,18 @@
     },
     "links": {
       "website": "https://www.acledabank.com.kh/"
+    }
+  },
+  {
+    "code": "bitso",
+    "status": "active",
+    "links": {
+      "website": "https://bitso.com/"
+    },
+    "name": {
+      "en": "Bitso",
+      "ru": "Bitso",
+      "uk": "Bitso"
     }
   }
 ]
