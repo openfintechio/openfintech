@@ -18091,5 +18091,14 @@
     "method": "vp_bank_qr",
     "amount_min": 1,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "neopay_uah_hpp",
+    "flow": "hpp",
+    "method": "neopay",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]
