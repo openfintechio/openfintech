@@ -17375,6 +17375,70 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_ngn_invoice",
+    "currency": "NGN",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "fields": [
+      {
+        "key": "payer_email",
+        "type": "string",
+        "label": {
+          "en": "Payer email",
+          "ru": "Email плательщика",
+          "uk": "Email платника"
+        },
+        "hint": {
+          "en": "Enter payer email",
+          "ru": "Введите email плательщика",
+          "uk": "Введіть email платника"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
+        "required": true,
+        "position":1
+      },
+      {
+        "key": "payer_phone_number",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 2,
+        "example": "+234742044295",
+        "label": {
+          "en": "Payer phone number",
+          "ru": "Номер телефона плательщика",
+          "uk": "Номер телефону платника"
+        },
+        "hint": {
+          "en": "Enter payer phone number",
+          "ru": "Введите номер телефона плательщика",
+          "uk": "Введіть номер телефону платника"
+        }
+      },
+      {
+        "key": "payer_full_name",
+        "type": "string",
+        "label": {
+          "en": "Payer full name",
+          "ru": "Полное имя плательщика",
+          "uk": "Повне імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": true,
+        "example": "VAN TUONG LAN",
+        "position": 3
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 68800000
+  },
+  {
+    "status": "active",
     "code": "interac_aggregated_cad_hpp",
     "currency": "CAD",
     "flow": "hpp",
