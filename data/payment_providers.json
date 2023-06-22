@@ -23631,5 +23631,18 @@
       "ru": "TripleA",
       "uk": "TripleA"
     }
+  },
+  {
+    "status": "active",
+    "code": "vppay",
+    "vendor": "vppay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "VPPay",
+      "ru": "VPPay",
+      "uk": "VPPay"
+    }
   }
 ]
