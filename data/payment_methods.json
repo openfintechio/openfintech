@@ -8343,5 +8343,21 @@
     "name": {
       "en": "NEOpay"
     }
+  },
+  {
+    "code": "tmbthanachart_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "TMBThanachart Bank"
+    }
+  },
+  {
+    "code": "bank_transfer_va",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Bank Transfer VA"
+    }
   }
 ]

@@ -18109,5 +18109,52 @@
     "method": "crypto",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "tmbthanachart_bank_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "tmbthanachart_bank",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "standard_chartered_bank_india_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "standard_chartered_bank_india",
+    "amount_min": 0.01,
+    "amount_max": 149000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bank_transfer_va",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]
