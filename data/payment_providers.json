@@ -17969,7 +17969,8 @@
       "payment_card",
       "applepay",
       "masterpass",
-      "googlepay"
+      "googlepay",
+      "neopay"
     ],
     "payout_method": [
       "payment_card"
@@ -23609,6 +23610,19 @@
       "en": "Bitso",
       "ru": "Bitso",
       "uk": "Bitso"
+    }
+  },
+  {
+    "status": "active",
+    "code": "triplea",
+    "vendor": "triplea",
+    "payment_method": [
+      "crypto"
+    ],
+    "name": {
+      "en": "TripleA",
+      "ru": "TripleA",
+      "uk": "TripleA"
     }
   }
 ]
