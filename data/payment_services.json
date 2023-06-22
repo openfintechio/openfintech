@@ -18100,5 +18100,14 @@
     "currency": "UAH",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]
