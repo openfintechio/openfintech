@@ -102271,6 +102271,40 @@
   },
   {
     "status": "active",
+    "code": "bitexpro_p2p_tjs",
+    "method": "bitexpro_p2p",
+    "currency": "TJS",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер карти"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер карти"
+        },
+        "regexp": "\/^.{12,19}$\/",
+        "required": true,
+        "position": 1,
+        "options": {
+          "validators": [
+            {
+              "name": "Luhn"
+            }
+          ]
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1100000
+  },
+  {
+    "status": "active",
     "code": "bitexpro_p2p_kzt",
     "method": "bitexpro_p2p",
     "currency": "KZT",
