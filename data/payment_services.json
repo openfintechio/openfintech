@@ -17006,6 +17006,15 @@
   },
   {
     "status": "active",
+    "code": "bitexpro_p2p_tjs_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_p2p",
+    "currency": "TJS",
+    "amount_min": 0.01,
+    "amount_max": 1100000
+  },
+  {
+    "status": "active",
     "code": "stripe_eur_hpp",
     "flow": "hpp",
     "method": "stripe",
