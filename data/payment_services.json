@@ -18165,5 +18165,14 @@
     "method": "bank_transfer_va",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_qr_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "bank_transfer_qr",
+    "amount_min": 0.01,
+    "amount_max": 9999999
   }
 ]
