@@ -10448,7 +10448,7 @@
     "method": "tether",
     "currency": "UAH",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 5000000
   },
   {
     "status": "active",
@@ -10458,6 +10458,96 @@
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_rub_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_inr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_kzt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_try_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_uzs_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_azn_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_aed_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_idr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 1500000000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_pkr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 30000000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_vnd_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 2000000000
   },
   {
     "status": "active",
@@ -10512,6 +10602,96 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_rub_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_inr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_kzt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_try_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_uzs_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_azn_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_aed_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_idr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 1500000000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_pkr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 30000000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_vnd_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 2000000000
   },
   {
     "status": "active",
@@ -10578,6 +10758,123 @@
   },
   {
     "status": "active",
+    "code": "tether_polygon_rub_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_inr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_kzt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_uah_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_try_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_uzs_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_azn_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_aed_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_idr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 1500000000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_pkr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 30000000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_vnd_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 2000000000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_eur_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_usd_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "digital_cash_dash_hpp",
     "flow": "hpp",
     "method": "digital_cash",
@@ -10609,6 +10906,123 @@
     "flow": "hpp",
     "method": "toncoin",
     "currency": "TON",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_rub_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_inr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_kzt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_uah_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_try_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_uzs_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_azn_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_aed_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_idr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 1500000000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_pkr_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 30000000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_vnd_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 2000000000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_eur_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_usd_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
   },
