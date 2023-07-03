@@ -18174,5 +18174,239 @@
     "method": "bank_transfer_qr",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_kzt_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_mdl_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "MDL",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_azn_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_ars_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "ARS",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_kgs_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "KGS",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_egp_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "EGP",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "cash_egp_invoice",
+    "currency": "EGP",
+    "method": "cash",
+    "flow": "invoice",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cash_krw_invoice",
+    "currency": "KRW",
+    "method": "cash",
+    "flow": "invoice",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "wise_uah_invoice",
+    "flow": "invoice",
+    "method": "wise",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "advcash_kzt_invoice",
+    "flow": "invoice",
+    "method": "advcash",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_try_invoice",
+    "currency": "TRY",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aed_invoice",
+    "currency": "AED",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_mxn_invoice",
+    "currency": "MXN",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_pkr_invoice",
+    "currency": "PKR",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "mobile_pkr_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "neft_inr_invoice",
+    "flow": "invoice",
+    "method": "neft",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "mobile_egp_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "upi_inr_invoice",
+    "currency": "INR",
+    "flow": "invoice",
+    "method": "upi",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "paytm_inr_invoice",
+    "currency": "INR",
+    "flow": "invoice",
+    "method": "paytm",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_krw_invoice",
+    "currency": "KRW",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 130000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_idr_invoice",
+    "currency": "IDR",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_vnd_invoice",
+    "currency": "VND",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "imps_inr_invoice",
+    "currency": "INR",
+    "flow": "invoice",
+    "method": "imps",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "rtgs_inr_invoice",
+    "currency": "INR",
+    "flow": "invoice",
+    "method": "rtgs",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "phonepe_inr_invoice",
+    "currency": "INR",
+    "flow": "invoice",
+    "method": "phonepe",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_mxn_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]

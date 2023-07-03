@@ -23658,5 +23658,31 @@
       "ru": "VPPay",
       "uk": "VPPay"
     }
+  },
+  {
+    "status": "active",
+    "code": "paypugs",
+    "vendor": "paypugs",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "PayPugs",
+      "ru": "PayPugs",
+      "uk": "PayPugs"
+    }
+  },
+  {
+    "status": "active",
+    "code": "safexpay",
+    "vendor": "safexpay",
+    "payout_method": [
+      "bank_transfer"
+    ],
+    "name": {
+      "en": "Safexpay",
+      "ru": "Safexpay",
+      "uk": "Safexpay"
+    }
   }
 ]
