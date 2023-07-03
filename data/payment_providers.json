@@ -23622,6 +23622,19 @@
   },
   {
     "status": "active",
+    "code": "btgate",
+    "vendor": "btgate",
+    "name": {
+      "en": "btGate",
+      "ru": "btGate",
+      "uk": "btGate"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "triplea",
     "vendor": "triplea",
     "payment_method": [
