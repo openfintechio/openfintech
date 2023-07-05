@@ -8367,5 +8367,27 @@
     "name": {
       "en": "Bank Transfer QR"
     }
+  },
+  {
+    "status": "active",
+    "code": "easypaisa",
+    "vendor": "easypaisa",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Easypaisa",
+      "ru": "Easypaisa",
+      "uk": "Easypaisa"
+    }
+  },
+  {
+    "status": "active",
+    "code": "jazzcash",
+    "vendor": "jazzcash",
+    "category": "digital_wallet",
+    "name": {
+      "en": "JazzCash",
+      "ru": "JazzCash",
+      "uk": "JazzCash"
+    }
   }
 ]
