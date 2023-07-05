@@ -23684,5 +23684,18 @@
       "ru": "Safexpay",
       "uk": "Safexpay"
     }
+  },
+  {
+    "status": "active",
+    "code": "pay4fungo",
+    "vendor": "pay4fun",
+    "payout_method": [
+      "pix"
+    ],
+    "name": {
+      "en": "Pay4funGo",
+      "ru": "Pay4funGo",
+      "uk": "Pay4funGo"
+    }
   }
 ]
