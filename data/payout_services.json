@@ -129063,5 +129063,1293 @@
     ],
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_rub",
+    "method": "tether",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_inr",
+    "method": "tether",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "10000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_kzt",
+    "method": "tether",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_try",
+    "method": "tether",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "3000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_uzs",
+    "method": "tether",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_azn",
+    "method": "tether",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "200000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_aed",
+    "method": "tether",
+    "currency": "AED",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "400000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_idr",
+    "method": "tether",
+    "currency": "IDR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1500000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_pkr",
+    "method": "tether",
+    "currency": "PKR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "30000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_vnd",
+    "method": "tether",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether ERC-20 wallet",
+          "ru": "Введите tether ERC-20 кошелёк",
+          "uk": "Введіть tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "2000000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_rub",
+    "method": "tether",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_inr",
+    "method": "tether",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "10000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_kzt",
+    "method": "tether",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_try",
+    "method": "tether",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "3000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_uzs",
+    "method": "tether",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_azn",
+    "method": "tether",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "200000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_aed",
+    "method": "tether",
+    "currency": "AED",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "400000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_idr",
+    "method": "tether",
+    "currency": "IDR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1500000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_pkr",
+    "method": "tether",
+    "currency": "PKR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "30000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_vnd",
+    "method": "tether",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether TRC-20 wallet",
+          "ru": "Введите tether TRC-20 кошелёк",
+          "uk": "Введіть tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "2000000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_rub",
+    "method": "tether",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_inr",
+    "method": "tether",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "10000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_kzt",
+    "method": "tether",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_uah",
+    "method": "tether",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_try",
+    "method": "tether",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "3000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_uzs",
+    "method": "tether",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_azn",
+    "method": "tether",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "200000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_aed",
+    "method": "tether",
+    "currency": "AED",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "400000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_idr",
+    "method": "tether",
+    "currency": "IDR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1500000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_pkr",
+    "method": "tether",
+    "currency": "PKR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "30000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_vnd",
+    "method": "tether",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "2000000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_eur",
+    "method": "tether",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "tether_polygon_usd",
+    "method": "tether",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether POLYGON wallet",
+          "ru": "Tether POLYGON кошелёк",
+          "uk": "Tether POLYGON гаманець"
+        },
+        "hint": {
+          "en": "Enter tether POLYGON wallet",
+          "ru": "Введите tether POLYGON кошелёк",
+          "uk": "Введіть tether POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_rub",
+    "method": "tether",
+    "currency": "RUB",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_inr",
+    "method": "tether",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "10000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_kzt",
+    "method": "tether",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_uah",
+    "method": "tether",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_try",
+    "method": "tether",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "3000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_uzs",
+    "method": "tether",
+    "currency": "UZS",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_azn",
+    "method": "tether",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_aed",
+    "method": "tether",
+    "currency": "AED",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "400000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_idr",
+    "method": "tether",
+    "currency": "IDR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1500000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_pkr",
+    "method": "tether",
+    "currency": "PKR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "30000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_vnd",
+    "method": "tether",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "2000000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_eur",
+    "method": "tether",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_usd",
+    "method": "tether",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
   }
 ]
