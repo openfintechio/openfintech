@@ -18822,5 +18822,23 @@
     "currency": "MXN",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "jazzcash_pkr_hpp",
+    "currency": "PKR",
+    "flow": "hpp",
+    "method": "jazzcash",
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "easypaisa_pkr_hpp",
+    "currency": "PKR",
+    "flow": "hpp",
+    "method": "easypaisa",
+    "amount_min": 1,
+    "amount_max": 25000000
   }
 ]
