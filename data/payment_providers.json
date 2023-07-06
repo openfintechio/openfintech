@@ -23701,5 +23701,18 @@
       "ru": "Pay4funGo",
       "uk": "Pay4funGo"
     }
+  },
+  {
+    "status": "active",
+    "code": "ragapay",
+    "vendor": "ragapay",
+    "payout_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Ragapay",
+      "ru": "Ragapay",
+      "uk": "Ragapay"
+    }
   }
 ]
