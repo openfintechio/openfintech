@@ -19976,7 +19976,9 @@
       "coins_ph",
       "gcash",
       "maya",
-      "payment_card"
+      "payment_card",
+      "jazzcash",
+      "easypaisa"
     ],
     "payout_method": [
       "payment_card",
@@ -20056,7 +20058,9 @@
       "rcbc",
       "philippines_security_bank",
       "sterling_bank",
-      "union_bank"
+      "union_bank",
+      "jazzcash",
+      "easypaisa"
     ]
   },
   {
@@ -22761,7 +22765,8 @@
     "vendor": "pay2play",
     "payment_method": [
       "card_transfer_uzcard",
-      "card_transfer_humo"
+      "card_transfer_humo",
+      "card_transfer"
     ],
     "name": {
       "en": "pay2play",
