@@ -6658,6 +6658,22 @@
     }
   },
   {
+    "code": "sbp_qr",
+    "vendor": "sbp",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "SBP QR",
+      "ru": "Система быстрых платежей ЦБ РФ QR",
+      "uk": "СБП QR"
+    },
+    "description": {
+      "en": "Quick transfers between banks",
+      "ru": "Быстрые переводы между банками",
+      "uk": "Швидкі перекази між банками"
+    }
+  },
+  {
     "code": "binancepay",
     "category": "alternative",
     "status": "active",
