@@ -12416,6 +12416,15 @@
   },
   {
     "status": "active",
+    "code": "sbp_qr_rub_hpp",
+    "flow": "hpp",
+    "method": "sbp_qr",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "binancepay_uah_hpp",
     "flow": "hpp",
     "method": "binancepay",
