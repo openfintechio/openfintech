@@ -19904,7 +19904,8 @@
     },
     "payment_method": [
       "payment_card",
-      "sbp"
+      "sbp",
+      "sbp_qr"
     ],
     "payout_method": [
       "payment_card"
@@ -20607,7 +20608,9 @@
       "kvitum"
     ],
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "kvitum",
+      "bank_transfer"
     ]
   },
   {
