@@ -41655,7 +41655,7 @@
           "uk": "Введіть Bank Account Name"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       },
       {
@@ -41672,7 +41672,7 @@
           "uk": "Введіть Bank Account Number"
         },
         "regexp": "\/^[0-9]{5,100}$\/",
-        "required": true,
+        "required": false,
         "position": 4
       },
       {
@@ -41689,7 +41689,7 @@
           "uk": "Введіть провінцію"
         },
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 5
       },
       {
@@ -42803,7 +42803,7 @@
       }
     ]
   },
-    {
+  {
     "status": "active",
     "code": "may_bank_idr",
     "currency": "IDR",
@@ -101890,23 +101890,6 @@
         "position": 8
       },
       {
-        "key": "full_address",
-        "type": "string",
-        "label": {
-          "en": "Address",
-          "ru": "Address",
-          "uk": "Address"
-        },
-        "hint": {
-          "en": "Enter address",
-          "ru": "Введите адрес",
-          "uk": "Введіть адресу"
-        },
-        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/",
-        "required": false,
-        "position": 9
-      },
-      {
         "key": "customer_name",
         "type": "string",
         "label": {
@@ -116002,7 +115985,7 @@
           "uk": "Номер рахунку"
         },
         "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,20}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "hint": {
           "en": "Enter account number or IBAN",
@@ -116025,7 +116008,7 @@
           "uk": "Введіть IFSC"
         },
         "regexp": "\/^[A-Za-z0-9]{11}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -116042,7 +116025,7 @@
           "uk": "Введіть імʼя отримувача"
         },
         "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
-        "required": true,
+        "required": false,
         "position": 3,
         "example": "Jonh"
       },
@@ -116060,7 +116043,7 @@
           "uk": "Введіть прізвище отримувача"
         },
         "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
-        "required": true,
+        "required": false,
         "position": 4,
         "example": "Doe"
       }
@@ -130351,5 +130334,86 @@
     ],
     "amount_min": "0.01",
     "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "yes_mfb_inr",
+    "method": "yes_mfb",
+    "currency": "INR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,20}$\/",
+        "required": false,
+        "position": 1,
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "ifsc",
+        "type": "string",
+        "label": {
+          "en": "IFSC",
+          "ru": "IFSC",
+          "uk": "IFSC"
+        },
+        "hint": {
+          "en": "Enter IFSC",
+          "ru": "Введите IFSC",
+          "uk": "Введіть IFSC"
+        },
+        "regexp": "\/^[A-Za-z0-9]{11}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 3,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 4,
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 8300000
   }
 ]
