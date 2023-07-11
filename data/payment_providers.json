@@ -23758,5 +23758,18 @@
       "kotak_mahindra_bank",
       "idfc_bank_india"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payforia",
+    "vendor": "payforia",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Payforia",
+      "ru": "Payforia",
+      "uk": "Payforia"
+    }
   }
 ]
