@@ -19904,7 +19904,8 @@
     },
     "payment_method": [
       "payment_card",
-      "sbp"
+      "sbp",
+      "sbp_qr"
     ],
     "payout_method": [
       "payment_card"
@@ -20607,7 +20608,9 @@
       "kvitum"
     ],
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "kvitum",
+      "bank_transfer"
     ]
   },
   {
@@ -23707,13 +23710,66 @@
     "status": "active",
     "code": "ragapay",
     "vendor": "ragapay",
-    "payout_method": [
+    "payment_method": [
       "payment_card"
     ],
     "name": {
       "en": "Ragapay",
       "ru": "Ragapay",
       "uk": "Ragapay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "wealthpay",
+    "vendor": "wealthpay",
+    "name": {
+      "en": "WealthPay",
+      "ru": "WealthPay",
+      "uk": "WealthPay"
+    },
+    "payout_method": [
+      "krungsri",
+      "bangko_bank",
+      "cimb_thai_bank",
+      "government_savings_bank",
+      "kasikorn_bank",
+      "kiatnakin_bank",
+      "krungthai_bank",
+      "siam_commercial_bank",
+      "tmbthanachart_bank",
+      "asia_commercial_bank",
+      "dong_a_bank",
+      "vietcom_bank",
+      "vietin_bank",
+      "sacom_bank",
+      "techcom_bank",
+      "exim_bank",
+      "bidv_bank",
+      "hdfc_bank",
+      "icici_bank",
+      "axis_bank",
+      "indusind_bank",
+      "state_bank_of_india",
+      "bank_of_baroda",
+      "punjab_national_bank",
+      "yes_bank",
+      "bank_of_india",
+      "kotak_mahindra_bank",
+      "idfc_bank_india"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payforia",
+    "vendor": "payforia",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Payforia",
+      "ru": "Payforia",
+      "uk": "Payforia"
     }
   }
 ]

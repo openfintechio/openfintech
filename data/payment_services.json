@@ -3101,6 +3101,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_uah_hpp",
+    "currency": "UAH",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 4000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aed_hpp",
     "currency": "AED",
     "flow": "hpp",
@@ -7704,6 +7713,42 @@
     "flow": "hpp",
     "method": "piastrix",
     "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "kvitum_eur_hpp",
+    "flow": "hpp",
+    "method": "kvitum",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "kvitum_usd_hpp",
+    "flow": "hpp",
+    "method": "kvitum",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "kvitum_uah_hpp",
+    "flow": "hpp",
+    "method": "kvitum",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 4000000
+  },
+  {
+    "status": "active",
+    "code": "kvitum_kzt_hpp",
+    "flow": "hpp",
+    "method": "kvitum",
+    "currency": "KZT",
     "amount_min": 0.01,
     "amount_max": 999999
   },
@@ -12410,6 +12455,15 @@
     "code": "sbp_rub_hpp",
     "flow": "hpp",
     "method": "sbp",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "sbp_qr_rub_hpp",
+    "flow": "hpp",
+    "method": "sbp_qr",
     "currency": "RUB",
     "amount_min": 0.01,
     "amount_max": 1000000

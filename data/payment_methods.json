@@ -2808,6 +2808,17 @@
     }
   },
   {
+    "code": "kvitum",
+    "vendor": "kvitum",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Kvitum",
+      "ru": "Kvitum",
+      "uk": "Kvitum"
+    }
+  },
+  {
     "code": "afterpay",
     "vendor": "afterpay",
     "category": "invoice_payment",
@@ -6650,6 +6661,22 @@
       "en": "SBP",
       "ru": "Система быстрых платежей ЦБ РФ",
       "uk": "СБП"
+    },
+    "description": {
+      "en": "Quick transfers between banks",
+      "ru": "Быстрые переводы между банками",
+      "uk": "Швидкі перекази між банками"
+    }
+  },
+  {
+    "code": "sbp_qr",
+    "vendor": "sbp",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "SBP QR",
+      "ru": "Система быстрых платежей ЦБ РФ QR",
+      "uk": "СБП QR"
     },
     "description": {
       "en": "Quick transfers between banks",
