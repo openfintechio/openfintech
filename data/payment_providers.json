@@ -23709,6 +23709,19 @@
   },
   {
     "status": "active",
+    "code": "paytocrypt",
+    "vendor": "paytocrypt",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Paytocrypt",
+      "ru": "Paytocrypt",
+      "uk": "Paytocrypt"
+    }
+  },
+  {
+    "status": "active",
     "code": "ragapay",
     "vendor": "ragapay",
     "payment_method": [
