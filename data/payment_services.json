@@ -18894,5 +18894,14 @@
     "method": "easypaisa",
     "amount_min": 1,
     "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "philippines_va_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "philippines_va",
+    "amount_min": 0.01,
+    "amount_max": 5440000
   }
 ]
