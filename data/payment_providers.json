@@ -23793,5 +23793,18 @@
       "ru": "Payforia",
       "uk": "Payforia"
     }
+  },
+  {
+    "status": "active",
+    "code": "onlypay",
+    "vendor": "onlypay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Onlypay",
+      "ru": "Onlypay",
+      "uk": "Onlypay"
+    }
   }
 ]
