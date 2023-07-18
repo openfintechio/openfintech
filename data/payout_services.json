@@ -80592,7 +80592,7 @@
       {
         "key": "account_name",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,100}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 2,
         "label": {
@@ -80609,7 +80609,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,0-9\\-\\s\\p{L}]{2,100}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 3,
         "label": {
@@ -80626,7 +80626,7 @@
       {
         "key": "bank_branch_code",
         "type": "string",
-        "regexp": "\/^[0-9]{2,100}$\/",
+        "regexp": "\/^[\\p{N}]{2,100}$\/u",
         "required": false,
         "position": 4,
         "label": {
@@ -80644,7 +80644,7 @@
       {
         "key": "bank_code",
         "type": "string",
-        "regexp": "\/^[A-Za-z0-9\\p{L}\\.]{2,20}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,20}$\/u",
         "required": false,
         "position": 5,
         "label": {
@@ -80680,7 +80680,7 @@
       {
         "key": "bank_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z0-9_\\p{L}]{2,100}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 7,
         "label": {
@@ -80697,7 +80697,7 @@
       {
         "key": "beneficiary_name",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,100}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 8,
         "label": {
@@ -80714,7 +80714,7 @@
       {
         "key": "beneficiary_full_name",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s\\p{L}]{2,100}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 9,
         "label": {
@@ -80731,7 +80731,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d\\p{L}\\p{L}]{2,64}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,64}$\/u",
         "required": false,
         "position": 10,
         "label": {
@@ -80819,7 +80819,7 @@
       {
         "key": "beneficiary_phone",
         "type": "string",
-        "regexp": "\/^\\+\\d{1,15}$\/",
+        "regexp": "\/^\\+?[\\d\\- ]{1,15}\/",
         "required": false,
         "position": 15,
         "label": {
@@ -80871,7 +80871,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,64}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,64}$\/u",
         "required": false,
         "position": 17,
         "label": {

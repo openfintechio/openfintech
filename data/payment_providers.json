@@ -23806,5 +23806,18 @@
       "ru": "Onlypay",
       "uk": "Onlypay"
     }
+  },
+  {
+    "status": "active",
+    "code": "dst",
+    "vendor": "dst",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "DeStream",
+      "ru": "DeStream",
+      "uk": "DeStream"
+    }
   }
 ]
