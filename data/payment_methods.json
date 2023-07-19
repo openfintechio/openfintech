@@ -8442,5 +8442,80 @@
     "name": {
       "en": "Vodafone-Mpesa"
     }
+  },
+  {
+    "status": "active",
+    "code": "airteltigo",
+    "vendor": "airteltigo",
+    "category": "mobile_payment",
+    "name": {
+      "en": "AT Ghana",
+      "ru": "AT Ghana",
+      "uk": "AT Ghana"
+    }
+  },
+  {
+    "status": "active",
+    "code": "vodafone_cash",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Vodafone Cash",
+      "ru": "Vodafone Cash",
+      "uk": "Vodafone Cash"
+    }
+  },
+  {
+    "status": "active",
+    "code": "vodafone_pay",
+    "category": "mobile_carrier_billing",
+    "name": {
+      "en": "Vodafone Pay",
+      "ru": "Vodafone Pay",
+      "uk": "Vodafone Pay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ecocash",
+    "vendor": "ecocash",
+    "category": "mobile_payment",
+    "name": {
+      "en": "EcoCash",
+      "ru": "EcoCash",
+      "uk": "EcoCash"
+    }
+  },
+  {
+    "status": "active",
+    "code": "orange_money",
+    "vendor": "orange_money",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Orange Money",
+      "ru": "Orange Money",
+      "uk": "Orange Money"
+    }
+  },
+  {
+    "status": "active",
+    "code": "mtn_group",
+    "vendor": "mtn_group",
+    "category": "mobile_payment",
+    "name": {
+      "en": "MTN Group",
+      "ru": "MTN Group",
+      "uk": "MTN Group"
+    }
+  },
+  {
+    "status": "active",
+    "code": "zamtel",
+    "vendor": "zamtel",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Zamtel",
+      "ru": "Zamtel",
+      "uk": "Zamtel"
+    }
   }
 ]
