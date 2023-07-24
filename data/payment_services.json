@@ -3128,6 +3128,35 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "12345678900"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
@@ -12207,7 +12236,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9]{1,11}$\/",
+        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -12272,7 +12301,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9\\.\\-]{1,11}$\/",
+        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -12716,7 +12745,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9]{1,11}$\/",
+        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
         "required": true,
         "position": 1,
         "label": {
@@ -16642,7 +16671,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9\\.\\-]{1,11}$\/",
+        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
         "required": false,
         "position": 1,
         "label": {
