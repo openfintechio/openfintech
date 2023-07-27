@@ -23723,6 +23723,11 @@
     "status": "active",
     "code": "pay4fungo",
     "vendor": "pay4fun",
+    "payment_method": [
+      "pix",
+      "boleto_bancario",
+      "bank_transfer"
+    ],
     "payout_method": [
       "pix"
     ],
