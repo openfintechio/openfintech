@@ -689,7 +689,7 @@
     "method": "bank_card",
     "currency": "IDR",
     "amount_min": 1,
-    "amount_max": 100000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -2138,7 +2138,7 @@
     "flow": "hpp",
     "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "payer_first_name",
@@ -3488,7 +3488,7 @@
     "flow": "hpp",
     "method": "visa_qr_code",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -4917,7 +4917,7 @@
     "flow": "hpp",
     "method": "va_may_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -4926,7 +4926,7 @@
     "flow": "hpp",
     "method": "dana",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -4935,7 +4935,7 @@
     "flow": "hpp",
     "method": "shopeepay",
     "amount_min": 0.01,
-    "amount_max": 10000000000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -4944,7 +4944,7 @@
     "flow": "hpp",
     "method": "indonesia_va",
     "amount_min": 0.01,
-    "amount_max": 10000000000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -5108,7 +5108,7 @@
     "flow": "hpp",
     "method": "commonwealth_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -5876,7 +5876,7 @@
     "flow": "hpp",
     "method": "mandiri_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -5905,7 +5905,7 @@
     "flow": "hpp",
     "method": "bank_negara_indonesia",
     "amount_min": 0.01,
-    "amount_max": 999999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -5934,7 +5934,7 @@
     "flow": "hpp",
     "method": "bank_negara_indonesia_va",
     "amount_min": 0.01,
-    "amount_max": 999999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -5963,7 +5963,7 @@
     "flow": "hpp",
     "method": "bank_central_asia",
     "amount_min": 0.01,
-    "amount_max": 999999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -5992,7 +5992,7 @@
     "flow": "hpp",
     "method": "bank_rakyat_indonesia",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -6050,7 +6050,7 @@
     "flow": "hpp",
     "method": "permata_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -6173,7 +6173,7 @@
     "flow": "hpp",
     "method": "cimb_clicks_indonesia",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -6182,7 +6182,7 @@
     "flow": "hpp",
     "method": "danamon_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -6211,7 +6211,7 @@
     "flow": "hpp",
     "method": "btn_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -9060,7 +9060,7 @@
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 0.01,
-    "amount_max": 999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -9478,7 +9478,7 @@
     "flow": "invoice",
     "method": "muchbetter",
     "amount_min": 0.01,
-    "amount_max": 999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -10603,7 +10603,7 @@
     "method": "tether",
     "currency": "IDR",
     "amount_min": 0.01,
-    "amount_max": 1500000000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -10747,7 +10747,7 @@
     "method": "tether",
     "currency": "IDR",
     "amount_min": 0.01,
-    "amount_max": 1500000000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -10909,7 +10909,7 @@
     "method": "tether",
     "currency": "IDR",
     "amount_min": 0.01,
-    "amount_max": 1500000000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -11062,7 +11062,7 @@
     "method": "tether",
     "currency": "IDR",
     "amount_min": 0.01,
-    "amount_max": 1500000000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -15047,7 +15047,7 @@
     "method": "online_banking",
     "currency": "IDR",
     "amount_min": 1,
-    "amount_max": 100000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -15056,7 +15056,7 @@
     "method": "online_banking_qr",
     "currency": "IDR",
     "amount_min": 1,
-    "amount_max": 100000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -15999,7 +15999,7 @@
     "flow": "hpp",
     "method": "maybank_berhad",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16057,7 +16057,7 @@
     "flow": "hpp",
     "method": "ocbc_bank_indonesia",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16144,7 +16144,7 @@
     "flow": "hpp",
     "method": "united_overseas_bank_indonesia",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16231,7 +16231,7 @@
     "flow": "hpp",
     "method": "artha_graha_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16260,7 +16260,7 @@
     "flow": "hpp",
     "method": "bukopin_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16289,7 +16289,7 @@
     "flow": "hpp",
     "method": "mega_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16318,7 +16318,7 @@
     "flow": "hpp",
     "method": "maspion_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16347,7 +16347,7 @@
     "flow": "hpp",
     "method": "mestika_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16376,7 +16376,7 @@
     "flow": "hpp",
     "method": "panin_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16405,7 +16405,7 @@
     "flow": "hpp",
     "method": "sumut_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16434,7 +16434,7 @@
     "flow": "hpp",
     "method": "sinar_mas_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16463,7 +16463,7 @@
     "flow": "hpp",
     "method": "btpn_bank",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16492,7 +16492,7 @@
     "flow": "hpp",
     "method": "cimb_niaga",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -16521,7 +16521,7 @@
     "flow": "hpp",
     "method": "hsbc_bank_indonesia",
     "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -17256,7 +17256,7 @@
     "method": "hero_payments",
     "currency": "IDR",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -17463,7 +17463,7 @@
     "method": "bitexpro_p2p",
     "currency": "IDR",
     "amount_min": 0.01,
-    "amount_max": 100000000
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -17706,7 +17706,7 @@
     "flow": "hpp",
     "method": "promptpay_qr",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -17742,7 +17742,7 @@
     "flow": "hpp",
     "method": "ovo",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -17751,7 +17751,7 @@
     "flow": "hpp",
     "method": "gopay",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -18632,7 +18632,7 @@
     "flow": "hpp",
     "method": "standard_chartered_bank_india",
     "amount_min": 0.01,
-    "amount_max": 149000000,
+    "amount_max": 15000000000,
     "fields": [
       {
         "key": "account",
@@ -18661,7 +18661,7 @@
     "flow": "hpp",
     "method": "bank_transfer_va",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
@@ -18859,7 +18859,7 @@
     "flow": "invoice",
     "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 15000000000
   },
   {
     "status": "active",
