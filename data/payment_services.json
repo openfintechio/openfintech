@@ -18932,5 +18932,34 @@
     "method": "philippines_va",
     "amount_min": 0.01,
     "amount_max": 5440000
+  },
+  {
+    "status": "active",
+    "code": "virtual_bank_aggregated_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "virtual_bank_aggregated",
+    "amount_min": 1,
+    "amount_max": 130000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "name@bankname"
+      }
+    ]
   }
 ]
