@@ -23877,5 +23877,18 @@
       "ru": "AnSpacePay",
       "uk": "AnSpacePay"
     }
+  },
+  {
+    "status": "active",
+    "code": "freepayment",
+    "vendor": "freepayment",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "FreePayment",
+      "ru": "FreePayment",
+      "uk": "FreePayment"
+    }
   }
 ]
