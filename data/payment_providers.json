@@ -23862,5 +23862,19 @@
       "ru": "ABB",
       "uk": "ABB"
     }
+  },
+  {
+    "status": "active",
+    "code": "anspacepay",
+    "vendor": "anspacepay",
+    "payment_method": [
+      "pix",
+      "pix_qr"
+    ],
+    "name": {
+      "en": "AnSpacePay",
+      "ru": "AnSpacePay",
+      "uk": "AnSpacePay"
+    }
   }
 ]
