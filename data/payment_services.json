@@ -18997,5 +18997,14 @@
         "example": "name@bankname"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "vodafone_mpesa_egp_hpp",
+    "currency": "EGP",
+    "flow": "hpp",
+    "method": "vodafone_mpesa",
+    "amount_min": 0.01,
+    "amount_max": 3000000
   }
 ]
