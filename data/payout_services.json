@@ -132382,5 +132382,33 @@
     ],
     "amount_min": 0.01,
     "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "vodafone_mpesa_egp",
+    "method": "vodafone_mpesa",
+    "currency": "EGP",
+    "fields": [
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Vodafone number: ",
+          "uk": "Номер Vodafone: ",
+          "ru": "Номер Vodafone: "
+        },
+        "regexp": "\/^(\\+380)[0-9]{9}$\/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter your phone number in international format",
+          "uk": "Введіть номер телефону в міжнародному форматі",
+          "ru": "Введите номер телефона в международном формате"
+        },
+        "example": "+380121234567"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3000000
   }
 ]
