@@ -18737,6 +18737,15 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_bdt_invoice",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "BDT",
+    "amount_min": 1.09,
+    "amount_max": 10945530
+  },
+  {
+    "status": "active",
     "code": "card_transfer_ars_invoice",
     "flow": "invoice",
     "method": "card_transfer",
@@ -18887,6 +18896,15 @@
     "method": "bank_transfer",
     "amount_min": 1,
     "amount_max": 130000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_jpy_invoice",
+    "currency": "JPY",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 2,
+    "amount_max": 14275900
   },
   {
     "status": "active",
