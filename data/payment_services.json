@@ -2453,6 +2453,24 @@
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
         "required": false,
         "position":9
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ]
   },
@@ -2469,7 +2487,7 @@
         "key": "payer_first_name",
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Payer first name",
@@ -2487,7 +2505,7 @@
         "key": "payer_last_name",
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "label": {
           "en": "Payer last name",
@@ -2540,7 +2558,7 @@
         "key": "payer_city",
         "type": "string",
         "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
-        "required": true,
+        "required": false,
         "position": 5,
         "label": {
           "en": "Payer city",
@@ -2607,6 +2625,24 @@
           "uk": "Введіть код банку відправника"
         },
         "example": "050"
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ]
   },
@@ -19024,5 +19060,614 @@
     "method": "vodafone_mpesa",
     "amount_min": 0.01,
     "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "mtn_ugx_hpp",
+    "currency": "UGX",
+    "flow": "hpp",
+    "method": "mtn",
+    "amount_min": 1,
+    "amount_max": 360000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_ugx_hpp",
+    "currency": "UGX",
+    "flow": "hpp",
+    "method": "airtel_money",
+    "amount_min": 1,
+    "amount_max": 360000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "safaricom_kes_hpp",
+    "currency": "KES",
+    "flow": "hpp",
+    "method": "safaricom",
+    "amount_min": 0.01,
+    "amount_max": 11490000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_kes_hpp",
+    "currency": "KES",
+    "flow": "hpp",
+    "method": "airtel_money",
+    "amount_min": 0.01,
+    "amount_max": 11490000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "equitel_kes_hpp",
+    "currency": "KES",
+    "flow": "hpp",
+    "method": "equitel",
+    "amount_min": 0.01,
+    "amount_max": 11490000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mtn_rwf_hpp",
+    "currency": "RWF",
+    "flow": "hpp",
+    "method": "mtn",
+    "amount_min": 1,
+    "amount_max": 102500000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "rwfstring",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airteltigo_rwf_hpp",
+    "currency": "RWF",
+    "flow": "hpp",
+    "method": "airteltigo",
+    "amount_min": 1,
+    "amount_max": 102500000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mtn_ghs_hpp",
+    "currency": "GHS",
+    "flow": "hpp",
+    "method": "mtn",
+    "amount_min": 0.01,
+    "amount_max": 760000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "vodafone_cash_ghs_hpp",
+    "currency": "GHS",
+    "flow": "hpp",
+    "method": "vodafone_cash",
+    "amount_min": 0.01,
+    "amount_max": 760000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airteltigo_ghs_hpp",
+    "currency": "GHS",
+    "flow": "hpp",
+    "method": "airteltigo",
+    "amount_min": 0.01,
+    "amount_max": 760000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mtn_group_ghs_hpp",
+    "currency": "GHS",
+    "flow": "hpp",
+    "method": "mtn_group",
+    "amount_min": 0.01,
+    "amount_max": 760000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "vodafone_pay_ghs_hpp",
+    "currency": "GHS",
+    "flow": "hpp",
+    "method": "vodafone_pay",
+    "amount_min": 0.01,
+    "amount_max": 760000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ecocash_bif_hpp",
+    "currency": "BIF",
+    "flow": "hpp",
+    "method": "ecocash",
+    "amount_min": 1,
+    "amount_max": 283007000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_tzs_hpp",
+    "currency": "TZS",
+    "flow": "hpp",
+    "method": "airtel_money",
+    "amount_min": 100,
+    "amount_max": 999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tigo_pesa_tzs_hpp",
+    "currency": "TZS",
+    "flow": "hpp",
+    "method": "tigo_pesa",
+    "amount_min": 100,
+    "amount_max": 999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "vodacom_tzs_hpp",
+    "currency": "TZS",
+    "flow": "hpp",
+    "method": "vodacom",
+    "amount_min": 100,
+    "amount_max": 999999,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mtn_xaf_hpp",
+    "currency": "XAF",
+    "flow": "hpp",
+    "method": "mtn",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "orange_money_xaf_hpp",
+    "currency": "XAF",
+    "flow": "hpp",
+    "method": "orange_money",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mtn_group_zmw_hpp",
+    "currency": "ZMW",
+    "flow": "hpp",
+    "method": "mtn_group",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_zmw_hpp",
+    "currency": "ZMW",
+    "flow": "hpp",
+    "method": "airtel_money",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "zamtel_zmw_hpp",
+    "currency": "ZMW",
+    "flow": "hpp",
+    "method": "zamtel",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   }
 ]
