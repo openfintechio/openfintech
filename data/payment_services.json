@@ -19698,5 +19698,63 @@
         "example": "1100382992"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "zen_wallet_eur_invoice",
+    "currency": "EUR",
+    "flow": "invoice",
+    "method": "zen_wallet",
+    "amount_min": 1,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "regexp": "/^[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account ID",
+          "ru": "Номер аккаунта клиента",
+          "uk": "Номер акаунту клієнта"
+        },
+        "hint": {
+          "en": "Enter client account ID",
+          "ru": "Введите номер аккаунта клиента",
+          "uk": "Введіть нмер акаунту клієнта"
+        },
+        "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "zen_wallet_usd_invoice",
+    "currency": "USD",
+    "flow": "invoice",
+    "method": "zen_wallet",
+    "amount_min": 1,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "regexp": "/^[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Client account ID",
+          "ru": "Номер аккаунта клиента",
+          "uk": "Номер акаунту клієнта"
+        },
+        "hint": {
+          "en": "Enter client account ID",
+          "ru": "Введите номер аккаунта клиента",
+          "uk": "Введіть нмер акаунту клієнта"
+        },
+        "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
+      }
+    ]
   }
 ]
