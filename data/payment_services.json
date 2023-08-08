@@ -19729,5 +19729,41 @@
         "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "dutchbanglabanklimitedrocket_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "dutchbanglabanklimitedrocket",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "unitedcommercialbankupay_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "unitedcommercialbankupay",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "bkashlimited_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "bkashlimited",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "nagadwallet_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "nagadwallet",
+    "amount_min": 1,
+    "amount_max": 10900000
   }
 ]
