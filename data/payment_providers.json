@@ -23739,6 +23739,19 @@
   },
   {
     "status": "active",
+    "code": "pay4fun",
+    "vendor": "pay4fun",
+    "payment_method": [
+      "pay4fun"
+    ],
+    "name": {
+      "en": "Pay4fun",
+      "ru": "Pay4fun",
+      "uk": "Pay4fun"
+    }
+  },
+  {
+    "status": "active",
     "code": "pay4fungo",
     "vendor": "pay4fun",
     "payment_method": [
