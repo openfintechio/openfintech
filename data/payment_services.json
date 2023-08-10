@@ -19662,5 +19662,14 @@
         "example": "1100382992"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "bkash_limited_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "bkash_limited",
+    "amount_min": 1,
+    "amount_max": 10900000
   }
 ]
