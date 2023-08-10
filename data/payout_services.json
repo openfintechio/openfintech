@@ -132473,5 +132473,32 @@
     ],
     "amount_min": 0.01,
     "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "bkash_limited_bdt",
+    "method": "bkash_limited",
+    "currency": "BDT",
+    "amount_min": "1",
+    "amount_max": "10900000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
   }
 ]
