@@ -132500,5 +132500,84 @@
         "position": 1
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "virtual_bank_aggregated_krw",
+    "method": "virtual_bank_aggregated",
+    "currency": "KRW",
+    "amount_min": "1",
+    "amount_max": "130000000",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account Number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "name@bankname"
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "label": {
+          "en": "Bank Name",
+          "ru": "Название банка",
+          "uk": "Назву банку"
+        },
+        "hint": {
+          "en": "Enter bank name",
+          "ru": "Введите название банка",
+          "uk": "Введіть назву банку"
+        },
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter bank account number",
+          "ru": "Введите Bank account number",
+          "uk": "Введіть Bank account number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "bank_account_holder_full_name",
+        "type": "string",
+        "label": {
+          "en": "Bank account holder full name",
+          "ru": "ФИО владельца счёта",
+          "uk": "ПІБ власника рахунку"
+        },
+        "hint": {
+          "en": "Enter bank account holder full name",
+          "ru": "Введите ФИО владельца счёта",
+          "uk": "Введіть ПIБ власника рахунку"
+        },
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": true,
+        "position": 4
+      }
+    ]
   }
 ]
