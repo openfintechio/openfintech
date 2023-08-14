@@ -81533,7 +81533,7 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
         "required": false,
         "position": 1,
         "label": {
