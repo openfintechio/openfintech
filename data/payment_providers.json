@@ -23962,5 +23962,18 @@
       "ru": "Sqalapay",
       "uk": "Sqalapay"
     }
+  },
+  {
+    "status": "active",
+    "code": "yelopay",
+    "vendor": "yelopay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "YeloPay",
+      "ru": "YeloPay",
+      "uk": "YeloPay"
+    }
   }
 ]
