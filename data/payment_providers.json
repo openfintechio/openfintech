@@ -24014,5 +24014,18 @@
       "ru": "Onevision",
       "uk": "Onevision"
     }
+  },
+  {
+    "status": "active",
+    "code": "payadmit",
+    "vendor": "payadmit",
+    "name": {
+      "en": "Payadmit",
+      "ru": "Payadmit",
+      "uk": "Payadmit"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
