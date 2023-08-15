@@ -23979,5 +23979,18 @@
       "ru": "YeloPay",
       "uk": "YeloPay"
     }
+  },
+  {
+    "status": "active",
+    "code": "zenwallet",
+    "vendor": "zenwallet",
+    "payment_method": [
+      "zen_wallet"
+    ],
+    "name": {
+      "en": "Zen Wallet",
+      "ru": "Zen Wallet",
+      "uk": "Zen Wallet"
+    }
   }
 ]
