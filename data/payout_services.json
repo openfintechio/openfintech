@@ -2867,6 +2867,33 @@
   },
   {
     "status": "active",
+    "code": "pay4fun_brl",
+    "method": "pay4fun",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account id",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[\\w]{1,64}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "advcash_wallet_kzt",
     "method": "advcash_wallet",
     "currency": "KZT",
