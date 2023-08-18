@@ -72348,6 +72348,24 @@
           "ru": "Введите ИНН получателя",
           "uk": "Введіть ІПН отримувача"
         }
+      },
+      {
+        "key": "payment_purpose",
+        "type": "string",
+        "label": {
+          "en": "Purpose of payment",
+          "ru": "Назначение платежа",
+          "uk": "Призначення платежу"
+        },
+        "regexp": "\/^[a-zA-Z0-9 .,'-_]{1,105}$\/",
+        "required": false,
+        "position": 20,
+        "hint": {
+          "en": "Enter purpose of payment",
+          "ru": "Введите назначение платежа",
+          "uk": "Введіть призначення рахунку"
+        },
+        "example": "Payment of utility services"
       }
     ],
     "amount_min": "0.01",
