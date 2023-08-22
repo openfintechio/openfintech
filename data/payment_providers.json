@@ -24017,6 +24017,19 @@
   },
   {
     "status": "active",
+    "code": "alliancepay",
+    "vendor": "alliancepay",
+    "name": {
+      "en": "AlliancePay",
+      "ru": "AlliancePay",
+      "uk": "AlliancePay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payadmit",
     "vendor": "payadmit",
     "name": {
