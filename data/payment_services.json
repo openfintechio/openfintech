@@ -19729,5 +19729,32 @@
         "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "dutch_bangla_bank_limited_rocket_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "dutch_bangla_bank_limited_rocket",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "united_commercial_bank_upay_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "united_commercial_bank_upay",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "nagad_wallet_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "nagad_wallet",
+    "amount_min": 1,
+    "amount_max": 10900000
   }
 ]

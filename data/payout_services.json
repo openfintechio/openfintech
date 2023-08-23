@@ -132680,5 +132680,86 @@
         "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
       }
     ]
+  },
+    {
+    "status": "active",
+    "code": "dutch_bangla_bank_limited_rocket_bdt",
+    "method": "dutch_bangla_bank_limited_rocket",
+    "currency": "BDT",
+    "amount_min": "1",
+    "amount_max": "10900000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "united_commercial_bank_upay_bdt",
+    "method": "united_commercial_bank_upay",
+    "currency": "BDT",
+    "amount_min": "1",
+    "amount_max": "10900000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nagad_wallet_bdt",
+    "method": "nagad_wallet",
+    "currency": "BDT",
+    "amount_min": "1",
+    "amount_max": "10900000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^\\d{12,19}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
   }
 ]
