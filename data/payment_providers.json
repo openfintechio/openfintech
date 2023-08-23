@@ -24040,5 +24040,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "twopayler",
+    "vendor": "twopayler",
+    "payment_method": [
+      "card_transfer"
+    ],
+    "name": {
+      "en": "2PayLer",
+      "ru": "2PayLer",
+      "uk": "2PayLer"
+    }
   }
 ]
