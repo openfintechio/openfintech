@@ -24062,5 +24062,18 @@
       "ru": "2PayLer",
       "uk": "2PayLer"
     }
+  },
+  {
+    "status": "active",
+    "code": "cirxuspay",
+    "vendor": "cirxuspay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "CirxusPay",
+      "ru": "CirxusPay",
+      "uk": "CirxusPay"
+    }
   }
 ]
