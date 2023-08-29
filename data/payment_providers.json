@@ -24301,5 +24301,18 @@
       "ru": "Mobilum",
       "uk": "Mobilum"
     }
+  },
+  {
+    "status": "active",
+    "code": "paytend",
+    "vendor": "paytend",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Paytend",
+      "ru": "Paytend",
+      "uk": "Paytend"
+    }
   }
 ]
