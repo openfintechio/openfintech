@@ -15406,8 +15406,13 @@
       "about_payments_code": "ccbill"
     },
     "name": {
-      "en": "CCBill"
-    }
+      "en": "CCBill",
+      "ru": "CCBill",
+      "uk": "CCBill"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
