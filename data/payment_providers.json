@@ -15406,8 +15406,13 @@
       "about_payments_code": "ccbill"
     },
     "name": {
-      "en": "CCBill"
-    }
+      "en": "CCBill",
+      "ru": "CCBill",
+      "uk": "CCBill"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -24018,6 +24023,9 @@
     "payment_method": [
       "payment_card"
     ],
+    "payout_method": [
+      "payment_card"
+    ],
     "name": {
       "en": "Onevision",
       "ru": "Onevision",
@@ -24074,9 +24082,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "CirxusPay",
-      "ru": "CirxusPay",
-      "uk": "CirxusPay"
+      "en": "Cirxus Pay",
+      "ru": "Cirxus Pay",
+      "uk": "Cirxus Pay"
     }
   },
   {
