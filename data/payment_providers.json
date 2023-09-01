@@ -15406,8 +15406,13 @@
       "about_payments_code": "ccbill"
     },
     "name": {
-      "en": "CCBill"
-    }
+      "en": "CCBill",
+      "ru": "CCBill",
+      "uk": "CCBill"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
@@ -23897,7 +23902,7 @@
     }
   },
   {
-    "status": "active",
+    "status": "deprecated",
     "code": "abb",
     "vendor": "abb",
     "payment_method": [
@@ -24016,6 +24021,9 @@
     "code": "onevision",
     "vendor": "onevision",
     "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ],
     "name": {
