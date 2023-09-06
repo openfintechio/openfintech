@@ -35644,6 +35644,23 @@
         "required": true,
         "position": 1,
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      },
+      {
+        "key": "vasp",
+        "type": "string",
+        "label": {
+          "en": "VASP Name",
+          "ru": "VASP имя",
+          "uk": "VASP ім'я"
+        },
+        "hint": {
+          "en": "Enter VASP Name",
+          "ru": "Введите имя ASP",
+          "uk": "Введіть ім'я VASP"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": false,
+        "position": 2
       }
     ],
     "amount_min": "0.00000001",
