@@ -14364,24 +14364,13 @@
     "status": "active",
     "code": "paymentasia",
     "vendor": "paymentasia",
-    "categories": [
-      "collecting",
-      "distributing",
-      "aggregating"
-    ],
     "payment_method": [
-      "americanexpress",
-      "jcb",
-      "payment_card",
-      "discover",
-      "chinaunionpay",
-      "bitcoin"
+      "bank_transfer_aggregated"
     ],
-    "metadata": {
-      "about_payments_code": "paymentasia"
-    },
     "name": {
-      "en": "Payment Asia"
+      "en": "PaymentAsia",
+      "ru": "PaymentAsia",
+      "uk": "PaymentAsia"
     }
   },
   {
