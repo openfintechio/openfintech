@@ -41680,7 +41680,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -41787,6 +41787,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -41828,7 +41864,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -41935,6 +41971,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -41976,7 +42048,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -42083,6 +42155,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -42124,7 +42232,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -42231,6 +42339,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -42272,7 +42416,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -42379,6 +42523,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -43109,7 +43289,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -43216,6 +43396,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -43257,7 +43473,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -43364,6 +43580,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -43405,7 +43657,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -43512,6 +43764,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -43553,7 +43841,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -43660,6 +43948,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -43813,7 +44137,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 2
@@ -43920,6 +44244,42 @@
         "required": false,
         "example": "050",
         "position": 8
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 9
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 10
       }
     ]
   },
@@ -44092,7 +44452,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "example": "John Doe",
         "position": 1
@@ -44131,6 +44491,42 @@
         "required": false,
         "example": "050",
         "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ]
   },
@@ -85985,7 +86381,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -86056,6 +86452,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -86080,7 +86512,7 @@
           "ru": "Введите Bank Branch",
           "uk": "Введіть Bank Branch"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": false,
         "position": 1
       },
@@ -86168,6 +86600,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -86209,7 +86677,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -86280,6 +86748,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -86321,7 +86825,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -86392,6 +86896,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -86433,7 +86973,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -86504,6 +87044,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -86545,7 +87121,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -86616,6 +87192,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -86769,7 +87381,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -86840,6 +87452,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -86881,7 +87529,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -86952,6 +87600,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -87323,6 +88007,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -87476,7 +88196,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -87547,6 +88267,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -87588,7 +88344,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -87659,6 +88415,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -87700,7 +88492,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -87771,6 +88563,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -87812,7 +88640,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -87883,6 +88711,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -87924,7 +88788,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -87995,6 +88859,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -88148,7 +89048,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -88237,6 +89137,42 @@
         "required": false,
         "example": "050",
         "position": 7
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 8
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 9
       }
     ]
   },
@@ -88519,7 +89455,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -88649,7 +89585,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -88720,6 +89656,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -88873,7 +89845,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -88944,6 +89916,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -89097,7 +90105,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -89186,6 +90194,42 @@
         "required": false,
         "example": "050",
         "position": 7
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 8
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 9
       }
     ]
   },
@@ -89339,7 +90383,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -89580,7 +90624,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -89651,6 +90695,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -89692,7 +90772,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -89804,7 +90884,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -89875,6 +90955,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -89916,7 +91032,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -89987,6 +91103,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -90140,7 +91292,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -90211,6 +91363,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -90252,7 +91440,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -90323,6 +91511,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -90476,7 +91700,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -90547,6 +91771,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -90588,7 +91848,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -90659,6 +91919,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -90700,7 +91996,7 @@
           "ru": "Введите имя покупателя",
           "uk": "Введіть ім'я клієнта"
         },
-        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
         "required": true,
         "position": 2
       },
@@ -90771,6 +92067,42 @@
         "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
         "required": true,
         "position": 6
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ]
   },
@@ -93529,6 +94861,42 @@
         "required": false,
         "example": "050",
         "position": 10
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 11
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 12
       }
     ],
     "amount_min": 1,
@@ -93714,6 +95082,42 @@
         "required": false,
         "example": "050",
         "position": 10
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 11
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 12
       }
     ],
     "amount_min": 1,
@@ -100101,6 +101505,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -100286,6 +101726,42 @@
         "required": false,
         "example": "050",
         "position": 10
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 11
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 12
       }
     ],
     "amount_min": 0.01,
@@ -100471,6 +101947,42 @@
         "required": false,
         "example": "050",
         "position": 10
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 11
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 12
       }
     ],
     "amount_min": 0.01,
@@ -100616,6 +102128,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -100744,6 +102292,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -100871,6 +102455,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101184,6 +102804,42 @@
         "required": false,
         "example": "050",
         "position": 10
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 11
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 12
       }
     ],
     "amount_min": 0.01,
@@ -101248,6 +102904,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101461,7 +103153,7 @@
         "ru": "Введите фамилию получателя",
         "uk": "Введіть прізвище отримувача"
       },
-      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
       "required": false,
       "position": 1,
       "example": "John Doe"
@@ -101500,6 +103192,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101563,6 +103291,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101626,6 +103390,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101650,7 +103450,7 @@
         "ru": "Введите фамилию получателя",
         "uk": "Введіть прізвище отримувача"
       },
-      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
       "required": false,
       "position": 1,
       "example": "John Doe"
@@ -101689,6 +103489,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101709,11 +103545,11 @@
         "uk": "Ім'я клієнта"
       },
       "hint": {
-        "en": "Enter beneficiary last name",
-        "ru": "Введите фамилию получателя",
-        "uk": "Введіть прізвище отримувача"
+        "en": "Enter beneficiary name",
+        "ru": "Введите имя получателя",
+        "uk": "Введіть ім'я отримувача"
       },
-      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
       "required": false,
       "position": 1,
       "example": "John Doe"
@@ -101752,6 +103588,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101772,11 +103644,11 @@
         "uk": "Ім'я клієнта"
       },
       "hint": {
-        "en": "Enter beneficiary last name",
-        "ru": "Введите фамилию получателя",
-        "uk": "Введіть прізвище отримувача"
+        "en": "Enter beneficiary name",
+        "ru": "Введите имя получателя",
+        "uk": "Введіть ім'я отримувача"
       },
-      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
       "required": false,
       "position": 1,
       "example": "John Doe"
@@ -101815,6 +103687,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101835,11 +103743,11 @@
         "uk": "Ім'я клієнта"
       },
       "hint": {
-        "en": "Enter beneficiary last name",
-        "ru": "Введите фамилию получателя",
-        "uk": "Введіть прізвище отримувача"
+        "en": "Enter beneficiary name",
+        "ru": "Введите имя получателя",
+        "uk": "Введіть ім'я отримувача"
       },
-      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
       "required": false,
       "position": 1,
       "example": "John Doe"
@@ -101878,6 +103786,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101898,11 +103842,11 @@
         "uk": "Ім'я клієнта"
       },
       "hint": {
-        "en": "Enter beneficiary last name",
-        "ru": "Введите фамилию получателя",
-        "uk": "Введіть прізвище отримувача"
+        "en": "Enter beneficiary name",
+        "ru": "Введите имя получателя",
+        "uk": "Введіть ім'я отримувача"
       },
-      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
       "required": false,
       "position": 1,
       "example": "John Doe"
@@ -101941,6 +103885,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -101961,11 +103941,11 @@
         "uk": "Ім'я клієнта"
       },
       "hint": {
-        "en": "Enter beneficiary last name",
-        "ru": "Введите фамилию получателя",
-        "uk": "Введіть прізвище отримувача"
+        "en": "Enter beneficiary name",
+        "ru": "Введите имя получателя",
+        "uk": "Введіть ім'я отримувача"
       },
-      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
       "required": false,
       "position": 1,
       "example": "John Doe"
@@ -102004,6 +103984,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -102024,11 +104040,11 @@
         "uk": "Ім'я клієнта"
       },
       "hint": {
-        "en": "Enter beneficiary last name",
-        "ru": "Введите фамилию получателя",
-        "uk": "Введіть прізвище отримувача"
+        "en": "Enter beneficiary name",
+        "ru": "Введите имя получателя",
+        "uk": "Введіть ім'я отримувача"
       },
-      "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+      "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
       "required": false,
       "position": 1,
       "example": "John Doe"
@@ -102067,6 +104083,42 @@
         "required": false,
         "position": 3,
         "example": "050"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -102315,6 +104367,42 @@
         "regexp": "\/^[0-9]{5,100}$\/",
         "required": false,
         "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -102382,6 +104470,105 @@
     ],
     "amount_min": 0.01,
     "amount_max": 3400000
+  },
+  {
+    "status": "active",
+    "code": "hsbc_bank_vnd",
+    "currency": "VND",
+    "method": "hsbc_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
+      }
+    ],
+    "amount_min": "30000",
+    "amount_max": "1000000000"
   },
   {
     "status": "deprecated",
@@ -108615,7 +110802,7 @@
           "ru": "Введите Account Name",
           "uk": "Введіть Account Name"
         },
-        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/"
       },
       {
         "key": "bank_branch",
@@ -108684,6 +110871,42 @@
           "uk": "Введіть адресу"
         },
         "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ]
   },
@@ -108747,6 +110970,42 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ]
   },
@@ -118607,6 +120866,42 @@
         "required": true,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -120019,6 +122314,105 @@
     ],
     "amount_min": 0.01,
     "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "standard_chartered_bank_vnd",
+    "currency": "VND",
+    "method": "standard_chartered_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 5
+      }
+    ],
+    "amount_min": 30000,
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -124627,6 +127021,106 @@
     ],
     "amount_min": 1,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "citibank_n_a_vnd",
+    "currency": "VND",
+    "method": "citibank_n_a",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": true,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": true,
+        "position": 3,
+        "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 30000,
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -132778,5 +135272,2877 @@
         "position": 1
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "anz_bank_vnd",
+    "currency": "VND",
+    "method": "anz_bank",
+    "amount_min": "30000",
+    "amount_max": "1000000000",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mhb_bank_vnd",
+    "currency": "VND",
+    "method": "mhb_bank",
+    "amount_min": "30000",
+    "amount_max": "1000000000",
+    "fields": [
+     {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bank_for_agriculture_thb",
+    "currency": "THB",
+    "method": "bank_for_agriculture",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3400000
+  },
+  {
+    "status": "active",
+    "code": "citibank_n_a_thb",
+    "currency": "THB",
+    "method": "citibank_n_a",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": true,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": true,
+        "position": 3,
+        "example": "Doe"
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3400000
+  },
+  {
+    "status": "active",
+    "code": "industrial_and_commercial_bank_of_china_thb",
+    "currency": "THB",
+    "method": "industrial_and_commercial_bank_of_china",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3400000
+  },
+  {
+    "status": "active",
+    "code": "islamic_bank_of_thailand_thb",
+    "currency": "THB",
+    "method": "islamic_bank_of_thailand",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3400000
+  },
+  {
+    "status": "active",
+    "code": "thai_credit_retail_bank_thb",
+    "currency": "THB",
+    "method": "thai_credit_retail_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3400000
+  },
+  {
+    "status": "active",
+    "code": "tisco_bank_thb",
+    "currency": "THB",
+    "method": "tisco_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3400000
+  },
+  {
+    "status": "active",
+    "code": "asia_united_bank_php",
+    "currency": "PHP",
+    "method": "asia_united_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "bdo_bank_php",
+    "currency": "PHP",
+    "method": "bdo_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "bdo_network_bank_php",
+    "currency": "PHP",
+    "method": "bdo_network_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "philippine_islands_family_bank_php",
+    "currency": "PHP",
+    "method": "philippine_islands_family_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "bank_of_commerce_php",
+    "currency": "PHP",
+    "method": "bank_of_commerce",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "china_bank_php",
+    "currency": "PHP",
+    "method": "china_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "china_bank_savings_php",
+    "currency": "PHP",
+    "method": "china_bank_savings",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "cebuana_lhuillier_php",
+    "currency": "PHP",
+    "method": "cebuana_lhuillier",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "citi_bank_php",
+    "currency": "PHP",
+    "method": "citi_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "ctbc_bank_php",
+    "currency": "PHP",
+    "method": "ctbc_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "may_bank_php",
+    "currency": "PHP",
+    "method": "may_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "ps_bank_php",
+    "currency": "PHP",
+    "method": "ps_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "robinsons_bank_php",
+    "currency": "PHP",
+    "method": "robinsons_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "villarica_pawnshop_php",
+    "currency": "PHP",
+    "method": "villarica_pawnshop",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "ucpb_php",
+    "currency": "PHP",
+    "method": "ucpb",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "pera_hub_bank_php",
+    "currency": "PHP",
+    "method": "pera_hub_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "veterans_bank_php",
+    "currency": "PHP",
+    "method": "veterans_bank",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "m_lhuillier_php",
+    "currency": "PHP",
+    "method": "m_lhuillier",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "philippine_bank_of_communications_php",
+    "currency": "PHP",
+    "method": "philippine_bank_of_communications",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 2
+      },
+      {
+        "key": "bank_account_number",
+        "type": "string",
+        "label": {
+          "en": "Bank Account Number",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "coins_ph_php",
+    "currency": "PHP",
+    "method": "coins_ph",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 2
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Account Number",
+          "uk": "Account Number"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите Account Number",
+          "uk": "Введіть Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
+  },
+  {
+    "status": "active",
+    "code": "grabpay_wallet_php",
+    "currency": "PHP",
+    "method": "grabpay_wallet",
+    "fields": [
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "John",
+        "position": 1
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": true,
+        "example": "Doe",
+        "position": 2
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Account Number",
+          "uk": "Account Number"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите Account Number",
+          "uk": "Введіть Account Number"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": true,
+        "position": 3
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": true,
+        "position": 4
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 5
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 29000000
   }
 ]
