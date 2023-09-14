@@ -9,7 +9,7 @@
     "ext-json": "*"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-master",
+    "roave/security-advisories": "dev-latest",
     "phpunit/phpunit": "^9.5"
   },
   "autoload": {
