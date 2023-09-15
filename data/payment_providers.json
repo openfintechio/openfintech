@@ -22123,6 +22123,19 @@
   },
   {
     "status": "active",
+    "code": "paytony",
+    "vendor": "paytony",
+    "name": {
+      "en": "Paytony",
+      "ru": "Paytony",
+      "uk": "Paytony"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "impaya",
     "vendor": "impaya",
     "name": {
