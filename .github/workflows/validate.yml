@@ -67,6 +67,8 @@ jobs:
           restore-keys: ${{ runner.os }}-composer-
 
       - name: Run PHPUnit Tests
-        uses: php-actions/phpunit@v9
+        uses: php-actions/phpunit@v3
         with:
+          version: 9.6.8
+          memory_limit: 1G
           configuration: phpunit.xml
