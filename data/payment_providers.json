@@ -24129,5 +24129,21 @@
       "ru": "Centpays",
       "uk": "Centpays"
     }
+  },
+  {
+    "status": "active",
+    "code": "123pay",
+    "vendor": "123pay",
+    "name": {
+      "en": "OneTwoThreePay",
+      "ru": "OneTwoThreePay",
+      "uk": "OneTwoThreePay"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
