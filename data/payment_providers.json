@@ -22219,6 +22219,19 @@
   },
   {
     "status": "active",
+    "code": "paytony",
+    "vendor": "paytony",
+    "name": {
+      "en": "Paytony",
+      "ru": "Paytony",
+      "uk": "Paytony"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "impaya",
     "vendor": "impaya",
     "name": {
@@ -22763,6 +22776,9 @@
     "payment_method": [
       "payment_card",
       "sbp"
+    ],
+    "payout_method": [
+      "payment_card"
     ],
     "name": {
       "en": "Antrpay",
@@ -24212,5 +24228,21 @@
       "ru": "Centpays",
       "uk": "Centpays"
     }
+  },
+  {
+    "status": "active",
+    "code": "123pay",
+    "vendor": "123pay",
+    "name": {
+      "en": "OneTwoThreePay",
+      "ru": "OneTwoThreePay",
+      "uk": "OneTwoThreePay"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
