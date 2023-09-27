@@ -1976,6 +1976,40 @@
             }
           ]
         }
+      },
+      {
+        "key": "ifsc",
+        "type": "string",
+        "label": {
+          "en": "IFSC",
+          "ru": "IFSC",
+          "uk": "IFSC"
+        },
+        "hint": {
+          "en": "Enter IFSC",
+          "ru": "Введите IFSC",
+          "uk": "Введіть IFSC"
+        },
+        "regexp": "\/^[A-Za-z0-9]{11}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
+        }
       }
     ],
     "amount_min": "0.1",
@@ -98273,6 +98307,23 @@
         "required": false,
         "position": 7,
         "example": "626"
+      },
+      {
+        "key": "ifsc",
+        "type": "string",
+        "label": {
+          "en": "IFSC",
+          "ru": "IFSC",
+          "uk": "IFSC"
+        },
+        "hint": {
+          "en": "Enter IFSC",
+          "ru": "Введите IFSC",
+          "uk": "Введіть IFSC"
+        },
+        "regexp": "\/^[A-Za-z0-9]{11}$\/",
+        "required": false,
+        "position": 8
       }
     ],
     "amount_min": 0.01,
