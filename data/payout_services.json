@@ -72461,6 +72461,23 @@
           "ru": "Введите полное имя отправителя",
           "uk": "Введіть повне імʼя відправкника"
         }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,3}$\/",
+        "required": false,
+        "position": 19,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
       }
     ],
     "amount_min": "0.01",
@@ -92678,6 +92695,23 @@
           "ru": "Введите номер счёта",
           "uk": "Введіть номер рахунку"
         }
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{1,10}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
       }
     ],
     "amount_min": "1",
@@ -93109,6 +93143,40 @@
         },
         "required": false,
         "position": 5
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,3}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{1,10}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
       }
     ],
     "amount_min": "0.01",
