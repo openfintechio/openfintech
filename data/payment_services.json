@@ -946,6 +946,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_tnd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "TND",
+    "amount_min": 0.01,
+    "amount_max": 318625
+  },
+  {
+    "status": "active",
     "code": "payment_card_aed_hpp",
     "flow": "hpp",
     "method": "payment_card",
