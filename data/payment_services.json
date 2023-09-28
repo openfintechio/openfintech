@@ -20774,6 +20774,15 @@
   },
   {
     "status": "active",
+    "code": "farmacias_santa_maria_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "farmacias_santa_maria_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370
+  },
+  {
+    "status": "active",
     "code": "calimax_cash_mxn_hpp",
     "currency": "MXN",
     "flow": "hpp",
