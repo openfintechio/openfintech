@@ -138297,5 +138297,105 @@
     ],
     "amount_min": "0.01",
     "amount_max": "11000000"
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_token_jpy",
+    "currency": "JPY",
+    "method": "bank_transfer_token",
+    "fields": [
+      {
+        "key": "bank_account_token",
+        "type": "string",
+        "regexp": "/^.{3,100}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Bank account token",
+          "ru": "Токен банковского аккаунта",
+          "uk": "Токен банківського акаунту"
+        },
+        "hint": {
+          "en": "Enter bank account token",
+          "ru": "Введите токен банковского аккаунта",
+          "uk": "Введіть токен банківського акаунту"
+        },
+        "example": "fde14b9b-4d74-35b3-984d-3eeb47ff77ce"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "example": "シタキ"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "example": "コムロ"
+      },
+      {
+        "key": "beneficiary_first_name_latin",
+        "type": "string",
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        },
+        "example": "John"
+      },
+      {
+        "key": "beneficiary_last_name_latin",
+        "type": "string",
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Beneficiary last name latin",
+          "ru": "Фамилия получателя латиницей",
+          "uk": "Прізвище отримувача латиницею"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name latin",
+          "ru": "Введите фамилию получателя латиницей",
+          "uk": "Введіть прізвище отримувача латиницею"
+        },
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 999999
   }
 ]
