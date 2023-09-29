@@ -24301,5 +24301,18 @@
       "ru": "Mobilum",
       "uk": "Mobilum"
     }
+  },
+  {
+    "status": "active",
+    "code": "paywings",
+    "vendor": "paywings",
+    "name": {
+      "en": "PayWings",
+      "ru": "PayWings",
+      "uk": "PayWings"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
