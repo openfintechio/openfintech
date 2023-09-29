@@ -946,6 +946,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_tnd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "TND",
+    "amount_min": 0.01,
+    "amount_max": 318625
+  },
+  {
+    "status": "active",
     "code": "payment_card_aed_hpp",
     "flow": "hpp",
     "method": "payment_card",
@@ -15363,7 +15372,26 @@
     "flow": "hpp",
     "method": "banco_pichincha",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -15372,7 +15400,26 @@
     "flow": "hpp",
     "method": "banco_bci",
     "amount_min": 1,
-    "amount_max": 90000000
+    "amount_max": 90000000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -15444,7 +15491,26 @@
     "flow": "hpp",
     "method": "khipu",
     "amount_min": 1,
-    "amount_max": 90000000
+    "amount_max": 90000000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -15534,7 +15600,26 @@
     "flow": "hpp",
     "method": "caja_arequipa",
     "amount_min": 0.01,
-    "amount_max": 390000
+    "amount_max": 390000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -15570,7 +15655,26 @@
     "flow": "hpp",
     "method": "caja_tacna",
     "amount_min": 0.01,
-    "amount_max": 390000
+    "amount_max": 390000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -15606,7 +15710,26 @@
     "flow": "hpp",
     "method": "interbank",
     "amount_min": 0.01,
-    "amount_max": 390000
+    "amount_max": 390000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -15651,7 +15774,26 @@
     "flow": "hpp",
     "method": "banco_nacional",
     "amount_min": 0.01,
-    "amount_max": 62000000
+    "amount_max": 62000000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -20002,5 +20144,678 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "bbva_bancomer_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "bbva_bancomer",
+    "amount_min": 0.01,
+    "amount_max": 1746000
+  },
+  {
+    "status": "active",
+    "code": "bbva_bancomer_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "bbva_bancomer",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_estado_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "banco_estado",
+    "amount_min": 1,
+    "amount_max": 90340000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_estado_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_estado",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_santander_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "banco_santander",
+    "amount_min": 1,
+    "amount_max": 90340000
+  },
+  {
+    "status": "active",
+    "code": "banco_santander_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_santander",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_falabella_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "banco_falabella",
+    "amount_min": 1,
+    "amount_max": 90340000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_falabella_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_falabella",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_de_chile_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "banco_de_chile",
+    "amount_min": 1,
+    "amount_max": 90340000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_de_chile_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_de_chile",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_de_credito_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "banco_de_credito_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "bbva_continental_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "bbva_continental_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "caja_arequipa_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "caja_arequipa_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "caja_huancayo_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "caja_huancayo_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "caja_tacna_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "caja_tacna_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "caja_trujillo_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "caja_trujillo_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "scotiabank_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "scotiabank_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "ripley_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "ripley_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "tambo_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "tambo_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kasnet_cash_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "kasnet_cash",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "banco_nacional_cash_crc_hpp",
+    "currency": "CRC",
+    "flow": "hpp",
+    "method": "banco_nacional_cash",
+    "amount_min": 0.01,
+    "amount_max": 53990000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "a_cuenta_cash_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "a_cuenta_cash",
+    "amount_min": 1,
+    "amount_max": 90340000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "lider_cash_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "lider_cash",
+    "amount_min": 1,
+    "amount_max": 90340000
+  },
+  {
+    "status": "active",
+    "code": "express_lider_cash_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "express_lider_cash",
+    "amount_min": 1,
+    "amount_max": 90340000
+  },
+  {
+    "status": "active",
+    "code": "banco_guayaquil_cash_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_guayaquil_cash",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_pichincha_cash_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "banco_pichincha_cash",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pichincha_mi_vecino_cash_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "pichincha_mi_vecino_cash",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "red_activa_cash_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "red_activa_cash",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mi_comisariato_cash_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "mi_comisariato_cash",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "banco_de_antigua_cash_gtq_hpp",
+    "currency": "GTQ",
+    "flow": "hpp",
+    "method": "banco_de_antigua_cash",
+    "amount_min": 0.01,
+    "amount_max": 786000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "fundacion_genesis_cash_gtq_hpp",
+    "currency": "GTQ",
+    "flow": "hpp",
+    "method": "fundacion_genesis_cash",
+    "amount_min": 0.01,
+    "amount_max": 786000
+  },
+  {
+    "status": "active",
+    "code": "caja_desarrollo_cash_gtq_hpp",
+    "currency": "GTQ",
+    "flow": "hpp",
+    "method": "caja_desarrollo_cash",
+    "amount_min": 0.01,
+    "amount_max": 786000
+  },
+  {
+    "status": "active",
+    "code": "oxxo_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "oxxo_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bbva_bancomer_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "bbva_bancomer_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370
+  },
+  {
+    "status": "active",
+    "code": "scotiabank_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "scotiabank_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370
+  },
+  {
+    "status": "active",
+    "code": "banco_azteca_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "banco_azteca_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "soriana_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "soriana_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370
+  },
+  {
+    "status": "active",
+    "code": "open_pay_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "open_pay_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370
+  },
+  {
+    "status": "active",
+    "code": "farmacias_santa_maria_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "farmacias_santa_maria_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370
+  },
+  {
+    "status": "active",
+    "code": "calimax_cash_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "calimax_cash",
+    "amount_min": 0.01,
+    "amount_max": 1744370,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "western_union_panama_cash_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "western_union_panama_cash",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
