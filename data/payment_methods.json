@@ -8444,6 +8444,16 @@
     }
   },
   {
+    "code": "wallet_aggregated",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Wallet aggregated",
+      "ru": "Wallet aggregated",
+      "uk": "Wallet aggregated"
+    }
+  },
+  {
     "code": "vodafone_mpesa",
     "category": "digital_wallet",
     "status": "active",
@@ -8585,6 +8595,356 @@
       "en": "Bank Transfer Aggregated",
       "ru": "Bank Transfer Aggregated",
       "uk": "Bank Transfer Aggregated"
+    }
+  },
+  {
+    "code": "bbva_bancomer",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "BBVA Bancomer",
+      "ru": "BBVA Bancomer",
+      "uk": "BBVA Bancomer"
+    }
+  },
+  {
+    "code": "banco_estado",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Estado",
+      "ru": "Banco Estado",
+      "uk": "Banco Estado"
+    }
+  },
+  {
+    "code": "banco_santander",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Santander",
+      "ru": "Banco Santander",
+      "uk": "Banco Santander"
+    }
+  },
+  {
+    "code": "banco_falabella",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Falabella",
+      "ru": "Banco Falabella",
+      "uk": "Banco Falabella"
+    }
+  },
+  {
+    "code": "banco_de_chile",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco de Chile",
+      "ru": "Banco de Chile",
+      "uk": "Banco de Chile"
+    }
+  },
+  {
+    "code": "banco_de_credito_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco de Crédito",
+      "ru": "Banco de Crédito",
+      "uk": "Banco de Crédito"
+    }
+  },
+  {
+    "code": "bbva_continental_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "BBVA Continental",
+      "ru": "BBVA Continental",
+      "uk": "BBVA Continental"
+    }
+  },
+  {
+    "code": "caja_arequipa_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Arequipa",
+      "ru": "Caja Arequipa",
+      "uk": "Caja Arequipa"
+    }
+  },
+  {
+    "code": "caja_huancayo_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Huancayo",
+      "ru": "Caja Huancayo",
+      "uk": "Caja Huancayo"
+    }
+  },
+  {
+    "code": "caja_tacna_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Tacna",
+      "ru": "Caja Tacna",
+      "uk": "Caja Tacna"
+    }
+  },
+  {
+    "code": "caja_trujillo_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Trujillo",
+      "ru": "Caja Trujillo",
+      "uk": "Caja Trujillo"
+    }
+  },
+  {
+    "code": "scotiabank_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Scotiabank",
+      "ru": "Scotiabank",
+      "uk": "Scotiabank"
+    }
+  },
+  {
+    "code": "ripley_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Ripley",
+      "ru": "Ripley",
+      "uk": "Ripley"
+    }
+  },
+  {
+    "code": "tambo_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Tambo",
+      "ru": "Tambo",
+      "uk": "Tambo"
+    }
+  },
+  {
+    "code": "kasnet_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Kasnet",
+      "ru": "Kasnet",
+      "uk": "Kasnet"
+    }
+  },
+  {
+    "code": "banco_nacional_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Nacional",
+      "ru": "Banco Nacional",
+      "uk": "Banco Nacional"
+    }
+  },
+  {
+    "code": "a_cuenta_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "aCuenta",
+      "ru": "aCuenta",
+      "uk": "aCuenta"
+    }
+  },
+  {
+    "code": "lider_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Lider",
+      "ru": "Lider",
+      "uk": "Lider"
+    }
+  },
+  {
+    "code": "express_lider_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Express Lider",
+      "ru": "Express Lider",
+      "uk": "Express Lider"
+    }
+  },
+  {
+    "code": "banco_guayaquil_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Guayaquil",
+      "ru": "Banco Guayaquil",
+      "uk": "Banco Guayaquil"
+    }
+  },
+  {
+    "code": "banco_pichincha_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Pichincha",
+      "ru": "Banco Pichincha",
+      "uk": "Banco Pichincha"
+    }
+  },
+  {
+    "code": "pichincha_mi_vecino_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Pichincha Mi Vecino",
+      "ru": "Pichincha Mi Vecino",
+      "uk": "Pichincha Mi Vecino"
+    }
+  },
+  {
+    "code": "red_activa_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Red Activa",
+      "ru": "Red Activa",
+      "uk": "Red Activa"
+    }
+  },
+  {
+    "code": "mi_comisariato_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Mi Comisariato",
+      "ru": "Mi Comisariato",
+      "uk": "Mi Comisariato"
+    }
+  },
+  {
+    "code": "banco_de_antigua_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco de Antigua",
+      "ru": "Banco de Antigua",
+      "uk": "Banco de Antigua"
+    }
+  },
+  {
+    "code": "fundacion_genesis_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Fundacion Genesis",
+      "ru": "Fundacion Genesis",
+      "uk": "Fundacion Genesis"
+    }
+  },
+  {
+    "code": "caja_desarrollo_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Caja Desarrollo",
+      "ru": "Caja Desarrollo",
+      "uk": "Caja Desarrollo"
+    }
+  },
+  {
+    "code": "oxxo_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "OXXO",
+      "ru": "OXXO",
+      "uk": "OXXO"
+    }
+  },
+  {
+    "code": "bbva_bancomer_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "BBVA Bancomer",
+      "ru": "BBVA Bancomer",
+      "uk": "BBVA Bancomer"
+    }
+  },
+  {
+    "code": "banco_azteca_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Banco Azteca",
+      "ru": "Banco Azteca",
+      "uk": "Banco Azteca"
+    }
+  },
+  {
+    "code": "soriana_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Soriana",
+      "ru": "Soriana",
+      "uk": "Soriana"
+    }
+  },
+  {
+    "code": "open_pay_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "OpenPay",
+      "ru": "OpenPay",
+      "uk": "OpenPay"
+    }
+  },
+  {
+    "code": "farmacias_santa_maria_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Farmacias Santa Maria",
+      "ru": "Farmacias Santa Maria",
+      "uk": "Farmacias Santa Maria"
+    }
+  },
+  {
+    "code": "calimax_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Calimax",
+      "ru": "Calimax",
+      "uk": "Calimax"
+    }
+  },
+  {
+    "code": "western_union_panama_cash",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Western Union Panama",
+      "ru": "Western Union Panama",
+      "uk": "Western Union Panama"
     }
   }
 ]
