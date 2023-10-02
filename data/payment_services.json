@@ -3573,6 +3573,15 @@
   },
   {
     "status": "active",
+    "code": "net_banking_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "net_banking",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "megafon_rub_hpp",
     "currency": "RUB",
     "method": "megafon",
@@ -18017,9 +18026,45 @@
     "code": "mobile_egp_hpp",
     "flow": "hpp",
     "method": "mobile",
-    "currency": "KZT",
+    "currency": "EGP",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "mobile_kes_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "KES",
+    "amount_min": 0.01,
+    "amount_max": 13200000
+  },
+  {
+    "status": "active",
+    "code": "mobile_ugx_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "UGX",
+    "amount_min": 1,
+    "amount_max": 360000000
+  },
+  {
+    "status": "active",
+    "code": "mobile_inr_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "INR",
     "amount_min": 0.01,
     "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_pkr_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "PKR",
+    "amount_min": 1,
+    "amount_max": 25000000
   },
   {
     "status": "active",
