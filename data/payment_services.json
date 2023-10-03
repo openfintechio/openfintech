@@ -15312,6 +15312,24 @@
   },
   {
     "status": "active",
+    "code": "pay_id_aud_hpp",
+    "flow": "hpp",
+    "method": "pay_id",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "mb_way_eur_hpp",
+    "flow": "hpp",
+    "method": "mb_way",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
     "code": "upi_qr_inr_invoice",
     "flow": "invoice",
     "method": "upi_qr",
