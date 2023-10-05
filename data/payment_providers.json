@@ -24295,11 +24295,14 @@
       "ru": "OneTwoThreePay",
       "uk": "OneTwoThreePay"
     },
+    "countries": [
+      "IN"
+    ],
     "payment_method": [
-      "payment_card"
+      "upi"
     ],
     "payout_method": [
-      "payment_card"
+      "bank_transfer"
     ]
   },
   {
