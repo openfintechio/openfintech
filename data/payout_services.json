@@ -72193,7 +72193,7 @@
       {
         "key": "account_name",
         "type": "string",
-        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 3,
         "label": {
@@ -72210,7 +72210,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 4,
         "label": {
@@ -72244,7 +72244,7 @@
       {
         "key": "bank_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z0-9_]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 6,
         "label": {
@@ -72261,7 +72261,7 @@
       {
         "key": "bank_address",
         "type": "string",
-        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 7,
         "label": {
@@ -72414,7 +72414,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -72527,7 +72527,7 @@
       {
         "key": "account_name",
         "type": "string",
-        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 3,
         "label": {
@@ -72544,7 +72544,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-za-z,0-9]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 4,
         "label": {
@@ -72578,7 +72578,7 @@
       {
         "key": "bank_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z0-9_]{2,100}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 6,
         "label": {
@@ -72595,7 +72595,7 @@
       {
         "key": "bank_address",
         "type": "string",
-        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 7,
         "label": {
@@ -72748,7 +72748,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 16,
         "label": {
@@ -72821,7 +72821,7 @@
           "ru": "Назначение платежа",
           "uk": "Призначення платежу"
         },
-        "regexp": "\/^[a-zA-Z0-9 .,'-_]{1,105}$\/",
+        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
         "required": false,
         "position": 20,
         "hint": {
