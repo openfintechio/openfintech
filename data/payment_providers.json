@@ -24344,5 +24344,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "rubinpay",
+    "vendor": "rubinpay",
+    "name": {
+      "en": "RubinPay",
+      "ru": "RubinPay",
+      "uk": "RubinPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
