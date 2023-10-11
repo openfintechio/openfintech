@@ -80865,7 +80865,7 @@
           "uk": "Введіть VPA"
         },
         "regexp": "\/^.{2,}@\\w+$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
