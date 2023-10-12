@@ -2914,13 +2914,32 @@
           "uk": "Номер рахунку"
         },
         "hint": {
-          "en": "Enter account id",
+          "en": "Enter account ID",
           "ru": "Введите номер счета",
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^[\\w]{1,64}$\/",
         "required": false,
-        "position": 1
+        "position": 1,
+        "example": "77413829266"
+      },
+      {
+        "key": "account_email",
+        "type": "string",
+        "label": {
+          "en": "Account ID",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Account Email",
+          "ru": "Еmail аккаунта",
+          "uk": "Еmail облікового запису"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": true,
+        "position": 2,
+        "example": "test_customer@p4f.com"
       }
     ],
     "amount_min": "0.01",
