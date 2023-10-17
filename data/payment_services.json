@@ -1675,6 +1675,41 @@
           "uk": "Введіть номер рахунку або IBAN"
         },
         "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,3}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 11,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
       }
     ]
   },
@@ -3360,6 +3395,41 @@
           "uk": "Введіть код банку відправника"
         },
         "example": "050"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,3}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
       }
     ]
   },
@@ -20592,7 +20662,44 @@
     "flow": "hpp",
     "method": "express_lider_cash",
     "amount_min": 1,
-    "amount_max": 90340000
+    "amount_max": 90340000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,3}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      }
+    ]
   },
   {
     "status": "active",
@@ -20897,6 +21004,107 @@
     "flow": "hpp",
     "method": "western_union_panama_cash",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,3}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      }
+    ]
+  },
+  {
+    "code": "bank_transfer_pen_hpp",
+    "status": "active",
+    "method": "bank_transfer",
+    "flow": "hpp",
+    "currency": "PEN",
+    "amount_min": 0.01,
+    "amount_max": 377000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,3}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      }
+    ]
+  },
+  {
+    "code": "linkaja_idr_hpp",
+    "method": "linkaja",
+    "status": "active",
+    "flow": "hpp",
+    "currency": "IDR",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "code": "bank_transfer_qr_idr_hpp",
+    "currency": "IDR",
+    "status": "active",
+    "flow": "hpp",
+    "method": "bank_transfer_qr",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
   }
 ]
