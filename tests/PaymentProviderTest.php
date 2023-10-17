@@ -17,21 +17,6 @@ final class PaymentProviderTest extends AbstractDataTest
         );
     }
 
-    public function test_payment_provider_with_vendor_relation(): void
-    {
-        $relation = new Relation(
-            ResourceType::PAYMENT_PROVIDER,
-            'vendor',
-            ResourceType::VENDOR
-        );
-
-        $this->assertCorrectRelationWithOne(
-            $relation,
-            \sprintf(self::NOT_EXISTENT_ERROR_HEADER_TEMPLATE, 'VENDOR'),
-            'in payment providers'
-        );
-    }
-
     public function test_payment_provider_with_payment_method_relation(): void
     {
         $relation = new Relation(

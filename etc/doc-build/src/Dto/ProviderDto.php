@@ -10,9 +10,6 @@ final class ProviderDto extends BaseDto
     /** @var array|null */
     public $description;
 
-    /** @var string */
-    public $vendor;
-
     /** @var array|null */
     public $categories;
 

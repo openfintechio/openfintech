@@ -24,15 +24,6 @@
         ],
         "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$"
       },
-      "vendor": {
-        "$id": "#/items/properties/vendor",
-        "type": "string",
-        "title": "The Vendor Schema",
-        "pattern": "^([a-z0-9]+)([a-z0-9-_\\.]+)([a-z0-9]+)$",
-        "examples": [
-          "webmoney"
-        ]
-      },
       "name": { "$ref": "#/definitions/translatable" },
       "description": { "$ref": "#/definitions/translatable" },
       "category": {

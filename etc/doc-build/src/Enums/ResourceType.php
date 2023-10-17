@@ -16,6 +16,5 @@ final class ResourceType extends AbstractEnum
     public const PAYMENT_METHOD = 'payment_method';
     public const PAYMENT_METHOD_CATEGORY = 'payment_method_category';
     public const PAYMENT_FLOW = 'payment_flow';
-    public const VENDOR = 'vendor';
     public const PAYMENT_PROVIDER = 'payment_provider';
 }

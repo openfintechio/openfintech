@@ -11,7 +11,6 @@ use Oft\Generator\Dto\PaymentServiceDto;
 use Oft\Generator\Dto\PayoutMethodDto;
 use Oft\Generator\Dto\PayoutServiceDto;
 use Oft\Generator\Dto\ProviderDto;
-use Oft\Generator\Dto\VendorDto;
 
 class DataProvider
 {
@@ -26,7 +25,6 @@ class DataProvider
     const CURRENCIES_FILENAME = '/currencies.json';
     const CURRENCY_TYPES_FILENAME = '/currency_types.json';
     const CURRENCY_CATEGORIES_FILENAME = '/currency_categories.json';
-    const VENDORS_FILENAME = '/vendors.json';
     const PAYOUT_METHOD_CATEGORIES_FILENAME = '/payout_method_categories.json';
 
     private array $providers;
@@ -40,7 +38,6 @@ class DataProvider
     private array $currencies;
     private array $currencyTypes;
     private array $currencyCategories;
-    private array $vendors;
 
     public function __construct()
     {
@@ -55,7 +52,6 @@ class DataProvider
             $this->setCurrencies($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCIES_FILENAME));
             $this->setCurrencyTypes($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_TYPES_FILENAME));
             $this->setCurrencyCategories($this->getJsonContent(self::PATH_TO_DATA.self::CURRENCY_CATEGORIES_FILENAME));
-            $this->setVendors($this->getJsonContent(self::PATH_TO_DATA.self::VENDORS_FILENAME));
             $this->setPayoutMethodCategories($this->getJsonContent(self::PATH_TO_DATA.self::PAYOUT_METHOD_CATEGORIES_FILENAME));
         } catch (\Throwable $ex) {
             echo $ex->getMessage();
@@ -177,17 +173,6 @@ class DataProvider
         $this->currencyCategories = $tmp;
     }
 
-    private function setVendors(array $data): void
-    {
-        $tmp = [];
-
-        foreach ($data as $item) {
-            $tmp[] = VendorDto::fromArray($item);
-        }
-
-        $this->vendors = $tmp;
-    }
-
     private function setPayoutMethodCategories(array $data): void
     {
         $tmp = [];
@@ -247,11 +232,6 @@ class DataProvider
     public function getCurrencyCategories(): array
     {
         return $this->currencyCategories;
-    }
-
-    public function getVendors(): array
-    {
-        return $this->vendors;
     }
 
     public function getPayoutMethodCategories(): array

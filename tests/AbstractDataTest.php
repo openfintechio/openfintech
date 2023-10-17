@@ -158,8 +158,6 @@ abstract class AbstractDataTest extends TestCase
                 return $this->dataProvider->getPayoutMethodCategories();
             case ResourceType::PAYMENT_METHOD_CATEGORY:
                 return $this->dataProvider->getPaymentMethodCategories();
-            case ResourceType::VENDOR:
-                return $this->dataProvider->getVendors();
             case ResourceType::PAYMENT_PROVIDER:
                 return $this->dataProvider->getProviders();
             default:

@@ -17777,7 +17777,6 @@
   {
     "status": "active",
     "code": "mandiri_bank",
-    "vendor": "mandiri_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Mandiri Bank"
@@ -17974,7 +17973,6 @@
   {
     "status": "active",
     "code": "swift",
-    "vendor": "swift",
     "category": "bank_transfer",
     "countries": [
       "AO",
@@ -23584,7 +23582,6 @@
   {
     "status": "active",
     "code": "uax",
-    "vendor": "kuna",
     "category": "alternative",
     "name": {
       "en": "UAX",
@@ -23595,7 +23592,6 @@
   {
     "status": "active",
     "code": "paypoint_card",
-    "vendor": "paypoint",
     "category": "digital_wallet",
     "name": {
       "en": "PayPoint card",
@@ -23614,7 +23610,6 @@
   {
     "status": "active",
     "code": "vcreditos",
-    "vendor": "vcreditos",
     "category": "digital_wallet",
     "name": {
       "en": "VCreditos wallet",
@@ -23625,7 +23620,6 @@
   {
     "status": "active",
     "code": "pokermatch_account",
-    "vendor": "pokermatch",
     "category": "digital_wallet",
     "name": {
       "en": "Pokermatch Account",
@@ -23636,7 +23630,6 @@
   {
     "status": "active",
     "code": "slotoking_account",
-    "vendor": "slotoking",
     "category": "digital_wallet",
     "name": {
       "en": "Slotoking Account",
@@ -23665,7 +23658,6 @@
   {
     "status": "active",
     "code": "globalmoney",
-    "vendor": "globalmoney",
     "category": "digital_wallet",
     "name": {
       "en": "Global Money",
@@ -23685,7 +23677,6 @@
   },
   {
     "code": "tether",
-    "vendor": "tether",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23696,7 +23687,6 @@
   },
   {
     "code": "digital_cash",
-    "vendor": "digital_cash",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23707,7 +23697,6 @@
   },
   {
     "code": "binance_usd",
-    "vendor": "binance_usd",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23718,7 +23707,6 @@
   },
   {
     "code": "polygon",
-    "vendor": "polygon",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23729,7 +23717,6 @@
   },
   {
     "code": "solana",
-    "vendor": "solana",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23740,7 +23727,6 @@
   },
   {
     "code": "stellar",
-    "vendor": "stellar",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23751,7 +23737,6 @@
   },
   {
     "code": "toncoin",
-    "vendor": "toncoin",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23783,7 +23768,6 @@
   {
     "status": "active",
     "code": "nixmoney",
-    "vendor": "nixmoney",
     "category": "digital_wallet",
     "name": {
       "en": "NixMoney Wallet",
@@ -23793,7 +23777,6 @@
   },
   {
     "code": "dogecoin",
-    "vendor": "dogecoin",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23804,7 +23787,6 @@
   },
   {
     "code": "binance_coin",
-    "vendor": "binance_coin",
     "category": "alternative",
     "status": "active",
     "name": {
@@ -23876,7 +23858,6 @@
   {
     "status": "active",
     "code": "pix",
-    "vendor": "bcb",
     "category": "bank_transfer",
     "name": {
       "en": "PIX",
@@ -23887,7 +23868,6 @@
   {
     "status": "active",
     "code": "spei",
-    "vendor": "bnd",
     "category": "bank_transfer",
     "name": {
       "en": "SPEI",
@@ -25318,7 +25298,6 @@
   {
     "status": "active",
     "code": "binance_smart_chain",
-    "vendor": "binance_smart_chain",
     "category": "alternative",
     "name": {
       "en": "Binance smart chain",
@@ -25369,7 +25348,6 @@
   {
     "status": "active",
     "code": "dai_coin",
-    "vendor": "dai_coin",
     "category": "alternative",
     "name": {
       "en": "Dai Coin",
@@ -25390,7 +25368,6 @@
   {
     "status": "active",
     "code": "va_mandiri",
-    "vendor": "mandiri_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Mandiri Virtual Account",
@@ -25401,7 +25378,6 @@
   {
     "status": "active",
     "code": "kookmin_bank",
-    "vendor": "kookmin_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Kookmin Bank",
@@ -25412,7 +25388,6 @@
   {
     "status": "active",
     "code": "keb_hana_bank",
-    "vendor": "keb_hana_bank",
     "category": "bank_transfer",
     "name": {
       "en": "KEB Hana Bank",
@@ -25423,7 +25398,6 @@
   {
     "status": "active",
     "code": "nhbank_bank",
-    "vendor": "nhbank_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Nonghyup Bank",
@@ -25434,7 +25408,6 @@
   {
     "status": "active",
     "code": "nonghyup_bank",
-    "vendor": "nonghyup_bank",
     "category": "bank_transfer",
     "name": {
       "en": "National Agricultural cooperative federation",
@@ -25445,7 +25418,6 @@
   {
     "status": "active",
     "code": "sc_first_bank",
-    "vendor": "sc_first_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Standard Chartered Korea",
@@ -25456,7 +25428,6 @@
   {
     "status": "active",
     "code": "korea_post_bank",
-    "vendor": "korea_post_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Post Bank",
@@ -25467,7 +25438,6 @@
   {
     "status": "active",
     "code": "kyongnam_bank",
-    "vendor": "kyongnam_bank",
     "category": "bank_transfer",
     "name": {
       "en": "BNK Kyongnam Bank",
@@ -25478,7 +25448,6 @@
   {
     "status": "active",
     "code": "kwangju_bank",
-    "vendor": "kwangju_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Kwangju Bank",
@@ -25489,7 +25458,6 @@
   {
     "status": "active",
     "code": "daegu_bank",
-    "vendor": "daegu_bank",
     "category": "bank_transfer",
     "name": {
       "en": "DGB Daegu Bank",
@@ -25500,7 +25468,6 @@
   {
     "status": "active",
     "code": "busan_bank",
-    "vendor": "busan_bank",
     "category": "bank_transfer",
     "name": {
       "en": "BNK Busan Bank",
@@ -25511,7 +25478,6 @@
   {
     "status": "active",
     "code": "kdb_bank",
-    "vendor": "kdb_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Korea Development Bank",
@@ -25522,7 +25488,6 @@
   {
     "status": "active",
     "code": "kfcc_bank",
-    "vendor": "kfcc_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Korean Federation of Community Credit",
@@ -25533,7 +25498,6 @@
   {
     "status": "active",
     "code": "suhyup_bank",
-    "vendor": "suhyup_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Suhyup Bank",
@@ -25544,7 +25508,6 @@
   {
     "status": "active",
     "code": "credit_union_bank",
-    "vendor": "credit_union_bank",
     "category": "bank_transfer",
     "name": {
       "en": "National Credit Union Federation of Korea",
@@ -25555,7 +25518,6 @@
   {
     "status": "active",
     "code": "jeonbuk_bank",
-    "vendor": "jeonbuk_bank",
     "category": "bank_transfer",
     "name": {
       "en": "The Jeonbuk Bank Ltd",
@@ -25566,7 +25528,6 @@
   {
     "status": "active",
     "code": "jeju_bank",
-    "vendor": "jeju_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Jeju Bank",
@@ -25577,7 +25538,6 @@
   {
     "status": "active",
     "code": "daishin_bank",
-    "vendor": "daishin_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Daishin Savings Bank",
@@ -25588,7 +25548,6 @@
   {
     "status": "active",
     "code": "db_financial_investment_bank",
-    "vendor": "db_financial_investment_bank",
     "category": "bank_transfer",
     "name": {
       "en": "DB FINANCIAL INVESTMENT CO.",
@@ -25599,7 +25558,6 @@
   {
     "status": "active",
     "code": "yuanta_bank",
-    "vendor": "yuanta_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Yuanta Financial Holding",
@@ -25610,7 +25568,6 @@
   {
     "status": "active",
     "code": "meritz_bank",
-    "vendor": "meritz_bank",
     "category": "bank_transfer",
     "name": {
         "en": "Meritz Securities Co. Ltd",
@@ -25621,7 +25578,6 @@
   {
     "status": "active",
     "code": "bookook_bank",
-    "vendor": "bookook_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Bookook Securities Co. Ltd",
@@ -25632,7 +25588,6 @@
   {
     "status": "active",
     "code": "nhqv_bank",
-    "vendor": "nhqv_bank",
     "category": "bank_transfer",
     "name": {
       "en": "NH Investment Securities",
@@ -25643,7 +25598,6 @@
   {
     "status": "active",
     "code": "ebest_investment_bank",
-    "vendor": "ebest_investment_bank",
     "category": "bank_transfer",
     "name": {
       "en": "EBEST Investment Securities",
@@ -25654,7 +25608,6 @@
   {
     "status": "active",
     "code": "kiwoom_bank",
-    "vendor": "kiwoom_bank",
     "category": "bank_transfer",
     "name": {
       "en": "KIWOOM SECURITIES CO LTD",
@@ -25665,7 +25618,6 @@
   {
     "status": "active",
     "code": "hana_financial_bank",
-    "vendor": "hana_financial_bank",
     "category": "bank_transfer",
     "name": {
       "en": "HANA FINANCIAL INVESTMENT CO. LTD",
@@ -25676,7 +25628,6 @@
   {
     "status": "active",
     "code": "hanwha_bank",
-    "vendor": "hanwha_bank",
     "category": "bank_transfer",
     "name": {
       "en": "HANWHA LIFE INSURANCE",
@@ -25687,7 +25638,6 @@
   {
     "status": "active",
     "code": "kbfg_bank",
-    "vendor": "kbfg_bank",
     "category": "bank_transfer",
     "name": {
       "en": "KB Financial Group",
@@ -25698,7 +25648,6 @@
   {
     "status": "active",
     "code": "kakaopay_bank",
-    "vendor": "kakaopay_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Kakaopay Securities Corp.",
@@ -25709,7 +25658,6 @@
   {
     "status": "active",
     "code": "bnk_bank",
-    "vendor": "bnk_bank",
     "category": "bank_transfer",
     "name": {
       "en": "BNK Securities Co. Ltd",
@@ -25720,7 +25668,6 @@
   {
     "status": "active",
     "code": "ktb_bank",
-    "vendor": "ktb_bank",
     "category": "bank_transfer",
     "name": {
       "en": "KTB Investment Securities",
@@ -25731,7 +25678,6 @@
   {
     "status": "active",
     "code": "bnpparibas_bank",
-    "vendor": "bnpparibas_bank",
     "category": "bank_transfer",
     "name": {
       "en": "BNP Paribas for the Republic of Korea",
@@ -25742,7 +25688,6 @@
   {
     "status": "active",
     "code": "kakao_bank",
-    "vendor": "kakao_bank",
     "category": "bank_transfer",
     "name": {
       "en": "KakaoBank Corp.",
@@ -25753,7 +25698,6 @@
   {
     "status": "active",
     "code": "k_bank",
-    "vendor": "k_bank",
     "category": "bank_transfer",
     "name": {
       "en": "K Bank",
@@ -25764,7 +25708,6 @@
   {
     "status": "active",
     "code": "toss_bank",
-    "vendor": "toss_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Toss Bank",
@@ -25775,7 +25718,6 @@
   {
     "status": "active",
     "code": "korea_foss_bank",
-    "vendor": "korea_foss_bank",
     "category": "bank_transfer",
     "name": {
       "en": "Korea Foss Securities",
@@ -25786,7 +25728,6 @@
   {
     "status": "active",
     "code": "gcash",
-    "vendor": "gcash",
     "category": "digital_wallet",
     "name": {
       "en": "GCash",
@@ -25807,7 +25748,6 @@
   {
     "status": "active",
     "code": "easypaisa",
-    "vendor": "easypaisa",
     "category": "digital_wallet",
     "name": {
       "en": "Easypaisa",
@@ -25818,7 +25758,6 @@
   {
     "status": "active",
     "code": "jazzcash",
-    "vendor": "jazzcash",
     "category": "digital_wallet",
     "name": {
       "en": "JazzCash",
@@ -25829,7 +25768,6 @@
   {
     "status": "active",
     "code": "wise",
-    "vendor": "wise",
     "category": "online_banking",
     "name": {
       "en": "Wise",
@@ -25840,7 +25778,6 @@
   {
     "status": "active",
     "code": "phonepe",
-    "vendor": "phonepe",
     "category": "digital_wallet",
     "name": {
       "en": "Phonepe Wallet"
@@ -29947,7 +29884,6 @@
   {
     "status": "active",
     "code": "zen_wallet",
-    "vendor": "zenwallet",
     "category": "digital_wallet",
     "name": {
       "en": "Zen wallet",
