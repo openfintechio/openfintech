@@ -18531,7 +18531,21 @@
       "en": "AliKassa"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "promptpay_qr",
+      "truemoney",
+      "bank_transfer_qr",
+      "ovo",
+      "dana",
+      "linkaja",
+      "shopeepay",
+      "bank_central_asia",
+      "bank_negara_indonesia",
+      "bank_neo_commerce",
+      "bank_rakyat_indonesia",
+      "permata_bank",
+      "mandiri_bank",
+      "cimb_niaga"
     ],
     "payout_method": [
       "payment_card"
@@ -24326,19 +24340,6 @@
     "payout_method": [
       "bank_transfer"
     ]
-  },
-  {
-    "status": "active",
-    "code": "mobilum",
-    "vendor": "mobilum",
-    "payment_method": [
-      "payment_card"
-    ],
-    "name": {
-      "en": "Mobilum",
-      "ru": "Mobilum",
-      "uk": "Mobilum"
-    }
   },
   {
     "status": "active",
