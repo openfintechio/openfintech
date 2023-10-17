@@ -40,19 +40,4 @@ final class MethodTest extends AbstractDataTest
             'in payout methods'
         );
     }
-
-    public function test_method_with_vendor_relation(): void
-    {
-        $relation = new Relation(
-            ResourceType::PAYOUT_METHOD,
-            'vendor',
-            ResourceType::VENDOR
-        );
-
-        $this->assertCorrectRelationWithOne(
-            $relation,
-            \sprintf(self::NOT_EXISTENT_ERROR_HEADER_TEMPLATE, 'VENDOR'),
-            'in payout methods'
-        );
-    }
 }

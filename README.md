@@ -9,7 +9,7 @@
 
 __Mission:__ speeds up development and helps FinTech-services to communicate in _one language_.
 
-__Provides:__ open data for vendors, companies, organizations, currencies, banks, digital exchangers, payment providers (PSP), payment methods, etc.
+__Provides:__ open data for companies, organizations, currencies, banks, digital exchangers, payment providers (PSP), payment methods, etc.
 
 __Created for:__ communication of cross-integrated micro-services in "one language". 
 
@@ -31,7 +31,6 @@ Benefits for community:
 
 OpenFinTech catalog includes Data and __Unified Identification Codes__ of the FinTech industry and world-wide services like:
 
-- Vendors: Organizations and companies.
 - Currencies: National, Digital, Virtual, Cryptocurrencies, etc.
 - Banks and Branches.
 - Payment Service Providers (PSP): Distributors, Aggregators, Collectors, Acquirers, etc.

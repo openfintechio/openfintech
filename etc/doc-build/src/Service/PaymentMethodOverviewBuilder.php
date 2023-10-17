@@ -124,15 +124,6 @@ final class PaymentMethodOverviewBuilder extends MdBuilder
         $this->add(new MdCode($this->data->code), true);
         $this->br();
 
-        if (null !== $this->data->vendor) {
-            $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Vendor:'));
-            $this->space();
-            $this->add(new MdCode($this->data->vendor));
-            $this->space();
-            $this->add(new MdLink('show -->', '/vendors/' . $this->data->vendor . '/'), true);
-            $this->br();
-        }
-
         $this->add(new MdText(new TextEmphasisPatternEnum(TextEmphasisPatternEnum::BOLD), 'Name:'), true);
         $this->br();
         foreach ($this->data->name as $lang => $val) {

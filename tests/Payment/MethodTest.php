@@ -40,19 +40,4 @@ final class MethodTest extends AbstractDataTest
             'in payment methods'
         );
     }
-
-    public function test_method_with_vendor_relation(): void
-    {
-        $relation = new Relation(
-            ResourceType::PAYMENT_METHOD,
-            'vendor',
-            ResourceType::VENDOR
-        );
-
-        $this->assertCorrectRelationWithOne(
-            $relation,
-            \sprintf(self::NOT_EXISTENT_ERROR_HEADER_TEMPLATE, 'VENDOR'),
-            'in payment methods'
-        );
-    }
 }

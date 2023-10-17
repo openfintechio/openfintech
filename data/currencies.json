@@ -2,7 +2,6 @@
   {
     "code": "YUBTRUB",
     "parent_code": "RUB",
-    "vendor": "yobit_net",
     "name": {
       "en": "YUBTRUB"
     },
@@ -33,7 +32,6 @@
   {
     "code": "WMH",
     "parent_code": "BCH",
-    "vendor": "webmoney",
     "name": {
       "en": "WMH"
     },
@@ -79,7 +77,6 @@
   {
     "code": "ZPRUB",
     "parent_code": "RUB",
-    "vendor": "zpayment",
     "name": {
       "en": "ZPRUB"
     },
@@ -96,7 +93,6 @@
   {
     "code": "CARDTHB",
     "parent_code": "THB",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDTHB"
     },
@@ -112,7 +108,6 @@
   {
     "code": "CRCPTLUSD",
     "parent_code": "USD",
-    "vendor": "cryptocapitalco",
     "name": {
       "en": "CRCPTLUSD"
     },
@@ -127,7 +122,6 @@
   },
   {
     "code": "AMD",
-    "vendor": "cba",
     "name": {
       "en": "Armenian Dram"
     },
@@ -202,7 +196,6 @@
   {
     "code": "SWIFTEUR",
     "parent_code": "EUR",
-    "vendor": "swift",
     "name": {
       "en": "SWIFTEUR"
     },
@@ -263,7 +256,6 @@
   {
     "code": "YOBITUSD",
     "parent_code": "USD",
-    "vendor": "yobitnet",
     "name": {
       "en": "YOBITUSD"
     },
@@ -294,7 +286,6 @@
   {
     "code": "YOBITRUB",
     "parent_code": "RUB",
-    "vendor": "yobit_net",
     "name": {
       "en": "YOBITRUB"
     },
@@ -323,7 +314,6 @@
   {
     "code": "RUSSTRUB",
     "parent_code": "RUB",
-    "vendor": "russkijstandart",
     "name": {
       "en": "RUSSTRUB"
     },
@@ -340,7 +330,6 @@
   {
     "code": "TCSBRUB",
     "parent_code": "RUB",
-    "vendor": "tinkoffks",
     "name": {
       "en": "TCSBRUB"
     },
@@ -357,7 +346,6 @@
   {
     "code": "YUBTUSD",
     "parent_code": "USD",
-    "vendor": "yobitnet",
     "name": {
       "en": "YUBTUSD"
     },
@@ -373,7 +361,6 @@
   {
     "code": "UNVBUAH",
     "parent_code": "UAH",
-    "vendor": "universalbank",
     "name": {
       "en": "UNVBUAH"
     },
@@ -416,7 +403,6 @@
   {
     "code": "FRTBKZT",
     "parent_code": "KZT",
-    "vendor": "fortebank",
     "name": {
       "en": "FRTBKZT"
     },
@@ -448,7 +434,6 @@
   {
     "code": "MONOBUAH",
     "parent_code": "UAH",
-    "vendor": "monobankcomua",
     "name": {
       "en": "MONOBUAH"
     },
@@ -477,7 +462,6 @@
   {
     "code": "SWIFTUSD",
     "parent_code": "USD",
-    "vendor": "swift",
     "name": {
       "en": "SWIFTUSD"
     },
@@ -598,7 +582,6 @@
   {
     "code": "WEXETH",
     "parent_code": "ETH",
-    "vendor": "wex_nz",
     "name": {
       "en": "WEXETH"
     },
@@ -614,7 +597,6 @@
   {
     "code": "MGFNBRUB",
     "parent_code": "RUB",
-    "vendor": "megafonbank",
     "name": {
       "en": "MGFNBRUB"
     },
@@ -630,7 +612,6 @@
   {
     "code": "P24EUR",
     "parent_code": "EUR",
-    "vendor": "privat_bank",
     "name": {
       "en": "P24EUR"
     },
@@ -675,7 +656,6 @@
   {
     "code": "USBUAH",
     "parent_code": "UAH",
-    "vendor": "ukrsibbank",
     "name": {
       "en": "USBUAH"
     },
@@ -830,7 +810,6 @@
   {
     "code": "ASKBTCUSD",
     "parent_code": "USD",
-    "vendor": "askbtcorg",
     "name": {
       "en": "ASKBTCUSD"
     },
@@ -1033,7 +1012,6 @@
   },
   {
     "code": "MDL",
-    "vendor": "nbm",
     "name": {
       "en": "Moldovan Leu"
     },
@@ -1594,7 +1572,6 @@
   },
   {
     "code": "TJS",
-    "vendor": "nbt",
     "name": {
       "en": "Somoni"
     },
@@ -1608,7 +1585,6 @@
   },
   {
     "code": "UZS",
-    "vendor": "cbu",
     "name": {
       "en": "Uzbekistan Som"
     },
@@ -1655,7 +1631,6 @@
   {
     "code": "PRRUB",
     "parent_code": "RUB",
-    "vendor": "payeer",
     "name": {
       "en": "PRRUB"
     },
@@ -1685,7 +1660,6 @@
   {
     "code": "AKBRSBRUB",
     "parent_code": "RUB",
-    "vendor": "akbarsbank",
     "name": {
       "en": "AKBRSBRUB"
     },
@@ -1701,7 +1675,6 @@
   {
     "code": "CNSBKUSD",
     "parent_code": "USD",
-    "vendor": "coinsbank",
     "name": {
       "en": "CNSBKUSD"
     },
@@ -1730,7 +1703,6 @@
   {
     "code": "RSSBRUB",
     "parent_code": "RUB",
-    "vendor": "bankrenessanskredit",
     "name": {
       "en": "RSSBRUB"
     },
@@ -1773,7 +1745,6 @@
   {
     "code": "WML",
     "parent_code": "LTC",
-    "vendor": "webmoney",
     "name": {
       "en": "WML"
     },
@@ -1789,7 +1760,6 @@
   {
     "code": "EPSUSD",
     "parent_code": "USD",
-    "vendor": "epese",
     "name": {
       "en": "EPSUSD"
     },
@@ -1849,7 +1819,6 @@
   {
     "code": "KRGSRBTHB",
     "parent_code": "THB",
-    "vendor": "krungsri",
     "name": {
       "en": "KRGSRBTHB"
     },
@@ -1921,7 +1890,6 @@
   {
     "code": "OTPBRUB",
     "parent_code": "RUB",
-    "vendor": "otp_bank",
     "name": {
       "en": "OTPBRUB"
     },
@@ -1953,7 +1921,6 @@
   {
     "code": "CASHEUR",
     "parent_code": "EUR",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHEUR"
     },
@@ -2224,7 +2191,6 @@
   {
     "code": "ABSTBRUB",
     "parent_code": "RUB",
-    "vendor": "absolyutbank",
     "name": {
       "en": "ABSTBRUB"
     },
@@ -2285,7 +2251,6 @@
   {
     "code": "WLDCUSD",
     "parent_code": "USD",
-    "vendor": "worldcore",
     "name": {
       "en": "WLDCUSD"
     },
@@ -2301,7 +2266,6 @@
   {
     "code": "FDOBUAH",
     "parent_code": "UAH",
-    "vendor": "fidobank",
     "name": {
       "en": "FDOBUAH"
     },
@@ -2331,7 +2295,6 @@
   {
     "code": "HLXUSD",
     "parent_code": "USD",
-    "vendor": "helixmoney",
     "name": {
       "en": "HLXUSD"
     },
@@ -2347,7 +2310,6 @@
   {
     "code": "CPTSUSD",
     "parent_code": "USD",
-    "vendor": "capitalist",
     "name": {
       "en": "CPTSUSD"
     },
@@ -2363,7 +2325,6 @@
   {
     "code": "KSPBDKZT",
     "parent_code": "KZT",
-    "vendor": "kaspibankdepozit",
     "name": {
       "en": "KSPBDKZT"
     },
@@ -2379,7 +2340,6 @@
   {
     "code": "MBDRMAMD",
     "parent_code": "AMD",
-    "vendor": "mobidram",
     "name": {
       "en": "MBDRMAMD"
     },
@@ -2395,7 +2355,6 @@
   {
     "code": "ZRTBTRY",
     "parent_code": "TRY",
-    "vendor": "ziraatbank",
     "name": {
       "en": "ZRTBTRY"
     },
@@ -2411,7 +2370,6 @@
   {
     "code": "LVCNUSD",
     "parent_code": "USD",
-    "vendor": "livecoinnet",
     "name": {
       "en": "LVCNUSD"
     },
@@ -2456,7 +2414,6 @@
   {
     "code": "BTCCDIDR",
     "parent_code": "IDR",
-    "vendor": "bitcoincoid",
     "name": {
       "en": "BTCCDIDR"
     },
@@ -2740,7 +2697,6 @@
   {
     "code": "PSRUSD",
     "parent_code": "USD",
-    "vendor": "paysera",
     "name": {
       "en": "PSRUSD"
     },
@@ -2772,7 +2728,6 @@
   {
     "code": "MPLUSD",
     "parent_code": "USD",
-    "vendor": "moneypolo",
     "name": {
       "en": "MPLUSD"
     },
@@ -2789,7 +2744,6 @@
   {
     "code": "PMBBUAH",
     "parent_code": "UAH",
-    "vendor": "pumb",
     "name": {
       "en": "PMBBUAH"
     },
@@ -2806,7 +2760,6 @@
   {
     "code": "ATRPUSD",
     "parent_code": "USD",
-    "vendor": "astropay",
     "name": {
       "en": "ATRPUSD"
     },
@@ -2822,7 +2775,6 @@
   {
     "code": "SGMTUSD",
     "parent_code": "USD",
-    "vendor": "siguecoinstar",
     "name": {
       "en": "SGMTUSD"
     },
@@ -2838,7 +2790,6 @@
   {
     "code": "MLNMBPLN",
     "parent_code": "PLN",
-    "vendor": "millennium",
     "name": {
       "en": "MLNMBPLN"
     },
@@ -2869,7 +2820,6 @@
   {
     "code": "LCKBRUB",
     "parent_code": "RUB",
-    "vendor": "lokobank",
     "name": {
       "en": "LCKBRUB"
     },
@@ -2885,7 +2835,6 @@
   {
     "code": "EXMUAH",
     "parent_code": "UAH",
-    "vendor": "exmo_com",
     "name": {
       "en": "EXMUAH"
     },
@@ -2902,7 +2851,6 @@
   {
     "code": "CCBKZT",
     "parent_code": "KZT",
-    "vendor": "centrkreditbank",
     "name": {
       "en": "CCBKZT"
     },
@@ -2932,7 +2880,6 @@
   {
     "code": "ACCRUB",
     "parent_code": "RUB",
-    "vendor": "alfabankcashin",
     "name": {
       "en": "ACCRUB"
     },
@@ -2962,7 +2909,6 @@
   {
     "code": "URSBRUB",
     "parent_code": "RUB",
-    "vendor": "uralsibbank",
     "name": {
       "en": "URSBRUB"
     },
@@ -2992,7 +2938,6 @@
   {
     "code": "EXMRUB",
     "parent_code": "RUB",
-    "vendor": "exmo_com",
     "name": {
       "en": "EXMRUB"
     },
@@ -3024,7 +2969,6 @@
   {
     "code": "BTCUPUSD",
     "parent_code": "USD",
-    "vendor": "btcupcom",
     "name": {
       "en": "BTCUPUSD"
     },
@@ -3327,7 +3271,6 @@
   {
     "code": "CASHILS",
     "parent_code": "ILS",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHILS"
     },
@@ -3370,7 +3313,6 @@
   {
     "code": "ADVCEUR",
     "parent_code": "EUR",
-    "vendor": "advanced_cash",
     "name": {
       "en": "ADVCEUR"
     },
@@ -3387,7 +3329,6 @@
   {
     "code": "SEPAEUR",
     "parent_code": "EUR",
-    "vendor": "sepa",
     "name": {
       "en": "SEPAEUR"
     },
@@ -3403,7 +3344,6 @@
   {
     "code": "TBCBUSD",
     "parent_code": "USD",
-    "vendor": "tbcbank",
     "name": {
       "en": "TBCBUSD"
     },
@@ -3448,7 +3388,6 @@
   {
     "code": "ESPUAUAH",
     "parent_code": "UAH",
-    "vendor": "easypayua",
     "name": {
       "en": "ESPUAUAH"
     },
@@ -3464,7 +3403,6 @@
   {
     "code": "RBKBKZT",
     "parent_code": "KZT",
-    "vendor": "bankrbk",
     "name": {
       "en": "RBKBKZT"
     },
@@ -3480,7 +3418,6 @@
   {
     "code": "PLUSBRUB",
     "parent_code": "RUB",
-    "vendor": "plyusbank",
     "name": {
       "en": "PLUSBRUB"
     },
@@ -3496,7 +3433,6 @@
   {
     "code": "CARDTRY",
     "parent_code": "TRY",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDTRY"
     },
@@ -3512,7 +3448,6 @@
   {
     "code": "SVCMBRUB",
     "parent_code": "RUB",
-    "vendor": "sovkombank",
     "name": {
       "en": "SVCMBRUB"
     },
@@ -3750,7 +3685,6 @@
   {
     "code": "ADVCKZT",
     "parent_code": "KZT",
-    "vendor": "advanced_cash",
     "name": {
       "en": "ADVCKZT"
     },
@@ -3809,7 +3743,6 @@
   {
     "code": "KKBCASHKZT",
     "parent_code": "KZT",
-    "vendor": "kazkommercbank",
     "name": {
       "en": "KKBCASHKZT"
     },
@@ -3825,7 +3758,6 @@
   {
     "code": "CPTSEUR",
     "parent_code": "EUR",
-    "vendor": "capitalist",
     "name": {
       "en": "CPTSEUR"
     },
@@ -3855,7 +3787,6 @@
   {
     "code": "LPUSD",
     "parent_code": "USD",
-    "vendor": "lavapay",
     "name": {
       "en": "LPUSD"
     },
@@ -3872,7 +3803,6 @@
   {
     "code": "ERSNBKZT",
     "parent_code": "KZT",
-    "vendor": "evrazijskijbank",
     "name": {
       "en": "ERSNBKZT"
     },
@@ -3888,7 +3818,6 @@
   {
     "code": "PSREUR",
     "parent_code": "EUR",
-    "vendor": "paysera",
     "name": {
       "en": "PSREUR"
     },
@@ -3905,7 +3834,6 @@
   {
     "code": "RFBUAH",
     "parent_code": "UAH",
-    "vendor": "raiffeisen",
     "name": {
       "en": "RFBUAH"
     },
@@ -3935,7 +3863,6 @@
   {
     "code": "EPMEUR",
     "parent_code": "EUR",
-    "vendor": "epayments",
     "name": {
       "en": "EPMEUR"
     },
@@ -3980,7 +3907,6 @@
   {
     "code": "THIBTHB",
     "parent_code": "THB",
-    "vendor": "lyubojbanktailanda",
     "name": {
       "en": "THIBTHB"
     },
@@ -3996,7 +3922,6 @@
   {
     "code": "SMPBRUB",
     "parent_code": "RUB",
-    "vendor": "smpbank",
     "name": {
       "en": "SMPBRUB"
     },
@@ -4012,7 +3937,6 @@
   {
     "code": "SVZBRUB",
     "parent_code": "RUB",
-    "vendor": "svyazbank",
     "name": {
       "en": "SVZBRUB"
     },
@@ -4268,7 +4192,6 @@
   {
     "code": "IMBRUB",
     "parent_code": "RUB",
-    "vendor": "ajmanibank",
     "name": {
       "en": "IMBRUB"
     },
@@ -4284,7 +4207,6 @@
   {
     "code": "GCMTRUB",
     "parent_code": "RUB",
-    "vendor": "zolotayakoronaperevody",
     "name": {
       "en": "GCMTRUB"
     },
@@ -4328,7 +4250,6 @@
   {
     "code": "EPAYEUR",
     "parent_code": "EUR",
-    "vendor": "epay",
     "name": {
       "en": "EPAYEUR"
     },
@@ -4358,7 +4279,6 @@
   {
     "code": "IDRMAMD",
     "parent_code": "AMD",
-    "vendor": "idram",
     "name": {
       "en": "IDRMAMD"
     },
@@ -4374,7 +4294,6 @@
   {
     "code": "NURBKZT",
     "parent_code": "KZT",
-    "vendor": "nurbank",
     "name": {
       "en": "NURBKZT"
     },
@@ -4418,7 +4337,6 @@
   {
     "code": "HNDBRUB",
     "parent_code": "RUB",
-    "vendor": "handybank",
     "name": {
       "en": "HNDBRUB"
     },
@@ -4434,7 +4352,6 @@
   {
     "code": "SGMTEUR",
     "parent_code": "EUR",
-    "vendor": "sigue_coinstar",
     "name": {
       "en": "SGMTEUR"
     },
@@ -4520,7 +4437,6 @@
   {
     "code": "ARCAAMD",
     "parent_code": "AMD",
-    "vendor": "arca",
     "name": {
       "en": "ARCAAMD"
     },
@@ -4550,7 +4466,6 @@
   {
     "code": "ESPBYN",
     "parent_code": "BYN",
-    "vendor": "easypay",
     "name": {
       "en": "ESPBYN"
     },
@@ -4566,7 +4481,6 @@
   {
     "code": "VZRDBRUB",
     "parent_code": "RUB",
-    "vendor": "bankvozrozhdenie",
     "name": {
       "en": "VZRDBRUB"
     },
@@ -4582,7 +4496,6 @@
   {
     "code": "NIXEUR",
     "parent_code": "EUR",
-    "vendor": "nixmoney",
     "name": {
       "en": "NIXEUR"
     },
@@ -4599,7 +4512,6 @@
   {
     "code": "RPUSD",
     "parent_code": "USD",
-    "vendor": "redpass",
     "name": {
       "en": "RPUSD"
     },
@@ -4691,7 +4603,6 @@
   {
     "code": "KICBKGS",
     "parent_code": "KGS",
-    "vendor": "kicb",
     "name": {
       "en": "KICBKGS"
     },
@@ -4842,7 +4753,6 @@
   {
     "code": "FMBRUB",
     "parent_code": "RUB",
-    "vendor": "bankpervomajskij",
     "name": {
       "en": "FMBRUB"
     },
@@ -4872,7 +4782,6 @@
   {
     "code": "BLSBBYN",
     "parent_code": "BYN",
-    "vendor": "belarusbank",
     "name": {
       "en": "BLSBBYN"
     },
@@ -4932,7 +4841,6 @@
   {
     "code": "CNVRSBAMD",
     "parent_code": "AMD",
-    "vendor": "conversebank",
     "name": {
       "en": "CNVRSBAMD"
     },
@@ -4978,7 +4886,6 @@
   {
     "code": "WLDCEUR",
     "parent_code": "EUR",
-    "vendor": "worldcore",
     "name": {
       "en": "WLDCEUR"
     },
@@ -5009,7 +4916,6 @@
   {
     "code": "KPTLBAZN",
     "parent_code": "AZN",
-    "vendor": "kapitalbank",
     "name": {
       "en": "KPTLBAZN"
     },
@@ -5025,7 +4931,6 @@
   {
     "code": "AKBTRY",
     "parent_code": "TRY",
-    "vendor": "akbank",
     "name": {
       "en": "AKBTRY"
     },
@@ -5056,7 +4961,6 @@
   {
     "code": "LVCNRUB",
     "parent_code": "RUB",
-    "vendor": "livecoin_net",
     "name": {
       "en": "LVCNRUB"
     },
@@ -5162,7 +5066,6 @@
   {
     "code": "PWUSD",
     "parent_code": "USD",
-    "vendor": "payweb",
     "name": {
       "en": "PWUSD"
     },
@@ -5224,7 +5127,6 @@
   {
     "code": "PSRRUB",
     "parent_code": "RUB",
-    "vendor": "paysera",
     "name": {
       "en": "PSRRUB"
     },
@@ -5240,7 +5142,6 @@
   {
     "code": "PZUSD",
     "parent_code": "USD",
-    "vendor": "payza",
     "name": {
       "en": "PZUSD"
     },
@@ -5256,7 +5157,6 @@
   {
     "code": "TBKZT",
     "parent_code": "KZT",
-    "vendor": "vtb24",
     "name": {
       "en": "TBKZT"
     },
@@ -5272,7 +5172,6 @@
   {
     "code": "PCDBUAH",
     "parent_code": "UAH",
-    "vendor": "procreditbank",
     "name": {
       "en": "PCDBUAH"
     },
@@ -5302,7 +5201,6 @@
   {
     "code": "BOCCNY",
     "parent_code": "CNY",
-    "vendor": "bankofchina",
     "name": {
       "en": "BOCCNY"
     },
@@ -5318,7 +5216,6 @@
   {
     "code": "MIRCRUB",
     "parent_code": "RUB",
-    "vendor": "kartamir",
     "name": {
       "en": "MIRCRUB"
     },
@@ -5334,7 +5231,6 @@
   {
     "code": "CCXUSD",
     "parent_code": "USD",
-    "vendor": "ccexcom",
     "name": {
       "en": "CCXUSD"
     },
@@ -5409,7 +5305,6 @@
   {
     "code": "LPEUR",
     "parent_code": "EUR",
-    "vendor": "lavapay",
     "name": {
       "en": "LPEUR"
     },
@@ -5426,7 +5321,6 @@
   {
     "code": "ECNEUR",
     "parent_code": "EUR",
-    "vendor": "ecoin_cc",
     "name": {
       "en": "ECNEUR"
     },
@@ -5443,7 +5337,6 @@
   {
     "code": "MLNMBEUR",
     "parent_code": "EUR",
-    "vendor": "millennium",
     "name": {
       "en": "MLNMBEUR"
     },
@@ -5459,7 +5352,6 @@
   {
     "code": "KSPBCKZT",
     "parent_code": "KZT",
-    "vendor": "kaspibankkredit",
     "name": {
       "en": "KSPBCKZT"
     },
@@ -5535,7 +5427,6 @@
   {
     "code": "DMRBUSD",
     "parent_code": "USD",
-    "vendor": "demirbank",
     "name": {
       "en": "DMRBUSD"
     },
@@ -5582,7 +5473,6 @@
   {
     "code": "RCN",
     "parent_code": "RCN",
-    "vendor": "rcoin",
     "name": {
       "en": "RCN"
     },
@@ -5598,7 +5488,6 @@
   {
     "code": "KZVBKZT",
     "parent_code": "KZT",
-    "vendor": "kazinvestbank",
     "name": {
       "en": "KZVBKZT"
     },
@@ -5614,7 +5503,6 @@
   {
     "code": "SBRBKZRUB",
     "parent_code": "RUB",
-    "vendor": "sberbankkazahstana",
     "name": {
       "en": "SBRBKZRUB"
     },
@@ -5630,7 +5518,6 @@
   {
     "code": "NLMUSD",
     "parent_code": "USD",
-    "vendor": "onlymoney",
     "name": {
       "en": "NLMUSD"
     },
@@ -5646,7 +5533,6 @@
   {
     "code": "EKZT",
     "parent_code": "KZT",
-    "vendor": "ekztkz",
     "name": {
       "en": "EKZT"
     },
@@ -5663,7 +5549,6 @@
   {
     "code": "OTPBUAH",
     "parent_code": "UAH",
-    "vendor": "otpbank",
     "name": {
       "en": "OTPBUAH"
     },
@@ -5680,7 +5565,6 @@
   {
     "code": "KKBUSD",
     "parent_code": "USD",
-    "vendor": "kazkommercbank",
     "name": {
       "en": "KKBUSD"
     },
@@ -5697,7 +5581,6 @@
   {
     "code": "OSDBUAH",
     "parent_code": "UAH",
-    "vendor": "oshadbank",
     "name": {
       "en": "OSDBUAH"
     },
@@ -5714,7 +5597,6 @@
   {
     "code": "KUKRUB",
     "parent_code": "RUB",
-    "vendor": "kukuruza",
     "name": {
       "en": "KUKRUB"
     },
@@ -5731,7 +5613,6 @@
   {
     "code": "EPMUSD",
     "parent_code": "USD",
-    "vendor": "epayments",
     "name": {
       "en": "EPMUSD"
     },
@@ -5763,7 +5644,6 @@
   {
     "code": "TRPEUR",
     "parent_code": "EUR",
-    "vendor": "trustpay",
     "name": {
       "en": "TRPEUR"
     },
@@ -5779,7 +5659,6 @@
   {
     "code": "PMREUR",
     "parent_code": "EUR",
-    "vendor": "paymer",
     "name": {
       "en": "PMREUR"
     },
@@ -5795,7 +5674,6 @@
   {
     "code": "ECNUSD",
     "parent_code": "USD",
-    "vendor": "ecoincc",
     "name": {
       "en": "ECNUSD"
     },
@@ -5812,7 +5690,6 @@
   {
     "code": "EXMUSD",
     "parent_code": "USD",
-    "vendor": "exmocom",
     "name": {
       "en": "EXMUSD"
     },
@@ -5845,7 +5722,6 @@
   {
     "code": "CRTCHKUSD",
     "parent_code": "USD",
-    "vendor": "cryptocheck",
     "name": {
       "en": "CRTCHKUSD"
     },
@@ -5861,7 +5737,6 @@
   {
     "code": "QZQBKZT",
     "parent_code": "KZT",
-    "vendor": "qazaqbanki",
     "name": {
       "en": "QZQBKZT"
     },
@@ -5892,7 +5767,6 @@
   {
     "code": "KSSNVBKZT",
     "parent_code": "KZT",
-    "vendor": "bankkassanova",
     "name": {
       "en": "KSSNVBKZT"
     },
@@ -5968,7 +5842,6 @@
   {
     "code": "PRUSD",
     "parent_code": "USD",
-    "vendor": "payeer",
     "name": {
       "en": "PRUSD"
     },
@@ -6120,7 +5993,6 @@
   {
     "code": "BTABKZT",
     "parent_code": "KZT",
-    "vendor": "btabank",
     "name": {
       "en": "BTABKZT"
     },
@@ -6165,7 +6037,6 @@
   {
     "code": "PZEUR",
     "parent_code": "EUR",
-    "vendor": "payza",
     "name": {
       "en": "PZEUR"
     },
@@ -6213,7 +6084,6 @@
   {
     "code": "CTYBKZT",
     "parent_code": "KZT",
-    "vendor": "sitibank",
     "name": {
       "en": "CTYBKZT"
     },
@@ -6229,7 +6099,6 @@
   {
     "code": "MGRUB",
     "parent_code": "RUB",
-    "vendor": "moneygram",
     "name": {
       "en": "MGRUB"
     },
@@ -6319,7 +6188,6 @@
   {
     "code": "STPUSD",
     "parent_code": "USD",
-    "vendor": "solidtrustpay",
     "name": {
       "en": "STPUSD"
     },
@@ -6366,7 +6234,6 @@
   {
     "code": "CNMTEUR",
     "parent_code": "EUR",
-    "vendor": "coinmateio",
     "name": {
       "en": "CNMTEUR"
     },
@@ -6398,7 +6265,6 @@
   {
     "code": "OSHBUAH",
     "parent_code": "UAH",
-    "vendor": "oshadbank",
     "name": {
       "en": "OSHBUAH"
     },
@@ -6414,7 +6280,6 @@
   {
     "code": "KSPBKZT",
     "parent_code": "KZT",
-    "vendor": "kaspibankkoshelek",
     "name": {
       "en": "KSPBKZT"
     },
@@ -6491,7 +6356,6 @@
   {
     "code": "AGCBCNY",
     "parent_code": "CNY",
-    "vendor": "agriculturalbankofchina",
     "name": {
       "en": "AGCBCNY"
     },
@@ -6624,7 +6488,6 @@
   {
     "code": "WEXUSD",
     "parent_code": "USD",
-    "vendor": "wexnz",
     "name": {
       "en": "WEXUSD"
     },
@@ -6640,7 +6503,6 @@
   {
     "code": "WEXRUB",
     "parent_code": "RUB",
-    "vendor": "wex_nz",
     "name": {
       "en": "WEXRUB"
     },
@@ -6656,7 +6518,6 @@
   {
     "code": "CUPCNY",
     "parent_code": "CNY",
-    "vendor": "unionpay",
     "name": {
       "en": "CUPCNY"
     },
@@ -6688,7 +6549,6 @@
   {
     "code": "RSHBRUB",
     "parent_code": "RUB",
-    "vendor": "rosselhozbank",
     "name": {
       "en": "RSHBRUB"
     },
@@ -6705,7 +6565,6 @@
   {
     "code": "HCSBKZT",
     "parent_code": "KZT",
-    "vendor": "zhilstrojsberbank",
     "name": {
       "en": "HCSBKZT"
     },
@@ -6722,7 +6581,6 @@
   {
     "code": "CNTUSD",
     "parent_code": "USD",
-    "vendor": "kontakt",
     "name": {
       "en": "CNTUSD"
     },
@@ -6754,7 +6612,6 @@
   {
     "code": "MPLEUR",
     "parent_code": "EUR",
-    "vendor": "moneypolo",
     "name": {
       "en": "MPLEUR"
     },
@@ -6816,7 +6673,6 @@
   {
     "code": "MPLRUB",
     "parent_code": "RUB",
-    "vendor": "moneypolo",
     "name": {
       "en": "MPLRUB"
     },
@@ -6848,7 +6704,6 @@
   {
     "code": "NIXBTC",
     "parent_code": "BTC",
-    "vendor": "nixmoney",
     "name": {
       "en": "NIXBTC"
     },
@@ -6865,7 +6720,6 @@
   {
     "code": "MTSBRUB",
     "parent_code": "RUB",
-    "vendor": "mtsbank",
     "name": {
       "en": "MTSBRUB"
     },
@@ -6882,7 +6736,6 @@
   {
     "code": "QWVRUB",
     "parent_code": "RUB",
-    "vendor": "qiwivoucher",
     "name": {
       "en": "QWVRUB"
     },
@@ -6899,7 +6752,6 @@
   {
     "code": "LQUAH",
     "parent_code": "UAH",
-    "vendor": "liqpay",
     "name": {
       "en": "LQUAH"
     },
@@ -6916,7 +6768,6 @@
   {
     "code": "ECNEXUSD",
     "parent_code": "USD",
-    "vendor": "ecoineu",
     "name": {
       "en": "ECNEXUSD"
     },
@@ -6933,7 +6784,6 @@
   {
     "code": "WEXBTC",
     "parent_code": "BTC",
-    "vendor": "wex_nz",
     "name": {
       "en": "WEXBTC"
     },
@@ -6949,7 +6799,6 @@
   {
     "code": "WEXEUR",
     "parent_code": "EUR",
-    "vendor": "wex_nz",
     "name": {
       "en": "WEXEUR"
     },
@@ -6965,7 +6814,6 @@
   {
     "code": "TSNBKZT",
     "parent_code": "KZT",
-    "vendor": "cesnabank",
     "name": {
       "en": "TSNBKZT"
     },
@@ -6981,7 +6829,6 @@
   {
     "code": "ASCTBKZT",
     "parent_code": "KZT",
-    "vendor": "asiacreditbank",
     "name": {
       "en": "ASCTBKZT"
     },
@@ -6997,7 +6844,6 @@
   {
     "code": "ALTNBKZT",
     "parent_code": "KZT",
-    "vendor": "altynbank",
     "name": {
       "en": "ALTNBKZT"
     },
@@ -7013,7 +6859,6 @@
   {
     "code": "ACCUSD",
     "parent_code": "USD",
-    "vendor": "alfa_bank_cash_in",
     "name": {
       "en": "ACCUSD"
     },
@@ -7194,7 +7039,6 @@
   {
     "code": "FPIDR",
     "parent_code": "IDR",
-    "vendor": "fasapay",
     "name": {
       "en": "FPIDR"
     },
@@ -7210,7 +7054,6 @@
   {
     "code": "KIBRUB",
     "parent_code": "RUB",
-    "vendor": "krajinvestbank",
     "name": {
       "en": "KIBRUB"
     },
@@ -7240,7 +7083,6 @@
   {
     "code": "EXMBTC",
     "parent_code": "BTC",
-    "vendor": "exmo_com",
     "name": {
       "en": "EXMBTC"
     },
@@ -7256,7 +7098,6 @@
   {
     "code": "EXMEUR",
     "parent_code": "EUR",
-    "vendor": "exmo_com",
     "name": {
       "en": "EXMEUR"
     },
@@ -7273,7 +7114,6 @@
   {
     "code": "ROSBRUB",
     "parent_code": "RUB",
-    "vendor": "rosbank",
     "name": {
       "en": "ROSBRUB"
     },
@@ -7290,7 +7130,6 @@
   {
     "code": "P24UAH",
     "parent_code": "UAH",
-    "vendor": "privatbank",
     "name": {
       "en": "P24UAH"
     },
@@ -7307,7 +7146,6 @@
   {
     "code": "RMTFUSD",
     "parent_code": "USD",
-    "vendor": "riamoneytransfer",
     "name": {
       "en": "RMTFUSD"
     },
@@ -7324,7 +7162,6 @@
   {
     "code": "BTMUSD",
     "parent_code": "USD",
-    "vendor": "betraemoney",
     "name": {
       "en": "BTMUSD"
     },
@@ -7356,7 +7193,6 @@
   {
     "code": "UKUSD",
     "parent_code": "USD",
-    "vendor": "ukash",
     "name": {
       "en": "UKUSD"
     },
@@ -7373,7 +7209,6 @@
   {
     "code": "RNKBRUB",
     "parent_code": "RUB",
-    "vendor": "rnkbank",
     "name": {
       "en": "RNKBRUB"
     },
@@ -7390,7 +7225,6 @@
   {
     "code": "NTLRUSD",
     "parent_code": "USD",
-    "vendor": "neteller",
     "name": {
       "en": "NTLRUSD"
     },
@@ -7407,7 +7241,6 @@
   {
     "code": "CNTEUR",
     "parent_code": "EUR",
-    "vendor": "kontakt",
     "name": {
       "en": "CNTEUR"
     },
@@ -7424,7 +7257,6 @@
   {
     "code": "ADVCRUB",
     "parent_code": "RUB",
-    "vendor": "advanced_cash",
     "name": {
       "en": "ADVCRUB"
     },
@@ -7441,7 +7273,6 @@
   {
     "code": "MGUSD",
     "parent_code": "USD",
-    "vendor": "moneygram",
     "name": {
       "en": "MGUSD"
     },
@@ -7458,7 +7289,6 @@
   {
     "code": "PMRXAU",
     "parent_code": "XAU",
-    "vendor": "paymer",
     "name": {
       "en": "PMRXAU"
     },
@@ -7474,7 +7304,6 @@
   {
     "code": "LVCNBTC",
     "parent_code": "BTC",
-    "vendor": "livecoin_net",
     "name": {
       "en": "LVCNBTC"
     },
@@ -7504,7 +7333,6 @@
   {
     "code": "BOCUSD",
     "parent_code": "USD",
-    "vendor": "bank_of_china",
     "name": {
       "en": "BOCUSD"
     },
@@ -7520,7 +7348,6 @@
   {
     "code": "DTBKZKZT",
     "parent_code": "KZT",
-    "vendor": "deltabankkazahstan",
     "name": {
       "en": "DTBKZKZT"
     },
@@ -7536,7 +7363,6 @@
   {
     "code": "KSKNBTHB",
     "parent_code": "THB",
-    "vendor": "kasikornbank",
     "name": {
       "en": "KSKNBTHB"
     },
@@ -7822,7 +7648,6 @@
   {
     "code": "SWDBEUR",
     "parent_code": "EUR",
-    "vendor": "swedbank",
     "name": {
       "en": "SWDBEUR"
     },
@@ -7838,7 +7663,6 @@
   {
     "code": "C4PUSD",
     "parent_code": "USD",
-    "vendor": "cash4pay",
     "name": {
       "en": "C4PUSD"
     },
@@ -7854,7 +7678,6 @@
   {
     "code": "MDNDCBUSD",
     "parent_code": "USD",
-    "vendor": "moldindconbank",
     "name": {
       "en": "MDNDCBUSD"
     },
@@ -7870,7 +7693,6 @@
   {
     "code": "SBRCBUSD",
     "parent_code": "USD",
-    "vendor": "sberbankkolibri",
     "name": {
       "en": "SBRCBUSD"
     },
@@ -7901,7 +7723,6 @@
   {
     "code": "EPAYUSD",
     "parent_code": "USD",
-    "vendor": "epay",
     "name": {
       "en": "EPAYUSD"
     },
@@ -7918,7 +7739,6 @@
   {
     "code": "RMTFEUR",
     "parent_code": "EUR",
-    "vendor": "ria_money_transfer",
     "name": {
       "en": "RMTFEUR"
     },
@@ -7935,7 +7755,6 @@
   {
     "code": "ANLKUSD",
     "parent_code": "USD",
-    "vendor": "anelik",
     "name": {
       "en": "ANLKUSD"
     },
@@ -7952,7 +7771,6 @@
   {
     "code": "QWEUR",
     "parent_code": "EUR",
-    "vendor": "qiwi",
     "name": {
       "en": "QWEUR"
     },
@@ -7969,7 +7787,6 @@
   {
     "code": "CASHRUB",
     "parent_code": "RUB",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHRUB"
     },
@@ -7986,7 +7803,6 @@
   {
     "code": "CASHCNY",
     "parent_code": "CNY",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHCNY"
     },
@@ -8003,7 +7819,6 @@
   {
     "code": "USTMUSD",
     "parent_code": "USD",
-    "vendor": "yunistrim",
     "name": {
       "en": "USTMUSD"
     },
@@ -8020,7 +7835,6 @@
   {
     "code": "PSBRUB",
     "parent_code": "RUB",
-    "vendor": "promsvyazbank",
     "name": {
       "en": "PSBRUB"
     },
@@ -8052,7 +7866,6 @@
   {
     "code": "EPMRUB",
     "parent_code": "RUB",
-    "vendor": "epayments",
     "name": {
       "en": "EPMRUB"
     },
@@ -8349,7 +8162,6 @@
   {
     "code": "OBTEUR",
     "parent_code": "EUR",
-    "vendor": "onlinebanktransfer",
     "name": {
       "en": "OBTEUR"
     },
@@ -8393,7 +8205,6 @@
   {
     "code": "PXMEUR",
     "parent_code": "EUR",
-    "vendor": "paxum",
     "name": {
       "en": "PXMEUR"
     },
@@ -8423,7 +8234,6 @@
   {
     "code": "HCBRUB",
     "parent_code": "RUB",
-    "vendor": "houmkreditbank",
     "name": {
       "en": "HCBRUB"
     },
@@ -8440,7 +8250,6 @@
   {
     "code": "GCMTUSD",
     "parent_code": "USD",
-    "vendor": "zolotaya_korona_perevody",
     "name": {
       "en": "GCMTUSD"
     },
@@ -8472,7 +8281,6 @@
   {
     "code": "PMRUAH",
     "parent_code": "UAH",
-    "vendor": "paymer",
     "name": {
       "en": "PMRUAH"
     },
@@ -8489,7 +8297,6 @@
   {
     "code": "WIRELTL",
     "parent_code": "LTL",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIRELTL"
     },
@@ -8564,7 +8371,6 @@
   {
     "code": "EPUSD",
     "parent_code": "USD",
-    "vendor": "egopay",
     "name": {
       "en": "EPUSD"
     },
@@ -8581,7 +8387,6 @@
   {
     "code": "PXMUSD",
     "parent_code": "USD",
-    "vendor": "paxum",
     "name": {
       "en": "PXMUSD"
     },
@@ -8875,7 +8680,6 @@
   {
     "code": "SBERKZT",
     "parent_code": "KZT",
-    "vendor": "sberbank",
     "name": {
       "en": "SBERKZT"
     },
@@ -8905,7 +8709,6 @@
   {
     "code": "VB24UAH",
     "parent_code": "UAH",
-    "vendor": "vabbank",
     "name": {
       "en": "VB24UAH"
     },
@@ -8978,7 +8781,6 @@
   {
     "code": "CARDUSD",
     "parent_code": "USD",
-    "vendor": "visamastercard",
     "name": {
       "en": "CARDUSD"
     },
@@ -9010,7 +8812,6 @@
   {
     "code": "WIRERUB",
     "parent_code": "RUB",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIRERUB"
     },
@@ -9027,7 +8828,6 @@
   {
     "code": "CASHTHB",
     "parent_code": "THB",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHTHB"
     },
@@ -9086,7 +8886,6 @@
   {
     "code": "NIXUSD",
     "parent_code": "USD",
-    "vendor": "nixmoney",
     "name": {
       "en": "NIXUSD"
     },
@@ -9103,7 +8902,6 @@
   {
     "code": "FPUSD",
     "parent_code": "USD",
-    "vendor": "fasapay",
     "name": {
       "en": "FPUSD"
     },
@@ -9283,7 +9081,6 @@
   {
     "code": "STLMRUB",
     "parent_code": "RUB",
-    "vendor": "schetvbankedlyaipiliyurlic",
     "name": {
       "en": "STLMRUB"
     },
@@ -9299,7 +9096,6 @@
   {
     "code": "ACCEUR",
     "parent_code": "EUR",
-    "vendor": "alfa_bank_cash_in",
     "name": {
       "en": "ACCEUR"
     },
@@ -9315,7 +9111,6 @@
   {
     "code": "CPTSRUB",
     "parent_code": "RUB",
-    "vendor": "capitalist",
     "name": {
       "en": "CPTSRUB"
     },
@@ -9361,7 +9156,6 @@
   {
     "code": "WIRECZK",
     "parent_code": "CZK",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIRECZK"
     },
@@ -9393,7 +9187,6 @@
   {
     "code": "PMUSD",
     "parent_code": "USD",
-    "vendor": "perfectmoney",
     "name": {
       "en": "PMUSD"
     },
@@ -9410,7 +9203,6 @@
   {
     "code": "CASHUSD",
     "parent_code": "USD",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHUSD"
     },
@@ -9427,7 +9219,6 @@
   {
     "code": "CTYBRUB",
     "parent_code": "RUB",
-    "vendor": "sitibank",
     "name": {
       "en": "CTYBRUB"
     },
@@ -9459,7 +9250,6 @@
   {
     "code": "OCNBRUB",
     "parent_code": "RUB",
-    "vendor": "okeanbank",
     "name": {
       "en": "OCNBRUB"
     },
@@ -9476,7 +9266,6 @@
   {
     "code": "ATFBKZT",
     "parent_code": "KZT",
-    "vendor": "atfbank",
     "name": {
       "en": "ATFBKZT"
     },
@@ -9493,7 +9282,6 @@
   {
     "code": "PVTMUSD",
     "parent_code": "USD",
-    "vendor": "privatmoney",
     "name": {
       "en": "PVTMUSD"
     },
@@ -9510,7 +9298,6 @@
   {
     "code": "ACUAH",
     "parent_code": "UAH",
-    "vendor": "alfa_bank",
     "name": {
       "en": "ACUAH"
     },
@@ -9527,7 +9314,6 @@
   {
     "code": "ADVCUAH",
     "parent_code": "UAH",
-    "vendor": "advanced_cash",
     "name": {
       "en": "ADVCUAH"
     },
@@ -9544,7 +9330,6 @@
   {
     "code": "ACUSD",
     "parent_code": "USD",
-    "vendor": "alfa_bank",
     "name": {
       "en": "ACUSD"
     },
@@ -9561,7 +9346,6 @@
   {
     "code": "DTBUAH",
     "parent_code": "UAH",
-    "vendor": "deltabank",
     "name": {
       "en": "DTBUAH"
     },
@@ -9593,7 +9377,6 @@
   {
     "code": "WOUAH",
     "parent_code": "UAH",
-    "vendor": "w1",
     "name": {
       "en": "WOUAH"
     },
@@ -9610,7 +9393,6 @@
   {
     "code": "LQRUB",
     "parent_code": "RUB",
-    "vendor": "liqpay",
     "name": {
       "en": "LQRUB"
     },
@@ -9642,7 +9424,6 @@
   {
     "code": "CARDRUB",
     "parent_code": "RUB",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDRUB"
     },
@@ -9659,7 +9440,6 @@
   {
     "code": "CARDGBP",
     "parent_code": "GBP",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDGBP"
     },
@@ -9691,7 +9471,6 @@
   {
     "code": "KKBKZT",
     "parent_code": "KZT",
-    "vendor": "kazkommercbank",
     "name": {
       "en": "KKBKZT"
     },
@@ -9708,7 +9487,6 @@
   {
     "code": "PNRUSD",
     "parent_code": "USD",
-    "vendor": "payoneer",
     "name": {
       "en": "PNRUSD"
     },
@@ -9725,7 +9503,6 @@
   {
     "code": "BNBRUB",
     "parent_code": "RUB",
-    "vendor": "binbank",
     "name": {
       "en": "BNBRUB"
     },
@@ -9741,7 +9518,6 @@
   {
     "code": "FWDBUAH",
     "parent_code": "UAH",
-    "vendor": "forwardbank",
     "name": {
       "en": "FWDBUAH"
     },
@@ -9757,7 +9533,6 @@
   {
     "code": "GRGBGEL",
     "parent_code": "GEL",
-    "vendor": "bankofgeorgia",
     "name": {
       "en": "GRGBGEL"
     },
@@ -9773,7 +9548,6 @@
   {
     "code": "B1NKBKZT",
     "parent_code": "KZT",
-    "vendor": "b1nk",
     "name": {
       "en": "B1NKBKZT"
     },
@@ -9789,7 +9563,6 @@
   {
     "code": "AGNDBUSD",
     "parent_code": "USD",
-    "vendor": "moldovaagroindbank",
     "name": {
       "en": "AGNDBUSD"
     },
@@ -9805,7 +9578,6 @@
   {
     "code": "BALTBRUB",
     "parent_code": "RUB",
-    "vendor": "baltijskijbank",
     "name": {
       "en": "BALTBRUB"
     },
@@ -9821,7 +9593,6 @@
   {
     "code": "SPBBRUB",
     "parent_code": "RUB",
-    "vendor": "banksanktpeterburg",
     "name": {
       "en": "SPBBRUB"
     },
@@ -9837,7 +9608,6 @@
   {
     "code": "CRERBRUB",
     "parent_code": "RUB",
-    "vendor": "kreditevropabank",
     "name": {
       "en": "CRERBRUB"
     },
@@ -9853,7 +9623,6 @@
   {
     "code": "DMDNGBRUB",
     "parent_code": "RUB",
-    "vendor": "domashniedengi",
     "name": {
       "en": "DMDNGBRUB"
     },
@@ -9869,7 +9638,6 @@
   {
     "code": "MSKCBRUB",
     "parent_code": "RUB",
-    "vendor": "moskovskijkreditnyjbank",
     "name": {
       "en": "MSKCBRUB"
     },
@@ -9885,7 +9653,6 @@
   {
     "code": "VOSTBRUB",
     "parent_code": "RUB",
-    "vendor": "vostochnyjbank",
     "name": {
       "en": "VOSTBRUB"
     },
@@ -9901,7 +9668,6 @@
   {
     "code": "GRNTBTRY",
     "parent_code": "TRY",
-    "vendor": "garantibank",
     "name": {
       "en": "GRNTBTRY"
     },
@@ -9932,7 +9698,6 @@
   {
     "code": "ADVCUSD",
     "parent_code": "USD",
-    "vendor": "advancedcash",
     "name": {
       "en": "ADVCUSD"
     },
@@ -9964,7 +9729,6 @@
   {
     "code": "SKLEUR",
     "parent_code": "EUR",
-    "vendor": "skrill",
     "name": {
       "en": "SKLEUR"
     },
@@ -9981,7 +9745,6 @@
   {
     "code": "PMRRUB",
     "parent_code": "RUB",
-    "vendor": "paymer",
     "name": {
       "en": "PMRRUB"
     },
@@ -9998,7 +9761,6 @@
   {
     "code": "CARDKZT",
     "parent_code": "KZT",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDKZT"
     },
@@ -10015,7 +9777,6 @@
   {
     "code": "WIREEUR",
     "parent_code": "EUR",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIREEUR"
     },
@@ -10032,7 +9793,6 @@
   {
     "code": "OPNBRUB",
     "parent_code": "RUB",
-    "vendor": "bankotkrytie",
     "name": {
       "en": "OPNBRUB"
     },
@@ -10064,7 +9824,6 @@
   {
     "code": "STPEUR",
     "parent_code": "EUR",
-    "vendor": "solidtrust_pay",
     "name": {
       "en": "STPEUR"
     },
@@ -10081,7 +9840,6 @@
   {
     "code": "NTLREUR",
     "parent_code": "EUR",
-    "vendor": "neteller",
     "name": {
       "en": "NTLREUR"
     },
@@ -10098,7 +9856,6 @@
   {
     "code": "UNCBUAH",
     "parent_code": "UAH",
-    "vendor": "unicredit",
     "name": {
       "en": "UNCBUAH"
     },
@@ -10145,7 +9902,6 @@
   {
     "code": "FRTBUSD",
     "parent_code": "USD",
-    "vendor": "fortebank",
     "name": {
       "en": "FRTBUSD"
     },
@@ -10162,7 +9918,6 @@
   {
     "code": "CNTRUB",
     "parent_code": "RUB",
-    "vendor": "kontakt",
     "name": {
       "en": "CNTRUB"
     },
@@ -10179,7 +9934,6 @@
   {
     "code": "MGEUR",
     "parent_code": "EUR",
-    "vendor": "moneygram",
     "name": {
       "en": "MGEUR"
     },
@@ -10196,7 +9950,6 @@
   {
     "code": "PPRUB",
     "parent_code": "RUB",
-    "vendor": "paypal",
     "name": {
       "en": "PPRUB"
     },
@@ -10273,7 +10026,6 @@
   {
     "code": "CGUSD",
     "parent_code": "USD",
-    "vendor": "cgold",
     "name": {
       "en": "CGUSD"
     },
@@ -10290,7 +10042,6 @@
   {
     "code": "WMV",
     "parent_code": "VND",
-    "vendor": "webmoney",
     "name": {
       "en": "WMV"
     },
@@ -10306,7 +10057,6 @@
   {
     "code": "VKFBTRY",
     "parent_code": "TRY",
-    "vendor": "vakıfbank",
     "name": {
       "en": "VKFBTRY"
     },
@@ -10322,7 +10072,6 @@
   {
     "code": "LSMKGS",
     "parent_code": "KGS",
-    "vendor": "elsom",
     "name": {
       "en": "LSMKGS"
     },
@@ -10353,7 +10102,6 @@
   {
     "code": "UZCARDUZS",
     "parent_code": "UZS",
-    "vendor": "uzcard",
     "name": {
       "en": "UZCARDUZS"
     },
@@ -10369,7 +10117,6 @@
   {
     "code": "POSTBRUB",
     "parent_code": "RUB",
-    "vendor": "pochtabank",
     "name": {
       "en": "POSTBRUB"
     },
@@ -10385,7 +10132,6 @@
   {
     "code": "ACKZT",
     "parent_code": "KZT",
-    "vendor": "alfa_bank",
     "name": {
       "en": "ACKZT"
     },
@@ -10402,7 +10148,6 @@
   {
     "code": "TBRUB",
     "parent_code": "RUB",
-    "vendor": "vtb24",
     "name": {
       "en": "TBRUB"
     },
@@ -10419,7 +10164,6 @@
   {
     "code": "AVBRUB",
     "parent_code": "RUB",
-    "vendor": "avangard",
     "name": {
       "en": "AVBRUB"
     },
@@ -10451,7 +10195,6 @@
   {
     "code": "ATNBKZT",
     "parent_code": "KZT",
-    "vendor": "bankastany",
     "name": {
       "en": "ATNBKZT"
     },
@@ -10468,7 +10211,6 @@
   {
     "code": "USTMEUR",
     "parent_code": "EUR",
-    "vendor": "yunistrim",
     "name": {
       "en": "USTMEUR"
     },
@@ -10485,7 +10227,6 @@
   {
     "code": "FLPNCAD",
     "parent_code": "CAD",
-    "vendor": "flexepin",
     "name": {
       "en": "FLPNCAD"
     },
@@ -10502,7 +10243,6 @@
   {
     "code": "WIREUAH",
     "parent_code": "UAH",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIREUAH"
     },
@@ -10519,7 +10259,6 @@
   {
     "code": "CASHUAH",
     "parent_code": "UAH",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHUAH"
     },
@@ -10536,7 +10275,6 @@
   {
     "code": "WMZ",
     "parent_code": "USD",
-    "vendor": "webmoney",
     "name": {
       "en": "WMZ"
     },
@@ -10553,7 +10291,6 @@
   {
     "code": "WMR",
     "parent_code": "RUB",
-    "vendor": "webmoney",
     "name": {
       "en": "WMR"
     },
@@ -10570,7 +10307,6 @@
   {
     "code": "PMBTC",
     "parent_code": "BTC",
-    "vendor": "perfect_money",
     "name": {
       "en": "PMBTC"
     },
@@ -10587,7 +10323,6 @@
   {
     "code": "PPUSD",
     "parent_code": "USD",
-    "vendor": "paypal",
     "name": {
       "en": "PPUSD"
     },
@@ -10604,7 +10339,6 @@
   {
     "code": "QWRUB",
     "parent_code": "RUB",
-    "vendor": "qiwi",
     "name": {
       "en": "QWRUB"
     },
@@ -10711,7 +10445,6 @@
   {
     "code": "QWUSD",
     "parent_code": "USD",
-    "vendor": "qiwi",
     "name": {
       "en": "QWUSD"
     },
@@ -10803,7 +10536,6 @@
   {
     "code": "P24RUB",
     "parent_code": "RUB",
-    "vendor": "privat_bank",
     "name": {
       "en": "P24RUB"
     },
@@ -10820,7 +10552,6 @@
   {
     "code": "CARDUAH",
     "parent_code": "UAH",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDUAH"
     },
@@ -10837,7 +10568,6 @@
   {
     "code": "SVBRUB",
     "parent_code": "RUB",
-    "vendor": "svyaznojbank",
     "name": {
       "en": "SVBRUB"
     },
@@ -10854,7 +10584,6 @@
   {
     "code": "SBERRUB",
     "parent_code": "RUB",
-    "vendor": "sberbank",
     "name": {
       "en": "SBERRUB"
     },
@@ -10871,7 +10600,6 @@
   {
     "code": "PMXAU",
     "parent_code": "XAU",
-    "vendor": "perfectmoney",
     "name": {
       "en": "Gold Ounce"
     },
@@ -10885,7 +10613,6 @@
   {
     "code": "SBERUAH",
     "parent_code": "UAH",
-    "vendor": "sberbank",
     "name": {
       "en": "SBERUAH"
     },
@@ -10902,7 +10629,6 @@
   {
     "code": "CARDBYN",
     "parent_code": "BYN",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDBYN"
     },
@@ -10919,7 +10645,6 @@
   {
     "code": "CARDAMD",
     "parent_code": "AMD",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDAMD"
     },
@@ -10936,7 +10661,6 @@
   {
     "code": "WIREKZT",
     "parent_code": "KZT",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIREKZT"
     },
@@ -10953,7 +10677,6 @@
   {
     "code": "RBKMRUB",
     "parent_code": "RUB",
-    "vendor": "rbkmoney",
     "name": {
       "en": "RBKMRUB"
     },
@@ -10970,7 +10693,6 @@
   {
     "code": "ALPCNY",
     "parent_code": "CNY",
-    "vendor": "alipay",
     "name": {
       "en": "ALPCNY"
     },
@@ -10987,7 +10709,6 @@
   {
     "code": "MMLRUB",
     "parent_code": "RUB",
-    "vendor": "moneymail",
     "name": {
       "en": "MMLRUB"
     },
@@ -11004,7 +10725,6 @@
   {
     "code": "WOUSD",
     "parent_code": "USD",
-    "vendor": "w1",
     "name": {
       "en": "WOUSD"
     },
@@ -11021,7 +10741,6 @@
   {
     "code": "WIRECNY",
     "parent_code": "CNY",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIRECNY"
     },
@@ -11038,7 +10757,6 @@
   {
     "code": "WIRETHB",
     "parent_code": "THB",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIRETHB"
     },
@@ -11055,7 +10773,6 @@
   {
     "code": "UNCBRUB",
     "parent_code": "RUB",
-    "vendor": "unicredit",
     "name": {
       "en": "UNCBRUB"
     },
@@ -11072,7 +10789,6 @@
   {
     "code": "GPBRUB",
     "parent_code": "RUB",
-    "vendor": "gazprombank",
     "name": {
       "en": "GPBRUB"
     },
@@ -11089,7 +10805,6 @@
   {
     "code": "WORUB",
     "parent_code": "RUB",
-    "vendor": "w1",
     "name": {
       "en": "WORUB"
     },
@@ -11106,7 +10821,6 @@
   {
     "code": "HLKBKZT",
     "parent_code": "KZT",
-    "vendor": "halykbank",
     "name": {
       "en": "HLKBKZT"
     },
@@ -11123,7 +10837,6 @@
   {
     "code": "QWKZT",
     "parent_code": "KZT",
-    "vendor": "qiwi",
     "name": {
       "en": "QWKZT"
     },
@@ -11140,7 +10853,6 @@
   {
     "code": "OKUSD",
     "parent_code": "USD",
-    "vendor": "okpay",
     "name": {
       "en": "OKUSD"
     },
@@ -11157,7 +10869,6 @@
   {
     "code": "PREUR",
     "parent_code": "EUR",
-    "vendor": "payeer",
     "name": {
       "en": "PREUR"
     },
@@ -11174,7 +10885,6 @@
   {
     "code": "ANLKEUR",
     "parent_code": "EUR",
-    "vendor": "anelik",
     "name": {
       "en": "ANLKEUR"
     },
@@ -11191,7 +10901,6 @@
   {
     "code": "GCMTEUR",
     "parent_code": "EUR",
-    "vendor": "zolotaya_korona_perevody",
     "name": {
       "en": "GCMTEUR"
     },
@@ -11208,7 +10917,6 @@
   {
     "code": "USTMRUB",
     "parent_code": "RUB",
-    "vendor": "yunistrim",
     "name": {
       "en": "USTMRUB"
     },
@@ -11225,7 +10933,6 @@
   {
     "code": "PVTMEUR",
     "parent_code": "EUR",
-    "vendor": "privatmoney",
     "name": {
       "en": "PVTMEUR"
     },
@@ -11317,7 +11024,6 @@
   {
     "code": "PMRUSD",
     "parent_code": "USD",
-    "vendor": "paymer",
     "name": {
       "en": "PMRUSD"
     },
@@ -11333,7 +11039,6 @@
   },
   {
     "code": "AZN",
-    "vendor": "cbar",
     "name": {
       "en": "Azerbaijani Manat"
     },
@@ -11363,7 +11068,6 @@
   {
     "code": "RKTBRUB",
     "parent_code": "RUB",
-    "vendor": "roketbank",
     "name": {
       "en": "RKTBRUB"
     },
@@ -11392,7 +11096,6 @@
   {
     "code": "P24USD",
     "parent_code": "USD",
-    "vendor": "privat_bank",
     "name": {
       "en": "P24USD"
     },
@@ -11409,7 +11112,6 @@
   {
     "code": "ACRUB",
     "parent_code": "RUB",
-    "vendor": "alfabank",
     "name": {
       "en": "ACRUB"
     },
@@ -11426,7 +11128,6 @@
   {
     "code": "LQEUR",
     "parent_code": "EUR",
-    "vendor": "liqpay",
     "name": {
       "en": "LQEUR"
     },
@@ -11443,7 +11144,6 @@
   {
     "code": "RFBRUB",
     "parent_code": "RUB",
-    "vendor": "raiffeisen",
     "name": {
       "en": "RFBRUB"
     },
@@ -11460,7 +11160,6 @@
   {
     "code": "PPEUR",
     "parent_code": "EUR",
-    "vendor": "paypal",
     "name": {
       "en": "PPEUR"
     },
@@ -11477,7 +11176,6 @@
   {
     "code": "EPEUR",
     "parent_code": "EUR",
-    "vendor": "egopay",
     "name": {
       "en": "EPEUR"
     },
@@ -11494,7 +11192,6 @@
   {
     "code": "CASHAMD",
     "parent_code": "AMD",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHAMD"
     },
@@ -11511,7 +11208,6 @@
   {
     "code": "MOSBRUB",
     "parent_code": "RUB",
-    "vendor": "bankmoskvy",
     "name": {
       "en": "MOSBRUB"
     },
@@ -11528,7 +11224,6 @@
   {
     "code": "CASHKZT",
     "parent_code": "KZT",
-    "vendor": "nalichnye",
     "name": {
       "en": "CASHKZT"
     },
@@ -11545,7 +11240,6 @@
   {
     "code": "TRBRUB",
     "parent_code": "RUB",
-    "vendor": "banktrast",
     "name": {
       "en": "TRBRUB"
     },
@@ -11562,7 +11256,6 @@
   {
     "code": "WUUSD",
     "parent_code": "USD",
-    "vendor": "westernunion",
     "name": {
       "en": "WUUSD"
     },
@@ -11579,7 +11272,6 @@
   {
     "code": "OKEUR",
     "parent_code": "EUR",
-    "vendor": "okpay",
     "name": {
       "en": "OKEUR"
     },
@@ -11596,7 +11288,6 @@
   {
     "code": "OKRUB",
     "parent_code": "RUB",
-    "vendor": "okpay",
     "name": {
       "en": "OKRUB"
     },
@@ -11613,7 +11304,6 @@
   {
     "code": "SKLUSD",
     "parent_code": "USD",
-    "vendor": "skrill",
     "name": {
       "en": "SKLUSD"
     },
@@ -11630,7 +11320,6 @@
   {
     "code": "WUEUR",
     "parent_code": "EUR",
-    "vendor": "western_union",
     "name": {
       "en": "WUEUR"
     },
@@ -11662,7 +11351,6 @@
   {
     "code": "WURUB",
     "parent_code": "RUB",
-    "vendor": "western_union",
     "name": {
       "en": "WURUB"
     },
@@ -11705,7 +11393,6 @@
   {
     "code": "WME",
     "parent_code": "EUR",
-    "vendor": "webmoney",
     "name": {
       "en": "WME"
     },
@@ -11722,7 +11409,6 @@
   {
     "code": "PMVUSD",
     "parent_code": "USD",
-    "vendor": "perfectmoneyvoucher",
     "name": {
       "en": "PMVUSD"
     },
@@ -11739,7 +11425,6 @@
   {
     "code": "PXUSD",
     "parent_code": "USD",
-    "vendor": "pecunix",
     "name": {
       "en": "PXUSD"
     },
@@ -11756,7 +11441,6 @@
   {
     "code": "CARDEUR",
     "parent_code": "EUR",
-    "vendor": "visa_mastercard",
     "name": {
       "en": "CARDEUR"
     },
@@ -11773,7 +11457,6 @@
   {
     "code": "WIREUSD",
     "parent_code": "USD",
-    "vendor": "wireperevod",
     "name": {
       "en": "WIREUSD"
     },
@@ -11790,7 +11473,6 @@
   {
     "code": "WMB",
     "parent_code": "BYN",
-    "vendor": "webmoney",
     "name": {
       "en": "WMB"
     },
@@ -11807,7 +11489,6 @@
   {
     "code": "WMU",
     "parent_code": "UAH",
-    "vendor": "webmoney",
     "name": {
       "en": "WMU"
     },
@@ -11824,7 +11505,6 @@
   {
     "code": "WMG",
     "parent_code": "XAU",
-    "vendor": "webmoney",
     "name": {
       "en": "WMG"
     },
@@ -11841,7 +11521,6 @@
   {
     "code": "WIREGBP",
     "parent_code": "GBP",
-    "vendor": "wire_perevod",
     "name": {
       "en": "WIREGBP"
     },
@@ -11873,7 +11552,6 @@
   {
     "code": "WMX",
     "parent_code": "BTC",
-    "vendor": "webmoney",
     "name": {
       "en": "WMX"
     },
@@ -11890,7 +11568,6 @@
   {
     "code": "WMK",
     "parent_code": "KZT",
-    "vendor": "webmoney",
     "name": {
       "en": "WMK"
     },
@@ -11950,7 +11627,6 @@
   {
     "code": "YAMRUB",
     "parent_code": "RUB",
-    "vendor": "yandeksdengi",
     "name": {
       "en": "YAMRUB"
     },
@@ -11967,7 +11643,6 @@
   {
     "code": "PMEUR",
     "parent_code": "EUR",
-    "vendor": "perfect_money",
     "name": {
       "en": "PMEUR"
     },
@@ -11984,7 +11659,6 @@
   {
     "code": "LQUSD",
     "parent_code": "USD",
-    "vendor": "liqpay",
     "name": {
       "en": "LQUSD"
     },
@@ -12121,7 +11795,6 @@
   {
     "code": "GRN",
     "parent_code": "UAH",
-    "vendor": "geopaynet",
     "name": {
       "en": "GRN"
     },

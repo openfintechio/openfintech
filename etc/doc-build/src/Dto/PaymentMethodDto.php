@@ -7,9 +7,6 @@ final class PaymentMethodDto extends BaseDto
     /** @var string */
     public $code;
 
-    /** @var string|null */
-    public $vendor;
-
     /** @var array */
     public $name;
 
