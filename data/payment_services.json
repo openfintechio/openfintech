@@ -21106,5 +21106,14 @@
     "method": "bank_transfer_qr",
     "amount_min": 0.01,
     "amount_max": 15000000000
+  },
+  {
+    "code": "bank_neo_commerce_idr_hpp",
+    "currency": "IDR",
+    "status": "active",
+    "flow": "hpp",
+    "method": "bank_neo_commerce",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
   }
 ]
