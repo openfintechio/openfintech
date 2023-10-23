@@ -24380,5 +24380,22 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "match2pay",
+    "vendor": "match2pay",
+    "name": {
+      "en": "Match2Pay",
+      "ru": "Match2Pay",
+      "uk": "Match2Pay"
+    },
+    "payout_method": [
+      "bitcoin",
+      "tether",
+      "usd_coin",
+      "ethereum",
+      "binance_coin"
+    ]
   }
 ]
