@@ -23857,6 +23857,19 @@
   },
   {
     "status": "active",
+    "code": "paysecure",
+    "vendor": "paysecure",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Paysecure",
+      "ru": "Paysecure",
+      "uk": "Paysecure"
+    }
+  },
+  {
+    "status": "active",
     "code": "paylinkio",
     "vendor": "paylinkio",
     "name": {
