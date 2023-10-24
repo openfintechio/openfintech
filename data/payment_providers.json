@@ -17000,12 +17000,7 @@
     "code": "paymaster",
     "vendor": "paymaster",
     "payment_method": [
-      "webmoneytransfer",
-      "easypay",
-      "nsmep",
-      "privat24",
-      "test",
-      "bank_card"
+      "payment_card"
     ],
     "name": {
       "en": "Paymaster"
