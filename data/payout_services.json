@@ -138574,5 +138574,615 @@
     ],
     "amount_min": 1,
     "amount_max": 999999
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_gbp",
+    "method": "bitcoin",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin wallet",
+          "ru": "Bitcoin кошелёк",
+          "uk": "Bitcoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin wallet",
+          "ru": "Введите Bitcoin кошелёк",
+          "uk": "Введіть Bitcoin гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_chf",
+    "method": "bitcoin",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Bitcoin wallet",
+          "ru": "Bitcoin кошелёк",
+          "uk": "Bitcoin гаманець"
+        },
+        "hint": {
+          "en": "Enter Bitcoin wallet",
+          "ru": "Введите Bitcoin кошелёк",
+          "uk": "Введіть Bitcoin гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_gbp",
+    "method": "tether",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_chf",
+    "method": "tether",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_erc20_usd",
+    "method": "tether",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_erc20_eur",
+    "method": "tether",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_erc20_gbp",
+    "method": "tether",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_erc20_chf",
+    "method": "tether",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "ethereum_gbp",
+    "method": "ethereum",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum wallet",
+          "ru": "Ethereum кошелёк",
+          "uk": "Ethereum гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum wallet",
+          "ru": "Введите Ethereum кошелёк",
+          "uk": "Введіть Ethereum гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "ethereum_chf",
+    "method": "ethereum",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum wallet",
+          "ru": "Ethereum кошелёк",
+          "uk": "Ethereum гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum wallet",
+          "ru": "Введите Ethereum кошелёк",
+          "uk": "Введіть Ethereum гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{40}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "1",
+    "amount_max": "50000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_gbp",
+    "method": "tether",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_chf",
+    "method": "tether",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether BEP-20 wallet",
+          "ru": "Tether BEP-20 кошелёк",
+          "uk": "Tether BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter tether BEP-20 wallet",
+          "ru": "Введите tether BEP-20 кошелёк",
+          "uk": "Введіть tether BEP-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_bep20_usd",
+    "method": "usd_coin",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet BEP-20 Address",
+          "ru": "Адрес BEP-20 кошелька",
+          "uk": "Адреса BEP-20 гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet BEP-20 address",
+          "ru": "Введите адрес BEP-20 кошелька",
+          "uk": "Введіть адресу BEP-20 гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_bep20_eur",
+    "method": "usd_coin",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet BEP-20 Address",
+          "ru": "Адрес BEP-20 кошелька",
+          "uk": "Адреса BEP-20 гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet BEP-20 address",
+          "ru": "Введите адрес BEP-20 кошелька",
+          "uk": "Введіть адресу BEP-20 гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_bep20_gbp",
+    "method": "usd_coin",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet BEP-20 Address",
+          "ru": "Адрес BEP-20 кошелька",
+          "uk": "Адреса BEP-20 гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet BEP-20 address",
+          "ru": "Введите адрес BEP-20 кошелька",
+          "uk": "Введіть адресу BEP-20 гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_bep20_chf",
+    "method": "usd_coin",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet BEP-20 Address",
+          "ru": "Адрес BEP-20 кошелька",
+          "uk": "Адреса BEP-20 гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet BEP-20 address",
+          "ru": "Введите адрес BEP-20 кошелька",
+          "uk": "Введіть адресу BEP-20 гаманця"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "binance_coin_usd",
+    "method": "binance_coin",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Binance coin wallet",
+          "ru": "Binance coin кошелёк",
+          "uk": "Binance coin гаманець"
+        },
+        "hint": {
+          "en": "Binance coin wallet",
+          "ru": "Binance coin кошелёк",
+          "uk": "Binance coin гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "binance_coin_eur",
+    "method": "binance_coin",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Binance coin wallet",
+          "ru": "Binance coin кошелёк",
+          "uk": "Binance coin гаманець"
+        },
+        "hint": {
+          "en": "Binance coin wallet",
+          "ru": "Binance coin кошелёк",
+          "uk": "Binance coin гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "binance_coin_gbp",
+    "method": "binance_coin",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Binance coin wallet",
+          "ru": "Binance coin кошелёк",
+          "uk": "Binance coin гаманець"
+        },
+        "hint": {
+          "en": "Binance coin wallet",
+          "ru": "Binance coin кошелёк",
+          "uk": "Binance coin гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "binance_coin_chf",
+    "method": "binance_coin",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Binance coin wallet",
+          "ru": "Binance coin кошелёк",
+          "uk": "Binance coin гаманець"
+        },
+        "hint": {
+          "en": "Binance coin wallet",
+          "ru": "Binance coin кошелёк",
+          "uk": "Binance coin гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_gbp",
+    "method": "tether",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_chf",
+    "method": "tether",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether TRC-20 wallet",
+          "ru": "Tether TRC-20 кошелёк",
+          "uk": "Tether TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
   }
 ]
