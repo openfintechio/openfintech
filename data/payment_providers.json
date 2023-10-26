@@ -17000,12 +17000,7 @@
     "code": "paymaster",
     "vendor": "paymaster",
     "payment_method": [
-      "webmoneytransfer",
-      "easypay",
-      "nsmep",
-      "privat24",
-      "test",
-      "bank_card"
+      "payment_card"
     ],
     "name": {
       "en": "Paymaster"
@@ -19606,6 +19601,15 @@
       "promptpay",
       "shopeepay",
       "truemoney"
+    ],
+    "payout_method": [
+      "upi",
+      "imps",
+      "phonepe",
+      "paytm",
+      "rtgs",
+      "neft",
+      "bank_transfer"
     ]
   },
   {
@@ -22849,7 +22853,8 @@
       "payeer",
       "hero_payments",
       "bitexpro_p2p",
-      "bitexpro_wallet"
+      "bitexpro_wallet",
+      "bank_transfer_aggregated"
     ],
     "name": {
       "en": "BitexPRO",
@@ -23849,6 +23854,19 @@
       "en": "Siquro",
       "ru": "Siquro",
       "uk": "Siquro"
+    }
+  },
+  {
+    "status": "active",
+    "code": "paysecure",
+    "vendor": "paysecure",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Paysecure",
+      "ru": "Paysecure",
+      "uk": "Paysecure"
     }
   },
   {

@@ -72497,6 +72497,24 @@
           "ru": "Введите тип документа",
           "uk": "Введіть тип документу"
         }
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@cashfree.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 20
       }
     ],
     "amount_min": "0.01",
@@ -79326,6 +79344,42 @@
         }
       },
       {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+91236456977",
+        "regexp": "\/^\\+?\\d{10-14}$\/",
+        "required": true,
+        "position": 18
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@mail.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 19
+      },
+      {
         "key": "sender_full_name",
         "type": "string",
         "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
@@ -80777,6 +80831,23 @@
         "regexp": "\/^[A-Z\\-\\ a-z0-9_]{2,100}$\/",
         "required": false,
         "position": 5
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+?\\d{10-14}$\/",
+        "required": false,
+        "position": 3
       }
     ],
     "amount_min": 0.01,
@@ -92731,6 +92802,75 @@
           "ru": "Введите тип аккаунта",
           "uk": "Введіть тип акаунту"
         }
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@mail.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 7
+      },
+      {
+        "key": "beneficiary_country_code_iso",
+        "type": "string",
+        "regexp": "\/^.{2,6}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary country code",
+          "ru": "Beneficiary country code",
+          "uk": "Beneficiary country code"
+        },
+        "hint": {
+          "en": "Enter beneficiary country code",
+          "ru": "Введите beneficiary country code",
+          "uk": "Введіть beneficiary country code"
+        }
+      },
+      {
+        "key": "beneficiary_document_type",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{3,20}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Beneficiary Document Type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document Type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_state",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary state",
+          "ru": "Beneficiary state",
+          "uk": "Beneficiary state"
+        },
+        "hint": {
+          "en": "Enter beneficiary state",
+          "ru": "Введите beneficiary state",
+          "uk": "Введіть beneficiary state"
+        }
       }
     ],
     "amount_min": "1",
@@ -93196,6 +93336,24 @@
           "ru": "Введите тип аккаунта",
           "uk": "Введіть тип акаунту"
         }
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        },
+        "example": "johndoe@mail.com",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 8
       }
     ],
     "amount_min": "0.01",
