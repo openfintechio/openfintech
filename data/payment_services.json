@@ -2850,6 +2850,42 @@
           "uk": "Введіть код банку відправника"
         },
         "example": "050"
+      },
+      {
+        "key": "payer_email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Payer email",
+          "ru": "Email плательщика",
+          "uk": "Email платника"
+        },
+        "hint": {
+          "en": "Enter payer email",
+          "ru": "Введите email плательщика",
+          "uk": "Введіть email платника"
+        },
+        "example": "example@gmail.com"
+      },
+      {
+        "key": "payer_phone_number",
+        "type": "string",
+        "regexp": "\/^\\+?\\d{8,14}$\/",
+        "required": false,
+        "position": 10,
+        "example": "+919810597886",
+        "label": {
+          "en": "Payer phone number",
+          "ru": "Номер телефона плательщика",
+          "uk": "Номер телефону платника"
+        },
+        "hint": {
+          "en": "Enter payer phone number",
+          "ru": "Введите номер телефона плательщика",
+          "uk": "Введіть номер телефону платника"
+        }
       }
     ]
   },
