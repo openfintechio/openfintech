@@ -105947,6 +105947,23 @@
         "regexp": "\/^.{10,64}$\/",
         "required": true,
         "position": 1
+      },
+      {
+        "key": "destination_tag",
+        "type": "string",
+        "label": {
+          "en": "Destination tag",
+          "ru": "Тег назначения",
+          "uk": "Тег призначення"
+        },
+        "hint": {
+          "en": "Enter destination tag",
+          "ru": "Введите тег назначения",
+          "uk": "Введіть тег призначення"
+        },
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 2
       }
     ],
     "amount_min": 0.01,
