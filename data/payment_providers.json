@@ -24409,6 +24409,13 @@
       "ru": "Match2Pay",
       "uk": "Match2Pay"
     },
+    "payment_method": [
+      "bitcoin",
+      "tether",
+      "usd_coin",
+      "ethereum",
+      "binance_coin"
+    ],
     "payout_method": [
       "bitcoin",
       "tether",
