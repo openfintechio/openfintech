@@ -15571,6 +15571,15 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_gel_hpp",
+    "flow": "invoice",
+    "method": "card_transfer",
+    "currency": "GEL",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
     "code": "card_transfer_uah_invoice",
     "flow": "invoice",
     "method": "card_transfer",
