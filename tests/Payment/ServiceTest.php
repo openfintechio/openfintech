@@ -65,6 +65,28 @@ final class ServiceTest extends AbstractDataTest
         );
     }
 
+    public function test_service_flow(): void
+    {
+        /** @var PaymentServiceDto[] $services */
+        $services = $this->dataProvider->getPaymentServices();
+
+        $messageData = [];
+        foreach ($services as $service) {
+            $serviceCodeData = \explode('_', $service->code);
+            $extractedServiceFlow = \end($serviceCodeData);
+
+            if (\strtolower($extractedServiceFlow) !== \strtolower($service->flow)) {
+                $messageData[] = \sprintf('"%s" => "%s"', $service->code, $service->flow);
+            }
+        }
+
+        if ([] !== $messageData) {
+            $this->fail(\sprintf('Wrong flow data in payment services: %s', \implode(',', $messageData)));
+        }
+
+        self::assertTrue(true);
+    }
+
     public function test_service_limit_exponent(): void
     {
         /** @var PaymentServiceDto[] $services */
