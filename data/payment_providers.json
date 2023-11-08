@@ -24384,5 +24384,18 @@
       "ethereum",
       "binance_coin"
     ]
+  },
+  {
+    "status": "active",
+    "code": "hyperion",
+    "vendor": "hyperion",
+    "name": {
+      "en": "Hyperion",
+      "ru": "Hyperion",
+      "uk": "Hyperion"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
