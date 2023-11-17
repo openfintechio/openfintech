@@ -15697,6 +15697,15 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_bdt_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "BDT",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
     "code": "pay_id_aud_invoice",
     "flow": "invoice",
     "method": "pay_id",
