@@ -24423,5 +24423,32 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "elitepay",
+    "vendor": "elitepay",
+    "name": {
+      "en": "Elitepay",
+      "ru": "Elitepay",
+      "uk": "Elitepay"
+    },
+    "payout_method": [
+      "deniz_bank",
+      "qnb_finansbank",
+      "turkey_econom_bank",
+      "ziraat_bank",
+      "garanti_bbva",
+      "halk_bank",
+      "turkey_is_bank",
+      "vakif_bank",
+      "yapi_kredi_bank",
+      "akbank",
+      "kuveyt_turk_katilim_bank",
+      "turkey_finans_katilim_bank",
+      "payfix",
+      "papara",
+      "parazula"
+    ]
   }
 ]
