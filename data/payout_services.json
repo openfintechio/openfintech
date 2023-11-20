@@ -139184,5 +139184,275 @@
     ],
     "amount_min": "0.01",
     "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "deniz_bank_try",
+    "method": "deniz_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        },
+        "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "garanti_bbva_try",
+    "method": "garanti_bbva",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        },
+        "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "halk_bank_try",
+    "method": "halk_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        },
+        "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "vakif_bank_try",
+    "method": "vakif_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        },
+        "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "yapi_kredi_bank_try",
+    "method": "yapi_kredi_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        },
+        "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "kuveyt_turk_katilim_bank_try",
+    "method": "kuveyt_turk_katilim_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "label": {
+          "en": "Recipient full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне iм'я одержувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя одержувача"
+        },
+        "regexp": "\/^[\\s\\p{L}]{2,100}$\/u",
+        "required": true,
+        "position": 2
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
   }
 ]

@@ -30274,5 +30274,65 @@
       "ru": "Банковский перевод по токену",
       "uk": "Банківський переказ по токену"
     }
+  },
+  {
+    "status": "active",
+    "code": "deniz_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "DenizBank",
+      "ru": "DenizBank",
+      "uk": "DenizBank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "garanti_bbva",
+    "category": "bank_transfer",
+    "name": {
+      "en": "T. Garanti Bankası A.Ş.",
+      "ru": "T. Garanti Bankası A.Ş.",
+      "uk": "T. Garanti Bankası A.Ş."
+    }
+  },
+  {
+    "status": "active",
+    "code": "halk_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Türkiye Halk Bankası A.Ş.",
+      "ru": "Türkiye Halk Bankası A.Ş.",
+      "uk": "Türkiye Halk Bankası A.Ş."
+    }
+  },
+  {
+    "status": "active",
+    "code": "vakif_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "VakıfBank",
+      "ru": "VakıfBank",
+      "uk": "VakıfBank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "yapi_kredi_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Yapı ve Kredi Bankası A.Ş.",
+      "ru": "Yapı ve Kredi Bankası A.Ş.",
+      "uk": "Yapı ve Kredi Bankası A.Ş."
+    }
+  },
+  {
+    "status": "active",
+    "code": "kuveyt_turk_katilim_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Kuveyt Türk Participation Bank",
+      "ru": "Kuveyt Türk Participation Bank",
+      "uk": "Kuveyt Türk Participation Bank"
+    }
   }
 ]
