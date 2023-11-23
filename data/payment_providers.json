@@ -24494,5 +24494,18 @@
     "payment_method": [
       "spei"
     ]
+  },
+  {
+    "status": "active",
+    "code": "buckzy",
+    "vendor": "buckzy",
+    "name": {
+      "en": "Buckzy",
+      "ru": "Buckzy",
+      "uk": "Buckzy"
+    },
+    "payment_method": [
+      "upi_qr"
+    ]
   }
 ]
