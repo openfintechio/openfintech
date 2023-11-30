@@ -14994,7 +14994,8 @@
     "vendor": "perfectmoney",
     "payment_method": [
       "perfectmoney_account",
-      "perfectmoney_voucher"
+      "perfectmoney_voucher",
+      "perfectmoney"
     ],
     "payout_method": [
       "perfectmoney_transfer"
@@ -18200,11 +18201,14 @@
   {
     "status": "active",
     "code": "exactly",
+    "description": {
+      "en": "exactly® - Payment System is a robust platform designed to empower online businesses with enhanced capabilities and features. It facilitates growth by supporting major global and local currencies streamlining international and local transactions. Partnering merchants have access to a wide range of features that allow for continuous expansion in the online business world. These features include recurring payments, one-click payments, payment links, and other options to enhance convenience and promote business growth. The system seamlessly interacts with primary card types such as VISA, MasterCard, UnionPay, and various local payment methods, including MultiBanco, MBWay, etc. Security is paramount within exactly® Payment System, adhering rigorously to PCI DSS and 3D Secure 2 compliance standards, integrating advanced anti-fraud protection, and implementing two-factor authentication measures. exactly® makes global transactions simple, cost-effective, and practical, ensuring a smooth experience regardless of the preferred payment method."
+    },
     "vendor": "exactly",
     "name": {
-      "en": "Exactly",
-      "ru": "Exactly",
-      "uk": "Exactly"
+      "en": "exactly",
+      "ru": "exactly",
+      "uk": "exactly"
     },
     "payment_method": [
       "payment_card"
@@ -19008,7 +19012,9 @@
       "ru": "Forta"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "sbp",
+      "sbp_qr"
     ],
     "payout_method": [
       "payment_card"
@@ -23455,7 +23461,8 @@
     "code": "katarun",
     "vendor": "katarun",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer_aggregated"
     ],
     "name": {
       "en": "Katarun",
@@ -23633,6 +23640,9 @@
     "code": "empayre",
     "vendor": "empayre",
     "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ],
     "name": {
@@ -24378,6 +24388,19 @@
   },
   {
     "status": "active",
+    "code": "jmitsolutions",
+    "vendor": "jmitsolutions",
+    "name": {
+      "en": "JMITsolutions",
+      "ru": "JMITsolutions",
+      "uk": "JMITsolutions"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "neonpay",
     "vendor": "neonpay",
     "name": {
@@ -24478,6 +24501,19 @@
     },
     "payment_method": [
       "spei"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "buckzy",
+    "vendor": "buckzy",
+    "name": {
+      "en": "Buckzy",
+      "ru": "Buckzy",
+      "uk": "Buckzy"
+    },
+    "payment_method": [
+      "upi_qr"
     ]
   }
 ]
