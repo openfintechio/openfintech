@@ -11666,45 +11666,17 @@
     "status": "active",
     "code": "truevo",
     "vendor": "truevo",
-    "countries": [
-      "AU",
-      "BE",
-      "BG",
-      "HR",
-      "CY",
-      "CZ",
-      "DK",
-      "EE",
-      "FJ",
-      "FR",
-      "DE",
-      "GI",
-      "GR",
-      "HU",
-      "IS",
-      "IT",
-      "LV",
-      "LI",
-      "LT",
-      "LU",
-      "ML",
-      "NL",
-      "NO",
-      "AX",
-      "PT",
-      "RO",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "AE"
-    ],
     "metadata": {
       "about_payments_code": "truevo"
     },
     "name": {
-      "en": "Truevo Payments"
-    }
+      "en": "Truevo Payments Ltd",
+      "ru": "Truevo Payments Ltd",
+      "uk": "Truevo Payments Ltd"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
