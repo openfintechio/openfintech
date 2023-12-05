@@ -82642,7 +82642,7 @@
           "uk": "Введіть номер документу"
         },
         "position": 3,
-        "required": true
+        "required": false
       },
       {
         "key": "bank_code",
@@ -82659,7 +82659,7 @@
           "uk": "Введіть код банку"
         },
         "position": 4,
-        "required": true
+        "required": false
       },
       {
         "key": "account_number",
