@@ -23438,7 +23438,7 @@
     "vendor": "katarun",
     "payment_method": [
       "payment_card",
-      "bank_transfer_aggregated"
+      "sepa_transfer"
     ],
     "name": {
       "en": "Katarun",
@@ -24441,6 +24441,19 @@
   },
   {
     "status": "active",
+    "code": "paymaxis",
+    "vendor": "paymaxis",
+    "name": {
+      "en": "PayMaxis",
+      "ru": "PayMaxis",
+      "uk": "PayMaxis"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "elitepay",
     "vendor": "elitepay",
     "name": {
@@ -24493,6 +24506,45 @@
     },
     "payment_method": [
       "upi_qr"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "carespay",
+    "vendor": "carespay",
+    "name": {
+      "en": "CaresPAY",
+      "ru": "CaresPAY",
+      "uk": "CaresPAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pylon",
+    "vendor": "pylon",
+    "name": {
+      "en": "Pylon",
+      "ru": "Pylon",
+      "uk": "Pylon"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paycc",
+    "vendor": "paycc",
+    "name": {
+      "en": "Pay.CC",
+      "ru": "Pay.CC",
+      "uk": "Pay.CC"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]
