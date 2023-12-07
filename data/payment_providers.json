@@ -23438,7 +23438,7 @@
     "vendor": "katarun",
     "payment_method": [
       "payment_card",
-      "bank_transfer_aggregated"
+      "sepa_transfer"
     ],
     "name": {
       "en": "Katarun",
@@ -24434,6 +24434,19 @@
       "en": "Concryt",
       "ru": "Concryt",
       "uk": "Concryt"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paymaxis",
+    "vendor": "paymaxis",
+    "name": {
+      "en": "PayMaxis",
+      "ru": "PayMaxis",
+      "uk": "PayMaxis"
     },
     "payment_method": [
       "payment_card"
