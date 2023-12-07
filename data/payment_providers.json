@@ -24504,5 +24504,18 @@
     "payment_method": [
       "upi_qr"
     ]
+  },
+  {
+    "status": "active",
+    "code": "carespay",
+    "vendor": "carespay",
+    "name": {
+      "en": "CaresPAY",
+      "ru": "CaresPAY",
+      "uk": "CaresPAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
