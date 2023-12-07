@@ -24530,5 +24530,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paycc",
+    "vendor": "paycc",
+    "name": {
+      "en": "Pay.CC",
+      "ru": "Pay.CC",
+      "uk": "Pay.CC"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
