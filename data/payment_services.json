@@ -21457,5 +21457,122 @@
     "flow": "hpp",
     "amount_min": 0.001,
     "amount_max": 1000
+  },
+  {
+    "status": "active",
+    "code": "wise_eur_hpp",
+    "flow": "hpp",
+    "method": "wise",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "revolut_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "revolut_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "n26_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "n26_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ing_group_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "ing_group_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "abn_amro_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "abn_amro_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "rabobank_eur_hpp",
+    "flow": "hpp",
+    "method": "rabobank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "societe_generale_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "societe_generale_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "credit_mutuel_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "credit_mutuel_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "la_banque_postale_eur_hpp",
+    "flow": "hpp",
+    "method": "la_banque_postale",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bnp_paribas_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "bnp_paribas_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "aktivbank_eur_hpp",
+    "flow": "hpp",
+    "method": "aktivbank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "commerzbank_eur_hpp",
+    "flow": "hpp",
+    "method": "commerzbank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "deutsche_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "deutsche_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
