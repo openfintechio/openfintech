@@ -24613,5 +24613,20 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "kunapaycrypto",
+    "vendor": "kunapaycrypto",
+    "name": {
+      "en": "KunaPay Crypto",
+      "ru": "KunaPay Crypto",
+      "uk": "KunaPay Crypto"
+    },
+    "payout_method": [
+      "payment_card",
+      "bank_transfer",
+      "kunapay_crypto"
+    ]
   }
 ]
