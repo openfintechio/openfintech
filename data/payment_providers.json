@@ -19596,6 +19596,19 @@
   },
   {
     "status": "active",
+    "code": "procardpay",
+    "vendor": "procard",
+    "name": {
+      "en": "Procard.Pay",
+      "ru": "Procard.Pay",
+      "uk": "Procard.Pay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "stepfourpay",
     "description": {
       "en": "There are many payment gateway providers out there, but not all of them offer the same features and benefits. Payment orchestration platforms like StepfourPay can provide a more complete picture of your transactions and help you manage your payments more effectively. Let's take a closer look at what StepfourPay has to offer. StepfourPay is a payment orchestration platform that helps businesses streamline their payment processes. With StepfourPay, you can connect to multiple payment gateway providers and view all of your transactions in one place. This makes it easy to see where your money is going and track your spending. StepfourPay also offers a number of features that can save you time and money. For example, you can set up automatic payments so that you don't have to manually enter your payment information each time. You can also set up recurring payments for customers who need to make regular payments. If you're looking for a payment gateway provider that offers more than just basic payment processing, StepfourPay is worth considering. With its comprehensive view of your transactions and powerful automation features, StepfourPay can help you take control of your payments and save time and money."
@@ -22787,7 +22800,21 @@
       "hero_payments",
       "bitexpro_p2p",
       "bitexpro_wallet",
-      "bank_transfer_aggregated"
+      "bank_transfer_aggregated",
+      "wise",
+      "revolut_bank",
+      "n26_bank",
+      "ing_group_bank",
+      "abn_amro_bank",
+      "rabobank",
+      "societe_generale_bank",
+      "credit_mutuel_bank",
+      "la_banque_postale",
+      "aktivbank",
+      "commerzbank",
+      "deutsche_bank",
+      "bnp_paribas_bank",
+      "mobile"
     ],
     "name": {
       "en": "BitexPRO",
@@ -22823,7 +22850,8 @@
       "uk": "b2pay.io"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "upi"
     ]
   },
   {
@@ -24449,6 +24477,9 @@
       "uk": "PayMaxis"
     },
     "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ]
   },
