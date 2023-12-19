@@ -24684,5 +24684,20 @@
       "card_transfer",
       "sbp"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paymob",
+    "vendor": "paymob",
+    "name": {
+      "en": "Paymob",
+      "ru": "Paymob",
+      "uk": "Paymob"
+    },
+    "payment_method": [
+      "vodafone_cash",
+      "etisalat_cash",
+      "cib_smart_wallet"
+    ]
   }
 ]
