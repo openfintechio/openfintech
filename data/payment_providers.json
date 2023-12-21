@@ -24378,6 +24378,22 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "networx",
+    "vendor": "networx",
+    "name": {
+      "en": "Networx",
+      "ru": "Networx",
+      "uk": "Networx"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   },
   {
