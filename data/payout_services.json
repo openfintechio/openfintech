@@ -72564,7 +72564,7 @@
       {
         "key": "account_name",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 3,
         "label": {
@@ -72581,7 +72581,7 @@
       {
         "key": "bank_branch",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 4,
         "label": {
@@ -72615,7 +72615,7 @@
       {
         "key": "bank_name",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 6,
         "label": {
@@ -72632,7 +72632,7 @@
       {
         "key": "bank_address",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 7,
         "label": {
@@ -72768,7 +72768,7 @@
       {
         "key": "beneficiary_state",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-Яа-я,\\s\\-\\d]{2,64}$\/",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 15,
         "label": {
@@ -72785,7 +72785,7 @@
       {
         "key": "beneficiary_address",
         "type": "string",
-        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 16,
         "label": {
@@ -72858,7 +72858,7 @@
           "ru": "Назначение платежа",
           "uk": "Призначення платежу"
         },
-        "regexp": "\/^[A-Za-zА-ЩЬЮЯҐЄІЇа-щьюяґєії0-9\\s\\.\\,\\-\\(\\)\\ʼ]{2,100}$\/",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
         "required": false,
         "position": 20,
         "hint": {
