@@ -24600,5 +24600,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "pavpay",
+    "vendor": "pavpay",
+    "name": {
+      "en": "PavPay",
+      "ru": "PavPay",
+      "uk": "PavPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
