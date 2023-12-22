@@ -22326,6 +22326,150 @@
   },
   {
     "status": "active",
+    "code": "monobank_uah_invoice",
+    "flow": "invoice",
+    "method": "monobank",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "otpbank_uah_invoice",
+    "flow": "invoice",
+    "method": "otpbank",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "pumb_uah_invoice",
+    "flow": "invoice",
+    "method": "pumb",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "sensebank_uah_invoice",
+    "flow": "invoice",
+    "method": "sensebank",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "privatbank_uah_invoice",
+    "flow": "invoice",
+    "method": "privatbank",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_aggregated_uah_invoice",
+    "flow": "invoice",
+    "method": "card_transfer_aggregated",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "ziraat_bank_try_invoice",
+    "flow": "invoice",
+    "method": "ziraat_bank",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "garanti_bbva_try_invoice",
+    "flow": "invoice",
+    "method": "garanti_bbva",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "turkiye_finans_bank_try_invoice",
+    "flow": "invoice",
+    "method": "turkiye_finans_bank",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "leobank_azn_invoice",
+    "flow": "invoice",
+    "method": "leobank",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "rabitabank_azn_invoice",
+    "flow": "invoice",
+    "method": "rabitabank",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "kapital_bank_azn_invoice",
+    "flow": "invoice",
+    "method": "kapital_bank",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "international_bank_of_azerbaijan_azn_invoice",
+    "flow": "invoice",
+    "method": "international_bank_of_azerbaijan",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "unibank_azn_invoice",
+    "flow": "invoice",
+    "method": "unibank",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "azer_turk_bank_azn_invoice",
+    "flow": "invoice",
+    "method": "azer_turk_bank",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "m10_azn_invoice",
+    "flow": "invoice",
+    "method": "m10",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
     "code": "sbp_rub_invoice",
     "flow": "invoice",
     "method": "sbp",
