@@ -139454,5 +139454,89 @@
     ],
     "amount_min": 0.01,
     "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "kunapay_crypto_eur",
+    "method": "kunapay_crypto",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "regexp": "/^[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Recipient Kuna ID",
+          "ru": "Kuna ID получателя",
+          "uk": "Kuna ID отримувача"
+        },
+        "hint": {
+          "en": "Enter recipient Kuna ID",
+          "ru": "Введите Kuna ID получателя",
+          "uk": "Введіть Kuna ID отримувача"
+        },
+        "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "kunapay_crypto_usd",
+    "method": "kunapay_crypto",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "regexp": "/^[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Recipient Kuna ID",
+          "ru": "Kuna ID получателя",
+          "uk": "Kuna ID отримувача"
+        },
+        "hint": {
+          "en": "Enter recipient Kuna ID",
+          "ru": "Введите Kuna ID получателя",
+          "uk": "Введіть Kuna ID отримувача"
+        },
+        "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "kunapay_crypto_uah",
+    "method": "kunapay_crypto",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "regexp": "/^[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Recipient Kuna ID",
+          "ru": "Kuna ID получателя",
+          "uk": "Kuna ID отримувача"
+        },
+        "hint": {
+          "en": "Enter recipient Kuna ID",
+          "ru": "Введите Kuna ID получателя",
+          "uk": "Введіть Kuna ID отримувача"
+        },
+        "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
   }
 ]
