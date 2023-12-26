@@ -72163,6 +72163,92 @@
           "ru": "Введите полное имя отправителя",
           "uk": "Введіть повне імʼя відправкникa"
         }
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        }
+      },
+      {
+        "key": "payment_purpose",
+        "type": "string",
+        "label": {
+          "en": "Purpose of payment",
+          "ru": "Назначение платежа",
+          "uk": "Призначення платежу"
+        },
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": false,
+        "position": 6,
+        "hint": {
+          "en": "Enter purpose of payment",
+          "ru": "Введите назначение платежа",
+          "uk": "Введіть призначення рахунку"
+        },
+        "example": "Payment of utility services"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Bank Name",
+          "ru": "Имя банка",
+          "uk": "Ім'я банку"
+        },
+        "hint": {
+          "en": "Enter bank name",
+          "ru": "Введите имя банка",
+          "uk": "Введіть ім'я банку"
+        }
+      },
+      {
+        "key": "bank_address",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Bank Address",
+          "ru": "Адрес банка",
+          "uk": "Адреса банку"
+        },
+        "hint": {
+          "en": "Enter bank address",
+          "ru": "Введите адрес банка",
+          "uk": "Введіть адресу банку"
+        }
       }
     ],
     "amount_min": "0.01",
@@ -72515,6 +72601,24 @@
         "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
         "required": false,
         "position": 20
+      },
+      {
+        "key": "payment_purpose",
+        "type": "string",
+        "label": {
+          "en": "Purpose of payment",
+          "ru": "Назначение платежа",
+          "uk": "Призначення платежу"
+        },
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": false,
+        "position": 21,
+        "hint": {
+          "en": "Enter purpose of payment",
+          "ru": "Введите назначение платежа",
+          "uk": "Введіть призначення рахунку"
+        },
+        "example": "Payment of utility services"
       }
     ],
     "amount_min": "0.01",
