@@ -7285,7 +7285,7 @@
           "uk": "Введiть Email отримувача"
         },
         "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -7341,7 +7341,7 @@
           "uk": "Введiть Email отримувача"
         },
         "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -21572,6 +21572,645 @@
     "flow": "hpp",
     "method": "deutsche_bank",
     "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_eur_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_usd_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_sek_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "SEK",
+    "amount_min": 0.01,
+    "amount_max": 1070000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_jpy_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "JPY",
+    "amount_min": 1,
+    "amount_max": 14275900
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_pln_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 480000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_chf_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "CHF",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_czk_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "CZK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_aud_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_try_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "TRY",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_dkk_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "DKK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_gbp_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpay_cad_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpay",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_aed_hpp",
+    "flow": "hpp",
+    "method": "bitexpro",
+    "currency": "AED",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_eur_hpp",
+    "flow": "hpp",
+    "method": "bitexpro",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_inr_hpp",
+    "flow": "hpp",
+    "method": "bitexpro",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_kzt_hpp",
+    "flow": "hpp",
+    "method": "bitexpro",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_rub_hpp",
+    "flow": "hpp",
+    "method": "bitexpro",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_usd_hpp",
+    "flow": "hpp",
+    "method": "bitexpro",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_aed_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "AED",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_aud_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_brl_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "BRL",
+    "amount_min": 0.01,
+    "amount_max": 520000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_cad_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_eur_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_nok_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "NOK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_nzd_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "NZD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_omr_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "OMR",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_pln_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 480000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_qar_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "QAR",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_sar_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "SAR",
+    "amount_min": 0.01,
+    "amount_max": 786000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_empayre_usd_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_empayre",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "hkma_fps_gbp_hpp",
+    "flow": "hpp",
+    "method": "hkma_fps",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_aed_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "AED",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_aud_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_brl_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "BRL",
+    "amount_min": 0.01,
+    "amount_max": 520000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_cad_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_eur_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_nok_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "NOK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_nzd_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "NZD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_omr_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "OMR",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_pln_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 480000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_qar_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "QAR",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_sar_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "SAR",
+    "amount_min": 0.01,
+    "amount_max": 786000
+  },
+  {
+    "status": "active",
+    "code": "calypso_pay_ltd_gateexpress_usd_hpp",
+    "flow": "hpp",
+    "method": "calypso_pay_ltd_gateexpress",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_usd_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_sek_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "SEK",
+    "amount_min": 0.01,
+    "amount_max": 1070000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_jpy_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "JPY",
+    "amount_min": 1,
+    "amount_max": 14275900
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_pln_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 480000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_chf_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "CHF",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_czk_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "CZK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_aud_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_try_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "TRY",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_dkk_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "DKK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_gbp_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_cad_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_aed_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "AED",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_brl_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "BRL",
+    "amount_min": 0.01,
+    "amount_max": 520000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_nok_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "NOK",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_omr_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "OMR",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_qar_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "QAR",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_sar_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "SAR",
+    "amount_min": 0.01,
+    "amount_max": 786000
+  },
+  {
+    "status": "active",
+    "code": "sibs_mbway_eur_hpp",
+    "flow": "hpp",
+    "method": "sibs_mbway",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "neteller_pln_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 480000
+  },
+  {
+    "status": "active",
+    "code": "neteller_aed_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "AED",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "neteller_aud_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "neteller_nzd_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "NZD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "raggett_limited_paycos_eur_hpp",
+    "flow": "hpp",
+    "method": "raggett_limited_paycos",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "raggett_limited_paycos_usd_hpp",
+    "flow": "hpp",
+    "method": "raggett_limited_paycos",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "skrill_aed_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "AED",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "skrill_aud_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "skrill_nzd_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "NZD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "okpay_finance_ltd_slyse_usd_hpp",
+    "flow": "hpp",
+    "method": "okpay_finance_ltd_slyse",
+    "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
   }
