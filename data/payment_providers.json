@@ -24653,5 +24653,19 @@
       "bank_transfer",
       "kunapay_crypto"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payforu",
+    "vendor": "payforu",
+    "name": {
+      "en": "PayForU",
+      "ru": "PayForU",
+      "uk": "PayForU"
+    },
+    "payment_method": [
+      "card_transfer",
+      "sbp"
+    ]
   }
 ]
