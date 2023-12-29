@@ -22213,5 +22213,59 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "akbank_try_invoice",
+    "flow": "invoice",
+    "method": "akbank",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "citibank_turkey_try_invoice",
+    "flow": "invoice",
+    "method": "citibank_turkey",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "qnb_finansbank_try_invoice",
+    "flow": "invoice",
+    "method": "qnb_finansbank",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "papara_try_invoice",
+    "flow": "invoice",
+    "method": "papara",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "payfix_try_invoice",
+    "flow": "invoice",
+    "method": "payfix",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "parazula_try_invoice",
+    "flow": "invoice",
+    "method": "parazula",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
   }
 ]
