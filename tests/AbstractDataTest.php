@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Tests;
 
 use Oft\Generator\DataProvider;
+use Oft\Generator\Dto\BaseDto;
 use Oft\Generator\Enums\ResourceType;
 use PHPUnit\Framework\TestCase;
 
@@ -12,6 +13,9 @@ abstract class AbstractDataTest extends TestCase
 {
     protected const ERROR_MISSING_LINE_TEMPLATE = "\t\"%s\" | %s:";
     protected const NOT_EXISTENT_ERROR_HEADER_TEMPLATE = "Non existent %s:";
+    protected const ALLOWED_IMAGE_FORMAT = ['svg', 'png'];
+    protected const MARKDOWN_FORMAT = 'md';
+    protected const RESOURCES_PATH = __DIR__ . '/../resources';
 
     protected DataProvider $dataProvider;
 
@@ -115,6 +119,21 @@ abstract class AbstractDataTest extends TestCase
         self::assertTrue(true);
     }
 
+    protected function assertImageHasCorrectFormat(
+        string $errorHeader
+    ): void {
+        $errors = $this->checkImageFormat();
+
+        if (0 !== \count($errors)) {
+            $message =  $errorHeader . PHP_EOL;
+            $message .= "\t- " . \implode(PHP_EOL . "\t- ", $errors);
+
+            $this->fail($message);
+        }
+
+        self::assertTrue(true);
+    }
+
     protected function buildNotExistsMessage(array $missing, string $header, string $eachElementComment): string
     {
         $message = $header . PHP_EOL;
@@ -165,5 +184,65 @@ abstract class AbstractDataTest extends TestCase
             default:
                 throw new \RuntimeException('Invalid resource DTO class.');
         }
+    }
+
+    private function checkImageFormat(): array
+    {
+        $dirContents = $this->getDirContent(self::RESOURCES_PATH);
+        $errors = [];
+
+        foreach ($dirContents as $content) {
+            $resourceContent = \sprintf("%s/%s", self::RESOURCES_PATH, $content);
+
+            if (!\is_dir($resourceContent)) {
+                $error = $this->checkFileFormat(self::RESOURCES_PATH, $content);
+                null === $error ?: $errors[] = $error;
+
+                continue;
+            }
+
+            $dirContent = $this->getDirContent($resourceContent);
+
+            foreach ($dirContent as $dir){
+                $filePath = \sprintf("%s/%s", $resourceContent, $dir);
+                if (!\is_dir($filePath)) {
+                    $error = $this->checkFileFormat(self::RESOURCES_PATH, $dir);
+                    null === $error ?: $errors[] = $error;
+
+                    continue;
+                }
+
+                $files = $this->getDirContent($filePath);
+
+                foreach ($files as $file) {
+                    $error = $this->checkFileFormat($filePath, $file);
+                    null === $error ?: $errors[] = $error;
+                }
+            }
+        }
+
+        return $errors;
+    }
+
+    private function getDirContent(string $path): array
+    {
+        return \array_filter(\scandir($path), static function ($file) {
+            return !\in_array($file, ['.', '..']);
+        });
+    }
+
+    private function checkFileFormat(string $fileDirectory, string $file): ?string
+    {
+        $filePath = \sprintf("%s/%s", $fileDirectory, $file);
+        $format = \strtolower(\pathinfo($filePath, PATHINFO_EXTENSION));
+
+        if (
+            self::MARKDOWN_FORMAT !== $format
+            && !\in_array($format, self::ALLOWED_IMAGE_FORMAT, true)
+        ) {
+            return $filePath;
+        }
+
+        return null;
     }
 }
