@@ -21586,6 +21586,15 @@
   },
   {
     "status": "active",
+    "code": "newera_payment_technologies_ltd_bazpayuah_uah_hpp",
+    "flow": "hpp",
+    "method": "newera_payment_technologies_ltd_bazpayuah",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
     "code": "newera_payment_technologies_ltd_bazpay_usd_hpp",
     "flow": "hpp",
     "method": "newera_payment_technologies_ltd_bazpay",
