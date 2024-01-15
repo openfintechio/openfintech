@@ -15763,6 +15763,24 @@
         "regexp": "\/^.{2,}@\\w+$\/",
         "required": false,
         "position": 1
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "8867135698@upi"
       }
     ],
     "amount_min": 0.01,
