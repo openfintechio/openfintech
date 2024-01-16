@@ -9068,6 +9068,136 @@
     }
   },
   {
+    "code": "pumb",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "PUMB",
+      "ru": "PUMB",
+      "uk": "PUMB"
+    }
+  },
+  {
+    "code": "sensebank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Sense Bank",
+      "ru": "Sense Bank",
+      "uk": "Sense Bank"
+    }
+  },
+  {
+    "code": "card_transfer_aggregated",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Сard Transfer Aggregated",
+      "ru": "Сard Transfer Aggregated",
+      "uk": "Сard Transfer Aggregated"
+    }
+  },
+  {
+    "code": "ziraat_bank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Ziraat Bankası",
+      "ru": "Ziraat Bankası",
+      "uk": "Ziraat Bankası"
+    }
+  },
+  {
+    "code": "garanti_bbva",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Garanti BBVA",
+      "ru": "Garanti BBVA",
+      "uk": "Garanti BBVA"
+    }
+  },
+  {
+    "code": "turkiye_finans_bank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Turkiye Finans",
+      "ru": "Turkiye Finans",
+      "uk": "Turkiye Finans"
+    }
+  },
+  {
+    "code": "leobank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Leobank",
+      "ru": "Leobank",
+      "uk": "Leobank"
+    }
+  },
+  {
+    "code": "rabitabank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Rabitabank",
+      "ru": "Rabitabank",
+      "uk": "Rabitabank"
+    }
+  },
+  {
+    "code": "kapital_bank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Kapital Bank",
+      "ru": "Kapital Bank",
+      "uk": "Kapital Bank"
+    }
+  },
+  {
+    "code": "international_bank_of_azerbaijan",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Bank ABB",
+      "ru": "Bank ABB",
+      "uk": "Bank ABB"
+    }
+  },
+  {
+    "code": "unibank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "Unibank",
+      "ru": "Unibank",
+      "uk": "Unibank"
+    }
+  },
+  {
+    "code": "azer_turk_bank",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "AzərTurkBank",
+      "ru": "AzərTurkBank",
+      "uk": "AzərTurkBank"
+    }
+  },
+  {
+    "code": "m10",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "m10",
+      "ru": "m10",
+      "uk": "m10"
+    }
+  },
+  {
     "code": "aktivbank",
     "category": "bank_transfer",
     "status": "active",
