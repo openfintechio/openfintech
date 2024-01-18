@@ -24721,5 +24721,18 @@
       "etisalat_cash",
       "cib_smart_wallet"
     ]
+  },
+  {
+    "status": "active",
+    "code": "globalotc",
+    "vendor": "globalotc",
+    "name": {
+      "en": "GlobalOTC",
+      "ru": "GlobalOTC",
+      "uk": "GlobalOTC"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
