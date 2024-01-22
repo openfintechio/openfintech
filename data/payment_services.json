@@ -2547,6 +2547,384 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_ghs_hpp",
+    "currency": "GHS",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.2,
+    "amount_max": 1200000,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
+        }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
+        "required": false,
+        "position":9
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_kes_hpp",
+    "currency": "KES",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1.6,
+    "amount_max": 16000000,
+    "fields": [
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "payer_address",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer address",
+          "ru": "Адрес отправителя",
+          "uk": "Адреса відправника"
+        },
+        "hint": {
+          "en": "Enter payer address",
+          "ru": "Введите адрес отправителя",
+          "uk": "Введіть адресу відправника"
+        }
+      },
+      {
+        "key": "payer_country",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer country",
+          "ru": "Страна отправителя",
+          "uk": "Країна відправника"
+        },
+        "hint": {
+          "en": "Enter payer country",
+          "ru": "Введите страну отправителя",
+          "uk": "Введіть країну відправника"
+        },
+        "example": "US"
+      },
+      {
+        "key": "payer_city",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer city",
+          "ru": "Город отправителя",
+          "uk": "Місто відправника"
+        },
+        "hint": {
+          "en": "Enter payer city",
+          "ru": "Введите город отправителя",
+          "uk": "Введіть місто відправника"
+        },
+        "example": "Los Angeles"
+      },
+      {
+        "key": "payer_state",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer state",
+          "ru": "Штат отправителя",
+          "uk": "Штат відправника"
+        },
+        "hint": {
+          "en": "Enter payer state",
+          "ru": "Введите штат отправителя",
+          "uk": "Введіть штат відправника"
+        },
+        "example": "CA"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс отправителя",
+          "uk": "Поштовий індекс відправника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс отправителя",
+          "uk": "Введіть поштовий індекс відправника"
+        },
+        "example": "84280"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
+        "required": false,
+        "position":9
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_zar_hpp",
     "currency": "ZAR",
     "flow": "hpp",
@@ -18471,6 +18849,15 @@
   },
   {
     "status": "active",
+    "code": "mobile_ghs_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "GHS",
+    "amount_min": 0.2,
+    "amount_max": 1200000
+  },
+  {
+    "status": "active",
     "code": "mobile_ugx_hpp",
     "flow": "hpp",
     "method": "mobile",
@@ -18595,6 +18982,134 @@
     ],
     "amount_min": 1,
     "amount_max": 68800000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_ghs_invoice",
+    "currency": "GHS",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "fields": [
+      {
+        "key": "payer_email",
+        "type": "string",
+        "label": {
+          "en": "Payer email",
+          "ru": "Email плательщика",
+          "uk": "Email платника"
+        },
+        "hint": {
+          "en": "Enter payer email",
+          "ru": "Введите email плательщика",
+          "uk": "Введіть email платника"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
+        "required": true,
+        "position":1
+      },
+      {
+        "key": "payer_phone_number",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 2,
+        "example": "+234742044295",
+        "label": {
+          "en": "Payer phone number",
+          "ru": "Номер телефона плательщика",
+          "uk": "Номер телефону платника"
+        },
+        "hint": {
+          "en": "Enter payer phone number",
+          "ru": "Введите номер телефона плательщика",
+          "uk": "Введіть номер телефону платника"
+        }
+      },
+      {
+        "key": "payer_full_name",
+        "type": "string",
+        "label": {
+          "en": "Payer full name",
+          "ru": "Полное имя плательщика",
+          "uk": "Повне імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": true,
+        "example": "VAN TUONG LAN",
+        "position": 3
+      }
+    ],
+    "amount_min": 0.2,
+    "amount_max": 1200000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_kes_invoice",
+    "currency": "KES",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "fields": [
+      {
+        "key": "payer_email",
+        "type": "string",
+        "label": {
+          "en": "Payer email",
+          "ru": "Email плательщика",
+          "uk": "Email платника"
+        },
+        "hint": {
+          "en": "Enter payer email",
+          "ru": "Введите email плательщика",
+          "uk": "Введіть email платника"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
+        "required": true,
+        "position":1
+      },
+      {
+        "key": "payer_phone_number",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 2,
+        "example": "+234742044295",
+        "label": {
+          "en": "Payer phone number",
+          "ru": "Номер телефона плательщика",
+          "uk": "Номер телефону платника"
+        },
+        "hint": {
+          "en": "Enter payer phone number",
+          "ru": "Введите номер телефона плательщика",
+          "uk": "Введіть номер телефону платника"
+        }
+      },
+      {
+        "key": "payer_full_name",
+        "type": "string",
+        "label": {
+          "en": "Payer full name",
+          "ru": "Полное имя плательщика",
+          "uk": "Повне імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": true,
+        "example": "VAN TUONG LAN",
+        "position": 3
+      }
+    ],
+    "amount_min": 1.6,
+    "amount_max": 16000000
   },
   {
     "status": "active",
