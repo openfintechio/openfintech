@@ -24734,5 +24734,20 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "kora",
+    "vendor": "kora",
+    "name": {
+      "en": "Kora",
+      "ru": "Kora",
+      "uk": "Kora"
+    },
+    "payment_method": [
+      "payment_card",
+      "bank_transfer",
+      "mobile"
+    ]
   }
 ]
