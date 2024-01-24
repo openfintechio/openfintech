@@ -81838,7 +81838,7 @@
           "uk": "Введіть номер телефону"
         },
         "example": "+255742044295",
-        "regexp": "\/^\\+\\d{10,14}$\/",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
         "required": false,
         "position": 1
       },
@@ -134477,7 +134477,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^.{1,50}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -134515,6 +134515,24 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0769477808",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": false,
+        "position": 4
       }
     ],
     "amount_min": 0.01,
@@ -134540,7 +134558,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^.{1,50}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -134578,6 +134596,24 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0769477808",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": false,
+        "position": 4
       }
     ],
     "amount_min": 0.01,
@@ -134603,7 +134639,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^.{1,50}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -134641,6 +134677,24 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0769477808",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": false,
+        "position": 4
       }
     ],
     "amount_min": 0.01,
@@ -134981,7 +135035,7 @@
           "uk": "Введіть номер рахунку"
         },
         "regexp": "\/^.{1,50}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -135019,6 +135073,24 @@
         "required": false,
         "position": 3,
         "example": "Doe"
+      },
+            {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0769477808",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": false,
+        "position": 4
       }
     ],
     "amount_min": 0.01,
@@ -139642,5 +139714,89 @@
     ],
     "amount_min": 0.01,
     "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "t_kash_kes",
+    "method": "t_kash",
+    "currency": "KES",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0769477808",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 15000000
+  },
+  {
+    "status": "active",
+    "code": "telkom_kenya_kes",
+    "method": "telkom",
+    "currency": "KES",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0769477808",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 15000000
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_ghs",
+    "method": "airtel_money",
+    "currency": "GHS",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0769477808",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 15000000
   }
 ]
