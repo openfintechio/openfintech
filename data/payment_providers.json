@@ -15674,7 +15674,11 @@
     },
     "name": {
       "en": "Razorpay"
-    }
+    },
+    "payment_method": [
+      "upi",
+      "bank_transfer_aggregated"
+    ]
   },
   {
     "status": "active",
