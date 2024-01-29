@@ -9366,5 +9366,35 @@
       "ru": "CIB Smart Wallet",
       "uk": "CIB Smart Wallet"
     }
+  },
+  {
+    "code": "loteria",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Lotericas Voucher based payment method",
+      "ru": "Lotericas Voucher based payment method",
+      "uk": "Lotericas Voucher based payment method"
+    }
+  },
+  {
+    "code": "banco_bradesco",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Banco Bradesco S.A.",
+      "ru": "Banco Bradesco S.A.",
+      "uk": "Banco Bradesco S.A."
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_caixa",
+    "category": "online_banking",
+    "name": {
+      "en": "Caixa Econômica Federal",
+      "ru": "Caixa Econômica Federal",
+      "uk": "Caixa Econômica Federal"
+    }
   }
 ]
