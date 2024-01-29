@@ -24752,6 +24752,16 @@
       "payment_card",
       "bank_transfer",
       "mobile"
+    ],
+    "payout_method": [
+      "bank_transfer",
+      "airtel_money",
+      "equitel",
+      "safaricom",
+      "mtn",
+      "vodafone_ghana",
+      "t_kash",
+      "telkom_kenya"
     ]
   }
 ]
