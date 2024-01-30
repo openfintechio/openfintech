@@ -24773,6 +24773,19 @@
   },
   {
     "status": "active",
+    "code": "rivierapay",
+    "vendor": "rivierapay",
+    "name": {
+      "en": "RivieraPay",
+      "ru": "RivieraPay",
+      "uk": "RivieraPay"
+    },
+    "payment_method": [
+      "mobile"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paywisesolutions",
     "vendor": "paywisesolutions",
     "name": {
