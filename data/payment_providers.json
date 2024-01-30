@@ -24763,5 +24763,18 @@
       "t_kash",
       "telkom_kenya"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paywisesolutions",
+    "vendor": "paywisesolutions",
+    "name": {
+      "en": "PaywiseSolutions",
+      "ru": "PaywiseSolutions",
+      "uk": "PaywiseSolutions"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
