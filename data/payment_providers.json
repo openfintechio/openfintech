@@ -24665,6 +24665,19 @@
   },
   {
     "status": "active",
+    "code": "altitudepay",
+    "vendor": "altitudepay",
+    "name": {
+      "en": "AltitudePay",
+      "ru": "AltitudePay",
+      "uk": "AltitudePay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paycc",
     "vendor": "paycc",
     "name": {
