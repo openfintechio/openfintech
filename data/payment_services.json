@@ -3658,7 +3658,7 @@
         "key": "cpf_number",
         "type": "string",
         "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "CPF number",
@@ -3671,6 +3671,114 @@
           "uk": "Введіть CPF номер"
         },
         "example": "12345678900"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "СPF: 123.456.789-00, CNPJ: 12.345.678/0001-90"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "payer_email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer email address",
+          "ru": "Электронная почта плательщика",
+          "uk": "Електронна пошта платника"
+        },
+        "hint": {
+          "en": "Enter payer email address",
+          "ru": "Введите электронная почту плательщика",
+          "uk": "Введіть електронну пошта платнику"
+        },
+        "example": "johndoe1971@example.com"
+      },
+      {
+        "key": "payer_phone_number",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,18}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer phone number",
+          "ru": "Номер телефона плательщика",
+          "uk": "Номер телефону платника "
+        },
+        "hint": {
+          "en": "Enter payer phone number",
+          "ru": "Введите номер телефона плательщика",
+          "uk": "Введіть номер телефону платника"
+        },
+        "example": "+5511912345678"
       }
     ],
     "amount_min": 0.01,
@@ -13067,6 +13175,251 @@
           "uk": "Введіть CPF або CNPJ номер"
         },
         "example": "12345678900"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "СPF: 123.456.789-00, CNPJ: 12.345.678/0001-90"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "payer_email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer email address",
+          "ru": "Электронная почта плательщика",
+          "uk": "Електронна пошта платника"
+        },
+        "hint": {
+          "en": "Enter payer email address",
+          "ru": "Введите электронная почту плательщика",
+          "uk": "Введіть електронну пошта платнику"
+        },
+        "example": "johndoe1971@example.com"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^\\d{8}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс плательщика",
+          "uk": "Поштовий індекс платника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс плательщика",
+          "uk": "Введіть поштовий індекс платника"
+        },
+        "example": "12345-678"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "loteria_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "loteria",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "СPF: 123.456.789-00, CNPJ: 12.345.678/0001-90"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "payer_email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer email address",
+          "ru": "Электронная почта плательщика",
+          "uk": "Електронна пошта платника"
+        },
+        "hint": {
+          "en": "Enter payer email address",
+          "ru": "Введите электронная почту плательщика",
+          "uk": "Введіть електронну пошта платнику"
+        },
+        "example": "johndoe1971@example.com"
+      },
+      {
+        "key": "payer_phone_number",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,18}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer phone number",
+          "ru": "Номер телефона плательщика",
+          "uk": "Номер телефону платника "
+        },
+        "hint": {
+          "en": "Enter payer phone number",
+          "ru": "Введите номер телефона плательщика",
+          "uk": "Введіть номер телефону платника"
+        },
+        "example": "+5511912345678"
+      },
+      {
+        "key": "payer_zip_code",
+        "type": "string",
+        "regexp": "\/^\\d{8}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer zip code",
+          "ru": "Почтовый индекс плательщика",
+          "uk": "Поштовий індекс платника"
+        },
+        "hint": {
+          "en": "Enter payer zip code",
+          "ru": "Введите почтовый индекс плательщика",
+          "uk": "Введіть поштовий індекс платника"
+        },
+        "example": "12345-678"
       }
     ]
   },
@@ -13854,7 +14207,7 @@
         "key": "cpf_number",
         "type": "string",
         "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "CPF number",
@@ -13904,11 +14257,83 @@
         }
       },
       {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа плательщика",
+          "uk": "Тип документа отримувача платника"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа плательщика",
+          "uk": "Введіть тип документа платника"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "СPF: 123.456.789-00, CNPJ: 12.345.678/0001-90"
+      },
+      {
+        "key": "payer_phone_number",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,18}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer phone number",
+          "ru": "Номер телефона плательщика",
+          "uk": "Номер телефону платника "
+        },
+        "hint": {
+          "en": "Enter payer phone number",
+          "ru": "Введите номер телефона плательщика",
+          "uk": "Введіть номер телефону платника"
+        },
+        "example": "+5511912345678"
+      },
+      {
+        "key": "payer_email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer email address",
+          "ru": "Электронная почта плательщика",
+          "uk": "Електронна пошта платника"
+        },
+        "hint": {
+          "en": "Enter payer email address",
+          "ru": "Введите электронная почту плательщика",
+          "uk": "Введіть електронну пошта платнику"
+        },
+        "example": "johndoe1971@example.com"
+      },
+      {
         "key": "payer_first_name",
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
-        "position": 4,
+        "position": 8,
         "label": {
           "en": "Payer first name",
           "ru": "Имя отправителя",
@@ -13926,7 +14351,7 @@
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
-        "position": 5,
+        "position": 9,
         "label": {
           "en": "Payer last name",
           "ru": "Фамилия отправителя",
