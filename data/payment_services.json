@@ -13053,20 +13053,284 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
         "required": false,
         "position": 1,
         "label": {
-          "en": "CPF number",
-          "ru": "CPF номер",
-          "uk": "CPF номер"
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
         },
         "hint": {
-          "en": "Enter CPF number",
-          "ru": "Введите CPF номер",
-          "uk": "Введіть CPF номер"
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
         },
         "example": "12345678900"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bancobrasil_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "bancobrasil",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "12.345.678/0001-90"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_bradesco_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "banco_bradesco",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "12.345.678/0001-90"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_caixa_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "banco_caixa",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "12.345.678/0001-90"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bancoitau_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "bancoitau",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "12.345.678/0001-90"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_santander_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "banco_santander",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "12.345.678/0001-90"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "loterica_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "loteria",
+    "amount_min": 1,
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "12.345.678/0001-90"
       }
     ]
   },
@@ -13122,14 +13386,14 @@
         "required": false,
         "position": 1,
         "label": {
-          "en": "CPF number",
-          "ru": "CPF номер",
-          "uk": "CPF номер"
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
         },
         "hint": {
-          "en": "Enter CPF number",
-          "ru": "Введите CPF номер",
-          "uk": "Введіть CPF номер"
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
         },
         "example": "12345678900"
       },
@@ -13239,6 +13503,24 @@
           "uk": "Введіть дату народження платника"
         },
         "example": "1986‐05‐22"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
       }
     ]
   },
