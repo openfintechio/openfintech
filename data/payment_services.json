@@ -23340,5 +23340,41 @@
         "example": "1100382992"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "mifinity_usd_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mifinity_eur_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mifinity_gbp_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mifinity_chf_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "CHF",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]
