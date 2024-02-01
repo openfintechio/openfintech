@@ -138712,29 +138712,47 @@
         "example": "コムロ"
       },
       {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне ім'я отримувача"
+        },
+        "example": "猪爪一磨"
+      },
+      {
         "key": "beneficiary_first_name_latin",
         "type": "string",
         "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}-]{2,100}$\/u",
         "required": false,
-        "position": 4,
+        "position": 5,
         "label": {
-          "en": "Beneficiary first name",
-          "ru": "Имя получателя",
-          "uk": "Ім'я отримувача"
+          "en": "Beneficiary first name latin",
+          "ru": "Имя получателя латиницей",
+          "uk": "Ім'я отримувача латиницею"
         },
         "hint": {
-          "en": "Enter beneficiary first name",
-          "ru": "Введите имя получателя",
-          "uk": "Введіть ім'я отримувача"
+          "en": "Enter beneficiary first name latin",
+          "ru": "Введите имя получателя латиницей",
+          "uk": "Введіть ім'я отримувача латиницею"
         },
-        "example": "John"
+        "example": "Inotsume"
       },
       {
         "key": "beneficiary_last_name_latin",
         "type": "string",
         "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}-]{2,100}$\/u",
         "required": false,
-        "position": 5,
+        "position": 6,
         "label": {
           "en": "Beneficiary last name latin",
           "ru": "Фамилия получателя латиницей",
