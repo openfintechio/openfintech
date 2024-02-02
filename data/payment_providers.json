@@ -21611,10 +21611,15 @@
     },
     "payment_method": [
       "pix",
-      "pix_qr"
+      "pix_qr",
+      "picpay",
+      "boleto_bancario",
+      "bank_transfer",
+      "loteria"
     ],
     "payout_method": [
-      "pix"
+      "pix",
+      "bank_transfer"
     ]
   },
   {

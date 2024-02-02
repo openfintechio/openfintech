@@ -92728,11 +92728,115 @@
         "required": false
       },
       {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Beneficiary personal identification type",
+          "ru": "Тип документа получателя",
+          "uk": "Тип документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary personal identification type",
+          "ru": "Введите тип документа получателя",
+          "uk": "Введіть тип документа отримувача"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
+        "key": "cpf_cnpj_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Beneficiary CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер получателя",
+          "uk": "CPF або CNPJ номер отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер получателя",
+          "uk": "Введіть CPF або CNPJ номер отримувача"
+        },
+        "example": "СPF: 123.456.789-00, CNPJ:12.345.678/0001-90"
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Beneficiary bank account number",
+          "ru": "Номер банковсого счёта получателя",
+          "uk": "Номер банківського рахунку отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary bank account number",
+          "ru": "Введите номер счёта",
+          "uk": "Введіть номер рахунку"
+        }
+      },
+      {
+        "key": "bank_account_digit",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Beneficiary bank account number digit",
+          "ru": "Цифровой номер банковского счета получателя",
+          "uk": "Цифровий номер банківського рахунку одержувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary bank code",
+          "ru": "Введите код банка получателя",
+          "uk": "Введіть цифру номера банківського рахунку одержувача"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Beneficiary bank code",
+          "ru": "Код банка получателя",
+          "uk": "Код банку отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary bank code",
+          "ru": "Введите код банка получателя",
+          "uk": "Введіть код банку отримувача"
+        }
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Beneficiary bank branch",
+          "ru": "Код отделения банка-получателя",
+          "uk": "Код відділення банку-отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary bank branch",
+          "ru": "Введите Отделение код банка-получателя",
+          "uk": "Введіть код відділення банку-отримувача"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
         "key": "beneficiary_document_id",
         "type": "string",
         "regexp": "\/^[A-Za-z0-9]{3,20}$\/",
         "required": false,
-        "position": 3,
+        "position": 9,
         "label": {
           "en": "Beneficiary Document ID",
           "ru": "Номер документа получателя",
@@ -92745,28 +92849,11 @@
         }
       },
       {
-        "key": "bank_code",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
-        "label": {
-          "en": "Bank Code",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "hint": {
-          "en": "Enter bank code",
-          "ru": "Введите код банка",
-          "uk": "Введіть код банку"
-        },
-        "required": false,
-        "position": 4
-      },
-      {
         "key": "bank_agency_code",
         "type": "string",
         "regexp": "\/^[A-z0-9]{2,5}$\/",
         "required": false,
-        "position": 5,
+        "position": 10,
         "label": {
           "en": "Agency Code of the Bank",
           "ru": "Агентский код банка",
@@ -92776,23 +92863,6 @@
           "en": "Enter Agency Code of the Bank",
           "ru": "Введите aгентский код банка",
           "uk": "Введіть aгентський код банку"
-        }
-      },
-      {
-        "key": "account_number",
-        "type": "string",
-        "regexp": "\/^[0-9]{5,100}$\/",
-        "required": false,
-        "position": 6,
-        "label": {
-          "en": "Bank Account Number",
-          "ru": "Номер счёта",
-          "uk": "Номер рахунку"
-        },
-        "hint": {
-          "en": "Enter Bank Account Number",
-          "ru": "Введите номер счёта",
-          "uk": "Введіть номер рахунку"
         }
       }
     ],
