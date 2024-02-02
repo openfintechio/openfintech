@@ -24827,5 +24827,21 @@
     "payment_method": [
       "mifinity"
     ]
+  },
+  {
+    "status": "active",
+    "code": "capitalpay",
+    "vendor": "capitalpay",
+    "name": {
+      "en": "CapitalPay",
+      "ru": "CapitalPay",
+      "uk": "CapitalPay"
+    },
+    "payment_method": [
+      "pix_qr"
+    ],
+    "payout_method": [
+      "pix"
+    ]
   }
 ]
