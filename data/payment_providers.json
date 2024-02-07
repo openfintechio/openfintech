@@ -24844,5 +24844,19 @@
     "payout_method": [
       "pix"
     ]
+  },
+  {
+    "status": "active",
+    "code": "wellxpay",
+    "vendor": "wellxpay",
+    "name": {
+      "en": "WellxPay",
+      "ru": "WellxPay",
+      "uk": "WellxPay"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
   }
 ]
