@@ -24636,7 +24636,8 @@
       "uk": "Buckzy"
     },
     "payment_method": [
-      "upi_qr"
+      "upi_qr",
+      "upi"
     ],
     "payout_method": [
       "upi"
@@ -24845,6 +24846,20 @@
     ],
     "payout_method": [
       "pix"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "wellxpay",
+    "vendor": "wellxpay",
+    "name": {
+      "en": "WellxPay",
+      "ru": "WellxPay",
+      "uk": "WellxPay"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
     ]
   }
 ]
