@@ -3541,8 +3541,16 @@
       "about_payments_code": "astropay"
     },
     "name": {
-      "en": "AstroPay"
-    }
+      "en": "AstroPay",
+      "ru": "AstroPay",
+      "uk": "AstroPay"
+    },
+    "payout_method": [
+      "pix"
+    ],
+    "payment_method": [
+      "pix_qr"
+    ]
   },
   {
     "status": "active",
@@ -24859,7 +24867,7 @@
     ]
   },
   {
-    "status": "active",
+    "status": "deprecated",
     "code": "wellxpay",
     "vendor": "wellxpay",
     "name": {

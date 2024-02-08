@@ -47852,6 +47852,87 @@
   },
   {
     "status": "active",
+    "code": "skrill_chf",
+    "method": "skrill",
+    "currency": "CHF",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "skrill_gbp",
+    "method": "skrill",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "skrill_pln",
+    "method": "skrill",
+    "currency": "PLN",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient email",
+          "ru": "Введите email получателя",
+          "uk": "Введіть email одержувача "
+        },
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000"
+  },
+  {
+    "status": "active",
     "code": "swift_usd",
     "method": "swift",
     "currency": "USD",
