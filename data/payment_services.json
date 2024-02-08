@@ -23810,5 +23810,113 @@
     "currency": "BRL",
     "amount_min": 0.01,
     "amount_max": 520000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_usd_hpp",
+    "flow": "hpp",
+    "method": "oriental_wallet",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_eur_hpp",
+    "flow": "hpp",
+    "method": "oriental_wallet",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 91000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_jpy_hpp",
+    "flow": "hpp",
+    "method": "oriental_wallet",
+    "currency": "JPY",
+    "amount_min": 1,
+    "amount_max": 14300000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_php_hpp",
+    "flow": "hpp",
+    "method": "oriental_wallet",
+    "currency": "PHP",
+    "amount_min": 0.01,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_thb_hpp",
+    "flow": "hpp",
+    "method": "oriental_wallet",
+    "currency": "THB",
+    "amount_min": 0.01,
+    "amount_max": 3600000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_vnd_hpp",
+    "flow": "hpp",
+    "method": "oriental_wallet",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 2510000000
+  },
+  {
+    "status": "active",
+    "code": "union_bank_php_hpp",
+    "flow": "hpp",
+    "method": "union_bank",
+    "currency": "PHP",
+    "amount_min": 0.01,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "palawan_pawnshop_php_hpp",
+    "flow": "hpp",
+    "method": "palawan_pawnshop",
+    "currency": "PHP",
+    "amount_min": 0.01,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "cebuana_pawnshop_php_hpp",
+    "flow": "hpp",
+    "method": "cebuana_pawnshop",
+    "currency": "PHP",
+    "amount_min": 0.01,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "paygate_php_hpp",
+    "flow": "hpp",
+    "method": "paygate",
+    "currency": "PHP",
+    "amount_min": 0.01,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "instapay_php_hpp",
+    "flow": "hpp",
+    "method": "instapay",
+    "currency": "PHP",
+    "amount_min": 0.01,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "qr_ph_php_hpp",
+    "flow": "hpp",
+    "method": "qr_ph",
+    "currency": "PHP",
+    "amount_min": 0.01,
+    "amount_max": 5600000
   }
 ]
