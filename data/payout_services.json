@@ -80314,6 +80314,40 @@
           "uk": "Введіть Bank Branch Code"
         },
         "example": "626"
+      },
+      {
+        "key": "bank_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{2,100}$\/",
+        "required": false,
+        "position": 20,
+        "label": {
+          "en": "Bank City",
+          "ru": "Bank City",
+          "uk": "Bank City"
+        },
+        "hint": {
+          "en": "Enter bank city",
+          "ru": "Enter bank city",
+          "uk": "Enter bank city"
+        }
+      },
+      {
+        "key": "bank_province",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{2,100}$\/",
+        "required": false,
+        "position": 21,
+        "label": {
+          "en": "Bank Province",
+          "ru": "Bank Province",
+          "uk": "Bank Province"
+        },
+        "hint": {
+          "en": "Enter bank province",
+          "ru": "Enter bank province",
+          "uk": "Enter bank province"
+        }
       }
     ],
     "amount_min": "0.01",
@@ -80649,6 +80683,40 @@
           "uk": "Введіть Bank Branch Code"
         },
         "example": "626"
+      },
+      {
+        "key": "bank_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{2,100}$\/",
+        "required": false,
+        "position": 20,
+        "label": {
+          "en": "Bank City",
+          "ru": "Bank City",
+          "uk": "Bank City"
+        },
+        "hint": {
+          "en": "Enter bank city",
+          "ru": "Enter bank city",
+          "uk": "Enter bank city"
+        }
+      },
+      {
+        "key": "bank_province",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{2,100}$\/",
+        "required": false,
+        "position": 21,
+        "label": {
+          "en": "Bank Province",
+          "ru": "Bank Province",
+          "uk": "Bank Province"
+        },
+        "hint": {
+          "en": "Enter bank province",
+          "ru": "Enter bank province",
+          "uk": "Enter bank province"
+        }
       }
     ],
     "amount_min": "1",
@@ -81826,6 +81894,40 @@
           "en": "Enter beneficiary state",
           "ru": "Введите beneficiary state",
           "uk": "Введіть beneficiary state"
+        }
+      },
+      {
+        "key": "bank_city",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{2,100}$\/",
+        "required": false,
+        "position": 18,
+        "label": {
+          "en": "Bank City",
+          "ru": "Bank City",
+          "uk": "Bank City"
+        },
+        "hint": {
+          "en": "Enter bank city",
+          "ru": "Enter bank city",
+          "uk": "Enter bank city"
+        }
+      },
+         {
+        "key": "bank_province",
+        "type": "string",
+        "regexp": "\/^[A-Za-z]{2,100}$\/",
+        "required": false,
+        "position": 19,
+        "label": {
+          "en": "Bank Province",
+          "ru": "Bank Province",
+          "uk": "Bank Province"
+        },
+        "hint": {
+          "en": "Enter bank province",
+          "ru": "Enter bank province",
+          "uk": "Enter bank province"
         }
       }
     ],
@@ -104670,6 +104772,40 @@
         "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
         "required": false,
         "position": 5
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account Number",
+          "ru": "Account Number",
+          "uk": "Account Number"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите Account Number",
+          "uk": "Введіть Account Number"
+        },
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "required": false,
+        "position": 6
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "label": {
+          "en": "Bank code",
+          "ru": "Bank Account Number",
+          "uk": "Bank Account Number"
+        },
+        "hint": {
+          "en": "Enter Bank Account Number",
+          "ru": "Введите Bank Account Number",
+          "uk": "Введіть Bank Account Number"
+        },
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "required": false,
+        "position": 7
       }
     ],
     "amount_min": 0.01,
@@ -139967,5 +140103,255 @@
     ],
     "amount_min": 0.01,
     "amount_max": 15000000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_usd",
+    "method": "oriental_wallet",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_eur",
+    "method": "oriental_wallet",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 91000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_jpy",
+    "method": "oriental_wallet",
+    "currency": "JPY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 14300000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_php",
+    "method": "oriental_wallet",
+    "currency": "PHP",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_thb",
+    "method": "oriental_wallet",
+    "currency": "THB",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3600000
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet_vnd",
+    "method": "oriental_wallet",
+    "currency": "VND",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 2510000000
+  },
+  {
+    "status": "active",
+    "code": "instapay_php",
+    "method": "instapay",
+    "currency": "PHP",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "required": false,
+        "position": 2
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "pesonet_php",
+    "method": "pesonet",
+    "currency": "PHP",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[0-9]{2,100}$\/",
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "required": false,
+        "position": 2
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 5600000
   }
 ]

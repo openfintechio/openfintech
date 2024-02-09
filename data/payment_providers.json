@@ -23602,7 +23602,11 @@
       "bank_transfer"
     ],
     "payout_method": [
-      "bank_transfer"
+      "bank_transfer",
+      "oriental_wallet",
+      "union_bank",
+      "instapay",
+      "pesonet"
     ],
     "name": {
       "en": "PayStage",
