@@ -138965,7 +138965,7 @@
       {
         "key": "beneficiary_first_name",
         "type": "string",
-        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{1,100}$\/u",
         "required": false,
         "position": 2,
         "label": {
@@ -138983,7 +138983,7 @@
       {
         "key": "beneficiary_last_name",
         "type": "string",
-        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,100}$\/u",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{1,100}$\/u",
         "required": false,
         "position": 3,
         "label": {
