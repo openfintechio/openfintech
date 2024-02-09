@@ -9406,5 +9406,61 @@
       "ru": "Mifinity",
       "uk": "Mifinity"
     }
+  },
+  {
+    "code": "oriental_wallet",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Oriental Wallet"
+    }
+  },
+  {
+    "code": "union_bank",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Union Bank"
+    }
+  },
+  {
+    "code": "palawan_pawnshop",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Palawan Pawnshop"
+    }
+  },
+  {
+    "code": "cebuana_pawnshop",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Cebuana Pawnshop"
+    }
+  },
+  {
+    "code": "paygate",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Paygate"
+    }
+  },
+  {
+    "code": "instapay",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Instapay"
+    }
+  },
+  {
+    "code": "qr_ph",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Qr Ph"
+    }
   }
 ]

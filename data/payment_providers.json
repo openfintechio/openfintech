@@ -23599,7 +23599,17 @@
     "code": "paystage",
     "vendor": "paystage",
     "payment_method": [
-      "bank_transfer"
+      "bank_transfer",
+      "payment_card",
+      "oriental_wallet",
+      "gcash",
+      "grabpay",
+      "union_bank",
+      "palawan_pawnshop",
+      "cebuana_pawnshop",
+      "paygate",
+      "instapay",
+      "qr_ph"
     ],
     "payout_method": [
       "bank_transfer",
