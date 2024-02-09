@@ -30365,5 +30365,35 @@
       "ru": "Telkom",
       "uk": "Telkom"
     }
+  },
+  {
+    "status": "active",
+    "code": "oriental_wallet",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Oriental Wallet",
+      "ru": "Oriental Wallet",
+      "uk": "Oriental Wallet"
+    }
+  },
+  {
+    "status": "active",
+    "code": "instapay",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Instapay",
+      "ru": "Instapay",
+      "uk": "Instapay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "pesonet",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Pesonet",
+      "ru": "Pesonet",
+      "uk": "Pesonet"
+    }
   }
 ]
