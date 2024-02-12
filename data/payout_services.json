@@ -82697,7 +82697,7 @@
       {
         "key": "account_type",
         "type": "string",
-        "regexp": "\/^(CPF|CNPJ|EVP|PHONE|EMAIL)$\/",
+        "regexp": "\/^(CPF|CNPJ|EVP|PHONE|EMAIL|RANDOMKEY)$\/",
         "required": false,
         "position": 17,
         "label": {
@@ -82706,9 +82706,9 @@
           "uk": "Тип облікового запису PIX отримувача"
         },
         "hint": {
-          "en": "Enter beneficiary's PIX account type",
-          "ru": "Введите тип аккаунта PIX получателя",
-          "uk": "Введіть тип облікового запису PIX отримувача"
+          "en": "CPF|CNPJ|EVP|PHONE|EMAIL|RANDOMKEY",
+          "ru": "CPF|CNPJ|EVP|PHONE|EMAIL|RANDOMKEY",
+          "uk": "CPF|CNPJ|EVP|PHONE|EMAIL|RANDOMKEY"
         },
         "example": "EMAIL"
       },
