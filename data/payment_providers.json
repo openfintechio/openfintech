@@ -24886,6 +24886,19 @@
   },
   {
     "status": "active",
+    "code": "toppay",
+    "vendor": "toppay",
+    "name": {
+      "en": "TopPay",
+      "ru": "TopPay",
+      "uk": "TopPay "
+    },
+    "payment_method": [
+      "pix"
+    ]
+  },
+  {
+    "status": "active",
     "code": "mtbbank",
     "vendor": "mtbbank",
     "name": {
