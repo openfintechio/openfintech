@@ -24912,5 +24912,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cdn",
+    "vendor": "cdn",
+    "name": {
+      "en": "CDN",
+      "ru": "CDN",
+      "uk": "CDN"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
