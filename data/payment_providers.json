@@ -24883,5 +24883,18 @@
       "bkash_limited",
       "nagad_wallet"
     ]
+  },
+  {
+    "status": "active",
+    "code": "mtbbank",
+    "vendor": "mtbbank",
+    "name": {
+      "en": "MTB Bank",
+      "ru": "МТБ Банк",
+      "uk": "МТБ Банк"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
