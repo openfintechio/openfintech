@@ -23897,6 +23897,68 @@
   },
   {
     "status": "active",
+    "code": "bbva",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BBVA Continental",
+      "ru": "BBVA Continental",
+      "uk": "BBVA Continental"
+    }
+  },
+  {
+    "status": "active",
+    "code": "inter_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Inter bank",
+      "ru": "Inter bank",
+      "uk": "Inter bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "prymera_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Prymera Bank",
+      "ru": "Prymera Bank",
+      "uk": "Prymera Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "kasnet",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Kasnet",
+      "ru": "Kasnet",
+      "uk": "Kasnet"
+    }
+  },
+  {
+    "status": "active",
+    "code": "chilean_commercial_bank",
+    "vendor": "bnd",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Chilean Commercial Bank",
+      "uk": "Chilean Commercial Bank",
+      "ru": "Chilean Commercial Bank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "efecty",
+    "vendor": "bnd",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Efecty",
+      "uk": "Efecty",
+      "ru": "Efecty"
+    }
+  },
+  {
+    "status": "active",
     "code": "jeton_wallet",
     "category": "digital_wallet",
     "name": {
