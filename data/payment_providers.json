@@ -24852,6 +24852,9 @@
     },
     "payment_method": [
       "mifinity"
+    ],
+    "payout_method": [
+      "bank_transfer_aggregated"
     ]
   },
   {
@@ -24909,7 +24912,36 @@
       "ru": "МТБ Банк",
       "uk": "МТБ Банк"
     },
+    "payment_method": [
+      "payment_card"
+    ],
     "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "cdn",
+    "vendor": "cdn",
+    "name": {
+      "en": "CDN",
+      "ru": "CDN",
+      "uk": "CDN"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "eleospay",
+    "vendor": "eleospay",
+    "name": {
+      "en": "EleosPay",
+      "ru": "EleosPay",
+      "uk": "EleosPay"
+    },
+    "payment_method": [
       "payment_card"
     ]
   }
