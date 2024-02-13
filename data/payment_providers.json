@@ -24928,5 +24928,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "eleospay",
+    "vendor": "eleospay",
+    "name": {
+      "en": "EleosPay",
+      "ru": "EleosPay",
+      "uk": "EleosPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
