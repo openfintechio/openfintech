@@ -23918,5 +23918,32 @@
     "currency": "PHP",
     "amount_min": 0.01,
     "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "quick_bit_eur_hpp",
+    "flow": "hpp",
+    "method": "quick_bit",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 910000
+  },
+  {
+    "status": "active",
+    "code": "quick_bit_nok_hpp",
+    "flow": "hpp",
+    "method": "quick_bit",
+    "currency": "NOK",
+    "amount_min": 0.01,
+    "amount_max": 1065000
+  },
+  {
+    "status": "active",
+    "code": "quick_bit_sek_hpp",
+    "flow": "hpp",
+    "method": "quick_bit",
+    "currency": "SEK",
+    "amount_min": 0.01,
+    "amount_max": 1060000
   }
 ]
