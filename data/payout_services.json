@@ -94141,6 +94141,24 @@
           "ru": "Введите номер счёта",
           "uk": "Введіть номер рахунку"
         }
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "regexp": "\/^\\d{8,12}$\/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "5588722651111"
       }
     ],
     "amount_min": "0.01",
