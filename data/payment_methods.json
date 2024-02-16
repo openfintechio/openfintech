@@ -9470,5 +9470,335 @@
     "name": {
       "en": "Quick Bit"
     }
+  },
+  {
+    "code": "acertemos",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Acertemos",
+      "ru": "Acertemos",
+      "uk": "Acertemos"
+    }
+  },
+  {
+    "code": "apostar",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Apostar",
+      "ru": "Apostar",
+      "uk": "Apostar"
+    }
+  },
+  {
+    "code": "apuestascucuta75",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Apuestas Cucuta 75",
+      "ru": "Apuestas Cucuta 75",
+      "uk": "Apuestas Cucuta 75"
+    }
+  },
+  {
+    "code": "bancamia",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCAMIA",
+      "ru": "BANCAMIA",
+      "uk": "BANCAMIA"
+    }
+  },
+  {
+    "code": "agrario_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO AGRARIO",
+      "ru": "BANCO AGRARIO",
+      "uk": "BANCO AGRARIO"
+    }
+  },
+  {
+    "code": "caja_social_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO CAJA SOCIAL ",
+      "ru": "BANCO CAJA SOCIAL ",
+      "uk": "BANCO CAJA SOCIAL "
+    }
+  },
+  {
+    "code": "comercial_avvillas_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO COMERCIAL AVVILLAS S.A.",
+      "ru": "BANCO COMERCIAL AVVILLAS S.A.",
+      "uk": "BANCO COMERCIAL AVVILLAS S.A."
+    }
+  },
+  {
+    "code": "coomeva_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO COOMEVA S.A. - BANCOOMEVA",
+      "ru": "BANCO COOMEVA S.A. - BANCOOMEVA",
+      "uk": "BANCO COOMEVA S.A. - BANCOOMEVA"
+    }
+  },
+  {
+    "code": "cooperativo_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO COOPERATIVO COOPCENTRAL",
+      "ru": "BANCO COOPERATIVO COOPCENTRAL",
+      "uk": "BANCO COOPERATIVO COOPCENTRAL"
+    }
+  },
+  {
+    "code": "davivienda_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO DAVIVIENDA",
+      "ru": "BANCO DAVIVIENDA",
+      "uk": "BANCO DAVIVIENDA"
+    }
+  },
+  {
+    "code": "bogota_desarrollo_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO DE BOGOTA DESARROLLO 2013",
+      "ru": "BANCO DE BOGOTA DESARROLLO 2013",
+      "uk": "BANCO DE BOGOTA DESARROLLO 2013"
+    }
+  },
+  {
+    "code": "occidente_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO DE OCCIDENTE",
+      "ru": "BANCO DE OCCIDENTE",
+      "uk": "BANCO DE OCCIDENTE"
+    }
+  },
+  {
+    "code": "falabella_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO FALABELLA",
+      "ru": "BANCO FALABELLA",
+      "uk": "BANCO FALABELLA"
+    }
+  },
+  {
+    "code": "gnb_sudameris_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO GNB SUDAMERIS",
+      "ru": "BANCO GNB SUDAMERIS",
+      "uk": "BANCO GNB SUDAMERIS"
+    }
+  },
+  {
+    "code": "popular_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO POPULAR",
+      "ru": "BANCO POPULAR",
+      "uk": "BANCO POPULAR"
+    }
+  },
+  {
+    "code": "santander_colombia_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO SANTANDER COLOMBIA",
+      "ru": "BANCO SANTANDER COLOMBIA",
+      "uk": "BANCO SANTANDER COLOMBIA"
+    }
+  },
+  {
+    "code": "serfinanza_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO SERFINANZA",
+      "ru": "BANCO SERFINANZA",
+      "uk": "BANCO SERFINANZA"
+    }
+  },
+  {
+    "code": "colombia_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCOLOMBIA QA",
+      "ru": "BANCOLOMBIA QA",
+      "uk": "BANCOLOMBIA QA"
+    }
+  },
+  {
+    "code": "bbva_colombia",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BBVA COLOMBIA SA",
+      "ru": "BBVA COLOMBIA SA",
+      "uk": "BBVA COLOMBIA SA"
+    }
+  },
+  {
+    "code": "colombia_bank_cah",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Bancolombia Cash",
+      "ru": "Bancolombia Cash",
+      "uk": "Bancolombia Cash"
+    }
+  },
+  {
+    "code": "gana",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Gana",
+      "ru": "Gana",
+      "uk": "Gana"
+    }
+  },
+  {
+    "code": "gana_gana",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Gana Gana",
+      "ru": "Gana Gana",
+      "uk": "Gana Gana"
+    }
+  },
+  {
+    "code": "jer",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Jer",
+      "ru": "Jer",
+      "uk": "Jer"
+    }
+  },
+  {
+    "code": "la_perla",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "La Perla",
+      "ru": "La Perla",
+      "uk": "La Perla"
+    }
+  },
+  {
+    "code": "puntored",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Puntored",
+      "ru": "Puntored",
+      "uk": "Puntored"
+    }
+  },
+  {
+    "code": "su_chance",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Su Chance",
+      "ru": "Su Chance",
+      "uk": "Su Chance"
+    }
+  },
+  {
+    "code": "su_suerte",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Su Suerte",
+      "ru": "Su Suerte",
+      "uk": "Su Suerte"
+    }
+  },
+  {
+    "code": "super_pagos",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Super Pagos",
+      "ru": "Super Pagos",
+      "uk": "Super Pagos"
+    }
+  },
+  {
+    "code": "powwi",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Powwi",
+      "ru": "Powwi",
+      "uk": "Powwi"
+    }
+  },
+  {
+    "code": "bcp",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BCP",
+      "ru": "BCP",
+      "uk": "BCP"
+    }
+  },
+  {
+    "code": "pago_effective",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "PagoEfectivo",
+      "ru": "PagoEfectivo",
+      "uk": "PagoEfectivo"
+    }
+  },
+  {
+    "code": "tambo",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Tambo",
+      "ru": "Tambo",
+      "uk": "Tambo"
+    }
+  },
+  {
+    "code": "agentes_bank",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "Agentes Bancarios",
+      "ru": "Agentes Bancarios",
+      "uk": "Agentes Bancarios"
+    }
   }
 ]
