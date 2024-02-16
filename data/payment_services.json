@@ -14206,20 +14206,20 @@
       {
         "key": "cpf_number",
         "type": "string",
-        "regexp": "\/^[0-9\\.\\-]{1,14}$\/",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
         "required": false,
         "position": 1,
         "label": {
-          "en": "CPF number",
-          "ru": "CPF номер",
-          "uk": "CPF номер"
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
         },
         "hint": {
-          "en": "Enter CPF number",
-          "ru": "Введите CPF номер",
-          "uk": "Введіть CPF номер"
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
         },
-        "example": "88899988811"
+        "example": "12345678900"
       },
       {
         "key": "phone",
