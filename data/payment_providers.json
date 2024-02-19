@@ -25004,6 +25004,19 @@
   },
   {
     "status": "active",
+    "code": "ipague",
+    "vendor": "ipague",
+    "name": {
+      "en": "iPague",
+      "ru": "iPague",
+      "uk": "iPague"
+    },
+    "payment_method": [
+      "pix_qr"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payzeasy",
     "vendor": "payzeasy",
     "name": {
