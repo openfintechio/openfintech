@@ -130,4 +130,95 @@ final class ServiceTest extends AbstractDataTest
 
         self::assertTrue(true);
     }
+
+    public function test_service_field_labels(): void
+    {
+        /** @var PaymentServiceDto[] $services */
+        $services = $this->dataProvider->getPaymentServices();
+
+        $servicesWithWrongFields = [];
+
+        foreach ($services as $service) {
+            $fields = $service->fields;
+
+            if (null === $fields) {
+                continue;
+            }
+
+            foreach ($fields as $field) {
+                $hints = $field['hint'] ?? [];
+
+                if (count($hints) !== 3  || $this->isRequiredKeyMissed($hints)) {
+                    if (in_array($service->code, $servicesWithWrongFields, true)) {
+                        continue;
+                    }
+
+                    $servicesWithWrongFields[] = $service->code;
+                }
+            }
+        }
+
+        if (0 !== \count($servicesWithWrongFields)) {
+            $message = 'Wrong hints in payment services:' . PHP_EOL;
+            foreach ($servicesWithWrongFields as $service) {
+                $message .= \sprintf("%s %s", $service, PHP_EOL);
+            }
+
+            $this->fail($message);
+        }
+
+        self::assertTrue(true);
+    }
+
+    public function test_service_field_hints(): void
+    {
+        /** @var PaymentServiceDto[] $services */
+        $services = $this->dataProvider->getPaymentServices();
+
+        $servicesWithWrongFields = [];
+
+        foreach ($services as $service) {
+            $fields = $service->fields;
+
+            if (null === $fields) {
+                continue;
+            }
+
+            foreach ($fields as $field) {
+                $labels = $field['label'] ?? [];
+
+                if (count($labels) !== 3 || $this->isRequiredKeyMissed($labels)) {
+                    if (in_array($service->code, $servicesWithWrongFields, true)) {
+                        continue;
+                    }
+
+                    $servicesWithWrongFields[] = $service->code;
+                }
+            }
+        }
+
+        if (0 !== \count($servicesWithWrongFields)) {
+            $message = 'Wrong labels in payment services:' . PHP_EOL;
+            foreach ($servicesWithWrongFields as $service) {
+                $message .= \sprintf("%s %s", $service, PHP_EOL);
+            }
+
+            $this->fail($message);
+        }
+
+        self::assertTrue(true);
+    }
+
+    private function isRequiredKeyMissed($array): bool
+    {
+        $requiredKeys = ['en', 'ru', 'uk'];
+
+        foreach ($requiredKeys as $key) {
+            if (!array_key_exists($key, $array)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
