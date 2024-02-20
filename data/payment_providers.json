@@ -19618,6 +19618,19 @@
   },
   {
     "status": "active",
+    "code": "khanpay",
+    "vendor": "khanpay",
+    "name": {
+      "en": "KhanPay",
+      "ru": "KhanPay",
+      "uk": "KhanPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "procardpay",
     "vendor": "procard",
     "name": {
