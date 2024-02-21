@@ -25049,5 +25049,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "tillpayments",
+    "vendor": "tillpayments",
+    "name": {
+      "en": "Till Payments",
+      "ru": "Till Payments",
+      "uk": "Till Payments"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
