@@ -25004,6 +25004,19 @@
   },
   {
     "status": "active",
+    "code": "ipague",
+    "vendor": "ipague",
+    "name": {
+      "en": "iPague",
+      "ru": "iPague",
+      "uk": "iPague"
+    },
+    "payment_method": [
+      "pix_qr"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payzeasy",
     "vendor": "payzeasy",
     "name": {
@@ -25017,6 +25030,19 @@
     ],
     "payout_method": [
       "imps"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bizon",
+    "vendor": "bizon",
+    "name": {
+      "en": "Bizon",
+      "ru": "Bizon",
+      "uk": "Bizon"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]
