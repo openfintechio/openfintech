@@ -25031,5 +25031,18 @@
     "payout_method": [
       "imps"
     ]
+  },
+  {
+    "status": "active",
+    "code": "bizon",
+    "vendor": "bizon",
+    "name": {
+      "en": "Bizon",
+      "ru": "Bizon",
+      "uk": "Bizon"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
