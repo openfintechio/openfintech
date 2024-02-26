@@ -21250,7 +21250,8 @@
       "uk": "Payes"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "upi"
     ]
   },
   {
@@ -25064,6 +25065,19 @@
       "en": "Till Payments",
       "ru": "Till Payments",
       "uk": "Till Payments"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "intervale",
+    "vendor": "intervale",
+    "name": {
+      "en": "Intervale",
+      "ru": "Intervale",
+      "uk": "Intervale"
     },
     "payment_method": [
       "payment_card"
