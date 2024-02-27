@@ -82427,7 +82427,7 @@
           "uk": "Введіть ID Settlepay гаманця"
         },
         "example": "SP27ARC2B031973",
-        "regexp": "\/^SP[a-zA-Z\\d]{13}$\/",
+        "regexp": "\/^(?i)SP[a-zA-Z\\d]{13}$|^380[0-9]{9}$\/",
         "required": true,
         "position": 1
       }

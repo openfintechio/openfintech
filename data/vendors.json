@@ -34186,6 +34186,18 @@
     }
   },
   {
+    "code": "ipague",
+    "status": "active",
+    "name": {
+      "en": "iPague",
+      "ru": "iPague",
+      "uk": "iPague"
+    },
+    "links": {
+      "website": "https://ipague.com.br"
+    }
+  },
+  {
     "code": "mtbbank",
     "status": "active",
     "links": {
@@ -34228,6 +34240,42 @@
       "en": "PayzEasy",
       "ru": "PayzEasy",
       "uk": "PayzEasy"
+    }
+  },
+  {
+    "code": "bizon",
+    "status": "active",
+    "links": {
+      "website": "https://bizon.one"
+    },
+    "name": {
+      "en": "Bizon",
+      "ru": "Bizon",
+      "uk": "Bizon"
+    }
+  },
+  {
+    "code": "tillpayments",
+    "status": "active",
+    "links": {
+      "website": "https://tillpayments.com"
+    },
+    "name": {
+      "en": "Till Payments",
+      "ru": "Till Payments",
+      "uk": "Till Payments"
+    }
+  },
+  {
+    "code": "intervale",
+    "status": "active",
+    "links": {
+      "website": "https://intervale.kz/"
+    },
+    "name": {
+      "en": "Intervale",
+      "ru": "Intervale",
+      "uk": "Intervale"
     }
   }
 ]

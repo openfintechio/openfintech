@@ -18590,6 +18590,24 @@
     "amount_max": 520000,
     "fields": [
       {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^(CPF|CNPJ)$\/",
+        "required": false,
+        "position": 0,
+        "label": {
+          "en": "Beneficiary's personal identification type",
+          "ru": "Тип документа плательщика",
+          "uk": "Тип документа отримувача платника"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification type",
+          "ru": "Введите тип документа плательщика",
+          "uk": "Введіть тип документа платника"
+        },
+        "example": "CPF/CNPJ"
+      },
+      {
         "key": "cpf_number",
         "type": "string",
         "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
