@@ -141001,7 +141001,7 @@
           "uk": "Номер рахунку"
         },
         "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "hint": {
           "en": "Enter account number or IBAN",
@@ -141013,7 +141013,7 @@
       {
         "key": "beneficiary_dob",
         "type": "string",
-        "regexp": "\/^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$\/",
+        "regexp": "^(?:(?:[0-2][0-9]|(3)[0-1])\/((0)[0-9]|(1)[0-2])\/\\d{4})|(?:\\d{4}-\\d{2}-\\d{2})$",
         "required": false,
         "position": 3,
         "label": {
@@ -141026,7 +141026,7 @@
           "ru": "Введите дату рождения",
           "uk": "Введіть дату народження"
         },
-        "example": "10/05/1964"
+        "example": "28/02/2024 or 2024-02-28"
       },
       {
         "key": "beneficiary_document_type",
@@ -141104,20 +141104,20 @@
           "ru": "Bic swift",
           "uk": "Bic swift"
         },
-        "regexp": "\/^[0-9A-Z]{8}$|^[0-9A-Z]{11}$\/",
-        "required": true,
+        "regexp": "^(?:[0-9A-Z]{8}|[0-9A-Z]{11})$",
+        "required": false,
         "position": 8,
         "hint": {
           "en": "Enter bic swift",
           "ru": "Enter bic swift",
           "uk": "Enter bic swift"
         },
-        "example": "100000000393#10"
+        "example": "1A2B3C4D5E or 100000000393#10"
       },
       {
         "key": "beneficiary_country_code_iso",
         "type": "string",
-        "regexp": "\/^.{2,6}$\/",
+        "regexp": "^(.{2,6}|[A-Z]{2})$",
         "required": false,
         "position": 9,
         "label": {
@@ -141180,6 +141180,40 @@
           "en": "Enter beneficiary postcode",
           "ru": "Введите beneficiary postcode",
           "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "[0-1]",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "regexp": "^(?=.{7,15}$)[\\d +]+$",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
         }
       }
     ],
@@ -141218,7 +141252,7 @@
           "uk": "Номер рахунку"
         },
         "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "hint": {
           "en": "Enter account number or IBAN",
@@ -141230,7 +141264,7 @@
       {
         "key": "beneficiary_dob",
         "type": "string",
-        "regexp": "\/^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$\/",
+        "regexp": "^(?:(?:[0-2][0-9]|(3)[0-1])\/((0)[0-9]|(1)[0-2])\/\\d{4})|(?:\\d{4}-\\d{2}-\\d{2})$",
         "required": false,
         "position": 3,
         "label": {
@@ -141243,7 +141277,7 @@
           "ru": "Введите дату рождения",
           "uk": "Введіть дату народження"
         },
-        "example": "10/05/1964"
+        "example": "28/02/2024 or 2024-02-28"
       },
       {
         "key": "beneficiary_document_type",
@@ -141321,20 +141355,20 @@
           "ru": "Bic swift",
           "uk": "Bic swift"
         },
-        "regexp": "\/^[0-9A-Z]{8}$|^[0-9A-Z]{11}$\/",
-        "required": true,
+        "regexp": "^(?:[0-9A-Z]{8}|[0-9A-Z]{11})$",
+        "required": false,
         "position": 8,
         "hint": {
           "en": "Enter bic swift",
           "ru": "Enter bic swift",
           "uk": "Enter bic swift"
         },
-        "example": "100000000393#10"
+        "example": "1A2B3C4D5E or 100000000393#10"
       },
       {
         "key": "beneficiary_country_code_iso",
         "type": "string",
-        "regexp": "\/^.{2,6}$\/",
+        "regexp": "^(.{2,6}|[A-Z]{2})$",
         "required": false,
         "position": 9,
         "label": {
@@ -141397,6 +141431,40 @@
           "en": "Enter beneficiary postcode",
           "ru": "Введите beneficiary postcode",
           "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "[0-1]",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "regexp": "^(?=.{7,15}$)[\\d +]+$",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
         }
       }
     ],
@@ -141435,7 +141503,7 @@
           "uk": "Номер рахунку"
         },
         "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "hint": {
           "en": "Enter account number or IBAN",
@@ -141447,7 +141515,7 @@
       {
         "key": "beneficiary_dob",
         "type": "string",
-        "regexp": "\/^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$\/",
+        "regexp": "^(?:(?:[0-2][0-9]|(3)[0-1])\/((0)[0-9]|(1)[0-2])\/\\d{4})|(?:\\d{4}-\\d{2}-\\d{2})$",
         "required": false,
         "position": 3,
         "label": {
@@ -141460,7 +141528,7 @@
           "ru": "Введите дату рождения",
           "uk": "Введіть дату народження"
         },
-        "example": "10/05/1964"
+        "example": "28/02/2024 or 2024-02-28"
       },
       {
         "key": "beneficiary_document_type",
@@ -141538,20 +141606,20 @@
           "ru": "Bic swift",
           "uk": "Bic swift"
         },
-        "regexp": "\/^[0-9A-Z]{8}$|^[0-9A-Z]{11}$\/",
-        "required": true,
+        "regexp": "^(?:[0-9A-Z]{8}|[0-9A-Z]{11})$",
+        "required": false,
         "position": 8,
         "hint": {
           "en": "Enter bic swift",
           "ru": "Enter bic swift",
           "uk": "Enter bic swift"
         },
-        "example": "100000000393#10"
+        "example": "1A2B3C4D5E or 100000000393#10"
       },
       {
         "key": "beneficiary_country_code_iso",
         "type": "string",
-        "regexp": "\/^.{2,6}$\/",
+        "regexp": "^(.{2,6}|[A-Z]{2})$",
         "required": false,
         "position": 9,
         "label": {
@@ -141614,6 +141682,40 @@
           "en": "Enter beneficiary postcode",
           "ru": "Введите beneficiary postcode",
           "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "[0-1]",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "regexp": "^(?=.{7,15}$)[\\d +]+$",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
         }
       }
     ],
@@ -141652,7 +141754,7 @@
           "uk": "Номер рахунку"
         },
         "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "hint": {
           "en": "Enter account number or IBAN",
@@ -141664,7 +141766,7 @@
       {
         "key": "beneficiary_dob",
         "type": "string",
-        "regexp": "\/^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$\/",
+        "regexp": "^(?:(?:[0-2][0-9]|(3)[0-1])\/((0)[0-9]|(1)[0-2])\/\\d{4})|(?:\\d{4}-\\d{2}-\\d{2})$",
         "required": false,
         "position": 3,
         "label": {
@@ -141677,7 +141779,7 @@
           "ru": "Введите дату рождения",
           "uk": "Введіть дату народження"
         },
-        "example": "10/05/1964"
+        "example": "28/02/2024 or 2024-02-28"
       },
       {
         "key": "beneficiary_document_type",
@@ -141755,20 +141857,20 @@
           "ru": "Bic swift",
           "uk": "Bic swift"
         },
-        "regexp": "\/^[0-9A-Z]{8}$|^[0-9A-Z]{11}$\/",
-        "required": true,
+        "regexp": "^(?:[0-9A-Z]{8}|[0-9A-Z]{11})$",
+        "required": false,
         "position": 8,
         "hint": {
           "en": "Enter bic swift",
           "ru": "Enter bic swift",
           "uk": "Enter bic swift"
         },
-        "example": "100000000393#10"
+        "example": "1A2B3C4D5E or 100000000393#10"
       },
       {
         "key": "beneficiary_country_code_iso",
         "type": "string",
-        "regexp": "\/^.{2,6}$\/",
+        "regexp": "^(.{2,6}|[A-Z]{2})$",
         "required": false,
         "position": 9,
         "label": {
@@ -141831,6 +141933,40 @@
           "en": "Enter beneficiary postcode",
           "ru": "Введите beneficiary postcode",
           "uk": "Введіть beneficiary postcode"
+        }
+      },
+      {
+        "key": "account_type",
+        "type": "string",
+        "regexp": "[0-1]",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Account type",
+          "ru": "Тип аккаунта",
+          "uk": "Тип акаунту"
+        },
+        "hint": {
+          "en": "Enter account type",
+          "ru": "Введите тип аккаунта",
+          "uk": "Введіть тип акаунту"
+        }
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "regexp": "^(?=.{7,15}$)[\\d +]+$",
+        "required": false,
+        "position": 14,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
         }
       }
     ],
