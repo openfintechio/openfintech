@@ -24940,6 +24940,19 @@
   },
   {
     "status": "active",
+    "code": "creditum",
+    "vendor": "creditum",
+    "name": {
+      "en": "Creditum",
+      "ru": "Creditum",
+      "uk": "Creditum"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "mifinity",
     "vendor": "mifinity",
     "name": {
