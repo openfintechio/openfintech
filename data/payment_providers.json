@@ -24911,6 +24911,19 @@
   },
   {
     "status": "active",
+    "code": "mids",
+    "vendor": "mids",
+    "name": {
+      "en": "MIDs",
+      "ru": "MIDs",
+      "uk": "MIDs"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "rivierapay",
     "vendor": "rivierapay",
     "name": {
