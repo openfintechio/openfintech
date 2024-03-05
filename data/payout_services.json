@@ -141724,6 +141724,276 @@
   },
   {
     "status": "active",
+    "code": "diamond_bank_nigeria_ngn",
+    "method": "diamond_bank_nigeria",
+    "currency": "NGN",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "citi_bank_nigeria_ngn",
+    "method": "citi_bank_nigeria",
+    "currency": "NGN",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "ecobank_nigeria_ngn",
+    "method": "ecobank_nigeria",
+    "currency": "NGN",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "fsmb_nigeria_ngn",
+    "method": "fsmb_nigeria",
+    "currency": "NGN",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "fidelity_bank_nigeria_ngn",
+    "method": "fidelity_bank_nigeria",
+    "currency": "NGN",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "polaris_bank_nigeria_ngn",
+    "method": "polaris_bank_nigeria",
+    "currency": "NGN",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "stanbic_bank_nigeria_ngn",
+    "method": "stanbic_bank_nigeria",
+    "currency": "NGN",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "tyme_bank_zar",
+    "method": "tyme_bank",
+    "currency": "ZAR",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "african_bank_zar",
+    "method": "african_bank",
+    "currency": "ZAR",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
+    "code": "bidvest_bank_zar",
+    "method": "bidvest_bank",
+    "currency": "ZAR",
+    "fields": [
+      {
+         "key": "account_number",
+         "type": "string",
+         "label": {
+            "en": "Account number",
+            "ru": "Номер счета",
+            "uk": "Номер рахунку"
+         },
+         "hint": {
+            "en": "Enter account number",
+            "ru": "Введите номер счета",
+            "uk": "Введіть номер рахунку"
+         },
+         "regexp": "\/^.{1,50}$\/",
+         "required":true,
+         "position": 1
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000000"
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aggregated_chf",
     "method": "bank_transfer_aggregated",
     "currency": "CHF",
