@@ -25170,5 +25170,18 @@
     "payout_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "transflofintech",
+    "vendor": "transflofintech",
+    "name": {
+      "en": "Transflo Fintech",
+      "ru": "Transflo Fintech",
+      "uk": "Transflo Fintech"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
