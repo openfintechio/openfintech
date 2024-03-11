@@ -25078,5 +25078,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "the_billing",
+    "vendor": "the_billing",
+    "name": {
+      "en": "The Billing",
+      "ru": "The Billing",
+      "uk": "The Billing"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
