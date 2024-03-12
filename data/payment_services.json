@@ -18582,6 +18582,33 @@
   },
   {
     "status": "active",
+    "code": "budpay_aggregated_kes_hpp",
+    "currency": "KES",
+    "flow": "hpp",
+    "method": "budpay_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "budpay_aggregated_ghs_hpp",
+    "currency": "GHS",
+    "flow": "hpp",
+    "method": "budpay_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "budpay_aggregated_ngn_hpp",
+    "currency": "NGN",
+    "flow": "hpp",
+    "method": "budpay_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "pix_qr_brl_invoice",
     "flow": "invoice",
     "method": "pix_qr",
