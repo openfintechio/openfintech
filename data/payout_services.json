@@ -1197,7 +1197,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "4500000"
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -2761,8 +2761,8 @@
         "position": 1
       }
     ],
-    "amount_min": "30000",
-    "amount_max": "1000000000"
+    "amount_min": "1",
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -43197,8 +43197,8 @@
     "code": "acb_bank_vnd",
     "currency": "VND",
     "method": "acb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -43309,8 +43309,8 @@
     "code": "vietcom_bank_vnd",
     "currency": "VND",
     "method": "vietcom_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -43493,8 +43493,8 @@
     "code": "vietin_bank_vnd",
     "currency": "VND",
     "method": "vietin_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -43677,8 +43677,8 @@
     "code": "sacom_bank_vnd",
     "currency": "VND",
     "method": "sacom_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -43861,8 +43861,8 @@
     "code": "bidv_bank_vnd",
     "currency": "VND",
     "method": "bidv_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -44045,8 +44045,8 @@
     "code": "techom_bank_vnd",
     "currency": "VND",
     "method": "techom_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -44157,8 +44157,8 @@
     "code": "dong_a_bank_vnd",
     "currency": "VND",
     "method": "dong_a_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -44341,8 +44341,8 @@
     "code": "exim_bank_vnd",
     "currency": "VND",
     "method": "exim_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -44489,8 +44489,8 @@
     "code": "exim_bank_vietnam_vnd",
     "currency": "VND",
     "method": "exim_bank_vietnam",
-    "amount_min": "30000",
-    "amount_max": "2300000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "customer_name",
@@ -71958,7 +71958,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "999999"
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -75512,7 +75512,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "99999"
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -80720,7 +80720,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "100000"
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -87373,8 +87373,8 @@
     "code": "vib_bank_vnd",
     "currency": "VND",
     "method": "vib_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -87521,8 +87521,8 @@
     "code": "agri_bank_vnd",
     "currency": "VND",
     "method": "agri_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -87669,8 +87669,8 @@
     "code": "saigon_bank_vnd",
     "currency": "VND",
     "method": "saigon_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -87817,8 +87817,8 @@
     "code": "vrb_bank_vnd",
     "currency": "VND",
     "method": "vrb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -87965,8 +87965,8 @@
     "code": "ab_bank_vnd",
     "currency": "VND",
     "method": "ab_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -88113,8 +88113,8 @@
     "code": "baoviet_bank_vnd",
     "currency": "VND",
     "method": "baoviet_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -88261,8 +88261,8 @@
     "code": "public_bank_vietnam_vnd",
     "currency": "VND",
     "method": "public_bank_vietnam",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -88373,8 +88373,8 @@
     "code": "pvcom_bank_vnd",
     "currency": "VND",
     "method": "pvcom_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -88521,8 +88521,8 @@
     "code": "kien_long_bank_vnd",
     "currency": "VND",
     "method": "kien_long_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -88669,8 +88669,8 @@
     "code": "woori_bank_vnd",
     "currency": "VND",
     "method": "woori_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -88928,8 +88928,8 @@
     "code": "mb_bank_vnd",
     "currency": "VND",
     "method": "mb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -89076,8 +89076,8 @@
     "code": "standard_chartered_bank_vietnam_vnd",
     "currency": "VND",
     "method": "standard_chartered_bank_vietnam",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -89188,8 +89188,8 @@
     "code": "petrolimex_bank_vnd",
     "currency": "VND",
     "method": "petrolimex_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -89336,8 +89336,8 @@
     "code": "viet_capital_bank_vnd",
     "currency": "VND",
     "method": "viet_capital_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -89484,8 +89484,8 @@
     "code": "viet_a_bank_vnd",
     "currency": "VND",
     "method": "viet_a_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -89632,8 +89632,8 @@
     "code": "ocean_bank_vnd",
     "currency": "VND",
     "method": "ocean_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -89780,8 +89780,8 @@
     "code": "nam_a_bank_vnd",
     "currency": "VND",
     "method": "nam_a_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -89928,8 +89928,8 @@
     "code": "indovina_bank_vnd",
     "currency": "VND",
     "method": "indovina_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -90040,8 +90040,8 @@
     "code": "lien_viet_post_bank_vnd",
     "currency": "VND",
     "method": "lien_viet_post_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -90206,8 +90206,8 @@
     "code": "industrial_bank_ho_chi_minh_vnd",
     "currency": "VND",
     "method": "industrial_bank_ho_chi_minh",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -90447,8 +90447,8 @@
     "code": "bac_a_bank_vnd",
     "currency": "VND",
     "method": "bac_a_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -90577,8 +90577,8 @@
     "code": "maritime_bank_vnd",
     "currency": "VND",
     "method": "maritime_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -90725,8 +90725,8 @@
     "code": "cooperative_bank_vnd",
     "currency": "VND",
     "method": "cooperative_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -90837,8 +90837,8 @@
     "code": "gp_bank_vnd",
     "currency": "VND",
     "method": "gp_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -90985,8 +90985,8 @@
     "code": "industrial_bank_hanoi_vnd",
     "currency": "VND",
     "method": "industrial_bank_hanoi",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -91097,8 +91097,8 @@
     "code": "sea_bank_vnd",
     "currency": "VND",
     "method": "sea_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -91263,8 +91263,8 @@
     "code": "hong_leong_bank_vnd",
     "currency": "VND",
     "method": "hong_leong_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -91375,8 +91375,8 @@
     "code": "shinhan_bank_vnd",
     "currency": "VND",
     "method": "shinhan_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -91616,8 +91616,8 @@
     "code": "hd_bank_vnd",
     "currency": "VND",
     "method": "hd_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -91764,8 +91764,8 @@
     "code": "cimb_bank_vnd",
     "currency": "VND",
     "method": "cimb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -91876,8 +91876,8 @@
     "code": "shb_bank_vnd",
     "currency": "VND",
     "method": "shb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -92024,8 +92024,8 @@
     "code": "scb_bank_vnd",
     "currency": "VND",
     "method": "scb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -92172,8 +92172,8 @@
     "code": "uobt_vnd",
     "currency": "VND",
     "method": "uobt",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -92284,8 +92284,8 @@
     "code": "vp_bank_vnd",
     "currency": "VND",
     "method": "vp_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -92432,8 +92432,8 @@
     "code": "tp_bank_vnd",
     "currency": "VND",
     "method": "tp_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -92580,8 +92580,8 @@
     "code": "ncb_bank_vnd",
     "currency": "VND",
     "method": "ncb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -92692,8 +92692,8 @@
     "code": "viet_bank_vnd",
     "currency": "VND",
     "method": "viet_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -92840,8 +92840,8 @@
     "code": "omllvcb_bank_vnd",
     "currency": "VND",
     "method": "omllvcb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -92988,8 +92988,8 @@
     "code": "ocb_bank_vnd",
     "currency": "VND",
     "method": "ocb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -93136,8 +93136,8 @@
     "code": "cfc_bank_vnd",
     "currency": "VND",
     "method": "cfc_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -93248,8 +93248,8 @@
     "code": "momo_vnd",
     "currency": "VND",
     "method": "momo",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -93360,8 +93360,8 @@
     "code": "zalopay_vnd",
     "currency": "VND",
     "method": "zalopay",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "bank_branch",
@@ -96151,7 +96151,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -96372,7 +96372,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -97821,7 +97821,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -97885,7 +97885,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -97949,7 +97949,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -98013,7 +98013,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -98077,7 +98077,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -98141,7 +98141,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -98205,7 +98205,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -98269,7 +98269,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -98333,7 +98333,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 10000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -99391,8 +99391,8 @@
         "position": 3
       }
     ],
-    "amount_min": 0,
-    "amount_max": 10000000
+    "amount_min": 1,
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -105869,8 +105869,8 @@
         "position": 5
       }
     ],
-    "amount_min": "30000",
-    "amount_max": "1000000000"
+    "amount_min": "1",
+    "amount_max": "9999999999"
   },
   {
     "status": "deprecated",
@@ -106441,7 +106441,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 4500000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -106867,7 +106867,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2350000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -123713,8 +123713,8 @@
         "position": 5
       }
     ],
-    "amount_min": 30000,
-    "amount_max": 1000000000
+    "amount_min": 1,
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -124226,7 +124226,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2350000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -128421,8 +128421,8 @@
         "position": 5
       }
     ],
-    "amount_min": 30000,
-    "amount_max": 1000000000
+    "amount_min": 1,
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -134142,7 +134142,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "2000000000"
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -134422,7 +134422,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "2000000000"
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -134730,7 +134730,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "2000000000"
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -135094,7 +135094,7 @@
       }
     ],
     "amount_min": "1",
-    "amount_max": "2000000000"
+    "amount_max": "9999999999"
   },
   {
     "status": "active",
@@ -136652,8 +136652,8 @@
     "code": "anz_bank_vnd",
     "currency": "VND",
     "method": "anz_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
       {
         "key": "beneficiary_first_name",
@@ -136751,8 +136751,8 @@
     "code": "mhb_bank_vnd",
     "currency": "VND",
     "method": "mhb_bank",
-    "amount_min": "30000",
-    "amount_max": "1000000000",
+    "amount_min": "1",
+    "amount_max": "9999999999",
     "fields": [
      {
         "key": "beneficiary_first_name",
@@ -140879,7 +140879,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2510000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
