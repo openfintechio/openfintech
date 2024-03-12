@@ -671,7 +671,7 @@
     "method": "bank_card",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 100000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -752,7 +752,7 @@
     "method": "payment_card",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 999999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -1901,7 +1901,7 @@
     "flow": "hpp",
     "method": "bank_transfer",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "payer_first_name",
@@ -4179,7 +4179,7 @@
     "flow": "hpp",
     "method": "visa_qr_code",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -4372,7 +4372,7 @@
     "method": "advcash_wallet",
     "flow": "hpp",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -6967,7 +6967,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -7014,7 +7014,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 999999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -7023,7 +7023,7 @@
     "flow": "hpp",
     "method": "vietcom_bank_qr",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -7090,7 +7090,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 999999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -7099,7 +7099,7 @@
     "flow": "hpp",
     "method": "vietin_bank_qr",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -7166,7 +7166,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 999999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -7213,7 +7213,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 999999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -7222,7 +7222,7 @@
     "flow": "hpp",
     "method": "bidv_bank_qr",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -7271,7 +7271,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -7318,7 +7318,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 999999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -7365,7 +7365,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 999999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -10117,7 +10117,7 @@
     "flow": "hpp",
     "method": "ecopayz",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -10291,7 +10291,7 @@
     "flow": "invoice",
     "method": "muchbetter",
     "amount_min": 1,
-    "amount_max": 999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -11492,7 +11492,7 @@
     "method": "tether",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 2000000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -11672,7 +11672,7 @@
     "method": "tether",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 2000000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -11834,7 +11834,7 @@
     "method": "tether",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 2000000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -11987,7 +11987,7 @@
     "method": "tether",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 2000000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -14939,7 +14939,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -14948,7 +14948,7 @@
     "flow": "hpp",
     "method": "momo_qr",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -14997,7 +14997,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15006,7 +15006,7 @@
     "flow": "hpp",
     "method": "zalo_qr",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -15055,7 +15055,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15102,7 +15102,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15149,7 +15149,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15178,7 +15178,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15207,7 +15207,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15236,7 +15236,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15265,7 +15265,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15294,7 +15294,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15323,7 +15323,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15352,7 +15352,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15381,7 +15381,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15428,7 +15428,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15457,7 +15457,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15486,7 +15486,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15515,7 +15515,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15544,7 +15544,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15573,7 +15573,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15602,7 +15602,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15631,7 +15631,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15660,7 +15660,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15689,7 +15689,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15718,7 +15718,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15747,7 +15747,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15776,7 +15776,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15805,7 +15805,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15834,7 +15834,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15863,7 +15863,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15892,7 +15892,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15921,7 +15921,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -15950,7 +15950,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16044,7 +16044,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16091,7 +16091,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16120,7 +16120,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16167,7 +16167,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16196,7 +16196,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16225,7 +16225,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16254,7 +16254,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16283,7 +16283,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16312,7 +16312,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16341,7 +16341,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 2500000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16350,7 +16350,7 @@
     "flow": "hpp",
     "method": "viettelpay",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16691,7 +16691,7 @@
     "method": "online_banking",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -16790,7 +16790,7 @@
     "method": "online_banking_qr",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -17572,7 +17572,7 @@
     "flow": "hpp",
     "method": "techcom_bank",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -17601,7 +17601,7 @@
     "flow": "hpp",
     "method": "techcom_bank_qr",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -17630,7 +17630,7 @@
     "flow": "hpp",
     "method": "asia_commercial_bank",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -17659,7 +17659,7 @@
     "flow": "hpp",
     "method": "asia_commercial_bank_qr",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -18094,7 +18094,7 @@
     "flow": "hpp",
     "method": "vietnam_prosperity_commerial_bank_qr",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -18123,7 +18123,7 @@
     "flow": "hpp",
     "method": "military_commercial_bank_qr",
     "amount_min": 1,
-    "amount_max": 999999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "account",
@@ -19221,8 +19221,8 @@
     "flow": "hpp",
     "method": "hero_payments",
     "currency": "VND",
-    "amount_min": 0,
-    "amount_max": 100000
+    "amount_min": 1,
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -19429,7 +19429,7 @@
     "method": "bitexpro_p2p",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -19672,7 +19672,7 @@
     "flow": "hpp",
     "method": "vnpay_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -19708,7 +19708,7 @@
     "flow": "hpp",
     "method": "momopay",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20553,7 +20553,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20582,7 +20582,7 @@
       }
     ],
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20645,7 +20645,7 @@
     "flow": "invoice",
     "method": "asia_commercial_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20654,7 +20654,7 @@
     "flow": "invoice",
     "method": "bidv_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20663,7 +20663,7 @@
     "flow": "invoice",
     "method": "dong_a_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20672,7 +20672,7 @@
     "flow": "invoice",
     "method": "exim_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20681,7 +20681,7 @@
     "flow": "invoice",
     "method": "sacom_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20690,7 +20690,7 @@
     "flow": "invoice",
     "method": "techcom_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20699,7 +20699,7 @@
     "flow": "invoice",
     "method": "vietcom_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20708,7 +20708,7 @@
     "flow": "invoice",
     "method": "vietin_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -20717,7 +20717,7 @@
     "flow": "invoice",
     "method": "vp_bank_qr",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -21007,7 +21007,7 @@
     "flow": "invoice",
     "method": "bank_transfer",
     "amount_min": 1,
-    "amount_max": 9999999
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -22060,7 +22060,7 @@
     "flow": "hpp",
     "method": "bank_transfer_aggregated",
     "amount_min": 1,
-    "amount_max": 9999999,
+    "amount_max": 9999999999,
     "fields": [
       {
         "key": "first_name",
@@ -24109,7 +24109,7 @@
     "method": "oriental_wallet",
     "currency": "VND",
     "amount_min": 1,
-    "amount_max": 2510000000
+    "amount_max": 9999999999
   },
   {
     "status": "active",
