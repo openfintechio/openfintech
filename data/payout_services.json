@@ -140728,7 +140728,7 @@
       {
         "key": "account_number",
         "type": "string",
-        "regexp": "\/^[0-9]{2,100}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "label": {
           "en": "Account number",
           "ru": "Номер счета",
@@ -140755,7 +140755,7 @@
       {
         "key": "account_number",
         "type": "string",
-        "regexp": "\/^[0-9]{2,100}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "label": {
           "en": "Account number",
           "ru": "Номер счета",
@@ -140782,7 +140782,7 @@
       {
         "key": "account_number",
         "type": "string",
-        "regexp": "\/^[0-9]{2,100}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "label": {
           "en": "Account number",
           "ru": "Номер счета",
@@ -140809,7 +140809,7 @@
       {
         "key": "account_number",
         "type": "string",
-        "regexp": "\/^[0-9]{2,100}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "label": {
           "en": "Account number",
           "ru": "Номер счета",
@@ -140836,7 +140836,7 @@
       {
         "key": "account_number",
         "type": "string",
-        "regexp": "\/^[0-9]{2,100}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "label": {
           "en": "Account number",
           "ru": "Номер счета",
@@ -140863,7 +140863,7 @@
       {
         "key": "account_number",
         "type": "string",
-        "regexp": "\/^[0-9]{2,100}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "label": {
           "en": "Account number",
           "ru": "Номер счета",
