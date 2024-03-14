@@ -24828,9 +24828,6 @@
     },
     "payment_method": [
       "payment_card"
-    ],
-    "payout_method": [
-      "payment_card"
     ]
   },
   {
@@ -24843,6 +24840,9 @@
       "uk": "CrystalBank"
     },
     "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ]
   },
