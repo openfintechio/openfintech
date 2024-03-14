@@ -25026,5 +25026,50 @@
         "example": "50284414727"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "anymoney_usdt_hpp",
+    "flow": "hpp",
+    "method": "anymoney",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "any_money_trx_hpp",
+    "flow": "hpp",
+    "method": "anymoney",
+    "currency": "TRX",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "any_money_ltc_hpp",
+    "flow": "hpp",
+    "method": "anymoney",
+    "currency": "LTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "any_money_btc_hpp",
+    "flow": "hpp",
+    "method": "anymoney",
+    "currency": "BTC",
+    "amount_min": 0.00001,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "any_money_eth_hpp",
+    "flow": "hpp",
+    "method": "anymoney",
+    "currency": "ETH",
+    "amount_min": 0.00001,
+    "amount_max": 100000
   }
 ]
