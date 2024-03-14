@@ -25202,5 +25202,21 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "onlinepay",
+    "vendor": "onlinepay",
+    "name": {
+      "en": "OnlinePay",
+      "ru": "OnlinePay",
+      "uk": "OnlinePay"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
