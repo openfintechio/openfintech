@@ -20279,6 +20279,22 @@
   },
   {
     "status": "active",
+    "code": "justipay",
+    "vendor": "justipay",
+    "name": {
+      "en": "Justipay",
+      "ru": "Justipay",
+      "uk": "Justipay"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payecards",
     "vendor": "payecards",
     "name": {
