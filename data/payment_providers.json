@@ -25253,5 +25253,18 @@
       "paytm",
       "googlepay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cashia",
+    "vendor": "cashia",
+    "name": {
+      "en": "Cashia",
+      "ru": "Cashia",
+      "uk": "Cashia"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
