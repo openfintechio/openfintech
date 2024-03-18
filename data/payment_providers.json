@@ -25237,5 +25237,21 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "pluspedirect",
+    "vendor": "pluspedirect",
+    "name": {
+      "en": "PlusPeDirect",
+      "ru": "PlusPeDirect",
+      "uk": "PlusPeDirect"
+    },
+    "payment_method": [
+      "upi",
+      "phonepe",
+      "paytm",
+      "googlepay"
+    ]
   }
 ]
