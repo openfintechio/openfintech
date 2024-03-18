@@ -25071,5 +25071,14 @@
     "currency": "ETH",
     "amount_min": 0.00001,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_inr_invoice",
+    "currency": "INR",
+    "flow": "invoice",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
   }
 ]
