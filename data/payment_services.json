@@ -25080,5 +25080,14 @@
     "method": "googlepay",
     "amount_min": 0.01,
     "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "paysense_uah_invoice",
+    "currency": "UAH",
+    "flow": "invoice",
+    "method": "paysense",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]
