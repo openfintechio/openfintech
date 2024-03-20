@@ -25274,5 +25274,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "facilitapay",
+    "vendor": "facilitapay",
+    "name": {
+      "en": "FacilitaPay",
+      "ru": "FacilitaPay",
+      "uk": "FacilitaPay"
+    },
+    "payment_method": [
+      "pix_qr"
+    ]
   }
 ]

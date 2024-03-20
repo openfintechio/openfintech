@@ -18758,6 +18758,42 @@
           "uk": "Введіть дату народження платника"
         },
         "example": "1986‐05‐22"
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9-]{13,36}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "94b31fca-7b26-273c-0eb3-4ef6c2f85121"
+      },
+      {
+        "key": "document_url",
+        "type": "string",
+        "regexp": "\/^(http(?:s?):\\/\\/[^?]*?\\?)?\\?*(.*?)(?:&?seal=([^&]*)(&?.*)?)?$\/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Document file url",
+          "ru": "Url документов",
+          "uk": "Url документів"
+        },
+        "hint": {
+          "en": "Enter document file url",
+          "ru": "Введите url где хранятся документы",
+          "uk": "Введіть url де зберыгаються документи"
+        },
+        "example": "https://somedomain.com/document-x.pdf"
       }
     ]
   },
