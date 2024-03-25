@@ -3546,7 +3546,8 @@
       "uk": "AstroPay"
     },
     "payout_method": [
-      "pix"
+      "pix",
+      "astropay_wallet"
     ],
     "payment_method": [
       "pix_qr"

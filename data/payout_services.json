@@ -142296,5 +142296,84 @@
     ],
     "amount_min": "0.02",
     "amount_max": "1700000"
+  },
+  {
+    "status": "active",
+    "code": "astropay_wallet_brl",
+    "method": "astropay_wallet",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[-\\s\\p{L}]{2,100}$\/u",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прiзвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прiзвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_email",
+        "type": "string",
+        "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+5588722651111"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "500000"
   }
 ]
