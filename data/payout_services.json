@@ -2927,14 +2927,14 @@
         "key": "account_email",
         "type": "string",
         "label": {
-          "en": "Account ID",
-          "ru": "Номер счета",
-          "uk": "Номер рахунку"
-        },
-        "hint": {
           "en": "Account Email",
           "ru": "Еmail аккаунта",
           "uk": "Еmail облікового запису"
+        },
+        "hint": {
+          "en": "Enter account email",
+          "ru": "Введите email аккаунта",
+          "uk": "Введіть email облікового запису"
         },
         "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
         "required": true,
