@@ -30577,5 +30577,25 @@
       "ru": "Bank Transfer Aggregated",
       "uk": "Bank Transfer Aggregated"
     }
+  },
+  {
+    "status": "active",
+    "code": "m10",
+    "category": "digital_wallet",
+    "name": {
+      "en": "M10",
+      "ru": "M10",
+      "uk": "M10"
+    }
+  },
+  {
+    "status": "active",
+    "code": "emanat",
+    "category": "invoice_payment",
+    "name": {
+      "en": "eManat",
+      "ru": "eManat",
+      "uk": "eManat"
+    }
   }
 ]
