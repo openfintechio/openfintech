@@ -142242,5 +142242,59 @@
     ],
     "amount_min": "0.01",
     "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "m10_azn",
+    "method": "m10",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+           "en": "Account number",
+           "ru": "Номер счета",
+           "uk": "Номер рахунку"
+        },
+        "hint": {
+           "en": "Enter account number",
+           "ru": "Введите номер счета",
+           "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required":true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.02",
+    "amount_max": "1700000"
+  },
+  {
+    "status": "active",
+    "code": "emanat_azn",
+    "method": "emanat",
+    "currency": "AZN",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+           "en": "Account number",
+           "ru": "Номер счета",
+           "uk": "Номер рахунку"
+        },
+        "hint": {
+           "en": "Enter account number",
+           "ru": "Введите номер счета",
+           "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required":true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.02",
+    "amount_max": "1700000"
   }
 ]
