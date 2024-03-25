@@ -23731,9 +23731,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "Aifory",
-      "ru": "Aifory",
-      "uk": "Aifory"
+      "en": "Euphoria",
+      "ru": "Euphoria",
+      "uk": "Euphoria"
     }
   },
   {
@@ -24017,6 +24017,9 @@
       "uk": "btGate"
     },
     "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ]
   },
@@ -25289,6 +25292,21 @@
     },
     "payment_method": [
       "pix_qr"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "rampnow",
+    "vendor": "rampnow",
+    "name": {
+      "en": "Rampnow",
+      "ru": "Rampnow",
+      "uk": "Rampnow"
+    },
+    "payment_method": [
+      "payment_card",
+      "applepay",
+      "googlepay"
     ]
   }
 ]

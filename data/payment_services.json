@@ -8771,6 +8771,15 @@
   },
   {
     "status": "active",
+    "code": "applepay_pln_hpp",
+    "currency": "PLN",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "applepay_gbp_hpp",
     "currency": "GBP",
     "flow": "hpp",
@@ -8827,6 +8836,15 @@
     "status": "active",
     "code": "googlepay_eur_hpp",
     "currency": "EUR",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_pln_hpp",
+    "currency": "PLN",
     "flow": "hpp",
     "method": "googlepay",
     "amount_min": 0.01,
