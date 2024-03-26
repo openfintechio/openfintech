@@ -1253,6 +1253,15 @@
   },
   {
     "status": "active",
+    "code": "ripple_xrp_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "XRP",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "ripple_eur_hpp",
     "flow": "hpp",
     "method": "ripple",
@@ -25183,5 +25192,14 @@
     "method": "paysense",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "cardano_ada_hpp",
+    "currency": "ADA",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
