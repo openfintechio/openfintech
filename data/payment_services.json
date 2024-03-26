@@ -23888,6 +23888,24 @@
   },
   {
     "status": "active",
+    "code": "astropay_wallet_brl_hpp",
+    "flow": "hpp",
+    "method": "astropay_wallet",
+    "currency": "BRL",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "astropay_wallet_eur_hpp",
+    "flow": "hpp",
+    "method": "astropay_wallet",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
     "code": "monobank_uah_invoice",
     "flow": "invoice",
     "method": "monobank",
