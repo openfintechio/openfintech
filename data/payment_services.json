@@ -25201,5 +25201,23 @@
     "method": "paysense",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "m10_azn_hpp",
+    "flow": "hpp",
+    "method": "m10",
+    "currency": "AZN",
+    "amount_min": 0.02,
+    "amount_max": 170000
+  },
+  {
+    "status": "active",
+    "code": "emanat_azn_hpp",
+    "flow": "hpp",
+    "method": "emanat",
+    "currency": "AZN",
+    "amount_min": 0.02,
+    "amount_max": 170000
   }
 ]
