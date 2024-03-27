@@ -25313,5 +25313,19 @@
       "applepay",
       "googlepay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "hellopayment",
+    "vendor": "hellopayment",
+    "name": {
+      "en": "HelloPayment",
+      "ru": "HelloPayment",
+      "uk": "HelloPayment"
+    },
+    "payment_method": [
+      "payment_card",
+      "bank_transfer"
+    ]
   }
 ]
