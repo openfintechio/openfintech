@@ -35721,6 +35721,122 @@
   },
   {
     "status": "active",
+    "code": "usd_coin_erc20_usdc",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC ERC-20 wallet",
+          "ru": "USDC ERC-20 кошелёк",
+          "uk": "USDC ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "USDC ERC-20 wallet",
+          "ru": "USDC ERC-20 кошелёк",
+          "uk": "USDC ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_trc20_usdc",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC TRC-20 wallet",
+          "ru": "USDC TRC-20 кошелёк",
+          "uk": "USDC TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "USDC TRC-20 wallet",
+          "ru": "USDC TRC-20 кошелёк",
+          "uk": "USDC TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ripple_xrp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "XRP",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "XRP wallet",
+          "ru": "XRP кошелёк",
+          "uk": "XRP гаманець"
+        },
+        "hint": {
+          "en": "XRP wallet",
+          "ru": "XRP кошелёк",
+          "uk": "XRP гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "cardano_ada",
+    "flow": "hpp",
+    "method": "cardano",
+    "currency": "ADA",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Cardano ADA wallet",
+          "ru": "Cardano ADA кошелёк",
+          "uk": "Cardano ADA гаманець"
+        },
+        "hint": {
+          "en": "Cardano ADA wallet",
+          "ru": "Cardano ADA кошелёк",
+          "uk": "Cardano ADA гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "tether_omni_usdt",
     "method": "tether",
     "currency": "USDT",
