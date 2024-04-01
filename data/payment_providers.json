@@ -25327,5 +25327,29 @@
       "payment_card",
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "coinsflow",
+    "vendor": "coinsflow",
+    "name": {
+      "en": "Coinsflow",
+      "ru": "Coinsflow",
+      "uk": "Coinsflow"
+    },
+    "payment_method": [
+      "bitcoin",
+      "ethereum",
+      "tether",
+      "usd_coin",
+      "binance_coin",
+      "ripple",
+      "litecoin",
+      "dogecoin",
+      "tron",
+      "bitcoin_cash",
+      "polygon",
+      "cardano"
+    ]
   }
 ]
