@@ -21994,6 +21994,15 @@
   },
   {
     "status": "active",
+    "code": "nagad_wallet_bdt_invoice",
+    "currency": "BDT",
+    "flow": "invoice",
+    "method": "nagad_wallet",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aggregated_php_hpp",
     "currency": "PHP",
     "flow": "hpp",

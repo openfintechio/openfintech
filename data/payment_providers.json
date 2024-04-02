@@ -23548,6 +23548,11 @@
     "status": "active",
     "code": "payport",
     "vendor": "payport",
+    "name": {
+      "en": "PayPort",
+      "ru": "PayPort",
+      "uk": "PayPort"
+    },
     "payment_method": [
       "card_transfer",
       "cash",
@@ -23561,13 +23566,9 @@
       "imps",
       "rtgs",
       "phonepe",
-      "bkash_limited"
+      "bkash_limited",
+      "nagad_wallet"
     ],
-    "name": {
-      "en": "PayPort",
-      "ru": "PayPort",
-      "uk": "PayPort"
-    },
     "payout_method": [
       "bank_transfer",
       "payment_card",
