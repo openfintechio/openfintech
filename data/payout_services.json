@@ -112195,7 +112195,7 @@
         "example": "6339152330011",
         "regexp": "\/^\\d{10,14}$\/",
         "required": false,
-        "position": 4
+        "position": 7
       },
       {
         "key": "beneficiary_email",
@@ -112213,7 +112213,24 @@
         "example": "johndoe@example.com",
         "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
         "required": false,
-        "position": 5
+        "position": 8
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 9
       }
     ]
   },
