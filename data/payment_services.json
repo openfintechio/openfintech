@@ -21416,7 +21416,7 @@
     "fields": [
       {
         "key": "account",
-        "type": "rwfstring",
+        "type": "string",
         "regexp": "\/^.{1,50}$\/",
         "required": false,
         "position": 1,
