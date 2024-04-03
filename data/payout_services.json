@@ -2927,6 +2927,11 @@
         "key": "account_email",
         "type": "string",
         "label": {
+          "en": "Account ID",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
           "en": "Account Email",
           "ru": "Еmail аккаунта",
           "uk": "Еmail облікового запису"
@@ -35718,6 +35723,122 @@
     ],
     "amount_min": "0.00000001",
     "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_erc20_usdc",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC ERC-20 wallet",
+          "ru": "USDC ERC-20 кошелёк",
+          "uk": "USDC ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "USDC ERC-20 wallet",
+          "ru": "USDC ERC-20 кошелёк",
+          "uk": "USDC ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_trc20_usdc",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC TRC-20 wallet",
+          "ru": "USDC TRC-20 кошелёк",
+          "uk": "USDC TRC-20 гаманець"
+        },
+        "hint": {
+          "en": "USDC TRC-20 wallet",
+          "ru": "USDC TRC-20 кошелёк",
+          "uk": "USDC TRC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ripple_xrp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "XRP",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "XRP wallet",
+          "ru": "XRP кошелёк",
+          "uk": "XRP гаманець"
+        },
+        "hint": {
+          "en": "XRP wallet",
+          "ru": "XRP кошелёк",
+          "uk": "XRP гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "cardano_ada",
+    "flow": "hpp",
+    "method": "cardano",
+    "currency": "ADA",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Cardano ADA wallet",
+          "ru": "Cardano ADA кошелёк",
+          "uk": "Cardano ADA гаманець"
+        },
+        "hint": {
+          "en": "Cardano ADA wallet",
+          "ru": "Cardano ADA кошелёк",
+          "uk": "Cardano ADA гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
   },
   {
     "status": "active",
@@ -94049,6 +94170,23 @@
           "ru": "Введите полное имя получателя",
           "uk": "Введіть повне імʼя одержувача"
         }
+      },
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Wallet ID",
+          "ru": "Номер кошелька",
+          "uk": "Номер гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet ID",
+          "ru": "Введите номер кошелька",
+          "uk": "Введіть номер гаманця"
+        },
+        "regexp": "\/^.{5,100}$\/",
+        "required": false,
+        "position": 7
       }
     ],
     "amount_min": 1,
@@ -112190,7 +112328,7 @@
         "example": "6339152330011",
         "regexp": "\/^\\d{10,14}$\/",
         "required": false,
-        "position": 4
+        "position": 7
       },
       {
         "key": "beneficiary_email",
@@ -112208,7 +112346,24 @@
         "example": "johndoe@example.com",
         "regexp": "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/",
         "required": false,
-        "position": 5
+        "position": 8
+      },
+      {
+        "key": "customer_name",
+        "type": "string",
+        "label": {
+          "en": "Customer name",
+          "ru": "Имя покупателя",
+          "uk": "Ім'я клієнта"
+        },
+        "hint": {
+          "en": "Enter customer name",
+          "ru": "Введите имя покупателя",
+          "uk": "Введіть ім'я клієнта"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/",
+        "required": false,
+        "position": 9
       }
     ]
   },
@@ -143095,5 +143250,383 @@
     ],
     "amount_min": "0.01",
     "amount_max": "500000"
+  },
+  {
+    "status": "active",
+    "code": "otp_bank_uah",
+    "method": "otp_bank",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "creditagricole_bank_uah",
+    "method": "creditagricole_bank",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "creditdnipro_bank_uah",
+    "method": "creditdnipro_bank",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "vlasnyirakhunok_bank_uah",
+    "method": "vlasnyirakhunok_bank",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "izi_bank_uah",
+    "method": "izi_bank",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "pumb_bank_uah",
+    "method": "pumb_bank",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "abank_uah",
+    "method": "abank",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "mono_bank_uah",
+    "method": "mono_bank",
+    "currency": "UAH",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "centercredit_bank_kzt",
+    "method": "centercredit_bank",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "forte_bank_kzt",
+    "method": "forte_bank",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "altyn_bank_kzt",
+    "method": "altyn_bank",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "halyk_bank_kzt",
+    "method": "halyk_bank",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "jusan_bank_kzt",
+    "method": "jusan_bank",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "kaspi_bank_kzt",
+    "method": "kaspi_bank",
+    "currency": "KZT",
+    "fields": [
+      {
+        "key": "card_number",
+        "type": "string",
+        "label": {
+          "en": "Card number",
+          "ru": "Номер карты",
+          "uk": "Номер картки"
+        },
+        "hint": {
+          "en": "Enter card number",
+          "ru": "Введите номер карты",
+          "uk": "Введіть номер картки"
+        },
+        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 50000000
   }
 ]
