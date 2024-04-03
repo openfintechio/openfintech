@@ -18440,6 +18440,19 @@
   },
   {
     "status": "active",
+    "code": "payway",
+    "vendor": "payway",
+    "name": {
+      "en": "Payway",
+      "ru": "Payway",
+      "uk": "Payway"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "anymoney",
     "vendor": "anymoney",
     "name": {
