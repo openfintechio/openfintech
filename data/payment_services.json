@@ -13178,6 +13178,15 @@
   },
   {
     "status": "active",
+    "code": "bancontact_eur_hpp",
+    "flow": "hpp",
+    "method": "bancontact",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "paymentrush_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
