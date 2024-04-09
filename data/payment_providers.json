@@ -25410,5 +25410,18 @@
       "polygon",
       "cardano"
     ]
+  },
+  {
+    "status": "active",
+    "code": "kitopay",
+    "vendor": "kitopay",
+    "name": {
+      "en": "Kitopay",
+      "ru": "Kitopay",
+      "uk": "Kitopay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
