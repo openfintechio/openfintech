@@ -82571,14 +82571,14 @@
         "required": false,
         "position": 1,
         "label": {
-          "en": "CPF number",
-          "ru": "CPF номер",
-          "uk": "CPF номер"
+          "en": "Beneficiary CPF or CNPJ number",
+          "ru": "Beneficiary CPF or CNPJ number",
+          "uk": "Beneficiary CPF or CNPJ number"
         },
         "hint": {
-          "en": "Enter CPF number",
-          "ru": "Введите CPF номер",
-          "uk": "Введіть CPF номер"
+          "en": "Enter beneficiary CPF or CNPJ number",
+          "ru": "Enter beneficiary CPF or CNPJ number",
+          "uk": "Enter beneficiary CPF or CNPJ number"
         },
         "example": "88899988811"
       },
@@ -82849,9 +82849,9 @@
         "required": false,
         "position": 17,
         "label": {
-          "en": "Beneficiary's PIX account type",
-          "ru": "Тип аккаунта PIX получателя",
-          "uk": "Тип облікового запису PIX отримувача"
+          "en": "Beneficiary's PIX Key account type",
+          "ru": "Beneficiary's PIX Key account type",
+          "uk": "Beneficiary's PIX Key account type"
         },
         "hint": {
           "en": "CPF|CNPJ|EVP|PHONE|EMAIL|RANDOMKEY",
