@@ -98859,6 +98859,70 @@
   },
   {
     "status": "active",
+    "code": "mestika_bank_idr",
+    "currency": "IDR",
+    "method": "mestika_bank",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 3,
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
     "code": "panin_bank_idr",
     "currency": "IDR",
     "method": "panin_bank",
@@ -99116,6 +99180,70 @@
   {
     "status": "active",
     "code": "cimb_bank_idr",
+    "currency": "IDR",
+    "method": "cimb_niaga",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 3,
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "cimb_niaga_idr",
     "currency": "IDR",
     "method": "cimb_niaga",
     "fields": [
@@ -132998,6 +133126,69 @@
   {
     "status": "active",
     "code": "kyoto_shinkin_bank",
+    "currency": "JPY",
+    "method": "kyoto_shinkin_bank",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": true,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": true,
+        "position": 3,
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 999999
+  },{
+    "status": "active",
+    "code": "kyoto_shinkin_bank_jpy",
     "currency": "JPY",
     "method": "kyoto_shinkin_bank",
     "fields": [
