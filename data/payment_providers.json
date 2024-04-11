@@ -15699,6 +15699,9 @@
     "payment_method": [
       "upi",
       "bank_transfer_aggregated"
+    ],
+    "payout_method": [
+      "upi"
     ]
   },
   {
@@ -25389,7 +25392,11 @@
     "payment_method": [
       "payment_card",
       "applepay",
-      "googlepay"
+      "googlepay",
+      "blik",
+      "bancontact",
+      "ideal",
+      "sofort"
     ]
   },
   {
@@ -25446,6 +25453,19 @@
       "bitcoin_cash",
       "polygon",
       "cardano"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kitopay",
+    "vendor": "kitopay",
+    "name": {
+      "en": "Kitopay",
+      "ru": "Kitopay",
+      "uk": "Kitopay"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]

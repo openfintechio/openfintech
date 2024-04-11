@@ -82571,14 +82571,14 @@
         "required": false,
         "position": 1,
         "label": {
-          "en": "CPF number",
-          "ru": "CPF номер",
-          "uk": "CPF номер"
+          "en": "Beneficiary CPF or CNPJ number",
+          "ru": "Beneficiary CPF or CNPJ number",
+          "uk": "Beneficiary CPF or CNPJ number"
         },
         "hint": {
-          "en": "Enter CPF number",
-          "ru": "Введите CPF номер",
-          "uk": "Введіть CPF номер"
+          "en": "Enter beneficiary CPF or CNPJ number",
+          "ru": "Enter beneficiary CPF or CNPJ number",
+          "uk": "Enter beneficiary CPF or CNPJ number"
         },
         "example": "88899988811"
       },
@@ -82849,9 +82849,9 @@
         "required": false,
         "position": 17,
         "label": {
-          "en": "Beneficiary's PIX account type",
-          "ru": "Тип аккаунта PIX получателя",
-          "uk": "Тип облікового запису PIX отримувача"
+          "en": "Beneficiary's PIX Key account type",
+          "ru": "Beneficiary's PIX Key account type",
+          "uk": "Beneficiary's PIX Key account type"
         },
         "hint": {
           "en": "CPF|CNPJ|EVP|PHONE|EMAIL|RANDOMKEY",
@@ -98859,6 +98859,70 @@
   },
   {
     "status": "active",
+    "code": "mestika_bank_idr",
+    "currency": "IDR",
+    "method": "mestika_bank",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 3,
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
     "code": "panin_bank_idr",
     "currency": "IDR",
     "method": "panin_bank",
@@ -99116,6 +99180,70 @@
   {
     "status": "active",
     "code": "cimb_bank_idr",
+    "currency": "IDR",
+    "method": "cimb_niaga",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 3,
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "cimb_niaga_idr",
     "currency": "IDR",
     "method": "cimb_niaga",
     "fields": [
@@ -133166,6 +133294,69 @@
     ],
     "amount_min": 1,
     "amount_max": 999999
+  },{
+    "status": "active",
+    "code": "kyoto_shinkin_bank_jpy",
+    "currency": "JPY",
+    "method": "kyoto_shinkin_bank",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "regexp": "/^.{1,50}$/",
+        "required": true,
+        "position": 1,
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": true,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": true,
+        "position": 3,
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 999999
   },
   {
     "status": "active",
@@ -143378,7 +143569,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143405,7 +143596,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143432,7 +143623,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143459,7 +143650,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143486,7 +143677,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143513,7 +143704,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143540,7 +143731,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143567,7 +143758,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143594,7 +143785,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143621,7 +143812,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143648,7 +143839,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143675,7 +143866,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143702,7 +143893,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }
@@ -143729,7 +143920,7 @@
           "ru": "Введите номер карты",
           "uk": "Введіть номер картки"
         },
-        "regexp": "^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$",
+        "regexp": "\/^([245]{1}[\\d]{15}|[6]{1}[\\d]{17})$\/",
         "required": true,
         "position": 1
       }

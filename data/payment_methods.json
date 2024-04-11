@@ -6744,6 +6744,16 @@
   },
   {
     "status": "active",
+    "code": "bancontact",
+    "category": "bank_transfer",
+    "name": {
+      "en": "bancontact",
+      "uk": "bancontact",
+      "ru": "bancontact"
+    }
+  },
+  {
+    "status": "active",
     "code": "budpay_aggregated",
     "category": "alternative",
     "name": {
