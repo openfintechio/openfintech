@@ -30898,5 +30898,35 @@
       "ru": "VBS Mutual Bank, South Africa",
       "uk": "VBS Mutual Bank, South Africa"
     }
+  },
+  {
+    "status": "active",
+    "code": "paybol",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Paybol",
+      "ru": "Paybol",
+      "uk": "Paybol"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nova_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "NovaBank",
+      "ru": "NovaBank",
+      "uk": "NovaBank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "community_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Community Bank",
+      "uk": "Community Bank",
+      "ru": "Community Bank"
+    }
   }
 ]
