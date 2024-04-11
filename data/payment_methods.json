@@ -9885,5 +9885,25 @@
     "description": {
       "en": "Accept crypto payments worldwide in seconds"
     }
+  },
+  {
+    "status": "active",
+    "code": "paybol",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Paybol",
+      "ru": "Paybol",
+      "uk": "Paybol"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nova_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "NovaBank",
+      "ru": "NovaBank",
+      "uk": "NovaBank"
+    }
   }
 ]

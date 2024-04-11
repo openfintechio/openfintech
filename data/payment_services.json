@@ -16666,6 +16666,24 @@
   },
   {
     "status": "active",
+    "code": "paybol_try_hpp",
+    "flow": "hpp",
+    "method": "paybol",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "nova_bank_try_hpp",
+    "flow": "hpp",
+    "method": "nova_bank",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
     "code": "online_banking_qr_try_hpp",
     "flow": "hpp",
     "method": "online_banking_qr",

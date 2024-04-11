@@ -84196,6 +84196,192 @@
   },
   {
     "status": "active",
+    "code": "paybol_try",
+    "method": "paybol",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{1,100}$\/u",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{1,100}$\/u",
+        "required": true,
+        "position": 3,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "community_bank_try",
+    "method": "community_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{1,100}$\/u",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{1,100}$\/u",
+        "required": true,
+        "position": 3,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "nova_bank_try",
+    "method": "nova_bank",
+    "currency": "TRY",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "1234567",
+        "regexp": "\/^.{1,100}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{1,100}$\/u",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Ім'я отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть ім'я отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{1,100}$\/u",
+        "required": true,
+        "position": 3,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
     "code": "ziraat_bank_try",
     "method": "ziraat_bank",
     "currency": "TRY",
