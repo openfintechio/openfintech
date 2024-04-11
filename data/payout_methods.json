@@ -25958,6 +25958,16 @@
   },
   {
     "status":"active",
+    "code":"access_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Access Bank",
+      "ru": "Access Bank",
+      "uk": "Access Bank"
+    }
+  },
+  {
+    "status":"active",
     "code":"access_yelloand_beta",
     "category":"bank_transfer",
     "name":{
@@ -30757,6 +30767,136 @@
       "en": "Kaspi Bank",
       "ru": "Kaspi Bank",
       "uk": "Kaspi Bank"
+    }
+  },
+  {
+    "status":"active",
+    "code":"albaraka_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Albaraka Bank, South Africa",
+      "ru": "Albaraka Bank, South Africa",
+      "uk": "Albaraka Bank, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"bank_zero",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Bank Zero, South Africa",
+      "ru": "Bank Zero, South Africa",
+      "uk": "Bank Zero, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"discovery_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Discovery Bank Limited, South Africa",
+      "ru": "Discovery Bank Limited, South Africa",
+      "uk": "Discovery Bank Limited, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"finbond_mutual_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Finbond Mutual Bank, South Africa",
+      "ru": "Finbond Mutual Bank, South Africa",
+      "uk": "Finbond Mutual Bank, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"first_rand_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "FirstRand Bank, South Africa",
+      "ru": "FirstRand Bank, South Africa",
+      "uk": "FirstRand Bank, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"grindrod_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Grindrod Bank, South Africa",
+      "ru": "Grindrod Bank, South Africa",
+      "uk": "Grindrod Bank, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"hsbc_south_africa",
+    "category":"bank_transfer",
+    "name":{
+      "en": "HSBC Bank, South Africa",
+      "ru": "HSBC Bank, South Africa",
+      "uk": "HSBC Bank, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"olympus_mobile_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Olympus Mobile Bank, South Africa",
+      "ru": "Olympus Mobile Bank, South Africa",
+      "uk": "Olympus Mobile Bank, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"rmb_private_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "RMB Private Bank, South Africa",
+      "ru": "RMB Private Bank, South Africa",
+      "uk": "RMB Private Bank, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"sasfin_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "SASFIN Bank, South Africa",
+      "ru": "SASFIN Bank, South Africa",
+      "uk": "SASFIN Bank, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"south_african_bank_of_athens",
+    "category":"bank_transfer",
+    "name":{
+      "en": "South African Bank of Athens",
+      "ru": "South African Bank of Athens",
+      "uk": "South African Bank of Athens"
+    }
+  },
+  {
+    "status":"active",
+    "code":"ubank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Ubank LTD, South Africa",
+      "ru": "Ubank LTD, South Africa",
+      "uk": "Ubank LTD, South Africa"
+    }
+  },
+  {
+    "status":"active",
+    "code":"vbs_mutual_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en": "VBS Mutual Bank, South Africa",
+      "ru": "VBS Mutual Bank, South Africa",
+      "uk": "VBS Mutual Bank, South Africa"
     }
   }
 ]
