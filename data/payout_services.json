@@ -141277,6 +141277,62 @@
   },
   {
     "status": "active",
+    "code": "kunapay_crypto_usdt",
+    "method": "kunapay_crypto",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "regexp": "/^[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Recipient Kuna ID",
+          "ru": "Kuna ID получателя",
+          "uk": "Kuna ID отримувача"
+        },
+        "hint": {
+          "en": "Enter recipient Kuna ID",
+          "ru": "Введите Kuna ID получателя",
+          "uk": "Введіть Kuna ID отримувача"
+        },
+        "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "kunapay_crypto_btc",
+    "method": "kunapay_crypto",
+    "currency": "BTC",
+    "fields": [
+      {
+        "key": "account_id",
+        "type": "string",
+        "regexp": "/^[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Recipient Kuna ID",
+          "ru": "Kuna ID получателя",
+          "uk": "Kuna ID отримувача"
+        },
+        "hint": {
+          "en": "Enter recipient Kuna ID",
+          "ru": "Введите Kuna ID получателя",
+          "uk": "Введіть Kuna ID отримувача"
+        },
+        "example": "8392b470-5e79-4396-96f0-2a936c8ba4cc"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
     "code": "t_kash_kes",
     "method": "t_kash",
     "currency": "KES",
