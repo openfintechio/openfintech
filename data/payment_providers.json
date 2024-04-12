@@ -21063,6 +21063,19 @@
   },
   {
     "status": "active",
+    "code": "scpay",
+    "vendor": "scpay",
+    "name": {
+      "en": "SecurePay",
+      "ru": "SecurePay",
+      "uk": "SecurePay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "passpoint",
     "vendor": "passpoint",
     "name": {
