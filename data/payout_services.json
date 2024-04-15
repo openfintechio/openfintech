@@ -143661,6 +143661,119 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_sgd",
+    "method": "bank_transfer",
+    "currency": "SGD",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number or IBAN",
+          "ru": "Введите номер счета или IBAN",
+          "uk": "Введіть номер рахунку або IBAN"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "account_name",
+        "type": "string",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Account Name",
+          "ru": "Account Name",
+          "uk": "Account Name"
+        },
+        "hint": {
+          "en": "Enter Account Name",
+          "ru": "Введите Account Name",
+          "uk": "Введіть Account Name"
+        },
+        "regexp": "\/^[A-Za-z0-9\\s]{2,100}$\/"
+      },
+      {
+        "key": "bank_branch",
+        "type": "string",
+        "required": true,
+        "position": 3,
+        "label": {
+          "en": "Bank Branch",
+          "ru": "Bank Branch",
+          "uk": "Bank Branch"
+        },
+        "hint": {
+          "en": "Enter Bank Branch",
+          "ru": "Введите Bank Branch",
+          "uk": "Введіть Bank Branch"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "province",
+        "type": "string",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Province",
+          "ru": "Провинция",
+          "uk": "Провінція"
+        },
+        "hint": {
+          "en": "Enter province",
+          "ru": "Введите провинцию",
+          "uk": "Введіть провінцію"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "city",
+        "type": "string",
+        "required": true,
+        "position": 5,
+        "label": {
+          "en": "City",
+          "ru": "Город",
+          "uk": "Місто"
+        },
+        "hint": {
+          "en": "Enter city",
+          "ru": "Введите город",
+          "uk": "Введіть місто"
+        },
+        "regexp": "\/^[A-Za-z,0-9]{2,100}$\/"
+      },
+      {
+        "key": "full_address",
+        "type": "string",
+        "required": true,
+        "position": 6,
+        "label": {
+          "en": "Address",
+          "ru": "Address",
+          "uk": "Address"
+        },
+        "hint": {
+          "en": "Enter address",
+          "ru": "Введите адрес",
+          "uk": "Введіть адресу"
+        },
+        "regexp": "\/^[A-Za-z{*}, -d]{2,64}$\/"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000.00"
+  },
+  {
+    "status": "active",
     "code": "m10_azn",
     "method": "m10",
     "currency": "AZN",
