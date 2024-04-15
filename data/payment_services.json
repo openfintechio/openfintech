@@ -4147,6 +4147,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_sgd_hpp",
+    "currency": "SGD",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
     "code": "visa_qr_code_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
