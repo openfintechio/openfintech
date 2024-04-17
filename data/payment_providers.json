@@ -25488,5 +25488,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paymentspro",
+    "vendor": "paymentspro",
+    "name": {
+      "en": "PaymentsPro",
+      "ru": "PaymentsPro",
+      "uk": "PaymentsPro"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
