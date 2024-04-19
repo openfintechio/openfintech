@@ -10357,23 +10357,6 @@
   },
   {
     "status": "active",
-    "code": "sirumobile",
-    "vendor": "sirumobile",
-    "countries": [
-      "FJ",
-      "NO",
-      "SE",
-      "AE"
-    ],
-    "metadata": {
-      "about_payments_code": "sirumobile"
-    },
-    "name": {
-      "en": "Siru Mobile"
-    }
-  },
-  {
-    "status": "active",
     "code": "bitcoinpaygate",
     "vendor": "bitcoinpaygate",
     "metadata": {
@@ -25401,6 +25384,19 @@
     },
     "payment_method": [
       "pix_qr"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "sirumobile",
+    "vendor": "sirumobile",
+    "name": {
+      "en": "Siru Mobile",
+      "ru": "Siru Mobile",
+      "uk": "Siru Mobile"
+    },
+    "payment_method": [
+      "siru_mobile"
     ]
   },
   {

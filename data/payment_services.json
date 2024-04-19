@@ -18500,6 +18500,82 @@
   },
   {
     "status": "active",
+    "code": "siru_mobile_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "siru_mobile",
+    "amount_min": 0.1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "\/^(\\d{8})|(\\d{6}-[0-9A-Za-z]{4})$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        },
+        "example": "850212-1234"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "siru_mobile_nok_hpp",
+    "currency": "NOK",
+    "flow": "hpp",
+    "method": "siru_mobile",
+    "amount_min": 1.1,
+    "amount_max": 1100672
+  },
+  {
+    "status": "active",
+    "code": "siru_mobile_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "siru_mobile",
+    "amount_min": 0.08,
+    "amount_max": 80173.82
+  },
+  {
+    "status": "active",
+    "code": "siru_mobile_sek_hpp",
+    "currency": "SEK",
+    "flow": "hpp",
+    "method": "siru_mobile",
+    "amount_min": 1.09,
+    "amount_max": 1089319,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "\/^\\d{6}-[0-9A-Za-z]{4}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        },
+        "example": "850212-1234"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "hsbc_bank_indonesia_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
