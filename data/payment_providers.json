@@ -16655,15 +16655,14 @@
     "status": "active",
     "code": "paymentz",
     "vendor": "paymentz",
-    "countries": [
-      "IN"
-    ],
-    "metadata": {
-      "about_payments_code": "paymentz"
-    },
     "name": {
-      "en": "Paymentz"
-    }
+      "en": "Paymentz",
+      "ru": "Paymentz",
+      "uk": "Paymentz"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
