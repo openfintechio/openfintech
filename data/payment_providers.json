@@ -25542,6 +25542,19 @@
   },
   {
     "status": "active",
+    "code": "winteca",
+    "vendor": "winteca",
+    "name": {
+      "en": "Winteca",
+      "ru": "Winteca",
+      "uk": "Winteca"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "bkash",
     "vendor": "bkash",
     "name": {
