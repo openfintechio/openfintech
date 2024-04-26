@@ -25584,5 +25584,18 @@
     "payment_method": [
       "bkash_limited"
     ]
+  },
+  {
+    "status": "active",
+    "code": "nagad",
+    "vendor": "nagad",
+    "name": {
+      "en": "Nagad",
+      "ru": "Nagad",
+      "uk": "Nagad"
+    },
+    "payment_method": [
+      "nagad_wallet"
+    ]
   }
 ]
