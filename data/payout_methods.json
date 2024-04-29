@@ -23875,6 +23875,26 @@
   },
   {
     "status": "active",
+    "code": "enterprise_bank_limited",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Enterprise Bank Limited",
+      "uk": "Enterprise Bank Limited",
+      "ru": "Enterprise Bank Limited"
+    }
+  },
+  {
+    "status": "active",
+    "code": "npfmicrofinance_bank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "NPF Microfinance Bank Plc",
+      "uk": "NPF Microfinance Bank Plc",
+      "ru": "NPF Microfinance Bank Plc"
+    }
+  },
+  {
+    "status": "active",
     "code": "pix",
     "vendor": "bcb",
     "category": "bank_transfer",
