@@ -20092,6 +20092,19 @@
   },
   {
     "status": "active",
+    "code": "paymomentum",
+    "vendor": "paymomentum",
+    "name": {
+      "en": "Pay Momentum",
+      "ru": "Pay Momentum",
+      "uk": "Pay Momentum"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paysoftsolutions",
     "vendor": "paysoftsolutions",
     "name": {
