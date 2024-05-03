@@ -14887,7 +14887,7 @@
       {
         "key": "phone",
         "type": "string",
-        "regexp": "\/^\\+\\d{10,14}$\/",
+        "regexp": "\/^\\+?\\d{10,14}$\/",
         "required": false,
         "position": 2,
         "example": "+255742044295",
