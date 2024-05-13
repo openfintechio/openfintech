@@ -23765,6 +23765,19 @@
   },
   {
     "status": "active",
+    "code": "overpay",
+    "vendor": "overpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Overpay",
+      "ru": "Overpay",
+      "uk": "Overpay"
+    }
+  },
+  {
+    "status": "active",
     "code": "paystage",
     "vendor": "paystage",
     "payment_method": [
