@@ -25394,5 +25394,23 @@
     "method": "kunapay_crypto",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "humo_uzs_hpp",
+    "flow": "hpp",
+    "method": "humo",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "uzcard_uzs_hpp",
+    "flow": "hpp",
+    "method": "uzcard",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 100000000
   }
 ]
