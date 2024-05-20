@@ -36807,7 +36807,7 @@
     "method": "perfectmoney_transfer",
     "currency": "USD",
     "amount_min": "0.01",
-    "amount_max": "10000",
+    "amount_max": "100000",
     "fields": [
       {
         "key": "account",
@@ -36834,7 +36834,7 @@
     "method": "perfectmoney_transfer",
     "currency": "EUR",
     "amount_min": "0.01",
-    "amount_max": "10000",
+    "amount_max": "100000",
     "fields": [
       {
         "key": "account",
