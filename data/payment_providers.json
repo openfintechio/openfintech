@@ -18549,7 +18549,8 @@
       "neteller"
     ],
     "payment_method": [
-      "neteller"
+      "neteller",
+      "payment_card"
     ]
   },
   {
@@ -24078,7 +24079,8 @@
     "vendor": "paysecure",
     "payment_method": [
       "payment_card",
-      "quick_bit"
+      "quick_bit",
+      "bank_transfer"
     ],
     "name": {
       "en": "Paysecure",
@@ -25584,6 +25586,12 @@
       "upi",
       "humo",
       "uzcard"
+    ],
+    "payout_method": [
+      "payment_card",
+      "upi",
+      "imps",
+      "bank_transfer"
     ]
   },
   {
