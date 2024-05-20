@@ -25648,5 +25648,18 @@
     "payment_method": [
       "nagad_wallet"
     ]
+  },
+  {
+    "status": "active",
+    "code": "espertopay",
+    "vendor": "espertopay",
+    "name": {
+      "en": "EspertoPay",
+      "ru": "EspertoPay",
+      "uk": "EspertoPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
