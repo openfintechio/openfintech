@@ -25682,5 +25682,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "prosperos",
+    "vendor": "prosperos",
+    "name": {
+      "en": "Prosperos",
+      "ru": "Prosperos",
+      "uk": "Prosperos"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
