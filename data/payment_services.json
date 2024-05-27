@@ -13252,6 +13252,15 @@
   },
   {
     "status": "active",
+    "code": "gatepay_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "gatepay",
+    "amount_min": 1,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "boleto_bancario_brl_hpp",
     "currency": "BRL",
     "flow": "hpp",
