@@ -25695,5 +25695,19 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "tapbank",
+    "vendor": "tapbank",
+    "name": {
+      "en": "TapBank",
+      "ru": "TapBank",
+      "uk": "TapBank"
+    },
+    "payment_method": [
+      "card_transfer",
+      "bank_transfer"
+    ]
   }
 ]
