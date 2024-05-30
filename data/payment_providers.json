@@ -25709,5 +25709,18 @@
       "card_transfer",
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "settlespot",
+    "vendor": "settlespot",
+    "name": {
+      "en": "SettleSpot",
+      "ru": "SettleSpot",
+      "uk": "SettleSpot"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
