@@ -81978,7 +81978,7 @@
       {
         "key": "beneficiary_phone",
         "type": "string",
-        "regexp": "\/^\\+?[\\d\\- ]{1,15}\/",
+        "regexp": "\/^\\+?[\\d\\- ]{1,15}$\/",
         "required": false,
         "position": 15,
         "label": {
@@ -82015,7 +82015,7 @@
         "type": "string",
         "regexp": "\/^[A-Za-zА-Яа-я\\-\\s\\p{L}]{2,100}$\/u",
         "required": false,
-        "position": 16,
+        "position": 17,
         "label": {
           "en": "Sender full name",
           "ru": "Полное имя отправителя",
@@ -82032,7 +82032,7 @@
         "type": "string",
         "regexp": "\/^[\\s\\p{L}\\p{N}\\p{P}]{2,64}$\/u",
         "required": false,
-        "position": 17,
+        "position": 18,
         "label": {
           "en": "Beneficiary state",
           "ru": "Beneficiary state",
@@ -82049,7 +82049,7 @@
         "type": "string",
         "regexp": "\/^[A-Za-z]{2,100}$\/",
         "required": false,
-        "position": 18,
+        "position": 19,
         "label": {
           "en": "Bank City",
           "ru": "Bank City",
@@ -82066,7 +82066,7 @@
         "type": "string",
         "regexp": "\/^[A-Za-z]{2,100}$\/",
         "required": false,
-        "position": 19,
+        "position": 20,
         "label": {
           "en": "Bank Province",
           "ru": "Bank Province",
