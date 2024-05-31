@@ -25722,5 +25722,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cashlib",
+    "vendor": "cashlib",
+    "name": {
+      "en": "CASHlib",
+      "ru": "CASHlib",
+      "uk": "CASHlib"
+    },
+    "payment_method": [
+      "cashlib_voucher"
+    ]
   }
 ]
