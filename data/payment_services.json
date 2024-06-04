@@ -25439,5 +25439,14 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 92000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_zmw_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "ZMW",
+    "amount_min": 0.3,
+    "amount_max": 3000000
   }
 ]
