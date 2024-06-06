@@ -25448,5 +25448,14 @@
     "currency": "ZMW",
     "amount_min": 0.3,
     "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "whitepay_usdt_hpp",
+    "flow": "hpp",
+    "method": "whitepay",
+    "currency": "USDT",
+    "amount_min": 1,
+    "amount_max": 100000
   }
 ]
