@@ -35636,6 +35636,118 @@
   },
   {
     "status": "active",
+    "code": "tether_arbitrum_usdt",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_cchain_usdt",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
+    "code": "tether_near_usdt",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+    {
+    "status": "active",
+    "code": "tether_sol_usdt",
+    "method": "tether",
+    "currency": "USDT",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Tether ERC-20 wallet",
+          "ru": "Tether ERC-20 кошелёк",
+          "uk": "Tether ERC-20 гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ],
+    "amount_min": "0.01",
+    "amount_max": "1000000"
+  },
+  {
+    "status": "active",
     "code": "tether_erc20_usdt",
     "method": "tether",
     "currency": "USDT",
@@ -35919,6 +36031,24 @@
         "required": true,
         "position": 1,
         "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      },
+      {
+        "key": "memo",
+        "type": "string",
+        "label": {
+          "en": "Destination tag / MEMO",
+          "ru": "Destination tag / MEMO",
+          "uk": "Destination tag / MEMO"
+        },
+        "hint": {
+          "en": "MEMO is a necessary tag to identify the transfer",
+          "ru": "MEMO is a necessary tag to identify the transfer",
+          "uk": "MEMO is a necessary tag to identify the transfer"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": false,
+        "position": 2,
+        "example": "2921353769"
       }
     ],
     "amount_min": "0.00000001",
