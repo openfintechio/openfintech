@@ -25767,5 +25767,18 @@
     "payment_method": [
       "cashlib_voucher"
     ]
+  },
+  {
+    "status": "active",
+    "code": "macropay",
+    "vendor": "macropay",
+    "name": {
+      "en": "Macropay",
+      "ru": "Macropay",
+      "uk": "Macropay"
+    },
+    "payment_method": [
+      "sofort"
+    ]
   }
 ]
