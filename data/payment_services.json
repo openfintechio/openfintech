@@ -25457,5 +25457,14 @@
     "currency": "USDT",
     "amount_min": 1,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "rapidtransfer_usd_hpp",
+    "flow": "hpp",
+    "method": "rapidtransfer",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
