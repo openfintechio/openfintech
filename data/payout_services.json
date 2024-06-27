@@ -136921,6 +136921,69 @@
     "amount_min": 0.01,
     "amount_max": 1200000
   },
+    {
+    "status": "active",
+    "code": "vodafone_cash_egp",
+    "method": "vodafone_cash",
+    "currency": "EGP",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": true,
+        "position": 1
+      },
+      {
+        "key": "beneficiary_first_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 2,
+        "example": "Jonh"
+      },
+      {
+        "key": "beneficiary_last_name",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        },
+        "regexp": "/^[A-Z\\-\\ a-z]{2,100}$/",
+        "required": false,
+        "position": 3,
+        "example": "Doe"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 3000000
+  },
   {
     "status": "active",
     "code": "airteltigo_ghs",
@@ -146003,5 +146066,21 @@
     ],
     "amount_min": "0.01",
     "amount_max": "100000"
+  },
+  {
+    "status": "active",
+    "code": "cib_smart_wallet_egp",
+    "method": "cib_smart_wallet",
+    "currency": "EGP",
+    "amount_min": 0.01,
+    "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "etisalat_cash_egp",
+    "method": "etisalat_cash",
+    "currency": "EGP",
+    "amount_min": 0.01,
+    "amount_max": 3000000
   }
 ]
