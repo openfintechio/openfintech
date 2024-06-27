@@ -25466,5 +25466,14 @@
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "paybybank_eur_hpp",
+    "flow": "hpp",
+    "method": "paybybank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 92000
   }
 ]
