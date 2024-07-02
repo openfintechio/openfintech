@@ -25812,6 +25812,19 @@
   },
   {
     "status": "active",
+    "code": "unifiedfinance",
+    "vendor": "unifiedfinance",
+    "name": {
+      "en": "Unified Finance",
+      "ru": "Unified Finance",
+      "uk": "Unified Finance"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "macropay",
     "vendor": "macropay",
     "name": {
