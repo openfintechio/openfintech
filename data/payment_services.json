@@ -25475,5 +25475,32 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 92000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_usd_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
