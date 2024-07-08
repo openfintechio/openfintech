@@ -25879,5 +25879,18 @@
       "united_commercial_bank_upay",
       "dutch_bangla_bank_limited_rocket"
     ]
+  },
+  {
+    "status": "active",
+    "code": "flexfactor",
+    "vendor": "flexfactor",
+    "name": {
+      "en": "FlexFactor",
+      "ru": "FlexFactor",
+      "uk": "FlexFactor"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
