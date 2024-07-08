@@ -25863,5 +25863,21 @@
       "sepa_transfer",
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "apixoom",
+    "vendor": "apixoom",
+    "name": {
+      "en": "Apixoom",
+      "ru": "Apixoom",
+      "uk": "Apixoom"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet",
+      "united_commercial_bank_upay",
+      "dutch_bangla_bank_limited_rocket"
+    ]
   }
 ]
