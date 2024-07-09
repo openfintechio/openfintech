@@ -13183,7 +13183,27 @@
     "method": "blik",
     "currency": "PLN",
     "amount_min": 0.01,
-    "amount_max": 500000
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "blik_code",
+        "type": "string",
+        "regexp": "\/^\\d{6}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "BLIK code",
+          "ru": "BLIK код",
+          "uk": "BLIK код"
+        },
+        "hint": {
+          "en": "Enter BLIK code",
+          "ru": "Введите код BLIK",
+          "uk": "Введіть код BLIK"
+        },
+        "example": "123456"
+      }
+    ]
   },
   {
     "status": "active",
