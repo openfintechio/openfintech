@@ -25901,5 +25901,21 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "wzrdpay",
+    "vendor": "wzrdpay",
+    "name": {
+      "en": "WZRD PAY",
+      "ru": "WZRD PAY",
+      "uk": "WZRD PAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
