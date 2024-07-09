@@ -493,6 +493,24 @@
   },
   {
     "status": "active",
+    "code": "payment_card_ron_hpp",
+    "currency": "RON",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_isk_hpp",
+    "currency": "ISK",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_jpy_hpp",
     "currency": "JPY",
     "method": "payment_card",
