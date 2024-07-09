@@ -23716,7 +23716,9 @@
     "vendor": "katarun",
     "payment_method": [
       "payment_card",
-      "sepa_transfer"
+      "sepa_transfer",
+      "mb_way",
+      "multibanco"
     ],
     "payout_method": [
       "bank_transfer"
