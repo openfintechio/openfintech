@@ -25969,5 +25969,54 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payok",
+    "vendor": "payok",
+    "name": {
+      "en": "Payok",
+      "ru": "Payok",
+      "uk": "Payok"
+    },
+    "payment_method": [
+      "dana",
+      "ovo",
+      "shopeepay",
+      "linkaja",
+      "qris",
+      "alfamart",
+      "bni_va",
+      "cimb_ca",
+      "permata_va",
+      "bri_va",
+      "mandiri_va",
+      "bca_va",
+      "bsi_va",
+      "bnc_va",
+      "momo",
+      "viettelpay",
+      "zalopay",
+      "techcom_bank_qr",
+      "acb_bank",
+      "vietin_bank_qr",
+      "bidv_bank_qr",
+      "vp_bank",
+      "vietcom_bank_qr",
+      "vietin_bank_qr",
+      "tpbank",
+      "vib_bank",
+      "agri_bank",
+      "pvcom_bank",
+      "truemoney",
+      "bank_transfer",
+      "promptpay",
+      "papara",
+      "bank_transfer",
+      "upi",
+      "nequi",
+      "colombia_bank",
+      "pse"
+    ]
   }
 ]
