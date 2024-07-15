@@ -25549,5 +25549,104 @@
     "method": "sepa_transfer",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "qris_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "qris",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "alfamart_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "alfamart",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "bni_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bni_va",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "cimb_ca_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "cimb_ca",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "permata_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "permata_va",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "bri_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bri_va",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "mandiri_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "mandiri_va",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "bca_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bca_va",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "bsi_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bsi_va",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "bnc_va_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bnc_va",
+    "amount_min": 0.01,
+    "amount_max": 15000000000
+  },
+  {
+    "status": "active",
+    "code": "nequi_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "nequi",
+    "amount_min": 1,
+    "amount_max": 500000000
   }
 ]
