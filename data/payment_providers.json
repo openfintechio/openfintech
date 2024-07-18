@@ -26033,5 +26033,18 @@
       "colombia_bank",
       "pse"
     ]
+  },
+  {
+    "status": "active",
+    "code": "omno",
+    "vendor": "omno",
+    "name": {
+      "en": "OMNO",
+      "ru": "OMNO",
+      "uk": "OMNO"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
