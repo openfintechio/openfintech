@@ -25973,6 +25973,20 @@
   },
   {
     "status": "active",
+    "code": "starkbank",
+    "vendor": "starkbank",
+    "name": {
+      "en": "STARK BANK",
+      "ru": "STARK BANK",
+      "uk": "STARK BANK"
+    },
+    "payment_method": [
+      "pix",
+      "pix_qr"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payok",
     "vendor": "payok",
     "name": {
