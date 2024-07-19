@@ -22253,6 +22253,88 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aggregated_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "amount_min": 160,
+    "amount_max": 1600000000,
+    "fields": [
+      {
+        "key": "first_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "last_name",
+        "type": "string",
+        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "required": true,
+        "position": 2,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 3,
+        "example": "+255742044295",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        }
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": true,
+        "position": 4,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aggregated_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -25648,5 +25730,32 @@
     "method": "nequi",
     "amount_min": 1,
     "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 160,
+    "amount_max": 1600000000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 0.5,
+    "amount_max": 5800000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 250,
+    "amount_max": 2531000000
   }
 ]
