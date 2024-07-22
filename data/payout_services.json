@@ -35205,6 +35205,114 @@
   },
   {
     "status": "active",
+    "code": "ethereum_erc20_eth",
+    "method": "ethereum",
+    "currency": "ETH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum ERC-20 wallet",
+          "ru": "Ethereum ERC-20 кошелёк",
+          "uk": "Ethereum ERC-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum ERC-20 wallet",
+          "ru": "Введите Ethereum ERC-20 кошелёк",
+          "uk": "Введіть Ethereum ERC-20 гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{10,65}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00001",
+    "amount_max": "100"
+  },
+  {
+    "status": "active",
+    "code": "ethereum_bep20_eth",
+    "method": "ethereum",
+    "currency": "ETH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum BEP-20 wallet",
+          "ru": "Ethereum BEP-20 кошелёк",
+          "uk": "Ethereum BEP-20 гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum BEP-20 wallet",
+          "ru": "Введите Ethereum BEP-20 кошелёк",
+          "uk": "Введіть Ethereum BEP-20 гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{10,65}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00001",
+    "amount_max": "100"
+  },
+  {
+    "status": "active",
+    "code": "ethereum_optimism_eth",
+    "method": "ethereum",
+    "currency": "ETH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum OPTIMISM wallet",
+          "ru": "Ethereum OPTIMISM кошелёк",
+          "uk": "Ethereum OPTIMISM гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum OPTIMISM wallet",
+          "ru": "Введите Ethereum OPTIMISM кошелёк",
+          "uk": "Введіть Ethereum OPTIMISM гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{10,65}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00001",
+    "amount_max": "100"
+  },
+  {
+    "status": "active",
+    "code": "ethereum_arbitrum_eth",
+    "method": "ethereum",
+    "currency": "ETH",
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "Ethereum ARBITRUM wallet",
+          "ru": "Ethereum ARBITRUM кошелёк",
+          "uk": "Ethereum ARBITRUM гаманець"
+        },
+        "hint": {
+          "en": "Enter Ethereum ARBITRUM wallet",
+          "ru": "Введите Ethereum ARBITRUM кошелёк",
+          "uk": "Введіть Ethereum ARBITRUM гаманець"
+        },
+        "regexp": "\/^0x[a-fA-F0-9]{10,65}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": "0.00001",
+    "amount_max": "100"
+  },
+  {
+    "status": "active",
     "code": "digital_cash_dash",
     "method": "digital_cash",
     "currency": "DASH",
@@ -35839,7 +35947,6 @@
   {
     "status": "active",
     "code": "usd_coin_erc20_usdc",
-    "flow": "hpp",
     "method": "usd_coin",
     "currency": "USDC",
     "amount_min": 0.01,
@@ -35868,7 +35975,6 @@
   {
     "status": "active",
     "code": "usd_coin_trc20_usdc",
-    "flow": "hpp",
     "method": "usd_coin",
     "currency": "USDC",
     "amount_min": 0.01,
@@ -35896,8 +36002,147 @@
   },
   {
     "status": "active",
+    "code": "usd_coin_near_usdc",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC NEAR wallet",
+          "ru": "USDC NEAR кошелёк",
+          "uk": "USDC NEAR гаманець"
+        },
+        "hint": {
+          "en": "USDC NEAR wallet",
+          "ru": "USDC NEAR кошелёк",
+          "uk": "USDC NEAR гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_polygon_usdc",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC POLYGON wallet",
+          "ru": "USDC POLYGON кошелёк",
+          "uk": "USDC POLYGON гаманець"
+        },
+        "hint": {
+          "en": "USDC POLYGON wallet",
+          "ru": "USDC POLYGON кошелёк",
+          "uk": "USDC POLYGON гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_sol_usdc",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC SOL wallet",
+          "ru": "USDC SOL кошелёк",
+          "uk": "USDC SOL гаманець"
+        },
+        "hint": {
+          "en": "USDC SOL wallet",
+          "ru": "USDC SOL кошелёк",
+          "uk": "USDC SOL гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_whitechain_usdc",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC WHITECHAIN wallet",
+          "ru": "USDC WHITECHAIN кошелёк",
+          "uk": "USDC WHITECHAIN гаманець"
+        },
+        "hint": {
+          "en": "USDC WHITECHAIN wallet",
+          "ru": "USDC WHITECHAIN кошелёк",
+          "uk": "USDC WHITECHAIN гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_stellar_usdc",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "wallet_id",
+        "type": "string",
+        "label": {
+          "en": "USDC STELLAR wallet",
+          "ru": "USDC STELLAR кошелёк",
+          "uk": "USDC STELLAR гаманець"
+        },
+        "hint": {
+          "en": "USDC STELLAR wallet",
+          "ru": "USDC STELLAR кошелёк",
+          "uk": "USDC STELLAR гаманець"
+        },
+        "regexp": "\/^.{10,64}$\/",
+        "required": true,
+        "position": 1,
+        "example": "0x501906Ce564be7bA80Eb55A29EE31ECfaE41b6f2"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "ripple_xrp",
-    "flow": "hpp",
     "method": "ripple",
     "currency": "XRP",
     "amount_min": 0.01,
@@ -35926,7 +36171,6 @@
   {
     "status": "active",
     "code": "cardano_ada",
-    "flow": "hpp",
     "method": "cardano",
     "currency": "ADA",
     "amount_min": 0.01,
