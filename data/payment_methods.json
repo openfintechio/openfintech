@@ -7038,6 +7038,16 @@
   },
   {
     "status": "active",
+    "code": "multibanco",
+    "category": "alternative",
+    "name": {
+      "en": "Multibanco",
+      "uk": "Multibanco",
+      "ru": "Multibanco"
+    }
+  },
+  {
+    "status": "active",
     "code": "vib_bank",
     "category": "bank_transfer",
     "name": {
@@ -9954,6 +9964,146 @@
       "en": "CASHlib Voucher",
       "uk": "CASHlib Voucher",
       "ru": "CASHlib Voucher"
+    }
+  },
+  {
+    "status": "active",
+    "code": "whitepay",
+    "category": "alternative",
+    "name": {
+      "en": "Whitepay",
+      "uk": "Whitepay",
+      "ru": "Whitepay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "paybybank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "PayByBank",
+      "uk": "PayByBank",
+      "ru": "PayByBank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "qris",
+    "category": "alternative",
+    "name": {
+      "en": "QRIS",
+      "uk": "QRIS",
+      "ru": "QRIS"
+    }
+  },
+  {
+    "status": "active",
+    "code": "alfamart",
+    "category": "alternative",
+    "name": {
+      "en": "Alfamart",
+      "uk": "Alfamart",
+      "ru": "Alfamart"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bni_va",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BNIVA",
+      "uk": "BNIVA",
+      "ru": "BNIVA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "cimb_ca",
+    "category": "bank_transfer",
+    "name": {
+      "en": "CIMBVA",
+      "uk": "CIMBVA",
+      "ru": "CIMBVA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "permata_va",
+    "category": "bank_transfer",
+    "name": {
+      "en": "PermataVA",
+      "uk": "PermataVA",
+      "ru": "PermataVA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bri_va",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BRIVA",
+      "uk": "BRIVA",
+      "ru": "BRIVA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "mandiri_va",
+    "category": "bank_transfer",
+    "name": {
+      "en": "MandiriVA",
+      "uk": "MandiriVA",
+      "ru": "MandiriVA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bca_va",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BCAVA",
+      "uk": "BCAVA",
+      "ru": "BCAVA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bsi_va",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BSIVA",
+      "uk": "BSIVA",
+      "ru": "BSIVA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bnc_va",
+    "category": "bank_transfer",
+    "name": {
+      "en": "BNCVA",
+      "uk": "BNCVA",
+      "ru": "BNCVA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nequi",
+    "category": "bank_transfer",
+    "name": {
+      "en": "NEQUI PUSH",
+      "uk": "NEQUI PUSH",
+      "ru": "NEQUI PUSH"
+    }
+  },
+  {
+    "code": "qr_payment_aggregated",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "QR Payment Aggregated",
+      "ru": "QR Payment Aggregated",
+      "uk": "QR Payment Aggregated"
     }
   }
 ]

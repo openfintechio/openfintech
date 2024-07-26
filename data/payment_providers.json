@@ -9262,7 +9262,8 @@
       "upi",
       "pix",
       "imps",
-      "paytm"
+      "paytm",
+      "sepa_transfer"
     ],
     "name": {
       "en": "Interkassa"
@@ -17881,7 +17882,10 @@
       "cash",
       "payment_card",
       "bkash_limited",
-      "nagad_wallet"
+      "nagad_wallet",
+      "etisalat_cash",
+      "cib_smart_wallet",
+      "vodafone_cash"
     ]
   },
   {
@@ -19445,7 +19449,32 @@
       "tether",
       "binance_coin",
       "dogecoin",
-      "payment_card"
+      "payment_card",
+      "upi",
+      "access_bank_nigeria",
+      "diamond_bank_nigeria",
+      "citi_bank_nigeria",
+      "ecobank_nigeria",
+      "fidelity_bank_nigeria",
+      "first_bankof_nigeria",
+      "polaris_bank_nigeria",
+      "stanbic_bank_nigeria",
+      "etranzact",
+      "first_city_monument_bank",
+      "fsdh_merchant_bank",
+      "guaranty_trust_bank",
+      "heritage_bank",
+      "jaiz_bank",
+      "keystone_bank",
+      "npfmicrofinance_bank",
+      "safetrust_mortgage_bank",
+      "standard_chartered_bank",
+      "sterling_bank",
+      "union_bankof_nigeria",
+      "united_bankfor_africa",
+      "unity_bank",
+      "wema_bank",
+      "zenith_bank"
     ]
   },
   {
@@ -21518,6 +21547,9 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -22572,10 +22604,12 @@
       "uk": "Whitepay"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "whitepay"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "tether"
     ]
   },
   {
@@ -22801,7 +22835,11 @@
       "uk": "Gate2way"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "skrill",
+      "neteller",
+      "paysafecard",
+      "rapidtransfer"
     ]
   },
   {
@@ -23719,10 +23757,14 @@
     "vendor": "katarun",
     "payment_method": [
       "payment_card",
-      "sepa_transfer"
+      "sepa_transfer",
+      "mb_way",
+      "multibanco",
+      "bank_transfer"
     ],
     "payout_method": [
-      "bank_transfer"
+      "bank_transfer",
+      "payment_card"
     ],
     "name": {
       "en": "Katarun",
@@ -23863,6 +23905,9 @@
     "vendor": "betterbro",
     "payout_method": [
       "upi"
+    ],
+    "payment_method": [
+      "binancepay"
     ],
     "name": {
       "en": "Betterbro",
@@ -24115,7 +24160,12 @@
       "payment_card",
       "quick_bit",
       "bank_transfer",
-      "pix"
+      "pix",
+      "interac"
+    ],
+    "payout_method": [
+      "pix",
+      "interac"
     ],
     "name": {
       "en": "Paysecure",
@@ -25350,7 +25400,10 @@
       "uk": "Bizon"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "blik",
+      "trustly",
+      "eps"
     ]
   },
   {
@@ -25394,6 +25447,19 @@
     ],
     "payout_method": [
       "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "facilero",
+    "vendor": "facilero",
+    "name": {
+      "en": "Facilero",
+      "ru": "Facilero",
+      "uk": "Facilero"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   },
   {
@@ -25623,7 +25689,9 @@
       "payment_card",
       "upi",
       "humo",
-      "uzcard"
+      "uzcard",
+      "easypaisa",
+      "jazzcash"
     ],
     "payout_method": [
       "payment_card",
@@ -25738,6 +25806,9 @@
     "payment_method": [
       "card_transfer",
       "bank_transfer"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -25777,6 +25848,234 @@
     },
     "payment_method": [
       "cashlib_voucher"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "xsellmoney",
+    "vendor": "xsellmoney",
+    "name": {
+      "en": "Xsell.money",
+      "ru": "Xsell.money",
+      "uk": "Xsell.money"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "unifiedfinance",
+    "vendor": "unifiedfinance",
+    "name": {
+      "en": "Unified Finance",
+      "ru": "Unified Finance",
+      "uk": "Unified Finance"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "macropay",
+    "vendor": "macropay",
+    "name": {
+      "en": "Macropay",
+      "ru": "Macropay",
+      "uk": "Macropay"
+    },
+    "payment_method": [
+      "sofort"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bitandpay",
+    "vendor": "bitandpay",
+    "name": {
+      "en": "BitAndPay",
+      "ru": "BitAndPay",
+      "uk": "BitAndPay"
+    },
+    "payment_method": [
+      "paybybank"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "vendo",
+    "vendor": "vendo",
+    "name": {
+      "en": "Vendo Services GmbH",
+      "ru": "Vendo Services GmbH",
+      "uk": "Vendo Services GmbH"
+    },
+    "payment_method": [
+      "bank_transfer",
+      "sepa_transfer",
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "apixoom",
+    "vendor": "apixoom",
+    "name": {
+      "en": "Apixoom",
+      "ru": "Apixoom",
+      "uk": "Apixoom"
+    },
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet",
+      "united_commercial_bank_upay",
+      "dutch_bangla_bank_limited_rocket"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "flexfactor",
+    "vendor": "flexfactor",
+    "name": {
+      "en": "FlexFactor",
+      "ru": "FlexFactor",
+      "uk": "FlexFactor"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "wzrdpay",
+    "vendor": "wzrdpay",
+    "name": {
+      "en": "WZRD PAY",
+      "ru": "WZRD PAY",
+      "uk": "WZRD PAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kasha",
+    "vendor": "kasha",
+    "name": {
+      "en": "Kasha",
+      "ru": "Kasha",
+      "uk": "Kasha"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "dnspay",
+    "vendor": "dnspay",
+    "name": {
+      "en": "DNSPAY",
+      "ru": "DNSPAY",
+      "uk": "DNSPAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "starkbank",
+    "vendor": "starkbank",
+    "name": {
+      "en": "STARK BANK",
+      "ru": "STARK BANK",
+      "uk": "STARK BANK"
+    },
+    "payment_method": [
+      "pix",
+      "pix_qr"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payok",
+    "vendor": "payok",
+    "name": {
+      "en": "Payok",
+      "ru": "Payok",
+      "uk": "Payok"
+    },
+    "payment_method": [
+      "dana",
+      "ovo",
+      "shopeepay",
+      "linkaja",
+      "qris",
+      "alfamart",
+      "bni_va",
+      "cimb_ca",
+      "permata_va",
+      "bri_va",
+      "mandiri_va",
+      "bca_va",
+      "bsi_va",
+      "bnc_va",
+      "momo",
+      "viettelpay",
+      "zalopay",
+      "techcom_bank_qr",
+      "acb_bank",
+      "vietin_bank_qr",
+      "bidv_bank_qr",
+      "vp_bank",
+      "vietcom_bank_qr",
+      "vietin_bank_qr",
+      "tpbank",
+      "vib_bank",
+      "agri_bank",
+      "pvcom_bank",
+      "truemoney",
+      "bank_transfer",
+      "promptpay",
+      "papara",
+      "bank_transfer",
+      "upi",
+      "nequi",
+      "colombia_bank",
+      "pse"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "omno",
+    "vendor": "omno",
+    "name": {
+      "en": "OMNO",
+      "ru": "OMNO",
+      "uk": "OMNO"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "citrinepay",
+    "vendor": "citrinepay",
+    "name": {
+      "en": "CitrinePay",
+      "ru": "CitrinePay",
+      "uk": "CitrinePay"
+    },
+    "payment_method": [
+      "bank_transfer_aggregated",
+      "qr_payment_aggregated"
     ]
   }
 ]
