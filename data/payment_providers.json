@@ -20109,6 +20109,19 @@
   },
   {
     "status": "active",
+    "code": "payneteasy",
+    "vendor": "payneteasy",
+    "name": {
+      "en": "Payneteasy",
+      "ru": "Payneteasy",
+      "uk": "Payneteasy"
+    },
+    "payment_method": [
+      "bank_transfer_aggregated"
+    ]
+  },
+  {
+    "status": "active",
     "code": "inqud",
     "vendor": "inqud",
     "name": {
