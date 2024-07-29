@@ -26076,6 +26076,9 @@
     "payment_method": [
       "bank_transfer_aggregated",
       "qr_payment_aggregated"
+    ],
+    "payout_method": [
+      "bank_transfer"
     ]
   }
 ]
