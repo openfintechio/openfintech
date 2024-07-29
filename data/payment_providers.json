@@ -26080,5 +26080,21 @@
     "payout_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "karentpay",
+    "vendor": "karentpay",
+    "name": {
+      "en": "Karentpay",
+      "ru": "Karentpay",
+      "uk": "Karentpay"
+    },
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet",
+      "dutch_bangla_bank_limited_rocket",
+      "united_commercial_bank_upay"
+    ]
   }
 ]
