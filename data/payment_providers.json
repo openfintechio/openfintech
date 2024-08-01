@@ -26140,5 +26140,19 @@
     "payout_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "xoompay",
+    "vendor": "xoompay",
+    "name": {
+      "en": "Xoompay",
+      "ru": "Xoompay",
+      "uk": "Xoompay"
+    },
+    "payment_method": [
+      "nagad_wallet",
+      "bkash_limited"
+    ]
   }
 ]
