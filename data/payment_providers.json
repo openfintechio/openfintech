@@ -26154,5 +26154,21 @@
       "nagad_wallet",
       "bkash_limited"
     ]
+  },
+  {
+    "status": "active",
+    "code": "aeteredge",
+    "vendor": "aeteredge",
+    "name": {
+      "en": "AeterEdge",
+      "ru": "AeterEdge",
+      "uk": "AeterEdge"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
