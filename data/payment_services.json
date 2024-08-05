@@ -5812,6 +5812,15 @@
   },
   {
     "status": "active",
+    "code": "gcash_qr_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "gcash_qr",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
     "code": "grabpay_php_hpp",
     "currency": "PHP",
     "flow": "hpp",
