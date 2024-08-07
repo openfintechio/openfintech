@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="-20 15 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="b" x1="38.72" x2="90.86" y1="820.36" y2="887.84" gradientTransform="translate(0 -792.41)" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00d77b" stop-opacity="0" offset="0"/>
+            <stop stop-color="#00ae64" stop-opacity=".12" offset=".04"/>
+            <stop stop-color="#007a46" stop-opacity=".28" offset=".1"/>
+            <stop stop-color="#004e2d" stop-opacity=".44" offset=".16"/>
+            <stop stop-color="#002c19" stop-opacity=".6" offset=".22"/>
+            <stop stop-color="#00140b" stop-opacity=".75" offset=".27"/>
+            <stop stop-color="#000503" stop-opacity=".89" offset=".32"/>
+            <stop offset=".37"/>
+        </linearGradient>
+        <linearGradient id="a" x1="18.55" x2="36.97" y1="905.23" y2="833.29" gradientTransform="translate(0 -792.41)" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00c4ff" offset=".05"/>
+            <stop stop-color="#00d77b" offset=".67"/>
+        </linearGradient>
+    </defs>
+    <path d="m14.9,53.1c.5-3.9,2.2-7.3,5-10.1,3.4-3.4,7.8-5.2,12.9-5.2s9.4,1.7,12.8,5.2l.1.1c4.2-2.5,8.8-4.8,13.6-6.7l.5-.2c-.8-1.1-1.7-2.2-2.7-3.2-5.8-6.2-13.1-9.3-21.7-9.3s-15.4,3.2-20.7,9.5v-8.1H0v17.6l14.7,11.7.2-1.3Z" fill="#00d77b"/>
+    <path d="m63.7,43.7c-1.5-4-3.7-7.6-6.7-10.7-5.8-6.2-13.1-9.3-21.7-9.3h-.6l-2.9,14.2h.8c5.1,0,9.4,1.7,12.8,5.2,1.6,1.6,2.8,3.4,3.7,5.4l.3.8.7-.5c3.8-2.7,8.2-4.1,12.5-4.1h1.4l-.3-1Z" fill="url(#b)" opacity=".5" isolation="isolate"/>
+    <path d="m64.6 46.5c-0.5-2.3-1.4-4.4-2.3-6.1l-0.3-0.6c-0.2-0.5-0.5-0.9-0.7-1.3-0.1-0.1-0.1-0.2-0.2-0.3-0.8-1.3-1.4-2.1-1.4-2.1l-0.5 0.2c-22.4 8.7-39 26.9-41.9 29.8l-17.3-13v56.3h14.6v-29.6l2.8 1.9c4.9 4.4 10.9 6.6 17.9 6.6 8.6 0 15.9-3.1 21.7-9.3s8.7-13.9 8.7-23.1c0.1-3.2-0.3-6.4-1.1-9.4zm-19.1 22.5c-3.4 3.4-7.7 5.2-12.8 5.2-1.6 0-3.1-0.2-4.5-0.5 8.4-8.4 16.2-14.3 22.5-18.4v0.8c0 5.1-1.8 9.4-5.2 12.9z" fill="url(#a)"/>
+</svg>

@@ -26183,5 +26183,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paytently",
+    "vendor": "paytently",
+    "name": {
+      "en": "Paytently",
+      "ru": "Paytently",
+      "uk": "Paytently"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
