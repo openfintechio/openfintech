@@ -23682,7 +23682,8 @@
       "gcash",
       "easypaisa",
       "jazzcash",
-      "bank_transfer"
+      "bank_transfer",
+      "pay_maya"
     ]
   },
   {
@@ -26170,6 +26171,45 @@
     ],
     "payout_method": [
       "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paytorapayment",
+    "vendor": "paytorapayment",
+    "name": {
+      "en": "PaytoraPayment",
+      "ru": "PaytoraPayment",
+      "uk": "PaytoraPayment"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paytently",
+    "vendor": "paytently",
+    "name": {
+      "en": "Paytently",
+      "ru": "Paytently",
+      "uk": "Paytently"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payswiftly",
+    "vendor": "payswiftly",
+    "name": {
+      "en": "Payswiftly",
+      "ru": "Payswiftly",
+      "uk": "Payswiftly"
+    },
+    "payout_method": [
+      "bank_transfer"
     ]
   }
 ]
