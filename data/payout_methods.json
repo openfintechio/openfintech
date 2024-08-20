@@ -31200,6 +31200,36 @@
     }
   },
   {
+    "code": "bbva_bancomer",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BBVA Bancomer S.A.",
+      "ru": "BBVA Bancomer S.A.",
+      "uk": "BBVA Bancomer S.A."
+    }
+  },
+  {
+    "code": "banco_santander",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "SANTANDER",
+      "ru": "SANTANDER",
+      "uk": "SANTANDER"
+    }
+  },
+  {
+    "code": "banorte",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Banco Mercantil del Norte S.A.",
+      "ru": "Banco Mercantil del Norte S.A.",
+      "uk": "Banco Mercantil del Norte S.A."
+    }
+  },
+  {
     "code": "shopeepay",
     "category": "digital_wallet",
     "status": "active",
