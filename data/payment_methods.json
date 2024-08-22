@@ -10113,5 +10113,16 @@
       "ru": "QR Payment Aggregated",
       "uk": "QR Payment Aggregated"
     }
+  },
+  {
+    "status": "active",
+    "code": "spush_pay",
+    "vendor": "spush",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Spush Pay",
+      "ru": "Spush Pay",
+      "uk": "Spush Pay"
+    }
   }
 ]

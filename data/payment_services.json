@@ -25766,5 +25766,14 @@
     "method": "qr_payment_aggregated",
     "amount_min": 250,
     "amount_max": 2531000000
+  },
+  {
+    "status": "active",
+    "method": "spush_pay",
+    "flow": "invoice",
+    "currency": "EUR",
+    "code": "spush_pay_eur_invoice",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]
