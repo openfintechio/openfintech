@@ -26214,5 +26214,18 @@
     "payout_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paystrax",
+    "vendor": "paystrax",
+    "name": {
+      "en": "Paystrax",
+      "ru": "Paystrax",
+      "uk": "Paystrax"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
