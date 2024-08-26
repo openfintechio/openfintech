@@ -14145,10 +14145,28 @@
   },
   {
     "status": "active",
+    "code": "sbp_azn_hpp",
+    "flow": "hpp",
+    "method": "sbp",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "sbp_qr_rub_hpp",
     "flow": "hpp",
     "method": "sbp_qr",
     "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "sbp_qr_azn_hpp",
+    "flow": "hpp",
+    "method": "sbp_qr",
+    "currency": "AZN",
     "amount_min": 0.01,
     "amount_max": 1000000
   },
