@@ -26287,5 +26287,28 @@
       "przelewy24",
       "online_banking"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cryptopay",
+    "vendor": "cryptopay",
+    "name": {
+      "en": "Cryptopay",
+      "ru": "Cryptopay",
+      "uk": "Cryptopay"
+    },
+    "payment_method": [
+      "tether",
+      "bitcoin",
+      "cardano",
+      "dai_coin",
+      "dogecoin",
+      "ethereum",
+      "litecoin",
+      "ripple",
+      "solana",
+      "tron",
+      "usd_coin"
+    ]
   }
 ]
