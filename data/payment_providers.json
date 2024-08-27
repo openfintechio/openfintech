@@ -26254,5 +26254,24 @@
     "payment_method": [
       "spush_pay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "utorg",
+    "vendor": "utorg",
+    "name": {
+      "en": "Utorg",
+      "ru": "Utorg",
+      "uk": "Utorg"
+    },
+    "payment_method": [
+      "blik",
+      "skrill",
+      "neteller",
+      "paysafecard",
+      "giropay",
+      "przelewy24",
+      "online_banking"
+    ]
   }
 ]
