@@ -16857,6 +16857,19 @@
   },
   {
     "status": "active",
+    "code": "instaxchange",
+    "vendor": "instaxchange",
+    "name": {
+      "en": "Instaxchange",
+      "ru": "Instaxchange",
+      "uk": "Instaxchange"
+    },
+    "payment_method": [
+      "payment_card_crypto"
+    ]
+  },
+  {
+    "status": "active",
     "code": "klasha",
     "vendor": "klasha",
     "name": {

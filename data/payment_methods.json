@@ -1873,6 +1873,16 @@
     }
   },
   {
+    "code": "payment_card_crypto",
+    "category": "payment_card",
+    "status": "active",
+    "name": {
+      "en": "Payment card",
+      "ru": "Платежная карта",
+      "uk": "Платіжна карта"
+    }
+  },
+  {
     "code": "card",
     "category": "payment_card",
     "status": "active",
