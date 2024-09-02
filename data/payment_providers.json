@@ -26326,5 +26326,18 @@
     "payment_method": [
       "upi"
     ]
+  },
+  {
+    "status": "active",
+    "code": "inpay",
+    "vendor": "inpay",
+    "name": {
+      "en": "inpay",
+      "ru": "inpay",
+      "uk": "inpay"
+    },
+    "payout_method": [
+      "sepa_transfer"
+    ]
   }
 ]
