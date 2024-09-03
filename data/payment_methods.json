@@ -10143,5 +10143,735 @@
       "ru": "Spush Pay",
       "uk": "Spush Pay"
     }
+  },
+  {
+    "status": "active",
+    "code": "rapidpagos",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "RapidPagos",
+      "ru": "RapidPagos",
+      "uk": "RapidPagos"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_original",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banco Original",
+      "ru": "Banco Original",
+      "uk": "Banco Original"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_safra",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banco Safra",
+      "ru": "Banco Safra",
+      "uk": "Banco Safra"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nubank",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Nubank",
+      "ru": "Nubank",
+      "uk": "Nubank"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_bice",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banco BICE",
+      "ru": "Banco BICE",
+      "uk": "Banco BICE"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_credichile",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banco CrediChile",
+      "ru": "Banco CrediChile",
+      "uk": "Banco CrediChile"
+    }
+  },
+  {
+    "status": "active",
+    "code": "caja_vecina",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Caja Vecina",
+      "ru": "Caja Vecina",
+      "uk": "Caja Vecina"
+    }
+  },
+  {
+    "status": "active",
+    "code": "interac_etransfer",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Interac Etransfer",
+      "ru": "Interac Etransfer",
+      "uk": "Interac Etransfer"
+    }
+  },
+  {
+    "status": "active",
+    "code": "punto_red",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Punto Red",
+      "ru": "Punto Red",
+      "uk": "Punto Red"
+    }
+  },
+  {
+    "status": "active",
+    "code": "almacenes_exito",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Almacenes Exito",
+      "ru": "Almacenes Exito",
+      "uk": "Almacenes Exito"
+    }
+  },
+  {
+    "status": "active",
+    "code": "carulla",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Carulla",
+      "ru": "Carulla",
+      "uk": "Carulla"
+    }
+  },
+  {
+    "status": "active",
+    "code": "surtimax",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Surtimax",
+      "ru": "Surtimax",
+      "uk": "Surtimax"
+    }
+  },
+  {
+    "status": "active",
+    "code": "con_suerte",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Con Suerte",
+      "ru": "Con Suerte",
+      "uk": "Con Suerte"
+    }
+  },
+  {
+    "status": "active",
+    "code": "superinter",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Superinter",
+      "ru": "Superinter",
+      "uk": "Superinter"
+    }
+  },
+  {
+    "status": "active",
+    "code": "coopenessa",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Coopenessa",
+      "ru": "Coopenessa",
+      "uk": "Coopenessa"
+    }
+  },
+  {
+    "status": "active",
+    "code": "edeq",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Edeq",
+      "ru": "Edeq",
+      "uk": "Edeq"
+    }
+  },
+  {
+    "status": "active",
+    "code": "dimonex",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Dimonex",
+      "ru": "Dimonex",
+      "uk": "Dimonex"
+    }
+  },
+  {
+    "status": "active",
+    "code": "fullcarga",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "FullCarga",
+      "ru": "FullCarga",
+      "uk": "FullCarga"
+    }
+  },
+  {
+    "status": "active",
+    "code": "moviired",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Moviired",
+      "ru": "Moviired",
+      "uk": "Moviired"
+    }
+  },
+  {
+    "status": "active",
+    "code": "surti_mayorista",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Surti Mayorista",
+      "ru": "Surti Mayorista",
+      "uk": "Surti Mayorista"
+    }
+  },
+  {
+    "status": "active",
+    "code": "su_red",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Su Red",
+      "ru": "Su Red",
+      "uk": "Su Red"
+    }
+  },
+  {
+    "status": "active",
+    "code": "transfiya",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "TransFiYa",
+      "ru": "TransFiYa",
+      "uk": "TransFiYa"
+    }
+  },
+  {
+    "status": "active",
+    "code": "tpaga",
+    "category": "digital_wallet",
+    "name": {
+      "en": "TPAGA",
+      "ru": "TPAGA",
+      "uk": "TPAGA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "payser",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Payser",
+      "ru": "Payser",
+      "uk": "Payser"
+    }
+  },
+  {
+    "status": "active",
+    "code": "facilito",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Facilito",
+      "ru": "Facilito",
+      "uk": "Facilito"
+    }
+  },
+  {
+    "status": "active",
+    "code": "pago_agil",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Pago Ágil",
+      "ru": "Pago Ágil",
+      "uk": "Pago Ágil"
+    }
+  },
+  {
+    "status": "active",
+    "code": "servipagos",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "ServiPagos",
+      "ru": "ServiPagos",
+      "uk": "ServiPagos"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_del_barrio",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Banco Del Barrio",
+      "ru": "Banco Del Barrio",
+      "uk": "Banco Del Barrio"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_bolivariano",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banco Bolivariano",
+      "ru": "Banco Bolivariano",
+      "uk": "Banco Bolivariano"
+    }
+  },
+  {
+    "status": "active",
+    "code": "tia",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Tia",
+      "ru": "Tia",
+      "uk": "Tia"
+    }
+  },
+  {
+    "status": "active",
+    "code": "activa_westernunion",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Activa WesternUnion",
+      "ru": "Activa WesternUnion",
+      "uk": "Activa WesternUnion"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_internacional",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banco Internacional",
+      "ru": "Banco Internacional",
+      "uk": "Banco Internacional"
+    }
+  },
+  {
+    "status": "active",
+    "code": "western_union",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Western Union",
+      "ru": "Western Union",
+      "uk": "Western Union"
+    }
+  },
+  {
+    "status": "active",
+    "code": "farmacias911",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Farmacias911",
+      "ru": "Farmacias911",
+      "uk": "Farmacias911"
+    }
+  },
+  {
+    "status": "active",
+    "code": "payphone",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Payphone",
+      "ru": "Payphone",
+      "uk": "Payphone"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_gyt_continental",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banco GyT Continental",
+      "ru": "Banco GyT Continental",
+      "uk": "Banco GyT Continental"
+    }
+  },
+  {
+    "status": "active",
+    "code": "codi",
+    "category": "bank_transfer",
+    "name": {
+      "en": "CoDi",
+      "ru": "CoDi",
+      "uk": "CoDi"
+    }
+  },
+  {
+    "status": "active",
+    "code": "santander_supernet",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Santander SuperNet",
+      "ru": "Santander SuperNet",
+      "uk": "Santander SuperNet"
+    }
+  },
+  {
+    "status": "active",
+    "code": "afirme_online_banking",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Afirme online banking",
+      "ru": "Afirme online banking",
+      "uk": "Afirme online banking"
+    }
+  },
+  {
+    "status": "active",
+    "code": "paynet",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "PayNet",
+      "ru": "PayNet",
+      "uk": "PayNet"
+    }
+  },
+  {
+    "status": "active",
+    "code": "farmacia_del_ahorro",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Farmacia del Ahorro",
+      "ru": "Farmacia del Ahorro",
+      "uk": "Farmacia del Ahorro"
+    }
+  },
+  {
+    "status": "active",
+    "code": "extra",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Extra",
+      "ru": "Extra",
+      "uk": "Extra"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bodega_aurrera",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Bodega Aurrera",
+      "ru": "Bodega Aurrera",
+      "uk": "Bodega Aurrera"
+    }
+  },
+  {
+    "status": "active",
+    "code": "circulo_k",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Circulo K",
+      "ru": "Circulo K",
+      "uk": "Circulo K"
+    }
+  },
+  {
+    "status": "active",
+    "code": "seven_eleven",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "7 Eleven",
+      "ru": "7 Eleven",
+      "uk": "7 Eleven"
+    }
+  },
+  {
+    "status": "active",
+    "code": "farmacia_la_mas_barata",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Farmacia la mas barata",
+      "ru": "Farmacia la mas barata",
+      "uk": "Farmacia la mas barata"
+    }
+  },
+  {
+    "status": "active",
+    "code": "roma",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Roma",
+      "ru": "Roma",
+      "uk": "Roma"
+    }
+  },
+  {
+    "status": "active",
+    "code": "superama",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Superama",
+      "ru": "Superama",
+      "uk": "Superama"
+    }
+  },
+  {
+    "status": "active",
+    "code": "walmart_express",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Walmart Express",
+      "ru": "Walmart Express",
+      "uk": "Walmart Express"
+    }
+  },
+  {
+    "status": "active",
+    "code": "walmart",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Walmart",
+      "ru": "Walmart",
+      "uk": "Walmart"
+    }
+  },
+  {
+    "status": "active",
+    "code": "baz_superapp",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "BAZ SuperApp",
+      "ru": "BAZ SuperApp",
+      "uk": "BAZ SuperApp"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banorte_online_banking",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banorte online banking",
+      "ru": "Banorte online banking",
+      "uk": "Banorte online banking"
+    }
+  },
+  {
+    "status": "active",
+    "code": "tupay",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Tupay",
+      "ru": "Tupay",
+      "uk": "Tupay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "tupay_qr",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Tupay QR",
+      "ru": "Tupay QR",
+      "uk": "Tupay QR"
+    }
+  },
+  {
+    "status": "active",
+    "code": "tupay_bank_transfers",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Tupay Bank Transfers",
+      "ru": "Tupay Bank Transfers",
+      "uk": "Tupay Bank Transfers"
+    }
+  },
+  {
+    "status": "active",
+    "code": "credit_cards_by_tupay",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Credit Cards by Tupay",
+      "ru": "Credit Cards by Tupay",
+      "uk": "Credit Cards by Tupay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "pago_efectivo",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Pago Efectivo",
+      "ru": "Pago Efectivo",
+      "uk": "Pago Efectivo"
+    }
+  },
+  {
+    "status": "active",
+    "code": "yape",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Yape",
+      "ru": "Yape",
+      "uk": "Yape"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banbif",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banbif",
+      "ru": "Banbif",
+      "uk": "Banbif"
+    }
+  },
+  {
+    "status": "active",
+    "code": "banco_ripley",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Banco Ripley",
+      "ru": "Banco Ripley",
+      "uk": "Banco Ripley"
+    }
+  },
+  {
+    "status": "active",
+    "code": "niubiz_agents_payment",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Niubiz Agents Payment",
+      "ru": "Niubiz Agents Payment",
+      "uk": "Niubiz Agents Payment"
+    }
+  },
+  {
+    "status": "active",
+    "code": "red_digital",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Red Digital",
+      "ru": "Red Digital",
+      "uk": "Red Digital"
+    }
+  },
+  {
+    "status": "active",
+    "code": "caja_cusco",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Caja Cusco",
+      "ru": "Caja Cusco",
+      "uk": "Caja Cusco"
+    }
+  },
+  {
+    "status": "active",
+    "code": "caja_ica",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Caja ICA",
+      "ru": "Caja ICA",
+      "uk": "Caja ICA"
+    }
+  },
+  {
+    "status": "active",
+    "code": "caja_piura",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Caja Piura",
+      "ru": "Caja Piura",
+      "uk": "Caja Piura"
+    }
+  },
+  {
+    "status": "active",
+    "code": "mobile_money",
+    "category": "mobile_payment",
+    "name": {
+      "en": "Mobile Money",
+      "ru": "Mobile Money",
+      "uk": "Mobile Money"
+    }
+  },
+  {
+    "status": "active",
+    "code": "upi_seamless",
+    "category": "bank_transfer",
+    "name": {
+      "en": "UPI Seamless",
+      "ru": "UPI Seamless",
+      "uk": "UPI Seamless"
+    }
+  },
+  {
+    "status": "active",
+    "code": "fpx",
+    "category": "bank_transfer",
+    "name": {
+      "en": "FPX",
+      "ru": "FPX",
+      "uk": "FPX"
+    }
+  },
+  {
+    "status": "active",
+    "code": "touch_n_go",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Touch'n Go",
+      "ru": "Touch'n Go",
+      "uk": "Touch'n Go"
+    }
+  },
+  {
+    "status": "active",
+    "code": "prompt_pay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Prompt Pay",
+      "ru": "Prompt Pay",
+      "uk": "Prompt Pay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_p2p",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "Bank Transfer (P2P)",
+      "ru": "Bank Transfer (P2P)",
+      "uk": "Bank Transfer (P2P)"
+    }
+  },
+  {
+    "status": "active",
+    "code": "dragonpay",
+    "category": "bank_transfer",
+    "name": {
+      "en": "DragonPay",
+      "ru": "DragonPay",
+      "uk": "DragonPay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "paymaya",
+    "category": "prepaid_voucher",
+    "name": {
+      "en": "PayMaya",
+      "ru": "PayMaya",
+      "uk": "PayMaya"
+    }
   }
 ]
