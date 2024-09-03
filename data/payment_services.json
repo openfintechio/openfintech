@@ -963,6 +963,51 @@
   },
   {
     "status": "active",
+    "code": "bitcoin_cad_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_aud_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_bep20_usd_hpp",
+    "flow": "hpp",
+    "method": "bitcoin",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "bitcoin_bch_hpp",
     "flow": "hpp",
     "method": "bitcoin",
@@ -1218,6 +1263,42 @@
   },
   {
     "status": "active",
+    "code": "ethereum_cad_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ethereum_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ethereum_aud_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "ethereum_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
     "code": "ethereum_classic_etc_invoice",
     "flow": "invoice",
     "method": "ethereum_classic",
@@ -1281,12 +1362,30 @@
   },
   {
     "status": "active",
+    "code": "ethereum_bep20_usd_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "ethereum_gbp_hpp",
     "flow": "hpp",
     "method": "ethereum",
     "currency": "GBP",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "ethereum_bep20_gbp_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "status": "active",
@@ -1326,6 +1425,15 @@
   },
   {
     "status": "active",
+    "code": "ethereum_bep20_eur_hpp",
+    "flow": "hpp",
+    "method": "ethereum",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "privatbank_ssk_uah_hpp",
     "flow": "hpp",
     "method": "privatbank_ssk",
@@ -1353,6 +1461,42 @@
   },
   {
     "status": "active",
+    "code": "litecoin_aud_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_gbp_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_bep20_gbp_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "litecoin_btc_hpp",
     "flow": "hpp",
     "method": "litecoin",
@@ -1366,6 +1510,24 @@
     "flow": "hpp",
     "method": "litecoin",
     "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_cad_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "CAD",
     "amount_min": 0.01,
     "amount_max": 1000000
   },
@@ -1398,6 +1560,15 @@
   },
   {
     "status": "active",
+    "code": "litecoin_bep20_usd_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "ripple_uah_hpp",
     "flow": "hpp",
     "method": "ripple",
@@ -1407,10 +1578,163 @@
   },
   {
     "status": "active",
+    "code": "ripple_cad_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "ripple_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "ripple_aud_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "ripple_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "ripple_gbp_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ripple_bep20_gbp_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "ripple_usd_hpp",
     "flow": "hpp",
     "method": "ripple",
     "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "ripple_bep20_usd_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "solana_usd_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "solana_gbp_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "solana_bep20_gbp_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "solana_cad_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "solana_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "solana_aud_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "solana_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "solana_bep20_usd_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "solana_eur_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "solana_bep20_eur_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 1000000
   },
@@ -1434,7 +1758,25 @@
   },
   {
     "status": "active",
+    "code": "ripple_bep20_eur_hpp",
+    "flow": "hpp",
+    "method": "ripple",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "litecoin_eur_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "litecoin_bep20_eur_hpp",
     "flow": "hpp",
     "method": "litecoin",
     "currency": "EUR",
@@ -4996,7 +5338,25 @@
   },
   {
     "status": "active",
+    "code": "bitcoin_bep20_eur_hpp",
+    "currency": "EUR",
+    "method": "bitcoin",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "bitcoin_gbp_hpp",
+    "currency": "GBP",
+    "method": "bitcoin",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_bep20_gbp_hpp",
     "currency": "GBP",
     "method": "bitcoin",
     "flow": "hpp",
@@ -8535,7 +8895,52 @@
   },
   {
     "status": "active",
+    "code": "tron_cad_hpp",
+    "flow": "hpp",
+    "method": "tron",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tron_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "tron",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tron_aud_hpp",
+    "flow": "hpp",
+    "method": "tron",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "tron_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "tron",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
     "code": "tron_usd_hpp",
+    "flow": "hpp",
+    "method": "tron",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tron_bep20_usd_hpp",
     "flow": "hpp",
     "method": "tron",
     "currency": "USD",
@@ -8553,7 +8958,25 @@
   },
   {
     "status": "active",
+    "code": "tron_bep20_eur_hpp",
+    "flow": "hpp",
+    "method": "tron",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "tron_gbp_hpp",
+    "flow": "hpp",
+    "method": "tron",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tron_bep20_gbp_hpp",
     "flow": "hpp",
     "method": "tron",
     "currency": "GBP",
@@ -8577,6 +9000,60 @@
     "currency": "USDC",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_erc20_cad_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_trc20_cad_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_erc20_aud_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_trc20_aud_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
   },
   {
     "status": "active",
@@ -8719,6 +9196,96 @@
     "flow": "hpp",
     "method": "dai_coin",
     "currency": "DAI",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_erc20_usd_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_erc20_eur_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_bep20_eur_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_erc20_cad_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_erc20_aud_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_erc20_gbp_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_bep20_gbp_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dai_coin_bep20_usd_hpp",
+    "flow": "hpp",
+    "method": "dai_coin",
+    "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -11656,6 +12223,42 @@
   },
   {
     "status": "active",
+    "code": "tether_erc20_cad_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_erc20_aud_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_aud_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
     "code": "tether_erc20_usdt_invoice",
     "flow": "invoice",
     "method": "tether",
@@ -11669,6 +12272,24 @@
     "flow": "invoice",
     "method": "tether",
     "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_trc20_cad_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "CAD",
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -12380,6 +13001,96 @@
     "flow": "hpp",
     "method": "dogecoin",
     "currency": "DOGE",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_cad_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_bep20_cad_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_aud_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_bep20_aud_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_gbp_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_bep20_gbp_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_usd_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_eur_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_bep20_eur_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dogecoin_bep20_usd_hpp",
+    "flow": "hpp",
+    "method": "dogecoin",
+    "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -25751,6 +26462,96 @@
     "status": "active",
     "code": "cardano_ada_hpp",
     "currency": "ADA",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cardano_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cardano_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cardano_bep20_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cardano_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cardano_bep20_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cardano_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "cardano_bep20_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "cardano_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cardano_bep20_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "cardano_bep20_usd_hpp",
+    "currency": "USD",
     "flow": "hpp",
     "method": "cardano",
     "amount_min": 0.01,
