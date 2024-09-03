@@ -26310,5 +26310,18 @@
       "tron",
       "usd_coin"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payzln",
+    "vendor": "payzln",
+    "name": {
+      "en": "PayZln",
+      "ru": "PayZln",
+      "uk": "PayZln"
+    },
+    "payment_method": [
+      "upi"
+    ]
   }
 ]
