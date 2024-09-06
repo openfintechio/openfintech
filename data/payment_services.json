@@ -2896,6 +2896,40 @@
           "uk": "Введіть код банку відправника"
         },
         "example": "050"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (NIK, KTP)",
+          "ru": "Введите тип документа (NIK, KTP)",
+          "uk": "Введіть тип документу (NIK, KTP)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{14,18}$/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
       }
     ]
   },
@@ -18196,6 +18230,23 @@
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
         }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
       }
     ]
   },
@@ -18306,7 +18357,43 @@
     "flow": "hpp",
     "method": "webpay",
     "amount_min": 1,
-    "amount_max": 90000000
+    "amount_max": 90000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -23510,6 +23597,23 @@
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
         }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
       }
     ]
   },
@@ -23548,7 +23652,43 @@
     "flow": "hpp",
     "method": "banco_santander",
     "amount_min": 1,
-    "amount_max": 90340000
+    "amount_max": 90340000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -23583,6 +23723,23 @@
           "en": "Enter personal ID",
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
         }
       }
     ]
@@ -23620,6 +23777,23 @@
           "en": "Enter personal ID",
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
         }
       }
     ]
@@ -26699,7 +26873,43 @@
     "flow": "hpp",
     "method": "qris",
     "amount_min": 0.01,
-    "amount_max": 15000000000
+    "amount_max": 15000000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (NIK, KTP)",
+          "ru": "Введите тип документа (NIK, KTP)",
+          "uk": "Введіть тип документу (NIK, KTP)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{14,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -26880,5 +27090,4415 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 92000
+  },
+  {
+    "status": "active",
+    "code": "rapidpagos_bob_hpp",
+    "flow": "hpp",
+    "method": "rapidpagos",
+    "currency": "BOB",
+    "amount_min": 1,
+    "amount_max": 700000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CI, CIE, PASS, NIT)",
+          "ru": "Введите тип документа (CI, CIE, PASS, NIT)",
+          "uk": "Введіть тип документу (CI, CIE, PASS, NIT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[A-Za-z0-9]{6,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pagofacil_bob_hpp",
+    "flow": "hpp",
+    "method": "pagofacil",
+    "currency": "BOB",
+    "amount_min": 1,
+    "amount_max": 700000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CI, CIE, PASS, NIT)",
+          "ru": "Введите тип документа (CI, CIE, PASS, NIT)",
+          "uk": "Введіть тип документу (CI, CIE, PASS, NIT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[A-Za-z0-9]{6,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bancodobrasil_brl_hpp",
+    "flow": "hpp",
+    "method": "bancodobrasil",
+    "currency": "BRL",
+    "amount_min": 1,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CPF)",
+          "ru": "Введите тип документа (CPF)",
+          "uk": "Введіть тип документу (CPF)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_original_brl_hpp",
+    "flow": "hpp",
+    "method": "banco_original",
+    "currency": "BRL",
+    "amount_min": 1,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CPF)",
+          "ru": "Введите тип документа (CPF)",
+          "uk": "Введіть тип документу (CPF)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_safra_brl_hpp",
+    "flow": "hpp",
+    "method": "banco_safra",
+    "currency": "BRL",
+    "amount_min": 1,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CPF)",
+          "ru": "Введите тип документа (CPF)",
+          "uk": "Введіть тип документу (CPF)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banrisulbanricompras_brl_hpp",
+    "flow": "hpp",
+    "method": "banrisulbanricompras",
+    "currency": "BRL",
+    "amount_min": 1,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CPF)",
+          "ru": "Введите тип документа (CPF)",
+          "uk": "Введіть тип документу (CPF)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "elo_brl_hpp",
+    "flow": "hpp",
+    "method": "elo",
+    "currency": "BRL",
+    "amount_min": 1,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CPF)",
+          "ru": "Введите тип документа (CPF)",
+          "uk": "Введіть тип документу (CPF)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nubank_brl_hpp",
+    "flow": "hpp",
+    "method": "nubank",
+    "currency": "BRL",
+    "amount_min": 1,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CPF)",
+          "ru": "Введите тип документа (CPF)",
+          "uk": "Введіть тип документу (CPF)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mercadopago_brl_hpp",
+    "flow": "hpp",
+    "method": "mercadopago",
+    "currency": "BRL",
+    "amount_min": 1,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CPF)",
+          "ru": "Введите тип документа (CPF)",
+          "uk": "Введіть тип документу (CPF)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_bice_clp_hpp",
+    "flow": "hpp",
+    "method": "banco_bice",
+    "currency": "CLP",
+    "amount_min": 10,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_credichile_clp_hpp",
+    "flow": "hpp",
+    "method": "banco_credichile",
+    "currency": "CLP",
+    "amount_min": 10,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "caja_vecina_clp_hpp",
+    "flow": "hpp",
+    "method": "caja_vecina",
+    "currency": "CLP",
+    "amount_min": 10,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "sencillito_clp_hpp",
+    "flow": "hpp",
+    "method": "sencillito",
+    "currency": "CLP",
+    "amount_min": 10,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bancoitau_clp_hpp",
+    "flow": "hpp",
+    "method": "bancoitau",
+    "currency": "CLP",
+    "amount_min": 10,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "scotiabank_clp_hpp",
+    "flow": "hpp",
+    "method": "scotiabank",
+    "currency": "CLP",
+    "amount_min": 10,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, RUN, RUT)",
+          "ru": "Введите тип документа (ID, RUN, RUT)",
+          "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "interac_etransfer_cad_hpp",
+    "flow": "hpp",
+    "method": "interac_etransfer",
+    "currency": "CAD",
+    "amount_min": 1,
+    "amount_max": 130000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (DL, HC, PASS)",
+          "ru": "Введите тип документа (DL, HC, PASS)",
+          "uk": "Введіть тип документу (DL, HC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mercadopago_cop_hpp",
+    "flow": "hpp",
+    "method": "mercadopago",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "punto_red_cop_hpp",
+    "flow": "hpp",
+    "method": "punto_red",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "almacenes_exito_cop_hpp",
+    "flow": "hpp",
+    "method": "almacenes_exito",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "carulla_cop_hpp",
+    "flow": "hpp",
+    "method": "carulla",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "surtimax_cop_hpp",
+    "flow": "hpp",
+    "method": "surtimax",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "jer_cop_hpp",
+    "flow": "hpp",
+    "method": "jer",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "su_chance_cop_hpp",
+    "flow": "hpp",
+    "method": "su_chance",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "con_suerte_cop_hpp",
+    "flow": "hpp",
+    "method": "con_suerte",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "superinter_cop_hpp",
+    "flow": "hpp",
+    "method": "superinter",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "coopenessa_cop_hpp",
+    "flow": "hpp",
+    "method": "coopenessa",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "edeq_cop_hpp",
+    "flow": "hpp",
+    "method": "edeq",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "dimonex_cop_hpp",
+    "flow": "hpp",
+    "method": "dimonex",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "fullcarga_cop_hpp",
+    "flow": "hpp",
+    "method": "fullcarga",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "moviired_cop_hpp",
+    "flow": "hpp",
+    "method": "moviired",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "su_suerte_cop_hpp",
+    "flow": "hpp",
+    "method": "su_suerte",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "surti_mayorista_cop_hpp",
+    "flow": "hpp",
+    "method": "surti_mayorista",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "su_red_cop_hpp",
+    "flow": "hpp",
+    "method": "su_red",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "transfiya_cop_hpp",
+    "flow": "hpp",
+    "method": "transfiya",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tpaga_cop_hpp",
+    "flow": "hpp",
+    "method": "tpaga",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payser_crc_hpp",
+    "flow": "hpp",
+    "method": "payser",
+    "currency": "CRC",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CI)",
+          "ru": "Введите тип документа (CI)",
+          "uk": "Введіть тип документу (CI)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{9,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paypal_crc_hpp",
+    "flow": "hpp",
+    "method": "paypal",
+    "currency": "CRC",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CI)",
+          "ru": "Введите тип документа (CI)",
+          "uk": "Введіть тип документу (CI)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{9,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "facilito_usd_hpp",
+    "flow": "hpp",
+    "method": "facilito",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pago_agil_usd_hpp",
+    "flow": "hpp",
+    "method": "pago_agil",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "servipagos_usd_hpp",
+    "flow": "hpp",
+    "method": "servipagos",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_del_barrio_usd_hpp",
+    "flow": "hpp",
+    "method": "banco_del_barrio",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_bolivariano_usd_hpp",
+    "flow": "hpp",
+    "method": "banco_bolivariano",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tia_usd_hpp",
+    "flow": "hpp",
+    "method": "tia",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "activa_westernunion_usd_hpp",
+    "flow": "hpp",
+    "method": "activa_westernunion",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_internacional_usd_hpp",
+    "flow": "hpp",
+    "method": "banco_internacional",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "western_union_usd_hpp",
+    "flow": "hpp",
+    "method": "western_union",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "farmacias911_usd_hpp",
+    "flow": "hpp",
+    "method": "farmacias911",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payphone_usd_hpp",
+    "flow": "hpp",
+    "method": "payphone",
+    "currency": "USD",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_gyt_continental_gtq_hpp",
+    "flow": "hpp",
+    "method": "banco_gyt_continental",
+    "currency": "GTQ",
+    "amount_min": 1,
+    "amount_max": 780000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (DPI)",
+          "ru": "Введите тип документа (DPI)",
+          "uk": "Введіть тип документу (DPI)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mercadopago_mxn_hpp",
+    "flow": "hpp",
+    "method": "mercadopago",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "oxxo_mxn_hpp",
+    "flow": "hpp",
+    "method": "oxxo",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "codi_mxn_hpp",
+    "flow": "hpp",
+    "method": "codi",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banamex_mxn_hpp",
+    "flow": "hpp",
+    "method": "banamex",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "santander_supernet_mxn_hpp",
+    "flow": "hpp",
+    "method": "santander_supernet",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_santander_mxn_hpp",
+    "flow": "hpp",
+    "method": "banco_santander",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "afirme_online_banking_mxn_hpp",
+    "flow": "hpp",
+    "method": "afirme_online_banking",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "toditocash_mxn_hpp",
+    "flow": "hpp",
+    "method": "toditocash",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paynet_mxn_hpp",
+    "flow": "hpp",
+    "method": "paynet",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "farmacia_del_ahorro_mxn_hpp",
+    "flow": "hpp",
+    "method": "farmacia_del_ahorro",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "extra_mxn_hpp",
+    "flow": "hpp",
+    "method": "extra",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bodega_aurrera_mxn_hpp",
+    "flow": "hpp",
+    "method": "bodega_aurrera",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "circulo_k_mxn_hpp",
+    "flow": "hpp",
+    "method": "circulo_k",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "seven_eleven_mxn_hpp",
+    "flow": "hpp",
+    "method": "seven_eleven",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "farmacia_la_mas_barata_mxn_hpp",
+    "flow": "hpp",
+    "method": "farmacia_la_mas_barata",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "roma_mxn_hpp",
+    "flow": "hpp",
+    "method": "roma",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "superama_mxn_hpp",
+    "flow": "hpp",
+    "method": "superama",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "walmart_express_mxn_hpp",
+    "flow": "hpp",
+    "method": "walmart_express",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "walmart_mxn_hpp",
+    "flow": "hpp",
+    "method": "walmart",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "baz_superapp_mxn_hpp",
+    "flow": "hpp",
+    "method": "baz_superapp",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banorte_online_banking_mxn_hpp",
+    "flow": "hpp",
+    "method": "banorte_online_banking",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paypal_mxn_hpp",
+    "flow": "hpp",
+    "method": "paypal",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "western_union_pab_hpp",
+    "flow": "hpp",
+    "method": "western_union",
+    "currency": "PAB",
+    "amount_min": 1,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CIP, PASS)",
+          "ru": "Введите тип документа (CIP, PASS)",
+          "uk": "Введіть тип документу (CIP, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{5,11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_pyg_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "currency": "PYG",
+    "amount_min": 70,
+    "amount_max": 700000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CRC, CRP, DNI, PASS, RUC, CIC)",
+          "ru": "Введите тип документа (CRC, CRP, DNI, PASS, RUC, CIC)",
+          "uk": "Введіть тип документу (CRC, CRP, DNI, PASS, RUC, CIC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{3,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tupay_pen_hpp",
+    "flow": "hpp",
+    "method": "tupay",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tupay_qr_pen_hpp",
+    "flow": "hpp",
+    "method": "tupay_qr",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tupay_bank_transfers_pen_hpp",
+    "flow": "hpp",
+    "method": "tupay_bank_transfers",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "credit_cards_by_tupay_pen_hpp",
+    "flow": "hpp",
+    "method": "credit_cards_by_tupay",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pago_efectivo_pen_hpp",
+    "flow": "hpp",
+    "method": "pago_efectivo",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "yape_pen_hpp",
+    "flow": "hpp",
+    "method": "yape",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banbif_pen_hpp",
+    "flow": "hpp",
+    "method": "banbif",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "banco_ripley_pen_hpp",
+    "flow": "hpp",
+    "method": "banco_ripley",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mercadopago_pen_hpp",
+    "flow": "hpp",
+    "method": "mercadopago",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "niubiz_agents_payment_pen_hpp",
+    "flow": "hpp",
+    "method": "niubiz_agents_payment",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "red_digital_pen_hpp",
+    "flow": "hpp",
+    "method": "red_digital",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "western_union_pen_hpp",
+    "flow": "hpp",
+    "method": "western_union",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "caja_cusco_pen_hpp",
+    "flow": "hpp",
+    "method": "caja_cusco",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "caja_ica_pen_hpp",
+    "flow": "hpp",
+    "method": "caja_ica",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "caja_piura_pen_hpp",
+    "flow": "hpp",
+    "method": "caja_piura",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paypal_nio_hpp",
+    "flow": "hpp",
+    "method": "paypal",
+    "currency": "NIO",
+    "amount_min": 1,
+    "amount_max": 3500000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CI)",
+          "ru": "Введите тип документа (CI)",
+          "uk": "Введіть тип документу (CI)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mobile_money_ghs_hpp",
+    "flow": "hpp",
+    "method": "mobile_money",
+    "currency": "GHS",
+    "amount_min": 1,
+    "amount_max": 1100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID)",
+          "ru": "Введите тип документа (ID)",
+          "uk": "Введіть тип документу (ID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mobile_money_kes_hpp",
+    "flow": "hpp",
+    "method": "mobile_money",
+    "currency": "KES",
+    "amount_min": 1,
+    "amount_max": 11000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID)",
+          "ru": "Введите тип документа (ID)",
+          "uk": "Введіть тип документу (ID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{7,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "upi_seamless_inr_hpp",
+    "flow": "hpp",
+    "method": "upi_seamless",
+    "currency": "INR",
+    "amount_min": 1,
+    "amount_max": 7400000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, DL, UID)",
+          "ru": "Введите тип документа (ID, DL, UID)",
+          "uk": "Введіть тип документу (ID, DL, UID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "fpx_myr_hpp",
+    "flow": "hpp",
+    "method": "fpx",
+    "currency": "MYR",
+    "amount_min": 1,
+    "amount_max": 420000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID)",
+          "ru": "Введите тип документа (ID)",
+          "uk": "Введіть тип документу (ID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10,14}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "touch_n_go_myr_hpp",
+    "flow": "hpp",
+    "method": "touch_n_go",
+    "currency": "MYR",
+    "amount_min": 1,
+    "amount_max": 420000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID)",
+          "ru": "Введите тип документа (ID)",
+          "uk": "Введіть тип документу (ID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10,14}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "prompt_pay_thb_hpp",
+    "flow": "hpp",
+    "method": "prompt_pay",
+    "currency": "THB",
+    "amount_min": 1,
+    "amount_max": 3300000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID)",
+          "ru": "Введите тип документа (ID)",
+          "uk": "Введіть тип документу (ID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10,14}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_p2p_cny_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_p2p",
+    "currency": "CNY",
+    "amount_min": 1,
+    "amount_max": 650000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID)",
+          "ru": "Введите тип документа (ID)",
+          "uk": "Введіть тип документу (ID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{3,20}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "dragonpay_php_hpp",
+    "flow": "hpp",
+    "method": "dragonpay",
+    "currency": "PHP",
+    "amount_min": 1,
+    "amount_max": 5000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (PSN)",
+          "ru": "Введите тип документа (PSN)",
+          "uk": "Введіть тип документу (PSN)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{9,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paymaya_php_hpp",
+    "flow": "hpp",
+    "method": "paymaya",
+    "currency": "PHP",
+    "amount_min": 1,
+    "amount_max": 5000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (PSN)",
+          "ru": "Введите тип документа (PSN)",
+          "uk": "Введіть тип документу (PSN)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{9,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        }
+      }
+    ]
   }
 ]
