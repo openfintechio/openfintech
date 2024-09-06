@@ -21284,7 +21284,8 @@
       "uk": "Gate.Express"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer_aggregated"
     ],
     "payout_method": [
       "payment_card"
