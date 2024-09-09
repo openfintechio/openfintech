@@ -25012,6 +25012,42 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aggregated_kes_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "KES",
+    "amount_min": 1,
+    "amount_max": 12875000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_ngn_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "NGN",
+    "amount_min": 16,
+    "amount_max": 160678000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_tzs_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "TZS",
+    "amount_min": 27,
+    "amount_max": 272500000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_zar_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "ZAR",
+    "amount_min": 0.18,
+    "amount_max": 1792548
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aggregated_jpy_hpp",
     "flow": "hpp",
     "method": "bank_transfer_aggregated",
