@@ -26483,5 +26483,18 @@
       "gcash",
       "paymaya"
     ]
+  },
+  {
+    "status": "active",
+    "code": "slyse",
+    "vendor": "slyse",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "SLYSE",
+      "ru": "SLYSE",
+      "uk": "SLYSE"
+    }
   }
 ]
