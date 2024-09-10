@@ -20413,7 +20413,15 @@
       "uk": "Justipay"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer",
+      "applepay",
+      "googlepay",
+      "mb_way",
+      "blik",
+      "interac_aggregated",
+      "bancontact",
+      "ideal"
     ],
     "payout_method": [
       "payment_card"
