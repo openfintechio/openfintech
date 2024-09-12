@@ -20429,6 +20429,19 @@
   },
   {
     "status": "active",
+    "code": "todapay",
+    "vendor": "todapay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "TODA Pay",
+      "ru": "TODA Pay",
+      "uk": "TODA Pay"
+    }
+  },
+  {
+    "status": "active",
     "code": "payecards",
     "vendor": "payecards",
     "name": {
