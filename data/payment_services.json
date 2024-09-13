@@ -9672,7 +9672,34 @@
     "flow": "hpp",
     "method": "applepay",
     "amount_min": 0.01,
-    "amount_max": 1000000
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "applepay_nzd_hpp",
+    "currency": "NZD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_nzd_hpp",
+    "currency": "NZD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 200000
   },
   {
     "status": "active",
