@@ -9909,7 +9909,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -9926,7 +9926,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -9943,7 +9943,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -9971,7 +9971,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -9988,7 +9988,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10005,7 +10005,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10033,7 +10033,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10050,7 +10050,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10067,7 +10067,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10095,7 +10095,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10112,7 +10112,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10129,7 +10129,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10157,7 +10157,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10174,7 +10174,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10191,7 +10191,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10219,7 +10219,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10236,7 +10236,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10253,7 +10253,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10281,7 +10281,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10298,7 +10298,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10343,7 +10343,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10360,7 +10360,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10377,7 +10377,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10405,7 +10405,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10422,7 +10422,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10439,7 +10439,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10467,7 +10467,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10484,7 +10484,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10501,7 +10501,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10529,7 +10529,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10546,7 +10546,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10563,7 +10563,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10591,7 +10591,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10608,7 +10608,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10625,7 +10625,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10653,7 +10653,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10670,7 +10670,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^.{0,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10687,7 +10687,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10751,7 +10751,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10768,7 +10768,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10785,7 +10785,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10813,7 +10813,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10830,7 +10830,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10847,7 +10847,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10875,7 +10875,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10892,7 +10892,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10909,7 +10909,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10937,7 +10937,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -10954,7 +10954,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -10971,7 +10971,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
@@ -10999,7 +10999,7 @@
           "uk": "Введіть ім`я"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       },
       {
@@ -11016,7 +11016,7 @@
           "uk": "Введіть прізвище"
         },
         "regexp": "\/^[A-ZА-Я\\-\\sa-zа-я]{2,255}$\/",
-        "required": true,
+        "required": false,
         "position": 2
       },
       {
@@ -11033,7 +11033,7 @@
           "uk": "Введіть дату народження"
         },
         "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
+        "required": false,
         "position": 3
       }
     ],
