@@ -17688,6 +17688,24 @@
   },
   {
     "status": "active",
+    "code": "jeton_wallet_huf_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "HUF",
+    "amount_min": 0.01,
+    "amount_max": 300000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_czk_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "CZK",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
     "code": "interac_cad_hpp",
     "flow": "hpp",
     "method": "interac",
