@@ -31635,5 +31635,320 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_bob_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "BOB",
+    "amount_min": 1,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_brl_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "BRL",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_clp_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_cop_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "COP",
+    "amount_min": 1,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_crc_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "CRC",
+    "amount_min": 0.01,
+    "amount_max": 62000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_usd_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_gtq_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "GTQ",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_mxn_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_pab_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "PAB",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_pen_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "PEN",
+    "amount_min": 1,
+    "amount_max": 380000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_hnl_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "HNL",
+    "amount_min": 25,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_myr_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "MYR",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_thb_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "THB",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_vnd_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "VND",
+    "amount_min": 1,
+    "amount_max": 9999999999
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_inr_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_try_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "TRY",
+    "amount_min": 0.01,
+    "amount_max": 1800000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_egp_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "EGP",
+    "amount_min": 0.01,
+    "amount_max": 3000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_kzt_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "KZT",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_uzs_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "UZS",
+    "amount_min": 0.01,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_pkr_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "PKR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_pgs_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "KGS",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_uah_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "UAH",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_aed_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "AED",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_sar_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "SAR",
+    "amount_min": 1,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_ngn_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "NGN",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_kes_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "KES",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_ghs_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "GHS",
+    "amount_min": 0.01,
+    "amount_max": 760000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_zmw_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "ZMW",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_ugx_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "UGX",
+    "amount_min": 1,
+    "amount_max": 360000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_tzs_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "TZS",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_xof_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "XOF",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_xaf_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "XAF",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_gnf_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "GNF",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_rwf_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "RWF",
+    "amount_min": 1,
+    "amount_max": 102500000
+  },
+  {
+    "status": "active",
+    "code": "kasha_wallet_zar_hpp",
+    "flow": "hpp",
+    "method": "kasha_wallet",
+    "currency": "ZAR",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]
