@@ -3510,11 +3510,64 @@
     "amount_max": 9999999,
     "fields": [
       {
+        "key": "payer_email",
+        "type": "string",
+        "label": {
+          "en": "Payer email",
+          "ru": "Email плательщика",
+          "uk": "Email платника"
+        },
+        "hint": {
+          "en": "Enter payer email",
+          "ru": "Введите email плательщика",
+          "uk": "Введіть email платника"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "payer_phone_number",
+        "type": "string",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 2,
+        "example": "+234742044295",
+        "label": {
+          "en": "Payer phone number",
+          "ru": "Номер телефона плательщика",
+          "uk": "Номер телефону платника"
+        },
+        "hint": {
+          "en": "Enter payer phone number",
+          "ru": "Введите номер телефона плательщика",
+          "uk": "Введіть номер телефону платника"
+        }
+      },
+      {
+        "key": "payer_full_name",
+        "type": "string",
+        "label": {
+          "en": "Payer full name",
+          "ru": "Полное имя плательщика",
+          "uk": "Повне імʼя платника"
+        },
+        "hint": {
+          "en": "Enter Payer name",
+          "ru": "Введите полное имя плательщика",
+          "uk": "Введіть повне імʼя платника"
+        },
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
+        "required": false,
+        "example": "VAN TUONG LAN",
+        "position": 3
+      },
+      {
         "key": "payer_first_name",
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
-        "position": 1,
+        "position": 4,
         "label": {
           "en": "Payer first name",
           "ru": "Имя отправителя",
@@ -3532,7 +3585,7 @@
         "type": "string",
         "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
         "required": false,
-        "position": 2,
+        "position": 5,
         "label": {
           "en": "Payer last name",
           "ru": "Фамилия получателя",
@@ -3550,7 +3603,7 @@
         "type": "string",
         "regexp": "\/^[a-zA-Z0-9 \\\/_.,'-]{1,200}$\/",
         "required": false,
-        "position": 3,
+        "position": 6,
         "label": {
           "en": "Payer address",
           "ru": "Адрес отправителя",
@@ -3567,7 +3620,7 @@
         "type": "string",
         "regexp": "\/^[a-zA-Z\\-]{1,20}$\/",
         "required": false,
-        "position": 4,
+        "position": 7,
         "label": {
           "en": "Payer country",
           "ru": "Страна отправителя",
@@ -3585,7 +3638,7 @@
         "type": "string",
         "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
         "required": false,
-        "position": 5,
+        "position": 8,
         "label": {
           "en": "Payer city",
           "ru": "Город отправителя",
@@ -3603,7 +3656,7 @@
         "type": "string",
         "regexp": "\/^[a-zA-Z\\-\\s]{1,20}$\/",
         "required": false,
-        "position": 6,
+        "position": 9,
         "label": {
           "en": "Payer state",
           "ru": "Штат отправителя",
@@ -3621,7 +3674,7 @@
         "type": "string",
         "regexp": "\/^[0-9\\-\\s]{1,20}$\/",
         "required": false,
-        "position": 7,
+        "position": 10,
         "label": {
           "en": "Payer zip code",
           "ru": "Почтовый индекс отправителя",
@@ -3639,7 +3692,7 @@
         "type": "string",
         "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
         "required": false,
-        "position": 8,
+        "position": 11,
         "label": {
           "en": "Payer bank code",
           "ru": "Код банка отправителя",
@@ -3657,7 +3710,7 @@
         "type": "string",
         "regexp": "\/^.{1,50}$\/",
         "required": false,
-        "position": 9,
+        "position": 12,
         "label": {
           "en": "Client account number",
           "ru": "Номер клиентского счета",
