@@ -3917,6 +3917,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_jpy_hpp",
     "currency": "JPY",
     "flow": "hpp",
