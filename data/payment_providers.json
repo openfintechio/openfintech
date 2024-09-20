@@ -19314,7 +19314,8 @@
       "uk": "GumballPay"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "ideal"
     ]
   },
   {
@@ -22591,7 +22592,8 @@
     "payment_method": [
       "payment_card",
       "mb_way",
-      "pay_id"
+      "pay_id",
+      "multibanco"
     ]
   },
   {
@@ -26022,7 +26024,8 @@
     },
     "payment_method": [
       "payment_card",
-      "bank_transfer_aggregated"
+      "bank_transfer_aggregated",
+      "kasha_wallet"
     ]
   },
   {
@@ -26297,6 +26300,9 @@
       "uk": "Spush"
     },
     "payment_method": [
+      "spush_pay"
+    ],
+    "payout_method": [
       "spush_pay"
     ]
   },
