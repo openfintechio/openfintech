@@ -15212,6 +15212,15 @@
   },
   {
     "status": "active",
+    "code": "carrierbilling_eur_hpp",
+    "flow": "hpp",
+    "method": "carrierbilling",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "binancepay_inr_hpp",
     "flow": "hpp",
     "method": "binancepay",
