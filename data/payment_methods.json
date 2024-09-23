@@ -363,6 +363,26 @@
     }
   },
   {
+    "code": "activ_kcell",
+    "category": "mobile_carrier_billing",
+    "status": "active",
+    "name": {
+      "en": "Kcell/Activ",
+      "ru": "Kcell/Activ",
+      "uk": "Kcell/Activ"
+    }
+  },
+  {
+    "code": "altel_tele2",
+    "category": "mobile_carrier_billing",
+    "status": "active",
+    "name": {
+      "en": "Tele2/Altel",
+      "ru": "Tele2/Altel",
+      "uk": "Tele2/Altel"
+    }
+  },
+  {
     "code": "otpbank",
     "vendor": "otpbank",
     "category": "online_banking",
