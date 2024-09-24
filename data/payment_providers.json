@@ -3568,6 +3568,19 @@
   },
   {
     "status": "active",
+    "code": "rashpay",
+    "vendor": "rashpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "RashPay",
+      "ru": "RashPay",
+      "uk": "RashPay"
+    }
+  },
+  {
+    "status": "active",
     "code": "paybox",
     "vendor": "paybox",
     "name": {
