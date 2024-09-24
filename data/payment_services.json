@@ -2434,6 +2434,23 @@
           "uk": "Введіть код банку відправника"
         },
         "example": "050"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10-14}$/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -2742,6 +2759,23 @@
           "uk": "Введіть код банку відправника"
         },
         "example": "050"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10-14}$/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -2921,14 +2955,14 @@
         "required": false,
         "position": 10,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -3119,6 +3153,23 @@
           "uk": "Введіть номер рахунку клієнта"
         },
         "example": "1100382992"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{9,12}$/",
+        "required": false,
+        "position": 11,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -4075,6 +4126,23 @@
           "uk": "Введіть код банку відправника"
         },
         "example": "050"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{9,12}$/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -5929,7 +5997,26 @@
     "flow": "hpp",
     "method": "paypal",
     "amount_min": 0.01,
-    "amount_max": 9999999
+    "amount_max": 9999999,
+    "fields" : [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,18}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -6386,7 +6473,26 @@
     "flow": "hpp",
     "method": "shopeepay",
     "amount_min": 0.01,
-    "amount_max": 15000000000
+    "amount_max": 15000000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{14,18}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -6413,7 +6519,26 @@
     "flow": "hpp",
     "method": "shopeepay",
     "amount_min": 0.01,
-    "amount_max": 10000000
+    "amount_max": 10000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10-14}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -6448,6 +6573,23 @@
           "uk": "Введіть номер рахунку клієнта"
         },
         "example": "1100382992"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10-14}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ],
     "amount_min": 0.01,
@@ -6469,7 +6611,26 @@
     "flow": "hpp",
     "method": "grabpay",
     "amount_min": 0.01,
-    "amount_max": 10000000
+    "amount_max": 10000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10-14}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -6496,7 +6657,26 @@
     "flow": "hpp",
     "method": "gcash",
     "amount_min": 0.01,
-    "amount_max": 10000000
+    "amount_max": 10000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{9,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -14515,6 +14695,23 @@
           "uk": "Введіть поштовий індекс платника"
         },
         "example": "12345-678"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 8,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -14730,11 +14927,28 @@
         "example": "CPF/CNPJ"
       },
       {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
         "key": "cpf_cnpj_number",
         "type": "string",
         "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
         "required": false,
-        "position": 2,
+        "position": 3,
         "label": {
           "en": "CPF or CNPJ number",
           "ru": "CPF или CNPJ номер",
@@ -14777,11 +14991,28 @@
         "example": "CPF/CNPJ"
       },
       {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
         "key": "cpf_cnpj_number",
         "type": "string",
         "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
         "required": false,
-        "position": 2,
+        "position": 3,
         "label": {
           "en": "CPF or CNPJ number",
           "ru": "CPF или CNPJ номер",
@@ -14824,11 +15055,28 @@
         "example": "CPF/CNPJ"
       },
       {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
         "key": "cpf_cnpj_number",
         "type": "string",
         "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
         "required": false,
-        "position": 2,
+        "position": 3,
         "label": {
           "en": "CPF or CNPJ number",
           "ru": "CPF или CNPJ номер",
@@ -14871,11 +15119,28 @@
         "example": "CPF/CNPJ"
       },
       {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
         "key": "cpf_cnpj_number",
         "type": "string",
         "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
         "required": false,
-        "position": 2,
+        "position": 3,
         "label": {
           "en": "CPF or CNPJ number",
           "ru": "CPF или CNPJ номер",
@@ -15106,6 +15371,23 @@
           "uk": "Введіть тип документа отримувача"
         },
         "example": "CPF/CNPJ"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -15469,6 +15751,40 @@
           "uk": "Введіть номер рахунку"
         },
         "example": "name@bankname"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, DL, UID)",
+          "ru": "Введите тип документа (ID, DL, UID)",
+          "uk": "Введіть тип документу (ID, DL, UID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -15713,6 +16029,23 @@
           "uk": "Введіть прізвище відправника"
         },
         "example": "Doe"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{11}$/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -16012,6 +16345,40 @@
           "uk": "Введіть прізвище відправника"
         },
         "example": "Doe"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -17782,7 +18149,43 @@
     "method": "interac",
     "currency": "CAD",
     "amount_min": 0.01,
-    "amount_max": 130000
+    "amount_max": 130000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (DL, HC, PASS)",
+          "ru": "Введите тип документа (DL, HC, PASS)",
+          "uk": "Введіть тип документу (DL, HC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -18327,7 +18730,43 @@
     "flow": "hpp",
     "method": "pse",
     "amount_min": 0.01,
-    "amount_max": 4900000000
+    "amount_max": 4900000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -18345,7 +18784,43 @@
     "flow": "hpp",
     "method": "banco_guayaquil",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -18371,6 +18846,40 @@
           "en": "Enter personal ID",
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,13}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -18416,6 +18925,23 @@
           "en": "Enter Document Type (ID, RUN, RUT)",
           "ru": "Введите тип документа (ID, RUN, RUT)",
           "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -18553,14 +19079,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -20486,6 +21012,23 @@
           "uk": "Введіть номер рахунку клієнта"
         },
         "example": "1100382992"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{10-14}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -23731,7 +24274,43 @@
     "flow": "hpp",
     "method": "bbva_bancomer",
     "amount_min": 0.01,
-    "amount_max": 1746000
+    "amount_max": 1746000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -23783,6 +24362,23 @@
           "en": "Enter Document Type (ID, RUN, RUT)",
           "ru": "Введите тип документа (ID, RUN, RUT)",
           "uk": "Введіть тип документу (ID, RUN, RUT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -23848,14 +24444,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -23911,6 +24507,23 @@
           "ru": "Введите тип документа (ID, RUN, RUT)",
           "uk": "Введіть тип документу (ID, RUN, RUT)"
         }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -23965,6 +24578,23 @@
           "ru": "Введите тип документа (ID, RUN, RUT)",
           "uk": "Введіть тип документу (ID, RUN, RUT)"
         }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,9}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -24002,7 +24632,43 @@
     "flow": "hpp",
     "method": "caja_arequipa_cash",
     "amount_min": 0.01,
-    "amount_max": 377000
+    "amount_max": 377000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -24011,7 +24677,43 @@
     "flow": "hpp",
     "method": "caja_huancayo_cash",
     "amount_min": 0.01,
-    "amount_max": 377000
+    "amount_max": 377000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -24038,6 +24740,40 @@
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
         }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -24057,7 +24793,43 @@
     "flow": "hpp",
     "method": "scotiabank_cash",
     "amount_min": 0.01,
-    "amount_max": 377000
+    "amount_max": 377000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -24103,7 +24875,43 @@
     "flow": "hpp",
     "method": "kasnet_cash",
     "amount_min": 0.01,
-    "amount_max": 377000
+    "amount_max": 377000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CE, CPP, DNI, PASS, RUC)",
+          "ru": "Введите тип документа (CE, CPP, DNI, PASS, RUC)",
+          "uk": "Введіть тип документу (CE, CPP, DNI, PASS, RUC)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -24297,6 +25105,40 @@
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
         }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, DL, RUC, PASS)",
+          "ru": "Введите тип документа (CC, DL, RUC, PASS)",
+          "uk": "Введіть тип документу (CC, DL, RUC, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -24454,6 +25296,40 @@
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
         }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
@@ -24464,7 +25340,43 @@
     "flow": "hpp",
     "method": "soriana_cash",
     "amount_min": 0.01,
-    "amount_max": 1744370
+    "amount_max": 1744370,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -24508,6 +25420,40 @@
           "en": "Enter personal ID",
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -26300,7 +27246,43 @@
     "method": "su_chance",
     "currency": "COP",
     "amount_min": 1,
-    "amount_max": 500000000
+    "amount_max": 500000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -26469,6 +27451,40 @@
           "en": "Enter expiration in days",
           "ru": "Введите cрок действия в днях",
           "uk": "Введіть термін дії в днях"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27105,14 +28121,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27205,7 +28221,43 @@
     "flow": "hpp",
     "method": "nequi",
     "amount_min": 1,
-    "amount_max": 500000000
+    "amount_max": 500000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -27330,14 +28382,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27375,14 +28427,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27420,14 +28472,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27465,14 +28517,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27510,14 +28562,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27555,14 +28607,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27600,14 +28652,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27645,14 +28697,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27690,14 +28742,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27735,14 +28787,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27780,14 +28832,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27825,14 +28877,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27870,14 +28922,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27915,14 +28967,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -27960,14 +29012,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28005,14 +29057,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28050,14 +29102,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28095,14 +29147,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28140,14 +29192,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28185,14 +29237,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28230,14 +29282,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28275,14 +29327,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28320,14 +29372,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28365,14 +29417,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28410,14 +29462,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28455,14 +29507,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28500,14 +29552,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28545,14 +29597,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28590,14 +29642,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28635,14 +29687,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28680,14 +29732,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28725,14 +29777,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28770,14 +29822,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28815,14 +29867,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28860,14 +29912,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28905,14 +29957,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28950,14 +30002,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -28995,14 +30047,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29040,14 +30092,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29085,14 +30137,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29130,14 +30182,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29175,14 +30227,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29220,14 +30272,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29265,14 +30317,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29310,14 +30362,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29355,14 +30407,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29400,14 +30452,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29445,14 +30497,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29490,14 +30542,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29535,14 +30587,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29580,14 +30632,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29625,14 +30677,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29670,14 +30722,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29715,14 +30767,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29760,14 +30812,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29805,14 +30857,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29850,14 +30902,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29895,14 +30947,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29940,14 +30992,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -29985,14 +31037,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30030,14 +31082,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30075,14 +31127,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30120,14 +31172,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30165,14 +31217,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30210,14 +31262,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30255,14 +31307,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30300,14 +31352,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30345,14 +31397,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30390,14 +31442,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30435,14 +31487,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30480,14 +31532,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30525,14 +31577,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30570,14 +31622,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30615,14 +31667,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30660,14 +31712,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30705,14 +31757,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30750,14 +31802,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30795,14 +31847,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30840,14 +31892,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30885,14 +31937,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30930,14 +31982,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -30975,14 +32027,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31020,14 +32072,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31065,14 +32117,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31110,14 +32162,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31155,14 +32207,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31200,14 +32252,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31245,14 +32297,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31290,14 +32342,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31335,14 +32387,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31380,59 +32432,14 @@
         "required": false,
         "position": 2,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
-        }
-      }
-    ]
-  },
-  {
-    "status": "active",
-    "code": "upi_seamless_inr_hpp",
-    "flow": "hpp",
-    "method": "upi_seamless",
-    "currency": "INR",
-    "amount_min": 1,
-    "amount_max": 7400000,
-    "fields": [
-      {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2,3}$/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID, DL, UID)",
-          "ru": "Введите тип документа (ID, DL, UID)",
-          "uk": "Введіть тип документу (ID, DL, UID)"
-        }
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
-        "required": false,
-        "position": 2,
-        "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
-        },
-        "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31447,37 +32454,20 @@
     "amount_max": 420000,
     "fields": [
       {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2}$/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID)",
-          "ru": "Введите тип документа (ID)",
-          "uk": "Введіть тип документу (ID)"
-        }
-      },
-      {
         "key": "document_id",
         "type": "string",
         "regexp": "/^[0-9]{10,14}$/",
         "required": false,
-        "position": 2,
+        "position": 1,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31492,37 +32482,20 @@
     "amount_max": 420000,
     "fields": [
       {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2}$/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID)",
-          "ru": "Введите тип документа (ID)",
-          "uk": "Введіть тип документу (ID)"
-        }
-      },
-      {
         "key": "document_id",
         "type": "string",
         "regexp": "/^[0-9]{10,14}$/",
         "required": false,
-        "position": 2,
+        "position": 1,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31537,37 +32510,20 @@
     "amount_max": 3300000,
     "fields": [
       {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2}$/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID)",
-          "ru": "Введите тип документа (ID)",
-          "uk": "Введіть тип документу (ID)"
-        }
-      },
-      {
         "key": "document_id",
         "type": "string",
         "regexp": "/^[0-9]{10,14}$/",
         "required": false,
-        "position": 2,
+        "position": 1,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31582,37 +32538,20 @@
     "amount_max": 650000,
     "fields": [
       {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2}$/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID)",
-          "ru": "Введите тип документа (ID)",
-          "uk": "Введіть тип документу (ID)"
-        }
-      },
-      {
         "key": "document_id",
         "type": "string",
         "regexp": "/^[0-9]{3,20}$/",
         "required": false,
-        "position": 2,
+        "position": 1,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31627,37 +32566,20 @@
     "amount_max": 5000000,
     "fields": [
       {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{3}$/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (PSN)",
-          "ru": "Введите тип документа (PSN)",
-          "uk": "Введіть тип документу (PSN)"
-        }
-      },
-      {
         "key": "document_id",
         "type": "string",
         "regexp": "/^[0-9]{9,13}$/",
         "required": false,
-        "position": 2,
+        "position": 1,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
@@ -31672,37 +32594,20 @@
     "amount_max": 5000000,
     "fields": [
       {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{3}$/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (PSN)",
-          "ru": "Введите тип документа (PSN)",
-          "uk": "Введіть тип документу (PSN)"
-        }
-      },
-      {
         "key": "document_id",
         "type": "string",
         "regexp": "/^[0-9]{9,13}$/",
         "required": false,
-        "position": 2,
+        "position": 1,
         "label": {
-          "en": "Beneficiary's personal identification number",
-          "ru": "Номер документа получателя",
-          "uk": "Номер документа отримувача"
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
         },
         "hint": {
-          "en": "Enter beneficiary's personal identification number",
-          "ru": "Введите номер документа получателя",
-          "uk": "Введіть номер документа отримувача"
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
         }
       }
     ]
