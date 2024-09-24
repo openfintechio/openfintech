@@ -2689,6 +2689,23 @@
           "uk": "Введіть код банку відправника"
         },
         "example": "050"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[0-9]{9-13}$/",
+        "required": false,
+        "position": 9,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
