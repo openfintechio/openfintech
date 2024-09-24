@@ -2014,6 +2014,90 @@
   },
   {
     "status": "active",
+    "code": "beeline_kzt_hpp",
+    "currency": "KZT",
+    "method": "beeline",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter your phone number",
+          "ru": "Введите Ваш номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 5,
+    "amount_max": 47947258
+  },
+  {
+    "status": "active",
+    "code": "activ_kcell_kzt_hpp",
+    "currency": "KZT",
+    "method": "activ_kcell",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter your phone number",
+          "ru": "Введите Ваш номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 5,
+    "amount_max": 47947258
+  },
+  {
+    "status": "active",
+    "code": "altel_tele2_kzt_hpp",
+    "currency": "KZT",
+    "method": "altel_tele2",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter your phone number",
+          "ru": "Введите Ваш номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 5,
+    "amount_max": 47947258
+  },
+  {
+    "status": "active",
     "code": "beeline_rub_invoice",
     "currency": "RUB",
     "method": "beeline",
