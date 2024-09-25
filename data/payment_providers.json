@@ -26559,5 +26559,20 @@
       "ru": "Spayz",
       "uk": "Spayz"
     }
+  },
+  {
+    "status": "active",
+    "code": "paylivre",
+    "vendor": "paylivre",
+    "payment_method": [
+      "pix",
+      "bank_transfer",
+      "payment_card"
+    ],
+    "name": {
+      "en": "Paylivre",
+      "ru": "Paylivre",
+      "uk": "Paylivre"
+    }
   }
 ]
