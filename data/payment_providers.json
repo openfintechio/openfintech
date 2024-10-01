@@ -26569,8 +26569,11 @@
     "vendor": "paylivre",
     "payment_method": [
       "pix",
-      "bank_transfer",
       "payment_card"
+    ],
+    "payout_method": [
+      "pix",
+      "bank_transfer"
     ],
     "name": {
       "en": "Paylivre",
