@@ -26580,5 +26580,31 @@
       "ru": "Paylivre",
       "uk": "Paylivre"
     }
+  },
+  {
+    "status": "active",
+    "code": "ryvyl",
+    "vendor": "ryvyl",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Ryvyl",
+      "ru": "Ryvyl",
+      "uk": "Ryvyl"
+    }
+  },
+  {
+    "status": "active",
+    "code": "magnetiqbank",
+    "vendor": "magnetiqbank",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Magnetiq Bank",
+      "ru": "Magnetiq Bank",
+      "uk": "Magnetiq Bank"
+    }
   }
 ]
