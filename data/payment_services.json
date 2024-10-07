@@ -4439,6 +4439,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_kzt_hpp",
+    "currency": "KZT",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aed_hpp",
     "currency": "AED",
     "flow": "hpp",
