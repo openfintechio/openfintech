@@ -26620,5 +26620,18 @@
       "ru": "Magnetiq Bank",
       "uk": "Magnetiq Bank"
     }
+  },
+  {
+    "status": "active",
+    "code": "yotta",
+    "vendor": "yotta",
+    "payment_method": [
+      "sepa_transfer"
+    ],
+    "name": {
+      "en": "Yotta",
+      "ru": "Yotta",
+      "uk": "Yotta"
+    }
   }
 ]
