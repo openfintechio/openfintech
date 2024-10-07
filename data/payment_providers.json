@@ -4953,7 +4953,8 @@
       "payment_card_email",
       "payment_card",
       "neteller",
-      "paypal"
+      "paypal",
+      "sepa_transfer"
     ],
     "payout_method": [
       "payment_card",
@@ -26091,6 +26092,19 @@
   },
   {
     "status": "active",
+    "code": "pipay",
+    "vendor": "pipay",
+    "name": {
+      "en": "Pi Pay",
+      "ru": "Pi Pay",
+      "uk": "Pi Pay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payok",
     "vendor": "payok",
     "name": {
@@ -26569,13 +26583,42 @@
     "vendor": "paylivre",
     "payment_method": [
       "pix",
-      "bank_transfer",
       "payment_card"
+    ],
+    "payout_method": [
+      "pix",
+      "bank_transfer"
     ],
     "name": {
       "en": "Paylivre",
       "ru": "Paylivre",
       "uk": "Paylivre"
+    }
+  },
+  {
+    "status": "active",
+    "code": "ryvyl",
+    "vendor": "ryvyl",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Ryvyl",
+      "ru": "Ryvyl",
+      "uk": "Ryvyl"
+    }
+  },
+  {
+    "status": "active",
+    "code": "magnetiqbank",
+    "vendor": "magnetiqbank",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Magnetiq Bank",
+      "ru": "Magnetiq Bank",
+      "uk": "Magnetiq Bank"
     }
   }
 ]
