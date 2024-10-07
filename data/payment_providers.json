@@ -26092,6 +26092,19 @@
   },
   {
     "status": "active",
+    "code": "pipay",
+    "vendor": "pipay",
+    "name": {
+      "en": "Pi Pay",
+      "ru": "Pi Pay",
+      "uk": "Pi Pay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payok",
     "vendor": "payok",
     "name": {
