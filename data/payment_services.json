@@ -15775,7 +15775,7 @@
       {
         "key": "installments",
         "type": "string",
-        "regexp": "^(?:[1-9]|1[0-9]?|2[0-4]?)$",
+        "regexp": "\/^(?:[1-9]|1[0-9]?|2[0-4]?)$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -26990,7 +26990,7 @@
       {
         "key": "email",
         "type": "string",
-        "regexp": "^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
         "required": true,
         "position": 1,
         "label": {
@@ -27289,7 +27289,7 @@
       {
         "key": "installments",
         "type": "string",
-        "regexp": "^(?:[1-9]|1[0-9]?|2[0-4]?)$",
+        "regexp": "\/^(?:[1-9]|1[0-9]?|2[0-4]?)$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -27424,7 +27424,7 @@
       {
         "key": "installments",
         "type": "string",
-        "regexp": "^(?:[1-9]|1[0-9]?|2[0-4]?)$",
+        "regexp": "\/^(?:[1-9]|1[0-9]?|2[0-4]?)$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -27487,7 +27487,7 @@
       {
         "key": "email",
         "type": "string",
-        "regexp": "^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
         "required": false,
         "position": 0,
         "label": {
@@ -27532,7 +27532,7 @@
       {
         "key": "email",
         "type": "string",
-        "regexp": "^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
         "required": false,
         "position": 0,
         "label": {
@@ -27620,7 +27620,7 @@
       {
         "key": "email",
         "type": "string",
-        "regexp": "^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
         "required": false,
         "position": 0,
         "label": {
