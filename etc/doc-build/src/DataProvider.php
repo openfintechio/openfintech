@@ -64,6 +64,8 @@ class DataProvider
 
     private function getJsonContent($path): array
     {
+        \ini_set('memory_limit', '2G');
+
         return json_decode(file_get_contents($path), true);
     }
 
