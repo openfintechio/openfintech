@@ -26615,6 +26615,19 @@
   },
   {
     "status": "active",
+    "code": "unicorn_group",
+    "vendor": "unicorn_group",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Unicorn Group",
+      "ru": "Unicorn Group",
+      "uk": "Unicorn Group"
+    }
+  },
+  {
+    "status": "active",
     "code": "magnetiqbank",
     "vendor": "magnetiqbank",
     "payment_method": [
@@ -26637,6 +26650,19 @@
       "en": "Yotta",
       "ru": "Yotta",
       "uk": "Yotta"
+    }
+  },
+  {
+    "status": "active",
+    "code": "gatewaypay",
+    "vendor": "gatewaypay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "GatewayPay",
+      "ru": "GatewayPay",
+      "uk": "GatewayPay"
     }
   },
   {
