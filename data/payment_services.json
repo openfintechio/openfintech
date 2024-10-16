@@ -23073,81 +23073,7 @@
     "flow": "invoice",
     "method": "upi",
     "amount_min": 0.01,
-    "amount_max": 1000000000,
-    "fields": [
-      {
-        "key": "account",
-        "type": "string",
-        "regexp": "\/^.{1,50}$\/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Client account number",
-          "ru": "Номер клиентского счета",
-          "uk": "Номер рахунку клієнта"
-        },
-        "hint": {
-          "en": "Enter client account number",
-          "ru": "Введите номер клиентского счета",
-          "uk": "Введіть номер рахунку клієнта"
-        },
-        "example": "1100382992"
-      },
-      {
-        "key": "bank_code",
-        "type": "string",
-        "label": {
-          "en": "Bank code",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 2,
-        "hint": {
-          "en": "Enter bank code",
-          "ru": "Введите код банка",
-          "uk": "Введіть код банку"
-        },
-        "example": "050"
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "label": {
-          "en": "Client document id",
-          "ru": "Id клиентского документа",
-          "uk": "Id документу клієнта"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 3,
-        "hint": {
-          "en": "Enter document id",
-          "ru": "Введите id документа",
-          "uk": "Введіть id документу"
-        },
-        "example": "50284414727"
-      },
-      {
-        "key": "document_type",
-        "type": "string",
-        "label": {
-          "en": "Client document type",
-          "ru": "Тип клиентского документа",
-          "uk": "Тип документу клієнта"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 4,
-        "hint": {
-          "en": "Enter document type",
-          "ru": "Введите тип документа",
-          "uk": "Введіть тип документу"
-        },
-        "example": "CPF"
-      }
-    ]
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -33113,9 +33039,9 @@
   },
   {
     "status": "active",
-    "code": "upi_brl_invoice",
+    "code": "upi_brl_hpp",
     "currency": "BRL",
-    "flow": "invoice",
+    "flow": "hpp",
     "method": "upi",
     "amount_min": 0.01,
     "amount_max": 999999,
@@ -33123,82 +33049,62 @@
       {
         "key": "account",
         "type": "string",
-        "regexp": "\/^.{1,50}$\/",
+        "regexp": "\/^.{1,128}$\/",
         "required": false,
         "position": 1,
         "label": {
-          "en": "Client account number",
-          "ru": "Номер клиентского счета",
-          "uk": "Номер рахунку клієнта"
+          "en": "Account Number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
         },
         "hint": {
-          "en": "Enter client account number",
-          "ru": "Введите номер клиентского счета",
-          "uk": "Введіть номер рахунку клієнта"
+          "en": "Enter Account Number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
         },
-        "example": "1100382992"
-      },
-      {
-        "key": "bank_code",
-        "type": "string",
-        "label": {
-          "en": "Bank code",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 2,
-        "hint": {
-          "en": "Enter bank code",
-          "ru": "Введите код банка",
-          "uk": "Введіть код банку"
-        },
-        "example": "050"
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "label": {
-          "en": "Client document id",
-          "ru": "Id клиентского документа",
-          "uk": "Id документу клієнта"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 3,
-        "hint": {
-          "en": "Enter document id",
-          "ru": "Введите id документа",
-          "uk": "Введіть id документу"
-        },
-        "example": "50284414727"
+        "example": "name@bankname"
       },
       {
         "key": "document_type",
         "type": "string",
-        "label": {
-          "en": "Client document type",
-          "ru": "Тип клиентского документа",
-          "uk": "Тип документу клієнта"
-        },
-        "regexp": "\/^.{1,100}$\/",
+        "regexp": "/^[A-Z]{2,3}$/",
         "required": false,
-        "position": 4,
-        "hint": {
-          "en": "Enter document type",
-          "ru": "Введите тип документа",
-          "uk": "Введіть тип документу"
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
         },
-        "example": "CPF"
+        "hint": {
+          "en": "Enter Document Type (ID, DL, UID)",
+          "ru": "Введите тип документа (ID, DL, UID)",
+          "uk": "Введіть тип документу (ID, DL, UID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
   {
     "status": "active",
-    "code": "upi_myr_invoice",
-    "currency": "BRL",
-    "flow": "invoice",
+    "code": "upi_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
     "method": "upi",
     "amount_min": 0.01,
     "amount_max": 999999,
@@ -33206,82 +33112,62 @@
       {
         "key": "account",
         "type": "string",
-        "regexp": "\/^.{1,50}$\/",
+        "regexp": "\/^.{1,128}$\/",
         "required": false,
         "position": 1,
         "label": {
-          "en": "Client account number",
-          "ru": "Номер клиентского счета",
-          "uk": "Номер рахунку клієнта"
+          "en": "Account Number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
         },
         "hint": {
-          "en": "Enter client account number",
-          "ru": "Введите номер клиентского счета",
-          "uk": "Введіть номер рахунку клієнта"
+          "en": "Enter Account Number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
         },
-        "example": "1100382992"
-      },
-      {
-        "key": "bank_code",
-        "type": "string",
-        "label": {
-          "en": "Bank code",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 2,
-        "hint": {
-          "en": "Enter bank code",
-          "ru": "Введите код банка",
-          "uk": "Введіть код банку"
-        },
-        "example": "050"
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "label": {
-          "en": "Client document id",
-          "ru": "Id клиентского документа",
-          "uk": "Id документу клієнта"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 3,
-        "hint": {
-          "en": "Enter document id",
-          "ru": "Введите id документа",
-          "uk": "Введіть id документу"
-        },
-        "example": "50284414727"
+        "example": "name@bankname"
       },
       {
         "key": "document_type",
         "type": "string",
-        "label": {
-          "en": "Client document type",
-          "ru": "Тип клиентского документа",
-          "uk": "Тип документу клієнта"
-        },
-        "regexp": "\/^.{1,100}$\/",
+        "regexp": "/^[A-Z]{2,3}$/",
         "required": false,
-        "position": 4,
-        "hint": {
-          "en": "Enter document type",
-          "ru": "Введите тип документа",
-          "uk": "Введіть тип документу"
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
         },
-        "example": "CPF"
+        "hint": {
+          "en": "Enter Document Type (ID, DL, UID)",
+          "ru": "Введите тип документа (ID, DL, UID)",
+          "uk": "Введіть тип документу (ID, DL, UID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   },
   {
     "status": "active",
-    "code": "upi_vnd_invoice",
+    "code": "upi_vnd_hpp",
     "currency": "VND",
-    "flow": "invoice",
+    "flow": "hpp",
     "method": "upi",
     "amount_min": 1,
     "amount_max": 9999999999,
@@ -33289,74 +33175,54 @@
       {
         "key": "account",
         "type": "string",
-        "regexp": "\/^.{1,50}$\/",
+        "regexp": "\/^.{1,128}$\/",
         "required": false,
         "position": 1,
         "label": {
-          "en": "Client account number",
-          "ru": "Номер клиентского счета",
-          "uk": "Номер рахунку клієнта"
+          "en": "Account Number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
         },
         "hint": {
-          "en": "Enter client account number",
-          "ru": "Введите номер клиентского счета",
-          "uk": "Введіть номер рахунку клієнта"
+          "en": "Enter Account Number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
         },
-        "example": "1100382992"
-      },
-      {
-        "key": "bank_code",
-        "type": "string",
-        "label": {
-          "en": "Bank code",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 2,
-        "hint": {
-          "en": "Enter bank code",
-          "ru": "Введите код банка",
-          "uk": "Введіть код банку"
-        },
-        "example": "050"
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "label": {
-          "en": "Client document id",
-          "ru": "Id клиентского документа",
-          "uk": "Id документу клієнта"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 3,
-        "hint": {
-          "en": "Enter document id",
-          "ru": "Введите id документа",
-          "uk": "Введіть id документу"
-        },
-        "example": "50284414727"
+        "example": "name@bankname"
       },
       {
         "key": "document_type",
         "type": "string",
-        "label": {
-          "en": "Client document type",
-          "ru": "Тип клиентского документа",
-          "uk": "Тип документу клієнта"
-        },
-        "regexp": "\/^.{1,100}$\/",
+        "regexp": "/^[A-Z]{2,3}$/",
         "required": false,
-        "position": 4,
-        "hint": {
-          "en": "Enter document type",
-          "ru": "Введите тип документа",
-          "uk": "Введіть тип документу"
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
         },
-        "example": "CPF"
+        "hint": {
+          "en": "Enter Document Type (ID, DL, UID)",
+          "ru": "Введите тип документа (ID, DL, UID)",
+          "uk": "Введіть тип документу (ID, DL, UID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
       }
     ]
   }
