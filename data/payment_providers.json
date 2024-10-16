@@ -26641,6 +26641,19 @@
   },
   {
     "status": "active",
+    "code": "gatewaypay",
+    "vendor": "gatewaypay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "GatewayPay",
+      "ru": "GatewayPay",
+      "uk": "GatewayPay"
+    }
+  },
+  {
+    "status": "active",
     "code": "paytend",
     "vendor": "paytend",
     "payment_method": [
