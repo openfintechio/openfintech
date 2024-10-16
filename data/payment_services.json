@@ -23078,20 +23078,74 @@
       {
         "key": "account",
         "type": "string",
-        "label": {
-          "en": "Account Number",
-          "uk": "Номер рахунку",
-          "ru": "Номер счета"
-        },
-        "regexp": "\/^.{1,128}$\/",
+        "regexp": "\/^.{1,50}$\/",
         "required": false,
         "position": 1,
-        "hint": {
-          "en": "Enter Account Number",
-          "uk": "Введіть номер рахунку",
-          "ru": "Введите номер счета"
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
         },
-        "example": "name@bankname"
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "example": "050"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "label": {
+          "en": "Client document id",
+          "ru": "Id клиентского документа",
+          "uk": "Id документу клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 3,
+        "hint": {
+          "en": "Enter document id",
+          "ru": "Введите id документа",
+          "uk": "Введіть id документу"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "label": {
+          "en": "Client document type",
+          "ru": "Тип клиентского документа",
+          "uk": "Тип документу клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 4,
+        "hint": {
+          "en": "Enter document type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        },
+        "example": "CPF"
       }
     ]
   },
@@ -33069,20 +33123,74 @@
       {
         "key": "account",
         "type": "string",
-        "label": {
-          "en": "Account Number",
-          "uk": "Номер рахунку",
-          "ru": "Номер счета"
-        },
-        "regexp": "\/^.{1,128}$\/",
+        "regexp": "\/^.{1,50}$\/",
         "required": false,
         "position": 1,
-        "hint": {
-          "en": "Enter Account Number",
-          "uk": "Введіть номер рахунку",
-          "ru": "Введите номер счета"
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
         },
-        "example": "name@bankname"
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "example": "050"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "label": {
+          "en": "Client document id",
+          "ru": "Id клиентского документа",
+          "uk": "Id документу клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 3,
+        "hint": {
+          "en": "Enter document id",
+          "ru": "Введите id документа",
+          "uk": "Введіть id документу"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "label": {
+          "en": "Client document type",
+          "ru": "Тип клиентского документа",
+          "uk": "Тип документу клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 4,
+        "hint": {
+          "en": "Enter document type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        },
+        "example": "CPF"
       }
     ]
   },
@@ -33098,20 +33206,74 @@
       {
         "key": "account",
         "type": "string",
-        "label": {
-          "en": "Account Number",
-          "uk": "Номер рахунку",
-          "ru": "Номер счета"
-        },
-        "regexp": "\/^.{1,128}$\/",
+        "regexp": "\/^.{1,50}$\/",
         "required": false,
         "position": 1,
-        "hint": {
-          "en": "Enter Account Number",
-          "uk": "Введіть номер рахунку",
-          "ru": "Введите номер счета"
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
         },
-        "example": "name@bankname"
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "example": "050"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "label": {
+          "en": "Client document id",
+          "ru": "Id клиентского документа",
+          "uk": "Id документу клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 3,
+        "hint": {
+          "en": "Enter document id",
+          "ru": "Введите id документа",
+          "uk": "Введіть id документу"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "label": {
+          "en": "Client document type",
+          "ru": "Тип клиентского документа",
+          "uk": "Тип документу клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 4,
+        "hint": {
+          "en": "Enter document type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        },
+        "example": "CPF"
       }
     ]
   },
@@ -33127,20 +33289,74 @@
       {
         "key": "account",
         "type": "string",
-        "label": {
-          "en": "Account Number",
-          "uk": "Номер рахунку",
-          "ru": "Номер счета"
-        },
-        "regexp": "\/^.{1,128}$\/",
+        "regexp": "\/^.{1,50}$\/",
         "required": false,
         "position": 1,
-        "hint": {
-          "en": "Enter Account Number",
-          "uk": "Введіть номер рахунку",
-          "ru": "Введите номер счета"
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
         },
-        "example": "name@bankname"
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "example": "050"
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "label": {
+          "en": "Client document id",
+          "ru": "Id клиентского документа",
+          "uk": "Id документу клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 3,
+        "hint": {
+          "en": "Enter document id",
+          "ru": "Введите id документа",
+          "uk": "Введіть id документу"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "label": {
+          "en": "Client document type",
+          "ru": "Тип клиентского документа",
+          "uk": "Тип документу клієнта"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 4,
+        "hint": {
+          "en": "Enter document type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        },
+        "example": "CPF"
       }
     ]
   }
