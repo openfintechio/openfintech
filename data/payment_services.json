@@ -18831,27 +18831,7 @@
     "flow": "invoice",
     "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 1000000000,
-    "fields": [
-      {
-        "key": "bank_code",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Payer bank code",
-          "ru": "Код банка отправителя",
-          "uk": "Код банку відправника"
-        },
-        "hint": {
-          "en": "Enter payer bank code",
-          "ru": "Введите код банка отправителя",
-          "uk": "Введіть код банку відправника"
-        },
-        "example": "050"
-      }
-    ]
+    "amount_max": 1000000000
   },
   {
     "status": "active",
@@ -23158,27 +23138,7 @@
     "flow": "invoice",
     "method": "bank_transfer",
     "amount_min": 1,
-    "amount_max": 9999999999,
-    "fields": [
-      {
-        "key": "bank_code",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Payer bank code",
-          "ru": "Код банка отправителя",
-          "uk": "Код банку відправника"
-        },
-        "hint": {
-          "en": "Enter payer bank code",
-          "ru": "Введите код банка отправителя",
-          "uk": "Введіть код банку відправника"
-        },
-        "example": "050"
-      }
-    ]
+    "amount_max": 9999999999
   },
   {
     "status": "active",
@@ -33181,64 +33141,6 @@
           "ru": "Введите номер счета"
         },
         "example": "name@bankname"
-      }
-    ]
-  },
-  {
-    "status": "active",
-    "code": "bank_transfer_myr_invoice",
-    "currency": "MYR",
-    "flow": "invoice",
-    "method": "bank_transfer",
-    "amount_min": 0.01,
-    "amount_max": 999999,
-    "fields": [
-      {
-        "key": "bank_code",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Payer bank code",
-          "ru": "Код банка отправителя",
-          "uk": "Код банку відправника"
-        },
-        "hint": {
-          "en": "Enter payer bank code",
-          "ru": "Введите код банка отправителя",
-          "uk": "Введіть код банку відправника"
-        },
-        "example": "050"
-      }
-    ]
-  },
-  {
-    "status": "active",
-    "code": "bank_transfer_brl_invoice",
-    "currency": "BRL",
-    "flow": "invoice",
-    "method": "bank_transfer",
-    "amount_min": 0.01,
-    "amount_max": 999999,
-    "fields": [
-      {
-        "key": "bank_code",
-        "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
-        "required": false,
-        "position": 1,
-        "label": {
-          "en": "Payer bank code",
-          "ru": "Код банка отправителя",
-          "uk": "Код банку відправника"
-        },
-        "hint": {
-          "en": "Enter payer bank code",
-          "ru": "Введите код банка отправителя",
-          "uk": "Введіть код банку відправника"
-        },
-        "example": "050"
       }
     ]
   }
