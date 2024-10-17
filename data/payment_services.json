@@ -23073,7 +23073,61 @@
     "flow": "invoice",
     "method": "upi",
     "amount_min": 0.01,
-    "amount_max": 1000000000
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account Number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter Account Number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "example": "name@bankname"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,3}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (ID, DL, UID)",
+          "ru": "Введите тип документа (ID, DL, UID)",
+          "uk": "Введіть тип документу (ID, DL, UID)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -33039,9 +33093,9 @@
   },
   {
     "status": "active",
-    "code": "upi_brl_hpp",
+    "code": "upi_brl_invoice",
     "currency": "BRL",
-    "flow": "hpp",
+    "flow": "invoice",
     "method": "upi",
     "amount_min": 0.01,
     "amount_max": 999999,
@@ -33102,9 +33156,9 @@
   },
   {
     "status": "active",
-    "code": "upi_myr_hpp",
+    "code": "upi_myr_invoice",
     "currency": "MYR",
-    "flow": "hpp",
+    "flow": "invoice",
     "method": "upi",
     "amount_min": 0.01,
     "amount_max": 999999,
@@ -33165,9 +33219,9 @@
   },
   {
     "status": "active",
-    "code": "upi_vnd_hpp",
+    "code": "upi_vnd_invoice",
     "currency": "VND",
-    "flow": "hpp",
+    "flow": "invoice",
     "method": "upi",
     "amount_min": 1,
     "amount_max": 9999999999,
