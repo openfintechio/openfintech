@@ -24361,7 +24361,7 @@
       {
         "key": "first_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^.{2,100}$\/",
         "required": true,
         "position": 1,
         "label": {
@@ -24379,7 +24379,7 @@
       {
         "key": "last_name",
         "type": "string",
-        "regexp": "\/^[A-Z\\-\\sa-z]{2,100}$\/",
+        "regexp": "\/^.{2,100}$\/",
         "required": true,
         "position": 2,
         "label": {
