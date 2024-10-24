@@ -26099,6 +26099,19 @@
   },
   {
     "status": "active",
+    "code": "wangupay",
+    "vendor": "wangupay",
+    "name": {
+      "en": "WanguPay",
+      "ru": "WanguPay",
+      "uk": "WanguPay"
+    },
+    "payment_method": [
+      "momopay"
+    ]
+  },
+  {
+    "status": "active",
     "code": "pipay",
     "vendor": "pipay",
     "name": {
