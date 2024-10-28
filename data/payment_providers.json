@@ -26696,5 +26696,18 @@
       "ru": "Paytend",
       "uk": "Paytend"
     }
+  },
+  {
+    "status": "active",
+    "code": "wpay",
+    "vendor": "wpay",
+    "payout_method": [
+      "bank_transfer"
+    ],
+    "name": {
+      "en": "W PAY",
+      "ru": "W PAY",
+      "uk": "W PAY"
+    }
   }
 ]
