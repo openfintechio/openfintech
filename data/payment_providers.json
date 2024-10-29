@@ -26701,6 +26701,9 @@
     "status": "active",
     "code": "wpay",
     "vendor": "wpay",
+    "payment_method": [
+      "bank_transfer"
+    ],
     "payout_method": [
       "bank_transfer"
     ],
