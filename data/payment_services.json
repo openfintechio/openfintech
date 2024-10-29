@@ -14590,6 +14590,15 @@
   },
   {
     "status": "active",
+    "code": "multibanco_eur_invoice",
+    "flow": "invoice",
+    "method": "multibanco",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "blik_pln_hpp",
     "flow": "hpp",
     "method": "blik",
@@ -18737,8 +18746,35 @@
   },
   {
     "status": "active",
+    "code": "payshop_eur_hpp",
+    "flow": "hpp",
+    "method": "payshop",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "payshop_eur_invoice",
+    "flow": "invoice",
+    "method": "payshop",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
     "code": "mb_way_eur_hpp",
     "flow": "hpp",
+    "method": "mb_way",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "mb_way_eur_invoice",
+    "flow": "invoice",
     "method": "mb_way",
     "currency": "EUR",
     "amount_min": 0.01,
