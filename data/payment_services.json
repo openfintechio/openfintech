@@ -4074,7 +4074,26 @@
     "flow": "hpp",
     "method": "bank_transfer",
     "amount_min": 0.01,
-    "amount_max": 1000000000
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{9,12}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -33341,6 +33360,62 @@
         "regexp": "/^[a-zA-Z0-9]{8,16}$/",
         "required": false,
         "position": 3,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "rapipago_ars_hpp",
+    "flow": "hpp",
+    "method": "rapipago",
+    "currency": "ARS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{9,12}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "pagofacil_ars_hpp",
+    "flow": "hpp",
+    "method": "pagofacil",
+    "currency": "ARS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{9,12}$/",
+        "required": false,
+        "position": 1,
         "label": {
           "en": "Payer personal identification number",
           "ru": "Номер документа плательщика",
