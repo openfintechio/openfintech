@@ -26742,6 +26742,19 @@
   },
   {
     "status": "active",
+    "code": "fmfinance",
+    "vendor": "fmfinance",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "FM Finance",
+      "ru": "FM Finance",
+      "uk": "FM Finance"
+    }
+  },
+  {
+    "status": "active",
     "code": "rixsus",
     "vendor": "rixsus",
     "payment_method": [
