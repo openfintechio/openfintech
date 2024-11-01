@@ -4079,7 +4079,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{9,12}$/",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
         "required": false,
         "position": 1,
         "label": {
@@ -33385,7 +33385,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{9,12}$/",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
         "required": false,
         "position": 1,
         "label": {
@@ -33413,7 +33413,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{9,12}$/",
+        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
         "required": false,
         "position": 1,
         "label": {
