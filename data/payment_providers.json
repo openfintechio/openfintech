@@ -21092,8 +21092,7 @@
       "open_pay_cash",
       "farmacias_santa_maria_cash",
       "calimax_cash",
-      "western_union_panama_cash",
-      "farmacias_santa_maria_cash"
+      "western_union_panama_cash"
     ]
   },
   {
@@ -26608,10 +26607,51 @@
     "vendor": "paylivre",
     "payment_method": [
       "pix",
-      "payment_card"
+      "payment_card",
+      "spei",
+      "pse",
+      "banco_guayaquil",
+      "banco_pichincha",
+      "mach",
+      "khipu",
+      "bbva_continental",
+      "caja_arequipa",
+      "caja_tacna",
+      "caja_tacna_cash",
+      "caja_trujillo",
+      "caja_trujillo_cash",
+      "interbank",
+      "scotiabank",
+      "scotiabank_cash",
+      "banco_nacional",
+      "banco_nacional_cash",
+      "bbva_bancomer",
+      "bbva_bancomer_cash",
+      "banco_estado",
+      "banco_santander",
+      "banco_falabella",
+      "banco_de_chile",
+      "banco_guayaquil_cash",
+      "banco_pichincha_cash",
+      "pichincha_mi_vecino_cash",
+      "red_activa_cash",
+      "mi_comisariato_cash",
+      "western_union_panama_cash",
+      "a_cuenta_cash",
+      "lider_cash",
+      "express_lider_cash",
+      "ripley_cash",
+      "kasnet_cash",
+      "oxxo_cash",
+      "banco_azteca_cash",
+      "soriana_cash",
+      "open_pay_cash",
+      "farmacias_santa_maria_cash",
+      "calimax_cash"
     ],
     "payout_method": [
       "pix",
+      "spei",
       "bank_transfer"
     ],
     "name": {
