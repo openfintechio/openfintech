@@ -31279,5 +31279,26 @@
       "ru": "Tele2/Altel",
       "uk": "Tele2/Altel"
     }
+  },
+  {
+    "code": "rapipago",
+    "vendor": "rapipago",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Rapipago",
+      "ru": "Rapipago",
+      "uk": "Rapipago"
+    }
+  },
+  {
+    "code": "ach",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Automated Clearing House (ACH)",
+      "ru": "Automated Clearing House (ACH)",
+      "uk": "Automated Clearing House (ACH)"
+    }
   }
 ]
