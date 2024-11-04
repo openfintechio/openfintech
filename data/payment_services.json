@@ -31713,6 +31713,96 @@
   },
   {
     "status": "active",
+    "code": "supercity_mxn_hpp",
+    "flow": "hpp",
+    "method": "supercity",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "sams_club_mxn_hpp",
+    "flow": "hpp",
+    "method": "sams_club",
+    "currency": "MXN",
+    "amount_min": 1,
+    "amount_max": 2000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{3,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CURP, RFC, IFE, PASS)",
+          "ru": "Введите тип документа (CURP, RFC, IFE, PASS)",
+          "uk": "Введіть тип документу (CURP, RFC, IFE, PASS)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{8,18}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "banorte_online_banking_mxn_hpp",
     "flow": "hpp",
     "method": "banorte_online_banking",
