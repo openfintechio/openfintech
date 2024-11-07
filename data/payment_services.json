@@ -33518,5 +33518,89 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "mobile_ugx_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "UGX",
+    "amount_min": 36,
+    "amount_max": 367704300,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mtn_zmw_invoice",
+    "flow": "invoice",
+    "method": "mtn",
+    "currency": "ZMW",
+    "amount_min": 0.27,
+    "amount_max": 2707599.07,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_zmw_invoice",
+    "flow": "invoice",
+    "method": "airtel_money",
+    "currency": "ZMW",
+    "amount_min": 0.27,
+    "amount_max": 2707599.07,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
   }
 ]
