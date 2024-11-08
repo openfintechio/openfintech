@@ -22992,7 +22992,8 @@
     "payment_method": [
       "payment_card",
       "sepa_transfer",
-      "upi"
+      "upi",
+      "blik"
     ]
   },
   {
@@ -26841,5 +26842,18 @@
       "ru": "Shift4",
       "uk": "Shift4"
     }
+  },
+  {
+    "status": "active",
+    "code": "cascad",
+    "vendor": "cascad",
+    "name": {
+      "en": "CASCAD",
+      "ru": "CASCAD",
+      "uk": "CASCAD"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
