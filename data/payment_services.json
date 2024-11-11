@@ -26988,7 +26988,27 @@
     "method": "pix_qr",
     "currency": "BRL",
     "amount_min": 0.01,
-    "amount_max": 520000
+    "amount_max": 520000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 0,
+        "label": {
+          "en": "CPF number",
+          "ru": "CPF номер",
+          "uk": "CPF номер"
+        },
+        "hint": {
+          "en": "Enter CPF number",
+          "ru": "Введите CPF номер",
+          "uk": "Введіть CPF номер"
+        },
+        "example": "12345678900"
+      }
+    ]
   },
   {
     "status": "active",
