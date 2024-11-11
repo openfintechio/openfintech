@@ -22614,6 +22614,19 @@
   },
   {
     "status": "active",
+    "code": "conceptpay",
+    "vendor": "conceptpay",
+    "name": {
+      "en": "ConceptPay",
+      "ru": "ConceptPay",
+      "uk": "ConceptPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "impaya",
     "vendor": "impaya",
     "name": {
