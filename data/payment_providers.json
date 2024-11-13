@@ -4954,7 +4954,8 @@
       "payment_card",
       "neteller",
       "paypal",
-      "sepa_transfer"
+      "sepa_transfer",
+      "online_banking"
     ],
     "payout_method": [
       "payment_card",
@@ -10101,7 +10102,9 @@
       "en": "Nuvei"
     },
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer",
+      "sepa_transfer"
     ]
   },
   {
@@ -15835,9 +15838,12 @@
       "about_payments_code": "ecommpay"
     },
     "name": {
-      "en": "ECOMMPAY",
-      "ru": "ECOMMPAY",
-      "uk": "ECOMMPAY"
+      "en": "Ecommpay",
+      "ru": "Ecommpay",
+      "uk": "Ecommpay"
+    },
+    "description": {
+      "en": "Headquartered in London, Ecommpay operates as a fully authorised payment institution regulated by the Financial Conduct Authority, while also being a principal member of both Visa and Mastercard, with Level 1 PCI DSS compliance. Ecommpay's end-to-end payment solution brings together direct acquiring capabilities, over 100 alternative payment methods, Direct Debits, open banking features, and mass payout options — all accessible through a single, seamless integration."
     },
     "payment_method": [
       "payment_card"
@@ -16899,6 +16905,9 @@
     "payment_method": [
       "payment_card",
       "m_pesa",
+      "mobile",
+      "mtn",
+      "airtel_money",
       "bank_transfer"
     ],
     "payout_method": [
@@ -21350,7 +21359,9 @@
       "uk": "Flexify"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay",
+      "googlepay"
     ],
     "payout_method": [
       "payment_card"
@@ -22603,6 +22614,19 @@
   },
   {
     "status": "active",
+    "code": "conceptpay",
+    "vendor": "conceptpay",
+    "name": {
+      "en": "ConceptPay",
+      "ru": "ConceptPay",
+      "uk": "ConceptPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "impaya",
     "vendor": "impaya",
     "name": {
@@ -22643,7 +22667,6 @@
       "payfix",
       "parazula",
       "fups",
-      "cmt",
       "pep"
     ]
   },
@@ -22981,7 +23004,8 @@
     "payment_method": [
       "payment_card",
       "sepa_transfer",
-      "upi"
+      "upi",
+      "blik"
     ]
   },
   {
@@ -26568,6 +26592,8 @@
       "prompt_pay",
       "dragonpay",
       "gcash",
+      "supercity",
+      "sams_club",
       "paymaya"
     ]
   },
@@ -26805,10 +26831,44 @@
       "bank_transfer",
       "pse"
     ],
+    "payout_method": [
+      "rapipago",
+      "bank_transfer",
+      "ach"
+    ],
     "name": {
       "en": "Rixsus",
       "ru": "Rixsus",
       "uk": "Rixsus"
     }
+  },
+  {
+    "status": "active",
+    "code": "shiftfour",
+    "vendor": "shiftfour",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Shift4",
+      "ru": "Shift4",
+      "uk": "Shift4"
+    }
+  },
+  {
+    "status": "active",
+    "code": "cascad",
+    "vendor": "cascad",
+    "name": {
+      "en": "CASCAD",
+      "ru": "CASCAD",
+      "uk": "CASCAD"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]

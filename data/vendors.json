@@ -24560,15 +24560,15 @@
       "phone": "+44 2030360043"
     },
     "address": {
-      "street": " 15 Stratton StreetW1J 8LQ LondonUnited Kingdom "
+      "street": " 5th Floor, Churchill House, 142-146 Old St, London EC1V 9BW "
     },
     "name": {
-      "en": "ECOMMPAY",
-      "ru": "ECOMMPAY",
-      "uk": "ECOMMPAY"
+      "en": "Ecommpay",
+      "ru": "Ecommpay",
+      "uk": "Ecommpay"
     },
     "description": {
-      "en": " ECommPay is an innovative and fast thinking company that provides state of the art secure electronic payment solutions for clients worldwide. Our system is up-to-the-minute, secure, reliable and easy to connect with. Our solutions help to achieve higher transaction approval rates, lower chargeback ratios and other special requirements which help our clients achieve maximum revenues. The ECommPay payment system uses the most innovative anti-fraud technology which, in addition, can be adapted to each client's requirements & special needs. Every ECommPay client is special so we assign a personal manager to each client, regardless of your turnover amount. The ECommPay team is made of the best professionals in online payments which in turn makes the lives of our clients much easier.       "
+      "en": " Headquartered in London, Ecommpay operates as a fully authorised payment institution regulated by the Financial Conduct Authority, while also being a principal member of both Visa and Mastercard, with Level 1 PCI DSS compliance. Ecommpay's end-to-end payment solution brings together direct acquiring capabilities, over 100 alternative payment methods, Direct Debits, open banking features, and mass payout options — all accessible through a single, seamless integration. "
     }
   },
   {
@@ -30080,6 +30080,18 @@
     }
   },
   {
+    "code": "conceptpay",
+    "status": "active",
+    "links": {
+      "website": "https://conceptpay.org/"
+    },
+    "name": {
+      "en": "ConceptPay",
+      "ru": "ConceptPay",
+      "uk": "ConceptPay"
+    }
+  },
+  {
     "code": "maxpayment",
     "status": "active",
     "name": {
@@ -35300,6 +35312,30 @@
       "en": "Rixsus",
       "ru": "Rixsus",
       "uk": "Rixsus"
+    }
+  },
+  {
+    "code": "shiftfour",
+    "status": "active",
+    "links": {
+      "website": "https://www.shift4.com/"
+    },
+    "name": {
+      "en": "Shift4",
+      "ru": "Shift4",
+      "uk": "Shift4"
+    }
+  },
+  {
+    "code": "cascad",
+    "status": "active",
+    "links": {
+      "website": "https://www.cascad.com"
+    },
+    "name": {
+      "en": "CASCAD",
+      "ru": "CASCAD",
+      "uk": "CASCAD"
     }
   }
 ]
