@@ -26871,5 +26871,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "gmo",
+    "vendor": "gmo",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "GMO",
+      "ru": "GMO",
+      "uk": "GMO"
+    }
   }
 ]
