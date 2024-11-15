@@ -22015,6 +22015,24 @@
   },
   {
     "status": "active",
+    "code": "mobile_xaf_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "XAF",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "mobile_xof_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "XOF",
+    "amount_min": 6,
+    "amount_max": 62000000
+  },
+  {
+    "status": "active",
     "code": "wallet_aggregated_pkr_hpp",
     "flow": "hpp",
     "method": "wallet_aggregated",
