@@ -23615,6 +23615,17 @@
   },
   {
     "status": "active",
+    "code": "payport_aggregated",
+    "vendor": "payport",
+    "category": "alternative",
+    "name": {
+      "en": "Payport aggregated",
+      "ru": "Payport aggregated",
+      "uk": "Payport aggregated"
+    }
+  },
+  {
+    "status": "active",
     "code": "mobile",
     "category": "mobile_payment",
     "name": {
