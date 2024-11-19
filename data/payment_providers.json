@@ -25305,7 +25305,11 @@
       "uk": "MIDs"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer"
+    ],
+    "payout_method": [
+      "bank_transfer"
     ]
   },
   {
@@ -26743,7 +26747,11 @@
     "code": "gatewaypay",
     "vendor": "gatewaypay",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer"
+    ],
+    "payout_method": [
+      "bank_transfer"
     ],
     "name": {
       "en": "GatewayPay",
