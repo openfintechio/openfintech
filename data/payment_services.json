@@ -23294,63 +23294,11 @@
           "uk": "Номер рахунку"
         },
         "hint": {
-          "en": "Enter Account Number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter Account Number (VPA)",
+          "ru": "Введите номер счета (VPA)",
+          "uk": "Введіть номер рахунку (VPA)"
         },
         "example": "name@bankname"
-      },
-      {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2,3}$/",
-        "required": false,
-        "position": 2,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID, DL, UID)",
-          "ru": "Введите тип документа (ID, DL, UID)",
-          "uk": "Введіть тип документу (ID, DL, UID)"
-        }
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
-        "required": false,
-        "position": 3,
-        "label": {
-          "en": "Payer personal identification number",
-          "ru": "Номер документа плательщика",
-          "uk": "Номер документа платника"
-        },
-        "hint": {
-          "en": "Enter payer personal identification number",
-          "ru": "Введите номер документа плательщика",
-          "uk": "Введіть номер документа платника"
-        }
-      },
-      {
-        "key": "bank_code",
-        "type": "string",
-        "label": {
-          "en": "Bank code",
-          "ru": "Код банка",
-          "uk": "Код банку"
-        },
-        "regexp": "\/^.{1,100}$\/",
-        "required": false,
-        "position": 4,
-        "hint": {
-          "en": "Enter bank code",
-          "ru": "Введите код банка",
-          "uk": "Введіть код банку"
-        },
-        "example": "050"
       }
     ]
   },
@@ -33493,45 +33441,11 @@
           "uk": "Номер рахунку"
         },
         "hint": {
-          "en": "Enter Account Number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter Account Number (VPA)",
+          "ru": "Введите номер счета (VPA)",
+          "uk": "Введіть номер рахунку (VPA)"
         },
         "example": "name@bankname"
-      },
-      {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2,3}$/",
-        "required": false,
-        "position": 2,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID, DL, UID)",
-          "ru": "Введите тип документа (ID, DL, UID)",
-          "uk": "Введіть тип документу (ID, DL, UID)"
-        }
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
-        "required": false,
-        "position": 3,
-        "label": {
-          "en": "Payer personal identification number",
-          "ru": "Номер документа плательщика",
-          "uk": "Номер документа платника"
-        },
-        "hint": {
-          "en": "Enter payer personal identification number",
-          "ru": "Введите номер документа плательщика",
-          "uk": "Введіть номер документа платника"
-        }
       }
     ]
   },
@@ -33556,45 +33470,11 @@
           "uk": "Номер рахунку"
         },
         "hint": {
-          "en": "Enter Account Number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter Account Number (VPA)",
+          "ru": "Введите номер счета (VPA)",
+          "uk": "Введіть номер рахунку (VPA)"
         },
         "example": "name@bankname"
-      },
-      {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2,3}$/",
-        "required": false,
-        "position": 2,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID, DL, UID)",
-          "ru": "Введите тип документа (ID, DL, UID)",
-          "uk": "Введіть тип документу (ID, DL, UID)"
-        }
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
-        "required": false,
-        "position": 3,
-        "label": {
-          "en": "Payer personal identification number",
-          "ru": "Номер документа плательщика",
-          "uk": "Номер документа платника"
-        },
-        "hint": {
-          "en": "Enter payer personal identification number",
-          "ru": "Введите номер документа плательщика",
-          "uk": "Введіть номер документа платника"
-        }
       }
     ]
   },
@@ -33619,45 +33499,11 @@
           "uk": "Номер рахунку"
         },
         "hint": {
-          "en": "Enter Account Number",
-          "ru": "Введите номер счета",
-          "uk": "Введіть номер рахунку"
+          "en": "Enter Account Number (VPA)",
+          "ru": "Введите номер счета (VPA)",
+          "uk": "Введіть номер рахунку (VPA)"
         },
         "example": "name@bankname"
-      },
-      {
-        "key": "document_type",
-        "type": "string",
-        "regexp": "/^[A-Z]{2,3}$/",
-        "required": false,
-        "position": 2,
-        "label": {
-          "en": "Document Type",
-          "ru": "Тип документа",
-          "uk": "Тип документу"
-        },
-        "hint": {
-          "en": "Enter Document Type (ID, DL, UID)",
-          "ru": "Введите тип документа (ID, DL, UID)",
-          "uk": "Введіть тип документу (ID, DL, UID)"
-        }
-      },
-      {
-        "key": "document_id",
-        "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{8,16}$/",
-        "required": false,
-        "position": 3,
-        "label": {
-          "en": "Payer personal identification number",
-          "ru": "Номер документа плательщика",
-          "uk": "Номер документа платника"
-        },
-        "hint": {
-          "en": "Enter payer personal identification number",
-          "ru": "Введите номер документа плательщика",
-          "uk": "Введіть номер документа платника"
-        }
       }
     ]
   },
