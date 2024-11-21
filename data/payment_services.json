@@ -2535,6 +2535,24 @@
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
         }
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 10,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ]
   },
@@ -4445,7 +4463,27 @@
     "flow": "hpp",
     "method": "bank_transfer",
     "amount_min": 1,
-    "amount_max": 1900000
+    "amount_max": 1900000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   },
   {
     "status": "active",
@@ -6639,7 +6677,45 @@
     "flow": "hpp",
     "method": "promptpay",
     "amount_min": 0.01,
-    "amount_max": 3500000
+    "amount_max": 3500000,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
   },
   {
     "status": "active",
@@ -18407,6 +18483,24 @@
           "uk": "Введіть ідентифікаційний код платника"
         },
         "example": "11003829920"
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
       }
     ]
   },
