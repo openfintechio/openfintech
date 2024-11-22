@@ -26861,6 +26861,15 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_aggregated_rub_invoice",
+    "flow": "invoice",
+    "method": "card_transfer_aggregated",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
     "code": "ziraat_bank_try_invoice",
     "flow": "invoice",
     "method": "ziraat_bank",
