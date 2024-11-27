@@ -26926,5 +26926,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cecabank",
+    "vendor": "cecabank",
+    "name": {
+      "en": "Cecabank",
+      "ru": "Cecabank",
+      "uk": "Cecabank"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
