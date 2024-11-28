@@ -26967,5 +26967,18 @@
       "bkash_limited",
       "nagad_wallet"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paymixvia",
+    "vendor": "paymixvia",
+    "name": {
+      "en": "PaymixVia",
+      "ru": "PaymixVia",
+      "uk": "PaymixVia"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
