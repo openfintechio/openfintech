@@ -24252,6 +24252,19 @@
   },
   {
     "status": "active",
+    "code": "techtopay",
+    "vendor": "techtopay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "TechToPay",
+      "ru": "TechToPay",
+      "uk": "TechToPay"
+    }
+  },
+  {
+    "status": "active",
     "code": "airpay",
     "vendor": "airpay",
     "payment_method": [
