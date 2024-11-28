@@ -18671,9 +18671,9 @@
     "code": "cauri",
     "vendor": "cauri",
     "name": {
-      "en": "Cauri",
-      "ru": "Cauri",
-      "uk": "Cauri"
+      "en": "Kale",
+      "ru": "Kale",
+      "uk": "Kale"
     },
     "payment_method": [
       "payment_card"
@@ -20633,7 +20633,8 @@
       "picpay",
       "boleto_bancario",
       "bank_transfer",
-      "payment_card"
+      "payment_card",
+      "card_transfer_aggregated_p2p"
     ],
     "payout_method": [
       "pix",
@@ -26925,6 +26926,33 @@
     },
     "payment_method": [
       "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "cecabank",
+    "vendor": "cecabank",
+    "name": {
+      "en": "Cecabank",
+      "ru": "Cecabank",
+      "uk": "Cecabank"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "octopays",
+    "vendor": "octopays",
+    "name": {
+      "en": "Octopays",
+      "ru": "Octopays",
+      "uk": "Octopays"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
     ]
   }
 ]
