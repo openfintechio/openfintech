@@ -26870,6 +26870,15 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_aggregated_p2p_rub_hpp",
+    "flow": "hpp",
+    "method": "card_transfer_aggregated_p2p",
+    "currency": "RUB",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
     "code": "ziraat_bank_try_invoice",
     "flow": "invoice",
     "method": "ziraat_bank",
