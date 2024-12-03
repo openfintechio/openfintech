@@ -33664,5 +33664,14 @@
         "position": 1
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "rapipago_ars_invoice",
+    "flow": "invoice",
+    "method": "rapipago",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
   }
 ]
