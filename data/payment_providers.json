@@ -27003,5 +27003,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "kalonpay",
+    "vendor": "kalonpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "KalonPay",
+      "ru": "KalonPay",
+      "uk": "KalonPay"
+    }
   }
 ]
