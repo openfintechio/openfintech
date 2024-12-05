@@ -33673,5 +33673,34 @@
     "currency": "ARS",
     "amount_min": 10,
     "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "khipu_ars_hpp",
+    "flow": "hpp",
+    "method": "khipu",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "ThK1Q"
+      }
+    ]
   }
 ]
