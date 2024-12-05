@@ -21917,7 +21917,8 @@
       "boleto_bancario",
       "bank_transfer",
       "loteria",
-      "rapipago"
+      "rapipago",
+      "khipu"
     ],
     "payout_method": [
       "pix",
@@ -27001,6 +27002,22 @@
       "uk": "PaymixVia"
     },
     "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "deficopay",
+    "vendor": "deficopay",
+    "name": {
+      "en": "DEFICOPAY",
+      "ru": "DEFICOPAY",
+      "uk": "DEFICOPAY"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
       "payment_card"
     ]
   }
