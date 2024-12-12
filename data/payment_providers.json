@@ -27047,5 +27047,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "netsellerpay",
+    "vendor": "netsellerpay",
+    "name": {
+      "en": "Netsellerpay",
+      "ru": "Netsellerpay",
+      "uk": "Netsellerpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
