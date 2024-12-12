@@ -27086,5 +27086,18 @@
       "ru": "Paybis",
       "uk": "Paybis"
     }
+  },
+  {
+    "status": "active",
+    "code": "intersect",
+    "vendor": "intersect",
+    "name": {
+      "en": "Intersect",
+      "ru": "Intersect",
+      "uk": "Intersect"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
