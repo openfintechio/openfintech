@@ -27073,5 +27073,18 @@
       "ru": "KalonPay",
       "uk": "KalonPay"
     }
+  },
+  {
+    "status": "active",
+    "code": "paybis",
+    "vendor": "paybis",
+    "payment_method": [
+      "payment_card_crypto"
+    ],
+    "name": {
+      "en": "Paybis",
+      "ru": "Paybis",
+      "uk": "Paybis"
+    }
   }
 ]
