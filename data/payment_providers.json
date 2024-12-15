@@ -24183,6 +24183,19 @@
   },
   {
     "status": "active",
+    "code": "bitpace",
+    "vendor": "bitpace",
+    "payment_method": [
+      "payment_card_crypto"
+    ],
+    "name": {
+      "en": "Bitpace",
+      "ru": "Bitpace",
+      "uk": "Bitpace"
+    }
+  },
+  {
+    "status": "active",
     "code": "payfuture",
     "vendor": "payfuture",
     "payment_method": [
