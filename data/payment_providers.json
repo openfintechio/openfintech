@@ -24196,6 +24196,20 @@
   },
   {
     "status": "active",
+    "code": "nayem",
+    "vendor": "nayem",
+    "name": {
+      "en": "Nayem",
+      "ru": "Nayem",
+      "uk": "Nayem"
+    },
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payfuture",
     "vendor": "payfuture",
     "payment_method": [
