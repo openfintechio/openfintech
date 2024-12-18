@@ -27142,5 +27142,18 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "klyme",
+    "vendor": "klyme",
+    "name": {
+      "en": "Klyme",
+      "ru": "Klyme",
+      "uk": "Klyme"
+    },
+    "payment_method": [
+      "bank_transfer"
+    ]
   }
 ]
