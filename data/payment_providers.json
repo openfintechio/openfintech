@@ -27118,6 +27118,19 @@
   },
   {
     "status": "active",
+    "code": "cardiful",
+    "vendor": "cardiful",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Cardiful",
+      "ru": "Cardiful",
+      "uk": "Cardiful"
+    }
+  },
+  {
+    "status": "active",
     "code": "paybis",
     "vendor": "paybis",
     "payment_method": [
