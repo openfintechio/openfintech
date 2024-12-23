@@ -21917,7 +21917,8 @@
       "boleto_bancario",
       "bank_transfer",
       "loteria",
-      "rapipago"
+      "rapipago",
+      "khipu"
     ],
     "payout_method": [
       "pix",
@@ -24182,6 +24183,33 @@
   },
   {
     "status": "active",
+    "code": "bitpace",
+    "vendor": "bitpace",
+    "payment_method": [
+      "payment_card_crypto"
+    ],
+    "name": {
+      "en": "Bitpace",
+      "ru": "Bitpace",
+      "uk": "Bitpace"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nayem",
+    "vendor": "nayem",
+    "name": {
+      "en": "Nayem",
+      "ru": "Nayem",
+      "uk": "Nayem"
+    },
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payfuture",
     "vendor": "payfuture",
     "payment_method": [
@@ -24244,6 +24272,9 @@
       "bank_transfer",
       "cash",
       "bank_transfer_aggregated"
+    ],
+    "payout_method": [
+      "bank_transfer"
     ],
     "name": {
       "en": "Payfuture",
@@ -25225,6 +25256,19 @@
   },
   {
     "status": "active",
+    "code": "optipay",
+    "vendor": "optipay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Optipay",
+      "ru": "Optipay",
+      "uk": "Optipay"
+    }
+  },
+  {
+    "status": "active",
     "code": "kunapaycrypto",
     "vendor": "kunapaycrypto",
     "name": {
@@ -25747,6 +25791,22 @@
   },
   {
     "status": "active",
+    "code": "thetarget",
+    "vendor": "thetarget",
+    "name": {
+      "en": "Target",
+      "ru": "Target",
+      "uk": "Target"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "coinsflow",
     "vendor": "coinsflow",
     "name": {
@@ -25847,7 +25907,11 @@
       "payment_card",
       "upi",
       "imps",
-      "bank_transfer"
+      "bank_transfer",
+      "bkash_limited",
+      "nagad_wallet",
+      "dutch_bangla_bank_limited_rocket",
+      "united_commercial_bank_upay"
     ]
   },
   {
@@ -26049,7 +26113,8 @@
       "uk": "BitAndPay"
     },
     "payment_method": [
-      "paybybank"
+      "paybybank",
+      "blik"
     ]
   },
   {
@@ -26180,8 +26245,12 @@
       "uk": "WanguPay"
     },
     "payment_method": [
+      "momo",
       "momopay",
       "online_banking_qr"
+    ],
+    "payout_method": [
+      "momo"
     ]
   },
   {
@@ -27019,6 +27088,87 @@
     ],
     "payout_method": [
       "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "netsellerpay",
+    "vendor": "netsellerpay",
+    "name": {
+      "en": "Netsellerpay",
+      "ru": "Netsellerpay",
+      "uk": "Netsellerpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kalonpay",
+    "vendor": "kalonpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "KalonPay",
+      "ru": "KalonPay",
+      "uk": "KalonPay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "paybis",
+    "vendor": "paybis",
+    "payment_method": [
+      "payment_card_crypto"
+    ],
+    "name": {
+      "en": "Paybis",
+      "ru": "Paybis",
+      "uk": "Paybis"
+    }
+  },
+  {
+    "status": "active",
+    "code": "intersect",
+    "vendor": "intersect",
+    "name": {
+      "en": "Intersect",
+      "ru": "Intersect",
+      "uk": "Intersect"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "glory",
+    "vendor": "glory",
+    "name": {
+      "en": "Glory",
+      "ru": "Glory",
+      "uk": "Glory"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "klyme",
+    "vendor": "klyme",
+    "name": {
+      "en": "Klyme",
+      "ru": "Klyme",
+      "uk": "Klyme"
+    },
+    "payment_method": [
+      "bank_transfer"
     ]
   }
 ]
