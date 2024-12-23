@@ -25256,6 +25256,19 @@
   },
   {
     "status": "active",
+    "code": "optipay",
+    "vendor": "optipay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Optipay",
+      "ru": "Optipay",
+      "uk": "Optipay"
+    }
+  },
+  {
+    "status": "active",
     "code": "kunapaycrypto",
     "vendor": "kunapaycrypto",
     "name": {
@@ -26100,7 +26113,8 @@
       "uk": "BitAndPay"
     },
     "payment_method": [
-      "paybybank"
+      "paybybank",
+      "blik"
     ]
   },
   {
