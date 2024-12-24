@@ -25269,6 +25269,19 @@
   },
   {
     "status": "active",
+    "code": "connectivity",
+    "vendor": "connectivity",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Connectivity",
+      "ru": "Connectivity",
+      "uk": "Connectivity"
+    }
+  },
+  {
+    "status": "active",
     "code": "kunapaycrypto",
     "vendor": "kunapaycrypto",
     "name": {
