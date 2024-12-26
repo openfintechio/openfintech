@@ -24183,6 +24183,33 @@
   },
   {
     "status": "active",
+    "code": "bitpace",
+    "vendor": "bitpace",
+    "payment_method": [
+      "payment_card_crypto"
+    ],
+    "name": {
+      "en": "Bitpace",
+      "ru": "Bitpace",
+      "uk": "Bitpace"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nayem",
+    "vendor": "nayem",
+    "name": {
+      "en": "Nayem",
+      "ru": "Nayem",
+      "uk": "Nayem"
+    },
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payfuture",
     "vendor": "payfuture",
     "payment_method": [
@@ -24602,7 +24629,8 @@
     "vendor": "freepayment",
     "payment_method": [
       "payment_card",
-      "sbp"
+      "sbp",
+      "blik"
     ],
     "payout_method": [
       "payment_card"
@@ -25225,6 +25253,32 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "optipay",
+    "vendor": "optipay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Optipay",
+      "ru": "Optipay",
+      "uk": "Optipay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "connectivity",
+    "vendor": "connectivity",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Connectivity",
+      "ru": "Connectivity",
+      "uk": "Connectivity"
+    }
   },
   {
     "status": "active",
@@ -26072,7 +26126,8 @@
       "uk": "BitAndPay"
     },
     "payment_method": [
-      "paybybank"
+      "paybybank",
+      "blik"
     ]
   },
   {
@@ -26204,6 +26259,7 @@
     },
     "payment_method": [
       "momo",
+      "momopay",
       "online_banking_qr"
     ],
     "payout_method": [
@@ -27045,6 +27101,100 @@
     ],
     "payout_method": [
       "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "netsellerpay",
+    "vendor": "netsellerpay",
+    "name": {
+      "en": "Netsellerpay",
+      "ru": "Netsellerpay",
+      "uk": "Netsellerpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kalonpay",
+    "vendor": "kalonpay",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "KalonPay",
+      "ru": "KalonPay",
+      "uk": "KalonPay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "cardiful",
+    "vendor": "cardiful",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "Cardiful",
+      "ru": "Cardiful",
+      "uk": "Cardiful"
+    }
+  },
+  {
+    "status": "active",
+    "code": "paybis",
+    "vendor": "paybis",
+    "payment_method": [
+      "payment_card_crypto"
+    ],
+    "name": {
+      "en": "Paybis",
+      "ru": "Paybis",
+      "uk": "Paybis"
+    }
+  },
+  {
+    "status": "active",
+    "code": "intersect",
+    "vendor": "intersect",
+    "name": {
+      "en": "Intersect",
+      "ru": "Intersect",
+      "uk": "Intersect"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "glory",
+    "vendor": "glory",
+    "name": {
+      "en": "Glory",
+      "ru": "Glory",
+      "uk": "Glory"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "klyme",
+    "vendor": "klyme",
+    "name": {
+      "en": "Klyme",
+      "ru": "Klyme",
+      "uk": "Klyme"
+    },
+    "payment_method": [
+      "bank_transfer"
     ]
   }
 ]

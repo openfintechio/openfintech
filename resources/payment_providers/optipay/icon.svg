@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   viewBox="0 0 39.168312 39.68994"
+   version="1.1"
+   sodipodi:docname="icon.svg"
+   width="39.168312"
+   height="39.689941"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview577"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="7.2774557"
+     inkscape:cx="69.5985"
+     inkscape:cy="8.3820504"
+     inkscape:window-width="1920"
+     inkscape:window-height="1163"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs418">
+    <style
+       id="style317">
+      .cls-1 {
+        stroke: #4fa5ed;
+        stroke-width: .59px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4, .cls-13 {
+        fill: none;
+      }
+
+      .cls-14 {
+        fill: #373f98;
+      }
+
+      .cls-2 {
+        filter: url(#outer-glow-4);
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13 {
+        stroke: #262261;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-11, .cls-12 {
+        stroke-width: .08px;
+      }
+
+      .cls-2, .cls-3, .cls-8, .cls-11 {
+        fill: #71ea85;
+      }
+
+      .cls-3 {
+        filter: url(#outer-glow-6);
+      }
+
+      .cls-4 {
+        stroke: #40b3e6;
+        stroke-width: .24px;
+      }
+
+      .cls-5 {
+        filter: url(#outer-glow-1);
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-9, .cls-10, .cls-12 {
+        fill: #39b816;
+      }
+
+      .cls-6 {
+        filter: url(#outer-glow-8);
+      }
+
+      .cls-7 {
+        filter: url(#outer-glow-9);
+      }
+
+      .cls-8 {
+        filter: url(#outer-glow-7);
+      }
+
+      .cls-9 {
+        filter: url(#outer-glow-5);
+      }
+
+      .cls-10 {
+        stroke-width: .13px;
+      }
+
+      .cls-11 {
+        filter: url(#outer-glow-3);
+      }
+
+      .cls-12 {
+        filter: url(#outer-glow-2);
+      }
+
+      .cls-13 {
+        stroke-width: .78px;
+      }
+
+      .cls-15 {
+        fill: #558db7;
+      }
+
+      .cls-16 {
+        fill: #40b3e6;
+      }
+
+      .cls-17 {
+        fill: #307bbe;
+      }
+
+      .cls-18 {
+        fill: #262261;
+      }
+    </style>
+    <filter
+       id="outer-glow-1"
+       x="12.98"
+       y="7.6599998"
+       width="8.8800001"
+       height="8.8800001"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset319" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="1.11"
+         id="feGaussianBlur321" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood323" />
+      <feComposite
+         in2="blur"
+         operator="in"
+         id="feComposite325"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite327" />
+    </filter>
+    <filter
+       id="outer-glow-2"
+       x="4.3400002"
+       y="19.9"
+       width="9.3599997"
+       height="9.3599997"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset330" />
+      <feGaussianBlur
+         result="blur-2"
+         stdDeviation="1.11"
+         id="feGaussianBlur332" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood334" />
+      <feComposite
+         in2="blur-2"
+         operator="in"
+         id="feComposite336"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite338" />
+    </filter>
+    <filter
+       id="outer-glow-3"
+       x="9.8599997"
+       y="25.9"
+       width="8.3999996"
+       height="8.6400003"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset341" />
+      <feGaussianBlur
+         result="blur-3"
+         stdDeviation="1.11"
+         id="feGaussianBlur343" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood345" />
+      <feComposite
+         in2="blur-3"
+         operator="in"
+         id="feComposite347"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite349" />
+    </filter>
+    <filter
+       id="outer-glow-4"
+       x="28.82"
+       y="16.299999"
+       width="8.6400003"
+       height="8.6400003"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset352" />
+      <feGaussianBlur
+         result="blur-4"
+         stdDeviation="1.11"
+         id="feGaussianBlur354" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood356" />
+      <feComposite
+         in2="blur-4"
+         operator="in"
+         id="feComposite358"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite360" />
+    </filter>
+    <filter
+       id="outer-glow-5"
+       x="19.799999"
+       y="19.76"
+       width="11.04"
+       height="11.04"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset363" />
+      <feGaussianBlur
+         result="blur-5"
+         stdDeviation="1.56"
+         id="feGaussianBlur365" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood367" />
+      <feComposite
+         in2="blur-5"
+         operator="in"
+         id="feComposite369"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite371" />
+    </filter>
+    <filter
+       id="outer-glow-6"
+       x="2.4200001"
+       y="12.94"
+       width="7.9200001"
+       height="7.9200001"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset374" />
+      <feGaussianBlur
+         result="blur-6"
+         stdDeviation="1.11"
+         id="feGaussianBlur376" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood378" />
+      <feComposite
+         in2="blur-6"
+         operator="in"
+         id="feComposite380"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite382" />
+    </filter>
+    <filter
+       id="outer-glow-7"
+       x="12.5"
+       y="19.66"
+       width="8.6400003"
+       height="8.3999996"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset385" />
+      <feGaussianBlur
+         result="blur-7"
+         stdDeviation="1.11"
+         id="feGaussianBlur387" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood389" />
+      <feComposite
+         in2="blur-7"
+         operator="in"
+         id="feComposite391"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite393" />
+    </filter>
+    <filter
+       id="outer-glow-8"
+       x="24.98"
+       y="29.26"
+       width="8.3999996"
+       height="8.3999996"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset396" />
+      <feGaussianBlur
+         result="blur-8"
+         stdDeviation="1.11"
+         id="feGaussianBlur398" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood400" />
+      <feComposite
+         in2="blur-8"
+         operator="in"
+         id="feComposite402"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite404" />
+    </filter>
+    <filter
+       id="outer-glow-9"
+       x="24.5"
+       y="5.7399998"
+       width="9.3599997"
+       height="9.1199999"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="0"
+         dy="0"
+         id="feOffset407" />
+      <feGaussianBlur
+         result="blur-9"
+         stdDeviation="1.11"
+         id="feGaussianBlur409" />
+      <feFlood
+         flood-color="#fff"
+         flood-opacity="1"
+         id="feFlood411" />
+      <feComposite
+         in2="blur-9"
+         operator="in"
+         id="feComposite413"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite415" />
+    </filter>
+  </defs>
+  <g
+     id="g456"
+     transform="translate(-1.5564954,-1.5165587)">
+    <path
+       class="cls-15"
+       d="m 29.58,13.68 c 2.64,2.95 4.86,6.37 5.97,10.21 C 37.58,29.98 35.5,37.12 28.13,37.3 16.89,37.28 4.9,24.1 5.93,12.91 6.8,5.6 14.1,4.19 19.98,6.78 c 3.72,1.47 6.91,4 9.6,6.9 z m 0,0 C 26.87,10.8 23.65,8.3 19.94,6.87 14.24,4.47 7.1,5.85 6.41,12.96 5.67,23.74 17.31,36.54 28.12,36.82 35.26,36.8 37.31,29.83 35.45,23.92 34.37,20.09 32.19,16.66 29.58,13.69 v 0 z"
+       id="path420" />
+    <path
+       class="cls-15"
+       d="M 32.88,23.43 C 32.13,27.5 30.72,31.52 28.26,34.89 24.52,40.47 17.28,43.31 12.42,37.33 5.25,28.02 8.48,9.67 18.41,3.37 c 6.61,-3.95 12.45,1.18 14.05,7.71 1.16,4.01 1.11,8.27 0.42,12.35 z m 0,0 C 33.53,19.35 33.54,15.09 32.35,11.11 30.69,4.87 24.99,-0.15 18.69,3.83 9.32,10.11 6.18,27.89 12.84,36.99 c 4.57,5.88 11.63,3.13 15.33,-2.17 2.48,-3.33 3.93,-7.33 4.71,-11.39 z"
+       id="path422" />
+    <path
+       class="cls-16"
+       d="m 24.47,17.55 c 3.9,3.56 7.68,7.41 10.36,11.99 1.38,2.27 2.57,6.29 -1.66,5.49 C 24.29,32.81 9.31,19.35 6.16,10.75 4.93,6.64 9.01,7.37 11.44,8.52 c 4.85,2.18 9.07,5.53 13.03,9.03 z m 0,0 C 20.5,14.07 16.26,10.75 11.41,8.6 9.11,7.55 5.06,6.71 6.3,10.71 c 3.04,8.3 18.31,22.04 26.9,24.19 4.1,0.8 2.86,-3.11 1.56,-5.31 -2.65,-4.6 -6.4,-8.46 -10.28,-12.04 v 0 z"
+       id="path424" />
+    <path
+       class="cls-14"
+       d="m 25.44,21.36 c 0.23,2.37 -0.75,22.93 -5.47,18.61 -4.51,-6.44 -4.52,-30.76 0,-37.22 4.73,-4.31 5.69,16.23 5.47,18.61 z m 0,0 C 25.37,16.31 25.05,11.19 23.69,6.3 23.13,4.14 21.32,0.14 19.5,3.96 c -3.22,7.02 -3.61,29.4 0.66,35.84 1.9,1.99 3.09,-2.01 3.53,-3.38 1.36,-4.89 1.67,-10.01 1.74,-15.06 v 0 z"
+       id="path426" />
+    <ellipse
+       class="cls-4"
+       cx="21.040001"
+       cy="21.360001"
+       rx="18.84"
+       ry="2.6600001"
+       transform="rotate(-62.31,21.044797,21.362035)"
+       id="ellipse428" />
+    <path
+       class="cls-14"
+       d="m 21.69,18.25 c 3.13,0.57 17.45,3.17 17.85,6.35 -1.44,2.88 -15.82,0.59 -18.99,0.1 -1.66,-0.12 -22.42,-4.72 -16.85,-7.41 5.89,-1.26 12.11,0.09 17.98,0.96 v 0 z m 0,0 C 18.41,17.73 4.8,15.6 2.98,18.15 3.75,22.27 37.08,28.18 39.31,24.56 38.47,21.53 24.95,18.88 21.69,18.25 Z"
+       id="path430" />
+    <path
+       class="cls-16"
+       d="M 24.86,27.09 C 20.41,29.91 15.54,32.48 10.24,33.12 7.46,33.46 4.12,32.5 4.96,29.02 7.36,20.1 25.58,8.25 34.73,9.69 c 3.51,0.65 3.05,4.08 1.6,6.49 -2.75,4.58 -7.07,7.99 -11.46,10.91 v 0 z m 0,0 C 29.22,24.14 33.5,20.7 36.19,16.11 37.53,13.81 38.07,10.49 34.67,9.9 25.94,8.53 7.47,20.51 5.16,29.06 c -0.85,3.31 2.42,4.23 5.06,3.91 5.29,-0.6 10.17,-3.11 14.64,-5.89 v 0 z"
+       id="path432" />
+    <circle
+       class="cls-5"
+       cx="17.34"
+       cy="11.96"
+       r="0.92000002"
+       id="circle434" />
+    <circle
+       class="cls-12"
+       cx="9.0100002"
+       cy="24.51"
+       r="1.11"
+       id="circle436" />
+    <circle
+       class="cls-11"
+       cx="13.98"
+       cy="30.23"
+       r="0.73000002"
+       id="circle438" />
+    <circle
+       class="cls-2"
+       cx="33.09"
+       cy="20.629999"
+       r="0.73000002"
+       id="circle440" />
+    <circle
+       class="cls-9"
+       cx="25.360001"
+       cy="25.24"
+       r="0.73000002"
+       id="circle442" />
+    <circle
+       class="cls-3"
+       cx="6.3499999"
+       cy="16.9"
+       r="0.51999998"
+       id="circle444" />
+    <circle
+       class="cls-8"
+       cx="16.84"
+       cy="23.889999"
+       r="0.73000002"
+       id="circle446" />
+    <circle
+       class="cls-6"
+       cx="29.139999"
+       cy="33.490002"
+       r="0.73000002"
+       id="circle448" />
+    <circle
+       class="cls-7"
+       cx="29.120001"
+       cy="10.26"
+       r="1.08"
+       id="circle450" />
+    <ellipse
+       class="cls-1"
+       cx="21.139999"
+       cy="21.360001"
+       rx="19.34"
+       ry="18.73"
+       transform="rotate(-61.26,21.145887,21.359444)"
+       id="ellipse452" />
+    <ellipse
+       class="cls-13"
+       cx="21.139999"
+       cy="21.360001"
+       rx="19.15"
+       ry="19.49"
+       transform="rotate(-20,21.144661,21.358915)"
+       id="ellipse454" />
+  </g>
+</svg>
