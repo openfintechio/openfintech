@@ -13309,6 +13309,15 @@
   },
   {
     "status": "active",
+    "code": "tether_bsc_eur_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "tether_polygon_usd_hpp",
     "flow": "hpp",
     "method": "tether",
@@ -26029,6 +26038,15 @@
     "code": "n26_bank_eur_hpp",
     "flow": "hpp",
     "method": "n26_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "payskin_eur_hpp",
+    "flow": "hpp",
+    "method": "payskin",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
