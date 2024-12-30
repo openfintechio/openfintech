@@ -25578,6 +25578,26 @@
   },
   {
     "status": "active",
+    "code": "gateiq",
+    "vendor": "gateiq",
+    "payment_method": [
+      "blik",
+      "googlepay",
+      "applepay",
+      "revolut_bank",
+      "bank_transfer",
+      "payskin",
+      "tether",
+      "n26_bank"
+    ],
+    "name": {
+      "en": "GateIQ",
+      "ru": "GateIQ",
+      "uk": "GateIQ"
+    }
+  },
+  {
+    "status": "active",
     "code": "payzeasy",
     "vendor": "payzeasy",
     "name": {
