@@ -22715,6 +22715,19 @@
   },
   {
     "status": "active",
+    "code": "convergegate",
+    "vendor": "convergegate",
+    "name": {
+      "en": "ConvergeGate",
+      "ru": "ConvergeGate",
+      "uk": "ConvergeGate"
+    },
+    "payment_method": [
+      "blik"
+    ]
+  },
+  {
+    "status": "active",
     "code": "whitepay",
     "vendor": "whitepay",
     "name": {
