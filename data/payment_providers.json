@@ -22715,6 +22715,19 @@
   },
   {
     "status": "active",
+    "code": "convergegate",
+    "vendor": "convergegate",
+    "name": {
+      "en": "ConvergeGate",
+      "ru": "ConvergeGate",
+      "uk": "ConvergeGate"
+    },
+    "payment_method": [
+      "blik"
+    ]
+  },
+  {
+    "status": "active",
     "code": "whitepay",
     "vendor": "whitepay",
     "name": {
@@ -27212,6 +27225,19 @@
       "en": "Klyme",
       "ru": "Klyme",
       "uk": "Klyme"
+    },
+    "payment_method": [
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nixxe",
+    "vendor": "nixxe",
+    "name": {
+      "en": "Nixxe",
+      "ru": "Nixxe",
+      "uk": "Nixxe"
     },
     "payment_method": [
       "bank_transfer"
