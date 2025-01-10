@@ -23021,6 +23021,15 @@
   },
   {
     "status": "active",
+    "code": "bank_qr_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "bank_qr",
+    "amount_min": 260,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
     "code": "asia_commercial_bank_qr_vnd_invoice",
     "currency": "VND",
     "flow": "invoice",

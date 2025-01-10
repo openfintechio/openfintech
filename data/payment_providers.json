@@ -394,6 +394,19 @@
   },
   {
     "status": "active",
+    "code": "okpay",
+    "vendor": "okpay_provider",
+    "name": {
+      "en": "Okpay",
+      "ru": "Okpay",
+      "uk": "Okpay"
+    },
+    "payment_method": [
+      "bank_qr"
+    ]
+  },
+  {
+    "status": "active",
     "code": "omnipayment",
     "vendor": "omnipayment",
     "categories": [
