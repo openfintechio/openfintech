@@ -2162,6 +2162,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
