@@ -26781,7 +26781,15 @@
     "code": "spayz",
     "vendor": "spayz",
     "payment_method": [
-      "bank_transfer"
+      "bank_transfer",
+      "online_banking",
+      "promptpay_qr",
+      "fpx",
+      "duitnow",
+      "touchngo",
+      "ovo",
+      "dana",
+      "qris"
     ],
     "payout_method": [
       "bank_transfer"
