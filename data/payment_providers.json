@@ -394,6 +394,22 @@
   },
   {
     "status": "active",
+    "code": "okpay",
+    "vendor": "okpay_provider",
+    "name": {
+      "en": "Okpay",
+      "ru": "Okpay",
+      "uk": "Okpay"
+    },
+    "payment_method": [
+      "bank_qr"
+    ],
+    "payout_method": [
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "omnipayment",
     "vendor": "omnipayment",
     "categories": [
@@ -20595,7 +20611,9 @@
       "payment_card"
     ],
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay",
+      "googlepay"
     ]
   },
   {
@@ -21128,7 +21146,22 @@
       "open_pay_cash",
       "farmacias_santa_maria_cash",
       "calimax_cash",
-      "western_union_panama_cash"
+      "western_union_panama_cash",
+      "bbva_frances",
+      "banco_credicoop",
+      "wilobank",
+      "galicia",
+      "icbc",
+      "macro",
+      "banco_nacion",
+      "banco_ciudad",
+      "hsbc",
+      "supervielle",
+      "spenn",
+      "halo_pesa",
+      "vodafone_pay",
+      "tigo",
+      "airtel_money"
     ]
   },
   {
@@ -27235,7 +27268,7 @@
       "uk": "Klyme"
     },
     "payment_method": [
-      "bank_transfer"
+      "klyme"
     ]
   },
   {

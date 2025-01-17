@@ -2162,6 +2162,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
@@ -23030,6 +23039,15 @@
   },
   {
     "status": "active",
+    "code": "bank_qr_vnd_hpp",
+    "currency": "VND",
+    "flow": "hpp",
+    "method": "bank_qr",
+    "amount_min": 260,
+    "amount_max": 2500000000
+  },
+  {
+    "status": "active",
     "code": "asia_commercial_bank_qr_vnd_invoice",
     "currency": "VND",
     "flow": "invoice",
@@ -27543,6 +27561,142 @@
     "amount_min": 1,
     "amount_max": 500000000
   },
+  {
+    "status": "active",
+    "code": "bbva_frances_ars_hpp",
+    "flow": "hpp",
+    "method": "bbva_frances",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "banco_credicoop_ars_hpp",
+    "flow": "hpp",
+    "method": "banco_credicoop",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "wilobank_ars_hpp",
+    "flow": "hpp",
+    "method": "wilobank",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "galicia_ars_hpp",
+    "flow": "hpp",
+    "method": "galicia",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "icbc_ars_hpp",
+    "flow": "hpp",
+    "method": "icbc",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "macro_ars_hpp",
+    "flow": "hpp",
+    "method": "macro",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "banco_nacion_ars_hpp",
+    "flow": "hpp",
+    "method": "banco_nacion",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "banco_ciudad_ars_hpp",
+    "flow": "hpp",
+    "method": "banco_ciudad",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "hsbc_ars_hpp",
+    "flow": "hpp",
+    "method": "hsbc",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "supervielle_ars_hpp",
+    "flow": "hpp",
+    "method": "supervielle",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "spenn_rwf_hpp",
+    "flow": "hpp",
+    "method": "spenn",
+    "currency": "RWF",
+    "amount_min": 1,
+    "amount_max": 102500000
+  },
+  {
+    "status": "active",
+    "code": "spenn_zar_hpp",
+    "flow": "hpp",
+    "method": "spenn",
+    "currency": "ZAR",
+    "amount_min": 0.2,
+    "amount_max": 1900000
+  },
+  {
+    "status": "active",
+    "code": "tigo_tzs_hpp",
+    "flow": "hpp",
+    "method": "tigo",
+    "currency": "TZS",
+    "amount_min": 25,
+    "amount_max": 249500000
+  },
+  {
+    "status": "active",
+    "code": "vodafone_pay_tzs_hpp",
+    "flow": "hpp",
+    "method": "vodafone_pay",
+    "currency": "TZS",
+    "amount_min": 25,
+    "amount_max": 249500000
+  },
+  {
+    "status": "active",
+    "code": "halo_pesa_tzs_hpp",
+    "flow": "hpp",
+    "method": "halo_pesa",
+    "currency": "TZS",
+    "amount_min": 25,
+    "amount_max": 249500000
+  },
+
   {
     "status": "active",
     "code": "bank_transfer_ars_invoice",
@@ -33843,5 +33997,32 @@
         "example": "ThK1Q"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "klyme_eur_invoice",
+    "flow": "invoice",
+    "method": "klyme",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "klyme_usd_invoice",
+    "flow": "invoice",
+    "method": "klyme",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "klyme_gbp_invoice",
+    "flow": "invoice",
+    "method": "klyme",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]

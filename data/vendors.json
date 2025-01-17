@@ -1283,6 +1283,18 @@
     }
   },
   {
+    "code": "okpay_provider",
+    "status": "active",
+    "links": {
+      "website": "https://okpay.dev/"
+    },
+    "name": {
+      "en": "Okpay",
+      "ru": "Okpay",
+      "uk": "Okpay"
+    }
+  },
+  {
     "code": "okpay",
     "status": "active",
     "name": {
@@ -29112,6 +29124,9 @@
   {
     "code": "bp",
     "status": "active",
+    "links": {
+      "website": "https://boxplat.com/en/"
+    },
     "name": {
       "en": "BP",
       "ru": "BP",
