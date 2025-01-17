@@ -21983,6 +21983,15 @@
   },
   {
     "status": "active",
+    "code": "promptpay_qr_thb_invoice",
+    "currency": "THB",
+    "flow": "invoice",
+    "method": "promptpay_qr",
+    "amount_min": 0.01,
+    "amount_max": 3500000
+  },
+  {
+    "status": "active",
     "code": "promptpay_qr_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
