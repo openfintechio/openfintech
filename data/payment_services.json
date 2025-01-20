@@ -18657,7 +18657,26 @@
     "method": "online_banking",
     "currency": "MYR",
     "amount_min": 0.01,
-    "amount_max": 10000000
+    "amount_max": 10000000,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
+      }
+    ]
   },
   {
     "status": "active",
@@ -28806,6 +28825,23 @@
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
         }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
       }
     ]
   },
@@ -33274,6 +33310,23 @@
           "en": "Enter payer personal identification number",
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
         }
       }
     ]
