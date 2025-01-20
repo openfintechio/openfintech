@@ -26316,6 +26316,19 @@
   },
   {
     "status": "active",
+    "code": "fullpays",
+    "vendor": "fullpays",
+    "name": {
+      "en": "FullPays",
+      "ru": "FullPays",
+      "uk": "FullPays"
+    },
+    "payment_method": [
+      "papara"
+    ]
+  },
+  {
+    "status": "active",
     "code": "wangupay",
     "vendor": "wangupay",
     "name": {
