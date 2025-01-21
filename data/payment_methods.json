@@ -307,6 +307,16 @@
     }
   },
   {
+    "code": "bank_qr",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Bank QR",
+      "ru": "Bank QR",
+      "uk": "Bank QR"
+    }
+  },
+  {
     "code": "okpay",
     "category": "mobile_payment",
     "status": "active",
@@ -9781,6 +9791,126 @@
     }
   },
   {
+    "code": "bbva_frances",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BBVA Frances",
+      "ru": "BBVA Frances",
+      "uk": "BBVA Frances"
+    }
+  },
+  {
+    "code": "banco_credicoop",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Banco Credicoop",
+      "ru": "Banco Credicoop",
+      "uk": "Banco Credicoop"
+    }
+  },
+  {
+    "code": "wilobank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Wilobank",
+      "ru": "Wilobank",
+      "uk": "Wilobank"
+    }
+  },
+  {
+    "code": "galicia",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Galicia",
+      "ru": "Galicia",
+      "uk": "Galicia"
+    }
+  },
+  {
+    "code": "icbc",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "ICBC",
+      "ru": "ICBC",
+      "uk": "ICBC"
+    }
+  },
+  {
+    "code": "macro",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Banco Macro",
+      "ru": "Banco Macro",
+      "uk": "Banco Macro"
+    }
+  },
+  {
+    "code": "banco_nacion",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Banco Nación",
+      "ru": "Banco Nación",
+      "uk": "Banco Nación"
+    }
+  },
+  {
+    "code": "banco_ciudad",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Banco Ciudad",
+      "ru": "Banco Ciudad",
+      "uk": "Banco Ciudad"
+    }
+  },
+  {
+    "code": "hsbc",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "HSBC",
+      "ru": "HSBC",
+      "uk": "HSBC"
+    }
+  },
+  {
+    "code": "supervielle",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Supervielle",
+      "ru": "Supervielle",
+      "uk": "Supervielle"
+    }
+  },
+  {
+    "code": "spenn",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "Spenn",
+      "ru": "Spenn",
+      "uk": "Spenn"
+    }
+  },
+  {
+    "code": "tigo",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "Tigo",
+      "ru": "Tigo",
+      "uk": "Tigo"
+    }
+  },
+  {
     "code": "bbva_colombia",
     "category": "bank_transfer",
     "status": "active",
@@ -10933,6 +11063,16 @@
       "en": "Kasha wallet",
       "ru": "Kasha кошелек",
       "uk": "Kasha гаманець"
+    }
+  },
+  {
+    "code": "klyme",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Klyme",
+      "ru": "Klyme",
+      "uk": "Klyme"
     }
   }
 ]
