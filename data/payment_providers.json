@@ -27296,5 +27296,20 @@
     "payment_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "spitamenbank",
+    "vendor": "spitamenbank",
+    "name": {
+      "en": "Spitamen Bank",
+      "ru": "Spitamen Bank",
+      "uk": "Spitamen Bank"
+    },
+    "payment_method": [
+      "payment_card",
+      "applepay",
+      "googlepay"
+    ]
   }
 ]
