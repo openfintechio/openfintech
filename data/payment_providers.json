@@ -20618,6 +20618,19 @@
   },
   {
     "status": "active",
+    "code": "nebeus",
+    "vendor": "nebeus",
+    "name": {
+      "en": "Nebeus",
+      "ru": "Nebeus",
+      "uk": "Nebeus"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paycos",
     "vendor": "paycos",
     "name": {
