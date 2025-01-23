@@ -26324,6 +26324,33 @@
   },
   {
     "status": "active",
+    "code": "bitexpro_advwallet_eur_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_advwallet",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_payeer_eur_hpp",
+    "flow": "hpp",
+    "method": "bitexpro_payeer",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "openbanking_eur_hpp",
+    "flow": "hpp",
+    "method": "openbanking",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "bitexpro_inr_hpp",
     "flow": "hpp",
     "method": "bitexpro",

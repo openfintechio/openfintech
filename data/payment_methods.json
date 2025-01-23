@@ -8202,6 +8202,26 @@
   },
   {
     "status": "active",
+    "code": "bitexpro_advwallet",
+    "category": "digital_wallet",
+    "name": {
+      "en": "BitexPRO advwallet",
+      "ru": "BitexPRO advwallet",
+      "uk": "BitexPRO advwallet"
+    }
+  },
+  {
+    "status": "active",
+    "code": "bitexpro_payeer",
+    "category": "digital_wallet",
+    "name": {
+      "en": "BitexPRO payeer",
+      "ru": "BitexPRO payeer",
+      "uk": "BitexPRO payeer"
+    }
+  },
+  {
+    "status": "active",
     "code": "bitexpro_p2p",
     "category": "digital_wallet",
     "name": {
@@ -11063,6 +11083,16 @@
       "en": "Kasha wallet",
       "ru": "Kasha кошелек",
       "uk": "Kasha гаманець"
+    }
+  },
+  {
+    "code": "openbanking",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Openbanking",
+      "ru": "Openbanking",
+      "uk": "Openbanking"
     }
   },
   {
