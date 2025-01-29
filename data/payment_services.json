@@ -28614,6 +28614,123 @@
   },
   {
     "status": "active",
+    "code": "tether_eur_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "stellar_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "stellar_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "cardano",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "polkadot_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "polkadot",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "polkadot_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "polkadot",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "algorand_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "algorand",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "algorand_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "algorand",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "chainlink_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "chainlink",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "chainlink_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "chainlink",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "eos_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "eos",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "eos_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "eos",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "cardano_bep20_eur_hpp",
     "currency": "EUR",
     "flow": "hpp",
