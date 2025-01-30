@@ -24246,7 +24246,17 @@
     "code": "bitpace",
     "vendor": "bitpace",
     "payment_method": [
-      "payment_card_crypto"
+      "polkadot",
+      "algorand",
+      "chainlink",
+      "eos",
+      "bitcoin",
+      "litecoin",
+      "ethereum",
+      "ripple",
+      "bitcoin_cash",
+      "cardano",
+      "tron"
     ],
     "name": {
       "en": "Bitpace",
