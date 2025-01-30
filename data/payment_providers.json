@@ -27326,6 +27326,19 @@
   },
   {
     "status": "active",
+    "code": "contiant",
+    "vendor": "contiant",
+    "name": {
+      "en": "Contiant",
+      "ru": "Contiant",
+      "uk": "Contiant"
+    },
+    "payment_method": [
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "spitamenbank",
     "vendor": "spitamenbank",
     "name": {
