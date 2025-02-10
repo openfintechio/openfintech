@@ -27368,5 +27368,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "rastpay",
+    "vendor": "rastpay",
+    "name": {
+      "en": "Rastpay",
+      "ru": "Rastpay",
+      "uk": "Rastpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
