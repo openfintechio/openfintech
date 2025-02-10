@@ -27355,5 +27355,18 @@
       "applepay",
       "googlepay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "upc",
+    "vendor": "upc",
+    "name": {
+      "en": "UPC",
+      "ru": "UPC",
+      "uk": "UPC"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
