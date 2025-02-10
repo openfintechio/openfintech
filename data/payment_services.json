@@ -26059,7 +26059,45 @@
     "method": "bank_transfer_aggregated",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "bic_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "BIC number",
+          "ru": "Номер BIC",
+          "uk": "Номер BIC"
+        },
+        "hint": {
+          "en": "Enter BIC number",
+          "ru": "Введите номер BIC",
+          "uk": "Введіть номер BIC"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
@@ -26743,7 +26781,45 @@
     "method": "bank_transfer_aggregated",
     "currency": "GBP",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "sort_code_number",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Sort code number",
+          "ru": "Номер sort code",
+          "uk": "Номер sort code"
+        },
+        "hint": {
+          "en": "Enter sort code number",
+          "ru": "Введите номер sort code",
+          "uk": "Введіть номер sort code"
+        },
+        "example": "50284414727321312"
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер аккаунта",
+          "uk": "Номер аккаунту"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер аккаунта",
+          "uk": "Введіть номер аккаунта"
+        },
+        "example": "50284414727321312"
+      }
+    ]
   },
   {
     "status": "active",
