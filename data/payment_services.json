@@ -2171,6 +2171,24 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_uyu_invoice",
+    "currency": "UYU",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 0.43,
+    "amount_max": 43327513
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_usd_invoice",
+    "currency": "USD",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_usd_hpp",
     "currency": "USD",
     "flow": "hpp",
@@ -2564,6 +2582,15 @@
         "example": "1100382992"
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_ves_invoice",
+    "currency": "VES",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 60,
+    "amount_max": 6000000
   },
   {
     "status": "active",
@@ -4693,6 +4720,15 @@
     "method": "bank_transfer",
     "amount_min": 0.01,
     "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_clp_invoice",
+    "currency": "CLP",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 88500000
   },
   {
     "status": "active",
@@ -15492,6 +15528,15 @@
   },
   {
     "status": "active",
+    "code": "pix_brl_invoice",
+    "currency": "BRL",
+    "flow": "invoice",
+    "method": "pix",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "pix_brl_hpp",
     "currency": "BRL",
     "flow": "hpp",
@@ -16651,6 +16696,15 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "spei_mxn_invoice",
+    "currency": "MXN",
+    "flow": "invoice",
+    "method": "spei",
+    "amount_min": 1,
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -25980,6 +26034,15 @@
     ]
   },
   {
+    "code": "bank_transfer_pen_invoice",
+    "status": "active",
+    "method": "bank_transfer",
+    "flow": "invoice",
+    "currency": "PEN",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
     "code": "bank_transfer_pen_hpp",
     "status": "active",
     "method": "bank_transfer",
@@ -32659,6 +32722,15 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_pyg_invoice",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "currency": "PYG",
+    "amount_min": 70,
+    "amount_max": 700000000
   },
   {
     "status": "active",
