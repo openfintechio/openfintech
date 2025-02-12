@@ -26941,6 +26941,21 @@
   },
   {
     "status": "active",
+    "code": "payelu",
+    "vendor": "payelu",
+    "payment_method": [
+      "bank_transfer",
+      "spei",
+      "pix"
+    ],
+    "name": {
+      "en": "Payelu",
+      "ru": "Payelu",
+      "uk": "Payelu"
+    }
+  },
+  {
+    "status": "active",
     "code": "ryvyl",
     "vendor": "ryvyl",
     "payment_method": [
