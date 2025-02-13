@@ -16540,9 +16540,25 @@
     }
   },
   {
-    "status": "active",
+    "status": "deprecated",
     "code": "platon",
     "vendor": "platon",
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "TrustyPay",
+      "ru": "TrustyPay",
+      "uk": "TrustyPay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "trustypay",
+    "vendor": "trustypay",
     "payment_method": [
       "payment_card"
     ],
