@@ -34316,6 +34316,34 @@
   },
   {
     "status": "active",
+    "code": "zamtel_zmw_invoice",
+    "flow": "invoice",
+    "method": "zamtel",
+    "currency": "ZMW",
+    "amount_min": 0.3,
+    "amount_max": 3000000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "rapipago_ars_invoice",
     "flow": "invoice",
     "method": "rapipago",
