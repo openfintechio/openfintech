@@ -34281,7 +34281,7 @@
           "uk": "Введіть номер телефону"
         },
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": false,
+        "required": true,
         "position": 1
       }
     ]
@@ -34309,7 +34309,7 @@
           "uk": "Введіть номер телефону"
         },
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": false,
+        "required": true,
         "position": 1
       }
     ]
@@ -34337,7 +34337,7 @@
           "uk": "Введіть номер телефону"
         },
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": false,
+        "required": true,
         "position": 1
       }
     ]
