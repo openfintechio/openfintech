@@ -26371,6 +26371,19 @@
   },
   {
     "status": "active",
+    "code": "aipay",
+    "vendor": "aipay",
+    "name": {
+      "en": "AiPay",
+      "ru": "AiPay",
+      "uk": "AiPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "fullpays",
     "vendor": "fullpays",
     "name": {
