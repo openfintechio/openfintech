@@ -26384,6 +26384,19 @@
   },
   {
     "status": "active",
+    "code": "infinityspace",
+    "vendor": "infinityspace",
+    "name": {
+      "en": "Infinity Space",
+      "ru": "Infinity Space",
+      "uk": "Infinity Space"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "bitlabz",
     "vendor": "bitlabz",
     "name": {
