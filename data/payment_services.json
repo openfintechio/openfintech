@@ -11958,7 +11958,7 @@
         },
         "example": "255742044295",
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -11987,7 +11987,7 @@
         },
         "example": "255742044295",
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -12074,7 +12074,7 @@
         },
         "example": "+255742044295",
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -12161,7 +12161,7 @@
         },
         "example": "+255742044295",
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -12248,7 +12248,7 @@
         },
         "example": "+255742044295",
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -12277,7 +12277,7 @@
         },
         "example": "255742044295",
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ],
@@ -34281,7 +34281,7 @@
           "uk": "Введіть номер телефону"
         },
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ]
@@ -34309,7 +34309,7 @@
           "uk": "Введіть номер телефону"
         },
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ]
@@ -34337,7 +34337,7 @@
           "uk": "Введіть номер телефону"
         },
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 1
       }
     ]
