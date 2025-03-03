@@ -1183,6 +1183,35 @@
   },
   {
     "status": "active",
+    "code": "paybis_ltc_usd_hpp",
+    "flow": "hpp",
+    "method": "paybis",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "paybis_eth_usd_hpp",
     "flow": "hpp",
     "method": "paybis",
@@ -1358,6 +1387,35 @@
   {
     "status": "active",
     "code": "paybis_usdt_goerli_usd_hpp",
+    "flow": "hpp",
+    "method": "paybis",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "paybis_usdt_polygon_usd_hpp",
     "flow": "hpp",
     "method": "paybis",
     "currency": "USD",
@@ -1909,6 +1967,35 @@
   {
     "status": "active",
     "code": "paybis_usdc_stellar_usd_hpp",
+    "flow": "hpp",
+    "method": "paybis",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "paybis_xlm_usd_hpp",
     "flow": "hpp",
     "method": "paybis",
     "currency": "USD",
@@ -2680,6 +2767,35 @@
   },
   {
     "status": "active",
+    "code": "paybis_ltc_eur_hpp",
+    "flow": "hpp",
+    "method": "paybis",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "paybis_eth_eur_hpp",
     "flow": "hpp",
     "method": "paybis",
@@ -2855,6 +2971,35 @@
   {
     "status": "active",
     "code": "paybis_usdt_goerli_eur_hpp",
+    "flow": "hpp",
+    "method": "paybis",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "paybis_usdt_polygon_eur_hpp",
     "flow": "hpp",
     "method": "paybis",
     "currency": "EUR",
