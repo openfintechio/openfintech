@@ -27469,5 +27469,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "visanet",
+    "vendor": "visanet",
+    "name": {
+      "en": "VisaNet",
+      "ru": "VisaNet",
+      "uk": "VisaNet"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
