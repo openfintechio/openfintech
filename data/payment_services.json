@@ -29152,6 +29152,51 @@
   },
   {
     "status": "active",
+    "code": "mifinity_cad_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mifinity_aud_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "mifinity_nzd_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "NZD",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "mifinity_nok_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "NOK",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "mifinity_sek_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "SEK",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
     "code": "pix_qr_brl_hpp",
     "flow": "hpp",
     "method": "pix_qr",
