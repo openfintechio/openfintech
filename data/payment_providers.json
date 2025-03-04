@@ -27469,5 +27469,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "pspark",
+    "vendor": "pspark",
+    "name": {
+      "en": "PSPARK",
+      "ru": "PSPARK",
+      "uk": "PSPARK"
+    },
+    "payout_method": [
+      "blik"
+    ]
   }
 ]
