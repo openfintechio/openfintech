@@ -26398,6 +26398,21 @@
   },
   {
     "status": "active",
+    "code": "startbutton",
+    "vendor": "startbutton",
+    "name": {
+      "en": "Startbutton",
+      "ru": "Startbutton",
+      "uk": "Startbutton"
+    },
+    "payment_method": [
+      "payment_card",
+      "swiffy_eft",
+      "snapscan_qr"
+    ]
+  },
+  {
+    "status": "active",
     "code": "bitlabz",
     "vendor": "bitlabz",
     "name": {
