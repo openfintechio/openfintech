@@ -28959,6 +28959,15 @@
   },
   {
     "status": "active",
+    "code": "snapscan_qr_zar_hpp",
+    "flow": "hpp",
+    "method": "snapscan_qr",
+    "currency": "ZAR",
+    "amount_min": 0.2,
+    "amount_max": 1840830
+  },
+  {
+    "status": "active",
     "code": "garanti_bbva_try_invoice",
     "flow": "invoice",
     "method": "garanti_bbva",
