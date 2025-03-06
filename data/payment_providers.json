@@ -26398,6 +26398,22 @@
   },
   {
     "status": "active",
+    "code": "startbutton",
+    "vendor": "startbutton",
+    "name": {
+      "en": "Startbutton",
+      "ru": "Startbutton",
+      "uk": "Startbutton"
+    },
+    "payment_method": [
+      "payment_card",
+      "swiffy_eft",
+      "bank_transfer",
+      "snapscan_qr"
+    ]
+  },
+  {
+    "status": "active",
     "code": "bitlabz",
     "vendor": "bitlabz",
     "name": {
@@ -27481,6 +27497,19 @@
     },
     "payout_method": [
       "blik"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "visanetconnect",
+    "vendor": "visanetconnect",
+    "name": {
+      "en": "VisaNet Connect",
+      "ru": "VisaNet Connect",
+      "uk": "VisaNet Connect"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]
