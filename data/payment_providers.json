@@ -27474,6 +27474,23 @@
   },
   {
     "status": "active",
+    "code": "btcbit",
+    "vendor": "btcbit",
+    "name": {
+      "en": "Btcbit",
+      "ru": "Btcbit",
+      "uk": "Btcbit"
+    },
+    "payment_method": [
+      "skrill",
+      "neteller",
+      "paysafecard",
+      "rapidtransfer",
+      "ideal"
+    ]
+  },
+  {
+    "status": "active",
     "code": "rastpay",
     "vendor": "rastpay",
     "name": {
