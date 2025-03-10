@@ -36227,5 +36227,32 @@
     "method": "googlepay",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "khalti_npr_hpp",
+    "currency": "NPR",
+    "flow": "hpp",
+    "method": "khalti",
+    "amount_min": 2,
+    "amount_max": 13000000
+  },
+  {
+    "status": "active",
+    "code": "esewa_npr_hpp",
+    "currency": "NPR",
+    "flow": "hpp",
+    "method": "esewa",
+    "amount_min": 2,
+    "amount_max": 13000000
+  },
+  {
+    "status": "active",
+    "code": "imepay_npr_hpp",
+    "currency": "NPR",
+    "flow": "hpp",
+    "method": "imepay",
+    "amount_min": 2,
+    "amount_max": 13000000
   }
 ]
