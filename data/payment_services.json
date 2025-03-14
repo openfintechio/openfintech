@@ -20753,6 +20753,15 @@
   },
   {
     "status": "active",
+    "code": "bizum_eur_invoice",
+    "flow": "invoice",
+    "method": "bizum",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
     "code": "mb_way_eur_hpp",
     "flow": "hpp",
     "method": "mb_way",
