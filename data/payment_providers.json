@@ -17854,7 +17854,9 @@
     },
     "payment_method": [
       "payment_card",
-      "pix"
+      "pix",
+      "applepay",
+      "googlepay"
     ],
     "payout_method": [
       "payment_card",
