@@ -1287,6 +1287,20 @@
     }
   },
   {
+    "code": "bizum",
+    "vendor": "bizum",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Bizum",
+      "ru": "Bizum",
+      "uk": "Bizum"
+    },
+    "description": {
+      "en": "The Bizum service is a joint project of Spanish banks that is part of the digital innovation initiatives to meet the new needs of its customers."
+    }
+  },
+  {
     "code": "capayable",
     "vendor": "capayable",
     "category": "cash_payment",
