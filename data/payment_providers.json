@@ -21596,6 +21596,9 @@
     },
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -25722,7 +25725,8 @@
       "bank_transfer",
       "payskin",
       "tether",
-      "n26_bank"
+      "n26_bank",
+      "wise"
     ],
     "name": {
       "en": "GateIQ",
@@ -27105,7 +27109,6 @@
     ],
     "payout_method": [
       "bank_transfer",
-      "spei",
       "pix"
     ],
     "name": {
