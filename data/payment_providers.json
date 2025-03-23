@@ -26139,6 +26139,19 @@
   },
   {
     "status": "active",
+    "code": "redcashoutsystem",
+    "vendor": "redcashoutsystem",
+    "name": {
+      "en": "Red Cashout System",
+      "ru": "Red Cashout System",
+      "uk": "Red Cashout System"
+    },
+    "payout_method": [
+      "bkash_limited"
+    ]
+  },
+  {
+    "status": "active",
     "code": "nagad",
     "vendor": "nagad",
     "name": {
