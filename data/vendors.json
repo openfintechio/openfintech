@@ -6483,6 +6483,15 @@
     }
   },
   {
+    "code": "bizum",
+    "status": "active",
+    "name": {
+      "en": "Bizum",
+      "ru": "Bizum",
+      "uk": "Bizum"
+    }
+  },
+  {
     "code": "tcb",
     "status": "active",
     "name": {
@@ -30561,6 +30570,18 @@
     }
   },
   {
+    "code": "epb",
+    "status": "active",
+    "links": {
+      "website": "https://europrombank.kiev.ua/"
+    },
+    "name": {
+      "en": "EPB",
+      "ru": "EPB",
+      "uk": "ЄПБ"
+    }
+  },
+  {
     "code": "prmoney",
     "status": "active",
     "links": {
@@ -34638,6 +34659,15 @@
     }
   },
   {
+    "code": "mtb",
+    "status": "active",
+    "name": {
+      "en": "MTB",
+      "ru": "МТБ",
+      "uk": "МТБ"
+    }
+  },
+  {
     "code": "cdn",
     "status": "active",
     "name": {
@@ -34923,6 +34953,15 @@
       "en": "Bkash",
       "ru": "Bkash",
       "uk": "Bkash"
+    }
+  },
+  {
+    "code": "redcashoutsystem",
+    "status": "active",
+    "name": {
+      "en": "Red Cashout System",
+      "ru": "Red Cashout System",
+      "uk": "Red Cashout System"
     }
   },
   {
