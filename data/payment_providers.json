@@ -18365,6 +18365,19 @@
   },
   {
     "status": "active",
+    "code": "fyst",
+    "vendor": "fyst",
+    "name": {
+      "en": "FYST",
+      "ru": "FYST",
+      "uk": "FYST"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "dropayment",
     "vendor": "dropayment",
     "name": {
