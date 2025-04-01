@@ -27635,5 +27635,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "tompayment",
+    "vendor": "tompayment",
+    "name": {
+      "en": "TomPayment",
+      "ru": "TomPayment",
+      "uk": "TomPayment"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
