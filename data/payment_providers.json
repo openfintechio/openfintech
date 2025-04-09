@@ -26796,7 +26796,10 @@
       "uk": "Payswiftly"
     },
     "payout_method": [
-      "bank_transfer"
+      "bank_transfer",
+      "sepa_transfer",
+      "eft",
+      "ach"
     ]
   },
   {
