@@ -27685,5 +27685,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "sends",
+    "vendor": "sends",
+    "name": {
+      "en": "Sends",
+      "ru": "Sends",
+      "uk": "Sends"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
