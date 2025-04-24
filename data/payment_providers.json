@@ -13936,6 +13936,19 @@
   },
   {
     "status": "active",
+    "code": "worldpayraft",
+    "vendor": "worldpay",
+    "name": {
+      "en": "Worldpay RAFT",
+      "ru": "Worldpay RAFT",
+      "uk": "Worldpay RAFT"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "easypaymentgateway",
     "vendor": "easypaymentgateway",
     "categories": [
