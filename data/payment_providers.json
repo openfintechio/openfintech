@@ -27686,5 +27686,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "guava",
+    "vendor": "guava",
+    "name": {
+      "en": "Guava",
+      "ru": "Guava",
+      "uk": "Guava"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
