@@ -8579,10 +8579,26 @@
       "about_payments_code": "stripe"
     },
     "name": {
-      "en": "Stripe"
+      "en": "Stripe",
+      "uk": "Stripe",
+      "ru": "Stripe"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "link",
+      "applepay",
+      "googlepay",
+      "bank_transfer_klarna",
+      "revolut_bank",
+      "mobile",
+      "multibanco",
+      "bancontact",
+      "blik",
+      "eps",
+      "ideal",
+      "przelewy24",
+      "twint",
+      "amazon_pay"
     ]
   },
   {

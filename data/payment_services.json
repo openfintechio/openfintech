@@ -11739,6 +11739,51 @@
   },
   {
     "status": "active",
+    "code": "przelewy24_pln_hpp",
+    "flow": "hpp",
+    "method": "przelewy24",
+    "currency": "PLN",
+    "amount_min": 0.04,
+    "amount_max": 376000
+  },
+  {
+    "status": "active",
+    "code": "twint_chf_hpp",
+    "flow": "hpp",
+    "method": "twint",
+    "currency": "CHF",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "link_eur_hpp",
+    "flow": "hpp",
+    "method": "link",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "link_gbp_hpp",
+    "flow": "hpp",
+    "method": "link",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "link_usd_hpp",
+    "flow": "hpp",
+    "method": "link",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "piastrix_eur_hpp",
     "flow": "hpp",
     "method": "piastrix",
@@ -14101,6 +14146,33 @@
     "method": "bank_transfer_klarna",
     "amount_min": 0.5,
     "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_klarna_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "bank_transfer_klarna",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_klarna_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "bank_transfer_klarna",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_klarna_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "bank_transfer_klarna",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "status": "active",
@@ -27935,6 +28007,15 @@
     "flow": "hpp",
     "method": "revolut_bank",
     "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "revolut_bank_gbp_hpp",
+    "flow": "hpp",
+    "method": "revolut_bank",
+    "currency": "GBP",
     "amount_min": 0.01,
     "amount_max": 100000
   },
