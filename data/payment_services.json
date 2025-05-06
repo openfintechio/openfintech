@@ -12009,6 +12009,15 @@
   },
   {
     "status": "active",
+    "code": "googlepay_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
     "code": "googlepay_nzd_hpp",
     "currency": "NZD",
     "flow": "hpp",
