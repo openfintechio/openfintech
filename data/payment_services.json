@@ -20136,6 +20136,33 @@
   },
   {
     "status": "active",
+    "code": "amazon_pay_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "amazon_pay",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "amazon_pay_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "amazon_pay",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "amazon_pay_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "amazon_pay",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "paywise_cash_ttd_invoice",
     "currency": "TTD",
     "flow": "invoice",
