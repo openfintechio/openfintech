@@ -18102,6 +18102,19 @@
   },
   {
     "status": "active",
+    "code": "sensebank",
+    "vendor": "sensebank",
+    "name": {
+      "en": "Sense Bank",
+      "ru": "Сенс Банк",
+      "uk": "Сенс Банк"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "concord",
     "vendor": "concordbank",
     "name": {
