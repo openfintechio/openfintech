@@ -11248,5 +11248,15 @@
       "ru": "MobilePay",
       "uk": "MobilePay"
     }
+  },
+  {
+    "code": "sepa_transfer_instant",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Sepa Transfer Instant",
+      "uk": "Sepa Transfer Instant",
+      "ru": "Sepa Transfer Instant"
+    }
   }
 ]
