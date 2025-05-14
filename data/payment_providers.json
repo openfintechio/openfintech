@@ -27726,5 +27726,20 @@
       "sepa_transfer",
       "sepa_transfer_instant"
     ]
+  },
+  {
+    "status": "active",
+    "code": "xmgate",
+    "vendor": "xmgate",
+    "name": {
+      "en": "Xmgate",
+      "ru": "Xmgate",
+      "uk": "Xmgate"
+    },
+    "payment_method": [
+      "payment_card",
+      "applepay",
+      "googlepay"
+    ]
   }
 ]
