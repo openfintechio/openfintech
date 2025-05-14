@@ -27715,6 +27715,24 @@
   },
   {
     "status": "active",
+    "code": "xmgate",
+    "vendor": "xmgate",
+    "name": {
+      "en": "Xmgate",
+      "ru": "Xmgate",
+      "uk": "Xmgate"
+    },
+    "payout_method": [
+      "payment_card"
+    ],
+    "payment_method": [
+      "payment_card",
+      "applepay",
+      "googlepay"
+    ]
+  },
+  {
+    "status": "active",
     "code": "saltedge",
     "vendor": "saltedge",
     "name": {
