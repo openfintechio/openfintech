@@ -36418,5 +36418,92 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "klasha_ugx_invoice",
+    "currency": "UGX",
+    "flow": "invoice",
+    "method": "klasha",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 37,
+    "amount_max": 365779200
+  },
+  {
+    "status": "active",
+    "code": "klasha_zmw_invoice",
+    "currency": "ZMW",
+    "flow": "invoice",
+    "method": "klasha",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.27,
+    "amount_max": 2700000
+  },
+  {
+    "status": "active",
+    "code": "klasha_tzs_invoice",
+    "currency": "TZS",
+    "flow": "invoice",
+    "method": "klasha",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 27,
+    "amount_max": 270000000
   }
 ]
