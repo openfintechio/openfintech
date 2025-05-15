@@ -27715,5 +27715,34 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "saltedge",
+    "vendor": "saltedge",
+    "name": {
+      "en": "SaltEdge",
+      "ru": "SaltEdge",
+      "uk": "SaltEdge"
+    },
+    "payment_method": [
+      "sepa_transfer",
+      "sepa_transfer_instant"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "xmgate",
+    "vendor": "xmgate",
+    "name": {
+      "en": "Xmgate",
+      "ru": "Xmgate",
+      "uk": "Xmgate"
+    },
+    "payment_method": [
+      "payment_card",
+      "applepay",
+      "googlepay"
+    ]
   }
 ]
