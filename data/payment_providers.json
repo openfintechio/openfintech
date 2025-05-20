@@ -27781,5 +27781,19 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "blueworld",
+    "vendor": "blueworld",
+    "name": {
+      "en": "Blue World",
+      "ru": "Blue World",
+      "uk": "Blue World"
+    },
+    "payment_method": [
+      "jazzcash",
+      "easypaisa"
+    ]
   }
 ]
