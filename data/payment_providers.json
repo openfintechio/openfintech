@@ -27746,5 +27746,18 @@
       "applepay",
       "googlepay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "matrixpay",
+    "vendor": "matrixpay",
+    "name": {
+      "en": "MatrixPay",
+      "ru": "MatrixPay",
+      "uk": "MatrixPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
