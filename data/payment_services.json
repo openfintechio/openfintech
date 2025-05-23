@@ -24231,14 +24231,14 @@
           "uk": "Введіть email платника"
         },
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
-        "required": true,
+        "required": false,
         "position":1
       },
       {
         "key": "payer_phone_number",
         "type": "string",
         "regexp": "\/^\\+\\d{10,14}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "example": "+234742044295",
         "label": {
@@ -24266,7 +24266,7 @@
           "uk": "Введіть повне імʼя платника"
         },
         "regexp": "\/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$\/",
-        "required": true,
+        "required": false,
         "example": "VAN TUONG LAN",
         "position": 3
       }
