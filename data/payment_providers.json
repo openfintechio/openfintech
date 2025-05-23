@@ -27934,5 +27934,21 @@
       "jazzcash",
       "easypaisa"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paynearme",
+    "vendor": "paynearme",
+    "name": {
+      "en": "PayNearMe",
+      "ru": "PayNearMe",
+      "uk": "PayNearMe"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay",
+      "ach",
+      "cash"
+    ]
   }
 ]

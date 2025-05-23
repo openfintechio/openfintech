@@ -13740,11 +13740,13 @@
   {
     "code": "paynearme",
     "status": "active",
-    "countries": [
-      "UM"
-    ],
+    "links": {
+      "website": "https://home.paynearme.com/"
+    },
     "name": {
-      "en": "PayNearMe"
+      "en": "PayNearMe",
+      "ru": "PayNearMe",
+      "uk": "PayNearMe"
     }
   },
   {
