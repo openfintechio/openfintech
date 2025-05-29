@@ -25463,6 +25463,35 @@
   },
   {
     "status": "active",
+    "code": "jazzcash_pkr_transfer",
+    "currency": "PKR",
+    "flow": "transfer",
+    "method": "jazzcash",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
     "code": "pay4fun_brl_hpp",
     "currency": "BRL",
     "flow": "hpp",
@@ -25513,6 +25542,35 @@
     "code": "easypaisa_pkr_hpp",
     "currency": "PKR",
     "flow": "hpp",
+    "method": "easypaisa",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "easypaisa_pkr_transfer",
+    "currency": "PKR",
+    "flow": "transfer",
     "method": "easypaisa",
     "fields": [
       {
