@@ -24431,6 +24431,33 @@
   },
   {
     "status": "active",
+    "code": "payment_card_bsd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "BSD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_jod_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "JOD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_gyd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "GYD",
+    "amount_min": 0.01,
+    "amount_max": 21000000
+  },
+  {
+    "status": "active",
     "code": "cimb_bank_fpx_myr_hpp",
     "flow": "hpp",
     "method": "cimb_bank_fpx",
