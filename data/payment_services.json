@@ -11730,6 +11730,15 @@
   },
   {
     "status": "active",
+    "code": "polipayonline_nzd_hpp",
+    "flow": "hpp",
+    "method": "polipayonline",
+    "currency": "NZD",
+    "amount_min": 0.01,
+    "amount_max": 167000
+  },
+  {
+    "status": "active",
     "code": "przelewy24_eur_hpp",
     "flow": "hpp",
     "method": "przelewy24",
