@@ -27950,5 +27950,18 @@
       "ach",
       "cash"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payon",
+    "vendor": "payon",
+    "name": {
+      "en": "Payon",
+      "ru": "Payon",
+      "uk": "Payon"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
