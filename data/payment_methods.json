@@ -2165,6 +2165,9 @@
     "code": "mefete",
     "category": "alternative",
     "status": "active",
+    "description": {
+      "en": "Mefete is a Turkish digital wallet and payment service developed by Erpa Ödeme Hizmetleri ve Elektronik Para A.Ş., licensed by the Central Bank of Turkey. Designed to provide 24/7 financial services, Mefete enables users to send, receive, and spend money instantly through its mobile application, eliminating the need for traditional banking hours or physical bank visits. The platform supports various transactions, including peer-to-peer transfers and payments to member establishments, and offers features like QR code payments for added convenience. Mefete’s infrastructure ensures secure and efficient transactions, making it a popular choice among users seeking flexible and accessible financial solutions in Turkey. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "name": {
       "en": "Mefete",
       "ru": "Mefete",
@@ -2179,6 +2182,9 @@
       "en": "Payfix",
       "ru": "Payfix",
       "uk": "Payfix"
+    },
+    "description": {
+      "en": "PayFix is a licensed electronic money institution based in Turkey, offering digital wallet and payment solutions for both individuals and businesses. Regulated by the Central Bank of the Republic of Turkey, PayFix enables users to perform secure and fast financial transactions, including money transfers, bill payments, and online purchases. The platform provides a mobile wallet that supports Turkish Lira transactions and features such as IBAN creation, QR code payments, and integration with local banking systems. For merchants, PayFix offers tools to accept payments online, manage customer transactions, and track financial activities via a user-friendly interface. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -2189,6 +2195,9 @@
       "en": "Parazula",
       "ru": "Parazula",
       "uk": "Parazula"
+    },
+    "description": {
+      "en": "Parazula is a Turkish digital wallet and payment application developed by ERPA Ödeme Hizmetleri ve Elektronik Para A.Ş., licensed by the Central Bank of Turkey. It allows users to perform instant money transfers and payments at any time, including weekends and outside of traditional banking hours. The platform supports transactions such as sending and receiving funds between Parazula accounts, topping up balances via bank transfers, and making payments at partner merchants. Parazula emphasizes user convenience and security, offering a mobile application that enables users to manage their finances efficiently. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -6680,6 +6689,9 @@
       "en": "NixMoney Wallet",
       "ru": "NixMoney Кошелёк",
       "uk": "NixMoney Гаманець"
+    },
+    "description": {
+      "en": "NixMoney is a digital payment system that provides secure and anonymous financial transactions using electronic currencies. The platform supports a variety of digital assets, including Bitcoin, Litecoin, and proprietary NixMoney currency units (NIX USD, NIX EUR, etc.), and is primarily used for online payments, fund transfers, and merchant services. NixMoney emphasizes privacy and low transaction fees, offering features such as instant internal transfers and support for API integration, making it appealing to businesses operating in high-risk or privacy-sensitive sectors. The system is designed to be straightforward and accessible, allowing users to manage balances, send payments, and process payouts without requiring traditional banking infrastructure. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -7001,6 +7013,9 @@
   {
     "status": "active",
     "code": "jeton_wallet",
+    "description": {
+      "en": "Jeton Wallet is a UK-based digital wallet and payment service provider that allows individuals and businesses to send, receive, and manage money securely in multiple currencies. Regulated by the UK’s Financial Conduct Authority (FCA), Jeton offers services such as instant money transfers, currency exchange, merchant payments, and prepaid card issuance. It supports over 70 payment methods and is available in more than 100 countries, making it a popular solution for international users and merchants, especially in industries like gaming, e-commerce, and forex. Jeton emphasizes user privacy, security, and low transaction fees, while offering a seamless experience through its mobile app and web platform. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "category": "digital_wallet",
     "name": {
       "en": "Jeton Wallet",
@@ -7111,6 +7126,9 @@
   {
     "status": "active",
     "code": "pay_id",
+    "description": {
+      "en": "Pay ID is a real-time payment method developed for the New Payments Platform (NPP) in Australia, designed to simplify the process of sending and receiving money using easy-to-remember identifiers instead of traditional bank account numbers. Users can link a Pay ID—such as a mobile number, email address, or ABN—to their bank account, enabling fast, secure, and near-instant transfers 24/7. Widely adopted by Australian banks and financial institutions, Pay ID enhances user experience by making payments more accessible and reducing input errors. It is particularly useful for peer-to-peer transfers, bill payments, and business transactions, offering the benefits of real-time confirmation, strong security standards, and compatibility with mobile banking apps."
+    },
     "category": "invoice_payment",
     "name": {
       "en": "PayID",
@@ -8272,6 +8290,9 @@
       "en": "Maldo Crypto",
       "ru": "Maldo Crypto",
       "uk": "Maldo Crypto"
+    },
+    "description": {
+      "en": "Maldo Crypto is a cryptocurrency-based payment method that enables merchants to accept digital assets such as Bitcoin, Ethereum, and other popular cryptocurrencies as a form of payment. Tailored for online businesses and high-risk industries, Maldo Crypto focuses on providing a fast, borderless, and secure alternative to traditional payment options. It allows for real-time settlements, low transaction fees, and reduced chargeback risk, making it particularly attractive for global merchants looking to expand their reach and streamline cross-border transactions. With growing demand for crypto payments among users seeking privacy and decentralization, Maldo Crypto supports wallet-to-wallet transfers and often includes built-in tools for conversion to fiat, compliance checks, and transaction monitoring."
     }
   },
   {
