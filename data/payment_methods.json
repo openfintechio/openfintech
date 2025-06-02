@@ -11279,5 +11279,15 @@
       "uk": "Sepa Transfer Instant",
       "ru": "Sepa Transfer Instant"
     }
+  },
+  {
+    "code": "ach",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Automated Clearing House (ACH)",
+      "ru": "Automated Clearing House (ACH)",
+      "uk": "Automated Clearing House (ACH)"
+    }
   }
 ]
