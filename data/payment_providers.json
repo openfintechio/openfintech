@@ -5388,6 +5388,9 @@
     "status": "active",
     "code": "mopay",
     "vendor": "mopay",
+    "description": {
+      "en": "Mopay is a mobile payment platform that enables users to send and receive money, make purchases, and pay bills directly from their mobile devices. The app supports transactions through major mobile money services, providing a convenient and secure way to manage financial activities. With features like QR code scanning for swift payments and a user-friendly interface, Mopay simplifies the payment process for both individuals and merchants. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "countries": [
       "AX",
       "AL",
@@ -7372,6 +7375,9 @@
     },
     "name": {
       "en": "KeyCollect"
+    },
+    "description": {
+      "en": "KeyCollect SA is a Swiss-based payment service provider founded in 2008 by a team of online payment industry experts. Operating from Zürich, the company focuses on delivering secure and reliable online payment processing solutions at competitive costs. KeyCollect offers a range of services designed to facilitate seamless transactions for businesses, emphasizing security and efficiency in its operations. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -8490,6 +8496,9 @@
     "status": "active",
     "code": "webbilling",
     "vendor": "webbilling",
+    "description": {
+      "en": "Webbilling was a payment service provider that specialized in offering carrier billing solutions primarily for high-risk and digital content industries. It enabled merchants to accept payments through direct carrier billing, allowing customers to charge online purchases to their mobile phone bills. Headquartered in Germany, Webbilling operated across various European markets and provided a convenient alternative to credit cards, especially in regions with lower card penetration. The service focused on maximizing conversions by simplifying the checkout process, particularly for adult entertainment, gaming, and other digital service providers. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "countries": [
       "AX",
       "AL",
@@ -11415,6 +11424,9 @@
     "status": "active",
     "code": "smart2pay",
     "vendor": "smart2pay",
+    "description": {
+      "en": "Smart2Pay, now operating under the name Nuvei Local Payments, is a global payment service provider that enables merchants to accept local and alternative payment methods in over 100 countries. The platform offers access to a wide range of payment options including bank transfers, e-wallets, prepaid cards, and cash payments, making it particularly valuable for businesses looking to expand their reach in emerging markets. Smart2Pay’s unified API allows for seamless integration and simplifies the complexity of managing multiple local payment providers. With a focus on compliance, fraud prevention, and localization, Smart2Pay supports industries such as digital content, e-commerce, gaming, and travel. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "categories": [
       "aggregating",
       "distributing",
@@ -11827,6 +11839,9 @@
     },
     "name": {
       "en": "Zombaio"
+    },
+    "description": {
+      "en": "Zombaio is a specialized payment service provider that caters primarily to high-risk and adult entertainment industries, offering merchant accounts and credit card processing services. The company enables businesses operating in sectors with elevated compliance requirements to accept global payments via Visa, Mastercard, and other major networks. Zombaio is known for its tailored onboarding process, fraud prevention tools, recurring billing capabilities, and support for age verification services. Its platform also provides chargeback management and compliance assistance to help merchants meet the specific regulatory demands of high-risk industries. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -12407,6 +12422,9 @@
     "status": "active",
     "code": "g2apay",
     "vendor": "g2apay",
+    "description": {
+      "en": "G2A PAY is a global online payment gateway developed by G2A.COM, primarily designed to serve digital commerce businesses, especially in the gaming and entertainment sectors. The platform supports over 200 global and local payment methods, including credit cards, e-wallets, bank transfers, and regional options tailored to specific markets. G2A PAY offers features such as multi-currency processing, fraud prevention tools, and a streamlined checkout experience aimed at maximizing conversion rates. With a strong emphasis on accessibility and scalability, it caters to merchants looking to expand internationally without the need for multiple individual integrations. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "categories": [
       "collecting",
       "distributing",
@@ -15456,6 +15474,9 @@
       "ru": "CCBill",
       "uk": "CCBill"
     },
+    "description": {
+      "en": "CCBill is a global payment service provider known for its strong presence in high-risk industries such as adult entertainment, dating, and digital services. Established in the U.S. in 1998, the company offers a comprehensive suite of services including credit card and ACH processing, recurring billing, fraud protection, and compliance management. CCBill enables businesses to accept payments in multiple currencies and provides advanced tools for subscription management, chargeback mitigation, and analytics. The platform also includes a robust affiliate management system, making it a popular choice for businesses with recurring revenue models. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card"
     ]
@@ -16917,6 +16938,9 @@
       "ru": "Instaxchange",
       "uk": "Instaxchange"
     },
+    "description": {
+      "en": "InstaXchange is a licensed financial services provider specializing in fiat-to-crypto and crypto-to-fiat transactions, offering a seamless platform for businesses and individuals to buy and sell cryptocurrencies. Operating under UAB Coin Sonic in Lithuania, InstaXchange facilitates instant bank transfers through named SEPA accounts and supports direct card payments, ensuring efficient and secure transactions . The platform emphasizes transparency with a clear fee structure and provides 24/7 customer support to assist users. InstaXchange’s infrastructure is designed for easy integration, allowing businesses to incorporate crypto payment solutions without extensive technical requirements. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card_crypto"
     ]
@@ -17226,6 +17250,9 @@
     },
     "name": {
       "en": "GoInterpay"
+    },
+    "description": {
+      "en": "Gointerpay is a cross-border e-commerce payment platform that helps merchants expand globally by offering access to localized payment methods across emerging markets. Specializing in alternative payment solutions, Gointerpay enables online businesses to accept payments from international customers using methods they trust—such as local bank transfers, e-wallets, and region-specific options—rather than relying solely on credit cards. The platform is particularly beneficial for merchants targeting Latin America, Asia, and other underbanked regions, offering features like real-time currency conversion, fraud management, and full compliance with local regulations. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -17343,6 +17370,9 @@
     },
     "name": {
       "en": "DaoPay"
+    },
+    "description": {
+      "en": "DaoPay is a global payment service provider that specializes in enabling merchants to accept payments via phone and mobile billing. Established in Austria, DaoPay allows users to make purchases by charging transactions directly to their phone bills or using prepaid mobile credit, making it especially popular in regions with limited access to banking or credit cards. The platform supports voice calls, SMS payments, and direct carrier billing, and is commonly used in industries like online gaming, entertainment, and digital content. With a focus on accessibility, security, and ease of use, DaoPay helps businesses reach broader audiences by offering simple and inclusive payment options. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -18251,6 +18281,9 @@
       "en": "Mercuryo",
       "ru": "Mercuryo",
       "uk": "Mercuryo"
+    },
+    "description": {
+      "en": "Mercuryo is a global payments infrastructure platform that enables businesses to accept, store, and exchange cryptocurrencies and fiat currencies through a single API. Headquartered in the United Kingdom, Mercuryo offers a suite of services including fiat-to-crypto onramps, crypto wallets, payout solutions, and compliance-as-a-service for fintechs, wallets, and marketplaces. The platform supports a wide range of digital assets and fiat currencies, providing real-time exchange and settlement capabilities. Mercuryo is known for its robust KYC/AML compliance, seamless user experience, and strong emphasis on regulatory alignment, making it a reliable partner for businesses seeking to integrate crypto payments into their operations. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "mercuryo",
@@ -19436,6 +19469,9 @@
       "ru": "BlackRabbit",
       "uk": "BlackRabbit"
     },
+    "description": {
+      "en": "Black Rabbit is a crypto payment processor operated by Magua Pay Inc., a Canadian money services business. The company offers services including crypto-to-fiat exchange, mass payments, and a flexible API, supporting processing in more than five different currencies and providing a payment page in over ten languages. However, as of March 2025, both the Black Rabbit and Magua Pay websites have become inaccessible, raising concerns about the company’s operational status. Reports indicate that Black Rabbit has been associated with high-risk payment processing activities, including facilitating transactions for unauthorized offshore brokers. Due to these issues, caution is advised when considering engagement with Black Rabbit’s services. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card"
     ],
@@ -19726,6 +19762,9 @@
     "status": "active",
     "code": "decard",
     "vendor": "decard",
+    "description": {
+      "en": "DeCard is a next-generation payment solution developed by DCS Card Centre in partnership with Visa, designed to bridge traditional finance and digital assets. Operating on a top-up model, DeCard allows users to fund their accounts using either fiat currency or select digital assets like USDT and USDC, which are converted into fiat through MAS-licensed Digital Payment Token service providers. This approach enables users to spend only what they have, promoting financial responsibility. The card is accepted at over 150 million merchant locations worldwide and supports integration with digital wallets such as Google Pay and Apple Pay. With features like competitive conversion rates, no annual fees, and capped ATM withdrawal charges, DeCard offers a cost-effective and secure payment experience. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "name": {
       "en": "Decard",
       "ru": "Decard",
@@ -19809,6 +19848,9 @@
       "en": "BZPAY",
       "ru": "BZPAY",
       "uk": "BZPAY"
+    },
+    "description": {
+      "en": "BZPAY is a Mexican fintech company providing comprehensive electronic payment solutions for businesses of all sizes. Their offerings include point-of-sale terminals (BZPOS and BZLITE), digital payment tools (BZLINK and BZCOMMERCE), and a robust payment gateway supporting credit card transactions, refunds, and transaction status queries via XML-based APIs. BZPAY emphasizes rapid fund settlement, with merchants receiving payouts within 24 hours, and offers customizable commission structures without minimum transaction requirements. The platform supports all major card networks and provides features like interest-free installment payments. Security is a top priority, with compliance to PCI standards and oversight by the Comisión Nacional Bancaria y de Valores (CNBV) and Banco de México. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "payment_card"
@@ -20242,6 +20284,9 @@
       "ru": "ConnPay",
       "uk": "ConnPay"
     },
+    "description": {
+      "en": "ConnPay is a PCI DSS-compliant payment gateway solution developed by CONNECTGROUP DWC-LLC, a UAE-based IT company. It offers a comprehensive suite of international payment processing services, supporting various transaction types associated with bank card payments. ConnPay’s platform is designed to facilitate seamless integration for businesses, providing tools for efficient payment management and processing. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "sbp",
@@ -20303,6 +20348,9 @@
       "ru": "PaySoft Solutions",
       "uk": "PaySoft Solutions"
     },
+    "description": {
+      "en": "PaySoft Solutions is a payment service provider operating in the Ukrainian market, offering secure and efficient internet acquiring services for merchants across various industries. The company supports a range of payment methods, including Visa and Mastercard card payments, as well as digital wallets like Apple Pay and Google Pay. For payouts, PaySoft Solutions provides options such as card payouts, bank transfers, and mobile payments via Ukrainian telecom operators like Lifecell, Kyivstar, and Vodafone. Their platform is designed to facilitate seamless payment processing and fund disbursement, catering to the needs of businesses seeking reliable transaction solutions. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "applepay",
@@ -20324,6 +20372,9 @@
       "en": "Monetix",
       "ru": "Monetix",
       "uk": "Monetix"
+    },
+    "description": {
+      "en": "Monetix is a payment service provider offering a comprehensive suite of solutions tailored for online businesses seeking global reach and flexibility. Founded in 2019, Monetix delivers a unified platform that supports both acquiring and alternative payment methods, enabling merchants to accept payments and process payouts efficiently across various currencies and regions. The platform features smart routing and cascading technologies, optimizing transaction flows based on factors like geography, currency, and card BINs to enhance approval rates and reduce declines. Merchants benefit from customizable payment pages that align with their brand identity, as well as robust API integrations that facilitate seamless connectivity with existing systems. Monetix also offers automated and manual payout options, catering to diverse operational needs. With a focus on security and compliance, the company adheres to PCI DSS Level 1 standards and employs SSL encryption to safeguard transaction data. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard"
     },
     "payment_method": [
       "online_banking",
@@ -20896,6 +20947,9 @@
       "ru": "DIMOCO Payments",
       "uk": "DIMOCO Payments"
     },
+    "description": {
+      "en": "DIMOCO Payments is an Austria-based payment service provider specializing in carrier billing and acquiring services, offering tailored payment solutions for businesses across various industries, including e-commerce, mobility, lifestyle, and iGaming. Licensed by the Austrian Financial Market Authority (FMA), DIMOCO enables merchants to accept payments through a wide array of methods, such as credit and debit cards, alternative payment methods, and direct carrier billing, which allows consumers to charge purchases directly to their mobile phone bills. This approach is particularly beneficial for reaching underbanked populations and facilitating microtransactions for digital content. DIMOCO’s platform emphasizes flexibility, security, and compliance, providing features like intelligent payment routing, fraud prevention, and mobile identity services to enhance transaction success rates and user authentication. The company has also partnered with IXOPAY to leverage advanced payment orchestration capabilities, improving transaction efficiency and scalability for high-risk merchants. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "carrierbilling"
@@ -21066,6 +21120,9 @@
       "ru": "Inwizo",
       "uk": "Inwizo"
     },
+    "description": {
+      "en": "Inwizo is a London-based payment service provider offering a comprehensive suite of solutions designed to simplify global transactions for businesses. Established in 2018, Inwizo supports over 80 popular payment methods, including Visa, Mastercard, Alipay, and PayPal, catering to a diverse customer base across various markets. Their platform encompasses online payments, point-of-sale systems, and global card acquiring, enabling merchants to accept payments seamlessly both online and in-store. Inwizo emphasizes security and efficiency, employing advanced fraud prevention tools powered by machine learning and providing detailed reporting and analytics for informed decision-making. With a user-friendly interface and a focus on conversion optimization, Inwizo aims to enhance customer experiences and drive business growth. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "card_transfer",
@@ -21153,6 +21210,9 @@
       "en": "Virtpay",
       "ru": "Virtpay",
       "uk": "Virtpay"
+    },
+    "description": {
+      "en": "Virtpay is a versatile payment gateway integrated with Corefy’s platform, enabling businesses to process credit card transactions securely and efficiently. The platform supports 3D Secure v2 authentication, enhancing transaction security and reducing fraud risks. Virtpay’s integration with Corefy allows merchants to manage payments seamlessly, offering features like merchant management, reconciliations, analytics, and a comprehensive dashboard. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "payment_card"
@@ -21497,6 +21557,9 @@
     "status": "active",
     "code": "flexify",
     "vendor": "flexify",
+    "description": {
+      "en": "Flexify Finance is a Canadian-registered fintech company providing comprehensive global payment solutions for businesses of all sizes. Licensed by FINTRAC, Flexify offers a secure, PCI DSS-compliant platform supporting over 60 payment methods and more than 20 currencies, including USD, EUR, UAH, INR, NGN, KES, TRY, and KGS. Their services encompass card acquiring, digital wallets, open banking, cryptocurrency payments, and mass payouts, catering to industries such as e-commerce, iGaming, and high-risk sectors. Flexify’s platform features cascading and routing technologies to optimize transaction success rates and offers seamless integration through APIs and CMS plugins. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "name": {
       "en": "Flexify",
       "ru": "Flexify",
@@ -21577,6 +21640,9 @@
       "en": "LemanPay",
       "ru": "LemanPay",
       "uk": "LemanPay"
+    },
+    "description": {
+      "en": "LemanPay is a cryptocurrency payment gateway that enables businesses to accept digital currency transactions globally. The platform supports a variety of cryptocurrencies, including Bitcoin, Litecoin, and Tether, providing flexibility for both merchants and customers. LemanPay offers features such as instant global transactions, a complete SaaS solution, and a PHP library for easy integration with existing systems. Designed with a focus on security and efficiency, LemanPay ensures seamless processing of crypto payments, making it a suitable choice for businesses looking to expand their payment options in the digital currency space. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "payment_card"
@@ -21983,6 +22049,9 @@
     "status": "active",
     "code": "mxpay",
     "vendor": "mxpay",
+    "description": {
+      "en": "MXPay is a digital payment platform offering a comprehensive suite of financial services tailored for businesses and individuals. The platform enables users to send and receive money, request payments, process voucher payments, utilize escrow services, and withdraw funds. With support for over 24 payment gateways worldwide, MXPay facilitates seamless transactions across various channels. Additional features include real-time tracking, multi-currency support, robust security measures, user-friendly interfaces, quick settlements, and 24/7 customer support, making it a versatile solution for diverse payment needs. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "name": {
       "en": "MXPay",
       "ru": "MXPay",
@@ -22127,6 +22196,9 @@
       "en": "Exxogate",
       "ru": "Exxogate",
       "uk": "Exxogate"
+    },
+    "description": {
+      "en": "Exxogate is a payment service provider offering online payment processing and commerce solutions for internet businesses of all sizes. It supports various payment methods, including online banking, mobile payments, QR codes, UPI, digital wallets, and wire transfers, catering to regions such as Southeast Asia, the Gulf Cooperation Council (GCC) countries, and India. The platform emphasizes flexibility with features like cascading payments, allowing repeated transactions through alternative gateways if the primary channel is unavailable, and supports bulk payouts to clients’ bank cards, phones, or other sources. Security is a priority, offering 3D Secure authorization, an anti-fraud module with customizable filters, and comprehensive support for disputed payments and refunds. Real-time transaction monitoring and transparent reporting tools are also integral parts of their service. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "hdfc_bank",
@@ -22783,6 +22855,9 @@
       "ru": "Impaya",
       "uk": "Impaya"
     },
+    "description": {
+      "en": "Impaya is a Riga-based payment service provider offering a comprehensive suite of online payment solutions tailored for both low- and high-risk merchants. Founded in 2015, the company operates under the legal entity Impaya Payments Ltd. Impaya supports a wide array of payment methods, including credit and debit cards, e-wallets, SEPA direct debits, and local bank transfers, facilitating transactions in over 170 countries. Their platform emphasizes security and scalability, featuring 3D Secure and non-3D Secure terminals, recurring billing, and support for Google Pay and Apple Pay. Impaya also offers white-label solutions, enabling businesses to customize the payment experience to their brand. Integration is streamlined through plugins for platforms like WHMCS and WooCommerce, and the company provides multilingual technical support around the clock. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "mb_way",
@@ -22798,6 +22873,9 @@
       "en": "VevoPay",
       "ru": "VevoPay",
       "uk": "VevoPay"
+    },
+    "description": {
+      "en": "VevoPay is a digital payment service provider that facilitates seamless online transactions for businesses, particularly in regions where alternative payment methods are prevalent. Specializing in offering a variety of local payment options, VevoPay enables merchants to cater to diverse customer preferences, enhancing the overall payment experience. The platform supports integrations with various payment methods, ensuring flexibility and adaptability for businesses aiming to expand their reach. VevoPay’s infrastructure is designed to provide secure, efficient, and user-friendly payment solutions, making it a valuable partner for merchants seeking to optimize their payment processes. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payout_method": [
       "papara",
@@ -23085,6 +23163,9 @@
       "en": "Gate2way",
       "ru": "Gate2way",
       "uk": "Gate2way"
+    },
+    "description": {
+      "en": "Gate2way is a high-risk merchant account provider that specializes in delivering tailored payment processing solutions for online businesses operating in complex industries. With a focus on sectors such as iGaming, forex, and digital content, Gate2way offers a comprehensive suite of services, including payment processing, corporate account setup, and incorporation assistance. The company supports over 500 currencies, enabling merchants to cater to a global customer base with localized strategies. Gate2way provides flexible integration options, including server-to-server and hosted payment page solutions, ensuring seamless technical implementation for businesses. By leveraging a network of payment providers, Gate2way facilitates direct connections to popular processing products, enhancing transaction efficiency and success rates. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "payment_card",
@@ -23388,6 +23469,9 @@
       "ru": "b2pay.io",
       "uk": "b2pay.io"
     },
+    "description": {
+      "en": "B2Pay is a global payment service provider offering a comprehensive suite of solutions for online businesses, including card acquiring, payouts, and digital wallet services. The platform supports major card networks such as Visa, Mastercard, American Express, Discover, JCB, and UnionPay, enabling merchants to accept payments from customers worldwide. B2Pay also facilitates payouts to cards globally in EUR and issues both virtual and physical cards for projects, providing flexibility in managing funds. With APIs supporting card-to-card (C2C), peer-to-peer (P2P), and original credit transfer (OCT) transactions, B2Pay ensures seamless integration and efficient payment processing. Operating in a multi-jurisdictional regulated environment, B2Pay emphasizes security and compliance, offering services in over 190 countries. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "upi"
@@ -23397,6 +23481,9 @@
     "status": "active",
     "code": "maldopay",
     "vendor": "maldopay",
+    "description": {
+      "en": "MaldoPay is a Malta-based payment gateway established in 2016, offering a comprehensive suite of payment solutions tailored for e-commerce, iGaming, and other online industries. The platform supports a wide array of payment methods, including credit and debit cards, bank transfers, e-vouchers, digital wallets, and cryptocurrencies like Bitcoin, enabling merchants to cater to diverse customer preferences across multiple regions. MaldoPay’s integration options, such as iFrame and JSON, provide flexibility for businesses to customize their checkout experiences, while its PCI DSS compliance ensures robust security measures are in place to protect transaction data. With services available in over 15 countries, MaldoPay facilitates seamless global transactions, making it a reliable partner for businesses seeking to expand their payment capabilities. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "bank_transfer",
@@ -23524,6 +23611,9 @@
     "status": "active",
     "code": "pay2play",
     "vendor": "pay2play",
+    "description": {
+      "en": "Pay2Play is a fintech payment service provider specializing in peer-to-peer (P2P) payment solutions tailored for high-risk industries such as iGaming, forex, cryptocurrency, and online poker. The platform emphasizes secure, private, and efficient transactions, offering features like instant settlements (T+0), 24/7 support, and a 1:1 exchange rate. Pay2Play’s infrastructure is designed for seamless integration, providing businesses with a reliable and user-friendly payment processing experience. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "card_transfer_uzcard",
       "card_transfer_humo",
@@ -23976,6 +24066,9 @@
       "ru": "PayPort",
       "uk": "PayPort"
     },
+    "description": {
+      "en": "PayPort is a multi-channel payment infrastructure provider offering a comprehensive suite of services for businesses seeking to streamline their global payment operations. The platform supports over 100 payment methods across more than 30 countries, including card-to-card transfers, bank transfers, alternative payment methods (APMs), and cryptocurrency transactions with assets like BTC, ETH, and USDT. PayPort’s infrastructure is designed for rapid deployment, allowing businesses to go live within two days, and offers features such as smart routing, cascading, and real-time fraud prevention to optimize transaction success rates and reduce processing costs. With a focus on industries like fintech, e-commerce, and gaming, PayPort provides a user-friendly API, multilingual support, and robust security measures to ensure seamless and secure payment experiences. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "card_transfer",
       "cash",
@@ -24012,6 +24105,9 @@
     "status": "active",
     "code": "katarun",
     "vendor": "katarun",
+    "description": {
+      "en": "Katarun is a payment service provider offering streamlined solutions for businesses to manage both payments and payouts. Integrated with Corefy’s platform, Katarun supports key payout methods such as bank transfers and card payments, enabling merchants to process transactions efficiently. The provider’s integration with Corefy facilitates a seamless setup, allowing clients to initiate transactions without the need for extensive coding. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "sepa_transfer",
@@ -24156,6 +24252,9 @@
       "en": "Gigadat",
       "ru": "Gigadat",
       "uk": "Gigadat"
+    },
+    "description": {
+      "en": "Gigadat is a Canadian payment service provider that partners with Interac to offer secure and convenient bank transfer solutions for online merchants. It enables businesses to accept payments directly from customers’ bank accounts through Interac Online and Interac e-Transfer, which are widely used and trusted across Canada. Gigadat is particularly popular in industries like iGaming, e-commerce, and digital services, offering fast, frictionless transactions and real-time payment confirmation. The platform is known for its focus on compliance, user privacy, and fraud prevention, making it a reliable partner for merchants looking to serve Canadian customers. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -24645,6 +24744,9 @@
     "status": "active",
     "code": "ragapay",
     "vendor": "ragapay",
+    "description": {
+      "en": "Ragapay is a UK-based payment service provider specializing in high-risk industries such as gaming, gambling, forex, crypto, CBD, and nutraceuticals. The company offers a comprehensive suite of services, including global card acquiring, fiat-to-crypto on-ramp solutions, IBAN accounts, and PCI DSS certification. Ragapay supports a wide range of payment methods, including credit and debit cards, bank transfers, mobile payments, and digital wallets like Apple Pay and Google Pay, enabling businesses to accept payments from customers worldwide, excluding OFAC-restricted and sanctioned countries. With a focus on security and compliance, Ragapay provides features such as fraud prevention, chargeback protection, and 24/7 customer support. The platform is designed to facilitate seamless international transactions, offering competitive transaction fees and fast settlement times. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card"
     ],
@@ -24662,6 +24764,9 @@
       "en": "WealthPay",
       "ru": "WealthPay",
       "uk": "WealthPay"
+    },
+    "description": {
+      "en": "WealthPay is a Southeast Asia-focused payment service provider established in 2006, offering secure and efficient transaction solutions for businesses and consumers across the region. The platform supports a variety of payment methods, including bank transfers and e-wallets, and is integrated with major banks in countries like Thailand, Vietnam, and Indonesia. WealthPay is particularly popular in industries such as online gaming and e-commerce, providing features like real-time settlements and robust security measures to ensure reliable payment processing. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payout_method": [
       "krungsri",
@@ -24732,6 +24837,9 @@
     "status": "active",
     "code": "dst",
     "vendor": "dst",
+    "description": {
+      "en": "DST is a telecommunications company based in Brunei, offering a range of services including mobile, broadband, and digital solutions. Through its MyDST platform, DST provides customers with convenient options to manage their accounts, pay bills, purchase add-ons, and make donations online. The platform supports various payment methods, ensuring secure and efficient transactions for both individuals and businesses. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card"
     ],
@@ -25051,6 +25159,9 @@
       "ru": "RubinPay",
       "uk": "RubinPay"
     },
+    "description": {
+      "en": "RubinPay is a payment service provider offering card payment processing solutions through Corefy’s platform. While specific details about RubinPay’s services are limited, it is known to support payment card transactions, enabling businesses to accept card payments efficiently. Integration with Corefy allows merchants to connect their RubinPay accounts seamlessly, facilitating streamlined payment operations. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card"
     ]
@@ -25076,6 +25187,9 @@
       "en": "Symoco",
       "ru": "Symoco",
       "uk": "Symoco"
+    },
+    "description": {
+      "en": "Symoco is a Canadian-based payment service provider offering secure and efficient international payment solutions for businesses and individuals. Registered as a Money Services Business (MSB) with FINTRAC, Symoco specializes in cross-border transactions, supporting over 14 currencies and operations in more than 120 countries. The platform provides features such as real-time fraud prevention, customizable payment solutions, and advanced tracking capabilities. Symoco caters to a diverse range of industries, including e-commerce, SaaS, logistics, and travel, offering services like instant payments, smart banking, and crypto access. With a focus on simplifying complex financial operations, Symoco ensures secure transactions and compliance with Canadian regulations. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "payment_card",
@@ -25183,6 +25297,9 @@
       "en": "Concryt",
       "ru": "Concryt",
       "uk": "Concryt"
+    },
+    "description": {
+      "en": "Concryt is a Barcelona-based fintech company established in 2023, specializing in comprehensive payment and banking solutions for businesses worldwide. The company offers a diverse range of services, including card acquiring, alternative payment methods (APMs), bank transfers, and outbound credit transfers (OCTs), catering to both deposits and payouts. Concryt also facilitates B2B banking services such as account opening and foreign exchange, leveraging its extensive global banking network to provide seamless financial operations . Emphasizing security and compliance, Concryt’s platform operates entirely on Amazon Web Services (AWS) and adheres to the General Data Protection Regulation (GDPR) standards . This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "payment_card"
@@ -25628,6 +25745,9 @@
       "en": "CapitalPay",
       "ru": "CapitalPay",
       "uk": "CapitalPay"
+    },
+    "description": {
+      "en": "CapitalPay is a versatile digital payment solutions provider operating across multiple regions, including Southeast Asia, Africa, and Eastern Europe. In Southeast Asia, particularly Malaysia, CapitalPay offers an online payment gateway supporting various methods such as FPX, credit and debit cards, e-wallets, and bank transfers. The platform emphasizes rapid onboarding, high transaction success rates, and robust fraud protection, catering to small and medium-sized enterprises seeking secure and efficient payment processing. In Africa, notably Kenya and South Sudan, CapitalPay provides mobile money services, multi-currency wallets, and tools for bill payments, airtime top-ups, and salary disbursements, facilitating financial inclusion and streamlined transactions for both individuals and businesses. In Kazakhstan, under the Collect Group brand, CapitalPay offers merchant acquiring services with flexible integration options and competitive pricing, enabling businesses to accept online payments seamlessly. Additionally, in the Philippines, CapitalPay collaborates with government and private sectors to deliver e-Government and digital payment solutions, including revenue collection platforms, business registration systems, and tax payment solutions, enhancing transparency and efficiency in public services. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "pix_qr"
@@ -26416,6 +26536,9 @@
       "ru": "Kasha",
       "uk": "Kasha"
     },
+    "description": {
+      "en": "Kasha is a UK-based fintech company offering an all-in-one business management platform tailored for freelancers, solopreneurs, and micro-businesses. Launched in 2021, Kasha provides a comprehensive suite of tools, including company formation, website building, booking systems, CRM, contracts, invoicing, business accounts, and payment processing . The platform supports various payment methods, such as payment cards, aggregated bank transfers, and its proprietary digital wallet, facilitating seamless financial transactions for users . With a focus on simplifying business operations, Kasha enables users to manage clients, track expenses, and handle payments efficiently, all within a single interface. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    },
     "payment_method": [
       "payment_card",
       "bank_transfer_aggregated",
@@ -26577,6 +26700,9 @@
       "en": "WanguPay",
       "ru": "WanguPay",
       "uk": "WanguPay"
+    },
+    "description": {
+      "en": "WanguPay is a global payment service provider specializing in seamless, secure, and efficient transaction solutions, with a strong emphasis on the Nigerian market. The platform offers a range of payment methods, including mobile payments via MoMo, digital wallets like MoMoPay, and online banking through QR codes. For payouts, WanguPay supports MoMo mobile payments, facilitating swift and reliable fund transfers. Designed for businesses seeking to expand their reach in Africa, WanguPay provides a stable API gateway that simplifies integration and accelerates time-to-market. The platform boasts a high transaction success rate, real-time settlements, and 24/7 customer support, ensuring a robust payment infrastructure for merchants. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "momo",
@@ -26846,6 +26972,9 @@
       "en": "Utorg",
       "ru": "Utorg",
       "uk": "Utorg"
+    },
+    "description": {
+      "en": "Utorg is a fintech company that provides a fiat-to-crypto payment gateway, enabling users to buy cryptocurrencies instantly using traditional payment methods like credit and debit cards, Apple Pay, Google Pay, and bank transfers. Headquartered in Lithuania, Utorg is regulated under EU financial laws and emphasizes security, compliance, and ease of use. Its widget can be seamlessly integrated into websites, wallets, and exchanges, allowing businesses to onboard users quickly and expand their crypto offerings. The platform supports multiple fiat currencies and a growing list of cryptocurrencies, offering a fast and intuitive user experience with built-in KYC verification. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
       "blik",
