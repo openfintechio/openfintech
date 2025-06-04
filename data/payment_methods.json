@@ -197,7 +197,7 @@
       "en": "SEPA Direct Debit"
     },
     "description": {
-      "en": "The SEPA Direct Debit enables to make pan-European collections in euro's on a one-off or recurrent basis."
+      "en": "SEPA Direct Debit is a popular bank-to-bank payment method used across the Single Euro Payments Area (SEPA), enabling merchants to collect euro-denominated payments directly from customers’ bank accounts. Ideal for recurring payments such as subscriptions, utility bills, and memberships, SEPA Direct Debit offers a reliable and low-cost alternative to card payments in Europe. Customers authorize merchants through a one-time mandate, after which payments can be pulled automatically on agreed dates. This method is known for its convenience, security, and low failure rates, as well as providing merchants with clear settlement timelines and customers with the right to dispute unauthorized transactions. SEPA Direct Debit is supported by virtually all European banks and is fully regulated under EU payment laws, ensuring high compliance and standardization."
     }
   },
   {
@@ -325,6 +325,9 @@
     ],
     "name": {
       "en": "OKPay"
+    },
+    "description": {
+      "en": "OKPAY was an international electronic wallet and online payment system that enabled users to send and receive money, pay for goods and services, and exchange currencies. The platform supported a wide variety of funding and withdrawal options, including bank transfers, credit cards, and cryptocurrencies, making it particularly versatile for users in regions with limited access to traditional banking. OKPAY catered to both individuals and businesses, offering mass payouts, merchant tools, and multi-currency accounts. Known for its focus on speed and flexibility, it gained popularity among high-risk and cross-border industries. In 2018, OKPAY was acquired by MoneyPolo, and its services were merged into that platform."
     }
   },
   {
@@ -1923,6 +1926,9 @@
       "en": "Payment card",
       "ru": "Платежная карта",
       "uk": "Платіжна карта"
+    },
+    "description": {
+      "en": "A payment card is a widely used financial instrument that allows consumers to make purchases, withdraw cash, and complete other financial transactions electronically. This category includes credit cards, debit cards, and prepaid cards, all of which are issued by banks or financial institutions and linked to either a line of credit, a bank account, or a preloaded balance. Payment cards are accepted globally across online and in-store channels and are supported by major card networks such as Visa, Mastercard, American Express, and others. They offer convenience, speed, and often additional features like fraud protection, cashback, and travel insurance. For merchants, accepting payment cards means broader customer reach, higher conversion rates, and access to billions of cardholders worldwide. Payment card transactions are typically processed through secure, PCI DSS-compliant infrastructures, ensuring data safety and operational reliability."
     }
   },
   {
@@ -6874,6 +6880,9 @@
       "en": "SettlePay Wallet",
       "uk": "SettlePay Wallet",
       "ru": "SettlePay Wallet"
+    },
+    "description": {
+      "en": "SettlePay Wallet is a crypto-fiat digital wallet developed by WorldSec Payments Limited, designed to bridge the gap between cryptocurrencies and traditional finance. Available on both Android and iOS platforms, the wallet enables users to deposit, withdraw, and manage funds across major crypto exchanges. It supports various top-up methods, including Binance Pay and fiat options, and offers seamless verification through Ukraine’s Diia app for streamlined KYC processes. SettlePay Wallet also integrates with MoneyGram, allowing users to convert crypto to cash and withdraw funds globally. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -7031,6 +7040,9 @@
       "en": "Papara",
       "uk": "Papara",
       "ru": "Papara"
+    },
+    "description": {
+      "en": "Papara is a digital wallet and prepaid card-based payment method originating from Turkey, designed to provide a fast, secure, and cost-effective alternative to traditional banking services. It allows users to make online payments, send and receive money instantly, and manage their finances via a mobile app or web platform. Papara supports transactions in Turkish lira and offers features such as bill payments, budgeting tools, and cashback on purchases. It is widely used for domestic e-commerce, gaming, and digital services, especially among younger users and those without access to credit cards. With minimal fees and no need for a bank account, Papara provides financial inclusion for underbanked populations."
     }
   },
   {
@@ -9529,6 +9541,9 @@
       "en": "OKPAY FINANCE LTD Slyse",
       "ru": "OKPAY FINANCE LTD Slyse",
       "uk": "OKPAY FINANCE LTD Slyse"
+    },
+    "description": {
+      "en": "OKPAY FINANCE LTD, operating under the name Slyse, is a digital payment method that facilitates online transactions through electronic wallets and multi-currency accounts, with a focus on fast and secure money transfers for both individuals and businesses. It offers a convenient way to pay for goods and services, send remittances, and manage cross-border transactions, supporting a wide array of funding options including bank transfers, card payments, and other digital assets. Slyse is particularly popular in regions and industries where access to traditional banking may be limited or where alternative, flexible payment methods are in demand. Its infrastructure is built to support scalability and compliance, with user-friendly interfaces and tools for transaction management."
     }
   },
   {
