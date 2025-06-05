@@ -729,7 +729,8 @@
       "en": "mBank (mTransfer)"
     },
     "description": {
-      "en": "mBank (mTransfer) enables its banking clients to shop online using online bank transfers as payment method. Merchants benefit from payment guarantee and swift settlement."
+      "en": "mBank (mTransfer) enables its banking clients to shop online using online bank transfers as payment method. Merchants benefit from payment guarantee and swift settlement.",
+      "ru": "mBank — это платежный метод, основанный на интернет-банкинге одноименного польского банка. Он позволяет пользователям осуществлять быстрые и безопасные онлайн-платежи напрямую со своего банковского счета, минуя необходимость использования карт. mBank активно применяется в польской электронной коммерции и поддерживает автоматическое перенаправление пользователя на страницу авторизации, после чего транзакция подтверждается в личном кабинете банка. Метод предлагает высокую степень защиты и удобство для клиентов."
     }
   },
   {
@@ -1129,6 +1130,10 @@
     ],
     "name": {
       "en": "Oxxo"
+    },
+    "description": {
+      "ru": "OXXO — это популярный в Мексике метод оплаты на основе наличного расчета, при котором пользователь генерирует счет онлайн и оплачивает его в одном из тысяч физических пунктов сети OXXO. Метод особенно востребован среди клиентов без банковских карт или аккаунтов, и широко используется в электронной коммерции, сфере услуг и при оплате счетов.",
+      "en": "OXXO is a popular cash-based payment method in Mexico in which a user generates a bill online and pays at one of the thousands of physical locations in the OXXO network. The method is particularly popular among customers without bank cards or accounts, and is widely used in e-commerce, services and bill payment."
     }
   },
   {
@@ -1497,7 +1502,8 @@
       "en": "Tenpay"
     },
     "description": {
-      "en": "Tenpay is a major Chinese payments solution enabling Chinese consumers to pay online and cross-border. Tenpay is similar to PayPal and allows for payments between persons and businesses. Tenpay wallets can be topped up with cash, (e-)bank transfers and stored credit or debit cards."
+      "en": "Tenpay is a major Chinese payments solution enabling Chinese consumers to pay online and cross-border. Tenpay is similar to PayPal and allows for payments between persons and businesses. Tenpay wallets can be topped up with cash, (e-)bank transfers and stored credit or debit cards.",
+      "ru": "Tenpay — это китайская платежная система, разработанная Tencent, лежащая в основе WeChat Pay. Она обеспечивает быстрые и безопасные переводы, онлайн- и офлайн-оплату, привязку банковских карт и проведение транзакций в экосистеме Tencent. Tenpay активно используется в Китае для e-commerce, транспорта, игр и повседневных трат, обеспечивая высокую доступность и удобство для пользователей."
     }
   },
   {
@@ -1863,7 +1869,8 @@
       "en": "Direct Debit"
     },
     "description": {
-      "en": "A direct debit is a transaction whereby funds are withdrawn from the customer's bank account. When a shopper selects the direct debit payment option upon checkout, the merchant is allowed to charge the purchase amount and collect it from the shopper's bank account."
+      "en": "A direct debit is a transaction whereby funds are withdrawn from the customer's bank account. When a shopper selects the direct debit payment option upon checkout, the merchant is allowed to charge the purchase amount and collect it from the shopper's bank account.",
+      "uk": "Direct Debit — це метод безготівкової оплати, який дозволяє компаніям автоматично списувати кошти з банківського рахунку клієнта за попередньою згодою. Найбільш поширений у Великобританії, країнах ЄС та Австралії, він широко використовується для регулярних платежів: комунальні послуги, оренда, страхування, підписки. Direct Debit забезпечує низькі комісії, високу автоматизацію та передбачуваність платежів для бізнесу. Водночас клієнти мають можливість оскаржити списання у разі помилки. "
     }
   },
   {
@@ -1928,7 +1935,10 @@
       "uk": "Платіжна карта"
     },
     "description": {
-      "en": "A payment card is a widely used financial instrument that allows consumers to make purchases, withdraw cash, and complete other financial transactions electronically. This category includes credit cards, debit cards, and prepaid cards, all of which are issued by banks or financial institutions and linked to either a line of credit, a bank account, or a preloaded balance. Payment cards are accepted globally across online and in-store channels and are supported by major card networks such as Visa, Mastercard, American Express, and others. They offer convenience, speed, and often additional features like fraud protection, cashback, and travel insurance. For merchants, accepting payment cards means broader customer reach, higher conversion rates, and access to billions of cardholders worldwide. Payment card transactions are typically processed through secure, PCI DSS-compliant infrastructures, ensuring data safety and operational reliability."
+      "en": "A payment card is a widely used financial instrument that allows consumers to make purchases, withdraw cash, and complete other financial transactions electronically. This category includes credit cards, debit cards, and prepaid cards, all of which are issued by banks or financial institutions and linked to either a line of credit, a bank account, or a preloaded balance. Payment cards are accepted globally across online and in-store channels and are supported by major card networks such as Visa, Mastercard, American Express, and others. They offer convenience, speed, and often additional features like fraud protection, cashback, and travel insurance. For merchants, accepting payment cards means broader customer reach, higher conversion rates, and access to billions of cardholders worldwide. Payment card transactions are typically processed through secure, PCI DSS-compliant infrastructures, ensuring data safety and operational reliability.",
+      "uk": "Платіжна картка — це загальна категорія способів оплати, що охоплює дебетові, кредитні, передплачені та корпоративні картки, які емітуються банками або фінансовими установами. Вони підтримуються основними платіжними мережами, такими як Visa, Mastercard, American Express та інші. Оплата карткою — один із найпоширеніших методів у світі завдяки швидкості, зручності, можливості зворотного платежу та високому рівню захисту. Платіжні картки використовуються як у фізичних магазинах, так і в онлайн-торгівлі.",
+      "es": "Las tarjetas de pago, que incluyen tarjetas de crédito, débito y prepago, son uno de los métodos de pago más utilizados a nivel global. Emitidas por redes como Visa, Mastercard, American Express o JCB, permiten a los consumidores realizar pagos físicos y en línea con rapidez y seguridad. Además de ser ampliamente aceptadas, ofrecen funciones como pagos sin contacto, protección contra fraudes y programas de fidelidad. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy.",
+      "ru": "Платежная карта — это обобщенный метод, охватывающий оплату с помощью банковских карт, включая кредитные, дебетовые и предоплаченные карты. Этот способ оплаты остается наиболее распространенным в мире и поддерживает глобальные платежные системы, такие как Visa, Mastercard, American Express и другие. Он применяется во всех сферах электронной коммерции благодаря универсальности и удобству."
     }
   },
   {
@@ -2065,7 +2075,8 @@
       "en": "Interac Online"
     },
     "description": {
-      "en": "INTERAC Online allows Canadian shoppers to pay for goods and services online, directly from their trusted online bank environment. Merchants benefit from secure and immediate debit payments with relatively low transaction costs."
+      "en": "INTERAC Online allows Canadian shoppers to pay for goods and services online, directly from their trusted online bank environment. Merchants benefit from secure and immediate debit payments with relatively low transaction costs.",
+      "uk": "Interac — канадська міжбанківська платіжна система, яка дозволяє здійснювати перекази між рахунками, оплачувати товари та послуги, використовуючи дебетові картки, онлайн-банкінг або мобільні додатки. Interac підтримується більшістю банків Канади та забезпечує високий рівень безпеки завдяки авторизації через банківські системи. Найпопулярніші сервіси — Interac e-Transfer та Interac Debit. "
     }
   },
   {
@@ -2172,7 +2183,8 @@
     "category": "alternative",
     "status": "active",
     "description": {
-      "en": "Mefete is a Turkish digital wallet and payment service developed by Erpa Ödeme Hizmetleri ve Elektronik Para A.Ş., licensed by the Central Bank of Turkey. Designed to provide 24/7 financial services, Mefete enables users to send, receive, and spend money instantly through its mobile application, eliminating the need for traditional banking hours or physical bank visits. The platform supports various transactions, including peer-to-peer transfers and payments to member establishments, and offers features like QR code payments for added convenience. Mefete’s infrastructure ensures secure and efficient transactions, making it a popular choice among users seeking flexible and accessible financial solutions in Turkey. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+      "en": "Mefete is a Turkish digital wallet and payment service developed by Erpa Ödeme Hizmetleri ve Elektronik Para A.Ş., licensed by the Central Bank of Turkey. Designed to provide 24/7 financial services, Mefete enables users to send, receive, and spend money instantly through its mobile application, eliminating the need for traditional banking hours or physical bank visits. The platform supports various transactions, including peer-to-peer transfers and payments to member establishments, and offers features like QR code payments for added convenience. Mefete’s infrastructure ensures secure and efficient transactions, making it a popular choice among users seeking flexible and accessible financial solutions in Turkey. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard.",
+      "ru": "Mefete — это турецкий цифровой кошелек и платежный сервис, разработанный компанией Erpa Ödeme Hizmetleri ve Elektronik Para A.Ş., лицензированной Центральным банком Турции. Платформа предоставляет круглосуточный доступ к финансовым услугам, позволяя пользователям мгновенно отправлять, получать и тратить средства через мобильное приложение, без необходимости посещения банка или соблюдения банковских часов. Mefete поддерживает различные типы транзакций, включая переводы между пользователями и платежи в пользу подключенных торговых точек, а также предлагает такие функции, как оплата по QR-коду для удобства. Инфраструктура Mefete обеспечивает безопасность и эффективность операций, благодаря чему сервис пользуется популярностью среди пользователей, ищущих гибкие и доступные финансовые решения в Турции. Этот и более 500 других провайдеров уже интегрированы в платформу оркестрации платежей Corefy, что позволяет нашим клиентам мгновенно начать пользоваться интеграцией без программирования — достаточно ввести MID-данные в личном кабинете Corefy."
     },
     "name": {
       "en": "Mefete",
@@ -2190,7 +2202,9 @@
       "uk": "Payfix"
     },
     "description": {
-      "en": "PayFix is a licensed electronic money institution based in Turkey, offering digital wallet and payment solutions for both individuals and businesses. Regulated by the Central Bank of the Republic of Turkey, PayFix enables users to perform secure and fast financial transactions, including money transfers, bill payments, and online purchases. The platform provides a mobile wallet that supports Turkish Lira transactions and features such as IBAN creation, QR code payments, and integration with local banking systems. For merchants, PayFix offers tools to accept payments online, manage customer transactions, and track financial activities via a user-friendly interface. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+      "en": "PayFix is a licensed electronic money institution based in Turkey, offering digital wallet and payment solutions for both individuals and businesses. Regulated by the Central Bank of the Republic of Turkey, PayFix enables users to perform secure and fast financial transactions, including money transfers, bill payments, and online purchases. The platform provides a mobile wallet that supports Turkish Lira transactions and features such as IBAN creation, QR code payments, and integration with local banking systems. For merchants, PayFix offers tools to accept payments online, manage customer transactions, and track financial activities via a user-friendly interface. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard.",
+      "es": "Payfix es un proveedor de pagos digitales con sede en Turquía que ofrece servicios de wallet electrónica para consumidores y soluciones de procesamiento de pagos para comerciantes. Su plataforma permite depósitos, retiros, transferencias y pagos en línea, y es comúnmente utilizada para juegos, apuestas y servicios financieros digitales. Payfix está autorizado por la Autoridad de Regulación y Supervisión de Instituciones Financieras de Turquía. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy.",
+      "ru": "Payfix — это турецкий электронный кошелек, предоставляющий пользователям возможность отправлять и получать деньги, пополнять баланс и оплачивать товары и услуги в интернете. Payfix позволяет проводить операции в национальной валюте, подключен к локальным банковским системам и используется как альтернатива традиционным банковским продуктам. Метод популярен среди пользователей, предпочитающих мобильные и гибкие платежные решения."
     }
   },
   {
@@ -2313,7 +2327,10 @@
       "en": "inpay"
     },
     "description": {
-      "en": "Founded in 2007, inpay's vision is to become the preferred provider of real-time online bank payment solutions for internet retailers worldwide. inpay"
+      "en": "Founded in 2007, inpay's vision is to become the preferred provider of real-time online bank payment solutions for internet retailers worldwide. inpay",
+      "de": "Inpay ist ein dänischer Zahlungsdienstleister mit globaler Ausrichtung, der sich auf grenzüberschreitende Banküberweisungen spezialisiert hat. Das Unternehmen wurde gegründet, um internationalen Zahlungsverkehr schneller, kostengünstiger und transparenter zu gestalten – insbesondere für Banken, Finanzinstitute, Glücksspielunternehmen, E-Commerce und NGOs. Inpay ermöglicht es Händlern, lokale Banküberweisungen in über 100 Ländern anzubieten, ohne dass diese selbst lokale Bankkonten benötigen. Die Plattform verarbeitet Zahlungen in Echtzeit oder am selben Tag, mit Fokus auf Sicherheit, regulatorische Konformität und einfache Integration über eine standardisierte API. Inpay ist von der dänischen Finanzaufsichtsbehörde reguliert und verfügt über eine PCI-DSS-Zertifizierung sowie umfangreiche Anti-Geldwäsche- und KYC-Prozesse. Besonders attraktiv ist Inpay für Unternehmen, die global tätig sind und ihren Kunden lokale Zahlungsoptionen ohne Kreditkarten anbieten möchten. Inpay und über 500 weitere Anbieter sind bereits in Corefys Payment-Orchestration-Plattform integriert, wodurch unsere Kunden die Integration sofort und ohne Programmieraufwand nutzen können – einfach durch Eingabe ihrer MID-Zugangsdaten im Corefy-Dashboard.",
+      "es": "Inpay es una empresa global de pagos transfronterizos con sede en Dinamarca que permite a bancos, PSP y empresas realizar transferencias internacionales de forma rápida, económica y segura. Su tecnología permite liquidaciones locales en más de 100 países, reduciendo los costos y tiempos asociados con los pagos SWIFT tradicionales. Inpay destaca por su cumplimiento normativo y su enfoque en la inclusión financiera. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy.",
+      "fr": "Inpay est un fournisseur de solutions de virement bancaire international basé au Danemark. Il permet aux entreprises d’effectuer et de recevoir des paiements transfrontaliers en utilisant les systèmes bancaires locaux dans plus de 60 pays, tout en offrant des règlements rapides et à faible coût. Inpay est particulièrement utile pour les entreprises du e-commerce, des jeux en ligne, des dons caritatifs et des services financiers. Il garantit la conformité réglementaire, une transparence accrue, et une réduction des frais liés aux virements SWIFT classiques. Cette méthode de paiement, ainsi que plus de 500 autres, est déjà intégrée à la plateforme d’orchestration de paiements de Corefy, permettant à nos clients de commencer à l’utiliser instantanément, sans codage, en saisissant simplement leurs identifiants MID dans le tableau de bord Corefy."
     }
   },
   {
@@ -2367,7 +2384,7 @@
       "BE"
     ],
     "name": {
-      "en": "KBC \/ CBC Online"
+      "en": "KBC / CBC Online"
     },
     "description": {
       "en": "KBC Online and CBC online is a secure payment system exclusively for clients of KBC and CBC Banks."
@@ -2478,6 +2495,10 @@
     ],
     "name": {
       "en": "Perfect Money Account"
+    },
+    "description": {
+      "es": "Perfect Money es una plataforma financiera que permite a los usuarios realizar pagos instantáneos y transferencias en línea, así como almacenar fondos en varias divisas, incluido oro digital. Es comúnmente utilizada en mercados donde los sistemas financieros tradicionales son limitados. Los usuarios pueden depositar y retirar fondos mediante transferencias bancarias, tarjetas, criptomonedas o intercambiadores autorizados. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy.",
+      "en": "Perfect Money is a financial platform that allows users to make instant payments and transfers online, as well as store funds in various currencies, including digital gold. It is commonly used in markets where traditional financial systems are limited. Users can deposit and withdraw funds via bank transfers, cards, cryptocurrencies or authorized exchangers. This and more than 500 other providers are already integrated into Corefy's payment orchestration platform, allowing our clients to start using the integration instantly with no programming required, simply by entering their MID credentials into the Corefy dashboard."
     }
   },
   {
@@ -2703,7 +2724,8 @@
       "en": "PAYSBUY"
     },
     "description": {
-      "en": "PAYSBUY is an online payment service that allows member to instantly and securely send money to anyone with an email address and a bank account in Thailand."
+      "en": "PAYSBUY is an online payment service that allows member to instantly and securely send money to anyone with an email address and a bank account in Thailand.",
+      "de": "Paysbuy ist ein thailändischer Zahlungsdienstleister, der sowohl E-Wallets als auch Online-Zahlungsgateways anbietet. Die Plattform unterstützt Kreditkarten, Banküberweisungen und lokale Zahlungsmethoden wie 7-Eleven-Zahlungen. Paysbuy ist bei thailändischen Online-Händlern und Verbrauchern besonders beliebt, da es schnelle, sichere und lokal angepasste Zahlungen ermöglicht. Die Integration erfolgt über eine benutzerfreundliche API oder vorgefertigte Plugins. Paysbuy und über 500 weitere Anbieter sind bereits in Corefys Payment-Orchestration-Plattform integriert, wodurch unsere Kunden die Integration sofort und ohne Programmieraufwand nutzen können – einfach durch Eingabe ihrer MID-Zugangsdaten im Corefy-Dashboard."
     }
   },
   {
@@ -2715,7 +2737,7 @@
       "en": "PayZippy"
     },
     "description": {
-      "en": "PayZippy, built by Flipkart, is a fresh new approach to online\/mobile payments with a vision to make digital payments happen in India!"
+      "en": "PayZippy, built by Flipkart, is a fresh new approach to online/mobile payments with a vision to make digital payments happen in India!"
     }
   },
   {
@@ -2760,7 +2782,8 @@
       "en": "Rapipago"
     },
     "description": {
-      "en": "Rapipago from Argentina is an offline payment method used for online purchases. Shoppers buy their goods and services online and pay offline at one the 6,000+ Rapipago payment locations."
+      "en": "Rapipago from Argentina is an offline payment method used for online purchases. Shoppers buy their goods and services online and pay offline at one the 6,000+ Rapipago payment locations.",
+      "ru": "Rapipago — это популярная в Аргентине платежная система, основанная на наличных платежах. Пользователь может сгенерировать счет на оплату онлайн, а затем произвести платеж в одном из тысяч физических пунктов Rapipago, таких как киоски, аптеки или супермаркеты. Метод особенно популярен среди пользователей без доступа к банковским картам и используется для оплаты интернет-заказов, счетов и услуг."
     }
   },
   {
@@ -2819,7 +2842,7 @@
       "en": "Todito Cash"
     },
     "description": {
-      "en": "Change the way you make your online payments. Pay in a wide variety of merchants like: casinos, videogames, e-commerce, movie tickets, cellphone prepaid services\/minutes and more."
+      "en": "Change the way you make your online payments. Pay in a wide variety of merchants like: casinos, videogames, e-commerce, movie tickets, cellphone prepaid services/minutes and more."
     }
   },
   {
@@ -2882,7 +2905,8 @@
       "en": "Billink"
     },
     "description": {
-      "en": "Billink enables Dutch consumers to shop online and pay later. Billink absorbes the risk for non-payment for merchants and increases conversion by simplifying checkout on any device."
+      "en": "Billink enables Dutch consumers to shop online and pay later. Billink absorbes the risk for non-payment for merchants and increases conversion by simplifying checkout on any device.",
+      "de": "Billink ist eine niederländische Zahlungsmethode für den Kauf auf Rechnung, die es Verbrauchern ermöglicht, Produkte erst nach Erhalt zu bezahlen. Die Lösung richtet sich an Online-Händler im B2C- und B2B-Segment und ist besonders im niederländischen Markt verbreitet. Billink übernimmt das Risiko des Zahlungsausfalls, führt Bonitätsprüfungen in Echtzeit durch und bietet flexible Zahlungsziele für Endkunden. Für Händler bedeutet das eine sichere Zahlungsgarantie, höhere Conversion-Raten und Kundenzufriedenheit. Billink und über 500 weitere Anbieter sind bereits in Corefys Payment-Orchestration-Plattform integriert, wodurch unsere Kunden die Integration sofort und ohne Programmieraufwand nutzen können – einfach durch Eingabe ihrer MID-Zugangsdaten im Corefy-Dashboard."
     }
   },
   {
@@ -2931,7 +2955,9 @@
       "en": "AfterPay"
     },
     "description": {
-      "en": "AfterPay is a Dutch company which develops and provides innovative post-payment methods for web shops and third parties offering online payment. After"
+      "en": "AfterPay is a Dutch company which develops and provides innovative post-payment methods for web shops and third parties offering online payment. After",
+      "ru": "Afterpay — это популярный платежный метод в формате BNPL (Buy Now, Pay Later), позволяющий покупателям оплачивать товары в рассрочку без процентов. Он особенно популярен в Австралии, Новой Зеландии, США и Великобритании, и широко используется в сфере онлайн-ритейла. Покупатели вносят первый платеж при покупке, а оставшаяся сумма распределяется на несколько равных платежей. Afterpay помогает магазинам увеличить конверсию и средний чек, предоставляя при этом удобство и гибкость покупателям.",
+      "uk": "Afterpay — це популярний сервіс “купи зараз — плати потім” (BNPL), заснований в Австралії, який дозволяє споживачам оплачувати покупки частинами без відсотків. Після оформлення замовлення клієнт сплачує лише перший платіж, а решта автоматично списується впродовж кількох тижнів. Afterpay активно використовується в онлайн- та роздрібній торгівлі, особливо в сегментах моди, краси й електроніки. Він сприяє зростанню середнього чека й покращенню конверсії для продавців. "
     }
   },
   {
@@ -3836,7 +3862,8 @@
       "en": "MultiTransfer"
     },
     "description": {
-      "en": "MultiTransfer is the name for the online bank transfer service of MultiBank in Poland. MultiTransfer allows online shoppers to pay for online goods and services using their trusted home banking environment."
+      "en": "MultiTransfer is the name for the online bank transfer service of MultiBank in Poland. MultiTransfer allows online shoppers to pay for online goods and services using their trusted home banking environment.",
+      "ru": "Multibank — это платежный метод, который позволяет пользователям осуществлять онлайн-платежи напрямую через свои банковские счета. Он распространен в Латинской Америке, особенно в Мексике, где обеспечивает доступ к электронным переводам через различные банки. Пользователи могут выбирать свой банк из списка, авторизовываться в интернет-банкинге и подтверждать платеж, что делает процесс быстрым, безопасным и удобным для клиентов без необходимости использования карт. Multibank подходит как для электронных коммерций, так и для мобильных приложений, стремящихся предложить локализованные платежные опции."
     }
   },
   {
@@ -3935,7 +3962,9 @@
       "en": "PostPay"
     },
     "description": {
-      "en": "PostPay is a secure eCommerce solution that links your customer's payment to the delivery of their parcel, giving them the confidence to buy online from you."
+      "en": "PostPay is a secure eCommerce solution that links your customer's payment to the delivery of their parcel, giving them the confidence to buy online from you.",
+      "uk": "Postpay — це платформа “купуй зараз — плати потім” (BNPL), яка працює на ринках Близького Сходу, зокрема в ОАЕ, Саудівській Аравії та ін. Сервіс дозволяє клієнтам оплачувати покупки частинами без відсотків, а продавцям — миттєво отримувати повну суму оплати. Postpay інтегрується з популярними e-commerce платформами та пропонує просту схему оформлення платежів, що покращує конверсію та середній чек. BNPL-модель компанії особливо приваблива для молодої аудиторії, яка прагне гнучкості у витратах. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "ru": "Postpay — это платежный метод в формате BNPL (покупка сейчас — плати позже), действующий в странах Ближнего Востока, включая ОАЭ и Саудовскую Аравию. Он позволяет пользователям разделить платеж на несколько беспроцентных частей без необходимости использования кредитной карты. Postpay интегрирован с крупными интернет-магазинами и поддерживает мгновенное одобрение, улучшая конверсию и доступность товаров для покупателей."
     }
   },
   {
@@ -4005,7 +4034,8 @@
       "en": "Bankia"
     },
     "description": {
-      "en": "Bankia in Spain enables its online shoppers to pay for goods and services using online bank transfers as payment method. Merchants benefit from payment guarantee and swift settlement."
+      "en": "Bankia in Spain enables its online shoppers to pay for goods and services using online bank transfers as payment method. Merchants benefit from payment guarantee and swift settlement.",
+      "es": "Bankia, ahora parte de CaixaBank tras su fusión en 2021, fue uno de los principales bancos de España y ofrecía servicios financieros incluyendo soluciones de pago para empresas. Entre ellos, destacaban las TPV físicas y virtuales, pagos con tarjeta, y soluciones para comercio electrónico adaptadas al entorno español. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy."
     }
   },
   {
@@ -4116,7 +4146,8 @@
       "en": "Ticket Premium"
     },
     "description": {
-      "en": "Ticket Premium is a prepaid code that allows customers to make online payments simply and securely on all of TSI's partner sites: e-commerce, poker, sports and horse racing betting, coupled with gaming sites."
+      "en": "Ticket Premium is a prepaid code that allows customers to make online payments simply and securely on all of TSI's partner sites: e-commerce, poker, sports and horse racing betting, coupled with gaming sites.",
+      "es": "Ticket Premium es un método de pago prepago en línea que permite a los usuarios pagar en internet sin necesidad de compartir datos bancarios o personales. Muy utilizado en industrias como juegos, apuestas y entretenimiento para adultos, ofrece anonimato y control del gasto al funcionar mediante códigos adquiridos previamente en puntos de venta físicos o en línea. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy."
     }
   },
   {
@@ -4140,7 +4171,9 @@
       "en": "Postepay"
     },
     "description": {
-      "en": "Postepay Cards are electronic prepaid cards which are specifically designed to help Italian online shoppers to securely shop and pay online. They are co-branded with Visa or MasterCard."
+      "en": "Postepay Cards are electronic prepaid cards which are specifically designed to help Italian online shoppers to securely shop and pay online. They are co-branded with Visa or MasterCard.",
+      "uk": "Postepay — це передплачена картка, яку пропонує італійська поштова служба Poste Italiane. Вона дозволяє здійснювати онлайн- та офлайн-платежі, знімати готівку, оплачувати комунальні послуги та поповнювати рахунки. Картки Postepay підтримують платформи Visa або Mastercard, що робить їх прийнятними у міжнародній мережі. Завдяки широкій доступності та простоті використання, Postepay популярна серед молоді та людей без традиційного банківського рахунку. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "ru": "Postepay — это предоплаченная платежная карта, выпускаемая итальянской государственной почтовой службой Poste Italiane. Она широко используется в Италии для онлайн- и офлайн-покупок, снятия наличных и оплаты различных услуг. Карта Postepay может быть пополнена через отделения почты, банкоматы или онлайн, а благодаря поддержке Visa или Mastercard она подходит для международных транзакций. Метод популярен среди пользователей, не имеющих банковского счета, и является доступным средством для совершения цифровых платежей."
     }
   },
   {
@@ -4247,7 +4280,7 @@
       "en": "Paysafecard"
     },
     "description": {
-      "en": "paysafecard is a card that can be purchased in physical outlets. The online shopper receives a card\/voucher - representing the value paid for - with a 16-digit PIN. At a merchant that accepts paysafecard payments, the consumer enters the PIN and the online purchase is completed."
+      "en": "paysafecard is a card that can be purchased in physical outlets. The online shopper receives a card/voucher - representing the value paid for - with a 16-digit PIN. At a merchant that accepts paysafecard payments, the consumer enters the PIN and the online purchase is completed."
     }
   },
   {
@@ -4378,7 +4411,8 @@
       "en": "CartaSi"
     },
     "description": {
-      "en": "CartaSi is a MasterCard or Visa co-branded credit card issued in Italy and can be used for internet purchases. CartaSi online payments can be processed using the Visa or MasterCard processing rails."
+      "en": "CartaSi is a MasterCard or Visa co-branded credit card issued in Italy and can be used for internet purchases. CartaSi online payments can be processed using the Visa or MasterCard processing rails.",
+      "ru": "CartaSi — это итальянская платежная система, связанная с национальной сетью банков и поддерживающая прием и выпуск банковских карт, включая Visa и Mastercard. Метод широко используется для онлайн- и офлайн-платежей в Италии, предлагая высокий уровень безопасности, включая 3D Secure, и удобство для местных клиентов. CartaSi входит в состав группы Nexi и активно применяется в электронной коммерции, туризме и других сферах."
     }
   },
   {
@@ -4448,7 +4482,8 @@
       "en": "JCB"
     },
     "description": {
-      "en": "JCB is the Japanese credit card, which can also be used for online purchases. Around 85 million JCB credit cards are issued worldwide, 15 million cards outside of Japan."
+      "en": "JCB is the Japanese credit card, which can also be used for online purchases. Around 85 million JCB credit cards are issued worldwide, 15 million cards outside of Japan.",
+      "es": "JCB (Japan Credit Bureau) es una red de tarjetas de pago originaria de Japón que ofrece soluciones de crédito, débito y prepago. Con millones de titulares en Asia y presencia global mediante acuerdos con otras redes, JCB es ampliamente aceptada por comercios que buscan captar consumidores asiáticos. Sus servicios incluyen protección antifraude, programas de fidelización y tecnología sin contacto. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy."
     }
   },
   {
@@ -4485,6 +4520,11 @@
     ],
     "name": {
       "en": "Webpay plus"
+    },
+    "description": {
+      "de": "Webpay Plus ist ein führendes Zahlungssystem in Chile, das von Transbank betrieben wird und die Online-Kartenzahlung im Land standardisiert. Die Lösung ermöglicht es Händlern, Zahlungen über Kredit- und Debitkarten zu akzeptieren, darunter Visa, Mastercard, American Express und lokale Karten. Webpay Plus bietet Sicherheit durch 3D Secure, eine stabile API, Mobile-Payment-Unterstützung sowie Echtzeit-Transaktionsverarbeitung. Die Plattform ist essenziell für E-Commerce in Chile und wird durch strenge regulatorische Auflagen der Finanzaufsicht unterstützt. Webpay Plus und über 500 weitere Anbieter sind bereits in Corefys Payment-Orchestration-Plattform integriert, wodurch unsere Kunden die Integration sofort und ohne Programmieraufwand nutzen können – einfach durch Eingabe ihrer MID-Zugangsdaten im Corefy-Dashboard.",
+      "fr": "WebPay Plus est une solution de paiement en ligne développée par Transbank, le principal acteur de l’acquisition au Chili. Elle permet aux commerçants d’accepter des paiements en ligne via cartes bancaires locales et internationales, notamment Redcompra, Visa, Mastercard et d’autres. WebPay Plus est la solution de paiement la plus utilisée au Chili et constitue un passage obligé pour les entreprises qui souhaitent opérer sur ce marché. Elle propose également des options de paiement en plusieurs fois et une sécurité renforcée conforme aux normes PCI DSS. Cette méthode de paiement, ainsi que plus de 500 autres, est déjà intégrée à la plateforme d’orchestration de paiements de Corefy, permettant à nos clients de commencer à l’utiliser instantanément, sans codage, en saisissant simplement leurs identifiants MID dans le tableau de bord Corefy.",
+      "en": "WebPay Plus is an online payment solution developed by Transbank, Chile's leading acquirer. It enables merchants to accept online payments via local and international credit cards, including Redcompra, Visa, Mastercard and others. WebPay Plus is the most widely used payment solution in Chile, and a must for companies wishing to operate in this market. It also offers payment in instalments and enhanced security in line with PCI DSS standards. This payment method, along with over 500 others, is already integrated into Corefy's payment orchestration platform, enabling our customers to start using it instantly, without coding, by simply entering their MIDs into the Corefy dashboard."
     }
   },
   {
@@ -4516,7 +4556,9 @@
       "en": "V PAY"
     },
     "description": {
-      "en": "V PAY is the CHIP & PIN debit card brand for Europe's main land by Visa Europe. V PAY for ecommerce is currently supported by a couple of French and Italian banks. V PAY requires Verified by Visa implementation on the merchant side."
+      "en": "V PAY is the CHIP & PIN debit card brand for Europe's main land by Visa Europe. V PAY for ecommerce is currently supported by a couple of French and Italian banks. V PAY requires Verified by Visa implementation on the merchant side.",
+      "uk": "V PAY — це дебетова платіжна система, створена компанією Visa та орієнтована на ринок Європи. Картки V PAY підтримують тільки транзакції з введенням PIN-коду (EMV), що зменшує ризики шахрайства. Цей метод часто використовується для внутрішньоєвропейських платежів, включно з офлайн-операціями, та може підтримуватись банкоматами й терміналами, сумісними з Visa. V PAY є зручним рішенням для споживачів, які цінують безпеку та стабільність, а для бізнесу — це спосіб приймати карткові платежі в межах Європи. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "ru": "V Pay — это дебетовая платежная система, разработанная компанией Visa, ориентированная в первую очередь на европейский рынок. Она обеспечивает прием платежей в магазинах и онлайн, используя технологию EMV-чипов. Карты V Pay привязаны к текущему счету и требуют авторизации транзакций через PIN-код, что делает их безопасным инструментом для повседневного использования. Метод популярен в Германии, Италии, Франции и других странах ЕС."
     }
   },
   {
@@ -4531,7 +4573,7 @@
       "en": "Cabal"
     },
     "description": {
-      "en": "Cabal is a local debit\/credit card brand in Argentina, Brazil, Uruguay and Paraguay. The Cabal card can be used for online purchases."
+      "en": "Cabal is a local debit/credit card brand in Argentina, Brazil, Uruguay and Paraguay. The Cabal card can be used for online purchases."
     }
   },
   {
@@ -4591,6 +4633,10 @@
     "status": "active",
     "name": {
       "en": "RuPay"
+    },
+    "description": {
+      "uk": "RuPay — це індійська платіжна система, створена Національною платіжною корпорацією Індії (NPCI). RuPay забезпечує випуск дебетових, кредитних і передплачених карток, які підтримуються більшістю індійських банків. Система призначена для підвищення фінансової інклюзії в країні, має нижчі комісії та підтримує локальні цифрові платежі, включаючи UPI та IMPS. RuPay активно використовується в e-commerce, банкоматах і POS-терміналах в межах Індії.",
+      "en": "RuPay is an Indian payment system created by the National Payments Corporation of India (NPCI). RuPay provides debit, credit and prepaid cards that are supported by most Indian banks. The system is designed to increase financial inclusion in the country, has lower fees and supports local digital payments, including UPI and IMPS. RuPay is actively used in e-commerce, ATMs and POS terminals within India."
     }
   },
   {
@@ -4836,7 +4882,7 @@
       "en": "OnlineNaira"
     },
     "description": {
-      "en": "OnlineNaira is a service provided by Adesiyan.Com and was launched so that anyone especially Africans with an email account can send or\/and receive mo"
+      "en": "OnlineNaira is a service provided by Adesiyan.Com and was launched so that anyone especially Africans with an email account can send or/and receive mo"
     }
   },
   {
@@ -4983,10 +5029,10 @@
       "BE"
     ],
     "name": {
-      "en": "Bancontact\/Mister Cash"
+      "en": "Bancontact/Mister Cash"
     },
     "description": {
-      "en": "Bancontact\/Mister Cash offers you an effective, online, real-time product, which is suitable for all forms of card payments."
+      "en": "Bancontact/Mister Cash offers you an effective, online, real-time product, which is suitable for all forms of card payments."
     }
   },
   {
@@ -5290,6 +5336,10 @@
     "vendor": "grabpay",
     "name": {
       "en": "GrabPay"
+    },
+    "description": {
+      "ru": "GrabPay — это мобильный кошелек и платежный сервис, интегрированный в суперприложение Grab, популярное в Юго-Восточной Азии. Он позволяет пользователям оплачивать поездки, еду, товары, а также совершать переводы и онлайн-платежи. GrabPay предлагает программу лояльности, быструю авторизацию и безопасность транзакций, и широко используется в Малайзии, Сингапуре, Индонезии, Филиппинах и Таиланде.",
+      "en": "GrabPay is a mobile wallet and payment service integrated into Grab, a super app popular in Southeast Asia. It allows users to pay for travel, food, goods, as well as make transfers and online payments. GrabPay offers a loyalty program, fast authorization and secure transactions, and is widely used in Malaysia, Singapore, Indonesia, the Philippines, Indonesia and Thailand."
     }
   },
   {
@@ -6012,6 +6062,10 @@
     ],
     "name": {
       "en": "Rapid Transfer"
+    },
+    "description": {
+      "en": "Rapid Transfer — це платіжний метод від компанії Skrill (Paysafe Group), який дозволяє користувачам оплачувати товари та послуги миттєво через свої банківські рахунки. Сервіс працює без потреби в реєстрації окремого акаунта, і підтримує сотні банків у Європі. Rapid Transfer поєднує зручність банківського переказу з миттєвою обробкою, що особливо актуально для e-commerce та фінансових сервісів. ",
+      "uk": "Rapid Transfer is a payment method from Skrill (Paysafe Group) that allows users to pay for goods and services instantly through their bank accounts. The service works without the need to register a separate account and supports hundreds of banks in Europe. Rapid Transfer combines the convenience of bank transfers with instant processing, which is especially relevant for e-commerce and financial services."
     }
   },
   {
@@ -6115,6 +6169,11 @@
       "en": "Mercuryo",
       "ru": "Mercuryo",
       "uk": "Mercuryo"
+    },
+    "description": {
+      "es": "Mercuryo es una infraestructura de pagos cripto-fiat que permite a empresas y usuarios comprar, vender y transferir criptomonedas mediante métodos de pago tradicionales como tarjetas bancarias. Con sede en Europa, Mercuryo está regulado y opera en múltiples mercados ofreciendo una API sencilla, wallets integradas y conversión instantánea entre monedas fiat y cripto. Es ideal para plataformas que desean incorporar pagos con criptomonedas de forma segura y regulada. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy.",
+      "fr": "Mercuryo est une méthode de paiement permettant aux utilisateurs d’acheter des crypto-monnaies instantanément avec des moyens de paiement traditionnels comme les cartes bancaires, Apple Pay ou Google Pay. Accessible via une interface conviviale, elle propose des conversions rapides entre monnaies fiduciaires et crypto-actifs, tout en garantissant un processus de vérification d’identité sécurisé (KYC). Utilisée dans les environnements de paiement intégrés à des plateformes partenaires, Mercuryo offre une expérience fluide pour les utilisateurs souhaitant accéder aux crypto-monnaies sans passer par des échanges classiques. Elle est particulièrement adaptée aux utilisateurs à la recherche de rapidité, de simplicité et de conformité réglementaire dans leurs transactions crypto.",
+      "en": "Mercuryo is a payment method enabling users to buy crypto-currencies instantly with traditional payment methods such as bank cards, Apple Pay or Google Pay. Accessible via a user-friendly interface, it offers fast conversions between fiat currencies and crypto-assets, while guaranteeing a secure identity verification process (KYC). Used in payment environments integrated with partner platforms, Mercuryo offers a seamless experience for users wishing to access crypto-currencies without going through conventional exchanges. It is particularly suited to users looking for speed, simplicity and regulatory compliance in their crypto transactions."
     }
   },
   {
@@ -6214,6 +6273,10 @@
       "en": "Airtel money",
       "ru": "Airtel money",
       "uk": "Airtel money"
+    },
+    "description": {
+      "fr": "Airtel Money est un service de portefeuille mobile proposé par Airtel, l’un des plus grands opérateurs de télécommunications en Afrique et en Asie. Il permet aux utilisateurs de transférer de l’argent, payer des factures, effectuer des achats en ligne ou en boutique, et recharger leur crédit téléphonique via leur téléphone mobile. La solution est largement adoptée dans des pays comme le Kenya, la Tanzanie, l’Ouganda et l’Inde, notamment auprès des populations non bancarisées. Airtel Money facilite ainsi l’inclusion financière et l’accès aux services numériques dans des régions où les infrastructures bancaires sont limitées. Cette méthode de paiement, ainsi que plus de 500 autres, est déjà intégrée à la plateforme d’orchestration de paiements de Corefy, permettant à nos clients de commencer à l’utiliser instantanément, sans codage, en saisissant simplement leurs identifiants MID dans le tableau de bord Corefy.",
+      "en": "Airtel Money is a mobile wallet service offered by Airtel, one of the largest telecommunications operators in Africa and Asia. It enables users to transfer money, pay bills, make online or in-store purchases, and top up their phone credit via their cell phone. The solution is widely adopted in countries such as Kenya, Tanzania, Uganda and India, particularly among unbanked populations. Airtel Money thus facilitates financial inclusion and access to digital services in regions where banking infrastructures are limited. This payment method, along with over 500 others, is already integrated into Corefy's payment orchestration platform, enabling our customers to start using it instantly, without coding, by simply entering their MID credentials into the Corefy dashboard."
     }
   },
   {
@@ -6644,6 +6707,10 @@
     "status": "active",
     "name": {
       "en": "PAYTM Wallet"
+    },
+    "description": {
+      "uk": "Paytm — один із найпопулярніших фінтех-сервісів в Індії, який пропонує мобільний гаманець, оплату рахунків, перекази, банківські послуги та торгівлю. Користувачі можуть здійснювати платежі через QR-коди, UPI, банківські картки та інші інструменти. Paytm підтримує широкий спектр онлайн-сервісів, включно з e-commerce, транспортом, квитками, послугами та державними платежами. Компанія також надає рішення для бізнесу — платіжні шлюзи, POS-термінали, рахунки та мікрокредити. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "en": "Paytm is one of the most popular fintech services in India, offering a mobile wallet, bill payments, transfers, banking, and trading. Users can make payments through QR codes, UPI, bank cards, and other tools. Paytm supports a wide range of online services, including e-commerce, transportation, tickets, services, and government payments. The company also provides business solutions such as payment gateways, POS terminals, accounts, and microloans. This and more than 500 other providers are already integrated into Corefy's payment orchestration platform, allowing customers to instantly start using the integration without programming - just enter their MID data in the Corefy dashboard."
     }
   },
   {
@@ -6752,6 +6819,10 @@
       "en": "PIX",
       "ru": "PIX",
       "uk": "PIX"
+    },
+    "description": {
+      "uk": "Pix — це миттєва платіжна система, створена Центральним банком Бразилії для прискорення грошових переказів. Pix дозволяє здійснювати операції 24/7, включаючи вихідні, лише за допомогою номера телефону, email або спеціального коду. Система безкоштовна для фізичних осіб і широко інтегрована в банки, мобільні додатки та POS-термінали. Pix швидко витісняє традиційні способи оплати в країні завдяки швидкості, зручності та низькій вартості. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "en": "Paytm is one of the most popular fintech services in India, offering a mobile wallet, bill payments, transfers, banking, and trading. Users can make payments through QR codes, UPI, bank cards, and other tools. Paytm supports a wide range of online services, including e-commerce, transportation, tickets, services, and government payments. The company also provides business solutions such as payment gateways, POS terminals, accounts, and microloans. This and more than 500 other providers are already integrated into Corefy's payment orchestration platform, allowing customers to instantly start using the integration without programming - just enter their MID data in the Corefy dashboard."
     }
   },
   {
@@ -6830,6 +6901,11 @@
       "en": "IMPS",
       "uk": "IMPS",
       "ru": "IMPS"
+    },
+    "description": {
+      "uk": "IMPS (Immediate Payment Service) — це миттєва міжбанківська платіжна система, створена в Індії та керована Національною платіжною корпорацією Індії (NPCI). Вона дозволяє користувачам здійснювати перекази коштів у режимі 24/7 за допомогою мобільних додатків, банкоматів, інтернет-банкінгу або SMS. IMPS забезпечує майже миттєве зарахування коштів, що робить його популярним для роздрібних переказів, e-commerce і сервісних платежів. ",
+      "ru": "IMPS (Immediate Payment Service) — это межбанковская система мгновенных переводов, действующая в Индии. Она позволяет пользователям совершать переводы средств в реальном времени 24/7 через мобильные приложения, интернет-банкинг и банкоматы. IMPS разработана Национальной платежной корпорацией Индии (NPCI) и обеспечивает высокую скорость, доступность и надежность, что делает ее популярной среди физических лиц и малого бизнеса для p2p-расчетов и e-commerce.",
+      "en": "IMPS (Immediate Payment Service) is an interbank instant transfer system operating in India. It allows users to transfer funds in real time 24/7 through mobile applications, online banking and ATMs. IMPS is developed by the National Payments Corporation of India (NPCI) and offers high speed, availability and reliability, making it popular among individuals and small businesses for p2p payments and e-commerce."
     }
   },
   {
@@ -6882,7 +6958,8 @@
       "ru": "SettlePay Wallet"
     },
     "description": {
-      "en": "SettlePay Wallet is a crypto-fiat digital wallet developed by WorldSec Payments Limited, designed to bridge the gap between cryptocurrencies and traditional finance. Available on both Android and iOS platforms, the wallet enables users to deposit, withdraw, and manage funds across major crypto exchanges. It supports various top-up methods, including Binance Pay and fiat options, and offers seamless verification through Ukraine’s Diia app for streamlined KYC processes. SettlePay Wallet also integrates with MoneyGram, allowing users to convert crypto to cash and withdraw funds globally. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+      "en": "SettlePay Wallet is a crypto-fiat digital wallet developed by WorldSec Payments Limited, designed to bridge the gap between cryptocurrencies and traditional finance. Available on both Android and iOS platforms, the wallet enables users to deposit, withdraw, and manage funds across major crypto exchanges. It supports various top-up methods, including Binance Pay and fiat options, and offers seamless verification through Ukraine’s Diia app for streamlined KYC processes. SettlePay Wallet also integrates with MoneyGram, allowing users to convert crypto to cash and withdraw funds globally. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard.",
+      "ru": "SettlePay Wallet — это электронный кошелек, разработанный украинской финтех-компанией SettlePay. Он позволяет пользователям хранить средства, отправлять и получать переводы, оплачивать услуги и интегрироваться с банковскими картами. Кошелек поддерживает операции в гривне и других валютах, а также обеспечивает высокий уровень безопасности и интеграцию с партнерскими платформами."
     }
   },
   {
@@ -6894,6 +6971,10 @@
       "en": "PicPay",
       "ru": "PicPay",
       "uk": "PicPay"
+    },
+    "description": {
+      "uk": "PicPay — це бразильський цифровий гаманець і платформа для соціальних платежів, яка дозволяє користувачам здійснювати P2P-перекази, оплачувати рахунки, купувати онлайн та використовувати кешбеки. Сервіс підтримує зберігання карток, оплату через QR-коди, кредити та інвестиційні продукти. PicPay активно інтегрується з бізнесом і держструктурами в Бразилії, і є одним із найбільших фінтехів країни за кількістю користувачів. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "en": "PicPay is a Brazilian digital wallet and social payment platform that allows users to make P2P transfers, pay bills, buy online, and use cashback. The service supports card storage, QR code payments, loans, and investment products. PicPay is actively integrating with businesses and government agencies in Brazil and is one of the largest fintechs in the country by number of users. This and more than 500 other providers are already integrated into Corefy's payment orchestration platform, allowing customers to instantly start using the integration without programming - just enter their MID data in the Corefy dashboard."
     }
   },
   {
@@ -6927,6 +7008,10 @@
       "en": "SPEI",
       "ru": "SPEI",
       "uk": "SPEI"
+    },
+    "description": {
+      "ru": "SPEI (Sistema de Pagos Electrónicos Interbancarios) — это межбанковская система электронных платежей в Мексике, разработанная Центральным банком страны. Она позволяет физическим и юридическим лицам осуществлять мгновенные переводы между банками через интернет-банкинг, мобильные приложения и платежные шлюзы. SPEI обеспечивает высокую скорость и безопасность транзакций, и активно используется как для потребительских платежей, так и в электронной коммерции, предлагая мексиканским пользователям надежный локальный метод оплаты.",
+      "en": "SPEI (Sistema de Pagos Electrónicos Interbancarios) is an interbank electronic payment system in Mexico developed by the country's Central Bank. It allows individuals and businesses to make instant transfers between banks through online banking, mobile applications and payment gateways. SPEI provides high-speed and secure transactions, and is actively used for both consumer payments and e-commerce, offering Mexican users a reliable local payment method."
     }
   },
   {
@@ -7007,6 +7092,10 @@
       "en": "Amazon Pay",
       "ru": "Amazon Pay",
       "uk": "Amazon Pay"
+    },
+    "description": {
+      "uk": "Amazon Pay — це платіжний сервіс, створений компанією Amazon, який дозволяє покупцям оплачувати товари та послуги на сторонніх сайтах за допомогою збережених у їхньому обліковому записі Amazon платіжних даних. Завдяки знайомому інтерфейсу та високому рівню довіри користувачів, Amazon Pay забезпечує швидку та безпечну оплату без потреби повторно вводити реквізити. Сервіс підтримує одноразові й повторювані платежі, а також адаптується до мобільних пристроїв. Його використовують бізнеси в e-commerce, сервісах підписок і благодійних проєктах. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "en": "Amazon Pay is a payment service created by Amazon that allows customers to pay for goods and services on third-party websites using the payment information stored in their Amazon account. Thanks to its familiar interface and high level of user trust, Amazon Pay provides fast and secure payments without the need to re-enter payment details. The service supports one-time and recurring payments, and is mobile-friendly. It is used by businesses in e-commerce, subscription services, and charity projects. This and more than 500 other providers are already integrated into the Corefy payment orchestration platform, allowing customers to instantly start using the integration without programming - just enter their MID data in the Corefy dashboard."
     }
   },
   {
@@ -7042,7 +7131,8 @@
       "ru": "Papara"
     },
     "description": {
-      "en": "Papara is a digital wallet and prepaid card-based payment method originating from Turkey, designed to provide a fast, secure, and cost-effective alternative to traditional banking services. It allows users to make online payments, send and receive money instantly, and manage their finances via a mobile app or web platform. Papara supports transactions in Turkish lira and offers features such as bill payments, budgeting tools, and cashback on purchases. It is widely used for domestic e-commerce, gaming, and digital services, especially among younger users and those without access to credit cards. With minimal fees and no need for a bank account, Papara provides financial inclusion for underbanked populations."
+      "en": "Papara is a digital wallet and prepaid card-based payment method originating from Turkey, designed to provide a fast, secure, and cost-effective alternative to traditional banking services. It allows users to make online payments, send and receive money instantly, and manage their finances via a mobile app or web platform. Papara supports transactions in Turkish lira and offers features such as bill payments, budgeting tools, and cashback on purchases. It is widely used for domestic e-commerce, gaming, and digital services, especially among younger users and those without access to credit cards. With minimal fees and no need for a bank account, Papara provides financial inclusion for underbanked populations.",
+      "uk": "Papara — турецький фінтех-сервіс, що пропонує цифровий гаманець, передплачені картки та миттєві платежі. Користувачі можуть здійснювати перекази, оплачувати послуги, поповнювати рахунок через банківські канали та користуватись картками Mastercard без банківського рахунку. Papara став популярним завдяки низьким комісіям, простому застосунку та підтримці геймерів і молоді. Компанія активно інтегрується в екосистему цифрових сервісів, включно з e-commerce та стрімінговими платформами. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy."
     }
   },
   {
@@ -7063,6 +7153,10 @@
       "en": "CepBank",
       "uk": "CepBank",
       "ru": "CepBank"
+    },
+    "description": {
+      "ru": "CepBank — это турецкий метод мобильных банковских переводов, позволяющий пользователям отправлять деньги через SMS или мобильное приложение своего банка. Средства можно быстро перевести между счетами или обналичить в банкомате, введя код. Метод популярен в Турции благодаря простоте использования и высокой скорости операций, особенно в p2p-платежах и пополнении баланса в онлайн-сервисах.",
+      "en": "CepBank is a Turkish mobile bank transfer method that allows users to send money via SMS or their bank's mobile app. Funds can be quickly transferred between accounts or cashed out at an ATM by entering a code. The method is popular in Turkey due to its ease of use and high speed of transactions, especially in p2p payments and top-ups in online services."
     }
   },
   {
@@ -7103,6 +7197,9 @@
       "en": "Swiffy EFT",
       "uk": "Swiffy EFT",
       "ru": "Swiffy EFT"
+    },
+    "description": {
+      "en": "Swiffy EFT is a South African payment provider offering real-time electronic funds transfer (EFT) solutions that allow consumers to pay directly from their bank accounts without using credit or debit cards. The service is tailored for e-commerce businesses and aims to streamline online payments by enabling instant, secure bank transfers through a wide network of major South African banks. Swiffy EFT ensures that transactions are completed quickly and safely, improving checkout conversion rates while reducing the risk of chargebacks commonly associated with card payments. The system is designed to be user-friendly and is particularly suited for merchants looking to offer local payment methods that resonate with South African consumers. Swiffy EFT and 500+ other payment providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     }
   },
   {
@@ -7113,6 +7210,11 @@
       "en": "Card transfer",
       "uk": "Card transfer",
       "ru": "Card transfer"
+    },
+    "description": {
+      "ru": "Card Transfer — это метод безналичного перевода средств с карты на карту, при котором отправитель указывает реквизиты карты получателя, а деньги зачисляются напрямую. Такой способ популярен в странах Восточной Европы, СНГ и Азии, особенно в p2p-расчетах и в электронной коммерции. Card Transfer позволяет пользователям быстро и просто осуществлять переводы, не прибегая к банковским счетам или дополнительным посредникам, что делает его удобным решением как для частных лиц, так и для микробизнесов.",
+      "uk": "Card Transfer — це спосіб оплати, який передбачає пряме перерахування коштів з однієї банківської картки на іншу. Цей метод став популярним завдяки своїй простоті, швидкості та зручності, особливо в електронній комерції, сервісах фрілансу та міжособистісних платежах. Він дозволяє користувачам здійснювати оплату безпосередньо, минаючи традиційні шлюзи чи додаткових посередників. Залежно від провайдера, перекази можуть здійснюватися в реальному часі або з мінімальною затримкою, часто з можливістю локалізованої підтримки валют. ",
+      "en": "Card Transfer is a payment method that involves the direct transfer of funds from one bank card to another. This method has become popular due to its simplicity, speed, and convenience, especially in e-commerce, freelance services, and interpersonal payments. It allows users to make payments directly, bypassing traditional gateways or additional intermediaries. Depending on the provider, transfers can be made in real time or with minimal delay, often with the option of localized currency support."
     }
   },
   {
@@ -7156,6 +7258,10 @@
       "en": "MB WAY",
       "uk": "MB WAY",
       "ru": "MB WAY"
+    },
+    "description": {
+      "uk": "MB WAY — популярний португальський мобільний платіжний сервіс, який дозволяє здійснювати перекази, оплачувати онлайн-замовлення та купувати офлайн через QR-код або номер телефону. Сервіс інтегрований із банківською системою Португалії та підтримує миттєві перекази між рахунками 24/7. MB WAY також дозволяє генерувати віртуальні карти для безпечних онлайн-платежів і працює через однойменний мобільний застосунок. Його часто використовують в e-commerce, роздрібній торгівлі та сервісах доставки. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "en": "MB WAY is a popular Portuguese mobile payment service that allows you to make transfers, pay for online orders, and make offline purchases using a QR code or phone number. The service is integrated with the Portuguese banking system and supports instant transfers between accounts 24/7. MB WAY also allows you to generate virtual cards for secure online payments and works through the mobile application of the same name. It is often used in e-commerce, retail, and delivery services. This and more than 500 other providers are already integrated into the Corefy payment orchestration platform, allowing customers to instantly start using the integration without programming - just enter their MID data in the Corefy dashboard."
     }
   },
   {
@@ -8188,6 +8294,10 @@
     "status": "active",
     "name": {
       "en": "Thai QR Payment"
+    },
+    "description": {
+      "ru": "Thai QR Payment — это платежный метод, разработанный Банком Таиланда, позволяющий пользователям совершать мгновенные переводы и оплаты с помощью сканирования QR-кода. Он интегрирован с системой PromptPay и работает через банковские приложения, предлагая простой, безопасный и удобный способ безналичной оплаты как в онлайн-среде, так и в физической торговле. Thai QR Payment способствует развитию цифровой экономики и снижению зависимости от наличных в Таиланде.",
+      "en": "Thai QR Payment is a payment method developed by the Bank of Thailand that allows users to make instant transfers and payments by scanning a QR code. It is integrated with PromptPay and works through banking apps, offering a simple, secure and convenient cashless payment method for both online and physical commerce. Thai QR Payment promotes the digital economy and reduces dependence on cash in Thailand."
     }
   },
   {
@@ -8325,6 +8435,10 @@
       "en": "Paykwik",
       "uk": "Paykwik",
       "ru": "Paykwik"
+    },
+    "description": {
+      "ru": "PayKwik — это предоплаченная карта, широко используемая в Турции и ряде других стран, предназначенная для безопасной оплаты товаров и услуг в интернете. Пользователи могут приобрести карту в офлайн-точках или онлайн, получить одноразовый код и использовать его при оформлении заказа. PayKwik особенно популярен среди пользователей, не желающих указывать данные своей банковской карты, и подходит для оплаты в сферах с повышенными требованиями к конфиденциальности.",
+      "en": "PayKwik is a prepaid card widely used in Turkey and a number of other countries, designed for secure payment of goods and services online. Users can purchase the card at offline or online outlets, receive a one-time code and use it at checkout. PayKwik is particularly popular among users who do not want to provide their bank card details and is suitable for payment in areas with high privacy requirements."
     }
   },
   {
@@ -8375,6 +8489,10 @@
       "en": "VNPAY QR",
       "uk": "VNPAY QR",
       "ru": "VNPAY QR"
+    },
+    "description": {
+      "fr": "VNPay QR est une méthode de paiement vietnamienne largement utilisée qui permet aux consommateurs d’effectuer des paiements en scannant un code QR via leur application bancaire mobile. Développée par Vietnam Payment Solutions JSC (VNPay), cette solution est intégrée dans les applications de plus de 40 banques vietnamiennes, facilitant les paiements sans numéraire dans les commerces physiques et en ligne. Elle est particulièrement populaire dans le secteur du retail, du transport et de la restauration. Cette méthode de paiement, ainsi que plus de 500 autres, est déjà intégrée à la plateforme d’orchestration de paiements de Corefy, permettant à nos clients de commencer à l’utiliser instantanément, sans codage, en saisissant simplement leurs identifiants MID dans le tableau de bord Corefy.",
+      "en": "VNPay QR is a widely used Vietnamese payment method that enables consumers to make payments by scanning a QR code via their mobile banking application. Developed by Vietnam Payment Solutions JSC (VNPay), this solution is integrated into the applications of over 40 Vietnamese banks, facilitating cashless payments in both physical and online stores. It is particularly popular in the retail, transport and restaurant sectors. This payment method, along with over 500 others, is already integrated into Corefy's payment orchestration platform, enabling our customers to start using it instantly, without coding, by simply entering their MID credentials into the Corefy dashboard."
     }
   },
   {
@@ -8385,6 +8503,10 @@
       "en": "True Money Wallet",
       "uk": "True Money Wallet",
       "ru": "True Money Wallet"
+    },
+    "description": {
+      "ru": "TrueMoney — это платежный метод и электронный кошелек, широко используемый в странах Юго-Восточной Азии. Он предоставляет пользователям возможность совершать онлайн-платежи, переводы, пополнения и оплату счетов. TrueMoney активно используется в Таиланде, Камбодже, Вьетнаме, Филиппинах и других странах региона, обеспечивая доступ к финансовым сервисам для населения без банковских счетов.",
+      "en": "TrueMoney is a payment method and e-wallet widely used in Southeast Asian countries. It provides users with the ability to make online payments, transfers, top-ups and bill payments. TrueMoney is actively used in Thailand, Cambodia, Vietnam, the Philippines and other countries in the region, providing access to financial services for people without bank accounts."
     }
   },
   {
@@ -8395,6 +8517,10 @@
       "en": "OVO",
       "uk": "OVO",
       "ru": "OVO"
+    },
+    "description": {
+      "fr": "OVO est un portefeuille numérique indonésien très répandu, qui permet aux utilisateurs d’effectuer des paiements en ligne et en magasin, de transférer de l’argent, de payer des factures, et d’accéder à des services financiers comme le crédit ou les assurances. OVO est accepté par de nombreux commerçants et services en Indonésie, notamment dans les secteurs du retail, des transports (Grab) et de la restauration. Il est connu pour son programme de fidélité et ses campagnes promotionnelles attractives, favorisant son adoption rapide. OVO joue un rôle important dans la digitalisation de l’économie indonésienne en réduisant la dépendance au cash. Cette méthode de paiement, ainsi que plus de 500 autres, est déjà intégrée à la plateforme d’orchestration de paiements de Corefy, permettant à nos clients de commencer à l’utiliser instantanément, sans codage, en saisissant simplement leurs identifiants MID dans le tableau de bord Corefy.",
+      "en": "OVO is a popular Indonesian digital wallet, enabling users to make online and in-store payments, transfer money, pay bills, and access financial services such as credit and insurance. OVO is accepted by numerous merchants and services in Indonesia, notably in the retail, transport (Grab) and restaurant sectors. It is known for its loyalty program and attractive promotional campaigns, encouraging rapid adoption. OVO is playing an important role in the digitalization of the Indonesian economy by reducing dependence on cash. This payment method, along with over 500 others, is already integrated into Corefy's payment orchestration platform, enabling our customers to start using it instantly, without coding, by simply entering their MID credentials into the Corefy dashboard."
     }
   },
   {
@@ -8405,6 +8531,10 @@
       "en": "GoPay",
       "uk": "GoPay",
       "ru": "GoPay"
+    },
+    "description": {
+      "uk": "GoPay — це популярний електронний гаманець в Індонезії, що є частиною суперзастосунку Gojek. Користувачі можуть оплачувати покупки, транспорт, доставку їжі, комунальні послуги та багато іншого прямо з балансу GoPay. Сервіс підтримує миттєві перекази, бонуси, кешбеки та інтеграцію з банківськими картками. Завдяки високій проникності мобільного інтернету в регіоні, GoPay став важливою складовою фінансової інклюзії в Південно-Східній Азії. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "en": "GoPay is a popular e-wallet in Indonesia that is part of the Gojek super app. Users can pay for purchases, transportation, food delivery, utilities, and much more directly from their GoPay balance. The service supports instant transfers, bonuses, cashback, and integration with bank cards. Due to the high penetration of mobile internet in the region, GoPay has become an important component of financial inclusion in Southeast Asia. This and more than 500 other providers are already integrated into Corefy's payment orchestration platform, allowing customers to instantly start using the integration without programming - just enter their MID data in the Corefy dashboard."
     }
   },
   {
@@ -8573,6 +8703,10 @@
     "status": "active",
     "name": {
       "en": "NEOpay"
+    },
+    "description": {
+      "ru": "NeoPay как платежный метод используется в Азии и Восточной Европе для мгновенных онлайн-переводов. Он позволяет клиентам совершать безопасные платежи через интернет-банкинг или мобильные приложения, минуя карты. NeoPay часто применяется в электронной коммерции и сфере цифровых услуг благодаря скорости и локальной адаптации.",
+      "en": "NeoPay as a payment method is used in Asia and Eastern Europe for instant online transfers. It allows customers to make secure payments via online banking or mobile apps, bypassing cards. NeoPay is often used in e-commerce and digital services due to its speed and local adaptability."
     }
   },
   {
@@ -8676,6 +8810,12 @@
       "en": "Vodafone Cash",
       "ru": "Vodafone Cash",
       "uk": "Vodafone Cash"
+    },
+    "description": {
+      "es": "Vodafone Cash es un servicio de dinero móvil ofrecido por Vodafone en varios países, especialmente en Egipto y Ghana. Permite a los usuarios realizar pagos, transferencias de dinero, depósitos, retiros y compras desde sus teléfonos móviles, incluso sin cuenta bancaria. Es una opción popular para la inclusión financiera en regiones donde los servicios bancarios tradicionales no están ampliamente disponibles. Este y más de 500 proveedores ya están integrados en la plataforma de orquestación de pagos de Corefy, lo que permite a nuestros clientes comenzar a usar la integración al instante sin necesidad de programación, simplemente introduciendo sus credenciales MID en el panel de Corefy.",
+      "fr": "Vodafone Cash est un service de portefeuille mobile proposé par Vodafone, principalement utilisé en Égypte. Il permet aux utilisateurs d’envoyer et de recevoir de l’argent, de payer des factures, de recharger leur crédit téléphonique et d’effectuer des achats en ligne ou en magasin directement depuis leur téléphone portable. Le service est largement adopté grâce à sa simplicité d’utilisation et à sa présence dans les zones urbaines et rurales. Il joue un rôle clé dans la promotion de l’inclusion financière en facilitant l’accès aux paiements numériques pour les populations non bancarisées. Cette méthode de paiement, ainsi que plus de 500 autres, est déjà intégrée à la plateforme d’orchestration de paiements de Corefy, permettant à nos clients de commencer à l’utiliser instantanément, sans codage, en saisissant simplement leurs identifiants MID dans le tableau de bord Corefy.",
+      "ru": "Vodafone Cash — это мобильный платежный метод, предоставляемый мобильным оператором Vodafone, позволяющий пользователям отправлять и получать деньги, оплачивать счета и осуществлять покупки с помощью мобильного телефона. Услуга широко используется в Египте и ряде других стран, обеспечивая доступ к финансовым операциям без необходимости банковского счета. Vodafone Cash способствует финансовой инклюзии, особенно среди населения с ограниченным доступом к традиционным банковским услугам.",
+      "en": "Vodafone Cash is a mobile payment method provided by mobile operator Vodafone, allowing users to send and receive money, pay bills and make purchases using their cell phone. The service is widely used in Egypt and several other countries, providing access to financial transactions without the need for a bank account. Vodafone Cash promotes financial inclusion, especially among populations with limited access to traditional banking services."
     }
   },
   {
@@ -8751,6 +8891,10 @@
       "en": "Zen wallet",
       "ru": "Zen кошелек",
       "uk": "Zen гаманець"
+    },
+    "description": {
+      "ru": "ZEN Wallet — это мультивалютный электронный кошелек от польской финтех-компании ZEN.COM, лицензированной в ЕС. Он позволяет осуществлять международные переводы, хранить средства, оплачивать покупки онлайн и использовать физическую или виртуальную карту Mastercard. Также ZEN предлагает защиту покупок и возврат НДС для бизнеса, делая его удобным решением для международных клиентов.",
+      "en": "ZEN Wallet is a multi-currency e-wallet from ZEN.COM, a Polish fintech company licensed in the EU. It allows you to make international transfers, store funds, pay online and use a physical or virtual Mastercard. ZEN also offers purchase protection and VAT refunds for businesses, making it a convenient solution for international customers."
     }
   },
   {
@@ -9111,6 +9255,10 @@
       "en": "OpenPay",
       "ru": "OpenPay",
       "uk": "OpenPay"
+    },
+    "description": {
+      "fr": "OpenPay Cash est une méthode de paiement alternative permettant aux clients de régler leurs achats en espèces dans des points de vente physiques, tout en effectuant leurs commandes en ligne. Elle s’adresse particulièrement aux utilisateurs n’ayant pas accès aux cartes bancaires ou préférant le paiement hors ligne. Cette solution est populaire sur certains marchés d’Amérique latine et d’Asie, où le paiement en espèces reste largement utilisé. Elle permet aux commerçants de toucher une clientèle plus large tout en sécurisant les transactions grâce à un système de validation par code ou bon de paiement. Cette méthode de paiement, ainsi que plus de 500 autres, est déjà intégrée à la plateforme d’orchestration de paiements de Corefy, permettant à nos clients de commencer à l’utiliser instantanément, sans codage, en saisissant simplement leurs identifiants MID dans le tableau de bord Corefy.",
+      "en": "OpenPay Cash is an alternative payment method that enables customers to pay for their purchases in cash at physical points of sale, while placing their orders online. It is particularly suited to users who do not have access to bank cards, or who prefer to pay offline. This solution is popular in certain Latin American and Asian markets, where cash payments are still widely used. It enables merchants to reach a wider customer base, while securing transactions through a code or voucher validation system. This payment method, along with over 500 others, is already integrated into Corefy's payment orchestration platform, enabling our customers to start using it instantly, without coding, by simply entering their MID credentials into the Corefy dashboard."
     }
   },
   {
@@ -9682,6 +9830,11 @@
     "status": "active",
     "name": {
       "en": "Instapay"
+    },
+    "description": {
+      "uk": "InstaPay — це платіжний метод, який дозволяє здійснювати миттєві міжбанківські перекази в режимі онлайн, найчастіше на мобільних пристроях. Рішення активно використовується у фінансових екосистемах, де пріоритетом є швидкість і зручність — наприклад, у філіппінському чи малазійському ринках. InstaPay підтримує перекази між рахунками в різних банках, зазвичай 24/7, без тривалих затримок або високих комісій, що робить його популярним серед роздрібних користувачів і малого бізнесу. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "ru": "InstaPay — это платежный метод, позволяющий мгновенные переводы между банками в реальном времени. Особенно популярен в странах Юго-Восточной Азии, таких как Филиппины, где InstaPay интегрирован в национальную платежную инфраструктуру. Пользователи могут осуществлять переводы через банковские приложения или электронные кошельки, что делает метод удобным для повседневных платежей, покупок и переводов между физическими лицами. InstaPay способствует финансовой инклюзии и развитию безналичных расчетов.",
+      "en": "InstaPay is a payment method that allows instant transfers between banks in real time. It is especially popular in Southeast Asian countries such as the Philippines, where InstaPay is integrated into the national payment infrastructure. Users can make transfers via banking apps or e-wallets, making the method convenient for everyday payments, purchases and transfers between individuals. InstaPay promotes financial inclusion and the development of cashless payments."
     }
   },
   {

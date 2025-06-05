@@ -25,6 +25,21 @@
         "$id": "#/item/properties/name/properties/zh",
         "type": "string",
         "title": "The Zh Schema"
+      },
+      "de": {
+        "$id": "#/item/properties/name/properties/de",
+        "type": "string",
+        "title": "The De Schema"
+      },
+      "fr": {
+        "$id": "#/item/properties/name/properties/fr",
+        "type": "string",
+        "title": "The Fr Schema"
+      },
+      "es": {
+        "$id": "#/item/properties/name/properties/es",
+        "type": "string",
+        "title": "The Es Schema"
       }
     }
   }
