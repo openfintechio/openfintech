@@ -53,8 +53,8 @@ It also includes different resources like entity logos and icons.
         - Characters a to z
         - Digits 0 through 9
         - Hyphen (-), Dot (.), Underscore (_), But cannot start nor end with them
-    - Good example: "paypal", "walletone", "webmoney-transfer", "ingbank.pl"
-    - Bad example: "pay_pal", "w1", "wm_trn", "ingbpl"
+    - Good example: "paypal", "walletone", "bank_transfer", "ingbank.pl"
+    - Bad example: "pay_pal", "w1", "bk_trsfr", "ingbpl"
 - Resources COULD contains such files as:
     - Icon
         - Filename: icon.[png|svg]
@@ -68,7 +68,7 @@ It also includes different resources like entity logos and icons.
         - Size: Min width is 200 px. Max width is 2000 px. Large size is more preferable.
 - _Translatable_ values MUST be:
     - Format: key-value array, where key is 2-char ISO language code (example: "en", "ge", "uk"). 
-    - Example: "name": {"en": "Yandex.Money", "ru": "Яндрекс.Деньги"}  
+    - Example: "name": {"en": "Forward Bank", "uk": "Форвард Банк"}  
         
 ## Community
 
