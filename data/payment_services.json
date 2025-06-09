@@ -4868,8 +4868,8 @@
     "currency": "NGN",
     "flow": "hpp",
     "method": "bank_transfer",
-    "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_min": 15,
+    "amount_max": 100000000,
     "fields": [
       {
         "key": "payer_first_name",
@@ -5074,7 +5074,7 @@
     "currency": "GHS",
     "flow": "hpp",
     "method": "bank_transfer",
-    "amount_min": 0.2,
+    "amount_min": 0.1,
     "amount_max": 1200000,
     "fields": [
       {
@@ -5263,7 +5263,7 @@
     "currency": "KES",
     "flow": "hpp",
     "method": "bank_transfer",
-    "amount_min": 1.6,
+    "amount_min": 1.3,
     "amount_max": 16000000,
     "fields": [
       {
@@ -5452,8 +5452,8 @@
     "currency": "ZAR",
     "flow": "hpp",
     "method": "bank_transfer",
-    "amount_min": 0.01,
-    "amount_max": 9999999,
+    "amount_min": 0.18,
+    "amount_max": 1778255.00,
     "fields": [
       {
         "key": "payer_email",
