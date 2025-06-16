@@ -24239,6 +24239,16 @@
   },
   {
     "status": "active",
+    "code": "faster_payments",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Faster Payments",
+      "uk": "Faster Payments",
+      "ru": "Faster Payments"
+    }
+  },
+  {
+    "status": "active",
     "code": "vib_bank",
     "category": "bank_transfer",
     "name": {

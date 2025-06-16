@@ -26699,7 +26699,9 @@
       "payment_card"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "faster_payments",
+      "sepa_transfer"
     ]
   },
   {
