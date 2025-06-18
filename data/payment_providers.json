@@ -25694,7 +25694,8 @@
       "bitexpro_advwallet",
       "bitexpro_payeer",
       "revolut_bank",
-      "openbanking"
+      "openbanking",
+      "paysafecard"
     ],
     "payout_method": [
       "payment_card"
@@ -28735,6 +28736,19 @@
       "bank_qr",
       "upi",
       "card_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kalemoney",
+    "vendor": "kalemoney",
+    "name": {
+      "en": "Kale.Money",
+      "ru": "Kale.Money",
+      "uk": "Kale.Money"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]
