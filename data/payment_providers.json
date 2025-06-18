@@ -28737,5 +28737,18 @@
       "upi",
       "card_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "kalemoney",
+    "vendor": "kalemoney",
+    "name": {
+      "en": "Kale.Money",
+      "ru": "Kale.Money",
+      "uk": "Kale.Money"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
