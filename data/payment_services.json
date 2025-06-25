@@ -36519,26 +36519,6 @@
     "currency": "USD",
     "flow": "hpp",
     "method": "ach",
-    "fields": [
-      {
-        "key": "customer_enrollment_date",
-        "type": "string",
-        "regexp": "\/^\\d{4}-\\d{2}-\\d{2}$\/",
-        "required": true,
-        "position": 1,
-        "label": {
-          "en": "Date of first interaction with the customer",
-          "ru": "Дата первого взаимодействия с клиентом",
-          "uk": "Дата першої взаємодії з клієнтом"
-        },
-        "hint": {
-          "en": "Enter the date of the first interaction with the customer",
-          "ru": "Введите дату первого взаимодействия с клиентом",
-          "uk": "Введіть дату першої взаємодії з клієнтом"
-        },
-        "example": "2020-01-25"
-      }
-    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
