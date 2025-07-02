@@ -16796,6 +16796,24 @@
   },
   {
     "status": "active",
+    "code": "mybank2_pln_hpp",
+    "flow": "hpp",
+    "method": "mybank2",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "mybank2_eur_hpp",
+    "flow": "hpp",
+    "method": "mybank2",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "multibanco_eur_hpp",
     "flow": "hpp",
     "method": "multibanco",
