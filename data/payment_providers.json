@@ -22250,7 +22250,9 @@
       "en": "Crederes is a European payment service provider offering acquiring, processing, and risk management solutions tailored to the needs of high-risk and high-volume industries such as iGaming, e-commerce, and financial services. The company focuses on delivering compliant, secure, and efficient payment processing through a flexible infrastructure that supports credit and debit cards, alternative payment methods, and regional banking options. Crederes combines technical reliability with a consultative approach, helping merchants optimize transaction routing, manage chargebacks, and meet regulatory requirements across jurisdictions. The platform is designed to integrate seamlessly with existing systems, offering real-time reporting, fraud monitoring, and scalable configurations to suit various business models. Crederes and 500+ other payment providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "googlepay",
+      "applepay"
     ],
     "payout_method": [
       "payment_card"
