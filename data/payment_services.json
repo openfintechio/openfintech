@@ -407,6 +407,43 @@
     "currency": "ARS",
     "method": "payment_card",
     "flow": "hpp",
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,32}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,11}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      }
+    ],
     "amount_min": 2,
     "amount_max": 20000000
   },
@@ -897,7 +934,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "\/^[0-9]{1,100}$\/",
+        "regexp": "/^[a-zA-Z0-9]{12,18}$/",
         "required": false,
         "position": 2,
         "label": {
@@ -910,7 +947,7 @@
           "ru": "Введите номер документа получателя",
           "uk": "Введіть номер документа отримувача"
         },
-        "example": "50284414727"
+        "example": "50284414727FDVS"
       }
     ],
     "amount_min": 0.01,
@@ -18080,7 +18117,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "\/^[a-zA-Z0-9\\-]{1,100}$\/",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,30}$\/",
         "required": false,
         "position": 3,
         "label": {
