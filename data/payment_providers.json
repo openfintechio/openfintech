@@ -4014,8 +4014,13 @@
       "about_payments_code": "wayforpay"
     },
     "name": {
-      "en": "Wayforpay"
-    }
+      "en": "Wayforpay",
+      "ru": "Wayforpay",
+      "uk": "Wayforpay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   },
   {
     "status": "active",
