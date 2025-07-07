@@ -36687,6 +36687,393 @@
   },
   {
     "status": "active",
+    "code": "googlepay_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 12.06,
+    "amount_max": 120600000
+  },
+  {
+    "status": "active",
+    "code": "applepay_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 12.06,
+    "amount_max": 120600000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_bhd_hpp",
+    "currency": "BHD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 37698
+  },
+  {
+    "status": "active",
+    "code": "applepay_bhd_hpp",
+    "currency": "BHD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 37698
+  },
+  {
+    "status": "active",
+    "code": "googlepay_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.05,
+    "amount_max": 542180
+  },
+  {
+    "status": "active",
+    "code": "applepay_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.05,
+    "amount_max": 542180
+  },
+  {
+    "status": "active",
+    "code": "googlepay_bsd_hpp",
+    "currency": "BSD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "applepay_bsd_hpp",
+    "currency": "BSD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_chf_hpp",
+    "currency": "CHF",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 79430
+  },
+  {
+    "status": "active",
+    "code": "applepay_chf_hpp",
+    "currency": "CHF",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 79430
+  },
+  {
+    "status": "active",
+    "code": "googlepay_gyd_hpp",
+    "currency": "GYD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 209.16,
+    "amount_max": 2091612600
+  },
+  {
+    "status": "active",
+    "code": "applepay_gyd_hpp",
+    "currency": "GYD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 209.16,
+    "amount_max": 2091612600
+  },
+  {
+    "status": "active",
+    "code": "googlepay_hkd_hpp",
+    "currency": "HKD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.08,
+    "amount_max": 784960
+  },
+  {
+    "status": "active",
+    "code": "applepay_hkd_hpp",
+    "currency": "HKD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.08,
+    "amount_max": 784960
+  },
+  {
+    "status": "active",
+    "code": "applepay_inr_hpp",
+    "currency": "INR",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.86,
+    "amount_max": 8593781
+  },
+  {
+    "status": "active",
+    "code": "googlepay_jod_hpp",
+    "currency": "JOD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 70920
+  },
+  {
+    "status": "active",
+    "code": "applepay_jod_hpp",
+    "currency": "JOD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 70920
+  },
+  {
+    "status": "active",
+    "code": "googlepay_jpy_hpp",
+    "currency": "JPY",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 144,
+    "amount_max": 1444555000
+  },
+  {
+    "status": "active",
+    "code": "applepay_jpy_hpp",
+    "currency": "JPY",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 144,
+    "amount_max": 1444555000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 13.00,
+    "amount_max": 130000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 13.00,
+    "amount_max": 130000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_kwd_hpp",
+    "currency": "KWD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 30770
+  },
+  {
+    "status": "active",
+    "code": "applepay_kwd_hpp",
+    "currency": "KWD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 30770
+  },
+  {
+    "status": "active",
+    "code": "googlepay_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.18,
+    "amount_max": 1844410
+  },
+  {
+    "status": "active",
+    "code": "applepay_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.18,
+    "amount_max": 1844410
+  },
+  {
+    "status": "active",
+    "code": "googlepay_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.05,
+    "amount_max": 542180
+  },
+  {
+    "status": "active",
+    "code": "applepay_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.05,
+    "amount_max": 542180
+  },
+  {
+    "status": "active",
+    "code": "googlepay_nok_hpp",
+    "currency": "NOK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.11,
+    "amount_max": 1084360
+  },
+  {
+    "status": "active",
+    "code": "applepay_nok_hpp",
+    "currency": "NOK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.11,
+    "amount_max": 1084360
+  },
+  {
+    "status": "active",
+    "code": "googlepay_omr_hpp",
+    "currency": "OMR",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 26000
+  },
+  {
+    "status": "active",
+    "code": "applepay_omr_hpp",
+    "currency": "OMR",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 26000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_qar_hpp",
+    "currency": "QAR",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.04,
+    "amount_max": 364000
+  },
+  {
+    "status": "active",
+    "code": "applepay_qar_hpp",
+    "currency": "QAR",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.04,
+    "amount_max": 364000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_sar_hpp",
+    "currency": "SAR",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.04,
+    "amount_max": 375000
+  },
+  {
+    "status": "active",
+    "code": "applepay_sar_hpp",
+    "currency": "SAR",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.04,
+    "amount_max": 375000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_sgd_hpp",
+    "currency": "SGD",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 135000
+  },
+  {
+    "status": "active",
+    "code": "applepay_sgd_hpp",
+    "currency": "SGD",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 135000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.36,
+    "amount_max": 3638000
+  },
+  {
+    "status": "active",
+    "code": "applepay_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.36,
+    "amount_max": 3638000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.33,
+    "amount_max": 3250000
+  },
+  {
+    "status": "active",
+    "code": "applepay_try_hpp",
+    "currency": "TRY",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.33,
+    "amount_max": 3250000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_zar_hpp",
+    "currency": "ZAR",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.18,
+    "amount_max": 1815000
+  },
+  {
+    "status": "active",
+    "code": "applepay_zar_hpp",
+    "currency": "ZAR",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.18,
+    "amount_max": 1815000
+  },
+  {
+    "status": "active",
     "code": "klyme_eur_invoice",
     "flow": "invoice",
     "method": "klyme",
