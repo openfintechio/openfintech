@@ -37074,6 +37074,24 @@
   },
   {
     "status": "active",
+    "code": "googlepay_aed_hpp",
+    "currency": "AED",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.03,
+    "amount_max": 367249
+  },
+  {
+    "status": "active",
+    "code": "applepay_aed_hpp",
+    "currency": "AED",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.03,
+    "amount_max": 367249
+  },
+  {
+    "status": "active",
     "code": "klyme_eur_invoice",
     "flow": "invoice",
     "method": "klyme",
