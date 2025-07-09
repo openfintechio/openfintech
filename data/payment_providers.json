@@ -28841,5 +28841,20 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "masspay",
+    "vendor": "masspay",
+    "name": {
+      "en": "MassPay",
+      "ru": "MassPay",
+      "uk": "MassPay"
+    },
+    "payout_method": [
+      "ach",
+      "payment_card",
+      "interac"
+    ]
   }
 ]
