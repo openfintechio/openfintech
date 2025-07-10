@@ -37208,5 +37208,23 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "palmpay_ngn_hpp",
+    "flow": "hpp",
+    "method": "palmpay",
+    "currency": "NGN",
+    "amount_min": 1,
+    "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "opay_ngn_hpp",
+    "flow": "hpp",
+    "method": "opay",
+    "currency": "NGN",
+    "amount_min": 1,
+    "amount_max": 10000000
   }
 ]

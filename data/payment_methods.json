@@ -11467,5 +11467,25 @@
       "ru": "CoinsPaid",
       "uk": "CoinsPaid"
     }
+  },
+  {
+    "status":"active",
+    "code":"palmpay",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Palmpay",
+      "ru": "Palmpay",
+      "uk": "Palmpay"
+    }
+  },
+  {
+    "status":"active",
+    "code":"opay",
+    "category":"bank_transfer",
+    "name":{
+      "en": "Opay",
+      "ru": "Opay",
+      "uk": "Opay"
+    }
   }
 ]

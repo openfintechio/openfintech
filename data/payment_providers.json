@@ -26340,7 +26340,9 @@
     "payment_method": [
       "payment_card",
       "bank_transfer",
-      "mobile"
+      "mobile",
+      "opay",
+      "palmpay"
     ],
     "payout_method": [
       "bank_transfer",
