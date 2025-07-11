@@ -61,7 +61,8 @@ jobs:
         with:
           name: bin-folder
           path: bin
-
+      - name: Make validate-json executable
+        run: chmod +x ./bin/validate-json
       - name: Run validate
         run: ./etc/validate.sh
 
