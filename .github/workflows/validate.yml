@@ -36,6 +36,13 @@ jobs:
 
       - name: Validate composer.json and composer.lock
         run: composer validate --strict
+        
+      - name: Upload bin folder
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bin-folder
+          path: bin
 
   validate-json:
     needs: prepare
@@ -49,6 +56,11 @@ jobs:
             bin
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
           restore-keys: ${{ runner.os }}-composer-
+      - name: Download bin folder
+        uses: actions/download-artifact@v4
+        with:
+          name: bin-folder
+          path: bin
 
       - name: Run validate
         run: ./etc/validate.sh
