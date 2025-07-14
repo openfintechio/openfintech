@@ -27949,6 +27949,22 @@
   },
   {
     "status": "active",
+    "code": "spectrepayments",
+    "vendor": "spectrepayments",
+    "links": {
+      "website": "https://spectrepayments.com/"
+    },
+    "name": {
+      "en": "Spectre Payments",
+      "ru": "Spectre Payments",
+      "uk": "Spectre Payments"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "slyse",
     "vendor": "slyse",
     "payment_method": [
