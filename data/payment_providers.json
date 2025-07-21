@@ -27295,6 +27295,21 @@
   },
   {
     "status": "active",
+    "code": "cyberpay",
+    "vendor": "cyberpay",
+    "name": {
+      "en": "Cyberpay",
+      "ru": "Cyberpay",
+      "uk": "Cyberpay"
+    },
+    "payment_method": [
+      "payment_card",
+      "bank_transfer_aggregated",
+      "cyberpay_wallet"
+    ]
+  },
+  {
+    "status": "active",
     "code": "dnspay",
     "vendor": "dnspay",
     "name": {
