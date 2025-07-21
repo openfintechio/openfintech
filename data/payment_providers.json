@@ -28883,5 +28883,18 @@
       "payment_card",
       "interac"
     ]
+  },
+  {
+    "status": "active",
+    "code": "finix",
+    "vendor": "finix",
+    "name": {
+      "en": "Finix",
+      "ru": "Finix",
+      "uk": "Finix"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
