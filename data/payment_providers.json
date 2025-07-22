@@ -19166,7 +19166,9 @@
       "en": "Paysafe"
     },
     "payout_method": [
-      "neteller"
+      "neteller",
+      "paysafecard",
+      "skrill"
     ],
     "payment_method": [
       "neteller",
@@ -23859,7 +23861,9 @@
       "payment_card",
       "sepa_transfer",
       "upi",
-      "blik"
+      "blik",
+      "applepay",
+      "googlepay"
     ]
   },
   {
@@ -27291,6 +27295,21 @@
   },
   {
     "status": "active",
+    "code": "cyberpay",
+    "vendor": "cyberpay",
+    "name": {
+      "en": "Cyberpay",
+      "ru": "Cyberpay",
+      "uk": "Cyberpay"
+    },
+    "payment_method": [
+      "payment_card",
+      "bank_transfer_aggregated",
+      "cyberpay_wallet"
+    ]
+  },
+  {
+    "status": "active",
     "code": "dnspay",
     "vendor": "dnspay",
     "name": {
@@ -28879,6 +28898,19 @@
       "ach",
       "payment_card",
       "interac"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "finix",
+    "vendor": "finix",
+    "name": {
+      "en": "Finix",
+      "ru": "Finix",
+      "uk": "Finix"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]

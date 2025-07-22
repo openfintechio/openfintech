@@ -35183,7 +35183,7 @@
   },
   {
     "code": "kasha",
-    "status": "active",
+    "status": "deprecated",
     "links": {
       "website": "https://kasha.io/"
     },
@@ -35191,6 +35191,18 @@
       "en": "Kasha",
       "ru": "Kasha",
       "uk": "Kasha"
+    }
+  },
+  {
+    "code": "cyberpay",
+    "status": "active",
+    "links": {
+      "website": "https://cyberpay.link/"
+    },
+    "name": {
+      "en": "Cyberpay",
+      "ru": "Cyberpay",
+      "uk": "Cyberpay"
     }
   },
   {
@@ -36118,6 +36130,18 @@
       "en": "MassPay",
       "ru": "MassPay",
       "uk": "MassPay"
+    }
+  },
+  {
+    "code": "finix",
+    "status": "active",
+    "links": {
+      "website": "https://finix.com/"
+    },
+    "name": {
+      "en": "Finix",
+      "ru": "Finix",
+      "uk": "Finix"
     }
   }
 ]
