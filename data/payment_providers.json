@@ -28912,5 +28912,21 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "rudraxpay",
+    "vendor": "rudraxpay",
+    "name": {
+      "en": "RudraxPay",
+      "ru": "RudraxPay",
+      "uk": "RudraxPay"
+    },
+    "payment_method": [
+      "upi"
+    ],
+    "payout_method": [
+      "imps"
+    ]
   }
 ]
