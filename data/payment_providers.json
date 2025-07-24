@@ -28928,5 +28928,20 @@
     "payout_method": [
       "imps"
     ]
+  },
+  {
+    "status": "active",
+    "code": "finiqly",
+    "vendor": "finiqly",
+    "name": {
+      "en": "Finiqly",
+      "ru": "Finiqly",
+      "uk": "Finiqly"
+    },
+    "payout_method": [
+      "bank_transfer",
+      "payment_card",
+      "sepa_transfer"
+    ]
   }
 ]
