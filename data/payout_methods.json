@@ -31440,5 +31440,16 @@
       "ru": "Binance Pay",
       "uk": "Binance Pay"
     }
+  },
+  {
+    "status": "active",
+    "code": "pix_cpf_req",
+    "vendor": "bcb",
+    "category": "bank_transfer",
+    "name": {
+      "en": "PIX",
+      "uk": "PIX",
+      "ru": "PIX"
+    }
   }
 ]
