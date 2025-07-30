@@ -11497,5 +11497,95 @@
       "ru": "Opay",
       "uk": "Opay"
     }
+  },
+  {
+    "code": "ideal_crypto",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "iDEAL",
+      "ru": "iDEAL",
+      "uk": "iDEAL"
+    }
+  },
+  {
+    "code": "pay_id_crypto",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "PayID",
+      "ru": "PayID",
+      "uk": "PayID"
+    }
+  },
+  {
+    "code": "pix_crypto",
+    "category": "invoice_payment",
+    "status": "active",
+    "name": {
+      "en": "PIX",
+      "ru": "PIX",
+      "uk": "PIX"
+    }
+  },
+  {
+    "code": "interac_crypto",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Interac Online",
+      "ru": "Interac Online",
+      "uk": "Interac Online"
+    }
+  },
+  {
+    "code": "sepa_transfer_crypto",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Sepa Transfer",
+      "ru": "Sepa Transfer",
+      "uk": "Sepa Transfer"
+    }
+  },
+  {
+    "code": "upi_crypto",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "UPI",
+      "ru": "UPI",
+      "uk": "UPI"
+    }
+  },
+  {
+    "code": "applepay_crypto",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Apple Pay",
+      "ru": "Apple Pay",
+      "uk": "Apple Pay"
+    }
+  },
+  {
+    "code": "googlepay_crypto",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Google Pay",
+      "ru": "Google Pay",
+      "uk": "Google Pay"
+    }
+  },
+  {
+    "code": "fawry_crypto",
+    "category": "prepaid_voucher",
+    "status": "active",
+    "name": {
+      "en": "Fawry",
+      "ru": "Fawry",
+      "uk": "Fawry"
+    }
   }
 ]

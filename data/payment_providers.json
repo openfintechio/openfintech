@@ -17339,7 +17339,16 @@
       "en": "InstaXchange is a licensed financial services provider specializing in fiat-to-crypto and crypto-to-fiat transactions, offering a seamless platform for businesses and individuals to buy and sell cryptocurrencies. Operating under UAB Coin Sonic in Lithuania, InstaXchange facilitates instant bank transfers through named SEPA accounts and supports direct card payments, ensuring efficient and secure transactions . The platform emphasizes transparency with a clear fee structure and provides 24/7 customer support to assist users. InstaXchange’s infrastructure is designed for easy integration, allowing businesses to incorporate crypto payment solutions without extensive technical requirements. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
     },
     "payment_method": [
-      "payment_card_crypto"
+      "ideal_crypto",
+      "pay_id_crypto",
+      "pix_crypto",
+      "interac_crypto",
+      "sepa_transfer_crypto",
+      "upi_crypto",
+      "applepay_crypto",
+      "googlepay_crypto",
+      "payment_card_crypto",
+      "fawry_crypto"
     ]
   },
   {
