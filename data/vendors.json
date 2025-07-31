@@ -3471,13 +3471,6 @@
     }
   },
   {
-    "code": "mastercard",
-    "status": "active",
-    "name": {
-      "en": "MasterCard"
-    }
-  },
-  {
     "code": "sberbank",
     "status": "active",
     "name": {
@@ -36166,6 +36159,18 @@
       "en": "Finiqly",
       "ru": "Finiqly",
       "uk": "Finiqly"
+    }
+  },
+  {
+    "code": "mastercard",
+    "status": "active",
+    "links": {
+      "website": "http://mastercard.com"
+    },
+    "name": {
+      "en": "Mastercard",
+      "ru": "Mastercard",
+      "uk": "Mastercard"
     }
   }
 ]

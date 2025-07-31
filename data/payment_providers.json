@@ -28959,5 +28959,18 @@
       "payment_card",
       "sepa_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "mastercard",
+    "vendor": "mastercard",
+    "name": {
+      "en": "Mastercard",
+      "ru": "Mastercard",
+      "uk": "Mastercard"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
