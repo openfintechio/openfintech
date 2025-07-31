@@ -19138,6 +19138,25 @@
   },
   {
     "status": "active",
+    "code": "payua",
+    "vendor": "payua",
+    "name": {
+      "en": "Pay UA",
+      "ru": "Pay UA",
+      "uk": "Pay UA"
+    },
+    "payment_method": [
+      "litecoin",
+      "ethereum",
+      "bitcoin",
+      "bitcoin_cash",
+      "tether",
+      "payment_card",
+      "anymoney"
+    ]
+  },
+  {
+    "status": "active",
     "code": "alikassa",
     "description": {
       "en": "Alikassa - A Review of Alikassa Payment Providers: Before signing up for Alikassa, make sure to read the terms and conditions of their service. While this payment provider is designed for international usage, it is not suitable for users in all countries. For instance, you cannot use Alikassa to send money to other users. Alikassa is not responsible for the content of any messages sent by its users. In addition, the terms and conditions of its service also stipulate that the user must comply with local and international laws. Before signing up with Alikassa, you must determine the validity of your account. Alikassa does not accept transactions made with a non-registered payment instrument. In such cases, you will be liable for any fees associated with the use of your account. Alikassa also charges a reversal or chargeback fee when the transaction fails. Regardless of whether your payment method is accepted, you should check the Alikassa website to confirm that you can receive payments. If your payment goes through Alikassa, you can withdraw your funds at any time. The company will hold the funds in a pooled account until you instruct it otherwise. After that, you can access your account on the Alikassa website and withdraw or make payments to third parties. Alikassa is not a bank or escrow. Rather, it acts as an agent to collect payment funds."
