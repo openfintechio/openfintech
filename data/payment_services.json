@@ -37541,5 +37541,1223 @@
     "currency": "NGN",
     "amount_min": 1,
     "amount_max": 10000000
+  },
+  {
+    "status": "active",
+    "code": "ideal_crypto_eur_hpp",
+    "currency": "EUR",
+    "method": "ideal_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "pay_id_crypto_aud_hpp",
+    "currency": "AUD",
+    "method": "pay_id_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "pix_crypto_brl_hpp",
+    "currency": "BRL",
+    "method": "pix_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "interac_crypto_cad_hpp",
+    "currency": "CAD",
+    "method": "interac_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_crypto_eur_hpp",
+    "currency": "EUR",
+    "method": "sepa_transfer_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_crypto_gbp_hpp",
+    "currency": "GBP",
+    "method": "sepa_transfer_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "upi_crypto_inr_hpp",
+    "currency": "INR",
+    "method": "upi_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_usd_hpp",
+    "currency": "USD",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_eur_hpp",
+    "currency": "EUR",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_nok_hpp",
+    "currency": "NOK",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.1,
+    "amount_max": 1084360
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_dkk_hpp",
+    "currency": "DKK",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_sek_hpp",
+    "currency": "SEK",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1060000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_pln_hpp",
+    "currency": "PLN",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 376000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_cad_hpp",
+    "currency": "CAD",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_aud_hpp",
+    "currency": "AUD",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_jpy_hpp",
+    "currency": "JPY",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 144,
+    "amount_max": 1444555000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_brl_hpp",
+    "currency": "BRL",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_mxn_hpp",
+    "currency": "MXN",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.1,
+    "amount_max": 1844410
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_egp_hpp",
+    "currency": "EGP",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_inr_hpp",
+    "currency": "INR",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_crypto_try_hpp",
+    "currency": "TRY",
+    "method": "applepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.3,
+    "amount_max": 3250000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_usd_hpp",
+    "currency": "USD",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_eur_hpp",
+    "currency": "EUR",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_nok_hpp",
+    "currency": "NOK",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.1,
+    "amount_max": 1084360
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_dkk_hpp",
+    "currency": "DKK",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_sek_hpp",
+    "currency": "SEK",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1060000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_pln_hpp",
+    "currency": "PLN",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 376000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_cad_hpp",
+    "currency": "CAD",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_aud_hpp",
+    "currency": "AUD",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_jpy_hpp",
+    "currency": "JPY",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 144,
+    "amount_max": 1444555000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_brl_hpp",
+    "currency": "BRL",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_mxn_hpp",
+    "currency": "MXN",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.1,
+    "amount_max": 1844410
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_egp_hpp",
+    "currency": "EGP",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_inr_hpp",
+    "currency": "INR",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_crypto_try_hpp",
+    "currency": "TRY",
+    "method": "googlepay_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.3,
+    "amount_max": 3250000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_crypto_pln_hpp",
+    "currency": "PLN",
+    "method": "payment_card_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 376000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_crypto_brl_hpp",
+    "currency": "BRL",
+    "method": "payment_card_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_crypto_mxn_hpp",
+    "currency": "MXN",
+    "method": "payment_card_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.1,
+    "amount_max": 1844410
+  },
+  {
+    "status": "active",
+    "code": "payment_card_crypto_egp_hpp",
+    "currency": "EGP",
+    "method": "payment_card_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_crypto_inr_hpp",
+    "currency": "INR",
+    "method": "payment_card_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_crypto_try_hpp",
+    "currency": "TRY",
+    "method": "payment_card_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.3,
+    "amount_max": 3250000
+  },
+  {
+    "status": "active",
+    "code": "fawry_crypto_egp_hpp",
+    "currency": "EGP",
+    "method": "fawry_crypto",
+    "flow": "hpp",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 1000000000
   }
 ]
