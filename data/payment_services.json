@@ -38759,5 +38759,14 @@
     ],
     "amount_min": 0.01,
     "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "bybit_pay_usdt_hpp",
+    "flow": "hpp",
+    "method": "bybit_pay",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
