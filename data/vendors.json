@@ -35480,7 +35480,7 @@
   },
   {
     "code": "spectrepayments",
-    "status": "active",
+    "status": "deprecated",
     "links": {
       "website": "https://spectrepayments.com/"
     },
@@ -35488,6 +35488,18 @@
       "en": "Spectre Payments",
       "ru": "Spectre Payments",
       "uk": "Spectre Payments"
+    }
+  },
+  {
+    "code": "s3cpay",
+    "status": "active",
+    "links": {
+      "website": "https://spectrepayments.com/"
+    },
+    "name": {
+      "en": "S3СРАY",
+      "ru": "S3СРАY",
+      "uk": "S3СРАY"
     }
   },
   {

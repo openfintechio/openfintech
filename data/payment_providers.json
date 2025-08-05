@@ -28019,6 +28019,22 @@
   },
   {
     "status": "active",
+    "code": "s3cpay",
+    "vendor": "s3cpay",
+    "links": {
+      "website": "https://spectrepayments.com/"
+    },
+    "name": {
+      "en": "S3СРАY",
+      "ru": "S3СРАY",
+      "uk": "S3СРАY"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "slyse",
     "vendor": "slyse",
     "payment_method": [
