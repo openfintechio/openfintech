@@ -29000,5 +29000,18 @@
       "payment_card",
       "sepa_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cardpaymentz",
+    "vendor": "cardpaymentz",
+    "name": {
+      "en": "CardPaymentz",
+      "ru": "CardPaymentz",
+      "uk": "CardPaymentz"
+    },
+    "payment_method": [
+      "upi"
+    ]
   }
 ]
