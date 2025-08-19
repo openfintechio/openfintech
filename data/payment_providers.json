@@ -28513,7 +28513,21 @@
     "code": "cardiful",
     "vendor": "cardiful",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "epayua",
+      "ideal",
+      "neteller",
+      "paysafecard",
+      "przelewy24",
+      "rapidtransfer",
+      "skrill",
+      "blik",
+      "eps",
+      "bank_transfer_klarna",
+      "sibs_mbway",
+      "multibanco",
+      "mybank2",
+      "polipayonline"
     ],
     "name": {
       "en": "Cardiful",
