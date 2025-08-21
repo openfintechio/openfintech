@@ -29039,5 +29039,20 @@
     "payout_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "liberpay",
+    "vendor": "liberpay",
+    "name": {
+      "en": "LiberPay",
+      "ru": "LiberPay",
+      "uk": "LiberPay"
+    },
+    "payment_method": [
+      "openbanking",
+      "revolut_bank",
+      "payment_card"
+    ]
   }
 ]
