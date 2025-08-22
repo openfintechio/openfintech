@@ -29039,5 +29039,21 @@
     "payout_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "creedo",
+    "vendor": "creedo",
+    "name": {
+      "en": "Creedo",
+      "ru": "Creedo",
+      "uk": "Creedo"
+    },
+    "payment_method": [
+      "bkash_limited"
+    ],
+    "payout_method": [
+      "bkash_limited"
+    ]
   }
 ]
