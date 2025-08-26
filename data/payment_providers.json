@@ -25260,7 +25260,20 @@
     "code": "siquro",
     "vendor": "siquro",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "openbanking",
+      "eps",
+      "ideal",
+      "bank_transfer_klarna",
+      "mb_way",
+      "multibanconet",
+      "neteller",
+      "paysafecard",
+      "rapidtransfer",
+      "skrill",
+      "przelewy24",
+      "mybank2",
+      "epay"
     ],
     "name": {
       "en": "Siquro",
