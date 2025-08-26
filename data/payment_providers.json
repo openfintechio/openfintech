@@ -29055,5 +29055,21 @@
     "payout_method": [
       "bkash_limited"
     ]
+  },
+  {
+    "status": "active",
+    "code": "platcore",
+    "vendor": "platcore",
+    "name": {
+      "en": "Platcore",
+      "ru": "Platcore",
+      "uk": "Platcore"
+    },
+    "payment_method": [
+      "card_transfer"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
