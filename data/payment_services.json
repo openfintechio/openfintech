@@ -38771,6 +38771,60 @@
   },
   {
     "status": "active",
+    "code": "dragontech_eur_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_usd_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_ars_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "ARS",
+    "amount_min": 12.06,
+    "amount_max": 120600000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_clp_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_mxn_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "MXN",
+    "amount_min": 0.1,
+    "amount_max": 1844410
+  },
+  {
+    "status": "active",
+    "code": "dragontech_cop_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "COP",
+    "amount_min": 1,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
     "code": "bybit_pay_usdt_hpp",
     "flow": "hpp",
     "method": "bybit_pay",
