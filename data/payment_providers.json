@@ -29086,5 +29086,20 @@
     "payout_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "velvexpay",
+    "vendor": "velvexpay",
+    "name": {
+      "en": "VELVEXPAY",
+      "ru": "VELVEXPAY",
+      "uk": "VELVEXPAY"
+    },
+    "payout_method": [
+      "bank_transfer",
+      "payment_card",
+      "sepa_transfer"
+    ]
   }
 ]
