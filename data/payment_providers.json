@@ -29073,6 +29073,19 @@
   },
   {
     "status": "active",
+    "code": "dragontech",
+    "vendor": "dragontech",
+    "name": {
+      "en": "Dragon",
+      "ru": "Dragon",
+      "uk": "Dragon"
+    },
+    "payment_method": [
+      "dragontech"
+    ]
+  },
+  {
+    "status": "active",
     "code": "platcore",
     "vendor": "platcore",
     "name": {
