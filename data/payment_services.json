@@ -4408,6 +4408,15 @@
   },
   {
     "status": "active",
+    "code": "pagomovil_ves_invoice",
+    "currency": "VES",
+    "flow": "invoice",
+    "method": "pagomovil",
+    "amount_min": 60,
+    "amount_max": 6000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
