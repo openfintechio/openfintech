@@ -31031,6 +31031,15 @@
   },
   {
     "status": "active",
+    "code": "mtb_uah_invoice",
+    "currency": "UAH",
+    "flow": "invoice",
+    "method": "mtb",
+    "amount_min": 0.41,
+    "amount_max": 4137813
+  },
+  {
+    "status": "active",
     "code": "m10_azn_hpp",
     "flow": "hpp",
     "method": "m10",
