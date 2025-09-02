@@ -21168,7 +21168,17 @@
     "code": "todapay",
     "vendor": "todapay",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer_klarna",
+      "eps",
+      "ideal",
+      "mb_way",
+      "multibanconet",
+      "neteller",
+      "paysafecard",
+      "rapidtransfer",
+      "skrill",
+      "openbanking"
     ],
     "name": {
       "en": "TODA Pay",
