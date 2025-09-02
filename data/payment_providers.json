@@ -27766,6 +27766,19 @@
   },
   {
     "status": "active",
+    "code": "yardpay",
+    "vendor": "yardpay",
+    "name": {
+      "en": "YardPay",
+      "ru": "YardPay",
+      "uk": "YardPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paytently",
     "vendor": "paytently",
     "name": {
