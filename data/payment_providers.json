@@ -26608,6 +26608,19 @@
   },
   {
     "status": "active",
+    "code": "mtb2",
+    "vendor": "mtb",
+    "name": {
+      "en": "MTB2",
+      "ru": "МТБ2",
+      "uk": "МТБ2"
+    },
+    "payment_method": [
+      "mtb"
+    ]
+  },
+  {
+    "status": "active",
     "code": "cdn",
     "vendor": "cdn",
     "name": {
