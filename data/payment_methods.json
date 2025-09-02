@@ -6290,6 +6290,16 @@
     }
   },
   {
+    "code": "pagomovil",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "PagoMóvil",
+      "uk": "PagoMóvil",
+      "ru": "PagoMóvil"
+    }
+  },
+  {
     "code": "halotel",
     "category": "mobile_payment",
     "status": "active",
@@ -10335,6 +10345,16 @@
     }
   },
   {
+    "code": "mtb",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "MTB",
+      "ru": "МТБ",
+      "uk": "МТБ"
+    }
+  },
+  {
     "status": "active",
     "code": "emanat",
     "category": "invoice_payment",
@@ -11597,6 +11617,17 @@
       "en": "Fawry",
       "ru": "Fawry",
       "uk": "Fawry"
+    }
+  },
+  {
+    "code": "dragontech",
+    "vendor": "dragontech",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "DragonTech",
+      "ru": "DragonTech",
+      "uk": "DragonTech"
     }
   },
   {

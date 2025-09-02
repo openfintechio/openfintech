@@ -4408,6 +4408,15 @@
   },
   {
     "status": "active",
+    "code": "pagomovil_ves_invoice",
+    "currency": "VES",
+    "flow": "invoice",
+    "method": "pagomovil",
+    "amount_min": 60,
+    "amount_max": 6000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -31022,6 +31031,15 @@
   },
   {
     "status": "active",
+    "code": "mtb_uah_invoice",
+    "currency": "UAH",
+    "flow": "invoice",
+    "method": "mtb",
+    "amount_min": 0.41,
+    "amount_max": 4137813
+  },
+  {
+    "status": "active",
     "code": "m10_azn_hpp",
     "flow": "hpp",
     "method": "m10",
@@ -38768,6 +38786,60 @@
     ],
     "amount_min": 0.01,
     "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_eur_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_usd_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_ars_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "ARS",
+    "amount_min": 12.06,
+    "amount_max": 120600000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_clp_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "dragontech_mxn_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "MXN",
+    "amount_min": 0.1,
+    "amount_max": 1844410
+  },
+  {
+    "status": "active",
+    "code": "dragontech_cop_hpp",
+    "flow": "hpp",
+    "method": "dragontech",
+    "currency": "COP",
+    "amount_min": 1,
+    "amount_max": 500000000
   },
   {
     "status": "active",
