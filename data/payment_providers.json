@@ -29182,5 +29182,18 @@
       "payment_card",
       "sepa_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "takapayjazzcash",
+    "vendor": "takapayjazzcash",
+    "name": {
+      "en": "TakapayJazzCash",
+      "ru": "TakapayJazzCash",
+      "uk": "TakapayJazzCash"
+    },
+    "payment_method": [
+      "jazzcash"
+    ]
   }
 ]
