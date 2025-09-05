@@ -29185,6 +29185,20 @@
   },
   {
     "status": "active",
+    "code": "ozow",
+    "vendor": "ozow",
+    "name": {
+      "en": "Ozow",
+      "ru": "Ozow",
+      "uk": "Ozow"
+    },
+    "payment_method": [
+      "bank_transfer",
+      "capitec_pay"
+    ]
+  },
+  {
+    "status": "active",
     "code": "takapayjazzcash",
     "vendor": "takapayjazzcash",
     "name": {
