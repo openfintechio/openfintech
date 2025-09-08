@@ -32539,6 +32539,15 @@
   },
   {
     "status": "active",
+    "code": "mercadopago_ars_hpp",
+    "flow": "hpp",
+    "method": "mercadopago",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 140000000
+  },
+  {
+    "status": "active",
     "code": "punto_red_cop_hpp",
     "flow": "hpp",
     "method": "punto_red",
