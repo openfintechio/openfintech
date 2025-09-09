@@ -36990,6 +36990,62 @@
   },
   {
     "status": "active",
+    "code": "mobile_kes_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "KES",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mobile_ghs_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "GHS",
+    "amount_min": 0.01,
+    "amount_max": 760000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "mtn_zmw_invoice",
     "flow": "invoice",
     "method": "mtn",
