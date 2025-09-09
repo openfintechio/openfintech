@@ -25859,6 +25859,42 @@
         },
         "regexp": "\/^[0-9]{5,100}$\/",
         "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "cnic_number",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "CNIC number",
+          "ru": "CNIC номер",
+          "uk": "CNIC Номер"
+        },
+        "hint": {
+          "en": "Enter cnic number",
+          "ru": "Введите cnic номер",
+          "uk": "Введіть cnic номер"
+        },
+        "regexp": "\/^.{1,6}$\/",
+        "example": "123456"
+      },
+      {
+        "key": "phone_number",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "example": "+380996233220"
       }
     ],
     "amount_min": 1,
