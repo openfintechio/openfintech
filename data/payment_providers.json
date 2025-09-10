@@ -5791,7 +5791,6 @@
     "payment_method": [
       "china_citic_bank",
       "industrial_bank",
-      "china_guangfa_bank",
       "china_merchants_bank",
       "china_postal_savings_bank",
       "bank_of_china",
@@ -5876,7 +5875,6 @@
     ],
     "payout_method": [
       "china_citic_bank",
-      "china_guangfa_bank",
       "china_merchants_bank",
       "bank_of_china",
       "agricultural_bank_of_china",
@@ -5897,8 +5895,6 @@
       "bank_of_shanghai",
       "huishang_bank",
       "hangzhou_city_commercial_bank",
-      "bank_of_nanjing",
-      "china_bohai_bank",
       "shanghai_rural_commercial_bank",
       "bank_of_east_asia",
       "zhuhai_rural_credit_cooperatives",
@@ -12106,7 +12102,9 @@
       "about_payments_code": "chasepaymentech"
     },
     "name": {
-      "en": "J.P. Morgan Commerce Solutions"
+      "en": "Chase",
+      "ru": "Chase",
+      "uk": "Chase"
     }
   },
   {
