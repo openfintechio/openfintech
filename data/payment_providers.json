@@ -21206,7 +21206,10 @@
       "paysafecard",
       "rapidtransfer",
       "skrill",
-      "openbanking"
+      "openbanking",
+      "bank_transfer",
+      "sepa_transfer",
+      "interac"
     ],
     "name": {
       "en": "TODA Pay",
@@ -28236,7 +28239,8 @@
     "payment_method": [
       "bank_transfer",
       "spei",
-      "pix"
+      "pix",
+      "pagomovil"
     ],
     "payout_method": [
       "bank_transfer",
