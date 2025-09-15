@@ -26117,6 +26117,19 @@
   },
   {
     "status": "active",
+    "code": "madfin",
+    "vendor": "madfin",
+    "name": {
+      "en": "MADFIN",
+      "ru": "MADFIN",
+      "uk": "MADFIN"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "elitepay",
     "vendor": "elitepay",
     "name": {
