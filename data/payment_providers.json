@@ -25820,7 +25820,9 @@
       "bancontact"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "hkma_fps",
+      "bank_transfer"
     ]
   },
   {
