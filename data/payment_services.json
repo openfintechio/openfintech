@@ -10841,6 +10841,24 @@
   },
   {
     "status": "active",
+    "code": "crypto_aggregated_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "crypto_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "crypto_aggregated_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "crypto_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 9999999
+  },
+  {
+    "status": "active",
     "code": "wechat_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
