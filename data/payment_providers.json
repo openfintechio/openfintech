@@ -26119,6 +26119,19 @@
   },
   {
     "status": "active",
+    "code": "confirmo",
+    "vendor": "confirmo",
+    "name": {
+      "en": "Confirmo",
+      "ru": "Confirmo",
+      "uk": "Confirmo"
+    },
+    "payment_method": [
+      "crypto_aggregated"
+    ]
+  },
+  {
+    "status": "active",
     "code": "madfin",
     "vendor": "madfin",
     "name": {

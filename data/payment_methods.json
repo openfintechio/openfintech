@@ -5961,6 +5961,16 @@
     }
   },
   {
+    "code": "crypto_aggregated",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Crypto Aggregated",
+      "ru": "Crypto Aggregated",
+      "uk": "Crypto Aggregated"
+    }
+  },
+  {
     "code": "wechat",
     "category": "payment_card",
     "status": "active",
