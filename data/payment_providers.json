@@ -29348,5 +29348,18 @@
     "payment_method": [
       "jazzcash"
     ]
+  },
+  {
+    "status": "active",
+    "code": "matrixpaysolution",
+    "vendor": "matrixpaysolution",
+    "name": {
+      "en": "MatrixPaySolution",
+      "ru": "MatrixPaySolution",
+      "uk": "MatrixPaySolution"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
