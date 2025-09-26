@@ -26650,6 +26650,19 @@
   },
   {
     "status": "active",
+    "code": "wirebloom",
+    "vendor": "wirebloom",
+    "name": {
+      "en": "Wirebloom",
+      "ru": "Wirebloom",
+      "uk": "Wirebloom"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "creditum",
     "vendor": "creditum",
     "name": {
