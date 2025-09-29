@@ -19547,7 +19547,14 @@
       "uk": "PaySage.io"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer",
+      "blik",
+      "applepay",
+      "googlepay",
+      "mb_way",
+      "multibanco",
+      "paysage_crypto"
     ],
     "payout_method": [
       "payment_card"
