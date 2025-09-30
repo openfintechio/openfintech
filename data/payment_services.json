@@ -2630,6 +2630,15 @@
   },
   {
     "status": "active",
+    "code": "solana_sol_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "SOL",
+    "amount_min": 0.01,
+    "amount_max": 500
+  },
+  {
+    "status": "active",
     "code": "solana_bep20_cad_hpp",
     "flow": "hpp",
     "method": "solana",
@@ -11676,6 +11685,15 @@
   },
   {
     "status": "active",
+    "code": "usd_coin_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "usd_coin_erc20_cad_hpp",
     "flow": "hpp",
     "method": "usd_coin",
@@ -15743,6 +15761,15 @@
   {
     "status": "active",
     "code": "tether_trc20_usdt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_usdt_hpp",
     "flow": "hpp",
     "method": "tether",
     "currency": "USDT",
