@@ -29371,6 +29371,23 @@
   },
   {
     "status": "active",
+    "code": "boomfi",
+    "vendor": "boomfi",
+    "name": {
+      "en": "Boomfi",
+      "ru": "Boomfi",
+      "uk": "Boomfi"
+    },
+    "payment_method": [
+      "ethereum",
+      "usd_coin",
+      "tether",
+      "solana",
+      "bitcoin"
+    ]
+  },
+  {
+    "status": "active",
     "code": "matrixpaysolution",
     "vendor": "matrixpaysolution",
     "name": {
