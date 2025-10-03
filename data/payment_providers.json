@@ -29261,6 +29261,21 @@
   },
   {
     "status": "active",
+    "code": "spell",
+    "vendor": "spell",
+    "name": {
+      "en": "Spell",
+      "ru": "Spell",
+      "uk": "Spell"
+    },
+    "payout_method": [
+      "bank_transfer",
+      "payment_card",
+      "sepa_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "cardpaymentz",
     "vendor": "cardpaymentz",
     "name": {
