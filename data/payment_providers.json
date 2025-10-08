@@ -29422,5 +29422,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "smashpay",
+    "vendor": "smashpay",
+    "name": {
+      "en": "SmashPay",
+      "ru": "SmashPay",
+      "uk": "SmashPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
