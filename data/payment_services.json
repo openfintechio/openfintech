@@ -2630,6 +2630,15 @@
   },
   {
     "status": "active",
+    "code": "solana_sol_hpp",
+    "flow": "hpp",
+    "method": "solana",
+    "currency": "SOL",
+    "amount_min": 0.01,
+    "amount_max": 500
+  },
+  {
+    "status": "active",
     "code": "solana_bep20_cad_hpp",
     "flow": "hpp",
     "method": "solana",
@@ -3978,6 +3987,15 @@
     "status": "active",
     "code": "bank_transfer_gbp_hpp",
     "currency": "GBP",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_pln_hpp",
+    "currency": "PLN",
     "flow": "hpp",
     "method": "bank_transfer",
     "amount_min": 0.01,
@@ -10845,6 +10863,26 @@
     "currency": "EUR",
     "flow": "hpp",
     "method": "crypto_aggregated",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -10854,6 +10892,26 @@
     "currency": "USD",
     "flow": "hpp",
     "method": "crypto_aggregated",
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 9999999
   },
@@ -11619,6 +11677,15 @@
   {
     "status": "active",
     "code": "usd_coin_trc20_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_usdc_hpp",
     "flow": "hpp",
     "method": "usd_coin",
     "currency": "USDC",
@@ -15694,6 +15761,15 @@
   {
     "status": "active",
     "code": "tether_trc20_usdt_hpp",
+    "flow": "hpp",
+    "method": "tether",
+    "currency": "USDT",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tether_usdt_hpp",
     "flow": "hpp",
     "method": "tether",
     "currency": "USDT",
@@ -31366,6 +31442,15 @@
   },
   {
     "status": "active",
+    "code": "paysage_crypto_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "paysage_crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "kunapay_crypto_eur_hpp",
     "currency": "EUR",
     "flow": "hpp",
@@ -39024,5 +39109,407 @@
     "currency": "USDT",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mtn_xof_invoice",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "mtn",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "moov_xof_invoice",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "moov",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "orange_money_xof_invoice",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "orange_money",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "wave_xof_invoice",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "wave",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "mtn_xaf_invoice",
+    "currency": "XAF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "mtn",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "orange_money_xaf_invoice",
+    "currency": "XAF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "orange_money",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_xaf_invoice",
+    "flow": "invoice",
+    "method": "airtel_money",
+    "currency": "XAF",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mtn_cdf_invoice",
+    "currency": "CDF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "mtn",
+    "amount_min": 26,
+    "amount_max": 256992047
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_mwk_invoice",
+    "flow": "invoice",
+    "method": "airtel_money",
+    "currency": "MWK",
+    "amount_min": 1,
+    "amount_max": 173401825,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tnm_mwk_invoice",
+    "currency": "MWK",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "tnm",
+    "amount_min": 1,
+    "amount_max": 173401825
+  },
+  {
+    "status": "active",
+    "code": "orange_money_sll_invoice",
+    "currency": "SLL",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "orange_money",
+    "amount_min": 1,
+    "amount_max": 2330000
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_cdf_invoice",
+    "flow": "invoice",
+    "method": "airtel_money",
+    "currency": "CDF",
+    "amount_min": 26,
+    "amount_max": 256992047,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "orange_money_cdf_invoice",
+    "currency": "CDF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "orange_money",
+    "amount_min": 26,
+    "amount_max": 256992047
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_rwf_invoice",
+    "flow": "invoice",
+    "method": "airtel_money",
+    "currency": "RWF",
+    "amount_min": 15,
+    "amount_max": 145038270,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
   }
 ]

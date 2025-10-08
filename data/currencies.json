@@ -11703,6 +11703,21 @@
     }
   },
   {
+    "code": "SOL",
+    "name": {
+      "en": "SOL"
+    },
+    "type": "crypto",
+    "status": "active",
+    "exponent": 9,
+    "category": "other",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "estandards_code": "SOL",
+      "jsons_code": "SOL"
+    }
+  },
+  {
     "code": "WME",
     "parent_code": "EUR",
     "vendor": "webmoney",

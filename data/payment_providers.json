@@ -17401,7 +17401,11 @@
       "tigo_pesa",
       "halotel",
       "airtel_money",
-      "bank_transfer"
+      "bank_transfer",
+      "moov",
+      "wave",
+      "orange_money",
+      "tnm"
     ],
     "payout_method": [
       "zenith_bank",
@@ -17449,7 +17453,11 @@
       "airtel_money",
       "zamtel",
       "mtn",
-      "halotel"
+      "halotel",
+      "orange_money",
+      "moov",
+      "m_pesa",
+      "tnm"
     ]
   },
   {
@@ -18012,7 +18020,63 @@
       "en": "Spoynt"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "sepa_transfer",
+      "jeton_wallet",
+      "spush_pay",
+      "applepay",
+      "googlepay",
+      "paysafecard",
+      "bitcoin",
+      "tether",
+      "ethereum",
+      "binancepay",
+      "dogecoin",
+      "skrill",
+      "neteller",
+      "mb_way",
+      "multibanco",
+      "payshop",
+      "bizum",
+      "blik",
+      "przelewy24",
+      "eps",
+      "bank_transfer",
+      "swiffy_eft",
+      "snapscan_qr",
+      "palmpay",
+      "opay",
+      "mobile",
+      "airtel_money",
+      "mtn",
+      "halotel",
+      "tigo_pesa",
+      "vodacom",
+      "zamtel",
+      "upi",
+      "viettelpay",
+      "techcom_bank_qr",
+      "vietin_bank_qr",
+      "bca_va",
+      "bni_va",
+      "bri_va",
+      "bsi_va",
+      "cimb_ca",
+      "mandiri_va",
+      "permata_va",
+      "qris",
+      "ovo",
+      "shopeepay",
+      "dana",
+      "promptpay",
+      "pix",
+      "pse",
+      "nequi",
+      "efecty",
+      "interac",
+      "card_transfer",
+      "m10",
+      "emanat"
     ],
     "payout_method": [
       "payment_card",
@@ -18036,7 +18100,34 @@
       "turkey_econom_bank",
       "ziraat_bank",
       "pix",
-      "bank_transfer"
+      "bank_transfer",
+      "spush_pay",
+      "jeton_wallet",
+      "blik",
+      "capitec_bank",
+      "safaricom",
+      "airtel_money",
+      "equitel",
+      "mtn",
+      "vodafone_ghana",
+      "orange_money",
+      "halotel",
+      "tigo_pesa",
+      "zamtel",
+      "upi",
+      "momo",
+      "bca_bank",
+      "bni_bank",
+      "bri_bank",
+      "danamon_bank",
+      "mandiri_bank",
+      "permata_bank",
+      "panin_bank",
+      "ovo",
+      "shopeepay",
+      "dana",
+      "nequi",
+      "m10"
     ]
   },
   {
@@ -19178,6 +19269,9 @@
     },
     "payment_method": [
       "card_transfer"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -19461,7 +19555,14 @@
       "uk": "PaySage.io"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer",
+      "blik",
+      "applepay",
+      "googlepay",
+      "mb_way",
+      "multibanco",
+      "paysage_crypto"
     ],
     "payout_method": [
       "payment_card"
@@ -20703,6 +20804,9 @@
     },
     "payout_method": [
       "payment_card"
+    ],
+    "payment_method": [
+      "payment_card"
     ]
   },
   {
@@ -21079,6 +21183,7 @@
       "dutch_bangla_bank_limited_rocket",
       "united_commercial_bank_upay",
       "bkash_limited",
+      "sepa_transfer",
       "nagad_wallet"
     ]
   },
@@ -24266,9 +24371,6 @@
     "payment_method": [
       "payment_card"
     ],
-    "payout_method": [
-      "payment_card"
-    ],
     "name": {
       "en": "PionPay",
       "ru": "PionPay",
@@ -25817,7 +25919,11 @@
       "multibanco",
       "mybank2",
       "eps",
-      "bancontact"
+      "bancontact",
+      "crypto_aggregated",
+      "interac",
+      "polipayonline",
+      "ideal"
     ],
     "payout_method": [
       "payment_card",
@@ -26553,6 +26659,19 @@
       "en": "PaywiseSolutions",
       "ru": "PaywiseSolutions",
       "uk": "PaywiseSolutions"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "wirebloom",
+    "vendor": "wirebloom",
+    "name": {
+      "en": "Wirebloom",
+      "ru": "Wirebloom",
+      "uk": "Wirebloom"
     },
     "payment_method": [
       "payment_card"
@@ -28558,11 +28677,13 @@
     },
     "payment_method": [
       "bkash_limited",
-      "nagad_wallet"
+      "nagad_wallet",
+      "united_commercial_bank_upay"
     ],
     "payout_method": [
       "bkash_limited",
-      "nagad_wallet"
+      "nagad_wallet",
+      "united_commercial_bank_upay"
     ]
   },
   {
@@ -29144,6 +29265,24 @@
   },
   {
     "status": "active",
+    "code": "spell",
+    "vendor": "spell",
+    "name": {
+      "en": "Spell",
+      "ru": "Spell",
+      "uk": "Spell"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "bank_transfer",
+      "payment_card",
+      "sepa_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "cardpaymentz",
     "vendor": "cardpaymentz",
     "name": {
@@ -29239,6 +29378,9 @@
     "payment_method": [
       "bank_transfer",
       "capitec_pay"
+    ],
+    "payout_method": [
+      "bank_transfer"
     ]
   },
   {
@@ -29252,6 +29394,49 @@
     },
     "payment_method": [
       "jazzcash"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "boomfi",
+    "vendor": "boomfi",
+    "name": {
+      "en": "Boomfi",
+      "ru": "Boomfi",
+      "uk": "Boomfi"
+    },
+    "payment_method": [
+      "ethereum",
+      "usd_coin",
+      "tether",
+      "solana",
+      "bitcoin"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "matrixpaysolution",
+    "vendor": "matrixpaysolution",
+    "name": {
+      "en": "MatrixPaySolution",
+      "ru": "MatrixPaySolution",
+      "uk": "MatrixPaySolution"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "smashpay",
+    "vendor": "smashpay",
+    "name": {
+      "en": "SmashPay",
+      "ru": "SmashPay",
+      "uk": "SmashPay"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]
