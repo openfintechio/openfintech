@@ -37770,6 +37770,24 @@
           "uk": "Введіть номер рахунку клієнта"
         },
         "example": "1100382992"
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account bank name",
+          "ru": "Название банка клиентского счета",
+          "uk": "Назва банку рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account bank name",
+          "ru": "Введите название банка клиента",
+          "uk": "Введіть назву банка клієнта"
+        },
+        "example": "revolut"
       }
     ],
     "amount_min": 0.01,
