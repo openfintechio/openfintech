@@ -21338,6 +21338,19 @@
   },
   {
     "status": "active",
+    "code": "topay",
+    "vendor": "topay",
+    "name": {
+      "en": "TOPAY.PRO",
+      "ru": "TOPAY.PRO",
+      "uk": "TOPAY.PRO"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "ensopay",
     "vendor": "ensopay",
     "name": {
