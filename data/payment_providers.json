@@ -29272,6 +29272,9 @@
       "ru": "Spell",
       "uk": "Spell"
     },
+    "payment_method": [
+      "payment_card"
+    ],
     "payout_method": [
       "bank_transfer",
       "payment_card",
@@ -29418,6 +29421,19 @@
       "en": "MatrixPaySolution",
       "ru": "MatrixPaySolution",
       "uk": "MatrixPaySolution"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "smashpay",
+    "vendor": "smashpay",
+    "name": {
+      "en": "SmashPay",
+      "ru": "SmashPay",
+      "uk": "SmashPay"
     },
     "payment_method": [
       "payment_card"
