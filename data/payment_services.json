@@ -32624,6 +32624,15 @@
   },
   {
     "status": "active",
+    "code": "interac_mb_cad_hpp",
+    "flow": "hpp",
+    "method": "interac",
+    "currency": "CAD",
+    "amount_min": 1,
+    "amount_max": 130000
+  },
+  {
+    "status": "active",
     "code": "mercadopago_cop_hpp",
     "flow": "hpp",
     "method": "mercadopago",
