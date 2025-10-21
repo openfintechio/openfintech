@@ -9586,6 +9586,15 @@
       "skrill",
       "neteller"
     ],
+    "payout_method": [
+      "payment_card",
+      "bank_transfer",
+      "upi",
+      "pix",
+      "imps",
+      "paytm",
+      "sepa_transfer"
+    ],
     "name": {
       "en": "Unity Finance",
       "uk": "Unity Finance",
