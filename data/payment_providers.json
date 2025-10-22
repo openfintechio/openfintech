@@ -29072,7 +29072,11 @@
     },
     "payment_method": [
       "sepa_transfer",
-      "sepa_transfer_instant"
+      "sepa_transfer_instant",
+      "revolut_bank",
+      "wise",
+      "n26_bank",
+      "bunq"
     ]
   },
   {
