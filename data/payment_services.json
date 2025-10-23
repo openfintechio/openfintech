@@ -39529,5 +39529,14 @@
         "position": 1
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "epay_bgn_hpp",
+    "flow": "hpp",
+    "method": "epay",
+    "currency": "BGN",
+    "amount_min": 0.01,
+    "amount_max": 200000
   }
 ]
