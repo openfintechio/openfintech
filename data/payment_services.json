@@ -28619,6 +28619,15 @@
   },
   {
     "status": "active",
+    "code": "bunq_eur_hpp",
+    "flow": "hpp",
+    "method": "bunq",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "payskin_eur_hpp",
     "flow": "hpp",
     "method": "payskin",
