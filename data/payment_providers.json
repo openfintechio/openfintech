@@ -29344,6 +29344,19 @@
   },
   {
     "status": "active",
+    "code": "noveba",
+    "vendor": "noveba",
+    "name": {
+      "en": "Noveba",
+      "ru": "Noveba",
+      "uk": "Noveba"
+    },
+    "payout_method": [
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "creedo",
     "vendor": "creedo",
     "description": {
