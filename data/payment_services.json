@@ -39547,5 +39547,14 @@
     "currency": "BGN",
     "amount_min": 0.01,
     "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "mybank2_bgn_hpp",
+    "flow": "hpp",
+    "method": "mybank2",
+    "currency": "BGN",
+    "amount_min": 0.01,
+    "amount_max": 200000
   }
 ]
