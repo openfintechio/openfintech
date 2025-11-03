@@ -25729,7 +25729,10 @@
     "code": "onlypay",
     "vendor": "onlypay",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "orange_cash",
+      "instapay",
+      "vodafone_cash"
     ],
     "payout_method": [
       "orange_cash",

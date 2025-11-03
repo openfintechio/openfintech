@@ -39556,5 +39556,50 @@
     "currency": "BGN",
     "amount_min": 0.01,
     "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "instapay_egp_invoice",
+    "currency": "EGP",
+    "method": "instapay",
+    "flow": "invoice",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "instapay_egp_hpp",
+    "currency": "EGP",
+    "method": "instapay",
+    "flow": "hpp",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "orange_cash_egp_invoice",
+    "currency": "EGP",
+    "flow": "invoice",
+    "method": "orange_cash",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "orange_cash_egp_hpp",
+    "currency": "EGP",
+    "flow": "hpp",
+    "method": "orange_cash",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "vodafone_cash_egp_invoice",
+    "currency": "EGP",
+    "flow": "invoice",
+    "method": "vodafone_cash",
+    "amount_min": 48,
+    "amount_max": 4723005
   }
 ]
