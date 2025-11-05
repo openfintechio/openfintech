@@ -20748,6 +20748,15 @@
   },
   {
     "status": "active",
+    "code": "jeton_wallet_aud_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
     "code": "interac_cad_hpp",
     "flow": "hpp",
     "method": "interac",
