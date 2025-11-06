@@ -469,7 +469,9 @@
     },
     "vendor": "anycash",
     "name": {
-      "en": "AnyCash"
+      "en": "Any.Cash",
+      "ru": "Any.Cash",
+      "uk": "Any.Cash"
     },
     "payout_method": [
       "qiwi",
@@ -4420,9 +4422,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "TrustPay",
-      "ru": "TrustPay",
-      "uk": "TrustPay"
+      "en": "finby",
+      "ru": "finby",
+      "uk": "finby"
     },
     "description": {
       "de": "TrustPay ist ein europäischer Zahlungsdienstleister mit Sitz in der Slowakei, der sich auf umfassende Zahlungslösungen für den digitalen Handel spezialisiert hat. Das Unternehmen ist als E-Geld-Institut lizenziert und von der Nationalbank der Slowakei reguliert, wodurch es in der gesamten EU agieren kann. TrustPay bietet eine breite Palette von Dienstleistungen an, darunter Kartenzahlungen, SEPA- und SWIFT-Überweisungen, Instant Payments, Massenzahlungen sowie den Zugang zu lokalen Zahlungsmethoden in zahlreichen Ländern. Besonders geschätzt wird TrustPay für seine schnelle Kontoeröffnung, transparente Preisgestaltung und zuverlässige Infrastruktur, die sowohl für E-Commerce-Unternehmen als auch für Finanzdienstleister geeignet ist. Die Plattform legt großen Wert auf Sicherheit und Compliance, einschließlich PCI-DSS-Zertifizierung und moderner Betrugspräventionsmechanismen. Ein weiteres Merkmal ist das benutzerfreundliche Online-Banking-Interface für Händler, das eine einfache Verwaltung von Zahlungen und Berichten ermöglicht. TrustPay und über 500 weitere Anbieter sind bereits in Corefys Payment-Orchestration-Plattform integriert, wodurch unsere Kunden die Integration sofort und ohne Programmieraufwand nutzen können – einfach durch Eingabe ihrer MID-Zugangsdaten im Corefy-Dashboard.",
@@ -5120,7 +5122,9 @@
       "about_payments_code": "portmone"
     },
     "name": {
-      "en": "Portmone.com"
+      "en": "Portmone",
+      "ru": "Portmone",
+      "uk": "Portmone"
     },
     "payment_method": [
       "payment_card",
@@ -6004,9 +6008,9 @@
       "about_payments_code": "cardinity"
     },
     "name": {
-      "en": "Cardinity",
-      "ru": "Cardinity",
-      "uk": "Cardinity"
+      "en": "Nomupay",
+      "ru": "Nomupay",
+      "uk": "Nomupay"
     },
     "payment_method": [
       "payment_card"
@@ -7377,7 +7381,9 @@
       "about_payments_code": "ppro"
     },
     "name": {
-      "en": "PPRO Financial Ltd"
+      "en": "PPRO",
+      "ru": "PPRO",
+      "uk": "PPRO"
     }
   },
   {
@@ -9598,9 +9604,9 @@
       "sepa_transfer"
     ],
     "name": {
-      "en": "Unity Finance",
-      "uk": "Unity Finance",
-      "ru": "Unity Finance"
+      "en": "UnityFinance",
+      "ru": "UnityFinance",
+      "uk": "UnityFinance"
     }
   },
   {
@@ -12051,9 +12057,9 @@
       "about_payments_code": "truevo"
     },
     "name": {
-      "en": "Truevo Payments Ltd",
-      "ru": "Truevo Payments Ltd",
-      "uk": "Truevo Payments Ltd"
+      "en": "Truevo",
+      "ru": "Truevo",
+      "uk": "Truevo"
     },
     "description": {
       "de": "Truevo ist ein europäischer Zahlungsdienstleister mit Sitz in Malta, der Kartenzahlungen, mobile Zahlungen und E-Commerce-Transaktionen in Echtzeit ermöglicht. Die Plattform richtet sich an Unternehmen jeder Größe und bietet eine komplette End-to-End-Zahlungslösung, einschließlich Acquiring, POS-Terminals, virtuellen Terminals, Karten-Issuing und Abwicklung von Online-Zahlungen. Truevo unterstützt Zahlungen in mehreren Währungen und bietet integrierte Tools zur Umsatzanalyse, Betrugsprävention und Kundenbindung. Besonders geschätzt wird die einfache Integration über Plug-ins oder APIs sowie der persönliche Kundensupport. Truevo und über 500 weitere Anbieter sind bereits in Corefys Payment-Orchestration-Plattform integriert, wodurch unsere Kunden die Integration sofort und ohne Programmieraufwand nutzen können – einfach durch Eingabe ihrer MID-Zugangsdaten im Corefy-Dashboard.",
@@ -14794,9 +14800,9 @@
       "villarica_pawnshop"
     ],
     "name": {
-      "en": "PaymentAsia",
-      "ru": "PaymentAsia",
-      "uk": "PaymentAsia"
+      "en": "Payment Asia",
+      "ru": "Payment Asia",
+      "uk": "Payment Asia"
     }
   },
   {
@@ -17164,9 +17170,9 @@
     "code": "paymentz",
     "vendor": "paymentz",
     "name": {
-      "en": "Paymentz",
-      "ru": "Paymentz",
-      "uk": "Paymentz"
+      "en": "Paio",
+      "ru": "Paio",
+      "uk": "Paio"
     },
     "payment_method": [
       "payment_card"
@@ -17886,9 +17892,9 @@
     },
     "vendor": "advcash",
     "name": {
-      "en": "Advcash",
-      "ru": "Advcash",
-      "uk": "Advcash"
+      "en": "Volet.com",
+      "ru": "Volet.com",
+      "uk": "Volet.com"
     },
     "payment_method": [
       "advcash_wallet"
@@ -18365,7 +18371,9 @@
     "code": "platio",
     "vendor": "platio",
     "name": {
-      "en": "Platio"
+      "en": "Platio",
+      "ru": "Platio",
+      "uk": "Platio"
     },
     "countries": [],
     "payment_method": [
@@ -18684,7 +18692,9 @@
     "code": "rapyd",
     "vendor": "rapyd",
     "name": {
-      "en": "Rapyd.net"
+      "en": "Rapyd",
+      "ru": "Rapyd",
+      "uk": "Rapyd"
     },
     "payment_method": [
       "payment_card"
@@ -18943,9 +18953,9 @@
     },
     "vendor": "wlandpay",
     "name": {
-      "en": "Wlandpay",
-      "ru": "Wlandpay",
-      "uk": "Wlandpay"
+      "en": "Wonderlandpay",
+      "ru": "Wonderlandpay",
+      "uk": "Wonderlandpay"
     },
     "payment_method": [
       "payment_card"
@@ -19030,9 +19040,9 @@
     "code": "epayglobal",
     "vendor": "epayglobal",
     "name": {
-      "en": "ePay Global",
-      "ru": "ePay Global",
-      "uk": "ePay Global"
+      "en": "Epay",
+      "ru": "Epay",
+      "uk": "Epay"
     },
     "payment_method": [
       "payment_card"
@@ -19177,9 +19187,9 @@
     "code": "cashfree",
     "vendor": "cashfree",
     "name": {
-      "en": "Cashfree",
-      "ru": "Cashfree",
-      "uk": "Cashfree"
+      "en": "Cashfree Payments",
+      "ru": "Cashfree Payments",
+      "uk": "Cashfree Payments"
     },
     "payment_method": [],
     "payout_method": [
@@ -19435,9 +19445,9 @@
     "code": "pumb",
     "vendor": "pumb",
     "name": {
-      "en": "The First Ukrainian International Bank",
-      "ru": "Первый Украинский Международный Банк",
-      "uk": "Перший Український Міжнародний Банк"
+      "en": "PUMB",
+      "ru": "PUMB",
+      "uk": "PUMB"
     },
     "payment_method": [
       "payment_card"
@@ -19542,9 +19552,9 @@
     "code": "pivdennybank",
     "vendor": "pivdennybank",
     "name": {
-      "en": "Bank Pivdenny",
-      "ru": "Банк Південний",
-      "uk": "Банк Південний"
+      "en": "Pivdenny Bank",
+      "ru": "Pivdenny Bank",
+      "uk": "Pivdenny Bank"
     },
     "countries": [
       "UA"
@@ -19560,12 +19570,13 @@
     "status": "active",
     "code": "paysage",
     "description": {
-      "en": "Paysage is a payment orchestration platform that helps businesses streamline their payment processing. It offers a single interface for all your payment gateway providers, making it easy to manage and track payments. With Paysage, you can also automate repetitive tasks, such as billing and invoicing. This can save you time and money, and help you focus on running your business. Paysage's features include recurring billing, invoicing, and report generation. It also provides a fraud prevention system and supports 3D Secure authentication. Paysage is PCI DSS compliant and offers 24/7 customer support. Paysage is ideal for businesses that need to process high volumes of transactions, as it can handle up to 10,000 transactions per second. The platform is also scalable, so businesses can easily add more payment gateway providers as their needs grow. Paysage offers a free trial, so businesses can try out the platform before committing to a subscription. There are three subscription plans available, starting at $99 per month. Paysage also offers a custom pricing option for businesses that need more than 10,000 transactions per second. Pros: unified interface for managing multiple payment gateway providers, support for multiple currencies and languages, recurring billing and invoicing, fraud prevention system, 24/7 customer support. Paysage is a great solution for businesses of all sizes. If you're looking for a way to simplify your payment processing, Paysage is worth considering."    },
+      "en": "Paysage is a payment orchestration platform that helps businesses streamline their payment processing. It offers a single interface for all your payment gateway providers, making it easy to manage and track payments. With Paysage, you can also automate repetitive tasks, such as billing and invoicing. This can save you time and money, and help you focus on running your business. Paysage's features include recurring billing, invoicing, and report generation. It also provides a fraud prevention system and supports 3D Secure authentication. Paysage is PCI DSS compliant and offers 24/7 customer support. Paysage is ideal for businesses that need to process high volumes of transactions, as it can handle up to 10,000 transactions per second. The platform is also scalable, so businesses can easily add more payment gateway providers as their needs grow. Paysage offers a free trial, so businesses can try out the platform before committing to a subscription. There are three subscription plans available, starting at $99 per month. Paysage also offers a custom pricing option for businesses that need more than 10,000 transactions per second. Pros: unified interface for managing multiple payment gateway providers, support for multiple currencies and languages, recurring billing and invoicing, fraud prevention system, 24/7 customer support. Paysage is a great solution for businesses of all sizes. If you're looking for a way to simplify your payment processing, Paysage is worth considering."
+    },
     "vendor": "paysage",
     "name": {
-      "en": "PaySage.io",
-      "ru": "PaySage.io",
-      "uk": "PaySage.io"
+      "en": "COLIBRIX",
+      "ru": "COLIBRIX",
+      "uk": "COLIBRIX"
     },
     "payment_method": [
       "payment_card",
@@ -19640,9 +19651,9 @@
     },
     "vendor": "amlnode",
     "name": {
-      "en": "AML Node",
-      "ru": "AML Node",
-      "uk": "AML node"
+      "en": "AMLNode",
+      "ru": "AMLNode",
+      "uk": "AMLNode"
     },
     "payment_method": [
       "bitcoin",
@@ -19706,9 +19717,9 @@
     "code": "ukrgasbank",
     "vendor": "ukrgasbank",
     "name": {
-      "uk": "Укргазбанк",
-      "en": "UkrGasBank",
-      "ru": "Укргазбанк"
+      "en": "Ukrgasbank",
+      "ru": "Ukrgasbank",
+      "uk": "Ukrgasbank"
     },
     "payment_method": [
       "payment_card",
@@ -20002,9 +20013,9 @@
     "code": "transactworld",
     "vendor": "transactworld",
     "name": {
-      "en": "Transact World",
-      "ru": "Transact World",
-      "uk": "Transact World"
+      "en": "TransactWorld",
+      "ru": "TransactWorld",
+      "uk": "TransactWorld"
     },
     "payment_method": [
       "payment_card"
@@ -20097,9 +20108,9 @@
     },
     "vendor": "gumballpay",
     "name": {
-      "en": "GumballPay",
-      "ru": "GumballPay",
-      "uk": "GumballPay"
+      "en": "Finera",
+      "ru": "Finera",
+      "uk": "Finera"
     },
     "payment_method": [
       "payment_card",
@@ -20153,9 +20164,9 @@
     "code": "solidgate",
     "vendor": "solidgate",
     "name": {
-      "en": "Solid",
-      "ru": "Solid",
-      "uk": "Solid"
+      "en": "Solidgate",
+      "ru": "Solidgate",
+      "uk": "Solidgate"
     },
     "description": {
       "uk": "Solidgate — це український платіжний провайдер, який надає комплексну інфраструктуру для прийому онлайн-платежів у сфері e-commerce, SaaS і цифрових послуг. Компанія спеціалізується на автоматизації білінгу, багатовалютній підтримці, антифрод-захисті, smart routing і гнучкій API-інтеграції. Solidgate допомагає бізнесам масштабуватися на міжнародному рівні, зберігаючи високу конверсію та відповідність фінансовим стандартам. Серед клієнтів компанії — технологічні стартапи, стрімінгові сервіси та маркетплейси. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
@@ -20507,9 +20518,9 @@
     "code": "constantpos",
     "vendor": "constantpos",
     "name": {
-      "en": "Constantpos",
-      "ru": "Constantpos",
-      "uk": "Constantpos"
+      "en": "Constant Payments",
+      "ru": "Constant Payments",
+      "uk": "Constant Payments"
     },
     "payment_method": [
       "payment_card"
@@ -20581,9 +20592,9 @@
     "code": "epb",
     "vendor": "epb",
     "name": {
-      "en": "EPB",
-      "ru": "EPB",
-      "uk": "ЄПБ"
+      "en": "Europrombank (EPB)",
+      "ru": "Europrombank (EPB)",
+      "uk": "Europrombank (EPB)"
     },
     "payment_method": [
       "payment_card"
@@ -20669,9 +20680,9 @@
     "code": "eupaymentz",
     "vendor": "eupaymentz",
     "name": {
-      "en": "EUPaymentz",
-      "ru": "EUPaymentz",
-      "uk": "EUPaymentz"
+      "en": "EU Paymentz",
+      "ru": "EU Paymentz",
+      "uk": "EU Paymentz"
     },
     "payment_method": [
       "payment_card"
@@ -20887,9 +20898,9 @@
     "code": "micropayments",
     "vendor": "micropayments",
     "name": {
-      "en": "MicroPayments",
-      "ru": "MicroPayments",
-      "uk": "MicroPayments"
+      "en": "Micropayment AG",
+      "ru": "Micropayment AG",
+      "uk": "Micropayment AG"
     },
     "payout_method": [
       "payment_card"
@@ -20904,9 +20915,9 @@
     "code": "ems",
     "vendor": "ems",
     "name": {
-      "en": "EMS",
-      "ru": "EMS",
-      "uk": "EMS"
+      "en": "European Merchant Services",
+      "ru": "European Merchant Services",
+      "uk": "European Merchant Services"
     },
     "payout_method": [
       "payment_card"
@@ -20933,9 +20944,9 @@
     "code": "paymentrush",
     "vendor": "paymentrush",
     "name": {
-      "en": "Payment Rush",
-      "ru": "Payment Rush",
-      "uk": "Payment Rush"
+      "en": "PaymentRush",
+      "ru": "PaymentRush",
+      "uk": "PaymentRush"
     },
     "payment_method": [
       "paymentrush"
@@ -21236,9 +21247,9 @@
     "code": "firstatlanticcommerce",
     "vendor": "firstatlanticcommerce",
     "name": {
-      "en": "First Atlantic Commerce",
-      "ru": "First Atlantic Commerce",
-      "uk": "First Atlantic Commerce"
+      "en": "Powertranz",
+      "ru": "Powertranz",
+      "uk": "Powertranz"
     },
     "payment_method": [
       "payment_card"
@@ -21358,9 +21369,9 @@
     "code": "topay",
     "vendor": "topay",
     "name": {
-      "en": "TOPAY.PRO",
-      "ru": "TOPAY.PRO",
-      "uk": "TOPAY.PRO"
+      "en": "ToPay",
+      "ru": "ToPay",
+      "uk": "ToPay"
     },
     "payment_method": [
       "payment_card"
@@ -21434,9 +21445,9 @@
     "code": "exbaseio",
     "vendor": "exbaseio",
     "name": {
-      "en": "EXBASE.IO",
-      "ru": "EXBASE.IO",
-      "uk": "EXBASE.IO"
+      "en": "EXBASE",
+      "ru": "EXBASE",
+      "uk": "EXBASE"
     },
     "payout_method": [
       "payment_card"
@@ -21466,9 +21477,9 @@
     "code": "bp",
     "vendor": "bp",
     "name": {
-      "en": "BP",
-      "ru": "BP",
-      "uk": "BP"
+      "en": "Boxplat",
+      "ru": "Boxplat",
+      "uk": "Boxplat"
     },
     "payout_method": [
       "payment_card"
@@ -21693,9 +21704,9 @@
     "code": "dimocopayments",
     "vendor": "dimocopayments",
     "name": {
-      "en": "DIMOCO Payments",
-      "ru": "DIMOCO Payments",
-      "uk": "DIMOCO Payments"
+      "en": "DIMOCO",
+      "ru": "DIMOCO",
+      "uk": "DIMOCO"
     },
     "description": {
       "en": "DIMOCO Payments is an Austria-based payment service provider specializing in carrier billing and acquiring services, offering tailored payment solutions for businesses across various industries, including e-commerce, mobility, lifestyle, and iGaming. Licensed by the Austrian Financial Market Authority (FMA), DIMOCO enables merchants to accept payments through a wide array of methods, such as credit and debit cards, alternative payment methods, and direct carrier billing, which allows consumers to charge purchases directly to their mobile phone bills. This approach is particularly beneficial for reaching underbanked populations and facilitating microtransactions for digital content. DIMOCO’s platform emphasizes flexibility, security, and compliance, providing features like intelligent payment routing, fraud prevention, and mobile identity services to enhance transaction success rates and user authentication. The company has also partnered with IXOPAY to leverage advanced payment orchestration capabilities, improving transaction efficiency and scalability for high-risk merchants. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard.",
@@ -22307,9 +22318,9 @@
     "code": "gateexpress",
     "vendor": "gateexpress",
     "name": {
-      "en": "Gate.Express",
-      "ru": "Gate.Express",
-      "uk": "Gate.Express"
+      "en": "Gate Express",
+      "ru": "Gate Express",
+      "uk": "Gate Express"
     },
     "description": {
       "ru": "GateExpress — это платежный провайдер, предлагающий решения для обработки онлайн-платежей, включая прием карт, электронных кошельков и других альтернативных методов. Компания работает с интернет-магазинами и цифровыми платформами, предоставляя интерфейсы API, защиту от мошенничества и аналитику платежей. GateExpress также может предлагать мультивалютную поддержку и кастомизируемые платежные страницы. Этот и более чем 500 других провайдеров уже интегрированы в платформу платежной оркестрации Corefy, позволяя клиентам мгновенно начать использовать интеграцию без программирования — достаточно ввести свои MID-данные в панели Corefy.",
@@ -22332,9 +22343,9 @@
       "uk": "Flexify Finance — це фінтех-компанія, зареєстрована в Канаді, що надає комплексні глобальні платіжні рішення для бізнесу будь-якого розміру. Має ліцензію FINTRAC і пропонує безпечну платформу, що відповідає стандарту PCI DSS, з підтримкою понад 60 платіжних методів і більш ніж 20 валют, зокрема USD, EUR, UAH, INR, NGN, KES, TRY та KGS. Послуги компанії охоплюють картковий еквайринг, електронні гаманці, відкритий банкінг, криптоплатежі та масові виплати, орієнтуючись на такі галузі, як електронна комерція, гемблінг та інші високоризикові сектори. Платформа Flexify використовує каскадні та маршрутизуючі технології для підвищення успішності транзакцій і забезпечує зручну інтеграцію через API та плагіни для CMS. Цей та понад 500 інших провайдерів уже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє нашим клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy."
     },
     "name": {
-      "en": "Flexify",
-      "ru": "Flexify",
-      "uk": "Flexify"
+      "en": "Flexify.finance",
+      "ru": "Flexify.finance",
+      "uk": "Flexify.finance"
     },
     "payment_method": [
       "payment_card",
@@ -22615,9 +22626,9 @@
     "code": "aps",
     "vendor": "aps",
     "name": {
-      "en": "APS",
-      "ru": "APS",
-      "uk": "APS"
+      "en": "Advanced Payment Solutions (APS)",
+      "ru": "Advanced Payment Solutions (APS)",
+      "uk": "Advanced Payment Solutions (APS)"
     },
     "payment_method": [
       "payment_card"
@@ -22826,9 +22837,9 @@
     "code": "toshani",
     "vendor": "toshani",
     "name": {
-      "en": "Toshani",
-      "ru": "Toshani",
-      "uk": "Toshani"
+      "en": "Toshani Digital",
+      "ru": "Toshani Digital",
+      "uk": "Toshani Digital"
     },
     "payment_method": [
       "upi_qr"
@@ -23715,9 +23726,9 @@
     "code": "localpayments",
     "vendor": "localpayments",
     "name": {
-      "en": "Localpayments",
-      "ru": "Localpayments",
-      "uk": "Localpayments"
+      "en": "Localpayment",
+      "ru": "Localpayment",
+      "uk": "Localpayment"
     },
     "payment_method": [
       "payment_card"
@@ -23728,9 +23739,9 @@
     "code": "convergegate",
     "vendor": "convergegate",
     "name": {
-      "en": "ConvergeGate",
-      "ru": "ConvergeGate",
-      "uk": "ConvergeGate"
+      "en": "Converge Gate",
+      "ru": "Converge Gate",
+      "uk": "Converge Gate"
     },
     "payment_method": [
       "blik",
@@ -24395,9 +24406,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "AddonPayments",
-      "ru": "AddonPayments",
-      "uk": "AddonPayments"
+      "en": "Addon Payments",
+      "ru": "Addon Payments",
+      "uk": "Addon Payments"
     }
   },
   {
@@ -24720,9 +24731,9 @@
       "zinternet"
     ],
     "name": {
-      "en": "PaytoneGate",
-      "ru": "PaytoneGate",
-      "uk": "PaytoneGate"
+      "en": "Paytone",
+      "ru": "Paytone",
+      "uk": "Paytone"
     }
   },
   {
@@ -25155,9 +25166,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "Euphoria",
-      "ru": "Euphoria",
-      "uk": "Euphoria"
+      "en": "Aifory",
+      "ru": "Aifory",
+      "uk": "Aifory"
     }
   },
   {
@@ -25547,9 +25558,9 @@
       "crypto"
     ],
     "name": {
-      "en": "TripleA",
-      "ru": "TripleA",
-      "uk": "TripleA"
+      "en": "Triple-A",
+      "ru": "Triple-A",
+      "uk": "Triple-A"
     },
     "description": {
       "ru": "TripleA — это криптовалютный платежный провайдер, лицензированный Сингапурским финансовым регулятором (MAS), предлагающий бизнесам прием Bitcoin, Ethereum, USDT и других криптовалют. Компания предоставляет автоматическую конвертацию в фиат, инвойсы, плагины для CMS и API-интеграции. TripleA фокусируется на прозрачности, KYC/AML и совместимости с международными стандартами. Этот и более чем 500 других провайдеров уже интегрированы в платформу платежной оркестрации Corefy, позволяя клиентам мгновенно начать использовать интеграцию без программирования — достаточно ввести свои MID-данные в панели Corefy.",
@@ -25854,9 +25865,9 @@
       "pix"
     ],
     "name": {
-      "en": "Sqalapay",
-      "ru": "Sqalapay",
-      "uk": "Sqalapay"
+      "en": "Sqala",
+      "ru": "Sqala",
+      "uk": "Sqala"
     },
     "description": {
       "en": "Sqala is a payment service provider delivering digital payment solutions tailored for online merchants operating across sectors like e-commerce, digital services, and high-risk industries. The platform enables businesses to accept a broad range of payment methods, including international card payments, alternative options, and local methods, helping to expand their reach and optimize conversions. Sqala emphasizes secure and scalable transaction processing, offering features such as fraud prevention, real-time analytics, and multi-currency support. With flexible integration options through APIs or hosted checkouts, Sqala is designed to streamline payment operations and simplify global expansion. Sqala and 500+ other payment providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
@@ -25886,9 +25897,9 @@
       "zen_wallet"
     ],
     "name": {
-      "en": "Zen Wallet",
-      "ru": "Zen Wallet",
-      "uk": "Zen Wallet"
+      "en": "ZEN.COM",
+      "ru": "ZEN.COM",
+      "uk": "ZEN.COM"
     }
   },
   {
@@ -26171,9 +26182,9 @@
     "code": "jmitsolutions",
     "vendor": "jmitsolutions",
     "name": {
-      "en": "JMITsolutions",
-      "ru": "JMITsolutions",
-      "uk": "JMITsolutions"
+      "en": "JM IT Solutions",
+      "ru": "JM IT Solutions",
+      "uk": "JM IT Solutions"
     },
     "payment_method": [
       "payment_card",
@@ -26224,9 +26235,9 @@
     "code": "projectonsolutionslimited",
     "vendor": "projectonsolutionslimited",
     "name": {
-      "en": "Projecton Solutions Limited",
-      "ru": "Projecton Solutions Limited",
-      "uk": "Projecton Solutions Limited"
+      "en": "ProjectOn",
+      "ru": "ProjectOn",
+      "uk": "ProjectOn"
     },
     "description": {
       "en": "ProjectOn Solutions Limited is a Hong Kong-based fintech company specializing in providing comprehensive IT and payment solutions tailored for e-commerce startups and digital businesses. Established in 2022, the company offers a full suite of services designed to enhance and manage various internet-based ventures, focusing on modern payment tools that facilitate effortless data collection, storage, and transaction completion with minimal customer effort. ProjectOn’s offerings include payment processing, payment gateway services, and profit-oriented project management, all driven by a team of experienced e-commerce industry professionals. The company emphasizes security and compliance, ensuring that its solutions are both reliable and user-friendly. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
@@ -26463,9 +26474,9 @@
     "code": "altitudepay",
     "vendor": "altitudepay",
     "name": {
-      "en": "AltitudePay",
-      "ru": "AltitudePay",
-      "uk": "AltitudePay"
+      "en": "Altitude Pay",
+      "ru": "Altitude Pay",
+      "uk": "Altitude Pay"
     },
     "description": {
       "en": "AltitudePay is a PCI DSS-certified payment gateway platform that facilitates the acceptance, processing, storage, and transmission of payment data between various participants in the payment process. It supports multiple payment methods, including card payments, and offers integration options through APIs, POS terminals, and virtual terminals for manual entry of payment data received by email or phone. The platform provides access to user accounts with different roles such as Merchant, Reseller, and Manager, each with specific access rights and functionalities. AltitudePay’s integration with Corefy allows merchants to manage transactions efficiently. This and 500+ providers are already integrated into Corefy’s payment orchestration platform, allowing clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
@@ -26481,9 +26492,9 @@
     "code": "paycc",
     "vendor": "paycc",
     "name": {
-      "en": "Pay.CC",
-      "ru": "Pay.CC",
-      "uk": "Pay.CC"
+      "en": "Pay CC",
+      "ru": "Pay CC",
+      "uk": "Pay CC"
     },
     "description": {
       "ru": "PayCC — это платежный провайдер, предоставляющий решения для приема онлайн-платежей с помощью банковских карт, электронных кошельков и альтернативных методов оплаты. Платформа ориентирована на удобство интеграции и быструю обработку транзакций, предлагая функции по борьбе с мошенничеством и поддержку разных валют. Этот и более чем 500 других провайдеров уже интегрированы в платформу платежной оркестрации Corefy, позволяя клиентам мгновенно начать использовать интеграцию без программирования — достаточно ввести свои MID-данные в панели Corefy.",
@@ -26714,9 +26725,9 @@
     "code": "paywisesolutions",
     "vendor": "paywisesolutions",
     "name": {
-      "en": "PaywiseSolutions",
-      "ru": "PaywiseSolutions",
-      "uk": "PaywiseSolutions"
+      "en": "Paywise Solutions",
+      "ru": "Paywise Solutions",
+      "uk": "Paywise Solutions"
     },
     "payment_method": [
       "payment_card"
@@ -27034,9 +27045,9 @@
     "code": "transflofintech",
     "vendor": "transflofintech",
     "name": {
-      "en": "Transflo Fintech",
-      "ru": "Transflo Fintech",
-      "uk": "Transflo Fintech"
+      "en": "Transflo",
+      "ru": "Transflo",
+      "uk": "Transflo"
     },
     "payment_method": [
       "payment_card"
@@ -27165,9 +27176,9 @@
     "code": "hellopayment",
     "vendor": "hellopayment",
     "name": {
-      "en": "HelloPayment",
-      "ru": "HelloPayment",
-      "uk": "HelloPayment"
+      "en": "Hello Payment Solutions",
+      "ru": "Hello Payment Solutions",
+      "uk": "Hello Payment Solutions"
     },
     "payment_method": [
       "payment_card",
@@ -27250,9 +27261,9 @@
     "code": "paymentspro",
     "vendor": "paymentspro",
     "name": {
-      "en": "PaymentsPro",
-      "ru": "PaymentsPro",
-      "uk": "PaymentsPro"
+      "en": "Payments Pro",
+      "ru": "Payments Pro",
+      "uk": "Payments Pro"
     },
     "payment_method": [
       "payment_card"
@@ -27263,9 +27274,9 @@
     "code": "pxpfinancial",
     "vendor": "intervale",
     "name": {
-      "en": "PXP financial",
-      "ru": "PXP financial",
-      "uk": "PXP financial"
+      "en": "PXP",
+      "ru": "PXP",
+      "uk": "PXP"
     },
     "payment_method": [
       "payment_card"
@@ -27535,9 +27546,9 @@
     "code": "vendo",
     "vendor": "vendo",
     "name": {
-      "en": "Vendo Services GmbH",
-      "ru": "Vendo Services GmbH",
-      "uk": "Vendo Services GmbH"
+      "en": "Vendo",
+      "ru": "Vendo",
+      "uk": "Vendo"
     },
     "description": {
       "de": "Vendo ist ein spezialisierter Zahlungsdienstleister, der sich vor allem auf wiederkehrende Zahlungen und intelligente Preisgestaltung für digitale Inhalte konzentriert. Das Unternehmen bietet eine leistungsstarke Plattform für Subscription-Management, dynamisches Pricing und Conversion-Optimierung, insbesondere für Branchen wie Erwachsenenunterhaltung, E-Learning, Gaming und andere digitale Dienstleistungen. Vendo kombiniert moderne Technologien wie maschinelles Lernen mit umfangreichen Datenanalysen, um Preisstrategien und Upselling-Möglichkeiten in Echtzeit zu optimieren. Händler profitieren von Features wie A/B-Tests, lokalisierten Checkout-Erlebnissen, automatisiertem Risikomanagement und umfassender Berichterstattung. Die Plattform unterstützt verschiedene Zahlungsmethoden weltweit, einschließlich Kreditkarten, E-Wallets und lokaler Zahlungsoptionen. Vendo legt besonderen Wert auf Benutzererfahrung und Umsatzsteigerung durch kontinuierliche Optimierung des Kaufprozesses. Vendo und über 500 weitere Anbieter sind bereits in Corefys Payment-Orchestration-Plattform integriert, wodurch unsere Kunden die Integration sofort und ohne Programmieraufwand nutzen können – einfach durch Eingabe ihrer MID-Zugangsdaten im Corefy-Dashboard.",
@@ -27554,9 +27565,9 @@
     "code": "apixoom",
     "vendor": "apixoom",
     "name": {
-      "en": "Apixoom",
-      "ru": "Apixoom",
-      "uk": "Apixoom"
+      "en": "Nagad",
+      "ru": "Nagad",
+      "uk": "Nagad"
     },
     "payout_method": [
       "bkash_limited",
@@ -27632,9 +27643,9 @@
     "code": "dnspay",
     "vendor": "dnspay",
     "name": {
-      "en": "DNSPAY",
-      "ru": "DNSPAY",
-      "uk": "DNSPAY"
+      "en": "DNS PAY",
+      "ru": "DNS PAY",
+      "uk": "DNS PAY"
     },
     "payment_method": [
       "payment_card"
@@ -27662,9 +27673,9 @@
     "code": "epx",
     "vendor": "epx",
     "name": {
-      "en": "EPX",
-      "ru": "EPX",
-      "uk": "EPX"
+      "en": "North Enterprise",
+      "ru": "North Enterprise",
+      "uk": "North Enterprise"
     },
     "payment_method": [
       "payment_card"
@@ -27946,9 +27957,9 @@
     "code": "citrinepay",
     "vendor": "citrinepay",
     "name": {
-      "en": "CitrinePay",
-      "ru": "CitrinePay",
-      "uk": "CitrinePay"
+      "en": "Citrine Merchant Services",
+      "ru": "Citrine Merchant Services",
+      "uk": "Citrine Merchant Services"
     },
     "payment_method": [
       "bank_transfer_aggregated",
@@ -27993,9 +28004,9 @@
     "code": "paytorapayment",
     "vendor": "paytorapayment",
     "name": {
-      "en": "PaytoraPayment",
-      "ru": "PaytoraPayment",
-      "uk": "PaytoraPayment"
+      "en": "Paytora",
+      "ru": "Paytora",
+      "uk": "Paytora"
     },
     "payment_method": [
       "payment_card"
@@ -28376,9 +28387,9 @@
       "bank_transfer"
     ],
     "name": {
-      "en": "Spayz",
-      "ru": "Spayz",
-      "uk": "Spayz"
+      "en": "SPAYZ.io",
+      "ru": "SPAYZ.io",
+      "uk": "SPAYZ.io"
     }
   },
   {
@@ -28515,9 +28526,9 @@
       "sepa_transfer"
     ],
     "name": {
-      "en": "Yotta",
-      "ru": "Yotta",
-      "uk": "Yotta"
+      "en": "Yotta Pay",
+      "ru": "Yotta Pay",
+      "uk": "Yotta Pay"
     }
   },
   {
@@ -28557,9 +28568,9 @@
       "bank_transfer"
     ],
     "name": {
-      "en": "W PAY",
-      "ru": "W PAY",
-      "uk": "W PAY"
+      "en": "Wpay",
+      "ru": "Wpay",
+      "uk": "Wpay"
     }
   },
   {
@@ -28800,9 +28811,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "KalonPay",
-      "ru": "KalonPay",
-      "uk": "KalonPay"
+      "en": "BearlaPay",
+      "ru": "BearlaPay",
+      "uk": "BearlaPay"
     },
     "description": {
       "en": "KalonPay is a fintech company that provides digital payment solutions designed to simplify and accelerate online transactions for businesses and consumers. The platform focuses on offering secure, compliant, and user-friendly services, including online card processing, alternative payment methods, and merchant accounts. KalonPay supports businesses across various sectors, including e-commerce, digital services, and high-risk industries, helping them expand globally with localized payment options. With features like anti-fraud tools, real-time reporting, and seamless API integration, KalonPay aims to optimize transaction success rates and enhance user experience. KalonPay and 500+ other payment providers are already integrated into Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
@@ -28946,9 +28957,9 @@
     "code": "upc",
     "vendor": "upc",
     "name": {
-      "en": "UPC",
-      "ru": "UPC",
-      "uk": "UPC"
+      "en": "Ukrainian Processing Center (UPC)",
+      "ru": "Ukrainian Processing Center (UPC)",
+      "uk": "Ukrainian Processing Center (UPC)"
     },
     "payment_method": [
       "payment_card"
@@ -29098,9 +29109,9 @@
     "code": "saltedge",
     "vendor": "saltedge",
     "name": {
-      "en": "SaltEdge",
-      "ru": "SaltEdge",
-      "uk": "SaltEdge"
+      "en": "Salt Edge",
+      "ru": "Salt Edge",
+      "uk": "Salt Edge"
     },
     "payment_method": [
       "sepa_transfer",
@@ -29148,9 +29159,9 @@
     "code": "blueworld",
     "vendor": "blueworld",
     "name": {
-      "en": "Blue World",
-      "ru": "Blue World",
-      "uk": "Blue World"
+      "en": "Linx Tech Solutions",
+      "ru": "Linx Tech Solutions",
+      "uk": "Linx Tech Solutions"
     },
     "payment_method": [
       "jazzcash",
@@ -29203,9 +29214,9 @@
     "code": "payon",
     "vendor": "payon",
     "name": {
-      "en": "Payon",
-      "ru": "Payon",
-      "uk": "Payon"
+      "en": "ACI Worldwide",
+      "ru": "ACI Worldwide",
+      "uk": "ACI Worldwide"
     },
     "payment_method": [
       "payment_card"
@@ -29244,9 +29255,9 @@
     "code": "kalemoney",
     "vendor": "kalemoney",
     "name": {
-      "en": "Kale.Money",
-      "ru": "Kale.Money",
-      "uk": "Kale.Money"
+      "en": "Kale",
+      "ru": "Kale",
+      "uk": "Kale"
     },
     "payment_method": [
       "payment_card"
@@ -29366,9 +29377,9 @@
     "code": "cardpaymentz",
     "vendor": "cardpaymentz",
     "name": {
-      "en": "CardPaymentz",
-      "ru": "CardPaymentz",
-      "uk": "CardPaymentz"
+      "en": "Card Paymentz",
+      "ru": "Card Paymentz",
+      "uk": "Card Paymentz"
     },
     "payment_method": [
       "upi"
@@ -29398,9 +29409,9 @@
       "en": "Creedo.Capital is a global payments service provider that delivers modern businesses with tailored payment solutions, combining seamless integration, proven performance and transparency. Having powered the infrastructure of intermediaries, white-label providers and service platforms for many years, the company is now offering its technology directly to merchants. It provides cost efficiency and unmatched reliability that strengthen payment flow. From start-ups to enterprise giants, Creedo.Capital designs flexible payment solutions to meet a variety of business models, providing 24/7 dedicated support. With in-depth knowledge of specific markets, Creedo.Capital facilitates local operations in high-growth regions such Asia and LATAM offering seamless payment processing across borders, helping navigate regulations and optimize operations."
     },
     "name": {
-      "en": "Creedo",
-      "ru": "Creedo",
-      "uk": "Creedo"
+      "en": "Creedo.Capital",
+      "ru": "Creedo.Capital",
+      "uk": "Creedo.Capital"
     },
     "payment_method": [
       "bkash_limited",
