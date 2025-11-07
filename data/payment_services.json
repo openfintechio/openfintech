@@ -26795,6 +26795,15 @@
   },
   {
     "status": "active",
+    "code": "bkash_p2p_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "bkash_p2p",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
     "code": "zen_wallet_eur_invoice",
     "currency": "EUR",
     "flow": "invoice",
