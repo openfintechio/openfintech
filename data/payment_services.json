@@ -39619,5 +39619,34 @@
     "method": "vodafone_cash",
     "amount_min": 48,
     "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "free_money_xof_invoice",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "free_money",
+    "amount_min": 6,
+    "amount_max": 60000000
   }
 ]
