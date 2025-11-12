@@ -449,6 +449,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_ars_invoice",
+    "currency": "ARS",
+    "method": "payment_card",
+    "flow": "invoice",
+    "amount_min": 1411,
+    "amount_max": 141146966
+  },
+  {
+    "status": "active",
     "code": "payment_card_chf_hpp",
     "currency": "CHF",
     "method": "payment_card",
@@ -8023,6 +8032,15 @@
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_try_invoice",
+    "currency": "TRY",
+    "method": "payment_card",
+    "flow": "invoice",
+    "amount_min": 43,
+    "amount_max": 4224310
   },
   {
     "status": "active",
