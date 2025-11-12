@@ -17057,6 +17057,15 @@
   },
   {
     "status": "active",
+    "code": "blik_pln_invoice",
+    "flow": "invoice",
+    "method": "blik",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
     "code": "bancontact_eur_hpp",
     "flow": "hpp",
     "method": "bancontact",
