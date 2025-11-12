@@ -29948,6 +29948,15 @@
   },
   {
     "status": "active",
+    "code": "mifinity_dkk_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "DKK",
+    "amount_min": 0.01,
+    "amount_max": 650000
+  },
+  {
+    "status": "active",
     "code": "pix_qr_brl_hpp",
     "flow": "hpp",
     "method": "pix_qr",
