@@ -449,6 +449,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_ars_invoice",
+    "currency": "ARS",
+    "method": "payment_card",
+    "flow": "invoice",
+    "amount_min": 1411,
+    "amount_max": 141146966
+  },
+  {
+    "status": "active",
     "code": "payment_card_chf_hpp",
     "currency": "CHF",
     "method": "payment_card",
@@ -8023,6 +8032,15 @@
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_try_invoice",
+    "currency": "TRY",
+    "method": "payment_card",
+    "flow": "invoice",
+    "amount_min": 43,
+    "amount_max": 4224310
   },
   {
     "status": "active",
@@ -17039,6 +17057,15 @@
   },
   {
     "status": "active",
+    "code": "blik_pln_invoice",
+    "flow": "invoice",
+    "method": "blik",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
     "code": "bancontact_eur_hpp",
     "flow": "hpp",
     "method": "bancontact",
@@ -20745,6 +20772,15 @@
     "currency": "CZK",
     "amount_min": 0.01,
     "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "jeton_wallet_aud_hpp",
+    "flow": "hpp",
+    "method": "jeton_wallet",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
   },
   {
     "status": "active",
@@ -26786,6 +26822,15 @@
   },
   {
     "status": "active",
+    "code": "bkash_p2p_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "bkash_p2p",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
     "code": "zen_wallet_eur_invoice",
     "currency": "EUR",
     "flow": "invoice",
@@ -29900,6 +29945,15 @@
     "currency": "SEK",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "mifinity_dkk_invoice",
+    "flow": "invoice",
+    "method": "mifinity",
+    "currency": "DKK",
+    "amount_min": 0.01,
+    "amount_max": 650000
   },
   {
     "status": "active",
@@ -39556,5 +39610,79 @@
     "currency": "BGN",
     "amount_min": 0.01,
     "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "instapay_egp_invoice",
+    "currency": "EGP",
+    "method": "instapay",
+    "flow": "invoice",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "instapay_egp_hpp",
+    "currency": "EGP",
+    "method": "instapay",
+    "flow": "hpp",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "orange_cash_egp_invoice",
+    "currency": "EGP",
+    "flow": "invoice",
+    "method": "orange_cash",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "orange_cash_egp_hpp",
+    "currency": "EGP",
+    "flow": "hpp",
+    "method": "orange_cash",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "vodafone_cash_egp_invoice",
+    "currency": "EGP",
+    "flow": "invoice",
+    "method": "vodafone_cash",
+    "amount_min": 48,
+    "amount_max": 4723005
+  },
+  {
+    "status": "active",
+    "code": "free_money_xof_invoice",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+?\\d{9,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "free_money",
+    "amount_min": 6,
+    "amount_max": 60000000
   }
 ]

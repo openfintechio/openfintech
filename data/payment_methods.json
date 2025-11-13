@@ -8906,6 +8906,16 @@
   },
   {
     "status": "active",
+    "code": "bkash_p2p",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Bkash p2p",
+      "ru": "Bkash p2p",
+      "uk": "Bkash p2p"
+    }
+  },
+  {
+    "status": "active",
     "code": "zen_wallet",
     "vendor": "zenwallet",
     "category": "digital_wallet",
@@ -11699,6 +11709,26 @@
       "en": "TNM",
       "ru": "TNM",
       "uk": "TNM"
+    }
+  },
+  {
+    "code": "orange_cash",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "Orange cash",
+      "ru": "Orange cash",
+      "uk": "Orange cash"
+    }
+  },
+  {
+    "code": "free_money",
+    "category": "mobile_payment",
+    "status": "active",
+    "name": {
+      "en": "Free money",
+      "ru": "Free money",
+      "uk": "Free money"
     }
   }
 ]
