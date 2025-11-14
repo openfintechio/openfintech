@@ -20590,6 +20590,19 @@
   },
   {
     "status": "active",
+    "code": "axipays",
+    "vendor": "axipays",
+    "name": {
+      "en": "Axipays",
+      "ru": "Axipays",
+      "uk": "Axipays"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "epb",
     "vendor": "epb",
     "name": {
