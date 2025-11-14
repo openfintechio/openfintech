@@ -26297,6 +26297,19 @@
   },
   {
     "status": "active",
+    "code": "transacto",
+    "vendor": "transacto",
+    "name": {
+      "en": "TRANSACTO",
+      "ru": "TRANSACTO",
+      "uk": "TRANSACTO"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "confirmo",
     "vendor": "confirmo",
     "name": {
