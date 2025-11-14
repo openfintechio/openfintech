@@ -14255,6 +14255,23 @@
         "regexp": "\/^\\+\\d{10,14}$\/",
         "required": false,
         "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
       }
     ],
     "flow": "invoice",
@@ -14429,12 +14446,29 @@
         "regexp": "\/^\\+\\d{10,14}$\/",
         "required": false,
         "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
       }
     ],
     "flow": "invoice",
     "method": "mtn",
-    "amount_min": 0.01,
-    "amount_max": 760000
+    "amount_min": 0.1,
+    "amount_max": 1090000
   },
   {
     "status": "active",
@@ -24540,7 +24574,44 @@
     "flow": "invoice",
     "method": "m_pesa",
     "currency": "KES",
-    "amount_min": 0.01,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      }
+    ],
+    "amount_min": 1,
     "amount_max": 13200000
   },
   {
@@ -24626,10 +24697,100 @@
   },
   {
     "status": "active",
+    "code": "mobile_xaf_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "XAF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      }
+    ],
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
     "code": "mobile_xof_hpp",
     "flow": "hpp",
     "method": "mobile",
     "currency": "XOF",
+    "amount_min": 6,
+    "amount_max": 62000000
+  },
+  {
+    "status": "active",
+    "code": "mobile_xof_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      }
+    ],
     "amount_min": 6,
     "amount_max": 62000000
   },
@@ -26494,6 +26655,52 @@
   },
   {
     "status": "active",
+    "code": "airteltigo_ghs_invoice",
+    "currency": "GHS",
+    "flow": "invoice",
+    "method": "airteltigo",
+    "amount_min": 0.1,
+    "amount_max": 1090000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "mtn_group_ghs_hpp",
     "currency": "GHS",
     "flow": "hpp",
@@ -26547,6 +26754,52 @@
           "uk": "Введіть номер рахунку клієнта"
         },
         "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "vodafone_pay_ghs_invoice",
+    "currency": "GHS",
+    "flow": "invoice",
+    "method": "vodafone_pay",
+    "amount_min": 0.1,
+    "amount_max": 1090000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
       }
     ]
   },
@@ -30434,6 +30687,52 @@
     "currency": "TZS",
     "amount_min": 25,
     "amount_max": 249500000
+  },
+  {
+    "status": "active",
+    "code": "tigo_kes_invoice",
+    "flow": "invoice",
+    "method": "tigo",
+    "currency": "KES",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 13200000
   },
   {
     "status": "active",
@@ -37169,6 +37468,68 @@
         "regexp": "\/^\\+\\d{10,14}$\/",
         "required": false,
         "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mobile_tzs_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "TZS",
+    "amount_min": 24,
+    "amount_max": 244000000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
       }
     ]
   },
@@ -37227,6 +37588,51 @@
         "position": 1
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "mobile_gnf_invoice",
+    "flow": "invoice",
+    "method": "mobile",
+    "currency": "GNF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "regexp": "\/^[0-9A-Za-z-_\\.]+@([0-9A-Za-z-_]+\\.)+[0-9A-Za-z-_]{2,5}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter Email",
+          "ru": "Введите Email",
+          "uk": "Введіть Email"
+        }
+      }
+    ],
+    "amount_min": 100,
+    "amount_max": 860000000
   },
   {
     "status": "active",
