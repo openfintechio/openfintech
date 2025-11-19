@@ -12348,5 +12348,19 @@
       "jsons_code": "DAI-BEP20"
     },
     "status": "active"
+  },
+  {
+    "code": "USDG",
+    "name": {
+      "en": "USDG"
+    },
+    "type": "crypto",
+    "status": "active",
+    "exponent": 8,
+    "category": "cryptocurrency",
+    "parent_currency_multiplier": 1,
+    "metadata": {
+      "jsons_code": "USDG"
+    }
   }
 ]
