@@ -39686,6 +39686,64 @@
   },
   {
     "status": "active",
+    "code": "orange_money_sen_xof_invoice",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "orange_money_sen",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "orange_money_civ_xof_invoice",
+    "currency": "XOF",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "+255742044295",
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "flow": "invoice",
+    "method": "orange_money_civ",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
     "code": "wave_xof_invoice",
     "currency": "XOF",
     "fields": [
@@ -39776,6 +39834,62 @@
     "code": "airtel_money_xaf_invoice",
     "flow": "invoice",
     "method": "airtel_money",
+    "currency": "XAF",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_gab_xaf_invoice",
+    "flow": "invoice",
+    "method": "airtel_money_gab",
+    "currency": "XAF",
+    "amount_min": 6,
+    "amount_max": 60000000,
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+\\d{10,14}$\/",
+        "required": false,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "airtel_money_cog_xaf_invoice",
+    "flow": "invoice",
+    "method": "airtel_money_cog",
     "currency": "XAF",
     "amount_min": 6,
     "amount_max": 60000000,
