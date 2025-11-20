@@ -8664,6 +8664,19 @@
   },
   {
     "status": "active",
+    "code": "worldline",
+    "vendor": "worldline",
+    "name": {
+      "en": "Worldline",
+      "ru": "Worldline",
+      "uk": "Worldline"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paystand",
     "vendor": "paystand",
     "metadata": {
