@@ -20832,7 +20832,11 @@
       "upi"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "mobile",
+      "pix",
+      "interac_etransfer",
+      "bank_transfer"
     ]
   },
   {
