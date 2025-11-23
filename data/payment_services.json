@@ -11125,6 +11125,24 @@
   },
   {
     "status": "active",
+    "code": "skrill_cad_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 130000
+  },
+  {
+    "status": "active",
+    "code": "skrill_nok_hpp",
+    "flow": "hpp",
+    "method": "skrill",
+    "currency": "NOK",
+    "amount_min": 1.1,
+    "amount_max": 1100672
+  },
+  {
+    "status": "active",
     "code": "neteller_eur_hpp",
     "flow": "hpp",
     "method": "neteller",
@@ -11466,6 +11484,24 @@
     "currency": "CHF",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "paysafecard_cad_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 130000
+  },
+  {
+    "status": "active",
+    "code": "paysafecard_aud_hpp",
+    "flow": "hpp",
+    "method": "paysafecard",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
   },
   {
     "status": "active",
@@ -12114,6 +12150,42 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ideal_nok_hpp",
+    "flow": "hpp",
+    "method": "ideal",
+    "currency": "NOK",
+    "amount_min": 1.1,
+    "amount_max": 1100672
+  },
+  {
+    "status": "active",
+    "code": "ideal_pln_hpp",
+    "flow": "hpp",
+    "method": "ideal",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 376000
+  },
+  {
+    "status": "active",
+    "code": "ideal_aud_hpp",
+    "flow": "hpp",
+    "method": "ideal",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "ideal_cad_hpp",
+    "flow": "hpp",
+    "method": "ideal",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 130000
   },
   {
     "status": "active",
@@ -29747,6 +29819,24 @@
   },
   {
     "status": "active",
+    "code": "neteller_nok_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "NOK",
+    "amount_min": 1.1,
+    "amount_max": 1100672
+  },
+  {
+    "status": "active",
+    "code": "neteller_cad_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 130000
+  },
+  {
+    "status": "active",
     "code": "raggett_limited_paycos_eur_hpp",
     "flow": "hpp",
     "method": "raggett_limited_paycos",
@@ -31918,6 +32008,42 @@
     "currency": "USD",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "rapidtransfer_pln_hpp",
+    "flow": "hpp",
+    "method": "rapidtransfer",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 376000
+  },
+  {
+    "status": "active",
+    "code": "rapidtransfer_nok_hpp",
+    "flow": "hpp",
+    "method": "rapidtransfer",
+    "currency": "NOK",
+    "amount_min": 1.1,
+    "amount_max": 1100672
+  },
+  {
+    "status": "active",
+    "code": "rapidtransfer_aud_hpp",
+    "flow": "hpp",
+    "method": "rapidtransfer",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
+    "code": "rapidtransfer_cad_hpp",
+    "flow": "hpp",
+    "method": "rapidtransfer",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 130000
   },
   {
     "status": "active",

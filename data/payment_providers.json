@@ -20821,7 +20821,15 @@
     },
     "payment_method": [
       "payment_card",
-      "card_transfer"
+      "card_transfer",
+      "sbp",
+      "binancepay",
+      "gatepay",
+      "bybit_pay",
+      "pix_qr",
+      "bank_transfer",
+      "online_banking",
+      "upi"
     ],
     "payout_method": [
       "payment_card",
