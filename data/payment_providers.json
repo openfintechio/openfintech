@@ -25339,7 +25339,9 @@
     "code": "aliumpay",
     "vendor": "aliumpay",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "googlepay",
+      "applepay"
     ],
     "payout_method": [
       "payment_card"
