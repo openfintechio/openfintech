@@ -8664,6 +8664,19 @@
   },
   {
     "status": "active",
+    "code": "worldline",
+    "vendor": "worldline",
+    "name": {
+      "en": "Worldline",
+      "ru": "Worldline",
+      "uk": "Worldline"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paystand",
     "vendor": "paystand",
     "metadata": {
@@ -17423,7 +17436,11 @@
       "wave",
       "orange_money",
       "tnm",
-      "free_money"
+      "free_money",
+      "orange_money_civ",
+      "orange_money_sen",
+      "airtel_money_cog",
+      "airtel_money_gab"
     ],
     "payout_method": [
       "zenith_bank",
@@ -20603,6 +20620,19 @@
   },
   {
     "status": "active",
+    "code": "axipays",
+    "vendor": "axipays",
+    "name": {
+      "en": "Axipays",
+      "ru": "Axipays",
+      "uk": "Axipays"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "epb",
     "vendor": "epb",
     "name": {
@@ -20804,10 +20834,22 @@
     },
     "payment_method": [
       "payment_card",
-      "card_transfer"
+      "card_transfer",
+      "sbp",
+      "binancepay",
+      "gatepay",
+      "bybit_pay",
+      "pix_qr",
+      "bank_transfer",
+      "online_banking",
+      "upi"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "mobile",
+      "pix",
+      "interac_etransfer",
+      "bank_transfer"
     ]
   },
   {
@@ -21135,7 +21177,8 @@
       "bkash_limited",
       "nagad_wallet",
       "card_transfer",
-      "openbanking"
+      "openbanking",
+      "applepay"
     ],
     "payout_method": [
       "payment_card",
@@ -24432,7 +24475,8 @@
     "code": "pionpay",
     "vendor": "pionpay",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "multibanco"
     ],
     "name": {
       "en": "PionPay",
@@ -25279,6 +25323,10 @@
     "vendor": "sgate",
     "payment_method": [
       "payment_card"
+    ],
+    "payout_method": [
+      "payment_card",
+      "sepa_transfer"
     ],
     "name": {
       "en": "Sgate",
@@ -26297,6 +26345,19 @@
   },
   {
     "status": "active",
+    "code": "transacto",
+    "vendor": "transacto",
+    "name": {
+      "en": "TRANSACTO",
+      "ru": "TRANSACTO",
+      "uk": "TRANSACTO"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "confirmo",
     "vendor": "confirmo",
     "name": {
@@ -26776,7 +26837,10 @@
       "uk": "Creditum"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "neteller",
+      "paysafecard",
+      "skrill"
     ]
   },
   {
@@ -27740,7 +27804,14 @@
       "payment_card",
       "swiffy_eft",
       "bank_transfer",
-      "snapscan_qr"
+      "snapscan_qr",
+      "mtn",
+      "airteltigo",
+      "vodafone_pay",
+      "m_pesa",
+      "airtel_money",
+      "tigo",
+      "mobile"
     ],
     "payout_method": [
       "absa_bank",
@@ -29304,12 +29375,12 @@
   },
   {
     "status": "active",
-    "code": "paytech",
-    "vendor": "paytech",
+    "code": "creditumnew",
+    "vendor": "creditumnew",
     "name": {
-      "en": "paytech",
-      "ru": "paytech",
-      "uk": "paytech"
+      "en": "Creditum (new)",
+      "ru": "Creditum (new)",
+      "uk": "Creditum (new)"
     },
     "payment_method": [
       "payment_card"
@@ -29435,6 +29506,19 @@
       "bank_transfer",
       "payment_card",
       "sepa_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "syspay",
+    "vendor": "syspay",
+    "name": {
+      "en": "SysPay",
+      "ru": "SysPay",
+      "uk": "SysPay"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   },
   {
@@ -29629,6 +29713,19 @@
       "en": "Trezuz",
       "ru": "Trezuz",
       "uk": "Trezuz"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paytorean",
+    "vendor": "paytorean",
+    "name": {
+      "en": "Paytorean",
+      "ru": "Paytorean",
+      "uk": "Paytorean"
     },
     "payment_method": [
       "payment_card"
