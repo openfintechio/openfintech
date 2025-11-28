@@ -26265,6 +26265,89 @@
   },
   {
     "status": "active",
+    "code": "faster_payments_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "faster_payments",
+    "fields": [
+      {
+        "key": "debtor_sort_code",
+        "type": "string",
+        "label": {
+          "en": "The Debtor’s Provider sort code",
+          "ru": "Сортировочный код поставщика Дебитора",
+          "uk": "Сортувальний код постачальника Дебітора"
+        },
+        "regexp": "\/^.{1,16}$\/",
+        "required": false,
+        "position": 1,
+        "hint": {
+          "en": "Enter Debtor’s Provider sort code",
+          "ru": "Введите сортировочный код поставщика Дебитора",
+          "uk": "Введіть сортувальний код постачальника Дебітора"
+        },
+        "example": "0123456"
+      },
+      {
+        "key": "debtor_account_number",
+        "type": "string",
+        "label": {
+          "en": "The Debtor’s Provider account number",
+          "ru": "Номер счета поставщика Дебитора",
+          "uk": "Номер рахунку постачальника Дебітора"
+        },
+        "regexp": "\/^.{1,16}$\/",
+        "required": true,
+        "position": 2,
+        "hint": {
+          "en": "Enter Debtor’s Provider account number",
+          "ru": "Введите номер счета поставщика Дебитора",
+          "uk": "Введіть номер рахунку постачальника Дебітора"
+        },
+        "example": "0123456"
+      },
+      {
+        "key": "creditor_sort_code",
+        "type": "string",
+        "label": {
+          "en": "The Creditor’s Provider sort code",
+          "ru": "Сортировочный код поставщика Кредитора",
+          "uk": "Сортувальний код постачальника Кредитора"
+        },
+        "regexp": "\/^.{1,16}$\/",
+        "required": false,
+        "position": 3,
+        "hint": {
+          "en": "Enter Creditor’s Provider sort code",
+          "ru": "Введите сортировочный код поставщика Кредитора",
+          "uk": "Введіть сортувальний код постачальника Кредитора"
+        },
+        "example": "0123456"
+      },
+      {
+        "key": "creditor_account_number",
+        "type": "string",
+        "label": {
+          "en": "The Creditor’s Provider account number",
+          "ru": "Номер счета поставщика Кредитора",
+          "uk": "Номер рахунку постачальника Кредитора"
+        },
+        "regexp": "\/^.{1,16}$\/",
+        "required": true,
+        "position": 4,
+        "hint": {
+          "en": "Enter Creditor’s Provider account number",
+          "ru": "Введите номер счета поставщика Кредитора",
+          "uk": "Введіть номер рахунку постачальника Кредитора"
+        },
+        "example": "0123456"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 75445
+  },
+  {
+    "status": "active",
     "code": "pay4fun_brl_hpp",
     "currency": "BRL",
     "flow": "hpp",
