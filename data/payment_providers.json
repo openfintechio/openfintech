@@ -29245,7 +29245,8 @@
       "revolut_bank",
       "wise",
       "n26_bank",
-      "bunq"
+      "bunq",
+      "sofortuberweisung"
     ]
   },
   {
@@ -29735,6 +29736,19 @@
     },
     "payment_method": [
       "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tbn",
+    "vendor": "tbn",
+    "name": {
+      "en": "TBN",
+      "ru": "TBN",
+      "uk": "TBN"
+    },
+    "payment_method": [
+      "crypto"
     ]
   }
 ]
