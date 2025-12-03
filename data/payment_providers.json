@@ -28890,6 +28890,25 @@
   },
   {
     "status": "active",
+    "code": "assanpay",
+    "vendor": "assanpay",
+    "name": {
+      "en": "AssanPay",
+      "ru": "AssanPay",
+      "uk": "AssanPay"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet",
+      "bkash_p2p"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paymixvia",
     "vendor": "paymixvia",
     "name": {
