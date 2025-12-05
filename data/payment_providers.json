@@ -29771,5 +29771,18 @@
     "payment_method": [
       "crypto"
     ]
+  },
+  {
+    "status": "active",
+    "code": "sola",
+    "vendor": "sola",
+    "name": {
+      "en": "Sola",
+      "ru": "Sola",
+      "uk": "Sola"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
