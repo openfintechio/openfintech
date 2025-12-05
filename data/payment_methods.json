@@ -10712,6 +10712,16 @@
     }
   },
   {
+    "status": "active",
+    "code": "nequi_qr",
+    "category": "bank_transfer",
+    "name": {
+      "en": "NEQUI QR",
+      "uk": "NEQUI QR",
+      "ru": "NEQUI QR"
+    }
+  },
+  {
     "code": "qr_payment_aggregated",
     "category": "alternative",
     "status": "active",
