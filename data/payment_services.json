@@ -40530,5 +40530,50 @@
     "method": "sofortuberweisung",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "postbank_eur_hpp",
+    "flow": "hpp",
+    "method": "postbank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "unicredit_eur_hpp",
+    "flow": "hpp",
+    "method": "unicredit",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "berliner_sparkasse_eur_hpp",
+    "flow": "hpp",
+    "method": "berliner_sparkasse",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ing_eur_hpp",
+    "flow": "hpp",
+    "method": "ing",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "snsbank_eur_hpp",
+    "flow": "hpp",
+    "method": "snsbank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]

@@ -11822,5 +11822,45 @@
       "ru": "Sofort uberweisung",
       "uk": "Sofort uberweisung"
     }
+  },
+  {
+    "code": "postbank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Deutsche Postbank",
+      "ru": "Deutsche Postbank",
+      "uk": "Deutsche Postbank"
+    }
+  },
+  {
+    "code": "berliner_sparkasse",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Berliner Sparkasse",
+      "ru": "Berliner Sparkasse",
+      "uk": "Berliner Sparkasse"
+    }
+  },
+  {
+    "code": "ing",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "ING",
+      "ru": "ING",
+      "uk": "ING"
+    }
+  },
+  {
+    "code": "snsbank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "SNS Bank",
+      "ru": "SNS Bank",
+      "uk": "SNS Bank"
+    }
   }
 ]
