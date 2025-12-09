@@ -30253,6 +30253,33 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aggregated_clp_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_mxn_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_ars_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
     "code": "etisalat_cash_egp_hpp",
     "flow": "hpp",
     "method": "etisalat_cash",
