@@ -7620,6 +7620,86 @@
   },
   {
     "status": "active",
+    "code": "cash_ars_hpp",
+    "currency": "ARS",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "expiration_days",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "\/^.{1,12}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,32}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "cash_mxn_hpp",
     "currency": "MXN",
     "method": "cash",
@@ -18094,6 +18174,15 @@
   },
   {
     "status": "active",
+    "code": "pix_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "pix",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "pix_mxn_hpp",
     "currency": "MXN",
     "flow": "hpp",
@@ -21827,6 +21916,15 @@
     "method": "mach",
     "amount_min": 1,
     "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "mach_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "mach",
+    "amount_min": 10,
+    "amount_max": 100000000
   },
   {
     "status": "active",
@@ -32489,12 +32587,57 @@
   },
   {
     "status": "active",
+    "code": "qr_payment_aggregated_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 1,
+    "amount_max": 90340000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
     "code": "qr_payment_aggregated_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
     "method": "qr_payment_aggregated",
     "amount_min": 160,
     "amount_max": 1600000000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1744370
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   },
   {
     "status": "active",
