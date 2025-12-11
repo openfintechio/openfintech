@@ -30360,6 +30360,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aggregated_pen_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "PEN",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aggregated_mxn_hpp",
     "flow": "hpp",
     "method": "bank_transfer_aggregated",
