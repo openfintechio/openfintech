@@ -21488,6 +21488,24 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_jod_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "JOD",
+    "amount_min": 0.007,
+    "amount_max": 70000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_iqd_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "IQD",
+    "amount_min": 13,
+    "amount_max": 130000000
+  },
+  {
+    "status": "active",
     "code": "pay_id_aud_invoice",
     "flow": "invoice",
     "method": "pay_id",
@@ -37109,6 +37127,15 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_bhd_hpp",
+    "currency": "BHD",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.004,
+    "amount_max": 40000
   },
   {
     "status": "active",
