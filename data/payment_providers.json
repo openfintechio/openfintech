@@ -29563,6 +29563,19 @@
   },
   {
     "status": "active",
+    "code": "vialet",
+    "vendor": "vialet",
+    "name": {
+      "en": "Vialet",
+      "ru": "Vialet",
+      "uk": "Vialet"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "syspay",
     "vendor": "syspay",
     "name": {
