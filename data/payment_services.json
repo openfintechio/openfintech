@@ -38823,6 +38823,15 @@
   },
   {
     "status": "active",
+    "code": "coinspaid_usd_hpp",
+    "flow": "hpp",
+    "method": "coinspaid",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "alphapo_eur_hpp",
     "flow": "hpp",
     "method": "alphapo",
