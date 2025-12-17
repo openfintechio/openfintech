@@ -7620,6 +7620,86 @@
   },
   {
     "status": "active",
+    "code": "cash_ars_hpp",
+    "currency": "ARS",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "expiration_days",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "\/^.{1,12}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,32}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[0-9]{1,100}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "cash_mxn_hpp",
     "currency": "MXN",
     "method": "cash",
@@ -18094,6 +18174,15 @@
   },
   {
     "status": "active",
+    "code": "pix_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "pix",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "pix_mxn_hpp",
     "currency": "MXN",
     "flow": "hpp",
@@ -21399,6 +21488,24 @@
   },
   {
     "status": "active",
+    "code": "card_transfer_jod_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "JOD",
+    "amount_min": 0.007,
+    "amount_max": 70000
+  },
+  {
+    "status": "active",
+    "code": "card_transfer_iqd_hpp",
+    "flow": "hpp",
+    "method": "card_transfer",
+    "currency": "IQD",
+    "amount_min": 13,
+    "amount_max": 130000000
+  },
+  {
+    "status": "active",
     "code": "pay_id_aud_invoice",
     "flow": "invoice",
     "method": "pay_id",
@@ -21827,6 +21934,15 @@
     "method": "mach",
     "amount_min": 1,
     "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "mach_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "mach",
+    "amount_min": 10,
+    "amount_max": 100000000
   },
   {
     "status": "active",
@@ -25814,6 +25930,15 @@
   },
   {
     "status": "active",
+    "code": "crypto_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "tmbthanachart_bank_thb_hpp",
     "currency": "THB",
     "flow": "hpp",
@@ -26253,6 +26378,89 @@
     ],
     "amount_min": 1,
     "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "faster_payments_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "faster_payments",
+    "fields": [
+      {
+        "key": "debtor_sort_code",
+        "type": "string",
+        "label": {
+          "en": "The Debtor’s Provider sort code",
+          "ru": "Сортировочный код поставщика Дебитора",
+          "uk": "Сортувальний код постачальника Дебітора"
+        },
+        "regexp": "\/^.{1,16}$\/",
+        "required": false,
+        "position": 1,
+        "hint": {
+          "en": "Enter Debtor’s Provider sort code",
+          "ru": "Введите сортировочный код поставщика Дебитора",
+          "uk": "Введіть сортувальний код постачальника Дебітора"
+        },
+        "example": "0123456"
+      },
+      {
+        "key": "debtor_account_number",
+        "type": "string",
+        "label": {
+          "en": "The Debtor’s Provider account number",
+          "ru": "Номер счета поставщика Дебитора",
+          "uk": "Номер рахунку постачальника Дебітора"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": true,
+        "position": 2,
+        "hint": {
+          "en": "Enter Debtor’s Provider account number",
+          "ru": "Введите номер счета поставщика Дебитора",
+          "uk": "Введіть номер рахунку постачальника Дебітора"
+        },
+        "example": "0123456"
+      },
+      {
+        "key": "creditor_sort_code",
+        "type": "string",
+        "label": {
+          "en": "The Creditor’s Provider sort code",
+          "ru": "Сортировочный код поставщика Кредитора",
+          "uk": "Сортувальний код постачальника Кредитора"
+        },
+        "regexp": "\/^.{1,16}$\/",
+        "required": false,
+        "position": 3,
+        "hint": {
+          "en": "Enter Creditor’s Provider sort code",
+          "ru": "Введите сортировочный код поставщика Кредитора",
+          "uk": "Введіть сортувальний код постачальника Кредитора"
+        },
+        "example": "0123456"
+      },
+      {
+        "key": "creditor_account_number",
+        "type": "string",
+        "label": {
+          "en": "The Creditor’s Provider account number",
+          "ru": "Номер счета поставщика Кредитора",
+          "uk": "Номер рахунку постачальника Кредитора"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": true,
+        "position": 4,
+        "hint": {
+          "en": "Enter Creditor’s Provider account number",
+          "ru": "Введите номер счета поставщика Кредитора",
+          "uk": "Введіть номер рахунку постачальника Кредитора"
+        },
+        "example": "0123456"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 75445
   },
   {
     "status": "active",
@@ -27236,6 +27444,15 @@
     "currency": "BDT",
     "flow": "hpp",
     "method": "nagad_wallet",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "nagad_wallet_p2p_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "nagad_wallet_p2p",
     "amount_min": 1,
     "amount_max": 10900000
   },
@@ -30152,6 +30369,42 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aggregated_clp_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_pen_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "PEN",
+    "amount_min": 0.01,
+    "amount_max": 377000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_mxn_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aggregated_ars_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
     "code": "etisalat_cash_egp_hpp",
     "flow": "hpp",
     "method": "etisalat_cash",
@@ -32271,12 +32524,147 @@
   },
   {
     "status": "active",
+    "code": "nequi_qr_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "nequi_qr",
+    "amount_min": 1,
+    "amount_max": 500000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nequi_cop_invoice",
+    "currency": "COP",
+    "flow": "invoice",
+    "method": "nequi",
+    "amount_min": 1,
+    "amount_max": 500000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^[A-Z]{2,4}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
+          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
+          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9]{6,15}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_brl_hpp",
+    "currency": "BRL",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1200000000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 1,
+    "amount_max": 90340000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
     "code": "qr_payment_aggregated_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
     "method": "qr_payment_aggregated",
     "amount_min": 160,
     "amount_max": 1600000000
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1744370
+  },
+  {
+    "status": "active",
+    "code": "qr_payment_aggregated_pen_hpp",
+    "currency": "PEN",
+    "flow": "hpp",
+    "method": "qr_payment_aggregated",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   },
   {
     "status": "active",
@@ -36742,6 +37130,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_bhd_hpp",
+    "currency": "BHD",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 0.004,
+    "amount_max": 40000
+  },
+  {
+    "status": "active",
     "code": "dragonpay_php_hpp",
     "flow": "hpp",
     "method": "dragonpay",
@@ -38420,6 +38817,24 @@
     "code": "coinspaid_eur_hpp",
     "flow": "hpp",
     "method": "coinspaid",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "coinspaid_usd_hpp",
+    "flow": "hpp",
+    "method": "coinspaid",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "alphapo_eur_hpp",
+    "flow": "hpp",
+    "method": "alphapo",
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
@@ -40330,5 +40745,59 @@
     "method": "free_money",
     "amount_min": 6,
     "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "sofortuberweisung_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "sofortuberweisung",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "postbank_eur_hpp",
+    "flow": "hpp",
+    "method": "postbank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "unicredit_eur_hpp",
+    "flow": "hpp",
+    "method": "unicredit",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "berliner_sparkasse_eur_hpp",
+    "flow": "hpp",
+    "method": "berliner_sparkasse",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "ing_eur_hpp",
+    "flow": "hpp",
+    "method": "ing",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "snsbank_eur_hpp",
+    "flow": "hpp",
+    "method": "snsbank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]

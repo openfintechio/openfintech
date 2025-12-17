@@ -529,7 +529,9 @@
       "gatepay",
       "bybit_pay",
       "mb_way",
-      "bank_transfer"
+      "bank_transfer",
+      "nequi",
+      "nequi_qr"
     ],
     "payout_method": [
       "payment_card",
@@ -25530,7 +25532,15 @@
       "skrill",
       "przelewy24",
       "mybank2",
-      "epay"
+      "commerzbank",
+      "revolut_bank",
+      "postbank",
+      "unicredit",
+      "berliner_sparkasse",
+      "ing",
+      "rabobank",
+      "abn_amro_bank",
+      "snsbank"
     ],
     "name": {
       "en": "Siquro",
@@ -26045,7 +26055,11 @@
       "interac",
       "polipayonline",
       "ideal",
-      "epay"
+      "epay",
+      "cash",
+      "mach",
+      "qr_payment_aggregated",
+      "pix"
     ],
     "payout_method": [
       "payment_card",
@@ -28291,7 +28305,8 @@
       "uk": "inpay"
     },
     "payout_method": [
-      "sepa_transfer"
+      "sepa_transfer",
+      "bank_transfer"
     ]
   },
   {
@@ -28715,7 +28730,8 @@
     "code": "cardaq",
     "vendor": "cardaq",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay"
     ],
     "name": {
       "en": "Cardaq",
@@ -28884,6 +28900,26 @@
       "bkash_limited",
       "nagad_wallet",
       "united_commercial_bank_upay"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "assanpay",
+    "vendor": "assanpay",
+    "name": {
+      "en": "AssanPay",
+      "ru": "AssanPay",
+      "uk": "AssanPay"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet",
+      "bkash_p2p",
+      "nagad_wallet_p2p"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
     ]
   },
   {
@@ -29244,7 +29280,8 @@
       "revolut_bank",
       "wise",
       "n26_bank",
-      "bunq"
+      "bunq",
+      "sofortuberweisung"
     ]
   },
   {
@@ -29746,6 +29783,52 @@
     },
     "payment_method": [
       "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tbn",
+    "vendor": "tbn",
+    "name": {
+      "en": "TBN",
+      "ru": "TBN",
+      "uk": "TBN"
+    },
+    "payment_method": [
+      "crypto"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "sola",
+    "vendor": "sola",
+    "name": {
+      "en": "Sola",
+      "ru": "Sola",
+      "uk": "Sola"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "alphapo",
+    "vendor": "alphapo",
+    "name": {
+      "en": "Alphapo",
+      "ru": "Alphapo",
+      "uk": "Alphapo"
+    },
+    "payment_method": [
+      "bitcoin",
+      "bitcoin_cash",
+      "ethereum",
+      "litecoin",
+      "ripple",
+      "tether",
+      "usd_coin",
+      "alphapo"
     ]
   }
 ]

@@ -9012,6 +9012,16 @@
     }
   },
   {
+    "status": "active",
+    "code": "nagad_wallet_p2p",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Nagad Digital Financial Service(P2P)",
+      "ru": "Nagad Digital Financial Service(P2P)",
+      "uk": "Nagad Digital Financial Service(P2P)"
+    }
+  },
+  {
     "code": "bank_transfer_aggregated",
     "category": "bank_transfer",
     "status": "active",
@@ -10702,6 +10712,16 @@
     }
   },
   {
+    "status": "active",
+    "code": "nequi_qr",
+    "category": "bank_transfer",
+    "name": {
+      "en": "NEQUI QR",
+      "uk": "NEQUI QR",
+      "ru": "NEQUI QR"
+    }
+  },
+  {
     "code": "qr_payment_aggregated",
     "category": "alternative",
     "status": "active",
@@ -11593,6 +11613,16 @@
     }
   },
   {
+    "code": "alphapo",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "Alphapo",
+      "ru": "Alphapo",
+      "uk": "Alphapo"
+    }
+  },
+  {
     "status":"active",
     "code":"palmpay",
     "category":"bank_transfer",
@@ -11754,6 +11784,16 @@
     }
   },
   {
+    "code": "faster_payments",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Faster Payments Scheme Ltd (FPSL)",
+      "ru": "Faster Payments Scheme Ltd (FPSL)",
+      "uk": "Faster Payments Scheme Ltd (FPSL)"
+    }
+  },
+  {
     "code": "tnm",
     "category": "mobile_payment",
     "status": "active",
@@ -11781,6 +11821,56 @@
       "en": "Free money",
       "ru": "Free money",
       "uk": "Free money"
+    }
+  },
+  {
+    "code": "sofortuberweisung",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Sofort uberweisung",
+      "ru": "Sofort uberweisung",
+      "uk": "Sofort uberweisung"
+    }
+  },
+  {
+    "code": "postbank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Deutsche Postbank",
+      "ru": "Deutsche Postbank",
+      "uk": "Deutsche Postbank"
+    }
+  },
+  {
+    "code": "berliner_sparkasse",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Berliner Sparkasse",
+      "ru": "Berliner Sparkasse",
+      "uk": "Berliner Sparkasse"
+    }
+  },
+  {
+    "code": "ing",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "ING",
+      "ru": "ING",
+      "uk": "ING"
+    }
+  },
+  {
+    "code": "snsbank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "SNS Bank",
+      "ru": "SNS Bank",
+      "uk": "SNS Bank"
     }
   }
 ]
