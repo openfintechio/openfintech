@@ -6351,6 +6351,28 @@
     }
   },
   {
+    "status": "active",
+    "code": "mtn_cog",
+    "vendor": "mtn",
+    "category": "mobile_payment",
+    "name": {
+      "en": "MTN",
+      "ru": "MTN",
+      "uk": "MTN"
+    }
+  },
+  {
+    "status": "active",
+    "code": "mtn_civ",
+    "vendor": "mtn",
+    "category": "mobile_payment",
+    "name": {
+      "en": "MTN",
+      "ru": "MTN",
+      "uk": "MTN"
+    }
+  },
+  {
     "code": "equitel",
     "category": "mobile_payment",
     "status": "active",
