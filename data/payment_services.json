@@ -40799,5 +40799,133 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bancontact_pln_hpp",
+    "flow": "hpp",
+    "method": "bancontact",
+    "currency": "PLN",
+    "amount_min": 0.3,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "bancontact_czk_hpp",
+    "flow": "hpp",
+    "method": "bancontact",
+    "currency": "CZK",
+    "amount_min": 0.3,
+    "amount_max": 2100000
+  },
+  {
+    "status": "active",
+    "code": "blik_czk_hpp",
+    "flow": "hpp",
+    "method": "blik",
+    "currency": "CZK",
+    "amount_min": 0.3,
+    "amount_max": 2100000,
+    "fields": [
+      {
+        "key": "blik_code",
+        "type": "string",
+        "regexp": "\/^\\d{6}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "BLIK code",
+          "ru": "BLIK код",
+          "uk": "BLIK код"
+        },
+        "hint": {
+          "en": "Enter BLIK code",
+          "ru": "Введите код BLIK",
+          "uk": "Введіть код BLIK"
+        },
+        "example": "123456"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "eps_czk_hpp",
+    "flow": "hpp",
+    "method": "eps",
+    "currency": "CZK",
+    "amount_min": 0.3,
+    "amount_max": 2100000
+  },
+  {
+    "status": "active",
+    "code": "eps_pln_hpp",
+    "flow": "hpp",
+    "method": "eps",
+    "currency": "PLN",
+    "amount_min": 0.3,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "multibanco_czk_hpp",
+    "flow": "hpp",
+    "method": "multibanco",
+    "currency": "CZK",
+    "amount_min": 0.3,
+    "amount_max": 2100000
+  },
+  {
+    "status": "active",
+    "code": "multibanco_pln_hpp",
+    "flow": "hpp",
+    "method": "multibanco",
+    "currency": "PLN",
+    "amount_min": 0.3,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "mybank2_czk_hpp",
+    "flow": "hpp",
+    "method": "mybank2",
+    "currency": "CZK",
+    "amount_min": 0.3,
+    "amount_max": 2100000
+  },
+  {
+    "status": "active",
+    "code": "przelewy24_czk_hpp",
+    "flow": "hpp",
+    "method": "przelewy24",
+    "currency": "CZK",
+    "amount_min": 0.3,
+    "amount_max": 2100000
+  },
+  {
+    "status": "active",
+    "code": "payu_pln_hpp",
+    "flow": "hpp",
+    "method": "payu",
+    "currency": "PLN",
+    "amount_min": 0.3,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "payu_czk_hpp",
+    "flow": "hpp",
+    "method": "payu",
+    "currency": "CZK",
+    "amount_min": 0.3,
+    "amount_max": 2100000
+  },
+  {
+    "status": "active",
+    "code": "payu_eur_hpp",
+    "flow": "hpp",
+    "method": "payu",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
