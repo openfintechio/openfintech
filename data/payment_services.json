@@ -26413,7 +26413,7 @@
           "uk": "Номер рахунку постачальника Дебітора"
         },
         "regexp": "\/^.{1,64}$\/",
-        "required": true,
+        "required": false,
         "position": 2,
         "hint": {
           "en": "Enter Debtor’s Provider account number",
@@ -26449,7 +26449,7 @@
           "uk": "Номер рахунку постачальника Кредитора"
         },
         "regexp": "\/^.{1,64}$\/",
-        "required": true,
+        "required": false,
         "position": 4,
         "hint": {
           "en": "Enter Creditor’s Provider account number",
