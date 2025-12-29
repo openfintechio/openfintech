@@ -24504,7 +24504,9 @@
     "code": "libernetix",
     "vendor": "libernetix",
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay",
+      "googlepay"
     ],
     "name": {
       "en": "Libernetix",
