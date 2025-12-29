@@ -29839,6 +29839,19 @@
   },
   {
     "status": "active",
+    "code": "raptorway",
+    "vendor": "raptorway",
+    "name": {
+      "en": "RaptorWay",
+      "ru": "RaptorWay",
+      "uk": "RaptorWay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "sola",
     "vendor": "sola",
     "name": {
