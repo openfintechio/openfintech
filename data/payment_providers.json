@@ -29839,6 +29839,19 @@
   },
   {
     "status": "active",
+    "code": "raptorway",
+    "vendor": "raptorway",
+    "name": {
+      "en": "Tranzify",
+      "ru": "Tranzify",
+      "uk": "Tranzify"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "sola",
     "vendor": "sola",
     "name": {
