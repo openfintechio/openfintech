@@ -27695,6 +27695,24 @@
   },
   {
     "status": "active",
+    "code": "piqpay",
+    "vendor": "piqpay",
+    "name": {
+      "en": "PIQPAY",
+      "ru": "PIQPAY",
+      "uk": "PIQPAY"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
+  },
+  {
+    "status": "active",
     "code": "flexfactor",
     "vendor": "flexfactor",
     "name": {
