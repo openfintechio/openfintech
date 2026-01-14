@@ -4016,8 +4016,8 @@
     "currency": "UYU",
     "flow": "invoice",
     "method": "bank_transfer",
-    "amount_min": 0.43,
-    "amount_max": 43327513
+    "amount_min": 1,
+    "amount_max": 4000000
   },
   {
     "status": "active",
@@ -6692,6 +6692,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_clp_invoice",
     "currency": "CLP",
     "flow": "invoice",
@@ -7617,6 +7626,15 @@
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "cash_uyu_hpp",
+    "currency": "UYU",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 4000000
   },
   {
     "status": "active",
@@ -24993,6 +25011,60 @@
   },
   {
     "status": "active",
+    "code": "wallet_aggregated_pen_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "PEN",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_usd_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_clp_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_bob_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "BOB",
+    "amount_min": 1,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_mxn_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_ars_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "ARS",
+    "amount_min": 15,
+    "amount_max": 150000000
+  },
+  {
+    "status": "active",
     "code": "mobile_rub_hpp",
     "flow": "hpp",
     "method": "mobile",
@@ -37051,6 +37123,15 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "mobile_money_usd_hpp",
+    "flow": "hpp",
+    "method": "mobile_money",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "status": "active",

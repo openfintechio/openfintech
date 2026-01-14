@@ -29915,5 +29915,30 @@
       "usd_coin",
       "alphapo"
     ]
+  },
+  {
+    "status": "active",
+    "code": "smartfastpay",
+    "vendor": "smartfastpay",
+    "name": {
+      "en": "SmartFastPay",
+      "ru": "SmartFastPay",
+      "uk": "SmartFastPay"
+    },
+    "payment_method": [
+      "pix",
+      "bank_transfer",
+      "payment_card",
+      "boleto_bancario",
+      "picpay",
+      "pagoefectivo_cip",
+      "wallet_aggregated",
+      "cash",
+      "mobile_money",
+      "pse",
+      "nequi",
+      "transfiya",
+      "efecty"
+    ]
   }
 ]
