@@ -29490,7 +29490,27 @@
     "method": "openbanking",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
@@ -29499,7 +29519,27 @@
     "method": "openbanking",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
@@ -29508,7 +29548,27 @@
     "method": "openbanking",
     "currency": "PLN",
     "amount_min": 0.01,
-    "amount_max": 480000
+    "amount_max": 480000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
@@ -29517,7 +29577,27 @@
     "method": "openbanking",
     "currency": "GBP",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
