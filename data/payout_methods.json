@@ -27702,10 +27702,26 @@
   },
   {
     "status":"active",
+    "code":"fnb_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en":"FNB"
+    }
+  },
+  {
+    "status":"active",
     "code":"absa_bank",
     "category":"bank_transfer",
     "name":{
       "en":"Absa Bank"
+    }
+  },
+  {
+    "status":"active",
+    "code":"mercantile_bank",
+    "category":"bank_transfer",
+    "name":{
+      "en":"Mercantile Bank"
     }
   },
   {
