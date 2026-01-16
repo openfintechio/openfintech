@@ -27787,6 +27787,19 @@
   },
   {
     "status": "active",
+    "code": "benker",
+    "vendor": "benker",
+    "name": {
+      "en": "Benker",
+      "ru": "Benker",
+      "uk": "Benker"
+    },
+    "payment_method": [
+      "openbanking"
+    ]
+  },
+  {
+    "status": "active",
     "code": "epx",
     "vendor": "epx",
     "name": {
