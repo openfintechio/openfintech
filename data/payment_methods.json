@@ -11754,6 +11754,26 @@
     }
   },
   {
+    "status": "active",
+    "code": "absa_pay",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Absa Pay",
+      "ru": "Absa Pay",
+      "uk": "Absa Pay"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nedbank_pay",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Nedbank Pay",
+      "ru": "Nedbank Pay",
+      "uk": "Nedbank Pay"
+    }
+  },
+  {
     "code": "bybit_pay",
     "category": "alternative",
     "status": "active",
