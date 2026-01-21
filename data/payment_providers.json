@@ -29762,7 +29762,9 @@
     },
     "payment_method": [
       "bank_transfer",
-      "capitec_pay"
+      "capitec_pay",
+      "absa_pay",
+      "nedbank_pay"
     ],
     "payout_method": [
       "absa_bank",
