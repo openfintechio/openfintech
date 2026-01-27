@@ -21564,6 +21564,20 @@
   },
   {
     "status": "active",
+    "code": "moneliq",
+    "vendor": "moneliq",
+    "name": {
+      "en": "Moneliq",
+      "ru": "Moneliq",
+      "uk": "Moneliq"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay"
+    ]
+  },
+  {
+    "status": "active",
     "code": "nebeus",
     "vendor": "nebeus",
     "name": {
