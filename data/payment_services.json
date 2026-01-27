@@ -12521,6 +12521,60 @@
   },
   {
     "status": "active",
+    "code": "applepay_czk_hpp",
+    "currency": "CZK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_dkk_hpp",
+    "currency": "DKK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 600000
+  },
+  {
+    "status": "active",
+    "code": "applepay_huf_hpp",
+    "currency": "HUF",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 32000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_isk_hpp",
+    "currency": "ISK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 1,
+    "amount_max": 12000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_ron_hpp",
+    "currency": "RON",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "applepay_sek_hpp",
+    "currency": "SEK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 900000
+  },
+  {
+    "status": "active",
     "code": "applepay_eur_hpp",
     "currency": "EUR",
     "flow": "hpp",
@@ -12581,6 +12635,60 @@
     "method": "googlepay",
     "amount_min": 0.01,
     "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_czk_hpp",
+    "currency": "CZK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_dkk_hpp",
+    "currency": "DKK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 600000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_huf_hpp",
+    "currency": "HUF",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 32000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_isk_hpp",
+    "currency": "ISK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 1,
+    "amount_max": 12000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_ron_hpp",
+    "currency": "RON",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_sek_hpp",
+    "currency": "SEK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 400000
   },
   {
     "status": "active",
