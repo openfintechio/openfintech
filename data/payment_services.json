@@ -4016,8 +4016,8 @@
     "currency": "UYU",
     "flow": "invoice",
     "method": "bank_transfer",
-    "amount_min": 0.43,
-    "amount_max": 43327513
+    "amount_min": 1,
+    "amount_max": 4000000
   },
   {
     "status": "active",
@@ -5605,6 +5605,100 @@
   },
   {
     "status": "active",
+    "code": "absa_pay_zar_hpp",
+    "currency": "ZAR",
+    "flow": "hpp",
+    "method": "absa_pay",
+    "amount_min": 0.18,
+    "amount_max": 1778255.00,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nedbank_pay_zar_hpp",
+    "currency": "ZAR",
+    "flow": "hpp",
+    "method": "nedbank_pay",
+    "amount_min": 0.18,
+    "amount_max": 1778255.00,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_zar_hpp",
     "currency": "ZAR",
     "flow": "hpp",
@@ -6692,6 +6786,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_clp_invoice",
     "currency": "CLP",
     "flow": "invoice",
@@ -7617,6 +7720,15 @@
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "cash_uyu_hpp",
+    "currency": "UYU",
+    "method": "cash",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 4000000
   },
   {
     "status": "active",
@@ -25101,6 +25213,60 @@
   },
   {
     "status": "active",
+    "code": "wallet_aggregated_pen_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "PEN",
+    "amount_min": 0.01,
+    "amount_max": 390000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_usd_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_clp_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_bob_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "BOB",
+    "amount_min": 1,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_mxn_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "wallet_aggregated_ars_hpp",
+    "flow": "hpp",
+    "method": "wallet_aggregated",
+    "currency": "ARS",
+    "amount_min": 15,
+    "amount_max": 150000000
+  },
+  {
+    "status": "active",
     "code": "mobile_rub_hpp",
     "flow": "hpp",
     "method": "mobile",
@@ -29598,7 +29764,27 @@
     "method": "openbanking",
     "currency": "EUR",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
@@ -29607,7 +29793,27 @@
     "method": "openbanking",
     "currency": "USD",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
@@ -29616,7 +29822,27 @@
     "method": "openbanking",
     "currency": "PLN",
     "amount_min": 0.01,
-    "amount_max": 480000
+    "amount_max": 480000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
@@ -29625,7 +29851,27 @@
     "method": "openbanking",
     "currency": "GBP",
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
   },
   {
     "status": "active",
@@ -37079,6 +37325,15 @@
         }
       }
     ]
+  },
+  {
+    "status": "active",
+    "code": "mobile_money_usd_hpp",
+    "flow": "hpp",
+    "method": "mobile_money",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "status": "active",

@@ -19359,6 +19359,7 @@
     },
     "payout_method": [
       "neteller",
+      "payment_card",
       "paysafecard",
       "skrill"
     ],
@@ -21405,7 +21406,16 @@
       "sepa_transfer",
       "interac",
       "blik",
-      "mybank2"
+      "mybank2",
+      "abn_amro_bank",
+      "berliner_sparkasse",
+      "commerzbank",
+      "ing",
+      "postbank",
+      "rabobank",
+      "revolut_bank",
+      "snsbank",
+      "unicredit"
     ],
     "name": {
       "en": "TODA Pay",
@@ -24505,7 +24515,8 @@
     "vendor": "pionpay",
     "payment_method": [
       "payment_card",
-      "multibanco"
+      "multibanco",
+      "blik"
     ],
     "name": {
       "en": "PionPay",
@@ -27707,6 +27718,24 @@
   },
   {
     "status": "active",
+    "code": "piqpay",
+    "vendor": "piqpay",
+    "name": {
+      "en": "PIQPAY",
+      "ru": "PIQPAY",
+      "uk": "PIQPAY"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
+  },
+  {
+    "status": "active",
     "code": "flexfactor",
     "vendor": "flexfactor",
     "name": {
@@ -27799,12 +27828,38 @@
   },
   {
     "status": "active",
+    "code": "benker",
+    "vendor": "benker",
+    "name": {
+      "en": "Benker",
+      "ru": "Benker",
+      "uk": "Benker"
+    },
+    "payment_method": [
+      "openbanking"
+    ]
+  },
+  {
+    "status": "active",
     "code": "epx",
     "vendor": "epx",
     "name": {
       "en": "North Enterprise",
       "ru": "North Enterprise",
       "uk": "North Enterprise"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "reset",
+    "vendor": "reset",
+    "name": {
+      "en": "Re-set",
+      "ru": "Re-set",
+      "uk": "Re-set"
     },
     "payment_method": [
       "payment_card"
@@ -29730,10 +29785,33 @@
     },
     "payment_method": [
       "bank_transfer",
-      "capitec_pay"
+      "capitec_pay",
+      "absa_pay",
+      "nedbank_pay"
     ],
     "payout_method": [
-      "bank_transfer"
+      "absa_bank",
+      "ned_bank",
+      "access_bank",
+      "african_bank",
+      "albaraka_bank",
+      "bank_zero",
+      "south_african_bank_of_athens",
+      "bidvest_bank",
+      "capitec_bank",
+      "mercantile_bank",
+      "citi_bank",
+      "discovery_bank",
+      "fnb_bank",
+      "hsbc_bank",
+      "investec_bank",
+      "olympus_mobile_bank",
+      "rmb_private_bank",
+      "sasfin_bank",
+      "standard_bank",
+      "standard_chartered_bank",
+      "tyme_bank",
+      "ubank"
     ]
   },
   {
@@ -29853,12 +29931,12 @@
   },
   {
     "status": "active",
-    "code": "raptorway",
-    "vendor": "raptorway",
+    "code": "tranzify",
+    "vendor": "tranzify",
     "name": {
-      "en": "RaptorWay",
-      "ru": "RaptorWay",
-      "uk": "RaptorWay"
+      "en": "Tranzify",
+      "ru": "Tranzify",
+      "uk": "Tranzify"
     },
     "payment_method": [
       "payment_card"
@@ -29895,6 +29973,31 @@
       "tether",
       "usd_coin",
       "alphapo"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "smartfastpay",
+    "vendor": "smartfastpay",
+    "name": {
+      "en": "SmartFastPay",
+      "ru": "SmartFastPay",
+      "uk": "SmartFastPay"
+    },
+    "payment_method": [
+      "pix",
+      "bank_transfer",
+      "payment_card",
+      "boleto_bancario",
+      "picpay",
+      "pagoefectivo_cip",
+      "wallet_aggregated",
+      "cash",
+      "mobile_money",
+      "pse",
+      "nequi",
+      "transfiya",
+      "efecty"
     ]
   }
 ]
