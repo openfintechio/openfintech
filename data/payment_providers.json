@@ -27844,6 +27844,24 @@
   },
   {
     "status": "active",
+    "code": "btqfinance",
+    "vendor": "btqfinance",
+    "name": {
+      "en": "BTQ Finance",
+      "ru": "BTQ Finance",
+      "uk": "BTQ Finance"
+    },
+    "payment_method": [
+      "bank_transfer",
+      "bybit_pay",
+      "card_transfer",
+      "payment_card",
+      "upi",
+      "openbanking"
+    ]
+  },
+  {
+    "status": "active",
     "code": "epx",
     "vendor": "epx",
     "name": {
