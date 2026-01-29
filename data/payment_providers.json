@@ -30038,5 +30038,19 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paytech",
+    "vendor": "paytech",
+    "name": {
+      "en": "Paytech",
+      "ru": "Paytech",
+      "uk": "Paytech"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay"
+    ]
   }
 ]
