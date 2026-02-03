@@ -20845,13 +20845,13 @@
       "pix_qr",
       "bank_transfer",
       "online_banking",
+      "nequi",
       "upi"
     ],
     "payout_method": [
       "payment_card",
       "mobile",
       "pix",
-      "interac_etransfer",
       "bank_transfer"
     ]
   },
@@ -21406,7 +21406,16 @@
       "sepa_transfer",
       "interac",
       "blik",
-      "mybank2"
+      "mybank2",
+      "abn_amro_bank",
+      "berliner_sparkasse",
+      "commerzbank",
+      "ing",
+      "postbank",
+      "rabobank",
+      "revolut_bank",
+      "snsbank",
+      "unicredit"
     ],
     "name": {
       "en": "TODA Pay",
@@ -21551,6 +21560,21 @@
       "payment_card",
       "applepay",
       "googlepay"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "moneliq",
+    "vendor": "moneliq",
+    "name": {
+      "en": "Moneliq",
+      "ru": "Moneliq",
+      "uk": "Moneliq"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay",
+      "payment_card"
     ]
   },
   {
@@ -26992,6 +27016,9 @@
     },
     "payment_method": [
       "mtb"
+    ],
+    "payout_method": [
+      "mtb"
     ]
   },
   {
@@ -27813,6 +27840,24 @@
       "uk": "Benker"
     },
     "payment_method": [
+      "openbanking"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "btqfinance",
+    "vendor": "btqfinance",
+    "name": {
+      "en": "BTQ Finance",
+      "ru": "BTQ Finance",
+      "uk": "BTQ Finance"
+    },
+    "payment_method": [
+      "bank_transfer",
+      "bybit_pay",
+      "card_transfer",
+      "payment_card",
+      "upi",
       "openbanking"
     ]
   },
@@ -29762,7 +29807,9 @@
     },
     "payment_method": [
       "bank_transfer",
-      "capitec_pay"
+      "capitec_pay",
+      "absa_pay",
+      "nedbank_pay"
     ],
     "payout_method": [
       "absa_bank",
@@ -29996,6 +30043,39 @@
       "nequi",
       "transfiya",
       "efecty"
+    ],
+    "payout_method": [
+      "pix",
+      "bank_transfer",
+      "transfiya"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "solvex",
+    "vendor": "solvex",
+    "name": {
+      "en": "Solvex",
+      "ru": "Solvex",
+      "uk": "Solvex"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paytech",
+    "vendor": "paytech",
+    "name": {
+      "en": "Paytech",
+      "ru": "Paytech",
+      "uk": "Paytech"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay",
+      "payment_card"
     ]
   }
 ]

@@ -5605,6 +5605,100 @@
   },
   {
     "status": "active",
+    "code": "absa_pay_zar_hpp",
+    "currency": "ZAR",
+    "flow": "hpp",
+    "method": "absa_pay",
+    "amount_min": 0.18,
+    "amount_max": 1778255.00,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nedbank_pay_zar_hpp",
+    "currency": "ZAR",
+    "flow": "hpp",
+    "method": "nedbank_pay",
+    "amount_min": 0.18,
+    "amount_max": 1778255.00,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      },
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_zar_hpp",
     "currency": "ZAR",
     "flow": "hpp",
@@ -12539,6 +12633,60 @@
   },
   {
     "status": "active",
+    "code": "applepay_czk_hpp",
+    "currency": "CZK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_dkk_hpp",
+    "currency": "DKK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 600000
+  },
+  {
+    "status": "active",
+    "code": "applepay_huf_hpp",
+    "currency": "HUF",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 32000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_isk_hpp",
+    "currency": "ISK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 1,
+    "amount_max": 12000000
+  },
+  {
+    "status": "active",
+    "code": "applepay_ron_hpp",
+    "currency": "RON",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "applepay_sek_hpp",
+    "currency": "SEK",
+    "flow": "hpp",
+    "method": "applepay",
+    "amount_min": 0.01,
+    "amount_max": 900000
+  },
+  {
+    "status": "active",
     "code": "applepay_eur_hpp",
     "currency": "EUR",
     "flow": "hpp",
@@ -12599,6 +12747,60 @@
     "method": "googlepay",
     "amount_min": 0.01,
     "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_czk_hpp",
+    "currency": "CZK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_dkk_hpp",
+    "currency": "DKK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 600000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_huf_hpp",
+    "currency": "HUF",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 32000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_isk_hpp",
+    "currency": "ISK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 1,
+    "amount_max": 12000000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_ron_hpp",
+    "currency": "RON",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "googlepay_sek_hpp",
+    "currency": "SEK",
+    "flow": "hpp",
+    "method": "googlepay",
+    "amount_min": 0.01,
+    "amount_max": 400000
   },
   {
     "status": "active",

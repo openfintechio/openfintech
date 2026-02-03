@@ -29372,6 +29372,16 @@
   },
   {
     "status": "active",
+    "code": "mtb",
+    "category": "online_banking",
+    "name": {
+      "en": "MTB",
+      "ru": "МТБ",
+      "uk": "МТБ"
+    }
+  },
+  {
+    "status": "active",
     "code": "sony_bank",
     "category": "bank_transfer",
     "name": {
@@ -31930,6 +31940,16 @@
       "en": "Orange cash",
       "ru": "Orange cash",
       "uk": "Orange cash"
+    }
+  },
+  {
+    "status": "active",
+    "code": "transfiya",
+    "category": "bank_transfer",
+    "name": {
+      "en": "TransFiYa",
+      "ru": "TransFiYa",
+      "uk": "TransFiYa"
     }
   }
 ]
