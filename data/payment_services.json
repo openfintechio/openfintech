@@ -37511,6 +37511,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_p2p_inr_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_p2p",
+    "currency": "INR",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_bhd_hpp",
     "currency": "BHD",
     "flow": "hpp",
