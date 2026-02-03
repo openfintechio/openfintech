@@ -29807,6 +29807,29 @@
   },
   {
     "status": "active",
+    "code": "apay",
+    "vendor": "apay",
+    "name": {
+      "en": "Apay",
+      "ru": "Apay",
+      "uk": "Apay"
+    },
+    "payment_method": [
+      "payment_card",
+      "applepay",
+      "googlepay",
+      "openbanking",
+      "spei",
+      "pse",
+      "nequi",
+      "bank_transfer",
+      "webpay",
+      "bank_transfer_p2p",
+      "upi_aggregated"
+    ]
+  },
+  {
+    "status": "active",
     "code": "boomfi",
     "vendor": "boomfi",
     "name": {
