@@ -32647,6 +32647,24 @@
   },
   {
     "status": "active",
+    "code": "payment_card_mkd_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "MKD",
+    "amount_min": 0.5,
+    "amount_max": 5000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_dop_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "DOP",
+    "amount_min": 0.6,
+    "amount_max": 6000000
+  },
+  {
+    "status": "active",
     "code": "whitepay_usdt_hpp",
     "flow": "hpp",
     "method": "whitepay",
