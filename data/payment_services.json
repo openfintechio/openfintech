@@ -376,6 +376,78 @@
   },
   {
     "status": "active",
+    "code": "payment_card_pab_hpp",
+    "currency": "PAB",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_nio_hpp",
+    "currency": "NIO",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 3500000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_bob_hpp",
+    "currency": "BOB",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_xof_hpp",
+    "currency": "XOF",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 6,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_svc_hpp",
+    "currency": "SVC",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 900000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_pyg_hpp",
+    "currency": "PYG",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 600000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_uyu_hpp",
+    "currency": "UYU",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 4000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_ves_hpp",
+    "currency": "VES",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 38000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_xaf_hpp",
     "currency": "XAF",
     "method": "payment_card",
