@@ -26644,7 +26644,9 @@
       "en": "PayCC is a payment provider that provides solutions for accepting online payments via bank cards, e-wallets and alternative payment methods. The platform is focused on easy integration and fast transaction processing, offering anti-fraud features and support for different currencies. This and more than 500 other providers are already integrated into Corefy's payment orchestration platform, allowing customers to instantly start using the integration without programming - just enter their MID data in the Corefy dashboard."
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay",
+      "googlepay"
     ]
   },
   {
