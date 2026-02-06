@@ -25272,6 +25272,15 @@
   },
   {
     "status": "active",
+    "code": "mobile_rwf_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "RWF",
+    "amount_min": 10,
+    "amount_max": 102500000
+  },
+  {
+    "status": "active",
     "code": "mobile_xaf_hpp",
     "flow": "hpp",
     "method": "mobile",
