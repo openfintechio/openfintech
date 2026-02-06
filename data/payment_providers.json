@@ -30136,5 +30136,20 @@
       "googlepay",
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "lapsa",
+    "vendor": "lapsa",
+    "name": {
+      "en": "Lapsa",
+      "ru": "Lapsa",
+      "uk": "Lapsa"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay",
+      "payment_card"
+    ]
   }
 ]
