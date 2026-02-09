@@ -448,6 +448,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_srd_hpp",
+    "currency": "SRD",
+    "method": "payment_card",
+    "flow": "hpp",
+    "amount_min": 1,
+    "amount_max": 4000000
+  },
+  {
+    "status": "active",
     "code": "payment_card_xaf_hpp",
     "currency": "XAF",
     "method": "payment_card",
