@@ -30151,5 +30151,21 @@
       "googlepay",
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "embily",
+    "vendor": "embily",
+    "name": {
+      "en": "Embily",
+      "ru": "Embily",
+      "uk": "Embily"
+    },
+    "payment_method": [
+      "paysafecard",
+      "ideal",
+      "blik",
+      "multibanco"
+    ]
   }
 ]
