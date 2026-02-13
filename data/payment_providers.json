@@ -21080,7 +21080,8 @@
     },
     "payment_method": [
       "bank_transfer_aggregated",
-      "payment_card"
+      "payment_card",
+      "openbanking"
     ],
     "payout_method": [
       "bank_transfer"
