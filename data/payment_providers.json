@@ -21080,7 +21080,8 @@
     },
     "payment_method": [
       "bank_transfer_aggregated",
-      "payment_card"
+      "payment_card",
+      "openbanking"
     ],
     "payout_method": [
       "bank_transfer"
@@ -28291,10 +28292,56 @@
       "uk": "AeterEdge"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay",
+      "bank_transfer",
+      "binancepay",
+      "blik",
+      "cash",
+      "codi",
+      "dana",
+      "efecty",
+      "epay",
+      "googlepay",
+      "bank_transfer_klarna",
+      "linkaja",
+      "sibs_mbway",
+      "mercadopago",
+      "mobile_money",
+      "multibanco",
+      "mybank2",
+      "nequi",
+      "neteller",
+      "openbanking",
+      "ovo",
+      "pagoefectivo_cip",
+      "pagomovil",
+      "paysafecard",
+      "pix",
+      "polipayonline",
+      "przelewy24",
+      "pse",
+      "qris",
+      "rapidtransfer",
+      "shopeepay",
+      "skrill",
+      "spei",
+      "transfiya",
+      "upi",
+      "webpay"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "bank_transfer",
+      "binancepay",
+      "dana",
+      "linkaja",
+      "nequi",
+      "ovo",
+      "pix",
+      "pse",
+      "shopeepay",
+      "upi"
     ]
   },
   {
@@ -30101,7 +30148,9 @@
       "pse",
       "nequi",
       "transfiya",
-      "efecty"
+      "efecty",
+      "spei",
+      "codi"
     ],
     "payout_method": [
       "pix",
@@ -30166,6 +30215,50 @@
       "ideal",
       "blik",
       "multibanco"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "corefy",
+    "vendor": "corefy",
+    "name": {
+      "en": "Corefy",
+      "ru": "Corefy",
+      "uk": "Corefy"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "myfatoorah",
+    "vendor": "myfatoorah",
+    "name": {
+      "en": "MyFatoorah",
+      "ru": "MyFatoorah",
+      "uk": "MyFatoorah"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "tp24bdt",
+    "vendor": "tp24bdt",
+    "name": {
+      "en": "TP24BDT",
+      "ru": "TP24BDT",
+      "uk": "TP24BDT"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
     ]
   }
 ]
