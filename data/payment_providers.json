@@ -30196,5 +30196,23 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "tp24bdt",
+    "vendor": "tp24bdt",
+    "name": {
+      "en": "TP24BDT",
+      "ru": "TP24BDT",
+      "uk": "TP24BDT"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
   }
 ]
