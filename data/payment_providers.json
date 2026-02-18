@@ -30256,7 +30256,9 @@
     },
     "payment_method": [
       "bkash_limited",
-      "nagad_wallet"
+      "nagad_wallet",
+      "nagad_p2p",
+      "bkash_p2p"
     ],
     "payout_method": [
       "bkash_limited",
