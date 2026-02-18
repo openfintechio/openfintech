@@ -34178,6 +34178,42 @@
     "flow": "hpp",
     "method": "mercadopago",
     "currency": "ARS",
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9\\-]{8,64}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,32}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      }
+    ],
     "amount_min": 10,
     "amount_max": 140000000
   },
