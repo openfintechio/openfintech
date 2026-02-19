@@ -24247,6 +24247,19 @@
   },
   {
     "status": "active",
+    "code": "icard",
+    "vendor": "icard",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "iCard",
+      "ru": "iCard",
+      "uk": "iCard"
+    }
+  },
+  {
+    "status": "active",
     "code": "paydex",
     "vendor": "paydex",
     "name": {
