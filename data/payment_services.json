@@ -30384,6 +30384,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aggregated_azn_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "AZN",
+    "amount_min": 0.02,
+    "amount_max": 170000.00
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aggregated_kes_hpp",
     "flow": "hpp",
     "method": "bank_transfer_aggregated",
