@@ -30384,6 +30384,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_aggregated_azn_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer_aggregated",
+    "currency": "AZN",
+    "amount_min": 0.02,
+    "amount_max": 170000.00
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_aggregated_kes_hpp",
     "flow": "hpp",
     "method": "bank_transfer_aggregated",
@@ -41657,6 +41666,789 @@
     "flow": "hpp",
     "method": "payu",
     "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_dot_hpp",
+    "currency": "DOT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0017,
+    "amount_max": 16000
+  },
+  {
+    "status": "active",
+    "code": "crypto_xlm_hpp",
+    "currency": "XLM",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_zil_hpp",
+    "currency": "ZIL",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.5,
+    "amount_max": 5000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_imx_hpp",
+    "currency": "IMX",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.005,
+    "amount_max": 50000
+  },
+  {
+    "status": "active",
+    "code": "crypto_ksm_hpp",
+    "currency": "KSM",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0004,
+    "amount_max": 4000
+  },
+  {
+    "status": "active",
+    "code": "crypto_oneinch_hpp",
+    "currency": "ONEINCH",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_ape_hpp",
+    "currency": "APE",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_sol_hpp",
+    "currency": "SOL",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0001,
+    "amount_max": 1000
+  },
+  {
+    "status": "active",
+    "code": "crypto_uni_hpp",
+    "currency": "UNI",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.001,
+    "amount_max": 10000
+  },
+  {
+    "status": "active",
+    "code": "crypto_link_hpp",
+    "currency": "LINK",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0008,
+    "amount_max": 8000
+  },
+  {
+    "status": "active",
+    "code": "crypto_aave_hpp",
+    "currency": "AAVE",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0001,
+    "amount_max": 1000
+  },
+  {
+    "status": "active",
+    "code": "crypto_avax_hpp",
+    "currency": "AVAX",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.00033,
+    "amount_max": 3300
+  },
+  {
+    "status": "active",
+    "code": "crypto_atom_hpp",
+    "currency": "ATOM",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0012,
+    "amount_max": 12000
+  },
+  {
+    "status": "active",
+    "code": "crypto_shib_hpp",
+    "currency": "SHIB",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 500,
+    "amount_max": 5000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_arb_hpp",
+    "currency": "ARB",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0083,
+    "amount_max": 83000
+  },
+  {
+    "status": "active",
+    "code": "crypto_arkm_hpp",
+    "currency": "ARKM",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.005,
+    "amount_max": 50000
+  },
+  {
+    "status": "active",
+    "code": "crypto_audio_hpp",
+    "currency": "AUDIO",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_axs_hpp",
+    "currency": "AXS",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0014,
+    "amount_max": 14000
+  },
+  {
+    "status": "active",
+    "code": "crypto_bat_hpp",
+    "currency": "BAT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.05,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "crypto_blur_hpp",
+    "currency": "BLUR",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_boba_hpp",
+    "currency": "BOBA",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.04,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "crypto_bonk_hpp",
+    "currency": "BONK",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 2000,
+    "amount_max": 20000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_brett_hpp",
+    "currency": "BRETT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.03,
+    "amount_max": 300000
+  },
+  {
+    "status": "active",
+    "code": "crypto_c98_hpp",
+    "currency": "C98",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_cake_hpp",
+    "currency": "CAKE",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0033,
+    "amount_max": 33000
+  },
+  {
+    "status": "active",
+    "code": "crypto_cati_hpp",
+    "currency": "CATI",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.05,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "crypto_chillguy_hpp",
+    "currency": "CHILLGUY",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.05,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "crypto_comp_hpp",
+    "currency": "COMP",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.00025,
+    "amount_max": 2500
+  },
+  {
+    "status": "active",
+    "code": "crypto_crv_hpp",
+    "currency": "CRV",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_dck_hpp",
+    "currency": "DCK",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_dogs_hpp",
+    "currency": "DOGS",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 100,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_dydx_hpp",
+    "currency": "DYDX",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.005,
+    "amount_max": 50000
+  },
+  {
+    "status": "active",
+    "code": "crypto_edu_hpp",
+    "currency": "EDU",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_elon_hpp",
+    "currency": "ELON",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 500,
+    "amount_max": 5000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_eurt_hpp",
+    "currency": "EURT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_fdusd_hpp",
+    "currency": "FDUSD",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_floki_hpp",
+    "currency": "FLOKI",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 200,
+    "amount_max": 2000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_ftrb_hpp",
+    "currency": "FTRB",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_fxs_hpp",
+    "currency": "FXS",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.005,
+    "amount_max": 50000
+  },
+  {
+    "status": "active",
+    "code": "crypto_ghst_hpp",
+    "currency": "GHST",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_grt_hpp",
+    "currency": "GRT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_hmstr_hpp",
+    "currency": "HMSTR",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 200,
+    "amount_max": 2000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_idc_hpp",
+    "currency": "IDC",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_ilv_hpp",
+    "currency": "ILV",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0002,
+    "amount_max": 2000
+  },
+  {
+    "status": "active",
+    "code": "crypto_inj_hpp",
+    "currency": "INJ",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0004,
+    "amount_max": 4000
+  },
+  {
+    "status": "active",
+    "code": "crypto_lpt_hpp",
+    "currency": "LPT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.001,
+    "amount_max": 10000
+  },
+  {
+    "status": "active",
+    "code": "crypto_lrc_hpp",
+    "currency": "LRC",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.04,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "crypto_mana_hpp",
+    "currency": "MANA",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_mask_hpp",
+    "currency": "MASK",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_pol_hpp",
+    "currency": "POL",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_mbox_hpp",
+    "currency": "MBOX",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.03,
+    "amount_max": 300000
+  },
+  {
+    "status": "active",
+    "code": "crypto_neiro_hpp",
+    "currency": "NEIRO",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 100,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_nkn_hpp",
+    "currency": "NKN",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.05,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "crypto_not_hpp",
+    "currency": "NOT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 50,
+    "amount_max": 500000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_ondo_hpp",
+    "currency": "ONDO",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_oxt_hpp",
+    "currency": "OXT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.05,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "crypto_paxg_hpp",
+    "currency": "PAXG",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.000005,
+    "amount_max": 500
+  },
+  {
+    "status": "active",
+    "code": "crypto_pendle_hpp",
+    "currency": "PENDLE",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.004,
+    "amount_max": 40000
+  },
+  {
+    "status": "active",
+    "code": "crypto_pengu_hpp",
+    "currency": "PENGU",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 200,
+    "amount_max": 2000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_pepe_hpp",
+    "currency": "PEPE",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 500,
+    "amount_max": 5000000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_phb_hpp",
+    "currency": "PHB",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_pyr_hpp",
+    "currency": "PYR",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.002,
+    "amount_max": 20000
+  },
+  {
+    "status": "active",
+    "code": "crypto_pyusd_hpp",
+    "currency": "PYUSD",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_qnt_hpp",
+    "currency": "QNT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.0001,
+    "amount_max": 1000
+  },
+  {
+    "status": "active",
+    "code": "crypto_rlc_hpp",
+    "currency": "RLC",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_rsr_hpp",
+    "currency": "RSR",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.2,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_rtf_hpp",
+    "currency": "RTF",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_sand_hpp",
+    "currency": "SAND",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_santos_hpp",
+    "currency": "SANTOS",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.005,
+    "amount_max": 50000
+  },
+  {
+    "status": "active",
+    "code": "crypto_skl_hpp",
+    "currency": "SKL",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_slp_hpp",
+    "currency": "SLP",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 5,
+    "amount_max": 50000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_snc_hpp",
+    "currency": "SNC",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.05,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
+    "code": "crypto_snx_hpp",
+    "currency": "SNX",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.003,
+    "amount_max": 30000
+  },
+  {
+    "status": "active",
+    "code": "crypto_stg_hpp",
+    "currency": "STG",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_strk_hpp",
+    "currency": "STRK",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_sui_hpp",
+    "currency": "SUI",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_sushi_hpp",
+    "currency": "SUSHI",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_tmm_hpp",
+    "currency": "TMM",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_trac_hpp",
+    "currency": "TRAC",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_trump_hpp",
+    "currency": "TRUMP",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.001,
+    "amount_max": 10000
+  },
+  {
+    "status": "active",
+    "code": "crypto_twt_hpp",
+    "currency": "TWT",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_wild_hpp",
+    "currency": "WILD",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_wld_hpp",
+    "currency": "WLD",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "crypto_wlfi_hpp",
+    "currency": "WLFI",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "crypto_ygg_hpp",
+    "currency": "YGG",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_yld_hpp",
+    "currency": "YLD",
+    "flow": "hpp",
+    "method": "crypto",
+    "amount_min": 0.02,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "crypto_usd1_hpp",
+    "currency": "USD1",
+    "flow": "hpp",
+    "method": "crypto",
     "amount_min": 0.01,
     "amount_max": 100000
   }

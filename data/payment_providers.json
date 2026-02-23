@@ -5056,7 +5056,8 @@
       "sepa_transfer",
       "online_banking",
       "applepay",
-      "googlepay"
+      "googlepay",
+      "crypto"
     ],
     "payout_method": [
       "payment_card",
@@ -24243,6 +24244,19 @@
       "en": "USBxPAY",
       "ru": "USBxPAY",
       "uk": "USBxPAY"
+    }
+  },
+  {
+    "status": "active",
+    "code": "icard",
+    "vendor": "icard",
+    "payment_method": [
+      "payment_card"
+    ],
+    "name": {
+      "en": "iCard",
+      "ru": "iCard",
+      "uk": "iCard"
     }
   },
   {
