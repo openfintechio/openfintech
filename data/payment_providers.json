@@ -30293,5 +30293,18 @@
       "bkash_limited",
       "nagad_wallet"
     ]
+  },
+  {
+    "status": "active",
+    "code": "upay",
+    "vendor": "upay",
+    "name": {
+      "en": "Upay",
+      "ru": "Upay",
+      "uk": "Upay"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
