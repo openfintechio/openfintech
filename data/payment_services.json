@@ -33052,6 +33052,60 @@
   },
   {
     "status": "active",
+    "code": "sepa_transfer_bhd_hpp",
+    "currency": "BHD",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "amount_min": 0.001,
+    "amount_max": 40000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_aed_hpp",
+    "currency": "AED",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "amount_min": 0.01,
+    "amount_max": 370000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_sar_hpp",
+    "currency": "SAR",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "amount_min": 0.01,
+    "amount_max": 380000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_kwd_hpp",
+    "currency": "KWD",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "amount_min": 0.001,
+    "amount_max": 31000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_qar_hpp",
+    "currency": "QAR",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "amount_min": 0.01,
+    "amount_max": 370000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_omr_hpp",
+    "currency": "OMR",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "amount_min": 0.001,
+    "amount_max": 39000
+  },
+  {
+    "status": "active",
     "code": "qris_idr_hpp",
     "currency": "IDR",
     "flow": "hpp",
