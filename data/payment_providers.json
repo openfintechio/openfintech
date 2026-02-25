@@ -30205,6 +30205,20 @@
   },
   {
     "status": "active",
+    "code": "zenpays",
+    "vendor": "zenpays",
+    "name": {
+      "en": "ZenPays",
+      "ru": "ZenPays",
+      "uk": "ZenPays"
+    },
+    "payment_method": [
+      "net_banking",
+      "upi"
+    ]
+  },
+  {
+    "status": "active",
     "code": "lapsa",
     "vendor": "lapsa",
     "name": {

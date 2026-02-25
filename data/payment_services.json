@@ -7291,6 +7291,93 @@
   },
   {
     "status": "active",
+    "code": "net_banking_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "net_banking",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "net_banking_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "net_banking",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "net_banking_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "net_banking",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "net_banking_ngn_hpp",
     "currency": "NGN",
     "flow": "hpp",
