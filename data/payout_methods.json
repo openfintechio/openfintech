@@ -27678,6 +27678,14 @@
   },
   {
     "status":"active",
+    "code":"vodafone_egypt",
+    "category":"mobile_payment",
+    "name":{
+      "en":"Vodafone Egypt"
+    }
+  },
+  {
+    "status":"active",
     "code":"ecocash",
     "category":"mobile_payment",
     "name":{
@@ -31721,6 +31729,16 @@
       "en": "Vodafone",
       "ru": "Vodafone",
       "uk": "Vodafone"
+    }
+  },
+  {
+    "status":"active",
+    "code":"etisalat",
+    "category":"mobile_payment",
+    "name":{
+      "en":"Etisalat",
+      "ru":"Etisalat",
+      "uk":"Etisalat"
     }
   },
   {
