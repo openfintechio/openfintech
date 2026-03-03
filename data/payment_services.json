@@ -29747,6 +29747,24 @@
           "uk": "Введіть номер BIC"
         },
         "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^.{1,64}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
       }
     ]
   },
@@ -30621,6 +30639,24 @@
           "uk": "Введіть номер аккаунта"
         },
         "example": "50284414727321312"
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^.{1,64}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
       }
     ]
   },
