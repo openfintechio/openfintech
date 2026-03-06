@@ -27678,6 +27678,14 @@
   },
   {
     "status":"active",
+    "code":"vodafone_egypt",
+    "category":"mobile_payment",
+    "name":{
+      "en":"Vodafone Egypt"
+    }
+  },
+  {
+    "status":"active",
     "code":"ecocash",
     "category":"mobile_payment",
     "name":{
@@ -31724,6 +31732,16 @@
     }
   },
   {
+    "status":"active",
+    "code":"etisalat",
+    "category":"mobile_payment",
+    "name":{
+      "en":"Etisalat",
+      "ru":"Etisalat",
+      "uk":"Etisalat"
+    }
+  },
+  {
     "code": "moov_ci",
     "vendor": "moov",
     "category": "mobile_payment",
@@ -31940,6 +31958,16 @@
       "en": "Orange cash",
       "ru": "Orange cash",
       "uk": "Orange cash"
+    }
+  },
+  {
+    "status": "active",
+    "code": "breb",
+    "category": "bank_transfer",
+    "name": {
+      "en": "Bre-B",
+      "ru": "Bre-B",
+      "uk": "Bre-B"
     }
   },
   {

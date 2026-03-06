@@ -5057,7 +5057,7 @@
       "online_banking",
       "applepay",
       "googlepay",
-      "crypto"
+      "cardpay_crypto"
     ],
     "payout_method": [
       "payment_card",
@@ -25358,9 +25358,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "SaltarPay",
-      "ru": "SaltarPay",
-      "uk": "SaltarPay"
+      "en": "TouraPay",
+      "ru": "TouraPay",
+      "uk": "TouraPay"
     }
   },
   {
@@ -26849,7 +26849,10 @@
       "investec_bank",
       "ned_bank",
       "standard_bank",
-      "tyme_bank"
+      "tyme_bank",
+      "etisalat",
+      "vodafone_egypt",
+      "orange_money"
     ]
   },
   {
@@ -29376,6 +29379,10 @@
       "paysafecard",
       "rapidtransfer",
       "ideal"
+    ],
+    "payout_method": [
+      "skrill",
+      "neteller"
     ]
   },
   {
@@ -30172,6 +30179,7 @@
     "payout_method": [
       "pix",
       "bank_transfer",
+      "breb",
       "transfiya"
     ]
   },
@@ -30269,6 +30277,19 @@
       "en": "MyFatoorah",
       "ru": "MyFatoorah",
       "uk": "MyFatoorah"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "safegatepayments",
+    "vendor": "safegatepayments",
+    "name": {
+      "en": "SafeGate Payments",
+      "ru": "SafeGate Payments",
+      "uk": "SafeGate Payments"
     },
     "payment_method": [
       "payment_card"
