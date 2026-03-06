@@ -990,6 +990,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_uah_invoice",
+    "flow": "invoice",
+    "method": "payment_card",
+    "currency": "UAH",
+    "amount_min": 0.44,
+    "amount_max": 43806900
+  },
+  {
+    "status": "active",
     "code": "payment_card_zar_hpp",
     "flow": "hpp",
     "method": "payment_card",
