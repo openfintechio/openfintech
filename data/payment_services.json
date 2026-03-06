@@ -26703,7 +26703,45 @@
     "flow": "invoice",
     "method": "bank_transfer",
     "amount_min": 1,
-    "amount_max": 1900000
+    "amount_max": 1900000,
+    "fields": [
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank name",
+          "ru": "Название банка отправителя",
+          "uk": "Назва банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Название код банка отправителя",
+          "uk": "Назва код банку відправника"
+        },
+        "example": "Goldman Sachs"
+      },
+      {
+        "key": "beneficiary_account_number",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary account number",
+          "ru": "Номер счета получателя",
+          "uk": "Номер рахунку отримувача"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter beneficiary account number",
+          "ru": "Введите номер счета получателя",
+          "uk": "Введіть номер рахунку отримувача"
+        },
+        "example": "1234567890"
+      }
+    ]
   },
   {
     "status": "active",
@@ -31849,7 +31887,53 @@
     "amount_min": 25,
     "amount_max": 249500000
   },
-
+  {
+    "status": "active",
+    "code": "bank_transfer_azn_invoice",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "currency": "AZN",
+    "amount_min": 0.01,
+    "amount_max": 1200000000,
+    "fields": [
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank name",
+          "ru": "Название банка отправителя",
+          "uk": "Назва банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Название код банка отправителя",
+          "uk": "Назва код банку відправника"
+        },
+        "example": "Goldman Sachs"
+      },
+      {
+        "key": "beneficiary_account_number",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary account number",
+          "ru": "Номер счета получателя",
+          "uk": "Номер рахунку отримувача"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter beneficiary account number",
+          "ru": "Введите номер счета получателя",
+          "uk": "Введіть номер рахунку отримувача"
+        },
+        "example": "1234567890"
+      }
+    ]
+  },
   {
     "status": "active",
     "code": "bank_transfer_ars_invoice",
@@ -31893,6 +31977,42 @@
           "uk": "Введіть номер документа отримувача"
         },
         "example": "50284414727"
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer bank name",
+          "ru": "Название банка отправителя",
+          "uk": "Назва банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Название код банка отправителя",
+          "uk": "Назва код банку відправника"
+        },
+        "example": "Goldman Sachs"
+      },
+      {
+        "key": "beneficiary_account_number",
+        "type": "string",
+        "label": {
+          "en": "Beneficiary account number",
+          "ru": "Номер счета получателя",
+          "uk": "Номер рахунку отримувача"
+        },
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "hint": {
+          "en": "Enter beneficiary account number",
+          "ru": "Введите номер счета получателя",
+          "uk": "Введіть номер рахунку отримувача"
+        },
+        "example": "1234567890"
       }
     ]
   },
