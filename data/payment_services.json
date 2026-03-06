@@ -18445,7 +18445,27 @@
     "flow": "invoice",
     "method": "pix",
     "amount_min": 1,
-    "amount_max": 1000000
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "cpf_number",
+        "type": "string",
+        "regexp": "\/^[0-9\\.\\-\\/]{1,18}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "CPF or CNPJ number",
+          "ru": "CPF или CNPJ номер",
+          "uk": "CPF або CNPJ номер"
+        },
+        "hint": {
+          "en": "Enter CPF or CNPJ number",
+          "ru": "Введите CPF или CNPJ номер",
+          "uk": "Введіть CPF або CNPJ номер"
+        },
+        "example": "12345678900"
+      }
+    ]
   },
   {
     "status": "active",
