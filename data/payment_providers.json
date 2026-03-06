@@ -5057,7 +5057,7 @@
       "online_banking",
       "applepay",
       "googlepay",
-      "crypto"
+      "cardpay_crypto"
     ],
     "payout_method": [
       "payment_card",
@@ -30277,6 +30277,19 @@
       "en": "MyFatoorah",
       "ru": "MyFatoorah",
       "uk": "MyFatoorah"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "safegatepayments",
+    "vendor": "safegatepayments",
+    "name": {
+      "en": "SafeGate Payments",
+      "ru": "SafeGate Payments",
+      "uk": "SafeGate Payments"
     },
     "payment_method": [
       "payment_card"

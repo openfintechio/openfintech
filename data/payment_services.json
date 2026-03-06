@@ -41859,784 +41859,1168 @@
   },
   {
     "status": "active",
-    "code": "crypto_dot_hpp",
-    "currency": "DOT",
+    "code": "cardpay_crypto_aed_hpp",
+    "currency": "AED",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0017,
-    "amount_max": 16000
-  },
-  {
-    "status": "active",
-    "code": "crypto_xlm_hpp",
-    "currency": "XLM",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.1,
-    "amount_max": 1000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_zil_hpp",
-    "currency": "ZIL",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.5,
-    "amount_max": 5000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_imx_hpp",
-    "currency": "IMX",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.005,
-    "amount_max": 50000
-  },
-  {
-    "status": "active",
-    "code": "crypto_ksm_hpp",
-    "currency": "KSM",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0004,
-    "amount_max": 4000
-  },
-  {
-    "status": "active",
-    "code": "crypto_oneinch_hpp",
-    "currency": "ONEINCH",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_ape_hpp",
-    "currency": "APE",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
-    "code": "crypto_sol_hpp",
-    "currency": "SOL",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0001,
-    "amount_max": 1000
-  },
-  {
-    "status": "active",
-    "code": "crypto_uni_hpp",
-    "currency": "UNI",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.001,
-    "amount_max": 10000
-  },
-  {
-    "status": "active",
-    "code": "crypto_link_hpp",
-    "currency": "LINK",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0008,
-    "amount_max": 8000
-  },
-  {
-    "status": "active",
-    "code": "crypto_aave_hpp",
-    "currency": "AAVE",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0001,
-    "amount_max": 1000
-  },
-  {
-    "status": "active",
-    "code": "crypto_avax_hpp",
-    "currency": "AVAX",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.00033,
-    "amount_max": 3300
-  },
-  {
-    "status": "active",
-    "code": "crypto_atom_hpp",
-    "currency": "ATOM",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0012,
-    "amount_max": 12000
-  },
-  {
-    "status": "active",
-    "code": "crypto_shib_hpp",
-    "currency": "SHIB",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 500,
-    "amount_max": 5000000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_arb_hpp",
-    "currency": "ARB",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0083,
-    "amount_max": 83000
-  },
-  {
-    "status": "active",
-    "code": "crypto_arkm_hpp",
-    "currency": "ARKM",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.005,
-    "amount_max": 50000
-  },
-  {
-    "status": "active",
-    "code": "crypto_audio_hpp",
-    "currency": "AUDIO",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_axs_hpp",
-    "currency": "AXS",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0014,
-    "amount_max": 14000
-  },
-  {
-    "status": "active",
-    "code": "crypto_bat_hpp",
-    "currency": "BAT",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.05,
-    "amount_max": 500000
-  },
-  {
-    "status": "active",
-    "code": "crypto_blur_hpp",
-    "currency": "BLUR",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_boba_hpp",
-    "currency": "BOBA",
-    "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 0.04,
-    "amount_max": 400000
+    "amount_max": 367000
   },
   {
     "status": "active",
-    "code": "crypto_bonk_hpp",
-    "currency": "BONK",
+    "code": "cardpay_crypto_aud_hpp",
+    "currency": "AUD",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 2000,
-    "amount_max": 20000000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_brett_hpp",
-    "currency": "BRETT",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.03,
-    "amount_max": 300000
-  },
-  {
-    "status": "active",
-    "code": "crypto_c98_hpp",
-    "currency": "C98",
-    "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 0.02,
-    "amount_max": 200000
+    "amount_max": 150000
   },
   {
     "status": "active",
-    "code": "crypto_cake_hpp",
-    "currency": "CAKE",
+    "code": "cardpay_crypto_bgn_hpp",
+    "currency": "BGN",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0033,
-    "amount_max": 33000
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.02,
+    "amount_max": 180000
   },
   {
     "status": "active",
-    "code": "crypto_cati_hpp",
-    "currency": "CATI",
+    "code": "cardpay_crypto_brl_hpp",
+    "currency": "BRL",
     "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 0.05,
     "amount_max": 500000
   },
   {
     "status": "active",
-    "code": "crypto_chillguy_hpp",
-    "currency": "CHILLGUY",
+    "code": "cardpay_crypto_cad_hpp",
+    "currency": "CAD",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.05,
-    "amount_max": 500000
-  },
-  {
-    "status": "active",
-    "code": "crypto_comp_hpp",
-    "currency": "COMP",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.00025,
-    "amount_max": 2500
-  },
-  {
-    "status": "active",
-    "code": "crypto_crv_hpp",
-    "currency": "CRV",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_dck_hpp",
-    "currency": "DCK",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.1,
-    "amount_max": 1000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_dogs_hpp",
-    "currency": "DOGS",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 100,
-    "amount_max": 1000000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_dydx_hpp",
-    "currency": "DYDX",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.005,
-    "amount_max": 50000
-  },
-  {
-    "status": "active",
-    "code": "crypto_edu_hpp",
-    "currency": "EDU",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_elon_hpp",
-    "currency": "ELON",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 500,
-    "amount_max": 5000000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_eurt_hpp",
-    "currency": "EURT",
-    "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 135000
   },
   {
     "status": "active",
-    "code": "crypto_fdusd_hpp",
-    "currency": "FDUSD",
+    "code": "cardpay_crypto_chf_hpp",
+    "currency": "CHF",
     "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 0.01,
-    "amount_max": 100000
+    "amount_max": 91000
   },
   {
     "status": "active",
-    "code": "crypto_floki_hpp",
-    "currency": "FLOKI",
+    "code": "cardpay_crypto_cop_hpp",
+    "currency": "COP",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 200,
-    "amount_max": 2000000000
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 40,
+    "amount_max": 400000000
   },
   {
     "status": "active",
-    "code": "crypto_ftrb_hpp",
-    "currency": "FTRB",
+    "code": "cardpay_crypto_crc_hpp",
+    "currency": "CRC",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.1,
-    "amount_max": 1000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_fxs_hpp",
-    "currency": "FXS",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.005,
-    "amount_max": 50000
-  },
-  {
-    "status": "active",
-    "code": "crypto_ghst_hpp",
-    "currency": "GHST",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_grt_hpp",
-    "currency": "GRT",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_hmstr_hpp",
-    "currency": "HMSTR",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 200,
-    "amount_max": 2000000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_idc_hpp",
-    "currency": "IDC",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_ilv_hpp",
-    "currency": "ILV",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0002,
-    "amount_max": 2000
-  },
-  {
-    "status": "active",
-    "code": "crypto_inj_hpp",
-    "currency": "INJ",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0004,
-    "amount_max": 4000
-  },
-  {
-    "status": "active",
-    "code": "crypto_lpt_hpp",
-    "currency": "LPT",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.001,
-    "amount_max": 10000
-  },
-  {
-    "status": "active",
-    "code": "crypto_lrc_hpp",
-    "currency": "LRC",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.04,
-    "amount_max": 400000
-  },
-  {
-    "status": "active",
-    "code": "crypto_mana_hpp",
-    "currency": "MANA",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_mask_hpp",
-    "currency": "MASK",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_pol_hpp",
-    "currency": "POL",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_mbox_hpp",
-    "currency": "MBOX",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.03,
-    "amount_max": 300000
-  },
-  {
-    "status": "active",
-    "code": "crypto_neiro_hpp",
-    "currency": "NEIRO",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 100,
-    "amount_max": 1000000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_nkn_hpp",
-    "currency": "NKN",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.05,
-    "amount_max": 500000
-  },
-  {
-    "status": "active",
-    "code": "crypto_not_hpp",
-    "currency": "NOT",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 50,
-    "amount_max": 500000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_ondo_hpp",
-    "currency": "ONDO",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_oxt_hpp",
-    "currency": "OXT",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.05,
-    "amount_max": 500000
-  },
-  {
-    "status": "active",
-    "code": "crypto_paxg_hpp",
-    "currency": "PAXG",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.000005,
-    "amount_max": 500
-  },
-  {
-    "status": "active",
-    "code": "crypto_pendle_hpp",
-    "currency": "PENDLE",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.004,
-    "amount_max": 40000
-  },
-  {
-    "status": "active",
-    "code": "crypto_pengu_hpp",
-    "currency": "PENGU",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 200,
-    "amount_max": 2000000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_pepe_hpp",
-    "currency": "PEPE",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 500,
-    "amount_max": 5000000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_phb_hpp",
-    "currency": "PHB",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_pyr_hpp",
-    "currency": "PYR",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.002,
-    "amount_max": 20000
-  },
-  {
-    "status": "active",
-    "code": "crypto_pyusd_hpp",
-    "currency": "PYUSD",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
-    "code": "crypto_qnt_hpp",
-    "currency": "QNT",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.0001,
-    "amount_max": 1000
-  },
-  {
-    "status": "active",
-    "code": "crypto_rlc_hpp",
-    "currency": "RLC",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.01,
-    "amount_max": 100000
-  },
-  {
-    "status": "active",
-    "code": "crypto_rsr_hpp",
-    "currency": "RSR",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.2,
-    "amount_max": 2000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_rtf_hpp",
-    "currency": "RTF",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_sand_hpp",
-    "currency": "SAND",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_santos_hpp",
-    "currency": "SANTOS",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.005,
-    "amount_max": 50000
-  },
-  {
-    "status": "active",
-    "code": "crypto_skl_hpp",
-    "currency": "SKL",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.1,
-    "amount_max": 1000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_slp_hpp",
-    "currency": "SLP",
-    "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 5,
     "amount_max": 50000000
   },
   {
     "status": "active",
-    "code": "crypto_snc_hpp",
-    "currency": "SNC",
+    "code": "cardpay_crypto_czk_hpp",
+    "currency": "CZK",
     "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.23,
+    "amount_max": 2300000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_dkk_hpp",
+    "currency": "DKK",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.07,
+    "amount_max": 690000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_eur_hpp",
+    "currency": "EUR",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 92000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_gbp_hpp",
+    "currency": "GBP",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 79000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_hkd_hpp",
+    "currency": "HKD",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.08,
+    "amount_max": 780000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_huf_hpp",
+    "currency": "HUF",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 3.7,
+    "amount_max": 37000000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_idr_hpp",
+    "currency": "IDR",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 160,
+    "amount_max": 1600000000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_ils_hpp",
+    "currency": "ILS",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.04,
+    "amount_max": 360000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_jpy_hpp",
+    "currency": "JPY",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 15000000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_kes_hpp",
+    "currency": "KES",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 1.6,
+    "amount_max": 16000000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_kgs_hpp",
+    "currency": "KGS",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.9,
+    "amount_max": 9000000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_krw_hpp",
+    "currency": "KRW",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 13,
+    "amount_max": 130000000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_kzt_hpp",
+    "currency": "KZT",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 4.5,
+    "amount_max": 45000000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_mxn_hpp",
+    "currency": "MXN",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.17,
+    "amount_max": 1700000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_myr_hpp",
+    "currency": "MYR",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 0.05,
-    "amount_max": 500000
+    "amount_max": 470000
   },
   {
     "status": "active",
-    "code": "crypto_snx_hpp",
-    "currency": "SNX",
+    "code": "cardpay_crypto_nok_hpp",
+    "currency": "NOK",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.003,
-    "amount_max": 30000
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.11,
+    "amount_max": 1100000
   },
   {
     "status": "active",
-    "code": "crypto_stg_hpp",
-    "currency": "STG",
+    "code": "cardpay_crypto_omr_hpp",
+    "currency": "OMR",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.004,
+    "amount_max": 39000
   },
   {
     "status": "active",
-    "code": "crypto_strk_hpp",
-    "currency": "STRK",
+    "code": "cardpay_crypto_pab_hpp",
+    "currency": "PAB",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_sui_hpp",
-    "currency": "SUI",
-    "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
   {
     "status": "active",
-    "code": "crypto_sushi_hpp",
-    "currency": "SUSHI",
+    "code": "cardpay_crypto_pen_hpp",
+    "currency": "PEN",
     "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.04,
+    "amount_max": 380000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_php_hpp",
+    "currency": "PHP",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.56,
+    "amount_max": 5600000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_pln_hpp",
+    "currency": "PLN",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.04,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_ron_hpp",
+    "currency": "RON",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.05,
+    "amount_max": 450000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_sek_hpp",
+    "currency": "SEK",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.11,
+    "amount_max": 1100000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_sgd_hpp",
+    "currency": "SGD",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 135000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_thb_hpp",
+    "currency": "THB",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.36,
+    "amount_max": 3600000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_twd_hpp",
+    "currency": "TWD",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.32,
+    "amount_max": 3200000
+  },
+  {
+    "status": "active",
+    "code": "cardpay_crypto_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
   {
     "status": "active",
-    "code": "crypto_tmm_hpp",
-    "currency": "TMM",
+    "code": "cardpay_crypto_vnd_hpp",
+    "currency": "VND",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.1,
-    "amount_max": 1000000
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 250,
+    "amount_max": 2500000000
   },
   {
     "status": "active",
-    "code": "crypto_trac_hpp",
-    "currency": "TRAC",
+    "code": "cardpay_crypto_zar_hpp",
+    "currency": "ZAR",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter currency code",
+          "ru": "Введите код валюты",
+          "uk": "Введіть код валюти"
+        },
+        "example": "USDT"
+      }
+    ],
+    "amount_min": 0.19,
+    "amount_max": 1900000
   },
   {
     "status": "active",
-    "code": "crypto_trump_hpp",
-    "currency": "TRUMP",
+    "code": "cardpay_crypto_usdt_hpp",
+    "currency": "USDT",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.001,
-    "amount_max": 10000
-  },
-  {
-    "status": "active",
-    "code": "crypto_twt_hpp",
-    "currency": "TWT",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_wild_hpp",
-    "currency": "WILD",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_wld_hpp",
-    "currency": "WLD",
-    "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "fiat_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Fiat currency to receive",
+          "ru": "Фиатная валюта для получения",
+          "uk": "Фіатна валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter fiat currency code",
+          "ru": "Введите код фиатной валюты",
+          "uk": "Введіть код фіатної валюти"
+        },
+        "example": "USD"
+      },
+      {
+        "key": "wallet_address",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Wallet address to receive the funds",
+          "ru": "Адрес кошелька для получения средств",
+          "uk": "Адреса гаманця для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter wallet address",
+          "ru": "Введите адрес кошелька",
+          "uk": "Введіть адресу гаманця"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
   {
     "status": "active",
-    "code": "crypto_wlfi_hpp",
-    "currency": "WLFI",
+    "code": "cardpay_crypto_usdc_hpp",
+    "currency": "USDC",
     "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.1,
-    "amount_max": 1000000
-  },
-  {
-    "status": "active",
-    "code": "crypto_ygg_hpp",
-    "currency": "YGG",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_yld_hpp",
-    "currency": "YLD",
-    "flow": "hpp",
-    "method": "crypto",
-    "amount_min": 0.02,
-    "amount_max": 200000
-  },
-  {
-    "status": "active",
-    "code": "crypto_usd1_hpp",
-    "currency": "USD1",
-    "flow": "hpp",
-    "method": "crypto",
+    "method": "cardpay_crypto",
+    "fields": [
+      {
+        "key": "fiat_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,6}$/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Fiat currency to receive",
+          "ru": "Фиатная валюта для получения",
+          "uk": "Фіатна валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter fiat currency code",
+          "ru": "Введите код фиатной валюты",
+          "uk": "Введіть код фіатної валюти"
+        },
+        "example": "USD"
+      },
+      {
+        "key": "wallet_address",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Wallet address to receive the funds",
+          "ru": "Адрес кошелька для получения средств",
+          "uk": "Адреса гаманця для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter wallet address",
+          "ru": "Введите адрес кошелька",
+          "uk": "Введіть адресу гаманця"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   }
