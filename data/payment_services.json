@@ -25069,6 +25069,15 @@
   },
   {
     "status": "active",
+    "code": "astropay_ars_hpp",
+    "flow": "hpp",
+    "method": "astropay",
+    "currency": "ARS",
+    "amount_min": 10,
+    "amount_max": 140000000
+  },
+  {
+    "status": "active",
     "code": "spcbl_inr_hpp",
     "currency": "INR",
     "flow": "hpp",
@@ -34495,6 +34504,15 @@
         }
       }
     ],
+    "amount_min": 10,
+    "amount_max": 140000000
+  },
+  {
+    "status": "active",
+    "code": "naranjax_ars_hpp",
+    "flow": "hpp",
+    "method": "naranjax",
+    "currency": "ARS",
     "amount_min": 10,
     "amount_max": 140000000
   },
