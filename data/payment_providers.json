@@ -30333,5 +30333,19 @@
     "payment_method": [
       "card_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "lqpay",
+    "vendor": "lqpay",
+    "name": {
+      "en": "Lqpay",
+      "ru": "Lqpay",
+      "uk": "Lqpay"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
   }
 ]
