@@ -30290,6 +30290,19 @@
   },
   {
     "status": "active",
+    "code": "mobilum",
+    "vendor": "mobilum",
+    "name": {
+      "en": "Mobilum",
+      "ru": "Mobilum",
+      "uk": "Mobilum"
+    },
+    "payment_method": [
+      "blik"
+    ]
+  },
+  {
+    "status": "active",
     "code": "safegatepayments",
     "vendor": "safegatepayments",
     "name": {
