@@ -22733,7 +22733,7 @@
         "key": "personal_id",
         "type": "string",
         "regexp": "/^.{1,128}$/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Personal ID",
@@ -28518,7 +28518,7 @@
         "key": "personal_id",
         "type": "string",
         "regexp": "/^.{1,128}$/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Personal ID",
@@ -28662,7 +28662,7 @@
         "key": "personal_id",
         "type": "string",
         "regexp": "/^.{1,128}$/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Personal ID",
@@ -28733,7 +28733,7 @@
         "key": "personal_id",
         "type": "string",
         "regexp": "/^.{1,128}$/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Personal ID",
@@ -29277,7 +29277,7 @@
         "key": "personal_id",
         "type": "string",
         "regexp": "/^.{1,128}$/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Personal ID",
@@ -29468,7 +29468,7 @@
         "key": "personal_id",
         "type": "string",
         "regexp": "/^.{1,128}$/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Personal ID",
@@ -29593,7 +29593,7 @@
         "key": "personal_id",
         "type": "string",
         "regexp": "/^.{1,128}$/",
-        "required": true,
+        "required": false,
         "position": 1,
         "label": {
           "en": "Personal ID",
