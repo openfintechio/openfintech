@@ -43179,5 +43179,131 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_uyu_hpp",
+    "currency": "UYU",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 4000000
+  },
+  {
+    "status": "active",
+    "code": "qr_uyu_hpp",
+    "currency": "UYU",
+    "flow": "hpp",
+    "method": "qr_code",
+    "amount_min": 1,
+    "amount_max": 4000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_hnl_hpp",
+    "currency": "HNL",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 2500000
+  },
+  {
+    "status": "active",
+    "code": "cash_hnl_hpp",
+    "currency": "HNL",
+    "flow": "hpp",
+    "method": "cash",
+    "amount_min": 1,
+    "amount_max": 2500000
+  },
+  {
+    "status": "active",
+    "code": "qr_hnl_hpp",
+    "currency": "HNL",
+    "flow": "hpp",
+    "method": "qr_code",
+    "amount_min": 1,
+    "amount_max": 2500000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_bob_hpp",
+    "currency": "BOB",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
+    "code": "cash_bob_hpp",
+    "currency": "BOB",
+    "flow": "hpp",
+    "method": "cash",
+    "amount_min": 1,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
+    "code": "qr_bob_hpp",
+    "currency": "BOB",
+    "flow": "hpp",
+    "method": "qr_code",
+    "amount_min": 1,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_gtq_hpp",
+    "currency": "GTQ",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "amount_min": 1,
+    "amount_max": 800000
+  },
+  {
+    "status": "active",
+    "code": "cash_gtq_hpp",
+    "currency": "GTQ",
+    "flow": "hpp",
+    "method": "cash",
+    "amount_min": 1,
+    "amount_max": 800000
+  },
+  {
+    "status": "active",
+    "code": "qr_gtq_hpp",
+    "currency": "GTQ",
+    "flow": "hpp",
+    "method": "qr_code",
+    "amount_min": 1,
+    "amount_max": 800000
+  },
+  {
+    "status": "active",
+    "code": "qr_usd_hpp",
+    "currency": "USD",
+    "flow": "hpp",
+    "method": "qr_code",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "qr_cop_hpp",
+    "currency": "COP",
+    "flow": "hpp",
+    "method": "qr_code",
+    "amount_min": 1,
+    "amount_max": 400000000
+  },
+  {
+    "status": "active",
+    "code": "qr_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "qr_code",
+    "amount_min": 1,
+    "amount_max": 150000000
   }
 ]
