@@ -18473,7 +18473,8 @@
       "payment_card",
       "pix",
       "applepay",
-      "googlepay"
+      "googlepay",
+      "openbanking"
     ],
     "payout_method": [
       "payment_card",
@@ -24311,6 +24312,9 @@
       "payment_card",
       "applepay"
     ],
+    "payout_method": [
+      "payment_card"
+    ],
     "name": {
       "en": "Payabl.",
       "ru": "Payabl.",
@@ -25271,12 +25275,18 @@
     "code": "betterbro",
     "vendor": "betterbro",
     "payout_method": [
-      "binancepay"
+      "binancepay",
+      "bank_transfer"
     ],
     "payment_method": [
       "binancepay",
       "openbanking",
-      "blik"
+      "blik",
+      "bank_transfer",
+      "mercadopago",
+      "astropay",
+      "naranjax",
+      "banco_nacion"
     ],
     "name": {
       "en": "Betterbro",
@@ -26122,6 +26132,9 @@
       "epay",
       "cash",
       "mach",
+      "qr_code",
+      "cash",
+      "bank_transfer",
       "qr_payment_aggregated",
       "pix"
     ],
@@ -30287,6 +30300,19 @@
   },
   {
     "status": "active",
+    "code": "mobilum",
+    "vendor": "mobilum",
+    "name": {
+      "en": "Mobilum",
+      "ru": "Mobilum",
+      "uk": "Mobilum"
+    },
+    "payment_method": [
+      "blik"
+    ]
+  },
+  {
+    "status": "active",
     "code": "safegatepayments",
     "vendor": "safegatepayments",
     "name": {
@@ -30329,6 +30355,20 @@
     },
     "payment_method": [
       "card_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "lqpay",
+    "vendor": "lqpay",
+    "name": {
+      "en": "Lqpay",
+      "ru": "Lqpay",
+      "uk": "Lqpay"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
     ]
   }
 ]
