@@ -21086,7 +21086,9 @@
       "openbanking"
     ],
     "payout_method": [
-      "bank_transfer"
+      "bank_transfer",
+      "payment_card",
+      "interac"
     ]
   },
   {
