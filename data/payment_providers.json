@@ -30371,5 +30371,18 @@
       "bkash_limited",
       "nagad_wallet"
     ]
+  },
+  {
+    "status": "active",
+    "code": "circoflows",
+    "vendor": "circoflows",
+    "name": {
+      "en": "CircoFlows",
+      "ru": "CircoFlows",
+      "uk": "CircoFlows"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
