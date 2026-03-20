@@ -43305,5 +43305,41 @@
     "method": "qr_code",
     "amount_min": 1,
     "amount_max": 150000000
+  },
+  {
+    "status": "active",
+    "code": "tunzer_pln_hpp",
+    "flow": "hpp",
+    "method": "tunzer",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
+    "code": "tunzer_eur_hpp",
+    "flow": "hpp",
+    "method": "tunzer",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "tunzer_dkk_hpp",
+    "flow": "hpp",
+    "method": "tunzer",
+    "currency": "DKK",
+    "amount_min": 0.01,
+    "amount_max": 690000
+  },
+  {
+    "status": "active",
+    "code": "tunzer_gbp_hpp",
+    "flow": "hpp",
+    "method": "tunzer",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]
