@@ -18078,9 +18078,7 @@
       "mb_way",
       "multibanco",
       "payshop",
-      "bizum",
       "blik",
-      "przelewy24",
       "eps",
       "bank_transfer",
       "swiffy_eft",
@@ -18117,7 +18115,14 @@
       "interac",
       "card_transfer",
       "m10",
-      "emanat"
+      "emanat",
+      "sepa_transfer_instant",
+      "revolut_bank",
+      "wise",
+      "n26_bank",
+      "bunq",
+      "capitec_pay",
+      "vodafone_pay"
     ],
     "payout_method": [
       "payment_card",
