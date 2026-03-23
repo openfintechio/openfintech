@@ -39722,6 +39722,15 @@
   },
   {
     "status": "active",
+    "code": "mobilum_pln_invoice",
+    "flow": "invoice",
+    "method": "mobilum",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
     "code": "klyme_usd_invoice",
     "flow": "invoice",
     "method": "klyme",
