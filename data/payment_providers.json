@@ -27119,6 +27119,24 @@
   },
   {
     "status": "active",
+    "code": "token",
+    "vendor": "token",
+    "name": {
+      "en": "Token.io",
+      "ru": "Token.io",
+      "uk": "Token.io"
+    },
+    "payment_method": [
+      "sepa_transfer",
+      "sepa_transfer_instant",
+      "revolut_bank",
+      "n26_bank",
+      "wise",
+      "sofortuberweisung"
+    ]
+  },
+  {
+    "status": "active",
     "code": "cdn",
     "vendor": "cdn",
     "name": {
