@@ -26717,7 +26717,7 @@
       {
         "key": "bank_name",
         "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -31926,7 +31926,7 @@
       {
         "key": "bank_name",
         "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -32008,7 +32008,7 @@
       {
         "key": "bank_name",
         "type": "string",
-        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "regexp": "\/^.{2,50}$\/",
         "required": false,
         "position": 2,
         "label": {
