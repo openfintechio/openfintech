@@ -9618,7 +9618,8 @@
       "pix",
       "imps",
       "paytm",
-      "sepa_transfer"
+      "sepa_transfer",
+      "blik"
     ],
     "name": {
       "en": "UnityFinance",
@@ -18078,9 +18079,7 @@
       "mb_way",
       "multibanco",
       "payshop",
-      "bizum",
       "blik",
-      "przelewy24",
       "eps",
       "bank_transfer",
       "swiffy_eft",
@@ -18117,7 +18116,14 @@
       "interac",
       "card_transfer",
       "m10",
-      "emanat"
+      "emanat",
+      "sepa_transfer_instant",
+      "revolut_bank",
+      "wise",
+      "n26_bank",
+      "bunq",
+      "capitec_pay",
+      "vodafone_pay"
     ],
     "payout_method": [
       "payment_card",
@@ -18473,7 +18479,8 @@
       "payment_card",
       "pix",
       "applepay",
-      "googlepay"
+      "googlepay",
+      "openbanking"
     ],
     "payout_method": [
       "payment_card",
@@ -21085,7 +21092,9 @@
       "openbanking"
     ],
     "payout_method": [
-      "bank_transfer"
+      "bank_transfer",
+      "payment_card",
+      "interac"
     ]
   },
   {
@@ -24307,7 +24316,11 @@
     "vendor": "payabl",
     "payment_method": [
       "payment_card",
-      "applepay"
+      "applepay",
+      "googlepay"
+    ],
+    "payout_method": [
+      "payment_card"
     ],
     "name": {
       "en": "Payabl.",
@@ -25269,12 +25282,18 @@
     "code": "betterbro",
     "vendor": "betterbro",
     "payout_method": [
-      "binancepay"
+      "binancepay",
+      "bank_transfer"
     ],
     "payment_method": [
       "binancepay",
       "openbanking",
-      "blik"
+      "blik",
+      "bank_transfer",
+      "mercadopago",
+      "astropay",
+      "naranjax",
+      "banco_nacion"
     ],
     "name": {
       "en": "Betterbro",
@@ -26120,6 +26139,10 @@
       "epay",
       "cash",
       "mach",
+      "qr_code",
+      "cash",
+      "tunzer",
+      "bank_transfer",
       "qr_payment_aggregated",
       "pix"
     ],
@@ -27097,6 +27120,24 @@
   },
   {
     "status": "active",
+    "code": "token",
+    "vendor": "token",
+    "name": {
+      "en": "Token.io",
+      "ru": "Token.io",
+      "uk": "Token.io"
+    },
+    "payment_method": [
+      "sepa_transfer",
+      "sepa_transfer_instant",
+      "revolut_bank",
+      "n26_bank",
+      "wise",
+      "sofortuberweisung"
+    ]
+  },
+  {
+    "status": "active",
     "code": "cdn",
     "vendor": "cdn",
     "name": {
@@ -27150,6 +27191,7 @@
       "applepay",
       "revolut_bank",
       "bank_transfer",
+      "paysafecard",
       "payskin",
       "tether",
       "n26_bank",
@@ -29417,7 +29459,8 @@
     ],
     "payment_method": [
       "blik",
-      "mobile"
+      "mobile",
+      "bank_transfer"
     ]
   },
   {
@@ -30284,6 +30327,20 @@
   },
   {
     "status": "active",
+    "code": "mobilum",
+    "vendor": "mobilum",
+    "name": {
+      "en": "Mobilum",
+      "ru": "Mobilum",
+      "uk": "Mobilum"
+    },
+    "payment_method": [
+      "blik",
+      "mobilum"
+    ]
+  },
+  {
+    "status": "active",
     "code": "safegatepayments",
     "vendor": "safegatepayments",
     "name": {
@@ -30326,6 +30383,37 @@
     },
     "payment_method": [
       "card_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "lqpay",
+    "vendor": "lqpay",
+    "name": {
+      "en": "Lqpay",
+      "ru": "Lqpay",
+      "uk": "Lqpay"
+    },
+    "payment_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "circoflows",
+    "vendor": "circoflows",
+    "name": {
+      "en": "CircoFlows",
+      "ru": "CircoFlows",
+      "uk": "CircoFlows"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]

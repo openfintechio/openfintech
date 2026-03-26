@@ -1942,6 +1942,16 @@
     }
   },
   {
+    "code": "naranjax",
+    "status": "active",
+    "countries": [
+      "AR"
+    ],
+    "name": {
+      "en": "Naranja X"
+    }
+  },
+  {
     "code": "idram",
     "status": "active",
     "name": {
@@ -35554,6 +35564,18 @@
     }
   },
   {
+    "code": "token",
+    "status": "active",
+    "links": {
+      "website": "https://token.io/"
+    },
+    "name": {
+      "en": "Token.io",
+      "ru": "Token.io",
+      "uk": "Token.io"
+    }
+  },
+  {
     "code": "benker",
     "status": "active",
     "links": {
@@ -37021,6 +37043,15 @@
     }
   },
   {
+    "code": "mobilum",
+    "status": "active",
+    "name": {
+      "en": "Mobilum",
+      "ru": "Mobilum",
+      "uk": "Mobilum"
+    }
+  },
+  {
     "code": "safegatepayments",
     "status": "active",
     "links": {
@@ -37054,6 +37085,27 @@
       "en": "UPay",
       "ru": "UPay",
       "uk": "UPay"
+    }
+  },
+  {
+    "code": "lqpay",
+    "status": "active",
+    "name": {
+      "en": "Lqpay",
+      "ru": "Lqpay",
+      "uk": "Lqpay"
+    }
+  },
+  {
+    "code": "circoflows",
+    "status": "active",
+    "links": {
+      "website": "https://gateway.circoflows.com/"
+    },
+    "name": {
+      "en": "CircoFlows",
+      "ru": "CircoFlows",
+      "uk": "CircoFlows"
     }
   }
 ]

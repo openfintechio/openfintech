@@ -2831,6 +2831,15 @@
     }
   },
   {
+    "code": "naranjax",
+    "vendor": "naranjax",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Naranja X"
+    }
+  },
+  {
     "code": "toditocash",
     "vendor": "toditocash",
     "category": "digital_wallet",
@@ -9982,6 +9991,14 @@
     }
   },
   {
+    "code": "qr_code",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "QR Code"
+    }
+  },
+  {
     "code": "quick_bit",
     "category": "alternative",
     "status": "active",
@@ -11565,6 +11582,16 @@
     }
   },
   {
+    "code": "mobilum",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Mobilum",
+      "ru": "Mobilum",
+      "uk": "Mobilum"
+    }
+  },
+  {
     "code": "khalti",
     "category": "online_banking",
     "status": "active",
@@ -11953,6 +11980,14 @@
       "en": "Cardpay Crypto",
       "ru": "Cardpay Crypto",
       "uk": "Cardpay Crypto"
+    }
+  },
+  {
+    "code": "tunzer",
+    "category": "online_banking",
+    "status": "active",
+    "name": {
+      "en": "Tunzer"
     }
   }
 ]
