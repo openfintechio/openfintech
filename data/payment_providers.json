@@ -30430,5 +30430,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "isx",
+    "vendor": "isx",
+    "name": {
+      "en": "ISX",
+      "ru": "ISX",
+      "uk": "ISX"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
