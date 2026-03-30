@@ -22600,6 +22600,19 @@
   },
   {
     "status": "active",
+    "code": "starpago",
+    "vendor": "starpago",
+    "name": {
+      "en": "Starpago",
+      "ru": "Starpago",
+      "uk": "Starpago"
+    },
+    "payment_method": [
+      "pix"
+    ]
+  },
+  {
+    "status": "active",
     "code": "payproglobal",
     "vendor": "payproglobal",
     "name": {
