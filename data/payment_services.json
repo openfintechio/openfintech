@@ -518,7 +518,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "\/^[0-9]{1,11}$\/",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
         "required": false,
         "position": 2,
         "label": {
@@ -6214,7 +6214,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "/^[a-zA-Z0-9\\-]{8,64}$/",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -7970,7 +7970,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "\/^[0-9]{1,100}$\/",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
         "required": false,
         "position": 4,
         "label": {
@@ -31990,7 +31990,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "\/^[0-9]{1,100}$\/",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -34490,7 +34490,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "/^[a-zA-Z0-9\\-]{8,64}$/",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -38949,7 +38949,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -38977,7 +38977,7 @@
       {
         "key": "document_id",
         "type": "string",
-        "regexp": "/^[a-zA-Z0-9]{8,12}$/",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
         "required": false,
         "position": 1,
         "label": {
