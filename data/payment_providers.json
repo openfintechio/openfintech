@@ -25275,7 +25275,8 @@
     "code": "gigadat",
     "vendor": "gigadat",
     "payout_method": [
-      "interac_etransfer"
+      "interac_etransfer",
+      "bank_transfer"
     ],
     "payment_method": [
       "interac_aggregated"
