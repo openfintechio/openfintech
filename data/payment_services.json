@@ -39791,6 +39791,15 @@
   },
   {
     "status": "active",
+    "code": "blik_widget_m_pln_invoice",
+    "flow": "invoice",
+    "method": "blik_widget_m",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 400000
+  },
+  {
+    "status": "active",
     "code": "klyme_usd_invoice",
     "flow": "invoice",
     "method": "klyme",
