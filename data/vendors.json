@@ -31548,6 +31548,18 @@
   },
   {
     "code": "saltarpay",
+    "status": "deprecated",
+    "links": {
+      "website": "https://www.tourapay.com"
+    },
+    "name": {
+      "en": "TouraPay",
+      "ru": "TouraPay",
+      "uk": "TouraPay"
+    }
+  },
+  {
+    "code": "tourapay",
     "status": "active",
     "links": {
       "website": "https://www.tourapay.com"
