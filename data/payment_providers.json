@@ -30439,6 +30439,19 @@
   },
   {
     "status": "active",
+    "code": "ezzygate",
+    "vendor": "ezzygate",
+    "name": {
+      "en": "Ezzygate",
+      "ru": "Ezzygate",
+      "uk": "Ezzygate"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "circoflows",
     "vendor": "circoflows",
     "name": {
