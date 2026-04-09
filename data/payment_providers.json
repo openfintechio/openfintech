@@ -30475,5 +30475,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payland",
+    "vendor": "payland",
+    "name": {
+      "en": "PayLand",
+      "ru": "PayLand",
+      "uk": "PayLand"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
