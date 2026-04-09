@@ -22193,6 +22193,40 @@
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
         }
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "/^[0-9]{1,12}$/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
       }
     ]
   },
@@ -33498,6 +33532,40 @@
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
         }
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        }
+      },
+      {
+        "key": "account_no",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "NEQUI wallet number",
+          "ru": "Номер кошелька NEQUI",
+          "uk": "Номер гаманця NEQUI"
+        },
+        "hint": {
+          "en": "Enter NEQUI wallet number",
+          "ru": "Введите номер кошелька NEQUI",
+          "uk": "Введіть номер гаманця NEQUI"
+        }
       }
     ]
   },
@@ -35445,6 +35513,23 @@
           "en": "Enter payer personal identification number",
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
+        }
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
         }
       }
     ]
