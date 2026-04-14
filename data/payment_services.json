@@ -25449,6 +25449,15 @@
   },
   {
     "status": "active",
+    "code": "mobile_tzs_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "TZS",
+    "amount_min": 100,
+    "amount_max": 999999
+  },
+  {
+    "status": "active",
     "code": "mobile_xaf_hpp",
     "flow": "hpp",
     "method": "mobile",
