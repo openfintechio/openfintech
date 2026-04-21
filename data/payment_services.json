@@ -11993,6 +11993,15 @@
   },
   {
     "status": "active",
+    "code": "paysafecash_pln_hpp",
+    "flow": "hpp",
+    "method": "paysafecash",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 376000
+  },
+  {
+    "status": "active",
     "code": "paysafecard_mxn_hpp",
     "flow": "hpp",
     "method": "paysafecard",
