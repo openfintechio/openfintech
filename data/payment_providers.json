@@ -30502,5 +30502,19 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "cardifulpaycorp",
+    "vendor": "cardifulpaycorp",
+    "name": {
+      "en": "Cardiful Paycorp",
+      "ru": "Cardiful Paycorp",
+      "uk": "Cardiful Paycorp"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay"
+    ]
   }
 ]
