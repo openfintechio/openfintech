@@ -11993,6 +11993,15 @@
   },
   {
     "status": "active",
+    "code": "paysafecash_pln_hpp",
+    "flow": "hpp",
+    "method": "paysafecash",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 376000
+  },
+  {
+    "status": "active",
     "code": "paysafecard_mxn_hpp",
     "flow": "hpp",
     "method": "paysafecard",
@@ -22193,6 +22202,40 @@
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
         }
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "/^[0-9]{1,12}$/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
       }
     ]
   },
@@ -25412,6 +25455,15 @@
     "currency": "RWF",
     "amount_min": 10,
     "amount_max": 102500000
+  },
+  {
+    "status": "active",
+    "code": "mobile_tzs_hpp",
+    "flow": "hpp",
+    "method": "mobile",
+    "currency": "TZS",
+    "amount_min": 100,
+    "amount_max": 999999
   },
   {
     "status": "active",
@@ -33498,6 +33550,40 @@
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
         }
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        }
+      },
+      {
+        "key": "account_no",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "NEQUI wallet number",
+          "ru": "Номер кошелька NEQUI",
+          "uk": "Номер гаманця NEQUI"
+        },
+        "hint": {
+          "en": "Enter NEQUI wallet number",
+          "ru": "Введите номер кошелька NEQUI",
+          "uk": "Введіть номер гаманця NEQUI"
+        }
       }
     ]
   },
@@ -35445,6 +35531,23 @@
           "en": "Enter payer personal identification number",
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
+        }
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
         }
       }
     ]
@@ -39865,6 +39968,53 @@
     "status": "active",
     "code": "sepa_transfer_instant_eur_hpp",
     "currency": "EUR",
+    "flow": "hpp",
+    "method": "sepa_transfer_instant",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      },
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Client account bank name",
+          "ru": "Название банка клиентского счета",
+          "uk": "Назва банку рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account bank name",
+          "ru": "Введите название банка клиента",
+          "uk": "Введіть назву банка клієнта"
+        },
+        "example": "revolut"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_instant_gbp_hpp",
+    "currency": "GBP",
     "flow": "hpp",
     "method": "sepa_transfer_instant",
     "fields": [

@@ -18731,7 +18731,8 @@
       "payment_card"
     ],
     "payout_method": [
-      "rapyd"
+      "rapyd",
+      "payment_card"
     ]
   },
   {
@@ -25145,7 +25146,8 @@
       "multibanco",
       "payshop",
       "bizum",
-      "bank_transfer"
+      "bank_transfer",
+      "blik"
     ],
     "payout_method": [
       "bank_transfer",
@@ -30228,6 +30230,12 @@
       "tether",
       "usd_coin",
       "alphapo"
+    ],
+    "payout_method": [
+      "tether",
+      "ethereum",
+      "bitcoin",
+      "usd_coin"
     ]
   },
   {
@@ -30445,6 +30453,19 @@
   },
   {
     "status": "active",
+    "code": "ezzygate",
+    "vendor": "ezzygate",
+    "name": {
+      "en": "Ezzygate",
+      "ru": "Ezzygate",
+      "uk": "Ezzygate"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "circoflows",
     "vendor": "circoflows",
     "name": {
@@ -30464,6 +30485,19 @@
       "en": "ISX",
       "ru": "ISX",
       "uk": "ISX"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payland",
+    "vendor": "payland",
+    "name": {
+      "en": "PayLand",
+      "ru": "PayLand",
+      "uk": "PayLand"
     },
     "payment_method": [
       "payment_card"
