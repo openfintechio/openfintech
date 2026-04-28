@@ -30550,5 +30550,18 @@
       "applepay",
       "googlepay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "paydeca",
+    "vendor": "paydeca",
+    "name": {
+      "en": "Paydeca",
+      "ru": "Paydeca",
+      "uk": "Paydeca"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
