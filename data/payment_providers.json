@@ -22615,7 +22615,39 @@
       "pix"
     ],
     "payout_method": [
-      "pix"
+      "pix",
+      "bancamia",
+      "banco_agrario",
+      "banco_av_villas",
+      "bbva_colombia",
+      "banco_caja_social",
+      "coopcentral",
+      "credifinanciera",
+      "davivienda_bank",
+      "bogota_bank",
+      "occidente_bank",
+      "banco_falabella",
+      "gnb_sudameris_bank",
+      "bancoitau",
+      "banco_pichincha",
+      "bancopopular",
+      "santander_colombia",
+      "banco_serfinanza",
+      "banco_union",
+      "colombia_bank",
+      "bancoomeva",
+      "cfa_cooperativa",
+      "citibank",
+      "coltefinanciera",
+      "confiar_cooperativa",
+      "coofinep",
+      "cotrafa",
+      "daviplata",
+      "iris",
+      "lulo_bank",
+      "movii",
+      "nequi",
+      "scotiabank"
     ]
   },
   {
@@ -25149,7 +25181,8 @@
       "multibanco",
       "payshop",
       "bizum",
-      "bank_transfer"
+      "bank_transfer",
+      "blik"
     ],
     "payout_method": [
       "bank_transfer",
@@ -26911,7 +26944,8 @@
       "tyme_bank",
       "etisalat",
       "vodafone_egypt",
-      "orange_money"
+      "orange_money",
+      "airteltigo"
     ]
   },
   {
@@ -28584,6 +28618,12 @@
       "solana",
       "tron",
       "usd_coin"
+    ],
+    "payout_method": [
+      "tether",
+      "bitcoin",
+      "ethereum",
+      "usd_coin"
     ]
   },
   {
@@ -29460,7 +29500,8 @@
     ],
     "payout_method": [
       "skrill",
-      "neteller"
+      "neteller",
+      "paysafecard"
     ]
   },
   {
@@ -30229,6 +30270,8 @@
     ],
     "payout_method": [
       "tether",
+      "ethereum",
+      "bitcoin",
       "usd_coin"
     ]
   },
@@ -30276,6 +30319,8 @@
       "uk": "Solvex"
     },
     "payment_method": [
+      "applepay",
+      "googlepay",
       "payment_card"
     ]
   },
@@ -30492,6 +30537,33 @@
       "en": "PayLand",
       "ru": "PayLand",
       "uk": "PayLand"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "cardifulnew",
+    "vendor": "cardifulnew",
+    "name": {
+      "en": "Cardiful New",
+      "ru": "Cardiful New",
+      "uk": "Cardiful New"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paydeca",
+    "vendor": "paydeca",
+    "name": {
+      "en": "Paydeca",
+      "ru": "Paydeca",
+      "uk": "Paydeca"
     },
     "payment_method": [
       "payment_card"
