@@ -21782,33 +21782,6 @@
     }
   },
   {
-    "code": "transactpro",
-    "status": "active",
-    "countries": [
-      "EE",
-      "DE",
-      "IS",
-      "LV",
-      "LT",
-      "RW",
-      "AE"
-    ],
-    "contacts": {
-      "email": "info@transactpro.lv",
-      "phone": "+371 6722 6717",
-      "fax": "+371 6722 6741"
-    },
-    "address": {
-      "street": " Str. Ropazu 10, 12th floor, LV-1039 RigaLatvia "
-    },
-    "name": {
-      "en": "Transact Pro"
-    },
-    "description": {
-      "en": " E-Commerce merchants enjoy the following direct services provided by Transact Pro:  1. Merchant accounts - to accept payments by Visa/MasterCard/Amex payment cards;  2. Payment Gateway services - to integrate websites and process payments;  3. Current (checking or business) accounts - to receive the proceeds and effect business payments;  4. MasterCard payment cards for immediate access to the account balance.  In 2009, Transact Pro became the first Latvian non-banking institution to join international payment organization MasterCard Worldwide as a principal member with the right to issue MasterCard payment cards. In 2015 Transact Pro became a member of Visa Europe as well as got the MasterCard International and Visa Europe licenses with the right to provide acquiring services.  We strive to make our services accessible and convenient for everyone.  "
-    }
-  },
-  {
     "code": "vikingpay",
     "status": "active",
     "countries": [
@@ -37016,6 +36989,18 @@
       "en": "Paytech",
       "ru": "Paytech",
       "uk": "Paytech"
+    }
+  },
+  {
+    "code": "transactpro",
+    "status": "active",
+    "links": {
+      "website": "https://www.transactpro.eu/"
+    },
+    "name": {
+      "en": "Transact Pro",
+      "ru": "Transact Pro",
+      "uk": "Transact Pro"
     }
   },
   {

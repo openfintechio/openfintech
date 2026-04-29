@@ -12092,26 +12092,6 @@
   },
   {
     "status": "active",
-    "code": "transactpro",
-    "vendor": "transactpro",
-    "countries": [
-      "EE",
-      "DE",
-      "IS",
-      "LV",
-      "LT",
-      "RW",
-      "AE"
-    ],
-    "metadata": {
-      "about_payments_code": "transactpro"
-    },
-    "name": {
-      "en": "Transact Pro"
-    }
-  },
-  {
-    "status": "active",
     "code": "greta11",
     "vendor": "greta11",
     "metadata": {
@@ -30332,6 +30312,21 @@
       "en": "Paytech",
       "ru": "Paytech",
       "uk": "Paytech"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay",
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "transactpro",
+    "vendor": "transactpro",
+    "name": {
+      "en": "Transact Pro",
+      "ru": "Transact Pro",
+      "uk": "Transact Pro"
     },
     "payment_method": [
       "applepay",
