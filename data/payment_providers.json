@@ -5057,7 +5057,10 @@
       "online_banking",
       "applepay",
       "googlepay",
-      "cardpay_crypto"
+      "cardpay_crypto",
+      "bancontact",
+      "blik",
+      "ideal"
     ],
     "payout_method": [
       "payment_card",
@@ -22612,7 +22615,39 @@
       "pix"
     ],
     "payout_method": [
-      "pix"
+      "pix",
+      "bancamia",
+      "banco_agrario",
+      "banco_av_villas",
+      "bbva_colombia",
+      "banco_caja_social",
+      "coopcentral",
+      "credifinanciera",
+      "davivienda_bank",
+      "bogota_bank",
+      "occidente_bank",
+      "banco_falabella",
+      "gnb_sudameris_bank",
+      "bancoitau",
+      "banco_pichincha",
+      "bancopopular",
+      "santander_colombia",
+      "banco_serfinanza",
+      "banco_union",
+      "colombia_bank",
+      "bancoomeva",
+      "cfa_cooperativa",
+      "citibank",
+      "coltefinanciera",
+      "confiar_cooperativa",
+      "coofinep",
+      "cotrafa",
+      "daviplata",
+      "iris",
+      "lulo_bank",
+      "movii",
+      "nequi",
+      "scotiabank"
     ]
   },
   {
@@ -29032,9 +29067,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "Shift4",
-      "ru": "Shift4",
-      "uk": "Shift4"
+      "en": "Shift4 EU",
+      "ru": "Shift4 EU",
+      "uk": "Shift4 EU"
     }
   },
   {
@@ -30284,6 +30319,8 @@
       "uk": "Solvex"
     },
     "payment_method": [
+      "applepay",
+      "googlepay",
       "payment_card"
     ]
   },
@@ -30517,6 +30554,19 @@
     "payment_method": [
       "applepay",
       "googlepay"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "paydeca",
+    "vendor": "paydeca",
+    "name": {
+      "en": "Paydeca",
+      "ru": "Paydeca",
+      "uk": "Paydeca"
+    },
+    "payment_method": [
+      "payment_card"
     ]
   }
 ]

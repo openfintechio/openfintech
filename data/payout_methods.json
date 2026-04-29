@@ -31222,9 +31222,9 @@
     "category": "bank_transfer",
     "status": "active",
     "name": {
-      "en": "BANCOLOMBIA QA",
-      "ru": "BANCOLOMBIA QA",
-      "uk": "BANCOLOMBIA QA"
+      "en": "BANCOLOMBIA",
+      "ru": "BANCOLOMBIA",
+      "uk": "BANCOLOMBIA"
     }
   },
   {
@@ -31252,9 +31252,9 @@
     "category": "bank_transfer",
     "status": "active",
     "name": {
-      "en": "BBVA Colombia",
-      "ru": "BBVA Colombia",
-      "uk": "BBVA Colombia"
+      "en": "BANCO BBVA COLOMBIA S.A.",
+      "ru": "BANCO BBVA COLOMBIA S.A.",
+      "uk": "BANCO BBVA COLOMBIA S.A."
     }
   },
   {
@@ -31272,9 +31272,9 @@
     "category": "bank_transfer",
     "status": "active",
     "name": {
-      "en": "Scotiabank",
-      "ru": "Scotiabank",
-      "uk": "Scotiabank"
+      "en": "SCOTIABANK COLPATRIA",
+      "ru": "SCOTIABANK COLPATRIA",
+      "uk": "SCOTIABANK COLPATRIA"
     }
   },
   {
@@ -31282,9 +31282,9 @@
     "category": "bank_transfer",
     "status": "active",
     "name": {
-      "en": "Banco Itaú",
-      "ru": "Banco Itaú",
-      "uk": "Banco Itaú"
+      "en": "BANCO ITAU",
+      "ru": "BANCO ITAU",
+      "uk": "BANCO ITAU"
     }
   },
   {
@@ -31312,9 +31312,9 @@
     "category": "bank_transfer",
     "status": "active",
     "name": {
-      "en": "Banco Popular",
-      "ru": "Banco Popular",
-      "uk": "Banco Popular"
+      "en": "BANCO POPULAR",
+      "ru": "BANCO POPULAR",
+      "uk": "BANCO POPULAR"
     }
   },
   {
@@ -31322,9 +31322,9 @@
     "category": "digital_wallet",
     "status": "active",
     "name": {
-      "en": "Banco DAVIVIENDA S.A.",
-      "ru": "Banco DAVIVIENDA S.A.",
-      "uk": "Banco DAVIVIENDA S.A."
+      "en": "DAVIPLATA",
+      "ru": "DAVIPLATA",
+      "uk": "DAVIPLATA"
     }
   },
   {
@@ -31332,9 +31332,9 @@
     "category": "digital_wallet",
     "status": "active",
     "name": {
-      "en": "Movii",
-      "ru": "Movii",
-      "uk": "Movii"
+      "en": "MOVII",
+      "ru": "MOVII",
+      "uk": "MOVII"
     }
   },
   {
@@ -31342,9 +31342,219 @@
     "category": "digital_wallet",
     "status": "active",
     "name": {
-      "en": "Nequi",
-      "ru": "Nequi",
-      "uk": "Nequi"
+      "en": "NEQUI",
+      "ru": "NEQUI",
+      "uk": "NEQUI"
+    }
+  },
+  {
+    "code": "bancamia",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCAMIA S.A.",
+      "ru": "BANCAMIA S.A.",
+      "uk": "BANCAMIA S.A."
+    }
+  },
+  {
+    "code": "banco_agrario",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO AGRARIO",
+      "ru": "BANCO AGRARIO",
+      "uk": "BANCO AGRARIO"
+    }
+  },
+  {
+    "code": "banco_av_villas",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO AV VILLAS",
+      "ru": "BANCO AV VILLAS",
+      "uk": "BANCO AV VILLAS"
+    }
+  },
+  {
+    "code": "banco_caja_social",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO CAJA SOCIAL",
+      "ru": "BANCO CAJA SOCIAL",
+      "uk": "BANCO CAJA SOCIAL"
+    }
+  },
+  {
+    "code": "coopcentral",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO COOPERATIVO COOPCENTRAL",
+      "ru": "BANCO COOPERATIVO COOPCENTRAL",
+      "uk": "BANCO COOPERATIVO COOPCENTRAL"
+    }
+  },
+  {
+    "code": "credifinanciera",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO CREDIFINANCIERA",
+      "ru": "BANCO CREDIFINANCIERA",
+      "uk": "BANCO CREDIFINANCIERA"
+    }
+  },
+  {
+    "code": "bogota_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO DE BOGOTA",
+      "ru": "BANCO DE BOGOTA",
+      "uk": "BANCO DE BOGOTA"
+    }
+  },
+  {
+    "code": "banco_falabella",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO FALABELLA",
+      "ru": "BANCO FALABELLA",
+      "uk": "BANCO FALABELLA"
+    }
+  },
+  {
+    "code": "banco_pichincha",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO PICHINCHA S.A.",
+      "ru": "BANCO PICHINCHA S.A.",
+      "uk": "BANCO PICHINCHA S.A."
+    }
+  },
+  {
+    "code": "santander_colombia",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO SANTANDER COLOMBIA",
+      "ru": "BANCO SANTANDER COLOMBIA",
+      "uk": "BANCO SANTANDER COLOMBIA"
+    }
+  },
+  {
+    "code": "banco_serfinanza",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO SERFINANZA",
+      "ru": "BANCO SERFINANZA",
+      "uk": "BANCO SERFINANZA"
+    }
+  },
+  {
+    "code": "banco_union",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCO UNION antes GIROS",
+      "ru": "BANCO UNION antes GIROS",
+      "uk": "BANCO UNION antes GIROS"
+    }
+  },
+  {
+    "code": "bancoomeva",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "BANCOOMEVA S.A.",
+      "ru": "BANCOOMEVA S.A.",
+      "uk": "BANCOOMEVA S.A."
+    }
+  },
+  {
+    "code": "cfa_cooperativa",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "CFA COOPERATIVA FINANCIERA",
+      "ru": "CFA COOPERATIVA FINANCIERA",
+      "uk": "CFA COOPERATIVA FINANCIERA"
+    }
+  },
+  {
+    "code": "citibank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "CITIBANK",
+      "ru": "CITIBANK",
+      "uk": "CITIBANK"
+    }
+  },
+  {
+    "code": "coltefinanciera",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "COLTEFINANCIERA",
+      "ru": "COLTEFINANCIERA",
+      "uk": "COLTEFINANCIERA"
+    }
+  },
+  {
+    "code": "confiar_cooperativa",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "CONFIAR COOPERATIVA FINANCIERA",
+      "ru": "CONFIAR COOPERATIVA FINANCIERA",
+      "uk": "CONFIAR COOPERATIVA FINANCIERA"
+    }
+  },
+  {
+    "code": "coofinep",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "COOFINEP COOPERATIVA FINANCIERA",
+      "ru": "COOFINEP COOPERATIVA FINANCIERA",
+      "uk": "COOFINEP COOPERATIVA FINANCIERA"
+    }
+  },
+  {
+    "code": "cotrafa",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "COTRAFA",
+      "ru": "COTRAFA",
+      "uk": "COTRAFA"
+    }
+  },
+  {
+    "code": "iris",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "IRIS",
+      "ru": "IRIS",
+      "uk": "IRIS"
+    }
+  },
+  {
+    "code": "lulo_bank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "LULO BANK",
+      "ru": "LULO BANK",
+      "uk": "LULO BANK"
     }
   },
   {
