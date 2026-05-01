@@ -28011,6 +28011,19 @@
   },
   {
     "status": "active",
+    "code": "payball",
+    "vendor": "payball",
+    "name": {
+      "en": "Payball",
+      "ru": "Payball",
+      "uk": "Payball"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "btqfinance",
     "vendor": "btqfinance",
     "name": {
