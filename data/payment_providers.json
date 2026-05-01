@@ -30556,6 +30556,21 @@
   },
   {
     "status": "active",
+    "code": "rocketfuel",
+    "vendor": "rocketfuel",
+    "name": {
+      "en": "RocketFuel",
+      "ru": "RocketFuel",
+      "uk": "RocketFuel"
+    },
+    "payout_method": [
+      "ach",
+      "sepa_transfer",
+      "interac"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paydeca",
     "vendor": "paydeca",
     "name": {
