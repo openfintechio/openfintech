@@ -26999,6 +26999,15 @@
   },
   {
     "status": "active",
+    "code": "jazzcash_pkr_invoice",
+    "currency": "PKR",
+    "flow": "invoice",
+    "method": "jazzcash",
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
     "code": "jazzcash_pkr_transfer",
     "currency": "PKR",
     "flow": "transfer",
@@ -27218,6 +27227,15 @@
         "example": "GB97BARC20031877565489"
       }
     ],
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "easypaisa_pkr_invoice",
+    "currency": "PKR",
+    "flow": "invoice",
+    "method": "easypaisa",
     "amount_min": 1,
     "amount_max": 25000000
   },
