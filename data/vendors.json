@@ -29611,11 +29611,20 @@
   },
   {
     "code": "honeypay",
-    "status": "active",
+    "status": "deprecated",
     "name": {
       "en": "MilkyPay",
       "ru": "MilkyPay",
       "uk": "MilkyPay"
+    }
+  },
+  {
+    "code": "mpay",
+    "status": "active",
+    "name": {
+      "en": "MPay",
+      "ru": "MPay",
+      "uk": "MPay"
     }
   },
   {

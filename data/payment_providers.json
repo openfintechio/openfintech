@@ -21955,13 +21955,29 @@
     ]
   },
   {
-    "status": "active",
+    "status": "deprecated",
     "code": "honeypay",
     "vendor": "honeypay",
     "name": {
       "en": "MilkyPay",
       "ru": "MilkyPay",
       "uk": "MilkyPay"
+    },
+    "payment_method": [
+      "payment_card"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "mpay",
+    "vendor": "mpay",
+    "name": {
+      "en": "MPay",
+      "ru": "MPay",
+      "uk": "MPay"
     },
     "payment_method": [
       "payment_card"
