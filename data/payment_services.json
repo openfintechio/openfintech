@@ -4534,6 +4534,15 @@
   },
   {
     "status": "active",
+    "code": "pagomovil_ves_hpp",
+    "currency": "VES",
+    "flow": "hpp",
+    "method": "pagomovil",
+    "amount_min": 60,
+    "amount_max": 6000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -26637,6 +26646,15 @@
     "method": "bank_transfer_qr",
     "amount_min": 0.01,
     "amount_max": 9999999
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_qr_bob_hpp",
+    "currency": "BOB",
+    "flow": "hpp",
+    "method": "bank_transfer_qr",
+    "amount_min": 0.01,
+    "amount_max": 700000
   },
   {
     "status": "active",
