@@ -4534,6 +4534,15 @@
   },
   {
     "status": "active",
+    "code": "pagomovil_ves_hpp",
+    "currency": "VES",
+    "flow": "hpp",
+    "method": "pagomovil",
+    "amount_min": 60,
+    "amount_max": 6000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -26640,6 +26649,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_qr_bob_hpp",
+    "currency": "BOB",
+    "flow": "hpp",
+    "method": "bank_transfer_qr",
+    "amount_min": 0.01,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
     "code": "card_transfer_kzt_invoice",
     "flow": "invoice",
     "method": "card_transfer",
@@ -27281,6 +27299,35 @@
         },
         "regexp": "\/^\\+?\\d{10,14}$\/",
         "example": "+380996233220"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "bank_qr_pkr_transfer",
+    "currency": "PKR",
+    "flow": "transfer",
+    "method": "bank_qr",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
       }
     ],
     "amount_min": 1,
