@@ -30538,6 +30538,19 @@
   },
   {
     "status": "active",
+    "code": "nexpay",
+    "vendor": "nexpay",
+    "name": {
+      "en": "Nexpay",
+      "ru": "Nexpay",
+      "uk": "Nexpay"
+    },
+    "payout_method": [
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "ezzygate",
     "vendor": "ezzygate",
     "name": {
