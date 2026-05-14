@@ -5229,7 +5229,7 @@
         },
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
         "required": false,
-        "position":9
+        "position": 9
       },
       {
         "key": "account",
@@ -5435,7 +5435,7 @@
         },
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
         "required": false,
-        "position":9
+        "position": 9
       },
       {
         "key": "account",
@@ -5624,7 +5624,7 @@
         },
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
         "required": false,
-        "position":9
+        "position": 9
       },
       {
         "key": "account",
@@ -8684,7 +8684,7 @@
     "method": "paypal",
     "amount_min": 0.01,
     "amount_max": 9999999,
-    "fields" : [
+    "fields": [
       {
         "key": "document_id",
         "type": "string",
@@ -25694,7 +25694,7 @@
         },
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
         "required": false,
-        "position":1
+        "position": 1
       },
       {
         "key": "payer_phone_number",
@@ -25758,7 +25758,7 @@
         },
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
         "required": false,
-        "position":1
+        "position": 1
       },
       {
         "key": "payer_phone_number",
@@ -25822,7 +25822,7 @@
         },
         "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$\/",
         "required": true,
-        "position":1
+        "position": 1
       },
       {
         "key": "payer_phone_number",
@@ -26709,7 +26709,7 @@
     "flow": "invoice",
     "amount_min": 0.01,
     "amount_max": 100000,
-    "fields":  [
+    "fields": [
       {
         "key": "bank_code",
         "type": "string",
@@ -43605,6 +43605,118 @@
     "flow": "hpp",
     "method": "tunzer",
     "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "zimpler_eur_hpp",
+    "flow": "hpp",
+    "method": "zimpler",
+    "currency": "EUR",
+    "fields": [
+      {
+        "key": "country_code",
+        "type": "string",
+        "label": {
+          "en": "Country Code",
+          "ru": "Код страны",
+          "uk": "Код країни"
+        },
+        "hint": {
+          "en": "Enter country code",
+          "ru": "Введите код страны",
+          "uk": "Введіть код країни"
+        },
+        "regexp": "\/^[a-zA-Z]{2}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "zimpler_dkk_hpp",
+    "flow": "hpp",
+    "method": "zimpler",
+    "currency": "DKK",
+    "fields": [
+      {
+        "key": "country_code",
+        "type": "string",
+        "label": {
+          "en": "Country Code",
+          "ru": "Код страны",
+          "uk": "Код країни"
+        },
+        "hint": {
+          "en": "Enter country code",
+          "ru": "Введите код страны",
+          "uk": "Введіть код країни"
+        },
+        "regexp": "\/^[a-zA-Z]{2}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "zimpler_sek_hpp",
+    "flow": "hpp",
+    "method": "zimpler",
+    "currency": "SEK",
+    "fields": [
+      {
+        "key": "country_code",
+        "type": "string",
+        "label": {
+          "en": "Country Code",
+          "ru": "Код страны",
+          "uk": "Код країни"
+        },
+        "hint": {
+          "en": "Enter country code",
+          "ru": "Введите код страны",
+          "uk": "Введіть код країни"
+        },
+        "regexp": "\/^[a-zA-Z]{2}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "zimpler_brl_hpp",
+    "flow": "hpp",
+    "method": "zimpler",
+    "currency": "BRL",
+    "fields": [
+      {
+        "key": "country_code",
+        "type": "string",
+        "label": {
+          "en": "Country Code",
+          "ru": "Код страны",
+          "uk": "Код країни"
+        },
+        "hint": {
+          "en": "Enter country code",
+          "ru": "Введите код страны",
+          "uk": "Введіть код країни"
+        },
+        "regexp": "\/^[a-zA-Z]{2}$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   }
