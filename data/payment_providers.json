@@ -147,8 +147,8 @@
   },
   {
     "status": "active",
-    "code": "swishme",
-    "vendor": "swishme",
+    "code": "swish",
+    "vendor": "swish",
     "countries": [
       "AX",
       "AL",
@@ -198,7 +198,7 @@
       "AE"
     ],
     "metadata": {
-      "about_payments_code": "swishme"
+      "about_payments_code": "swish"
     },
     "name": {
       "en": "Swish Payments Ltd"
@@ -30785,6 +30785,25 @@
       "paysafecard",
       "blik",
       "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "zimpler",
+    "vendor": "zimpler",
+    "name": {
+      "en": "Zimpler",
+      "ru": "Zimpler",
+      "uk": "Zimpler"
+    },
+    "payment_method": [
+      "zimpler",
+      "swish"
+    ],
+    "payout_method": [
+      "zimpler",
+      "swish",
+      "sepa_transfer"
     ]
   }
 ]
