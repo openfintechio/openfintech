@@ -30645,5 +30645,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "qorepayments",
+    "vendor": "qorepayments",
+    "name": {
+      "en": "QorePayments",
+      "ru": "QorePayments",
+      "uk": "QorePayments"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
