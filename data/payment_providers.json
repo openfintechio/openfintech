@@ -27922,12 +27922,15 @@
     },
     "payment_method": [
       "bkash_limited",
-      "nagad_wallet"
+      "nagad_wallet",
+      "jazzcash",
+      "easypaisa"
     ],
     "payout_method": [
       "bkash_limited",
       "nagad_wallet",
-      "jazzcash"
+      "jazzcash",
+      "easypaisa"
     ]
   },
   {
