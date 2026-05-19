@@ -18023,6 +18023,19 @@
   },
   {
     "status": "active",
+    "code": "transak",
+    "vendor": "transak",
+    "name": {
+      "en": "Transak",
+      "ru": "Transak",
+      "uk": "Transak"
+    },
+    "payment_method": [
+      "crypto_aggregated"
+    ]
+  },
+  {
+    "status": "active",
     "code": "sobini",
     "vendor": "sobini",
     "name": {
