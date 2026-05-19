@@ -4534,6 +4534,15 @@
   },
   {
     "status": "active",
+    "code": "pagomovil_ves_hpp",
+    "currency": "VES",
+    "flow": "hpp",
+    "method": "pagomovil",
+    "amount_min": 60,
+    "amount_max": 6000000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_vnd_hpp",
     "currency": "VND",
     "flow": "hpp",
@@ -12627,6 +12636,26 @@
     "flow": "hpp",
     "method": "przelewy24",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -26640,6 +26669,15 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_qr_bob_hpp",
+    "currency": "BOB",
+    "flow": "hpp",
+    "method": "bank_transfer_qr",
+    "amount_min": 0.01,
+    "amount_max": 700000
+  },
+  {
+    "status": "active",
     "code": "card_transfer_kzt_invoice",
     "flow": "invoice",
     "method": "card_transfer",
@@ -27245,6 +27283,53 @@
     "currency": "PKR",
     "flow": "transfer",
     "method": "easypaisa",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[0-9]{5,100}$\/",
+        "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "phone_number",
+        "type": "string",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+?\\d{10,14}$\/",
+        "example": "+380996233220"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 25000000
+  },
+  {
+    "status": "active",
+    "code": "bank_qr_pkr_transfer",
+    "currency": "PKR",
+    "flow": "transfer",
+    "method": "bank_qr",
     "fields": [
       {
         "key": "account_number",
@@ -40158,6 +40243,35 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "blik_crypto_pln_hpp",
+    "flow": "hpp",
+    "method": "blik_crypto",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 500000,
+    "fields": [
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "\/^.{1,128}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      }
+    ]
   },
   {
     "status": "active",

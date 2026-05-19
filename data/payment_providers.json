@@ -5060,7 +5060,8 @@
       "cardpay_crypto",
       "bancontact",
       "blik",
-      "ideal"
+      "ideal",
+      "przelewy24"
     ],
     "payout_method": [
       "payment_card",
@@ -9612,7 +9613,8 @@
       "multibanco",
       "skrill",
       "neteller",
-      "openbanking"
+      "openbanking",
+      "pay_id"
     ],
     "payout_method": [
       "payment_card",
@@ -17394,7 +17396,8 @@
       "applepay_crypto",
       "googlepay_crypto",
       "payment_card_crypto",
-      "fawry_crypto"
+      "fawry_crypto",
+      "blik_crypto"
     ]
   },
   {
@@ -22611,10 +22614,7 @@
       "uk": "Starpago"
     },
     "payment_method": [
-      "pix",
-      "breb",
-      "pse",
-      "nequi"
+      "pix"
     ],
     "payout_method": [
       "pix",
@@ -27922,11 +27922,15 @@
     },
     "payment_method": [
       "bkash_limited",
-      "nagad_wallet"
+      "nagad_wallet",
+      "jazzcash",
+      "easypaisa"
     ],
     "payout_method": [
       "bkash_limited",
-      "nagad_wallet"
+      "nagad_wallet",
+      "jazzcash",
+      "easypaisa"
     ]
   },
   {
@@ -28477,7 +28481,9 @@
       "spei",
       "transfiya",
       "upi",
-      "webpay"
+      "webpay",
+      "bancontact",
+      "eps"
     ],
     "payout_method": [
       "payment_card",
@@ -29283,7 +29289,8 @@
       "bkash_p2p",
       "nagad_wallet_p2p",
       "easypaisa",
-      "jazzcash"
+      "jazzcash",
+      "bank_qr"
     ],
     "payout_method": [
       "bkash_limited",
@@ -30513,6 +30520,9 @@
     },
     "payment_method": [
       "card_transfer"
+    ],
+    "payout_method": [
+      "payment_card"
     ]
   },
   {
@@ -30533,6 +30543,19 @@
     "payout_method": [
       "bkash_limited",
       "nagad_wallet"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nexpay",
+    "vendor": "nexpay",
+    "name": {
+      "en": "Nexpay",
+      "ru": "Nexpay",
+      "uk": "Nexpay"
+    },
+    "payout_method": [
+      "bank_transfer"
     ]
   },
   {
@@ -30598,7 +30621,8 @@
     },
     "payment_method": [
       "applepay",
-      "googlepay"
+      "googlepay",
+      "payment_card"
     ]
   },
   {
@@ -30624,6 +30648,19 @@
       "en": "Paydeca",
       "ru": "Paydeca",
       "uk": "Paydeca"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
+    "code": "qorepayments",
+    "vendor": "qorepayments",
+    "name": {
+      "en": "QorePayments",
+      "ru": "QorePayments",
+      "uk": "QorePayments"
     },
     "payment_method": [
       "payment_card"
