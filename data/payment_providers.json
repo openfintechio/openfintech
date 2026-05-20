@@ -30658,6 +30658,19 @@
   },
   {
     "status": "active",
+    "code": "sharpay",
+    "vendor": "sharpay",
+    "name": {
+      "en": "Sharpay",
+      "ru": "Sharpay",
+      "uk": "Sharpay"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paydeca",
     "vendor": "paydeca",
     "name": {
