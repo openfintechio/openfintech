@@ -30712,5 +30712,40 @@
       "bkash_limited",
       "nagad_wallet"
     ]
+  },
+  {
+    "status": "active",
+    "code": "crossbill",
+    "vendor": "crossbill",
+    "name": {
+      "en": "Crossbill",
+      "ru": "Crossbill",
+      "uk": "Crossbill"
+    },
+    "payment_method": [
+      "payment_card",
+      "skrill",
+      "paysafecard",
+      "epaybg",
+      "blik",
+      "eps",
+      "ideal",
+      "bank_transfer",
+      "multibanco",
+      "mybank2",
+      "przelewy24",
+      "sibs_mbway",
+      "rapidtransfer",
+      "paysafecash",
+      "applepay",
+      "googlepay"
+    ],
+    "payout_method": [
+      "payment_card",
+      "skrill",
+      "paysafecard",
+      "blik",
+      "bank_transfer"
+    ]
   }
 ]
