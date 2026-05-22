@@ -30694,5 +30694,23 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "pay2local",
+    "vendor": "pay2local",
+    "name": {
+      "en": "Pay2Local",
+      "ru": "Pay2Local",
+      "uk": "Pay2Local"
+    },
+    "payment_method": [
+      "bkash_p2p",
+      "nagad_p2p"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet"
+    ]
   }
 ]

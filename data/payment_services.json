@@ -31320,6 +31320,24 @@
   },
   {
     "status": "active",
+    "code": "bkash_p2p_bdt_invoice",
+    "currency": "BDT",
+    "flow": "invoice",
+    "method": "bkash_p2p",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "nagad_p2p_bdt_invoice",
+    "currency": "BDT",
+    "flow": "invoice",
+    "method": "nagad_p2p",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
     "code": "zen_wallet_eur_invoice",
     "currency": "EUR",
     "flow": "invoice",
