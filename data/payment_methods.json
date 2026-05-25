@@ -8809,6 +8809,30 @@
     }
   },
   {
+    "code": "bank_transfer_mpx",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Bank Transfer MPX"
+    }
+  },
+  {
+    "code": "bank_transfer_cvu",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Bank Transfer CVU"
+    }
+  },
+  {
+    "code": "bank_transfer_cvux",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Bank Transfer CVUX"
+    }
+  },
+  {
     "code": "bank_transfer_qr",
     "category": "bank_transfer",
     "status": "active",

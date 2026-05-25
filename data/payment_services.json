@@ -6276,6 +6276,195 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_mpx_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "bank_transfer_mpx",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,32}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[A-Z0-9]{5,100}$\/",
+        "example": "3410002602000400003579"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_cvu_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "bank_transfer_cvu",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,32}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[A-Z0-9]{5,100}$\/",
+        "example": "3410002602000400003579"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_cvux_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "bank_transfer_cvux",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,32}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "account_number",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^[A-Z0-9]{5,100}$\/",
+        "example": "3410002602000400003579"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_jpy_hpp",
     "currency": "JPY",
     "flow": "hpp",
