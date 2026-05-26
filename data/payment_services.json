@@ -31621,6 +31621,15 @@
   },
   {
     "status": "active",
+    "code": "nagad_wallet_p2p_bdt_invoice",
+    "currency": "BDT",
+    "flow": "invoice",
+    "method": "nagad_wallet_p2p",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
     "code": "nagad_wallet_bdt_invoice",
     "currency": "BDT",
     "flow": "invoice",
