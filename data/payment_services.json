@@ -39007,6 +39007,15 @@
   },
   {
     "status": "active",
+    "code": "breb_qr_cop_hpp",
+    "flow": "hpp",
+    "method": "breb_qr",
+    "currency": "COP",
+    "amount_min": 40,
+    "amount_max": 400000000
+  },
+  {
+    "status": "active",
     "code": "payser_crc_hpp",
     "flow": "hpp",
     "method": "payser",
