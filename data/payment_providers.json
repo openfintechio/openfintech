@@ -18036,6 +18036,24 @@
   },
   {
     "status": "active",
+    "code": "sudalink",
+    "vendor": "sudalink",
+    "name": {
+      "en": "Sudalink",
+      "ru": "Sudalink",
+      "uk": "Sudalink"
+    },
+    "payment_method": [
+      "jazzcash",
+      "easypaisa"
+    ],
+    "payout_method": [
+      "jazzcash",
+      "easypaisa"
+    ]
+  },
+  {
+    "status": "active",
     "code": "sobini",
     "vendor": "sobini",
     "name": {
