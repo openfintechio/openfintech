@@ -32189,5 +32189,39 @@
       "ru": "TransFiYa",
       "uk": "TransFiYa"
     }
+  },
+  {
+    "code": "zimpler",
+    "vendor": "zimpler",
+    "category": "bank_transfer",
+    "status": "active",
+    "countries": [
+      "SE",
+      "EE",
+      "FI",
+      "BR",
+      "DK"
+    ],
+    "name": {
+      "en": "Zimpler"
+    },
+    "description": {
+      "en": "Zimpler is a Swedish fintech company focused on simplifying mobile payments."
+    }
+  },
+  {
+    "code": "swish",
+    "vendor": "swish",
+    "category": "mobile_payment",
+    "status": "active",
+    "countries": [
+      "SE"
+    ],
+    "name": {
+      "en": "Swish"
+    },
+    "description": {
+      "en": "Swish is a mobile payment system in Sweden."
+    }
   }
 ]
