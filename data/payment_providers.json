@@ -11931,7 +11931,9 @@
       "bank_transfer_klarna"
     ],
     "payout_method": [
-      "skrill"
+      "skrill",
+      "neteller",
+      "paysafecard"
     ],
     "name": {
       "en": "Skrill"
