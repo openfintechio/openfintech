@@ -30808,5 +30808,20 @@
       "swish",
       "sepa_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "mintcash",
+    "vendor": "mintcash",
+    "name": {
+      "en": "MintCash",
+      "ru": "MintCash",
+      "uk": "MintCash"
+    },
+    "payment_method": [
+      "payment_card",
+      "applepay",
+      "googlepay"
+    ]
   }
 ]
