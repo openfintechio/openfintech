@@ -8931,6 +8931,15 @@
   },
   {
     "status": "active",
+    "code": "paypal_pln_hpp",
+    "currency": "PLN",
+    "flow": "hpp",
+    "method": "paypal",
+    "amount_min": 0.01,
+    "amount_max": 500000
+  },
+  {
+    "status": "active",
     "code": "china_citic_bank_cny_hpp",
     "currency": "CNY",
     "flow": "hpp",
@@ -10030,6 +10039,35 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "sepa_transfer_pln_hpp",
+    "currency": "PLN",
+    "flow": "hpp",
+    "method": "sepa_transfer",
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "\/^.{1,50}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Client account number",
+          "ru": "Номер клиентского счета",
+          "uk": "Номер рахунку клієнта"
+        },
+        "hint": {
+          "en": "Enter client account number",
+          "ru": "Введите номер клиентского счета",
+          "uk": "Введіть номер рахунку клієнта"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 500000
   },
   {
     "status": "active",
@@ -11735,6 +11773,34 @@
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000,
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "\/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$\/",
+        "required": true,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "payment_card_email_pln_hpp",
+    "currency": "PLN",
+    "method": "payment_card_email",
+    "flow": "hpp",
+    "amount_min": 0.01,
+    "amount_max": 500000,
     "fields": [
       {
         "key": "email",
@@ -37360,6 +37426,15 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 92000
+  },
+  {
+    "status": "active",
+    "code": "online_banking_pln_hpp",
+    "flow": "hpp",
+    "method": "online_banking",
+    "currency": "PLN",
+    "amount_min": 0.01,
+    "amount_max": 500000
   },
   {
     "status": "active",
