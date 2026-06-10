@@ -18039,6 +18039,19 @@
   },
   {
     "status": "active",
+    "code": "slikair",
+    "vendor": "slikair",
+    "name": {
+      "en": "Slikair",
+      "ru": "Slikair",
+      "uk": "Slikair"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "sudalink",
     "vendor": "sudalink",
     "name": {
