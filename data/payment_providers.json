@@ -18057,6 +18057,24 @@
   },
   {
     "status": "active",
+    "code": "infinitypay",
+    "vendor": "infinitypay",
+    "name": {
+      "en": "InfinityPay",
+      "ru": "InfinityPay",
+      "uk": "InfinityPay"
+    },
+    "payment_method": [
+      "jazzcash",
+      "easypaisa"
+    ],
+    "payout_method": [
+      "jazzcash",
+      "easypaisa"
+    ]
+  },
+  {
+    "status": "active",
     "code": "sobini",
     "vendor": "sobini",
     "name": {
