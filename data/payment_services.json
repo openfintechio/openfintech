@@ -11997,6 +11997,34 @@
   },
   {
     "status": "active",
+    "code": "neteller_gbp_hpp",
+    "flow": "hpp",
+    "method": "neteller",
+    "currency": "GBP",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "\/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$\/",
+        "required": false,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "neteller_azn_hpp",
     "flow": "hpp",
     "method": "neteller",
@@ -12977,6 +13005,42 @@
   },
   {
     "status": "active",
+    "code": "eps_usd_hpp",
+    "flow": "hpp",
+    "method": "eps",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "eps_cad_hpp",
+    "flow": "hpp",
+    "method": "eps",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "eps_gbp_hpp",
+    "flow": "hpp",
+    "method": "eps",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "eps_aud_hpp",
+    "flow": "hpp",
+    "method": "eps",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "polipayonline_aud_hpp",
     "flow": "hpp",
     "method": "polipayonline",
@@ -13156,6 +13220,42 @@
     "flow": "hpp",
     "method": "epaybg",
     "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "epaybg_usd_hpp",
+    "flow": "hpp",
+    "method": "epaybg",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "epaybg_cad_hpp",
+    "flow": "hpp",
+    "method": "epaybg",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "epaybg_gbp_hpp",
+    "flow": "hpp",
+    "method": "epaybg",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "epaybg_aud_hpp",
+    "flow": "hpp",
+    "method": "epaybg",
+    "currency": "AUD",
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -15652,6 +15752,24 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_klarna_aud_hpp",
+    "currency": "AUD",
+    "flow": "hpp",
+    "method": "bank_transfer_klarna",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_klarna_cad_hpp",
+    "currency": "CAD",
+    "flow": "hpp",
+    "method": "bank_transfer_klarna",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "bank_transfer_klarna_gbp_hpp",
     "currency": "GBP",
     "flow": "hpp",
@@ -18072,10 +18190,82 @@
   },
   {
     "status": "active",
+    "code": "mybank2_usd_hpp",
+    "flow": "hpp",
+    "method": "mybank2",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mybank2_cad_hpp",
+    "flow": "hpp",
+    "method": "mybank2",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mybank2_gbp_hpp",
+    "flow": "hpp",
+    "method": "mybank2",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mybank2_aud_hpp",
+    "flow": "hpp",
+    "method": "mybank2",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "multibanco_eur_hpp",
     "flow": "hpp",
     "method": "multibanco",
     "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "multibanco_usd_hpp",
+    "flow": "hpp",
+    "method": "multibanco",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "multibanco_cad_hpp",
+    "flow": "hpp",
+    "method": "multibanco",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "multibanco_gbp_hpp",
+    "flow": "hpp",
+    "method": "multibanco",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "multibanco_aud_hpp",
+    "flow": "hpp",
+    "method": "multibanco",
+    "currency": "AUD",
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -22453,6 +22643,42 @@
     "currency": "EUR",
     "amount_min": 0.01,
     "amount_max": 200000
+  },
+  {
+    "status": "active",
+    "code": "mb_way_usd_hpp",
+    "flow": "hpp",
+    "method": "mb_way",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mb_way_cad_hpp",
+    "flow": "hpp",
+    "method": "mb_way",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mb_way_gbp_hpp",
+    "flow": "hpp",
+    "method": "mb_way",
+    "currency": "GBP",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "mb_way_aud_hpp",
+    "flow": "hpp",
+    "method": "mb_way",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   },
   {
     "status": "active",
@@ -33944,6 +34170,64 @@
   },
   {
     "status": "active",
+    "code": "openbanking_aud_hpp",
+    "flow": "hpp",
+    "method": "openbanking",
+    "currency": "AUD",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "openbanking_cad_hpp",
+    "flow": "hpp",
+    "method": "openbanking",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban_number",
+        "type": "string",
+        "regexp": "\/^[A-Z]{2}[A-Z0-9]{13,32}$|^[0-9]{3,15}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "IBAN number",
+          "ru": "Номер IBAN",
+          "uk": "Номер IBAN"
+        },
+        "hint": {
+          "en": "Enter IBAN number",
+          "ru": "Введите номер IBAN",
+          "uk": "Введіть номер IBAN"
+        },
+        "example": "GB97BARC20031877565489"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "openbanking_pln_hpp",
     "flow": "hpp",
     "method": "openbanking",
@@ -36885,6 +37169,15 @@
     "flow": "hpp",
     "method": "rapidtransfer",
     "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "rapidtransfer_gbp_hpp",
+    "flow": "hpp",
+    "method": "rapidtransfer",
+    "currency": "GBP",
     "amount_min": 0.01,
     "amount_max": 100000
   },
