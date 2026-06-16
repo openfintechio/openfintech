@@ -22809,6 +22809,24 @@
   },
   {
     "status": "active",
+    "code": "bank_transfer_npr_invoice",
+    "currency": "NPR",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 13000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_aud_invoice",
+    "currency": "AUD",
+    "flow": "invoice",
+    "method": "bank_transfer",
+    "amount_min": 0.01,
+    "amount_max": 150000
+  },
+  {
+    "status": "active",
     "code": "pse_cop_hpp",
     "currency": "COP",
     "flow": "hpp",
@@ -43857,6 +43875,15 @@
     "code": "esewa_npr_hpp",
     "currency": "NPR",
     "flow": "hpp",
+    "method": "esewa",
+    "amount_min": 2,
+    "amount_max": 13000000
+  },
+  {
+    "status": "active",
+    "code": "esewa_npr_invoice",
+    "currency": "NPR",
+    "flow": "invoice",
     "method": "esewa",
     "amount_min": 2,
     "amount_max": 13000000
