@@ -30889,5 +30889,19 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "flynance",
+    "vendor": "flynance",
+    "name": {
+      "en": "Flynance",
+      "ru": "Flynance",
+      "uk": "Flynance"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay"
+    ]
   }
 ]
