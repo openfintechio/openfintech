@@ -30810,6 +30810,25 @@
   },
   {
     "status": "active",
+    "code": "finaxis",
+    "vendor": "finaxis",
+    "name": {
+      "en": "FinAxis",
+      "ru": "FinAxis",
+      "uk": "FinAxis"
+    },
+    "payment_method": [
+      "bank_transfer",
+      "upi",
+      "pay_id",
+      "esewa"
+    ],
+    "payout_method": [
+      "bank_transfer"
+    ]
+  },
+  {
+    "status": "active",
     "code": "crossbill",
     "vendor": "crossbill",
     "name": {
