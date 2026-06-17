@@ -47691,5 +47691,23 @@
     ],
     "amount_min": 0.06,
     "amount_max": 505000
+  },
+  {
+    "status": "active",
+    "code": "qr_code_ars_invoice",
+    "flow": "invoice",
+    "method": "qr_code",
+    "currency": "ARS",
+    "amount_min": 0.01,
+    "amount_max": 17000000
+  },
+  {
+    "status": "active",
+    "code": "qr_code_bob_invoice",
+    "flow": "invoice",
+    "method": "qr_code",
+    "currency": "BOB",
+    "amount_min": 1,
+    "amount_max": 700000
   }
 ]

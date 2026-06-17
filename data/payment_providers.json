@@ -30922,5 +30922,19 @@
       "applepay",
       "googlepay"
     ]
+  },
+  {
+    "status": "active",
+    "code": "stbl",
+    "vendor": "stbl",
+    "payment_method": [
+      "bank_transfer",
+      "qr_code"
+    ],
+    "name": {
+      "en": "STBL",
+      "ru": "STBL",
+      "uk": "STBL"
+    }
   }
 ]
