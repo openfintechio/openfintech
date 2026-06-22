@@ -31886,6 +31886,35 @@
   },
   {
     "status": "active",
+    "code": "bkash_p2p_bdt_transfer",
+    "currency": "BDT",
+    "flow": "transfer",
+    "method": "bkash_p2p",
+    "fields": [
+      {
+        "key": "transaction_id",
+        "type": "string",
+        "regexp": "\/^.{1,64}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Transaction ID",
+          "ru": "Номер транзакции",
+          "uk": "Номер транзакції"
+        },
+        "hint": {
+          "en": "Enter transaction ID",
+          "ru": "Введите номер транзакции",
+          "uk": "Введіть номер транзакції"
+        },
+        "example": "1100382992"
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
     "code": "nagad_p2p_bdt_hpp",
     "currency": "BDT",
     "flow": "hpp",
@@ -32011,6 +32040,35 @@
     "currency": "BDT",
     "flow": "invoice",
     "method": "nagad_wallet_p2p",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "nagad_wallet_p2p_bdt_transfer",
+    "currency": "BDT",
+    "flow": "transfer",
+    "method": "nagad_wallet_p2p",
+    "fields": [
+      {
+        "key": "transaction_id",
+        "type": "string",
+        "regexp": "\/^.{1,64}$\/",
+        "required": true,
+        "position": 1,
+        "label": {
+          "en": "Transaction ID",
+          "ru": "Номер транзакции",
+          "uk": "Номер транзакції"
+        },
+        "hint": {
+          "en": "Enter transaction ID",
+          "ru": "Введите номер транзакции",
+          "uk": "Введіть номер транзакції"
+        },
+        "example": "1100382992"
+      }
+    ],
     "amount_min": 1,
     "amount_max": 10900000
   },
