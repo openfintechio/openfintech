@@ -30952,5 +30952,18 @@
       "ru": "STBL",
       "uk": "STBL"
     }
+  },
+  {
+    "status": "active",
+    "code": "streampayments",
+    "vendor": "streampayments",
+    "name": {
+      "en": "StreamPayments",
+      "ru": "StreamPayments",
+      "uk": "StreamPayments"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
