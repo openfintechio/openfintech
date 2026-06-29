@@ -12062,5 +12062,20 @@
     "name": {
       "en": "Tunzer"
     }
+  },
+  {
+    "code": "debin",
+    "vendor": "debin",
+    "category": "direct_debit",
+    "status": "active",
+    "countries": [
+      "AR"
+    ],
+    "name": {
+      "en": "DEBIN"
+    },
+    "description": {
+      "en": "DEBIN (Débito Inmediato) is a bank direct debit system in Argentina that allows instant bank-to-bank transfers initiated by the payee."
+    }
   }
 ]

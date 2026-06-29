@@ -7294,6 +7294,23 @@
           "uk": "Введіть номер документа отримувача"
         },
         "example": "50284414727"
+      },
+      {
+        "key": "payer_email",
+        "type": "string",
+        "label": {
+          "en": "Payer email",
+          "ru": "Email плательщика",
+          "uk": "Email платника"
+        },
+        "hint": {
+          "en": "Enter payer email",
+          "ru": "Введите email плательщика",
+          "uk": "Введіть email платника"
+        },
+        "regexp": "/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$/",
+        "required": false,
+        "position": 11
       }
     ]
   },
@@ -8285,6 +8302,15 @@
   },
   {
     "status": "active",
+    "code": "cash_mxn_invoice",
+    "flow": "invoice",
+    "method": "cash",
+    "currency": "MXN",
+    "amount_min": 0.01,
+    "amount_max": 2000000
+  },
+  {
+    "status": "active",
     "code": "cash_clp_hpp",
     "currency": "CLP",
     "method": "cash",
@@ -8370,6 +8396,59 @@
           "uk": "Введіть номер документа отримувача"
         },
         "example": "50284414727"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$/",
+        "required": false,
+        "position": 5
       }
     ],
     "amount_min": 0.01,
@@ -23197,6 +23276,95 @@
           "ru": "Введите личный идентификатор клиента",
           "uk": "Введіть особистий ідентифікатор клієнту"
         }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "/^[A-Za-z0-9]{2,20}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Payer bank code",
+          "ru": "Код банка отправителя",
+          "uk": "Код банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank code",
+          "ru": "Введите код банка отправителя",
+          "uk": "Введіть код банку відправника"
+        },
+        "example": "050"
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^.{1,32}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9\\.\\-]{1,100}$/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
       }
     ]
   },
@@ -29307,7 +29475,115 @@
     "method": "wallet_aggregated",
     "currency": "PEN",
     "amount_min": 0.01,
-    "amount_max": 390000
+    "amount_max": 390000,
+    "fields": [
+      {
+        "key": "channel",
+        "type": "string",
+        "regexp": "/^[A-Za-z]{2,32}$/",
+        "required": false,
+        "label": {
+          "en": "Wallet channel",
+          "ru": "Канал кошелька",
+          "uk": "Канал гаманця"
+        },
+        "hint": {
+          "en": "Enter wallet channel (e.g. Plin, Yape)",
+          "ru": "Введите канал кошелька (напр. Plin, Yape)",
+          "uk": "Введіть канал гаманця (напр. Plin, Yape)"
+        },
+        "example": "Plin",
+        "position": 1
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^.{1,32}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9\\.\\-]{1,100}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$/",
+        "required": false,
+        "position": 6
+      }
+    ]
   },
   {
     "status": "active",
@@ -33716,6 +33992,76 @@
           "uk": "Введіть номер документа отримувача"
         },
         "example": "50284414727"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "/^\\+\\d{10,14}$/",
+        "required": false,
+        "position": 6
       }
     ]
   },
@@ -40278,6 +40624,76 @@
           "ru": "Введите номер документа плательщика",
           "uk": "Введіть номер документа платника"
         }
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "/^\\+\\d{10,14}$/",
+        "required": false,
+        "position": 4
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
       }
     ]
   },
@@ -43447,7 +43863,80 @@
     "method": "rapipago",
     "currency": "ARS",
     "amount_min": 10,
-    "amount_max": 100000000
+    "amount_max": 100000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^.{1,32}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9\\.\\-]{1,100}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      }
+    ]
   },
   {
     "status": "active",
@@ -47608,7 +48097,179 @@
     "flow": "hpp",
     "method": "qr_code",
     "amount_min": 1,
-    "amount_max": 150000000
+    "amount_max": 150000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^.{1,32}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9\\.\\-]{1,100}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      },
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter email",
+          "ru": "Введите email",
+          "uk": "Введіть email"
+        },
+        "regexp": "/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$$/",
+        "required": false,
+        "position": 5
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "debin_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "debin",
+    "amount_min": 1,
+    "amount_max": 150000000,
+    "fields": [
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "/^.{1,32}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9\\.\\-]{1,100}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary's personal identification number",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документа отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary's personal identification number",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документа отримувача"
+        },
+        "example": "50284414727"
+      },
+      {
+        "key": "payer_first_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Payer first name",
+          "ru": "Имя отправителя",
+          "uk": "Імʼя відправника"
+        },
+        "hint": {
+          "en": "Enter payer first name",
+          "ru": "Введите имя отправителя",
+          "uk": "Введіть імʼя відправника"
+        },
+        "example": "John"
+      },
+      {
+        "key": "payer_last_name",
+        "type": "string",
+        "regexp": "/^[A-Z\\-\\sa-z\\p{L}]{2,100}$/u",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payer last name",
+          "ru": "Фамилия отправителя",
+          "uk": "Прізвище відправника"
+        },
+        "hint": {
+          "en": "Enter payer last name",
+          "ru": "Введите фамилию отправителя",
+          "uk": "Введіть прізвище відправника"
+        },
+        "example": "Doe"
+      }
+    ]
   },
   {
     "status": "active",
