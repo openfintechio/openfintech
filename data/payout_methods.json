@@ -17947,6 +17947,16 @@
   },
   {
     "status": "active",
+    "code": "rapidtransfer",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Rapid Transfer",
+      "ru": "Rapid Transfer",
+      "uk": "Rapid Transfer"
+    }
+  },
+  {
+    "status": "active",
     "code": "swift",
     "vendor": "swift",
     "category": "bank_transfer",
