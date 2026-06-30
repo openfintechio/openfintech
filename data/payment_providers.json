@@ -30928,6 +30928,19 @@
   },
   {
     "status": "active",
+    "code": "gdpaytech",
+    "vendor": "gdpaytech",
+    "name": {
+      "en": "Mobilum (GDPaytech)",
+      "ru": "Mobilum (GDPaytech)",
+      "uk": "Mobilum (GDPaytech)"
+    },
+    "payment_method": [
+      "blik"
+    ]
+  },
+  {
+    "status": "active",
     "code": "flynance",
     "vendor": "flynance",
     "name": {
