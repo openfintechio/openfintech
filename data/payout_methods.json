@@ -32254,5 +32254,20 @@
       "uk": "Trustly",
       "ru": "Trustly"
     }
+  },
+  {
+    "code": "pay_id",
+    "category": "alternative",
+    "status": "active",
+    "name": {
+      "en": "PayID",
+      "ru": "PayID",
+      "uk": "PayID"
+    },
+    "description": {
+      "en": "PayID is an Australian payment service that lets you link a bank account to an identifier such as an email, phone number or ABN.",
+      "ru": "PayID — австралийский платежный сервис, позволяющий привязать банковский счет к идентификатору, например email, номеру телефона или ABN.",
+      "uk": "PayID — австралійський платіжний сервіс, що дозволяє прив'язати банківський рахунок до ідентифікатора, наприклад email, номера телефону або ABN."
+    }
   }
 ]
