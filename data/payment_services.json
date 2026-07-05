@@ -12839,6 +12839,42 @@
   },
   {
     "status": "active",
+    "code": "usd_coin_arbitrum_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_base_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_polygon_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "usd_coin_sol_usdc_hpp",
+    "flow": "hpp",
+    "method": "usd_coin",
+    "currency": "USDC",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
     "code": "usd_coin_bep20_usd_hpp",
     "flow": "hpp",
     "method": "usd_coin",
