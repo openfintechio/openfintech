@@ -6271,6 +6271,23 @@
         },
         "regexp": "\/^[A-Z0-9]{5,100}$\/",
         "example": "3410002602000400003579"
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        }
       }
     ]
   },
@@ -7311,6 +7328,23 @@
         "regexp": "/^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$/",
         "required": false,
         "position": 11
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 12,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        }
       }
     ]
   },
@@ -34062,6 +34096,23 @@
         "regexp": "/^\\+?\\d{10,14}$/",
         "required": false,
         "position": 6
+      },
+      {
+        "key": "document_number",
+        "type": "string",
+        "regexp": "/^.{1,50}$/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Document Number",
+          "ru": "Номер документа",
+          "uk": "Номер документу"
+        },
+        "hint": {
+          "en": "Enter document number",
+          "ru": "Введите номер документа",
+          "uk": "Введіть номер документу"
+        }
       }
     ]
   },
@@ -37921,6 +37972,23 @@
           "ru": "Введите номер кошелька NEQUI",
           "uk": "Введіть номер гаманця NEQUI"
         }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        }
       }
     ]
   },
@@ -39894,6 +39962,23 @@
           "en": "Enter document number",
           "ru": "Введите номер документа",
           "uk": "Введіть номер документу"
+        }
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Bank code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
         }
       }
     ]
