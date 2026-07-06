@@ -24265,16 +24265,20 @@
     "status": "active",
     "code": "payplanet",
     "vendor": "payplanet",
-    "payout_method": [
-      "payment_card"
-    ],
     "name": {
       "en": "PayPlanet",
       "ru": "PayPlanet",
       "uk": "PayPlanet"
     },
-    "payment_method": [
+    "payout_method": [
       "payment_card"
+    ],
+    "payment_method": [
+      "payment_card",
+      "bank_transfer",
+      "pse",
+      "nequi",
+      "breb"
     ]
   },
   {
