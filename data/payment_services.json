@@ -23004,7 +23004,7 @@
       {
         "key": "document_type",
         "type": "string",
-        "regexp": "/^[A-Z]{2,4}$/",
+        "regexp": "\/^.{1,32}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -23013,9 +23013,9 @@
           "uk": "Тип документу"
         },
         "hint": {
-          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
-          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
-          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
         }
       },
       {
@@ -37944,7 +37944,7 @@
       {
         "key": "document_type",
         "type": "string",
-        "regexp": "/^[A-Z]{2,4}$/",
+        "regexp": "\/^.{1,32}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -37953,9 +37953,9 @@
           "uk": "Тип документу"
         },
         "hint": {
-          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
-          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
-          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
         }
       },
       {
@@ -39952,7 +39952,7 @@
       {
         "key": "document_type",
         "type": "string",
-        "regexp": "/^[A-Z]{2,4}$/",
+        "regexp": "\/^.{1,32}$\/",
         "required": false,
         "position": 1,
         "label": {
@@ -39961,9 +39961,9 @@
           "uk": "Тип документу"
         },
         "hint": {
-          "en": "Enter Document Type (CC, NIT, CE, PASS, PPT)",
-          "ru": "Введите тип документа (CC, NIT, CE, PASS, PPT)",
-          "uk": "Введіть тип документу (CC, NIT, CE, PASS, PPT)"
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
         }
       },
       {
