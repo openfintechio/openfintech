@@ -2612,6 +2612,15 @@
   },
   {
     "status": "active",
+    "code": "litecoin_clp_hpp",
+    "flow": "hpp",
+    "method": "litecoin",
+    "currency": "CLP",
+    "amount_min": 9,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
     "code": "ripple_uah_hpp",
     "flow": "hpp",
     "method": "ripple",
@@ -8568,6 +8577,15 @@
     "flow": "hpp",
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "bitcoin_clp_hpp",
+    "currency": "CLP",
+    "method": "bitcoin",
+    "flow": "hpp",
+    "amount_min": 9,
+    "amount_max": 90000000
   },
   {
     "status": "active",
