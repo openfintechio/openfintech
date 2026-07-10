@@ -37710,6 +37710,15 @@
   },
   {
     "status": "active",
+    "code": "payment_card_djf_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "DJF",
+    "amount_min": 1,
+    "amount_max": 20000000
+  },
+  {
+    "status": "active",
     "code": "whitepay_usdt_hpp",
     "flow": "hpp",
     "method": "whitepay",
