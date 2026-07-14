@@ -19088,6 +19088,23 @@
   },
   {
     "status": "active",
+    "code": "xpatenew",
+    "vendor": "xpatenew",
+    "name": {
+      "en": "Xpate New",
+      "ru": "Xpate New",
+      "uk": "Xpate New"
+    },
+    "description": {
+      "uk": "Xpate — це платіжна платформа з офісами в ЄС, яка пропонує рішення для онлайн-торгівлі, банкінгу та масових виплат. Компанія надає інструменти для прийому карткових платежів, керування рахунками, інтеграції з банками та white-label продуктів. Особливістю Xpate є спрощений UX і підтримка зростаючих бізнесів у сфері фінтеху, маркетплейсів, підписок та ігор. Цей та понад 500 інших провайдерів вже інтегровані в платформу платіжної оркестрації Corefy, що дозволяє клієнтам миттєво розпочати використання інтеграції без програмування — достатньо ввести свої MID-дані в дашборді Corefy.",
+      "en": "Xpate is a payment platform with offices in the EU that offers solutions for online commerce, banking, and mass payments. The company provides tools for card payment acceptance, account management, bank integration, and white-label products. Xpate's specialty is a simplified UX and support for growing fintech, marketplace, subscription, and gaming businesses. This and more than 500 other providers are already integrated into Corefy's payment orchestration platform, allowing customers to instantly start using the integration without programming - just enter their MID data in the Corefy dashboard."
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "fyst",
     "vendor": "fyst",
     "name": {
