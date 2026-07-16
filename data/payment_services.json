@@ -48681,5 +48681,41 @@
     ],
     "amount_min": 0.04,
     "amount_max": 367000
+  },
+  {
+    "status": "active",
+    "code": "mobile_money_mad_hpp",
+    "flow": "hpp",
+    "method": "mobile_money",
+    "currency": "MAD",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "mobile_money_egp_hpp",
+    "flow": "hpp",
+    "method": "mobile_money",
+    "currency": "EGP",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_mad_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "currency": "MAD",
+    "amount_min": 1,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_egp_hpp",
+    "flow": "hpp",
+    "method": "bank_transfer",
+    "currency": "EGP",
+    "amount_min": 0.01,
+    "amount_max": 1000000
   }
 ]
