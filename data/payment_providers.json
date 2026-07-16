@@ -31023,5 +31023,22 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "transact365",
+    "vendor": "transact365",
+    "name": {
+      "en": "Transact 365",
+      "ru": "Transact 365",
+      "uk": "Transact 365"
+    },
+    "payment_method": [
+      "pay_id",
+      "openbanking",
+      "interac",
+      "mobile_money",
+      "bank_transfer"
+    ]
   }
 ]
