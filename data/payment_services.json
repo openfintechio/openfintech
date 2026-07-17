@@ -48717,5 +48717,32 @@
     "currency": "EGP",
     "amount_min": 0.01,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "rapyd_eur_hpp",
+    "flow": "hpp",
+    "method": "rapyd",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "rapyd_usd_hpp",
+    "flow": "hpp",
+    "method": "rapyd",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "rapyd_cad_hpp",
+    "flow": "hpp",
+    "method": "rapyd",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 100000
   }
 ]

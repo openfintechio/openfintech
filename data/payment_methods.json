@@ -12077,5 +12077,16 @@
     "description": {
       "en": "DEBIN (Débito Inmediato) is a bank direct debit system in Argentina that allows instant bank-to-bank transfers initiated by the payee."
     }
+  },
+  {
+    "code": "rapyd",
+    "vendor": "rapyd",
+    "category": "payment_card",
+    "status": "active",
+    "name": {
+      "en": "Rapyd",
+      "ru": "Rapyd",
+      "uk": "Rapyd"
+    }
   }
 ]
