@@ -13055,6 +13055,15 @@
   },
   {
     "status": "active",
+    "code": "dinersclub_clp_hpp",
+    "flow": "hpp",
+    "method": "dinersclub",
+    "currency": "CLP",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
     "code": "jcb_eur_hpp",
     "flow": "hpp",
     "method": "jcb",
@@ -23282,6 +23291,15 @@
     "currency": "CLP",
     "flow": "hpp",
     "method": "mach",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
+    "code": "tapp_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "tapp",
     "amount_min": 1,
     "amount_max": 90000000
   },
