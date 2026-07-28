@@ -48702,6 +48702,24 @@
   },
   {
     "status": "active",
+    "code": "payment_card_che_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "CHE",
+    "amount_min": 0.01,
+    "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "payment_card_sdg_hpp",
+    "flow": "hpp",
+    "method": "payment_card",
+    "currency": "SDG",
+    "amount_min": 1,
+    "amount_max": 60000000
+  },
+  {
+    "status": "active",
     "code": "mobile_money_mad_hpp",
     "flow": "hpp",
     "method": "mobile_money",
