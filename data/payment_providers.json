@@ -30726,6 +30726,19 @@
   },
   {
     "status": "active",
+    "code": "mytu",
+    "vendor": "mytu",
+    "name": {
+      "en": "myTU",
+      "ru": "myTU",
+      "uk": "myTU"
+    },
+    "payment_method": [
+      "sepadirectdebit"
+    ]
+  },
+  {
+    "status": "active",
     "code": "circoflows",
     "vendor": "circoflows",
     "name": {
