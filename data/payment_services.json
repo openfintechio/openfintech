@@ -13136,6 +13136,143 @@
   },
   {
     "status": "active",
+    "code": "sepadirectdebit_eur_invoice",
+    "flow": "invoice",
+    "method": "sepadirectdebit",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "iban",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}\\d{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Debtor IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter the debtor IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "ES6231159411114791501111"
+      },
+      {
+        "key": "account_holder_name",
+        "type": "string",
+        "regexp": "/^.{2,70}$/u",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Account holder name",
+          "ru": "Имя владельца счёта",
+          "uk": "Ім'я власника рахунку"
+        },
+        "hint": {
+          "en": "Enter the account holder name",
+          "ru": "Введите имя владельца счёта",
+          "uk": "Введіть ім'я власника рахунку"
+        },
+        "example": "John Doe"
+      },
+      {
+        "key": "mandate_id",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9\\/\\-?:().,'+ ]{1,35}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Mandate ID",
+          "ru": "Идентификатор мандата",
+          "uk": "Ідентифікатор мандата"
+        },
+        "hint": {
+          "en": "Leave empty to create a new mandate",
+          "ru": "Оставьте пустым, чтобы создать новый мандат",
+          "uk": "Залиште порожнім, щоб створити новий мандат"
+        },
+        "example": "2M8X2Y4K1M3Q"
+      },
+      {
+        "key": "mandate_signed_at",
+        "type": "string",
+        "regexp": "/^\\d{4}-\\d{2}-\\d{2}$/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Mandate signature date",
+          "ru": "Дата подписания мандата",
+          "uk": "Дата підписання мандата"
+        },
+        "hint": {
+          "en": "Required when the mandate ID is not provided",
+          "ru": "Обязательно, если не указан идентификатор мандата",
+          "uk": "Обов'язково, якщо не вказано ідентифікатор мандата"
+        },
+        "example": "2026-07-29"
+      },
+      {
+        "key": "mandate_expire_at",
+        "type": "string",
+        "regexp": "/^\\d{4}-\\d{2}-\\d{2}$/",
+        "required": false,
+        "position": 5,
+        "label": {
+          "en": "Mandate expiry date",
+          "ru": "Дата окончания мандата",
+          "uk": "Дата закінчення мандата"
+        },
+        "hint": {
+          "en": "Required when the mandate ID is not provided, must be after the signature date",
+          "ru": "Обязательно, если не указан идентификатор мандата, позже даты подписания",
+          "uk": "Обов'язково, якщо не вказано ідентифікатор мандата, пізніше дати підписання"
+        },
+        "example": "2028-07-30"
+      },
+      {
+        "key": "mandate_seq_tp",
+        "type": "string",
+        "regexp": "/^(OOFF|FRST|RCUR|FNAL)$/",
+        "required": false,
+        "position": 6,
+        "label": {
+          "en": "Sequence type",
+          "ru": "Тип последовательности",
+          "uk": "Тип послідовності"
+        },
+        "hint": {
+          "en": "OOFF, FRST, RCUR or FNAL",
+          "ru": "OOFF, FRST, RCUR или FNAL",
+          "uk": "OOFF, FRST, RCUR або FNAL"
+        },
+        "example": "FRST"
+      },
+      {
+        "key": "charge_date",
+        "type": "string",
+        "regexp": "/^\\d{4}-\\d{2}-\\d{2}$/",
+        "required": false,
+        "position": 7,
+        "label": {
+          "en": "Charge date",
+          "ru": "Дата списания",
+          "uk": "Дата списання"
+        },
+        "hint": {
+          "en": "SEPA working day, defaults to the earliest available",
+          "ru": "Рабочий день SEPA, по умолчанию ближайший доступный",
+          "uk": "Робочий день SEPA, за замовчуванням найближчий доступний"
+        },
+        "example": "2026-08-03"
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "nordeasolo_eur_hpp",
     "flow": "hpp",
     "method": "nordeasolo",
