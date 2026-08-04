@@ -9615,7 +9615,8 @@
       "skrill",
       "neteller",
       "openbanking",
-      "pay_id"
+      "pay_id",
+      "interac"
     ],
     "payout_method": [
       "payment_card",
@@ -9626,7 +9627,8 @@
       "paytm",
       "sepa_transfer",
       "blik",
-      "pay_id"
+      "pay_id",
+      "interac"
     ],
     "name": {
       "en": "UnityFinance",
