@@ -31072,5 +31072,57 @@
       "mobile_money",
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "open-banking-io",
+    "vendor": "open-banking-io",
+    "categories": [
+      "aggregating"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "IS",
+      "LI",
+      "NO",
+      "GB"
+    ],
+    "payment_method": [
+      "bank_transfer"
+    ],
+    "name": {
+      "en": "open-banking.io",
+      "ru": "open-banking.io",
+      "uk": "open-banking.io"
+    },
+    "description": {
+      "en": "open-banking.io (OBI) is an open-source, certificate-free PSD2 open banking connector that provides unified bank account information (AIS) access across more than 30 EU/EEA markets. Instead of requiring integrators to hold their own eIDAS QWAC/QSeal certificates, OBI routes consented account-data requests through regulated Account Information Service Providers and aggregators, which substantially lowers the barrier to adopting open banking. OBI ships maintained client SDKs for .NET, Node.js, Java, Go and Python and exposes a consistent API surface across all connected banks."
+    }
   }
 ]
