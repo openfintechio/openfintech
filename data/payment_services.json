@@ -24531,6 +24531,89 @@
   },
   {
     "status": "active",
+    "code": "crypto_aggregated_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "crypto_aggregated",
+    "fields": [
+      {
+        "key": "crypto_currency",
+        "type": "string",
+        "regexp": "/^[A-Z0-9]{2,16}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Currency to receive",
+          "ru": "Валюта для получения",
+          "uk": "Валюта для отримання"
+        },
+        "hint": {
+          "en": "Enter crypto currency code",
+          "ru": "Введите код криптовалюты",
+          "uk": "Введіть код криптовалюти"
+        },
+        "example": "USDT"
+      },
+      {
+        "key": "network",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9_-]{2,32}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Blockchain network",
+          "ru": "Блокчейн-сеть",
+          "uk": "Блокчейн-мережа"
+        },
+        "hint": {
+          "en": "Enter blockchain network",
+          "ru": "Введите блокчейн-сеть",
+          "uk": "Введіть блокчейн-мережу"
+        },
+        "example": "ethereum"
+      },
+      {
+        "key": "blockchain_address",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Blockchain address to receive the funds",
+          "ru": "Blockchain адресс для получения средств",
+          "uk": "Blockchain адреса для отримання коштів"
+        },
+        "hint": {
+          "en": "Enter Blockchain address",
+          "ru": "Введите Blockchain адресс",
+          "uk": "Введіть Blockchain адресу"
+        },
+        "example": "xdAsD23xfds4123jkhg2gsyxUdsd23"
+      },
+      {
+        "key": "payment_method",
+        "type": "string",
+        "regexp": "/^[a-zA-Z0-9_-]{2,64}$/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Payment method",
+          "ru": "Метод оплаты",
+          "uk": "Метод оплати"
+        },
+        "hint": {
+          "en": "Enter payment method code",
+          "ru": "Введите код метода оплаты",
+          "uk": "Введіть код методу оплати"
+        },
+        "example": "credit_debit_card"
+      }
+    ],
+    "amount_min": 10,
+    "amount_max": 100000000
+  },
+  {
+    "status": "active",
     "code": "crypto_aggregated_aud_hpp",
     "currency": "AUD",
     "flow": "hpp",
