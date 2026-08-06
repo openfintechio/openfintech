@@ -31107,10 +31107,13 @@
     "code": "gigibit",
     "vendor": "gigibit",
     "name": {
-      "en": "Gigibit",
-      "ru": "Gigibit",
-      "uk": "Gigibit"
+      "en": "GigiBit",
+      "ru": "GigiBit",
+      "uk": "GigiBit"
     },
+    "payment_method": [
+      "payment_card"
+    ],
     "payout_method": [
       "payment_card"
     ]
