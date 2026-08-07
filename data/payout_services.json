@@ -181181,7 +181181,7 @@
       {
         "key": "code",
         "type": "string",
-        "regexp": "\/^\\d{6}$\/",
+        "regexp": "\/^.{1,100}$\/",
         "required": false,
         "position": 1,
         "label": {
