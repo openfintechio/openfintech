@@ -29451,6 +29451,30 @@
   },
   {
     "status": "active",
+    "code": "arbitrix",
+    "vendor": "arbitrix",
+    "name": {
+      "en": "Arbitrix",
+      "ru": "Arbitrix",
+      "uk": "Arbitrix"
+    },
+    "payment_method": [
+      "nagad_wallet",
+      "nagad_wallet_p2p",
+      "bkash_limited",
+      "bkash_p2p",
+      "bkash_p2c",
+      "nagad_p2c"
+    ],
+    "payout_method": [
+      "bkash_limited",
+      "nagad_wallet",
+      "bkash_p2c",
+      "nagad_p2c"
+    ]
+  },
+  {
+    "status": "active",
     "code": "paymixvia",
     "vendor": "paymixvia",
     "name": {

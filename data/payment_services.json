@@ -32497,6 +32497,24 @@
   },
   {
     "status": "active",
+    "code": "bkash_p2c_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "bkash_p2c",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
+    "code": "nagad_p2c_bdt_hpp",
+    "currency": "BDT",
+    "flow": "hpp",
+    "method": "nagad_p2c",
+    "amount_min": 1,
+    "amount_max": 10900000
+  },
+  {
+    "status": "active",
     "code": "bkash_p2p_bdt_hpp",
     "currency": "BDT",
     "flow": "hpp",

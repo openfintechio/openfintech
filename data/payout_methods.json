@@ -30117,6 +30117,26 @@
   },
   {
     "status": "active",
+    "code": "bkash_p2c",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Bkash p2c",
+      "ru": "Bkash p2c",
+      "uk": "Bkash p2c"
+    }
+  },
+  {
+    "status": "active",
+    "code": "nagad_p2c",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Nagad p2c",
+      "ru": "Nagad p2c",
+      "uk": "Nagad p2c"
+    }
+  },
+  {
+    "status": "active",
     "code": "anz_bank",
     "category": "bank_transfer",
     "name": {
