@@ -15890,7 +15890,8 @@
       "fr": "emerchantpay est un prestataire de services de paiement global, basé au Royaume-Uni, offrant des solutions complètes d’acceptation des paiements en ligne, mobile et en magasin. La plateforme prend en charge une large variété de méthodes de paiement, y compris les cartes, portefeuilles numériques, virements bancaires et solutions locales dans plus de 150 pays. Elle propose également des services de gestion des risques, d’analyse de données et de prévention de la fraude. emerchantpay cible les secteurs du voyage, de la finance, du jeu, et du retail avec une approche personnalisée et une infrastructure certifiée PCI DSS. Ce prestataire, ainsi que plus de 500 autres, est déjà intégré à la plateforme d’orchestration de paiements de Corefy, permettant à nos clients de commencer à utiliser l’intégration instantanément, sans codage, en saisissant simplement leurs identifiants MID dans le tableau de bord Corefy."
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "openbanking"
     ]
   },
   {
