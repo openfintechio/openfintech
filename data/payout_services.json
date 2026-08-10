@@ -146080,6 +146080,96 @@
   },
   {
     "status": "active",
+    "code": "bkash_p2c_bdt",
+    "method": "bkash_p2c",
+    "currency": "BDT",
+    "amount_min": "1",
+    "amount_max": "10900000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^\\d{11,19}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0001787300000",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 2
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "nagad_p2c_bdt",
+    "method": "nagad_p2c",
+    "currency": "BDT",
+    "amount_min": "1",
+    "amount_max": "10900000",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "label": {
+          "en": "Account number",
+          "ru": "Номер счета",
+          "uk": "Номер рахунку"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер счета",
+          "uk": "Введіть номер рахунку"
+        },
+        "regexp": "\/^\\d{11,19}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "phone_number",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "0001787300000",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 2
+      }
+    ]
+  },
+  {
+    "status": "active",
     "code": "virtual_bank_aggregated_krw",
     "method": "virtual_bank_aggregated",
     "currency": "KRW",
