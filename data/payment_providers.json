@@ -31100,5 +31100,18 @@
       "mobile_money",
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "gigibit",
+    "vendor": "gigibit",
+    "name": {
+      "en": "Gigibit",
+      "ru": "Gigibit",
+      "uk": "Gigibit"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
