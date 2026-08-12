@@ -35091,6 +35091,24 @@
           "uk": "Введіть номер IBAN"
         },
         "example": "GB97BARC20031877565489"
+      },
+      {
+        "key": "bank_id",
+        "type": "string",
+        "regexp": "\/^.{2,64}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Bank Id",
+          "ru": "Bank Id",
+          "uk": "Bank Id"
+        },
+        "hint": {
+          "en": "Enter Bank Id",
+          "ru": "Введите Bank Id",
+          "uk": "Введіть Bank Id"
+        },
+        "example": "revolut_eu"
       }
     ]
   },
