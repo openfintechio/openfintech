@@ -49190,6 +49190,76 @@
     "flow": "hpp",
     "method": "rapyd",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "ewallet",
+        "type": "string",
+        "label": {
+          "en": "eWallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "hint": {
+          "en": "Enter eWallet ID",
+          "ru": "Введите ID кошелька",
+          "uk": "Введіть ID гаманця"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "aft_purpose_code",
+        "type": "string",
+        "label": {
+          "en": "AFT purpose code",
+          "ru": "Код цели AFT",
+          "uk": "Код цілі AFT"
+        },
+        "hint": {
+          "en": "Enter AFT purpose code",
+          "ru": "Введите код цели AFT",
+          "uk": "Введіть код цілі AFT"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "aft_special_condition_indicator",
+        "type": "string",
+        "label": {
+          "en": "AFT special condition indicator",
+          "ru": "Индикатор особого условия AFT",
+          "uk": "Індикатор особливої умови AFT"
+        },
+        "hint": {
+          "en": "Enter AFT special condition indicator",
+          "ru": "Введите индикатор особого условия AFT",
+          "uk": "Введіть індикатор особливої умови AFT"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "aft_is_direct_purchase",
+        "type": "string",
+        "label": {
+          "en": "AFT is direct purchase",
+          "ru": "AFT прямая покупка",
+          "uk": "AFT пряма покупка"
+        },
+        "hint": {
+          "en": "Enter true or false",
+          "ru": "Введите true или false",
+          "uk": "Введіть true або false"
+        },
+        "regexp": "\/^(true|false)$\/",
+        "required": false,
+        "position": 4
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -49199,6 +49269,76 @@
     "flow": "hpp",
     "method": "rapyd",
     "currency": "USD",
+    "fields": [
+      {
+        "key": "ewallet",
+        "type": "string",
+        "label": {
+          "en": "eWallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "hint": {
+          "en": "Enter eWallet ID",
+          "ru": "Введите ID кошелька",
+          "uk": "Введіть ID гаманця"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "aft_purpose_code",
+        "type": "string",
+        "label": {
+          "en": "AFT purpose code",
+          "ru": "Код цели AFT",
+          "uk": "Код цілі AFT"
+        },
+        "hint": {
+          "en": "Enter AFT purpose code",
+          "ru": "Введите код цели AFT",
+          "uk": "Введіть код цілі AFT"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "aft_special_condition_indicator",
+        "type": "string",
+        "label": {
+          "en": "AFT special condition indicator",
+          "ru": "Индикатор особого условия AFT",
+          "uk": "Індикатор особливої умови AFT"
+        },
+        "hint": {
+          "en": "Enter AFT special condition indicator",
+          "ru": "Введите индикатор особого условия AFT",
+          "uk": "Введіть індикатор особливої умови AFT"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "aft_is_direct_purchase",
+        "type": "string",
+        "label": {
+          "en": "AFT is direct purchase",
+          "ru": "AFT прямая покупка",
+          "uk": "AFT пряма покупка"
+        },
+        "hint": {
+          "en": "Enter true or false",
+          "ru": "Введите true или false",
+          "uk": "Введіть true або false"
+        },
+        "regexp": "\/^(true|false)$\/",
+        "required": false,
+        "position": 4
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -49208,6 +49348,76 @@
     "flow": "hpp",
     "method": "rapyd",
     "currency": "CAD",
+    "fields": [
+      {
+        "key": "ewallet",
+        "type": "string",
+        "label": {
+          "en": "eWallet ID",
+          "ru": "ID кошелька",
+          "uk": "ID гаманця"
+        },
+        "hint": {
+          "en": "Enter eWallet ID",
+          "ru": "Введите ID кошелька",
+          "uk": "Введіть ID гаманця"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 1
+      },
+      {
+        "key": "aft_purpose_code",
+        "type": "string",
+        "label": {
+          "en": "AFT purpose code",
+          "ru": "Код цели AFT",
+          "uk": "Код цілі AFT"
+        },
+        "hint": {
+          "en": "Enter AFT purpose code",
+          "ru": "Введите код цели AFT",
+          "uk": "Введіть код цілі AFT"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 2
+      },
+      {
+        "key": "aft_special_condition_indicator",
+        "type": "string",
+        "label": {
+          "en": "AFT special condition indicator",
+          "ru": "Индикатор особого условия AFT",
+          "uk": "Індикатор особливої умови AFT"
+        },
+        "hint": {
+          "en": "Enter AFT special condition indicator",
+          "ru": "Введите индикатор особого условия AFT",
+          "uk": "Введіть індикатор особливої умови AFT"
+        },
+        "regexp": "\/^.{1,100}$\/",
+        "required": false,
+        "position": 3
+      },
+      {
+        "key": "aft_is_direct_purchase",
+        "type": "string",
+        "label": {
+          "en": "AFT is direct purchase",
+          "ru": "AFT прямая покупка",
+          "uk": "AFT пряма покупка"
+        },
+        "hint": {
+          "en": "Enter true or false",
+          "ru": "Введите true или false",
+          "uk": "Введіть true або false"
+        },
+        "regexp": "\/^(true|false)$\/",
+        "required": false,
+        "position": 4
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   }
