@@ -16998,9 +16998,9 @@
       "payment_card"
     ],
     "name": {
-      "en": "TrustyPay",
-      "ru": "TrustyPay",
-      "uk": "TrustyPay"
+      "en": "PSP Platon",
+      "ru": "PSP Platon",
+      "uk": "PSP Platon"
     }
   },
   {
@@ -19515,13 +19515,13 @@
     ]
   },
   {
-    "status": "active",
+    "status": "deprecated",
     "code": "cauri",
     "vendor": "cauri",
     "name": {
-      "en": "Kale",
-      "ru": "Kale",
-      "uk": "Kale"
+      "en": "Cauri",
+      "ru": "Cauri",
+      "uk": "Cauri"
     },
     "payment_method": [
       "payment_card"
