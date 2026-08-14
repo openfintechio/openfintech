@@ -87520,7 +87520,7 @@
       {
         "key": "account_number",
         "type": "string",
-        "regexp": "\/^\\d{13}[A-Z]{3}$\/",
+        "regexp": "\/^(?:[A-Z0-9]{13}|[A-Z0-9]{15})[A-Z]{3}$\/",
         "required": true,
         "position": 1,
         "label": {
