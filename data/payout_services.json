@@ -181737,5 +181737,120 @@
     ],
     "amount_min": 1,
     "amount_max": 100000000
+  },
+  {
+    "status": "active",
+    "code": "wiretransfer_mad",
+    "method": "wiretransfer",
+    "currency": "MAD",
+    "fields": [
+      {
+        "key": "account_number",
+        "type": "string",
+        "regexp": "\/^\\d{1,20}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Account number",
+          "ru": "Номер аккаунта",
+          "uk": "Номер аккаунта"
+        },
+        "hint": {
+          "en": "Enter account number",
+          "ru": "Введите номер аккаунта",
+          "uk": "Введіть номер аккаунта"
+        },
+        "example": "100000000393"
+      },
+      {
+        "key": "beneficiary_name",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Beneficiary first name",
+          "ru": "Имя получателя",
+          "uk": "Імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary first name",
+          "ru": "Введите имя получателя",
+          "uk": "Введіть імʼя отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_lastname",
+        "type": "string",
+        "regexp": "\/^[A-Za-zА-Яа-я\\-\\s]{2,100}$\/",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Beneficiary last name",
+          "ru": "Фамилия получателя",
+          "uk": "Прізвище отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary last name",
+          "ru": "Введите фамилию получателя",
+          "uk": "Введіть прізвище отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_document_id",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9\\-]{3,20}$\/",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Beneficiary Document ID",
+          "ru": "Номер документа получателя",
+          "uk": "Номер документу отримувача"
+        },
+        "hint": {
+          "en": "Enter Beneficiary Document ID",
+          "ru": "Введите номер документа получателя",
+          "uk": "Введіть номер документу отримувача"
+        }
+      },
+      {
+        "key": "beneficiary_phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "example": "6339152330011",
+        "regexp": "\/^\\d{10,14}$\/",
+        "required": false,
+        "position": 5
+      },
+      {
+        "key": "bank_code",
+        "type": "string",
+        "regexp": "\/^[A-Za-z0-9]{2,20}$\/",
+        "label": {
+          "en": "Bank Code",
+          "ru": "Код банка",
+          "uk": "Код банку"
+        },
+        "hint": {
+          "en": "Enter bank code",
+          "ru": "Введите код банка",
+          "uk": "Введіть код банку"
+        },
+        "example": "NGP01336",
+        "required": false,
+        "position": 6
+      }
+    ],
+    "amount_min": 1,
+    "amount_max": 1000000
   }
 ]
