@@ -6423,6 +6423,85 @@
         },
         "regexp": "\/^[A-Z0-9]{5,100}$\/",
         "example": "3410002602000400003579"
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "required": false,
+        "position": 4,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+?[-\\d]{9,32}$\/"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bank_transfer_cbu_ars_hpp",
+    "currency": "ARS",
+    "flow": "hpp",
+    "method": "bank_transfer_cbu",
+    "amount_min": 0.01,
+    "amount_max": 1000000000,
+    "fields": [
+      {
+        "key": "document_id",
+        "type": "string",
+        "regexp": "\/^[a-zA-Z0-9\\.\\-]{1,100}$\/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer personal identification number",
+          "ru": "Номер документа плательщика",
+          "uk": "Номер документа платника"
+        },
+        "hint": {
+          "en": "Enter payer personal identification number",
+          "ru": "Введите номер документа плательщика",
+          "uk": "Введіть номер документа платника"
+        }
+      },
+      {
+        "key": "document_type",
+        "type": "string",
+        "regexp": "\/^.{1,32}$\/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Document Type",
+          "ru": "Тип документа",
+          "uk": "Тип документу"
+        },
+        "hint": {
+          "en": "Enter Document Type",
+          "ru": "Введите тип документа",
+          "uk": "Введіть тип документу"
+        }
+      },
+      {
+        "key": "phone",
+        "type": "string",
+        "required": false,
+        "position": 3,
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number",
+          "ru": "Введите номер телефона",
+          "uk": "Введіть номер телефону"
+        },
+        "regexp": "\/^\\+?[-\\d]{9,32}$\/"
       }
     ]
   },
