@@ -88936,6 +88936,40 @@
           "ru": "Введите beneficiary postcode",
           "uk": "Введіть beneficiary postcode"
         }
+      },
+      {
+        "key": "security_question",
+        "type": "string",
+        "regexp": "\/^.{1,200}$\/",
+        "required": false,
+        "position": 12,
+        "label": {
+          "en": "Security question",
+          "ru": "Секретный вопрос",
+          "uk": "Секретне запитання"
+        },
+        "hint": {
+          "en": "Enter security question",
+          "ru": "Введите секретный вопрос",
+          "uk": "Введіть секретне запитання"
+        }
+      },
+      {
+        "key": "security_answer",
+        "type": "string",
+        "regexp": "\/^.{1,200}$\/",
+        "required": false,
+        "position": 13,
+        "label": {
+          "en": "Security answer",
+          "ru": "Секретный ответ",
+          "uk": "Секретна відповідь"
+        },
+        "hint": {
+          "en": "Enter security answer",
+          "ru": "Введите секретный ответ",
+          "uk": "Введіть секретну відповідь"
+        }
       }
     ],
     "amount_min": 0.01,
