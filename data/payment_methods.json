@@ -12084,6 +12084,26 @@
     }
   },
   {
+    "code": "intesa_sanpaolo",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Intesa Sanpaolo",
+      "ru": "Intesa Sanpaolo",
+      "uk": "Intesa Sanpaolo"
+    }
+  },
+  {
+    "code": "postepay_ibancard",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "PostePay - IBAN Card",
+      "ru": "PostePay - IBAN Card",
+      "uk": "PostePay - IBAN Card"
+    }
+  },
+  {
     "status": "active",
     "code": "payu",
     "category": "alternative",
