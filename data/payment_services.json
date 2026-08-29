@@ -12091,6 +12091,25 @@
     "flow": "hpp",
     "method": "skrill",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$/",
+        "required": false,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
@@ -12490,6 +12509,25 @@
     "flow": "hpp",
     "method": "paysafecard",
     "currency": "EUR",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Email",
+          "uk": "Email"
+        },
+        "hint": {
+          "en": "Enter the recipient's email address",
+          "ru": "Введите Email получателя",
+          "uk": "Введiть Email отримувача"
+        },
+        "regexp": "/^[_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{2,3})$/",
+        "required": false,
+        "position": 1
+      }
+    ],
     "amount_min": 0.01,
     "amount_max": 100000
   },
