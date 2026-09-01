@@ -31130,7 +31130,9 @@
       "uk": "GigiBit"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay",
+      "googlepay"
     ],
     "payout_method": [
       "payment_card"
