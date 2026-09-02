@@ -31027,6 +31027,19 @@
   },
   {
     "status": "active",
+    "code": "omnikeea",
+    "vendor": "omnikeea",
+    "name": {
+      "en": "Omnikeea",
+      "ru": "Omnikeea",
+      "uk": "Omnikeea"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "arapay",
     "vendor": "arapay",
     "name": {
