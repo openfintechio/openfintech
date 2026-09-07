@@ -23517,7 +23517,26 @@
     "flow": "hpp",
     "method": "fintoc",
     "amount_min": 1,
-    "amount_max": 90000000
+    "amount_max": 90000000,
+    "fields": [
+      {
+        "key": "personal_id",
+        "type": "string",
+        "regexp": "/^.{1,128}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Personal ID",
+          "ru": "Личный идентификатор клиента",
+          "uk": "Особистий ідентифікатор клієнту"
+        },
+        "hint": {
+          "en": "Enter personal ID",
+          "ru": "Введите личный идентификатор клиента",
+          "uk": "Введіть особистий ідентифікатор клієнту"
+        }
+      }
+    ]
   },
   {
     "status": "active",
