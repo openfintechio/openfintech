@@ -23512,6 +23512,15 @@
   },
   {
     "status": "active",
+    "code": "fintoc_clp_hpp",
+    "currency": "CLP",
+    "flow": "hpp",
+    "method": "fintoc",
+    "amount_min": 1,
+    "amount_max": 90000000
+  },
+  {
+    "status": "active",
     "code": "tapp_clp_hpp",
     "currency": "CLP",
     "flow": "hpp",
