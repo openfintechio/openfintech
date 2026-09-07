@@ -24459,10 +24459,27 @@
       "uk": "Paydex"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "blik",
+      "spei",
+      "pix",
+      "pix_qr",
+      "codi",
+      "applepay",
+      "googlepay",
+      "mercadopago",
+      "bank_transfer",
+      "binancepay",
+      "nequi",
+      "dana"
     ],
     "payout_method": [
-      "payment_card"
+      "payment_card",
+      "pix",
+      "bank_transfer",
+      "binancepay",
+      "nequi",
+      "dana"
     ]
   },
   {
