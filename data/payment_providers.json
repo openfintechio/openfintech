@@ -30724,7 +30724,14 @@
       "uk": "SafeGate Payments"
     },
     "payment_method": [
-      "bank_transfer"
+      "bank_transfer",
+      "bank_transfer_cbu",
+      "card_transfer",
+      "payment_card"
+    ],
+    "payout_method": [
+      "bank_transfer",
+      "payment_card"
     ]
   },
   {
