@@ -31220,7 +31220,27 @@
     "method": "card_transfer",
     "currency": "AZN",
     "amount_min": 0.01,
-    "amount_max": 1000000
+    "amount_max": 1000000,
+    "fields": [
+      {
+        "key": "bank_name",
+        "type": "string",
+        "regexp": "/^.{2,50}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer bank name",
+          "ru": "Название банка отправителя",
+          "uk": "Назва банку відправника"
+        },
+        "hint": {
+          "en": "Enter payer bank name",
+          "ru": "Введите название банка отправителя",
+          "uk": "Введіть назву банку відправника"
+        },
+        "example": "Kapital Bank"
+      }
+    ]
   },
   {
     "status": "active",
