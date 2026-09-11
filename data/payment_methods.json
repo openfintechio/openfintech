@@ -650,7 +650,10 @@
     "status": "active",
     "countries": [
       "CZ",
-      "SK"
+      "SK",
+      "DE",
+      "AT",
+      "CH"
     ],
     "name": {
       "en": "Volksbank"
@@ -12165,6 +12168,16 @@
       "en": "Rapyd",
       "ru": "Rapyd",
       "uk": "Rapyd"
+    }
+  },
+  {
+    "code": "sparkasse",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Sparkasse",
+      "ru": "Sparkasse",
+      "uk": "Sparkasse"
     }
   }
 ]
