@@ -22780,6 +22780,33 @@
   },
   {
     "status": "active",
+    "code": "payvalida_pen_hpp",
+    "flow": "hpp",
+    "method": "payvalida",
+    "currency": "PEN",
+    "amount_min": 0.01,
+    "amount_max": 385000
+  },
+  {
+    "status": "active",
+    "code": "lemon_cash_ars_hpp",
+    "flow": "hpp",
+    "method": "lemon_cash",
+    "currency": "ARS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
+    "code": "brubank_ars_hpp",
+    "flow": "hpp",
+    "method": "brubank",
+    "currency": "ARS",
+    "amount_min": 0.01,
+    "amount_max": 1000000000
+  },
+  {
+    "status": "active",
     "code": "pagoefectivo_cip_pen_hpp",
     "flow": "hpp",
     "method": "pagoefectivo_cip",
