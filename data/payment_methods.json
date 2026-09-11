@@ -11136,6 +11136,66 @@
     }
   },
   {
+    "code": "lemon_cash",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Lemon Cash",
+      "ru": "Lemon Cash",
+      "uk": "Lemon Cash"
+    }
+  },
+  {
+    "code": "brubank",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Brubank",
+      "ru": "Brubank",
+      "uk": "Brubank"
+    }
+  },
+  {
+    "code": "payvalida",
+    "category": "cash_payment",
+    "status": "active",
+    "name": {
+      "en": "PayValida",
+      "ru": "PayValida",
+      "uk": "PayValida"
+    }
+  },
+  {
+    "code": "havale",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Havale",
+      "ru": "Havale",
+      "uk": "Havale"
+    }
+  },
+  {
+    "code": "bank_argentina",
+    "category": "bank_transfer",
+    "status": "active",
+    "name": {
+      "en": "Bank Argentina",
+      "ru": "Bank Argentina",
+      "uk": "Bank Argentina"
+    }
+  },
+  {
+    "code": "deuna",
+    "category": "digital_wallet",
+    "status": "active",
+    "name": {
+      "en": "Deuna",
+      "ru": "Deuna",
+      "uk": "Deuna"
+    }
+  },
+  {
     "status": "active",
     "code": "payser",
     "category": "prepaid_voucher",
