@@ -30118,6 +30118,19 @@
   },
   {
     "status": "active",
+    "code": "prime",
+    "vendor": "prime",
+    "name": {
+      "en": "Prime",
+      "ru": "Prime",
+      "uk": "Prime"
+    },
+    "payout_method": [
+      "payment_card"
+    ]
+  },
+  {
+    "status": "active",
     "code": "finix",
     "vendor": "finix",
     "name": {
