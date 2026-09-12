@@ -100816,6 +100816,40 @@
     "currency": "PEN",
     "fields": [
       {
+        "key": "beneficiary_full_name",
+        "type": "string",
+        "regexp": "/^[A-Za-zА-Яа-я\\-\\d\\s]{2,100}$/",
+        "required": false,
+        "position": 25,
+        "label": {
+          "en": "Beneficiary full name",
+          "ru": "Полное имя получателя",
+          "uk": "Повне імʼя отримувача"
+        },
+        "hint": {
+          "en": "Enter beneficiary full name",
+          "ru": "Введите полное имя получателя",
+          "uk": "Введіть повне імʼя отримувача"
+        }
+      },
+      {
+        "key": "cci_key",
+        "type": "string",
+        "regexp": "/^[0-9]{20}$/",
+        "required": false,
+        "position": 24,
+        "label": {
+          "en": "Cci key",
+          "ru": "Cci ключ",
+          "uk": "Cci ключ"
+        },
+        "hint": {
+          "en": "Enter Cci Key",
+          "ru": "Введите Cci ключ",
+          "uk": "Введіть Cci ключ"
+        }
+      },
+      {
         "key": "account_number",
         "type": "string",
         "regexp": "\/^[0-9]{5,100}$\/",
