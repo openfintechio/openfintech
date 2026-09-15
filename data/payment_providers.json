@@ -27856,9 +27856,7 @@
       "uk": "Winteca"
     },
     "payment_method": [
-      "payment_card",
-      "applepay",
-      "googlepay"
+      "payment_card"
     ],
     "payout_method": [
       "payment_card"
@@ -30068,7 +30066,9 @@
       "uk": "Kale"
     },
     "payment_method": [
-      "payment_card"
+      "payment_card",
+      "applepay",
+      "googlepay"
     ]
   },
   {
