@@ -31257,5 +31257,24 @@
     "payout_method": [
       "bank_transfer"
     ]
+  },
+  {
+    "status": "active",
+    "code": "bergopay",
+    "vendor": "bergopay",
+    "name": {
+      "en": "BergoPay",
+      "ru": "BergoPay",
+      "uk": "BergoPay"
+    },
+    "payment_method": [
+      "applepay",
+      "googlepay",
+      "eps",
+      "paysafecard"
+    ],
+    "payout_method": [
+      "payment_card"
+    ]
   }
 ]
