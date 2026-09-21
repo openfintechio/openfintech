@@ -23249,6 +23249,15 @@
   },
   {
     "status": "active",
+    "code": "mb_way_eur_transfer",
+    "flow": "transfer",
+    "method": "mb_way",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 200000
+  },
+  {
+    "status": "active",
     "code": "upi_qr_inr_invoice",
     "flow": "invoice",
     "method": "upi_qr",
