@@ -31306,5 +31306,18 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "payracks",
+    "vendor": "payracks",
+    "name": {
+      "en": "Payracks",
+      "ru": "Payracks",
+      "uk": "Payracks"
+    },
+    "payment_method": [
+      "payment_card"
+    ]
   }
 ]
