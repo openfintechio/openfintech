@@ -49803,5 +49803,592 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "abnamro_nl_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "abnamro_nl_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ing_nl_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "ing_nl_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "rabobank_nl_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "rabobank_nl_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "asn_nl_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "asn_nl_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "argenta_be_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "argenta_be_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "belfius_be_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "belfius_be_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "bnppf_be_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "bnppf_be_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "crelan_be_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "crelan_be_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "ing_be_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "ing_be_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "commerzbank_de_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "commerzbank_de_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "sns_nl_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "sns_nl_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "knab_nl_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "knab_nl_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "swedbank_ee_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "swedbank_ee_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "swedbank_lv_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "swedbank_lv_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "swedbank_lt_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "swedbank_lt_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "kbc_be_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "kbc_be_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "cbc_be_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "cbc_be_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "deutschebank_de_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "deutschebank_de_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      },
+      {
+        "key": "psu_id",
+        "type": "string",
+        "regexp": "/^.{1,70}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Online banking user ID (PSU ID)",
+          "ru": "ID пользователя онлайн-банкинга (PSU ID)",
+          "uk": "ID користувача онлайн-банкінгу (PSU ID)"
+        },
+        "hint": {
+          "en": "Enter payer online banking user ID",
+          "ru": "Введите ID пользователя онлайн-банкинга плательщика",
+          "uk": "Введіть ID користувача онлайн-банкінгу платника"
+        },
+        "example": "1234567890"
+      }
+    ]
+  },
+  {
+    "status": "active",
+    "code": "postbank_de_bank_eur_hpp",
+    "flow": "hpp",
+    "method": "postbank_de_bank",
+    "currency": "EUR",
+    "amount_min": 0.01,
+    "amount_max": 100000,
+    "fields": [
+      {
+        "key": "account",
+        "type": "string",
+        "regexp": "/^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$/",
+        "required": false,
+        "position": 1,
+        "label": {
+          "en": "Payer IBAN",
+          "ru": "IBAN плательщика",
+          "uk": "IBAN платника"
+        },
+        "hint": {
+          "en": "Enter payer IBAN",
+          "ru": "Введите IBAN плательщика",
+          "uk": "Введіть IBAN платника"
+        },
+        "example": "DE89370400440532013000"
+      },
+      {
+        "key": "psu_id",
+        "type": "string",
+        "regexp": "/^.{1,70}$/",
+        "required": false,
+        "position": 2,
+        "label": {
+          "en": "Online banking user ID (PSU ID)",
+          "ru": "ID пользователя онлайн-банкинга (PSU ID)",
+          "uk": "ID користувача онлайн-банкінгу (PSU ID)"
+        },
+        "hint": {
+          "en": "Enter payer online banking user ID",
+          "ru": "Введите ID пользователя онлайн-банкинга плательщика",
+          "uk": "Введіть ID користувача онлайн-банкінгу платника"
+        },
+        "example": "1234567890"
+      }
+    ]
   }
 ]
