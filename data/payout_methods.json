@@ -32308,5 +32308,38 @@
     "name": {
       "en": "Wire Transfer"
     }
+  },
+  {
+    "status": "active",
+    "code": "luxon_wallet",
+    "vendor": "luxonpay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Luxon Pay Wallet",
+      "ru": "Luxon Pay Wallet",
+      "uk": "Luxon Pay Wallet"
+    }
+  },
+  {
+    "status": "active",
+    "code": "luxon_email",
+    "vendor": "luxonpay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Luxon Pay by Email",
+      "ru": "Luxon Pay by Email",
+      "uk": "Luxon Pay by Email"
+    }
+  },
+  {
+    "status": "active",
+    "code": "luxon_phone",
+    "vendor": "luxonpay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Luxon Pay by Phone",
+      "ru": "Luxon Pay by Phone",
+      "uk": "Luxon Pay by Phone"
+    }
   }
 ]
