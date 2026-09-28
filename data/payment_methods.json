@@ -12239,5 +12239,19 @@
       "ru": "Sparkasse",
       "uk": "Sparkasse"
     }
+  },
+  {
+    "status": "active",
+    "code": "luxon_wallet",
+    "vendor": "luxonpay",
+    "category": "digital_wallet",
+    "name": {
+      "en": "Luxon Pay Wallet",
+      "ru": "Luxon Pay Wallet",
+      "uk": "Luxon Pay Wallet"
+    },
+    "description": {
+      "en": "Luxon Pay is a European digital wallet that lets users store, send and receive money, exchange currencies and pay merchants online directly from their Luxon account. This and 500+ providers are already integrated to Corefy’s payment orchestration platform, allowing our clients to start using the integration instantly without coding by simply entering their MID credentials in Corefy’s dashboard."
+    }
   }
 ]

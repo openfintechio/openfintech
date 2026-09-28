@@ -31322,5 +31322,23 @@
     "payment_method": [
       "payment_card"
     ]
+  },
+  {
+    "status": "active",
+    "code": "luxonpay",
+    "vendor": "luxonpay",
+    "name": {
+      "en": "Luxon Pay",
+      "ru": "Luxon Pay",
+      "uk": "Luxon Pay"
+    },
+    "payment_method": [
+      "luxon_wallet"
+    ],
+    "payout_method": [
+      "luxon_wallet",
+      "luxon_email",
+      "luxon_phone"
+    ]
   }
 ]

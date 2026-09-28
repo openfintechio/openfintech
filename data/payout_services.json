@@ -181956,5 +181956,167 @@
     ],
     "amount_min": 1,
     "amount_max": 1000000
+  },
+  {
+    "status": "active",
+    "code": "luxon_wallet_usd",
+    "method": "luxon_wallet",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "recipient_wallet",
+        "type": "string",
+        "label": {
+          "en": "Luxon wallet ID",
+          "ru": "ID кошелька Luxon",
+          "uk": "ID гаманця Luxon"
+        },
+        "hint": {
+          "en": "Enter Luxon wallet ID",
+          "ru": "Введите ID кошелька Luxon",
+          "uk": "Введіть ID гаманця Luxon"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "luxon_wallet_cad",
+    "method": "luxon_wallet",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "recipient_wallet",
+        "type": "string",
+        "label": {
+          "en": "Luxon wallet ID",
+          "ru": "ID кошелька Luxon",
+          "uk": "ID гаманця Luxon"
+        },
+        "hint": {
+          "en": "Enter Luxon wallet ID",
+          "ru": "Введите ID кошелька Luxon",
+          "uk": "Введіть ID гаманця Luxon"
+        },
+        "regexp": "\/^.{1,64}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 140000
+  },
+  {
+    "status": "active",
+    "code": "luxon_email_usd",
+    "method": "luxon_email",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Электронная почта",
+          "uk": "Електронна пошта"
+        },
+        "hint": {
+          "en": "Enter email of the Luxon account",
+          "ru": "Введите адрес электронной почты аккаунта Luxon",
+          "uk": "Введіть адресу електронної пошти акаунта Luxon"
+        },
+        "regexp": "\/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "luxon_email_cad",
+    "method": "luxon_email",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "email",
+        "type": "string",
+        "label": {
+          "en": "Email",
+          "ru": "Электронная почта",
+          "uk": "Електронна пошта"
+        },
+        "hint": {
+          "en": "Enter email of the Luxon account",
+          "ru": "Введите адрес электронной почты аккаунта Luxon",
+          "uk": "Введіть адресу електронної пошти акаунта Luxon"
+        },
+        "regexp": "\/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 140000
+  },
+  {
+    "status": "active",
+    "code": "luxon_phone_usd",
+    "method": "luxon_phone",
+    "currency": "USD",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number of the Luxon account",
+          "ru": "Введите номер телефона аккаунта Luxon",
+          "uk": "Введіть номер телефону акаунта Luxon"
+        },
+        "regexp": "\/^.{7,16}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "luxon_phone_cad",
+    "method": "luxon_phone",
+    "currency": "CAD",
+    "fields": [
+      {
+        "key": "phone",
+        "type": "string",
+        "label": {
+          "en": "Phone number",
+          "ru": "Номер телефона",
+          "uk": "Номер телефону"
+        },
+        "hint": {
+          "en": "Enter phone number of the Luxon account",
+          "ru": "Введите номер телефона аккаунта Luxon",
+          "uk": "Введіть номер телефону акаунта Luxon"
+        },
+        "regexp": "\/^.{7,16}$\/",
+        "required": true,
+        "position": 1
+      }
+    ],
+    "amount_min": 0.01,
+    "amount_max": 140000
   }
 ]

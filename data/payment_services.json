@@ -49803,5 +49803,23 @@
     ],
     "amount_min": 0.01,
     "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "luxon_wallet_usd_hpp",
+    "flow": "hpp",
+    "method": "luxon_wallet",
+    "currency": "USD",
+    "amount_min": 0.01,
+    "amount_max": 100000
+  },
+  {
+    "status": "active",
+    "code": "luxon_wallet_cad_hpp",
+    "flow": "hpp",
+    "method": "luxon_wallet",
+    "currency": "CAD",
+    "amount_min": 0.01,
+    "amount_max": 140000
   }
 ]
